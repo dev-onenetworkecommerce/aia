@@ -47,7 +47,7 @@ span {
 
   // For changes in modifiers
   transition: 0.15s all;
-  
+
   //modifiers
 
    &.-bordered {
@@ -135,7 +135,7 @@ span {
 
 
 }
-  
+
 
 .badges {
   @include clearfix;
@@ -173,7 +173,7 @@ span {
 
 .status {
     padding: 1px 9px;
-    border-radius: 50%;
+    border-radius: $border-radius-rounded;
 
   &.-active{
     @include label-variant($brand-emerald, $brand-white, $brand-emerald);
