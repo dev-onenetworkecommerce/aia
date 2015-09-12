@@ -11,10 +11,14 @@ export default class Docs extends React.Component {
               <Link to="/scaffolding" activeClass="-selected" className="menuitem">Scaffolding</Link>
               <Link to="/layout" activeClass="-selected" className="menuitem">Layout</Link>
               <Link to="/type" activeClass="-selected" className="menuitem">Type</Link>
+              <Link to="/tables" activeClass="-selected" className="menuitem">Tables</Link>
+              <Link to="/forms" activeClass="-selected" className="menuitem">Forms</Link>
               <Link to="/buttons" activeClass="-selected" className="menuitem">Buttons</Link>
               <Link to="/alerts" activeClass="-selected" className="menuitem">Alerts</Link>
               <Link to="/labels" activeClass="-selected" className="menuitem">Labels</Link>
+              <Link to="/panels" activeClass="-selected" className="menuitem">Panels</Link>
               <Link to="/slate" activeClass="-selected" className="menuitem">Slate</Link>
+              <Link to="/utilities" activeClass="-selected" className="menuitem">Utilities</Link>
               <Link to="/guidelines" activeClass="-selected" className="menuitem">Guidelines</Link>
               <Link to="/colors" activeClass="-selected" className="menuitem">Colors</Link>
             </nav>
