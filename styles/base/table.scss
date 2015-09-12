@@ -1,3 +1,4 @@
+$border-color: #ddd;
 /*
 <div class="table">
   <table>
@@ -78,4 +79,30 @@ table {
 .table-responsive {
   width: 100%;
   overflow-x: auto;
+}
+
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  &:last-child {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+  th {
+    font-weight: bold;
+    vertical-align: bottom;
+    border-bottom: 2px solid $border-color;
+    padding: 8px;
+    line-height: $line-height-base;
+    text-align: left;
+  }
+  td {
+    padding: 8px;
+    vertical-align: top;
+    border-top: 1px solid $border-color;
+    line-height: $line-height-base;
+  }
 }
