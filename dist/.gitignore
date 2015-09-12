@@ -1,6 +1,6 @@
 *.log
 logs
-script.js
-script.js.*
+*.js
+*.js.*
 style.css
 style.css.*
