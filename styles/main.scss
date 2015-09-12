@@ -2,11 +2,11 @@
 @include "variables";
 @include "colors";
 
-@include "base/scaffold";
 @include "base/type";
 @include "base/grid";
 @include "base/form";
 @include "base/table";
+@include "base/scaffold";
 
 @include "components/button";
 @include "components/label";

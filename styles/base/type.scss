@@ -1,9 +1,11 @@
-@mixin oxygen() {
-  font-family: "Oxygen", serif;
+@mixin proxima() {
+  font-family: "proxima-nova", Helvetica, "Helvetica Neue", sans-serif, serif;
 }
 
-@mixin oxygen-legible-spacing() {
-  letter-spacing: 1px;
+// for typography, mostly
+@mixin vertical-rhythm() {
+  margin-top: 0;
+  margin-bottom: ($medium / 2);
 }
 
 h1, h2, h3, h4, h5, h6
