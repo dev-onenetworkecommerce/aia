@@ -6,46 +6,46 @@ export default class Panels extends React.Component {
     	<div>
     		<h2>Basic Panel</h2>
     		<div className="panel -default">
-    			<div className="panel-body">Basic Panel Example</div>
+    			<div className="body">Basic Panel Example</div>
     		</div>
 
     		<h2>Panel with Header and Body</h2>
 	      	<div className="panel -default">
-	      		<div className="panel-header">Panel Title</div>
-	      		<div className="panel-body">Panel Body</div>
+	      		<div className="heading">Panel Title</div>
+	      		<div className="body">Panel Body</div>
 	      	</div>
 
 	      	<h2>Panel with Footer and Body </h2>
 	      	<div className="panel -default">
-	      		<div className="panel-body">Panel Body</div>
-	      		<div className="panel-footer">Panel Footer</div>
+	      		<div className="body">Panel Body</div>
+	      		<div className="footer">Panel Footer</div>
 	      	</div>
 
 	      	<h2>Contextual Alternatives</h2>
 	      	<div className="panel -sky">
-	      		<div className="panel-header">Panel Title</div>
-	      		<div className="panel-body">Panel Body</div>
+	      		<div className="heading">Panel Title</div>
+	      		<div className="body">Panel Body</div>
 	      	</div>
 
 	      	<div className="panel -emerald">
-	      		<div className="panel-header">Panel Title</div>
-	      		<div className="panel-body">Panel Body</div>
+	      		<div className="heading">Panel Title</div>
+	      		<div className="body">Panel Body</div>
 	      	</div>
 
 	      	<div className="panel -sun">
-	      		<div className="panel-header">Panel Title</div>
-	      		<div className="panel-body">Panel Body</div>
+	      		<div className="heading">Panel Title</div>
+	      		<div className="body">Panel Body</div>
 	      	</div>
 
 	      	<div className="panel -crimson">
-	      		<div className="panel-header">Panel Title</div>
-	      		<div className="panel-body">Panel Body</div>
+	      		<div className="heading">Panel Title</div>
+	      		<div className="body">Panel Body</div>
 	      	</div>
 
 	      	<h2>Panel with Tables</h2>
 	      	<div className="panel -default">
-    			<div className="panel-header">Panel Title</div>
-    			<div className="panel-body">
+    			<div className="heading">Panel Title</div>
+    			<div className="body">
     				Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed
 					consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id
 					dolor id nibh ultricies vehicula ut id eli
@@ -80,8 +80,8 @@ export default class Panels extends React.Component {
 
     		<h2>Panel With List Groups</h2>
     		<div className="panel -default">
-    			<div className="panel-header">Panel Title</div>
-    			<div className="panel-body">
+    			<div className="heading">Panel Title</div>
+    			<div className="body">
     				Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed
 					consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id
 					dolor id nibh ultricies vehicula ut id eli

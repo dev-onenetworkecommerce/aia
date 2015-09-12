@@ -17,6 +17,10 @@
     background: $brand-gray-lt;
   }
 
+  > .menuitem:first-child {
+    border-top: 0;
+  }
+
   > .menuitem:last-child {
     border-bottom: 0;
   }

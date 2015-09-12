@@ -1,19 +1,19 @@
 @mixin panel-variant($bg, $color) {
 	border: 1px solid $bg;
 	color: $color;
-	& > .panel-header {
+	& > .heading {
 		background: $bg;
 		padding: 10px 15px;
 		border-top-left-radius: $border-radius-base;
 		border-top-right-radius: $border-radius-base;
 	}	
 
-	& > .panel-body {
+	& > .body {
 		padding: 15px;
 		color: $brand-black;
 	}
 
-	& > .panel-footer {
+	& > .footer {
 		background: $bg;
 		padding: 10px 15px;
 		border-top-left-radius: $border-radius-base;
