@@ -1,0 +1,121 @@
+.panel {
+	margin-bottom: 20px;
+	background: $brand-white;
+	border-radius: 4px;
+	box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+
+.panel-default {
+	border: 2px solid $brand-gray;
+	.panel-header {
+		padding: 10px 15px;
+		color: $brand-black;
+		background: #f5f5f5;
+		border-bottom: 1px solid $brand-gray;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+	}
+	.panel-body {
+		padding: 15px;
+	}
+	.panel-footer {
+		padding: 10px 15px;
+		color: $brand-black;
+		background: #f5f5f5;
+		border-top: 1px solid $brand-gray;
+		border-bottom-left-radius: 3px;
+		border-bottom-right-radius: 3px;
+	}
+}
+
+.panel-sky {
+	border: 2px solid $brand-sky;
+	.panel-header {
+		padding: 10px 15px;
+		color: $brand-white;
+		background: $brand-sky;
+		border-bottom: 1px solid $brand-sky;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+	}
+	.panel-body {
+		padding: 15px;
+	}
+	.panel-footer {
+		padding: 10px 15px;
+		color: $brand-white;
+		background: $brand-sky;
+		border-top: 1px solid $brand-sky;
+		border-bottom-left-radius: 3px;
+		border-bottom-right-radius: 3px;
+	}
+}
+
+.panel-emerald {
+	border: 2px solid $brand-emerald;
+	.panel-header {
+		padding: 10px 15px;
+		color: $brand-white;
+		background: $brand-emerald;
+		border-bottom: 1px solid $brand-emerald;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+	}
+	.panel-body {
+		padding: 15px;
+	}
+	.panel-footer {
+		padding: 10px 15px;
+		color: $brand-white;
+		background: $brand-emerald;
+		border-top: 1px solid $brand-emerald;
+		border-bottom-left-radius: 3px;
+		border-bottom-right-radius: 3px;
+	}
+}
+
+.panel-sun {
+	border: 2px solid $brand-sun;
+	.panel-header {
+		padding: 10px 15px;
+		color: $brand-white;
+		background: $brand-sun;
+		border-bottom: 1px solid $brand-sun;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+	}
+	.panel-body {
+		padding: 15px;
+	}
+	.panel-footer {
+		padding: 10px 15px;
+		color: $brand-white;
+		background: $brand-sun;
+		border-top: 1px solid $brand-sun	;
+		border-bottom-left-radius: 3px;
+		border-bottom-right-radius: 3px;
+	}
+}
+
+.panel-crimson {
+	border: 2px solid $brand-crimson;
+	.panel-header {
+		padding: 10px 15px;
+		color: $brand-white;
+		background: $brand-crimson;
+		border-bottom: 1px solid $brand-crimson;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+	}
+	.panel-body {
+		padding: 15px;
+	}
+	.panel-footer {
+		padding: 10px 15px;
+		color: $brand-white;
+		background: $brand-crimson;
+		border-top: 1px solid $brand-crimson;
+		border-bottom-left-radius: 3px;
+		border-bottom-right-radius: 3px;
+	}
+}
