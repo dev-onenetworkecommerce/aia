@@ -22,12 +22,13 @@ npm install
 
 # running
 npm run build:script
+npm run build:style
 open index.html
 ```
 
 In case you'd like to watch for changes:
 ```bash
-# on ./doc/ root
+# on ./docs/ root
 npm run watch:script
 npm run watch:style
 ```
