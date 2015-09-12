@@ -59,6 +59,7 @@ export default class Panels extends React.Component {
 								<th>Table Header</th>
 								<th>Table Header</th>
 							</tr>
+
 						</thead>
 						<tbody>
 							<tr>
@@ -67,6 +68,7 @@ export default class Panels extends React.Component {
 								<td>Table Content</td>
 								<td>Table Content</td>
 							</tr>
+							
 							<tr>
 								<td>2</td>
 								<td>Table Content</td>
