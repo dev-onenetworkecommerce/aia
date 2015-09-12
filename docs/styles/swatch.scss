@@ -1,0 +1,58 @@
+.doc-swatch {
+  display: inline-block;
+  width: 6rem;
+  height: 6rem;
+  border-radius: $border-radius-base;
+
+  & + & {
+    margin-left: 0.5rem;
+  }
+
+  &.-sky {
+    background: $brand-sky;
+  }
+
+  &.-sky-dk {
+    background: $brand-sky-dk;
+  }
+
+  &.-emerald {
+    background: $brand-emerald;
+  }
+
+  &.-emerald-dk {
+    background: $brand-emerald-dk;
+  }
+
+  &.-sun {
+    background: $brand-sun;
+  }
+
+  &.-sun-dk {
+    background: $brand-sun-dk;
+  }
+
+  &.-crimson {
+    background: $brand-crimson;
+  }
+
+  &.-crimson-dk {
+    background: $brand-crimson-dk;
+  }
+
+  &.-gray {
+    background: $brand-gray;
+  }
+
+  &.-gray-lt {
+    background: $brand-gray-lt;
+  }
+
+  &.-gray-dk {
+    background: $brand-gray-dk;
+  }
+
+  &.-black {
+    background: $brand-black;
+  }
+}
