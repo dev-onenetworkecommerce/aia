@@ -1,10 +1,12 @@
 {
   "name": "june",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:script": "./node_modules/.bin/babel ./scripts -d ./dist --stage=0 --ignore \"__tests__\"",
+    "build:style": "sass -r sass-css-importer styles/main.scss:dist/style.css"
   },
   "repository": {
     "type": "git",
