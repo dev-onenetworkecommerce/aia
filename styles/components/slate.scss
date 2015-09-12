@@ -1,0 +1,20 @@
+.slate {
+	border-radius : $border-radius-base;
+	background: #F0F0F0;
+	margin: 10px;
+	padding : 30px;
+
+	&.spacious {
+		padding: 100px 60px 120px;
+	}
+	&.centered-slate {
+		margin: 0px auto;
+	}
+	&.half-slate {
+		width: 50%;
+	}
+	&.tidy-background {
+		background : $brand-white;
+		border-radius: 0px;
+	}
+}
