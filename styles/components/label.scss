@@ -19,6 +19,61 @@
 //   font-size: #{$local-font-size}em;
 // }
 
+.title {
+    color: $brand-blue;
+    font-size: 30px;
+}
+.variations-label {
+  > div {
+    > label {
+      margin-right: 5px;
+      margin-top: 5px;    
+    }
+  }
+} 
+
+.add-margin-40x {
+  margin-top: 50px;
+}
+
+span {
+  margin: 0px 5px 10px;
+}
+
+//place-holder
+%bordered {
+  background-color: $brand-gray;
+  color: $brand-white;
+  border: 1px solid $brand-gray;
+}
+
+%primary {
+  background-color: $brand-blue;
+  color: $brand-white;
+  border: 1px solid $brand-blue;
+}
+
+%crimson {
+  background-color: $brand-crimson;
+  color: $brand-white;
+  border: 1px solid $brand-crimson;
+}
+%emerald {
+  background-color: $brand-emerald;
+  color: $brand-white;
+  border: 1px solid $brand-emerald;
+}
+%sky {
+  background-color: $brand-blue;
+  color: $brand-white;
+  border: 1px solid $brand-blue;
+}
+%sun {
+  background-color: $brand-sun;
+  color: $brand-white;
+  border: 1px solid $brand-sun;
+}
+
 .label {
   @include clearfix;
   display: inline-block;
@@ -33,22 +88,36 @@
 
   // For changes in modifiers
   transition: 0.15s all;
-  //LABLES 
+  //content
+  
+  //LABELS
+
    &.-bordered {
-     background-color: $brand-gray;
-     color: $brand-white;
-     border: 0px;
-  }
+    @extend %bordered;
+   }
+
+   &.-primary {
+    @extend %primary;
+   }
+
    &.-crimson {
-     background-color: $brand-crimson;
-     color: $brand-white;
-     border: 0px;
-  }
-  &.-crimson {
-     background-color: $brand-crimson;
-     color: $brand-white;
-     border: 0px;
-  }
+     @extend %crimson;
+   }
+
+   &.-emerald {
+     @extend %emerald;
+   }
+
+   &.-sky {
+     @extend %sky;
+       padding: 0px 20px;
+   }
+
+   &.-sun {
+     @extend %sun;
+       padding: 0px 20px;
+   }
+
 
   // &.-info {
   //   @include label-variant($aqua);
@@ -105,5 +174,54 @@
   // }
 
 
+
+}
+
+
+.badges {
+  @include clearfix;
+  display: inline-block;
+  padding: 0px 7px;
+  border-radius: 10px;
+  // For changes in modifiers
+  transition: 0.15s all;
+
+   &.-bordered {
+    @extend %bordered;
+   }
+
+   &.-primary {
+    @extend %primary;
+   }
+
+   &.-crimson {
+     @extend %crimson;
+   }
+
+   &.-emerald {
+     @extend %emerald;
+   }
+
+   &.-sky {
+     @extend %sky;
+   }
+
+   &.-sun {
+     @extend %sun;
+   }
+
+}
+
+.status {
+    padding: 1px 9px;
+    border-radius: 50%;
+
+  &.-active{
+    @extend %emerald;
+  }
+
+  &.-inactive{
+    @extend %crimson;
+  }
 
 }
