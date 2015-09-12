@@ -1,8 +1,3 @@
-$def-margin : 5px !default;
-$large-margin : 15px;
-@mixin margin($position,$px) {
-   margin-#{$position} : $px;
-}
 .alert {
   padding: 10px 20px;
 	position: relative;
@@ -22,15 +17,3 @@ $large-margin : 15px;
   background-color: $brand-crimson;
 }
 
-.doc-top-space {
-  @include margin(top,$def-margin);
-}
-.doc-top-space-large {
-  @include margin(top,$large-margin);
-}
-.doc-bottom-space {
-  @include margin(bottom,$def-margin);
-}
-.doc-bottom-space-large {
-  @include margin(bottom,$large-margin);
-}
