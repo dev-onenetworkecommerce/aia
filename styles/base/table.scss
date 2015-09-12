@@ -25,6 +25,11 @@ table {
     background: $brand-white;
   }
 
+tbody > tr.-sky { background: $brand-sky; }
+tbody > tr.-emerald { background: $brand-emerald; }
+tbody > tr.-sun { background: $brand-sun; }
+tbody > tr.-crimson { background: $brand-crimson; }
+
   // &.-striped.-hovered > tbody > tr:hover > td {
     // background: $off-gray;
     // border-left-color: $off-gray;
@@ -33,6 +38,7 @@ table {
   & > thead > tr > th,
   & > tbody > tr > td {
     border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
     padding: 10px;
   }
 
@@ -45,9 +51,20 @@ table {
     border-left: 2px solid $brand-gray;
   }
 
-  & > thead > tr > th.-link:hover,
-  & > tbody > tr > td.-link:hover {
+  &.-bordered > thead > tr > th:first-child,
+  &.-bordered > tbody > tr > td:first-child {
+    border-left: 2px solid $brand-gray;
+  }
+
+  &.-bordered > thead > tr > th:last-child, 
+  &.-bordered > tbody > tr > td:last-child {
+    border-right: 2px solid $brand-gray;
+  }
+
+  & > thead > tr.-link:hover,
+  & > tbody > tr.-link:hover {
     cursor: pointer;
+    background: $brand-gray;
   }
 
 
