@@ -1,8 +1,44 @@
-.container {
+@mixin make-container() {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left:  ($grid-gutter / 2);
+  padding-right: ($grid-gutter / 2);
+  @include clearfix();
+}
 
+@mixin responsive-max-width() {
+  @each $breakpoint, $container-max-width in $container-max-widths {
+    @media (min-width: $container-max-width) {
+      max-width: $container-max-width;
+    }
+  }
+}
+
+.container {
+  @include make-container();
+  @include responsive-max-width();
 }
 
 .container-fluid {
-
+  @include make-container();
 }
 
+.row {
+  margin-left:  ($grid-gutter / -2);
+  margin-right: ($grid-gutter / -2);
+}
+
+
+// col-xs-12; col-md-12; col-sm-12
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @for $i from 1 through $grid-columns {
+    .col-#{$breakpoint}-#{$i} {
+      float: left;
+      width: percentage($i / $grid-columns);
+      position: relative;
+      min-height: 1px;
+      padding-left: ($grid-gutter / 2);
+      padding-right: ($grid-gutter / 2);
+    }
+  }
+}
