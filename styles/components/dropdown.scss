@@ -1,0 +1,42 @@
+.dropdown {
+  position: relative;
+
+  .menu {
+    z-index: 999;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    list-style: none;
+
+    margin: 2px 0 0;
+    padding: 5px 0;
+    min-width: 160px;
+
+    background: #fff;
+    border: 1px solid $gray-dk;
+    border-radius: $border-radius-base;
+  }
+
+  .menu > li > a {
+    display: block;
+    width: 100%;
+    padding: 5px 20px;
+    color: $black;
+  }
+
+  .menu > li > a,
+  .menu > li > a:hover {
+    text-decoration: none;
+  }
+
+  .menu > li > a:hover,
+  .menu > li > a.-active {
+    background: $gray;
+  }
+
+  .menu > li > a.-disabled {
+    color: lighten($black, 10%);
+    cursor: not-allowed;
+  }
+}

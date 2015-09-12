@@ -1,0 +1,134 @@
+@mixin btn-variant($local-bg, $local-color: $white) {
+  color: $local-color;
+  background: $local-bg;
+
+  &:hover {
+    color: $local-color;
+    background: darken($local-bg, 5%);
+  }
+
+  &.-disabled,
+  &:disabled,
+  &.-disabled:hover,
+  &:disabled:hover {
+    background: lighten($local-bg, 20%);
+  }
+}
+
+@mixin btn-variant-bordered($local-bg, $local-color: $white) {
+  color: $local-bg;
+  background: transparent;
+  border-color: $local-bg;
+
+  &:hover {
+    color: darken($local-bg, 5%);
+    background: transparent;
+    border-color: darken($local-bg, 5%);
+  }
+
+  &.-disabled,
+  &:disabled,
+  &.-disabled:hover,
+  &:disabled:hover {
+    color: lighten($local-bg, 20%);
+    border-color: lighten($local-bg, 20%);
+  }
+}
+
+
+.c-btn {
+  display: inline-block;
+
+  // Size
+  padding: 0 20px;
+  height: 32px;
+  // Supposedly the same as above, but for some reason,
+  // Montserrat looks like it's not centered when it's
+  // the same values
+  line-height: 30px;
+  font-size: $base-font-size;
+  color: $gray-dker;
+  border: 1px solid transparent;
+  border-radius: $border-radius-base;
+  background: $gray;
+  outline: none; /* remove native outline */
+  cursor: pointer;
+  @include oxygen;
+
+  /* for &.-hidden modifier */
+  opacity: 1;
+
+  transition: 0.1s all;
+
+  &:hover {
+    text-decoration: none !important;
+    background: darken($gray, 5%);
+    transition: 0.15s all;
+  }
+
+  &.-danger {
+    @include btn-variant($crimson);
+  }
+
+  &.-info {
+    @include btn-variant($aqua);
+  }
+
+  &.-success {
+    @include btn-variant($leaf);
+  }
+
+  &.-warning {
+    @include btn-variant($sun, $black);
+  }
+
+  &.-block {
+    display: block;
+    width: 100%;
+  }
+
+  &.-small {
+    height: 24px;
+    padding: 0 15px;
+  }
+
+  &.-large {
+    height: 40px;
+    padding: 0 25px;
+  }
+
+  /* for hiding; basic transition */
+  &.-hidden {
+    opacity: 0;
+  }
+
+  // Incline to the top for a little.
+  // Useful for our navs, wizard-footer, etc
+  &.-top {
+    margin-top: -6px;
+  }
+
+  &.-disabled,
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  > .pre-icon {
+    margin-right: 10px;
+  }
+
+  > .post-icon {
+    margin-left: 10px;
+  }
+
+  & + & {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  &.-bordered {
+    color: $gray;
+    background: transparent;
+    border: 1px solid $gray;
+  }
+}

@@ -1,0 +1,42 @@
+@mixin oxygen() {
+  font-family: "Oxygen", serif;
+}
+
+@mixin oxygen-legible-spacing() {
+  letter-spacing: 1px;
+}
+
+h1, h2, h3, h4, h5, h6
+p, blockquote {
+  @include vertical-rhythm;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.text-tint {
+  &.-info {
+    color: $aqua;
+  }
+
+  &.-danger {
+    color: $crimson;
+  }
+
+  &.-success {
+    color: $leaf;
+  }
+
+  &.-gray {
+    color: $gray-dker;
+  }
+}

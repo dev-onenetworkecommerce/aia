@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  color: $black;
+  background: $gray;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  @include oxygen;
+}

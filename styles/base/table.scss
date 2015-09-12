@@ -1,0 +1,81 @@
+/*
+<div class="table">
+  <table>
+  </table>
+</div>
+*/
+th,
+td {
+  text-align: left; /* yea */
+}
+
+table {
+  & {
+    width: 100%;
+    max-width: 100%;
+    background: $white;
+  }
+
+  &.-striped > tbody > tr:nth-child(odd) > td {
+    background: $gray;
+  }
+
+  &.-striped > tbody > tr:nth-child(even) > td {
+    background: $white;
+  }
+
+  &.-striped.-hovered > tbody > tr:hover > td {
+    background: $off-gray;
+    border-left-color: $off-gray;
+  }
+
+  & > thead > tr > th,
+  & > tbody > tr > td {
+    padding: 10px;
+  }
+
+  & > thead > tr + tr > th {
+    padding-top: 0;
+  }
+
+  &.-bordered > thead > tr > th:not(:first-child),
+  &.-bordered > tbody > tr > td:not(:first-child) {
+    border-left: 2px solid $gray;
+  }
+
+  & > thead > tr > th.-link:hover,
+  & > tbody > tr > td.-link:hover {
+    cursor: pointer;
+  }
+
+
+  & > thead > tr > th.-align-right,
+  & > tbody > tr > td.-align-right {
+    text-align: right;
+  }
+
+  & > thead > tr > th.-align-center,
+  & > tbody > tr > td.-align-center {
+    text-align: center;
+  }
+
+  & > thead > tr > th.-align-middle,
+  & > tbody > tr > td.-align-middle {
+    vertical-align: top;
+  }
+
+  & > thead > tr > th.-info,
+  & > tbody > tr > td.-info {
+    background: lighten($aqua, 45%);
+  }
+
+  & > thead > tr > th.-danger,
+  & > tbody > tr > td.-danger {
+    background: lighten($crimson, 20%);
+  }
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+}
