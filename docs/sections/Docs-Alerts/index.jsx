@@ -22,11 +22,6 @@ export default class Alerts extends React.Component {
       	  <span>Class: alert-box -danger</span>
       		<h3>Oh snap! Change a few things up and try this submitting again.</h3>
       	</div>
-      	<div className="alert -warning">
-      		<span className="dismiss-btn">x</span>
-      		<h3>This is a dismissable alert box.</h3>
-      	</div>
-
       </div>
     );
   }
