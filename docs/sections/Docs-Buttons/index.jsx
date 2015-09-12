@@ -23,16 +23,16 @@ export default class Buttons extends React.Component {
 
         <h1>Sizes</h1>
         <div className="doc-bottom-space">
-          <button className="btn -extra-small" >Extra small Button</button>
-          <button className="btn -small" >Small Button</button>
-          <button className="btn -large">Large Button</button>
+          <button className="btn -extra-small -warning" >Extra small Button</button>
+          <button className="btn -small -info" >Small Button</button>
+          <button className="btn -large -success">Large Button</button>
         </div>
-         <h1>Button Group</h1>
+        <h1>Button Group</h1>
         <div className="doc-bottom-space">
           <span className="btn-group">
-            <button className="btn">Extra small Button</button>
-            <button className="btn">Small Button</button>
-            <button className="btn">Large Button</button>
+            <button className="btn -warning">Button</button>
+            <button className="btn -info">Button</button>
+            <button className="btn -success">Button</button>
           </span>
         </div>
 

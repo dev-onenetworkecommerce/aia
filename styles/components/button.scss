@@ -195,7 +195,25 @@
   }
   button,.btn {
     border-radius: 0px;
-    border: 1px solid $brand-white;
+    border: 1px solid #E7E7E7;
+  }
+  button:first-child {
+    border-top-left-radius: $border-radius-base2x;
+    border-bottom-left-radius: $border-radius-base2x;
+  }
+  button:last-child {
+    border-top-right-radius: $border-radius-base2x;
+    border-bottom-right-radius: $border-radius-base2x;
   }
 
+}
+
+.-text-left {
+  text-align: left;
+}
+.-text-center {
+  text-align: center;
+}
+.-text-right {
+  text-align: right;
 }
