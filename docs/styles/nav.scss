@@ -1,0 +1,19 @@
+.nav {
+  @include clearfix;
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  background: $brand-neutral-dk;
+  margin-bottom: 25px;
+
+  .right {
+    float: right;
+  }
+
+  a {
+    padding: 0 15px;
+    color: $brand-neutral;
+    font-weight: bold;
+    @include link-no-underscore;
+  }
+}

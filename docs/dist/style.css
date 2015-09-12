@@ -371,6 +371,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400; }
 
 a {
+  color: #4684BF;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
@@ -495,6 +496,27 @@ body {
     display: table;
     clear: both; }
 
+.list-group {
+  background-color: #fff;
+  border: 1px solid #BBBBBB;
+  border-radius: 3px; }
+  .list-group > .menuitem {
+    position: relative;
+    display: block;
+    padding: 8px 10px;
+    border-bottom: 1px solid #C4C4C4; }
+    .list-group > .menuitem, .list-group > .menuitem:hover {
+      text-decoration: none; }
+  .list-group > .menuitem:hover {
+    background: #DEDEDE; }
+  .list-group > .menuitem:last-child {
+    border-bottom: 0; }
+  .list-group > .menuitem.-selected {
+    font-weight: bold;
+    color: #4A4A4A;
+    cursor: default;
+    background-color: #fff; }
+
 .dropdown {
   position: relative; }
   .dropdown .menu {
@@ -523,5 +545,24 @@ body {
   .dropdown .menu > li > a.-disabled {
     color: #C4C4C4;
     cursor: not-allowed; }
+
+.nav {
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  background: #19273F;
+  margin-bottom: 25px; }
+  .nav:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .nav .right {
+    float: right; }
+  .nav a {
+    padding: 0 15px;
+    color: #647A8A;
+    font-weight: bold; }
+    .nav a, .nav a:hover {
+      text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

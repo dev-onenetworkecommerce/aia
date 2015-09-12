@@ -6,6 +6,12 @@
   }
 }
 
+@mixin link-no-underscore() {
+  &, &:hover {
+    text-decoration: none;
+  }
+}
+
 // class utilities
 // sparingly use :)
 

@@ -33,4 +33,9 @@ npm run watch:style
 ```
 
 ## License
+Big thanks to our inspirations:
+- PrimerCSS
+- Bootstrap
+- Rico Sta. Cruz
+
 **June** should never be used outside of officially endorsed ONE products or without explicit permission.
