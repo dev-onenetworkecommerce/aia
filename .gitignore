@@ -1,3 +1,9 @@
+# lock for now
+Gemfile.lock
+
+# Vagrant
+.vagrant
+
 # Logs
 logs
 *.log

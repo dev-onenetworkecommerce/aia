@@ -23,7 +23,7 @@ npm install
 # running
 npm run build:script
 npm run build:style
-open index.html
+npm run server
 ```
 
 In case you'd like to watch for changes:
