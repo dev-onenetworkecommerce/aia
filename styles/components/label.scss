@@ -33,7 +33,22 @@
 
   // For changes in modifiers
   transition: 0.15s all;
-
+  //LABLES 
+   &.-bordered {
+     background-color: $brand-gray;
+     color: $brand-white;
+     border: 0px;
+  }
+   &.-crimson {
+     background-color: $brand-crimson;
+     color: $brand-white;
+     border: 0px;
+  }
+  &.-crimson {
+     background-color: $brand-crimson;
+     color: $brand-white;
+     border: 0px;
+  }
 
   // &.-info {
   //   @include label-variant($aqua);
@@ -88,4 +103,7 @@
   // &.-normal.-success {
   //   @include label-variant-normal($leaf);
   // }
+
+
+
 }
