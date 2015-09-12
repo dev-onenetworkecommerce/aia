@@ -6,9 +6,9 @@
 }
 
 body {
-  color: $black;
-  background: $gray;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
+  color: $brand-black;
+  background: $brand-white;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
   @include proxima;
 }

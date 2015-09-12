@@ -27,18 +27,18 @@ a {
 
 .text-tint {
   &.-info {
-    color: $aqua;
+    color: $brand-sky;
   }
 
   &.-danger {
-    color: $crimson;
+    color: $brand-crimson;
   }
 
   &.-success {
-    color: $leaf;
+    color: $brand-emerald;
   }
 
   &.-gray {
-    color: $gray-dker;
+    color: $brand-gray-dk;
   }
 }

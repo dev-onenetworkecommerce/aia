@@ -13,21 +13,21 @@ table {
   & {
     width: 100%;
     max-width: 100%;
-    background: $white;
+    background: $brand-white;
   }
 
   &.-striped > tbody > tr:nth-child(odd) > td {
-    background: $gray;
+    background: $brand-gray;
   }
 
   &.-striped > tbody > tr:nth-child(even) > td {
-    background: $white;
+    background: $brand-white;
   }
 
-  &.-striped.-hovered > tbody > tr:hover > td {
-    background: $off-gray;
-    border-left-color: $off-gray;
-  }
+  // &.-striped.-hovered > tbody > tr:hover > td {
+    // background: $off-gray;
+    // border-left-color: $off-gray;
+  // }
 
   & > thead > tr > th,
   & > tbody > tr > td {
@@ -40,7 +40,7 @@ table {
 
   &.-bordered > thead > tr > th:not(:first-child),
   &.-bordered > tbody > tr > td:not(:first-child) {
-    border-left: 2px solid $gray;
+    border-left: 2px solid $brand-gray;
   }
 
   & > thead > tr > th.-link:hover,
@@ -64,15 +64,15 @@ table {
     vertical-align: top;
   }
 
-  & > thead > tr > th.-info,
-  & > tbody > tr > td.-info {
-    background: lighten($aqua, 45%);
-  }
+  // & > thead > tr > th.-info,
+  // & > tbody > tr > td.-info {
+  //   background: $brand-sky;
+  // }
 
-  & > thead > tr > th.-danger,
-  & > tbody > tr > td.-danger {
-    background: lighten($crimson, 20%);
-  }
+  // & > thead > tr > th.-danger,
+  // & > tbody > tr > td.-danger {
+  //   background: $brand-crimson;
+  // }
 }
 
 .table-responsive {

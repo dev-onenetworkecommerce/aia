@@ -14,7 +14,7 @@
     min-width: 160px;
 
     background: #fff;
-    border: 1px solid $gray-dk;
+    border: 1px solid $brand-gray-dk;
     border-radius: $border-radius-base;
   }
 
@@ -22,7 +22,7 @@
     display: block;
     width: 100%;
     padding: 5px 20px;
-    color: $black;
+    color: $brand-black;
   }
 
   .menu > li > a,
@@ -32,11 +32,11 @@
 
   .menu > li > a:hover,
   .menu > li > a.-active {
-    background: $gray;
+    background: $brand-gray;
   }
 
   .menu > li > a.-disabled {
-    color: lighten($black, 10%);
+    color: $brand-gray;
     cursor: not-allowed;
   }
 }

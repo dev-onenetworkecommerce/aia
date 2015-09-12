@@ -1,42 +1,42 @@
-@mixin btn-variant($local-bg, $local-color: $white) {
-  color: $local-color;
-  background: $local-bg;
+// @mixin btn-variant($local-bg, $local-color: $white) {
+//   color: $local-color;
+//   background: $local-bg;
 
-  &:hover {
-    color: $local-color;
-    background: darken($local-bg, 5%);
-  }
+//   &:hover {
+//     color: $local-color;
+//     background: darken($local-bg, 5%);
+//   }
 
-  &.-disabled,
-  &:disabled,
-  &.-disabled:hover,
-  &:disabled:hover {
-    background: lighten($local-bg, 20%);
-  }
-}
+//   &.-disabled,
+//   &:disabled,
+//   &.-disabled:hover,
+//   &:disabled:hover {
+//     background: lighten($local-bg, 20%);
+//   }
+// }
 
-@mixin btn-variant-bordered($local-bg, $local-color: $white) {
-  color: $local-bg;
-  background: transparent;
-  border-color: $local-bg;
+// @mixin btn-variant-bordered($local-bg, $local-color: $white) {
+//   color: $local-bg;
+//   background: transparent;
+//   border-color: $local-bg;
 
-  &:hover {
-    color: darken($local-bg, 5%);
-    background: transparent;
-    border-color: darken($local-bg, 5%);
-  }
+//   &:hover {
+//     color: darken($local-bg, 5%);
+//     background: transparent;
+//     border-color: darken($local-bg, 5%);
+//   }
 
-  &.-disabled,
-  &:disabled,
-  &.-disabled:hover,
-  &:disabled:hover {
-    color: lighten($local-bg, 20%);
-    border-color: lighten($local-bg, 20%);
-  }
-}
+//   &.-disabled,
+//   &:disabled,
+//   &.-disabled:hover,
+//   &:disabled:hover {
+//     color: lighten($local-bg, 20%);
+//     border-color: lighten($local-bg, 20%);
+//   }
+// }
 
 
-.c-btn {
+.btn {
   display: inline-block;
 
   // Size
@@ -46,14 +46,13 @@
   // Montserrat looks like it's not centered when it's
   // the same values
   line-height: 30px;
-  font-size: $base-font-size;
-  color: $gray-dker;
+  font-size: $font-size-base;
+  color: $brand-gray-dk;
   border: 1px solid transparent;
   border-radius: $border-radius-base;
-  background: $gray;
+  background: $brand-gray;
   outline: none; /* remove native outline */
   cursor: pointer;
-  @include oxygen;
 
   /* for &.-hidden modifier */
   opacity: 1;
@@ -62,25 +61,25 @@
 
   &:hover {
     text-decoration: none !important;
-    background: darken($gray, 5%);
+    background: $brand-gray-dk;
     transition: 0.15s all;
   }
 
-  &.-danger {
-    @include btn-variant($crimson);
-  }
+  // &.-danger {
+  //   @include btn-variant($crimson);
+  // }
 
-  &.-info {
-    @include btn-variant($aqua);
-  }
+  // &.-info {
+  //   @include btn-variant($aqua);
+  // }
 
-  &.-success {
-    @include btn-variant($leaf);
-  }
+  // &.-success {
+  //   @include btn-variant($leaf);
+  // }
 
-  &.-warning {
-    @include btn-variant($sun, $black);
-  }
+  // &.-warning {
+  //   @include btn-variant($sun, $black);
+  // }
 
   &.-block {
     display: block;
@@ -126,9 +125,9 @@
     margin-left: 10px;
   }
 
-  &.-bordered {
-    color: $gray;
-    background: transparent;
-    border: 1px solid $gray;
-  }
+  // &.-bordered {
+  //   color: $gray;
+  //   background: transparent;
+  //   border: 1px solid $gray;
+  // }
 }
