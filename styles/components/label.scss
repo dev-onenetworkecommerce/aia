@@ -137,37 +137,3 @@ span {
 }
 
 
-.badges {
-  @include clearfix;
-  display: inline-block;
-  padding: 0px 7px;
-  border-radius: 10px;
-  // For changes in modifiers
-  transition: 0.15s all;
-
-   &.-bordered {
-      @include label-variant($brand-gray, $brand-white, $brand-gray);
-   }
-
-   &.-primary {
-      @include label-variant($brand-blue, $brand-white, $brand-blue);
-   }
-
-   &.-crimson {
-      @include label-variant($brand-crimson, $brand-white, $brand-crimson);
-   }
-
-   &.-emerald {
-     @include label-variant($brand-emerald, $brand-white, $brand-emerald);
-   }
-
-   &.-sky {
-     @include label-variant($brand-blue, $brand-white, $brand-blue);
-   }
-
-   &.-sun {
-     @include label-variant($brand-sun, $brand-white, $brand-sun);
-   }
-
-}
-
