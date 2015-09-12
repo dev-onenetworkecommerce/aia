@@ -1,5 +1,5 @@
 @mixin panel-variant($bg, $color: $brand-white) {
-	border-color: $bg;
+	border: 2px solid $bg;
 	color: $color;
 	& > .heading {
 		background: $bg;
@@ -10,7 +10,7 @@
 
 	& > .body {
 		padding: 15px;
-		color: $brand-black;
+		color: $brand-black !important;
 	}
 
 	& > .footer {
