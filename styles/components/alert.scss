@@ -3,18 +3,7 @@
 	margin: 10px;
 	position: relative;
 	color: $brand-white;
-	&.-success {
-		background-color: $brand-emerald;
-	}
-	&.-info {
-		background-color : $brand-blue;
-	}
-	&.-warning {
-		background-color : $brand-sun;
-	}
-	&.-danger {
-		background-color: $brand-crimson;
-	}
+
 	.dismiss-btn {
 		float: right;
 		background: transparent;
@@ -35,4 +24,17 @@
    			color: #FFC05A;
    		}
   }
+}
+
+.-success {
+  background-color: $brand-emerald;
+}
+.-info {
+  background-color : $brand-blue;
+}
+.-warning {
+  background-color : $brand-sun;
+}
+.-danger {
+  background-color: $brand-crimson;
 }
