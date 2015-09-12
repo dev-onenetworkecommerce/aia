@@ -9,7 +9,7 @@
 	&.-info {
 		background-color : $brand-blue;
 	}
-	&.-warning { 
+	&.-warning {
 		background-color : $brand-sun;
 	}
 	&.-danger {
@@ -25,7 +25,7 @@
     text-align: center;
     line-height: 16px;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: $border-radius-rounded;
    	-webkit-transition: background,color 0.3s linear;
    	-moz-transition: background,color 0.3s linear;
    	-o-transition: background,color 0.3s linear;
