@@ -81,18 +81,74 @@
   //   @include btn-variant($sun, $black);
   // }
 
+    // &.-danger {
+  //   @include btn-variant($crimson);
+  // }
+
+  // &.-info {
+  //   @include btn-variant($aqua);
+  // }
+
+  // &.-success {
+  //   @include btn-variant($leaf);
+  // }
+
+
+  &.-danger-dk {
+    background-color : $brand-crimson-dk;
+  }
+  &.-info-dk {
+    background-color : $brand-blue-dk;
+  }
+  &.-success-dk {
+    background-color : $brand-emerald-dk;
+  }
+  &.-warning-dk {
+    background-color : $brand-sun-dk;
+  }
+
+  &.-info {
+    &:hover {
+      background-color : $brand-blue-dk;
+    }
+  }
+
+  &.-success {
+    &:hover {
+      background-color : $brand-emerald-dk;
+    }
+  }
+
+  &.-warning {
+    &:hover {
+      background-color : $brand-sun-dk;
+    }
+  }
+
+  &.-danger {
+    &:hover {
+      background-color : $brand-crimson-dk;
+    }
+  }
+
   &.-block {
     display: block;
     width: 100%;
   }
 
+
+  &.-extra-small {
+    height: 22px;
+    padding: 0 8px;
+    line-height: 20px;
+  }
   &.-small {
-    height: 24px;
+    height: 30px;
     padding: 0 15px;
   }
 
   &.-large {
-    height: 40px;
+    height: 44px;
     padding: 0 25px;
   }
 
@@ -130,4 +186,16 @@
   //   background: transparent;
   //   border: 1px solid $gray;
   // }
+}
+
+.btn-group {
+  button,.btn + .btn{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  button,.btn {
+    border-radius: 0px;
+    border: 1px solid $brand-white;
+  }
+
 }
