@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node_modules/.bin/http-server -p 3000",
     "watch:script": "webpack -w -d -v",
     "build:style": "sass -r sass-css-importer styles/main.scss:dist/style.css",
     "watch:style": "sass --watch -r sass-css-importer styles/main.scss:dist/style.css"
@@ -20,6 +21,7 @@
     "babel": "^5.8.23",
     "babel-core": "^5.8.24",
     "babel-loader": "^5.3.2",
+    "http-server": "^0.8.0",
     "webpack": "^1.12.1"
   }
 }

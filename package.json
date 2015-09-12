@@ -2,10 +2,10 @@
   "name": "june",
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/june.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:script": "./node_modules/.bin/babel ./scripts -d ./dist --stage=0 --ignore \"__tests__\"",
+    "build:script": "./node_modules/.bin/babel --stage=0 --out-file dist/june.js scripts/ --source-maps",
     "build:style": "sass -r sass-css-importer styles/june.scss:dist/style.css"
   },
   "repository": {
