@@ -1,6 +1,28 @@
 @mixin clearfix() {
   &:after {
+    content: "";
     display: table;
     clear: both;
+  }
+}
+
+// for typography
+@mixin vertical-rhythm() {
+  margin-top: 0;
+  margin-bottom: ($medium / 2);
+}
+
+// class utilities
+// sparingly use :)
+
+._clearfix {
+  @include clearfix;
+
+  ._left {
+    float: left;
+  }
+
+  ._right {
+    float: right;
   }
 }
