@@ -171,16 +171,3 @@ span {
 
 }
 
-.status {
-    padding: 1px 9px;
-    border-radius: $border-radius-rounded;
-
-  &.-active{
-    @include label-variant($brand-emerald, $brand-white, $brand-emerald);
-  }
-
-  &.-inactive{
-   @include label-variant($brand-crimson, $brand-white, $brand-crimson);
-  }
-
-}
