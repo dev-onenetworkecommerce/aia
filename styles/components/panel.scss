@@ -1,5 +1,5 @@
-@mixin panel-variant($bg, $color) {
-	border: 1px solid $bg;
+@mixin panel-variant($bg, $color: $brand-white) {
+	border-color: $bg;
 	color: $color;
 	& > .heading {
 		background: $bg;
@@ -27,22 +27,22 @@
 	box-shadow: 0 1px 1px rgba(0,0,0,.05);
 
 	&.-default {
-		@include panel-variant($brand-gray, $brand-black);
+		@include panel-variant($brand-gray);
 	}
 
 	&.-sky {
-		@include panel-variant($brand-sky, $brand-white);
+		@include panel-variant($brand-sky);
 	}
 
 	&.-emerald {
-		@include panel-variant($brand-emerald, $brand-white);
+		@include panel-variant($brand-emerald);
 	}
 
 	&.-sun {
-		@include panel-variant($brand-sun, $brand-white);
+		@include panel-variant($brand-sun);
 	}
 
 	&.-crimson  {
-		@include panel-variant($brand-crimson, $brand-white);
+		@include panel-variant($brand-crimson);
 	}
 }

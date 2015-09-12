@@ -37,8 +37,8 @@ tbody > tr.-crimson { background: $brand-crimson; }
 
   & > thead > tr > th,
   & > tbody > tr > td {
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    border-top: 1px solid $brand-gray;
+    border-bottom: 1px solid $brand-gray;
     padding: 10px;
   }
 
