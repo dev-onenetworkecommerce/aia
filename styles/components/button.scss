@@ -65,48 +65,6 @@
     transition: 0.15s all;
   }
 
-  // &.-danger {
-  //   @include btn-variant($crimson);
-  // }
-
-  // &.-info {
-  //   @include btn-variant($aqua);
-  // }
-
-  // &.-success {
-  //   @include btn-variant($leaf);
-  // }
-
-  // &.-warning {
-  //   @include btn-variant($sun, $black);
-  // }
-
-    // &.-danger {
-  //   @include btn-variant($crimson);
-  // }
-
-  // &.-info {
-  //   @include btn-variant($aqua);
-  // }
-
-  // &.-success {
-  //   @include btn-variant($leaf);
-  // }
-
-
-  &.-danger-dk {
-    background-color : $brand-crimson-dk;
-  }
-  &.-info-dk {
-    background-color : $brand-blue-dk;
-  }
-  &.-success-dk {
-    background-color : $brand-emerald-dk;
-  }
-  &.-warning-dk {
-    background-color : $brand-sun-dk;
-  }
-
   &.-info {
     &:hover {
       background-color : $brand-blue-dk;
@@ -140,7 +98,7 @@
   &.-extra-small {
     height: 22px;
     padding: 0 8px;
-    line-height: 20px;
+    line-height: 22px;
   }
   &.-small {
     height: 30px;
@@ -181,39 +139,24 @@
     margin-left: 10px;
   }
 
-  // &.-bordered {
-  //   color: $gray;
-  //   background: transparent;
-  //   border: 1px solid $gray;
-  // }
 }
 
 .btn-group {
-  button,.btn + .btn{
+  .btn + .btn{
     margin-right: 0px;
     margin-left: 0px;
   }
-  button,.btn {
+  .btn {
     border-radius: 0px;
     border: 1px solid #E7E7E7;
   }
-  button:first-child {
-    border-top-left-radius: $border-radius-base2x;
-    border-bottom-left-radius: $border-radius-base2x;
+  .btn:first-child {
+    border-top-left-radius: $border-radius-base;
+    border-bottom-left-radius: $border-radius-base;
   }
-  button:last-child {
-    border-top-right-radius: $border-radius-base2x;
-    border-bottom-right-radius: $border-radius-base2x;
+  .btn:last-child {
+    border-top-right-radius: $border-radius-base;
+    border-bottom-right-radius: $border-radius-base;
   }
 
-}
-
-.-text-left {
-  text-align: left;
-}
-.-text-center {
-  text-align: center;
-}
-.-text-right {
-  text-align: right;
 }
