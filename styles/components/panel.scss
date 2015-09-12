@@ -1,147 +1,48 @@
+@mixin panel-variant($bg, $color) {
+	border: 1px solid $bg;
+	color: $color;
+	& > .panel-header {
+		background: $bg;
+		padding: 10px 15px;
+		border-top-left-radius: $border-radius-base;
+		border-top-right-radius: $border-radius-base;
+	}	
+
+	& > .panel-body {
+		padding: 15px;
+		color: $brand-black;
+	}
+
+	& > .panel-footer {
+		background: $bg;
+		padding: 10px 15px;
+		border-top-left-radius: $border-radius-base;
+		border-top-right-radius: $border-radius-base;
+	}
+}
+
 .panel {
 	background: $brand-white;
 	border-radius: 5px;
 	box-shadow: 0 1px 1px rgba(0,0,0,.05);
 
-	> .panel-header {
-		padding: 10px 15px;
-		color: $brand-black;
-		background: #f5f5f5;
-		border-bottom: 1px solid $brand-gray;
-		border-top-left-radius: 3px;
-		border-top-right-radius: 3px;
-	}
-
-	> .panel-body {
-		padding: 15px;
-	}
-
-	> .panel-footer {
-		padding: 10px 15px;
-		color: $brand-black;
-		background: #f5f5f5;
-		border-top: 1px solid $brand-gray;
-		border-bottom-left-radius: 3px;
-		border-bottom-right-radius: 3px;
-	}
-
 	&.-default {
-		border: 2px solid $brand-gray;
+		@include panel-variant($brand-gray, $brand-black);
 	}
 
 	&.-sky {
-		border: 2px solid $brand-sky;
-		> .panel-header {
-			padding: 10px 15px;
-			color: $brand-white;
-			background: $brand-sky;
-			border-bottom: 1px solid $brand-sky;
-			border-top-left-radius: 3px;
-			border-top-right-radius: 3px;
-		}
-
-		> .panel-body {
-			padding: 15px;
-		}
-
-		> .panel-footer {
-			padding: 10px 15px;
-			color: $brand-white;
-			background: $brand-sky;
-			border-top: 1px solid $brand-sky;
-			border-bottom-left-radius: 3px;
-			border-bottom-right-radius: 3px;
-		}
+		@include panel-variant($brand-sky, $brand-white);
 	}
 
 	&.-emerald {
-		border: 2px solid $brand-emerald;
-		> .panel-header {
-			padding: 10px 15px;
-			color: $brand-white;
-			background: $brand-emerald;
-			border-bottom: 1px solid $brand-emerald;
-			border-top-left-radius: 3px;
-			border-top-right-radius: 3px;
-		}
-
-		> .panel-body {
-			padding: 15px;
-		}
-
-		> .panel-footer {
-			padding: 10px 15px;
-			color: $brand-white;
-			background: $brand-emerald;
-			border-top: 1px solid $brand-emerald;
-			border-bottom-left-radius: 3px;
-			border-bottom-right-radius: 3px;
-		}
+		@include panel-variant($brand-emerald, $brand-white);
 	}
 
 	&.-sun {
-		border: 2px solid $brand-sun;
-		> .panel-header {
-			padding: 10px 15px;
-			color: $brand-white;
-			background: $brand-sun;
-			border-bottom: 1px solid $brand-sun;
-			border-top-left-radius: 3px;
-			border-top-right-radius: 3px;
-		}
-
-		> .panel-body {
-			padding: 15px;
-		}
-
-		> .panel-footer {
-			padding: 10px 15px;
-			color: $brand-white;
-			background: $brand-sun;
-			border-top: 1px solid $brand-sun;
-			border-bottom-left-radius: 3px;
-			border-bottom-right-radius: 3px;
-		}
+		@include panel-variant($brand-sun, $brand-white);
 	}
 
-	&.-crimson {
-		border: 2px solid $brand-crimson;
-		> .panel-header {
-			padding: 10px 15px;
-			color: $brand-white;
-			background: $brand-crimson;
-			border-bottom: 1px solid $brand-crimson;
-			border-top-left-radius: 3px;
-			border-top-right-radius: 3px;
-		}
-
-		> .panel-body {
-			padding: 15px;
-		}
-
-		> .panel-footer {
-			padding: 10px 15px;
-			color: $brand-white;
-			background: $brand-crimson;
-			border-top: 1px solid $brand-crimson;
-			border-bottom-left-radius: 3px;
-			border-bottom-right-radius: 3px;
-		}
-	}
-
-	.list {
-		padding-left: 0;
-		margin-bottom: 0;
-		list-style-type: none;
-		.list-item {
-			border-width: 1px 0;
-			border-radius: 0;
-			position: relative;
-			display: block;
-			padding: 10px 15px;
-			margin-bottom: -1px;
-			background: $brand-white;
-			border: 1px solid #ddd;
-		}		
+	&.-crimson  {
+		@include panel-variant($brand-crimson, $brand-white);
 	}
 }

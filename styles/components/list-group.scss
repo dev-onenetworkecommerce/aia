@@ -2,6 +2,8 @@
   background-color: $brand-white;
   border: 1px solid $brand-gray-dk;
   border-radius: $border-radius-base;
+  margin-bottom: 0;
+  padding-left: 0;
 
   > .menuitem {
     @include link-no-underscore;

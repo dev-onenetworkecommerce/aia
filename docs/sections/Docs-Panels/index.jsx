@@ -86,10 +86,10 @@ export default class Panels extends React.Component {
 					consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id
 					dolor id nibh ultricies vehicula ut id eli
     			</div>
-	    		<ul className="list">
-	    			<li className="list-item">List Item</li>
-	    			<li className="list-item">List Item</li>
-	    			<li className="list-item">List Item</li>
+	    		<ul className="list-group">
+	    			<li className="menuitem">List Item</li>
+	    			<li className="menuitem">List Item</li>
+	    			<li className="menuitem">List Item</li>
 	    		</ul>
     		</div>
 	    </div>
