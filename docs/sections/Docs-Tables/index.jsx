@@ -158,32 +158,11 @@ export default class Tables extends React.Component {
           </thead>
 
           <tbody>
-            <tr className="-emerald">
-              <td>1</td>
-              <td>Table Content</td>
-              <td>Table Content</td>
-              <td>Table Content</td>
-            </tr>
-
-            <tr className="-sun">
-              <td>2</td>
-              <td>Table Content</td>
-              <td>Table Content</td>
-              <td>Table Content</td>
-            </tr>
-
-            <tr className="-crimson">
-              <td>3</td>
-              <td>Table Content</td>
-              <td>Table Content</td>
-              <td>Table Content</td>
-            </tr>
-
-            <tr className="-sky">
-              <td>4</td>
-              <td>Table Content</td>
-              <td>Table Content</td>
-              <td>Table Content</td>
+            <tr>
+              <td className="-sky">1</td>
+              <td className="-crimson">Table Content</td>
+              <td className="-sun">Table Content</td>
+              <td className="-emerald">Table Content</td>
             </tr>
           </tbody>
         </table>

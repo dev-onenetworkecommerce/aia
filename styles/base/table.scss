@@ -1,9 +1,6 @@
-
 /*
-<div class="table">
-  <table>
-  </table>
-</div>
+<table class="table">
+</table>
 */
 th,
 td {
@@ -24,11 +21,6 @@ td {
   &.-striped > tbody > tr:nth-child(even) > td {
     background: $brand-white;
   }
-
-tbody > tr.-sky { background: $brand-sky; }
-tbody > tr.-emerald { background: $brand-emerald; }
-tbody > tr.-sun { background: $brand-sun; }
-tbody > tr.-crimson { background: $brand-crimson; }
 
   // &.-striped.-hovered > tbody > tr:hover > td {
     // background: $off-gray;
@@ -80,15 +72,10 @@ tbody > tr.-crimson { background: $brand-crimson; }
     vertical-align: top;
   }
 
-  // & > thead > tr > th.-info,
-  // & > tbody > tr > td.-info {
-  //   background: $brand-sky;
-  // }
-
-  // & > thead > tr > th.-danger,
-  // & > tbody > tr > td.-danger {
-  //   background: $brand-crimson;
-  // }
+  > tbody > tr > td.-sky { background: $brand-sky; }
+  > tbody > tr > td.-emerald { background: $brand-emerald; }
+  > tbody > tr > td.-sun { background: $brand-sun; }
+  > tbody > tr > td.-crimson { background: $brand-crimson; }
 }
 
 .table-responsive {
