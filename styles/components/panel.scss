@@ -1,30 +1,38 @@
 @mixin panel-variant($bg, $color: $brand-white) {
-	border: 2px solid $bg;
-	color: $color;
+	border-color: $bg;
+
 	& > .heading {
 		background: $bg;
-		padding: 10px 15px;
-		border-top-left-radius: $border-radius-base;
-		border-top-right-radius: $border-radius-base;
-	}	
-
-	& > .body {
-		padding: 15px;
-		color: $brand-black !important;
+    color: $color;
 	}
 
 	& > .footer {
 		background: $bg;
-		padding: 10px 15px;
-		border-top-left-radius: $border-radius-base;
-		border-top-right-radius: $border-radius-base;
+    color: $color;
 	}
 }
 
 .panel {
+  color: $brand-black;
 	background: $brand-white;
+  border: 1px solid;
 	border-radius: 5px;
-	box-shadow: 0 1px 1px rgba(0,0,0,.05);
+
+  > .heading {
+    padding: 10px 15px;
+    border-top-left-radius: $border-radius-base;
+    border-top-right-radius: $border-radius-base;
+  }
+
+  > .body {
+    padding: 15px;
+  }
+
+  > .footer {
+    padding: 10px 15px;
+    border-bottom-left-radius: $border-radius-base;
+    border-bottom-right-radius: $border-radius-base;
+  }
 
 	&.-default {
 		@include panel-variant($brand-gray);

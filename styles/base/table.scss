@@ -10,7 +10,7 @@ td {
   text-align: left; /* yea */
 }
 
-table {
+.table {
   & {
     width: 100%;
     max-width: 100%;
@@ -56,17 +56,14 @@ tbody > tr.-crimson { background: $brand-crimson; }
     border-left: 2px solid $brand-gray;
   }
 
-  &.-bordered > thead > tr > th:last-child, 
+  &.-bordered > thead > tr > th:last-child,
   &.-bordered > tbody > tr > td:last-child {
     border-right: 2px solid $brand-gray;
   }
 
-  & > thead > tr.-link:hover,
-  & > tbody > tr.-link:hover {
-    cursor: pointer;
-    background: $brand-gray;
+  &.-hovered > tbody > tr:hover > td {
+    background: $brand-gray-lt;
   }
-
 
   & > thead > tr > th.-align-right,
   & > tbody > tr > td.-align-right {
