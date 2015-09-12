@@ -67,7 +67,7 @@ class Dropdown extends React.Component {
       ? DOM[element]
       : element)(
         props,
-        trigger(TRIGGER_REF) === active ? children : null
+        trigger(TRIGGER_REF) active ? children : null
       );
   }
 
