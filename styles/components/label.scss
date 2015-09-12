@@ -19,60 +19,19 @@
 //   font-size: #{$local-font-size}em;
 // }
 
-.title {
-    color: $brand-blue;
-    font-size: 30px;
-}
-.variations-label {
-  > div {
-    > label {
-      margin-right: 5px;
-      margin-top: 5px;    
-    }
-  }
-} 
-
-.add-margin-40x {
-  margin-top: 50px;
-}
-
 span {
-  margin: 0px 5px 10px;
+  margin:10px 5px;
+}
+
+
+@mixin label-variant($bg, $color, $border) {
+  background-color: $bg;
+  color: $color;
+  border: $border;
 }
 
 //place-holder
-%bordered {
-  background-color: $brand-gray;
-  color: $brand-white;
-  border: 1px solid $brand-gray;
-}
 
-%primary {
-  background-color: $brand-blue;
-  color: $brand-white;
-  border: 1px solid $brand-blue;
-}
-
-%crimson {
-  background-color: $brand-crimson;
-  color: $brand-white;
-  border: 1px solid $brand-crimson;
-}
-%emerald {
-  background-color: $brand-emerald;
-  color: $brand-white;
-  border: 1px solid $brand-emerald;
-}
-%sky {
-  background-color: $brand-blue;
-  color: $brand-white;
-  border: 1px solid $brand-blue;
-}
-%sun {
-  background-color: $brand-sun;
-  color: $brand-white;
-  border: 1px solid $brand-sun;
-}
 
 .label {
   @include clearfix;
@@ -88,33 +47,33 @@ span {
 
   // For changes in modifiers
   transition: 0.15s all;
-  //content
   
-  //LABELS
+  //modifiers
 
    &.-bordered {
-    @extend %bordered;
+    @include label-variant($brand-gray, $brand-white, $brand-gray);
+
    }
 
    &.-primary {
-    @extend %primary;
+   @include label-variant($brand-blue, $brand-white, $brand-blue);
    }
 
    &.-crimson {
-     @extend %crimson;
+    @include label-variant($brand-crimson, $brand-white, $brand-crimson);
    }
 
    &.-emerald {
-     @extend %emerald;
+    @include label-variant($brand-emerald, $brand-white, $brand-emerald);
    }
 
    &.-sky {
-     @extend %sky;
+       @include label-variant($brand-blue, $brand-white, $brand-blue);
        padding: 0px 20px;
    }
 
    &.-sun {
-     @extend %sun;
+       @include label-variant($brand-sun, $brand-white, $brand-sun);
        padding: 0px 20px;
    }
 
@@ -187,27 +146,27 @@ span {
   transition: 0.15s all;
 
    &.-bordered {
-    @extend %bordered;
+      @include label-variant($brand-gray, $brand-white, $brand-gray);
    }
 
    &.-primary {
-    @extend %primary;
+      @include label-variant($brand-blue, $brand-white, $brand-blue);
    }
 
    &.-crimson {
-     @extend %crimson;
+      @include label-variant($brand-crimson, $brand-white, $brand-crimson);
    }
 
    &.-emerald {
-     @extend %emerald;
+     @include label-variant($brand-emerald, $brand-white, $brand-emerald);
    }
 
    &.-sky {
-     @extend %sky;
+     @include label-variant($brand-blue, $brand-white, $brand-blue);
    }
 
    &.-sun {
-     @extend %sun;
+     @include label-variant($brand-sun, $brand-white, $brand-sun);
    }
 
 }
@@ -217,11 +176,11 @@ span {
     border-radius: 50%;
 
   &.-active{
-    @extend %emerald;
+    @include label-variant($brand-emerald, $brand-white, $brand-emerald);
   }
 
   &.-inactive{
-    @extend %crimson;
+   @include label-variant($brand-crimson, $brand-white, $brand-crimson);
   }
 
 }
