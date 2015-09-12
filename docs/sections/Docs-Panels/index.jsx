@@ -50,30 +50,32 @@ export default class Panels extends React.Component {
 					consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id
 					dolor id nibh ultricies vehicula ut id eli
 				</div>
-				<table className="table">
-					<thead>
-						<tr>
-							<th>#</th>
-							<th>Table Header</th>
-							<th>Table Header</th>
-							<th>Table Header</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>1</td>
-							<td>Table Content</td>
-							<td>Table Content</td>
-							<td>Table Content</td>
-						</tr>
-						<tr>
-							<td>2</td>
-							<td>Table Content</td>
-							<td>Table Content</td>
-							<td>Table Content</td>
-						</tr>
-					</tbody>
-				</table>
+				<div className="table-responsive">
+					<table>
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>Table Header</th>
+								<th>Table Header</th>
+								<th>Table Header</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>Table Content</td>
+								<td>Table Content</td>
+								<td>Table Content</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>Table Content</td>
+								<td>Table Content</td>
+								<td>Table Content</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
     		</div>
 
     		<h2>Panel With List Groups</h2>

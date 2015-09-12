@@ -3,34 +3,35 @@
 	border-radius: 5px;
 	box-shadow: 0 1px 1px rgba(0,0,0,.05);
 
+	> .panel-header {
+		padding: 10px 15px;
+		color: $brand-black;
+		background: #f5f5f5;
+		border-bottom: 1px solid $brand-gray;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+	}
+
+	> .panel-body {
+		padding: 15px;
+	}
+
+	> .panel-footer {
+		padding: 10px 15px;
+		color: $brand-black;
+		background: #f5f5f5;
+		border-top: 1px solid $brand-gray;
+		border-bottom-left-radius: 3px;
+		border-bottom-right-radius: 3px;
+	}
+
 	&.-default {
 		border: 2px solid $brand-gray;
-		.panel-header {
-			padding: 10px 15px;
-			color: $brand-black;
-			background: #f5f5f5;
-			border-bottom: 1px solid $brand-gray;
-			border-top-left-radius: 3px;
-			border-top-right-radius: 3px;
-		}
-
-		.panel-body {
-			padding: 15px;
-		}
-
-		.panel-footer {
-			padding: 10px 15px;
-			color: $brand-black;
-			background: #f5f5f5;
-			border-top: 1px solid $brand-gray;
-			border-bottom-left-radius: 3px;
-			border-bottom-right-radius: 3px;
-		}
 	}
 
 	&.-sky {
 		border: 2px solid $brand-sky;
-		.panel-header {
+		> .panel-header {
 			padding: 10px 15px;
 			color: $brand-white;
 			background: $brand-sky;
@@ -39,11 +40,11 @@
 			border-top-right-radius: 3px;
 		}
 
-		.panel-body {
+		> .panel-body {
 			padding: 15px;
 		}
 
-		.panel-footer {
+		> .panel-footer {
 			padding: 10px 15px;
 			color: $brand-white;
 			background: $brand-sky;
@@ -55,7 +56,7 @@
 
 	&.-emerald {
 		border: 2px solid $brand-emerald;
-		.panel-header {
+		> .panel-header {
 			padding: 10px 15px;
 			color: $brand-white;
 			background: $brand-emerald;
@@ -64,11 +65,11 @@
 			border-top-right-radius: 3px;
 		}
 
-		.panel-body {
+		> .panel-body {
 			padding: 15px;
 		}
 
-		.panel-footer {
+		> .panel-footer {
 			padding: 10px 15px;
 			color: $brand-white;
 			background: $brand-emerald;
@@ -80,7 +81,7 @@
 
 	&.-sun {
 		border: 2px solid $brand-sun;
-		.panel-header {
+		> .panel-header {
 			padding: 10px 15px;
 			color: $brand-white;
 			background: $brand-sun;
@@ -89,11 +90,11 @@
 			border-top-right-radius: 3px;
 		}
 
-		.panel-body {
+		> .panel-body {
 			padding: 15px;
 		}
 
-		.panel-footer {
+		> .panel-footer {
 			padding: 10px 15px;
 			color: $brand-white;
 			background: $brand-sun;
@@ -105,7 +106,7 @@
 
 	&.-crimson {
 		border: 2px solid $brand-crimson;
-		.panel-header {
+		> .panel-header {
 			padding: 10px 15px;
 			color: $brand-white;
 			background: $brand-crimson;
@@ -114,11 +115,11 @@
 			border-top-right-radius: 3px;
 		}
 
-		.panel-body {
+		> .panel-body {
 			padding: 15px;
 		}
 
-		.panel-footer {
+		> .panel-footer {
 			padding: 10px 15px;
 			color: $brand-white;
 			background: $brand-crimson;
@@ -128,7 +129,7 @@
 		}
 	}
 	ul { margin-top: 0; }
-	
+
 	.list {
 		padding-left: 0;
 		margin-bottom: 0;
