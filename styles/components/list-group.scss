@@ -1,6 +1,6 @@
 .list-group {
   background-color: $brand-white;
-  border: 1px solid $brand-gray-dk;
+  border: 1px solid $brand-gray;
   border-radius: $border-radius-base;
   color: $brand-black;
 
@@ -9,7 +9,7 @@
     position: relative;
     display: block;
     padding: 8px 10px;
-    border-bottom: 1px solid $brand-gray;
+    border-bottom: 1px solid $brand-gray-lt;
   }
 
   > .menuitem:hover {
