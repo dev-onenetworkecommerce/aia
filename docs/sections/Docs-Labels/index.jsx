@@ -30,7 +30,6 @@ export default class Labels extends React.Component {
           </div>
 
           <div className="col-md-6 variations-label">
-             <div className="col-md-12">
                <h3>
                 Available variations
                </h3>
@@ -60,6 +59,7 @@ export default class Labels extends React.Component {
                </span>
 
            <div className="add-margin-40x">
+
               <h3>Badges</h3>
 
                 <div>
@@ -86,19 +86,9 @@ export default class Labels extends React.Component {
                  News Feed <span className="badges -crimson">80</span>
              </div>
 
-           </div>
-
-        </div>
-
-          <div className="col-md-12 add-margin-40x">
-
-            <span className="status -active"></span> Active
-
-            <span className="status -inactive"></span> Inactive
-
           </div>
 
-        </div>
+       </div>
 
    </div>
 
