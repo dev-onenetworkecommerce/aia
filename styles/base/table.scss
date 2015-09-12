@@ -1,3 +1,4 @@
+
 /*
 <div class="table">
   <table>
@@ -31,6 +32,7 @@ table {
 
   & > thead > tr > th,
   & > tbody > tr > td {
+    border-top: 1px solid #ddd;
     padding: 10px;
   }
 
