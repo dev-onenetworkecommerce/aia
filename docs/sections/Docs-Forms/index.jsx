@@ -13,38 +13,67 @@ export default class Forms extends React.Component {
             </p>
         </div>
 
-        <div class="row">
+        <div className="row">
             <div className="col-md-3">
+
                <h5>Form Elements</h5>
                <hr />
-               <textarea className="textarea-control" name="" place-holder="Text area content">
+
+               <textarea className="form-control" name="" place-holder="Text area content">
                   Text content here.
                </textarea>
 
-               <input type="text" name="" value="Input value" placeholder="Input value" />
+               <input className="form-control" type="text" value="Input value" />
+
+               <input className="form-control" type="text" placeholder="Placeholder" />
+
+               <select className="form-control">
+                 <option value="">Selection Option</option>
+               </select>
+
+
             </div>
+
             <div className="col-md-3">
                <h5>Form Elements(Disabled)</h5>
+
                <hr />
-               <textarea className="textarea-control" name="">
+
+               <textarea disabled className="form-control -disabled" name="">
                   Text content here.
                </textarea>
+
+               <input  disabled className="form-control -disabled" type="text" value="Input value" />
+
+               <input  disabled className="form-control -disabled" type="text" placeholder="Placeholder" />
+
+               <select disabled className="form-control -disabled">
+                 <option value="">Selection Option</option>
+               </select>
             </div>
+
             <div className="col-md-3">
                <h5>Form Elements with Focus</h5>
+
                <hr />
-               <textarea className="textarea-control" name="">
+
+               <textarea className="form-control" name="">
                   Text content here.
                </textarea>
 
+               <input className="form-control" type="text" placeholder="Input Value" />
             </div>
+
             <div className="col-md-3">
+
              <h5>Validation Erros</h5>
                <hr />
-               <textarea className="textarea-control" name="">
+
+               <textarea className="form-control -error" name="">
                   Text content here.
                </textarea>
 
+               <input className="form-control -error" type="text" placeholder="Input Value" />
             </div>
         </div>
       </div>
