@@ -44,7 +44,51 @@ export default class Panels extends React.Component {
 
 	      	<h2>Panel with Tables</h2>
 	      	<div className="panel panel-default">
-    			<div className="panel-body">Basic Panel Example</div>
+    			<div className="panel-header">Panel Title</div>
+    			<div className="panel-body">
+    				Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed
+					consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id
+					dolor id nibh ultricies vehicula ut id eli
+				</div>
+				<table className="table">
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>Table Header</th>
+							<th>Table Header</th>
+							<th>Table Header</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>Table Content</td>
+							<td>Table Content</td>
+							<td>Table Content</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>Table Content</td>
+							<td>Table Content</td>
+							<td>Table Content</td>
+						</tr>
+					</tbody>
+				</table>
+    		</div>
+
+    		<h2>Panel With List Groups</h2>
+    		<div className="panel panel-default">
+    			<div className="panel-header">Panel Title</div>
+    			<div className="panel-body">
+    				Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed
+					consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id
+					dolor id nibh ultricies vehicula ut id eli
+    			</div>
+	    		<ul className="list">
+	    			<li className="list-item">List Item</li>
+	    			<li className="list-item">List Item</li>
+	    			<li className="list-item">List Item</li>
+	    		</ul>
     		</div>
 	    </div>
     );
