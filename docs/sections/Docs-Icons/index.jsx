@@ -4,7 +4,7 @@ export default class Icons extends React.Component {
   render() {
     return (
       <div>
-        <h1 className="doc-heading">Icons</heading>
+        <h1 className="doc-heading">Icons</h1>
         <p className="lead">To do.</p>
       </div>
     );

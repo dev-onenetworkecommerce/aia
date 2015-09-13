@@ -10,6 +10,8 @@
     display: block;
     padding: 8px 10px;
     border-bottom: 1px solid $brand-gray-lt;
+    background-color: $brand-white;
+    cursor: pointer;
   }
 
   > .menuitem:hover {
@@ -17,17 +19,20 @@
   }
 
   > .menuitem:first-child {
+    border-top-left-radius: $border-radius-base;
+    border-top-right-radius: $border-radius-base;
     border-top: 0;
   }
 
   > .menuitem:last-child {
+    border-bottom-left-radius: $border-radius-base;
+    border-bottom-right-radius: $border-radius-base;
     border-bottom: 0;
   }
 
   > .menuitem.-selected {
     font-weight: bold;
     color: $brand-black;
-    cursor: default;
     background-color: $brand-white;
   }
 }
