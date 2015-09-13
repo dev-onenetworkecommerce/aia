@@ -1,18 +1,23 @@
 .list-group {
   background-color: $brand-white;
-  border: 1px solid $brand-gray-dk;
+  border: 1px solid $brand-gray;
   border-radius: $border-radius-base;
+  color: $brand-black;
 
   > .menuitem {
     @include link-no-underscore;
     position: relative;
     display: block;
     padding: 8px 10px;
-    border-bottom: 1px solid $brand-gray;
+    border-bottom: 1px solid $brand-gray-lt;
   }
 
   > .menuitem:hover {
     background: $brand-gray-lt;
+  }
+
+  > .menuitem:first-child {
+    border-top: 0;
   }
 
   > .menuitem:last-child {

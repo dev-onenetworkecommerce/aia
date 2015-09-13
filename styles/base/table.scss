@@ -1,15 +1,13 @@
 /*
-<div class="table">
-  <table>
-  </table>
-</div>
+<table class="table">
+</table>
 */
 th,
 td {
   text-align: left; /* yea */
 }
 
-table {
+.table {
   & {
     width: 100%;
     max-width: 100%;
@@ -31,6 +29,8 @@ table {
 
   & > thead > tr > th,
   & > tbody > tr > td {
+    border-top: 1px solid $brand-gray;
+    border-bottom: 1px solid $brand-gray;
     padding: 10px;
   }
 
@@ -43,11 +43,19 @@ table {
     border-left: 2px solid $brand-gray;
   }
 
-  & > thead > tr > th.-link:hover,
-  & > tbody > tr > td.-link:hover {
-    cursor: pointer;
+  &.-bordered > thead > tr > th:first-child,
+  &.-bordered > tbody > tr > td:first-child {
+    border-left: 2px solid $brand-gray;
   }
 
+  &.-bordered > thead > tr > th:last-child,
+  &.-bordered > tbody > tr > td:last-child {
+    border-right: 2px solid $brand-gray;
+  }
+
+  &.-hovered > tbody > tr:hover > td {
+    background: $brand-gray-lt;
+  }
 
   & > thead > tr > th.-align-right,
   & > tbody > tr > td.-align-right {
@@ -64,18 +72,14 @@ table {
     vertical-align: top;
   }
 
-  // & > thead > tr > th.-info,
-  // & > tbody > tr > td.-info {
-  //   background: $brand-sky;
-  // }
-
-  // & > thead > tr > th.-danger,
-  // & > tbody > tr > td.-danger {
-  //   background: $brand-crimson;
-  // }
+  > tbody > tr > td.-sky { background: $brand-sky; }
+  > tbody > tr > td.-emerald { background: $brand-emerald; }
+  > tbody > tr > td.-sun { background: $brand-sun; }
+  > tbody > tr > td.-crimson { background: $brand-crimson; }
 }
 
 .table-responsive {
   width: 100%;
   overflow-x: auto;
+  color: $brand-black;
 }

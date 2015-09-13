@@ -1,3 +1,9 @@
+@mixin badges-variant($bg, $color: $brand-white) {
+  color: $color;
+  background-color: $bg;
+}
+
+
 .badges {
   @include clearfix;
   display: inline-block;
@@ -7,27 +13,27 @@
   transition: 0.15s all;
 
    &.-bordered {
-      @include label-variant($brand-gray, $brand-white, $brand-gray);
-   }
+    @include label-variant($brand-gray);
+  }
 
-   &.-primary {
-      @include label-variant($brand-blue, $brand-white, $brand-blue);
-   }
+  &.-primary {
+    @include label-variant($brand-blue);
+  }
 
-   &.-crimson {
-      @include label-variant($brand-crimson, $brand-white, $brand-crimson);
-   }
+  &.-crimson {
+    @include label-variant($brand-crimson);
+  }
 
-   &.-emerald {
-     @include label-variant($brand-emerald, $brand-white, $brand-emerald);
-   }
+  &.-emerald {
+    @include label-variant($brand-emerald);
+  }
 
-   &.-sky {
-     @include label-variant($brand-blue, $brand-white, $brand-blue);
-   }
+  &.-sky {
+    @include label-variant($brand-sky);
+  }
 
    &.-sun {
-     @include label-variant($brand-sun, $brand-white, $brand-sun);
-   }
+    @include label-variant($brand-sun);
+  }
 
 }

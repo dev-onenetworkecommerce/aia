@@ -1,37 +1,13 @@
-// @mixin label-variant($local-bg, $local-color: $white) {
-//   // color: $local-color;
-//   // background: $local-bg;
-//   color: $local-bg;
-//   border: 1px solid $local-bg;
-// }
-
-// @mixin label-variant-normal($local-bg, $local-color: $white) {
-//   // color: $local-color;
-//   // background: $local-bg;
-//   color: $local-color;
-//   background: $local-bg;
-//   border-color: transparent;
-// }
-
 // @mixin label-size($local-size, $local-font-size) {
 //   height: $local-size;
 //   line-height: $local-size;
 //   font-size: #{$local-font-size}em;
 // }
 
-span {
-  margin:10px 5px;
-}
-
-
-@mixin label-variant($bg, $color, $border) {
-  background-color: $bg;
+@mixin label-variant($bg, $color: $brand-white) {
   color: $color;
-  border: $border;
+  background-color: $bg;
 }
-
-//place-holder
-
 
 .label {
   @include clearfix;
@@ -39,101 +15,34 @@ span {
   height: $medium;
   line-height: $medium; /* center text */
   padding: 0px 10px;
-  color: $brand-black;
-  // background: $gray;
-  background: transparent;
-  border: 1px solid $brand-black;
+  color: $brand-white;
+  background: $brand-gray;
   border-radius: $border-radius-base;
 
-  // For changes in modifiers
-  transition: 0.15s all;
+  &.-bordered {
+    @include label-variant($brand-gray);
+  }
 
-  //modifiers
+  &.-primary {
+    @include label-variant($brand-blue);
+  }
 
-   &.-bordered {
-    @include label-variant($brand-gray, $brand-white, $brand-gray);
+  &.-crimson {
+    @include label-variant($brand-crimson);
+  }
 
-   }
+  &.-emerald {
+    @include label-variant($brand-emerald);
+  }
 
-   &.-primary {
-   @include label-variant($brand-blue, $brand-white, $brand-blue);
-   }
-
-   &.-crimson {
-    @include label-variant($brand-crimson, $brand-white, $brand-crimson);
-   }
-
-   &.-emerald {
-    @include label-variant($brand-emerald, $brand-white, $brand-emerald);
-   }
-
-   &.-sky {
-       @include label-variant($brand-blue, $brand-white, $brand-blue);
-       padding: 0px 20px;
-   }
+  &.-sky {
+    @include label-variant($brand-sky);
+  }
 
    &.-sun {
-       @include label-variant($brand-sun, $brand-white, $brand-sun);
-       padding: 0px 20px;
-   }
-
-
-  // &.-info {
-  //   @include label-variant($aqua);
-  // }
-
-  // &.-warning {
-  //   @include label-variant($sun, $black);
-  // }
-
-  // &.-danger {
-  //   @include label-variant($crimson);
-  // }
-
-  // &.-success {
-  //   @include label-variant($leaf);
-  // }
-
-  // &.-small {
-  //   @include label-size($small, 0.9);
-  // }
-
-  // &.-tiny {
-  //   @include label-size($tiny, 0.85);
-  // }
-
-  // &.-big {
-  //   @include label-size($big, 1.1);
-  // }
-
-  // & ~ & {
-  //   margin-left: 10px;
-  // }
-
-  // &.-normal {
-  //   color: $white;
-  //   border: 0;
-  //   background: $gray;
-  // }
-
-  // &.-normal.-info {
-  //   @include label-variant-normal($aqua);
-  // }
-
-  // &.-normal.-warning {
-  //   @include label-variant-normal($sun, $black);
-  // }
-
-  // &.-normal.-danger {
-  //   @include label-variant-normal($crimson);
-  // }
-
-  // &.-normal.-success {
-  //   @include label-variant-normal($leaf);
-  // }
-
-
-
+    @include label-variant($brand-sun);
+  }
 }
+
 
 

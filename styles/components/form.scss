@@ -1,46 +1,25 @@
-
-%input-place-holder{
-  ::-webkit-input-placeholder {
-   color: $brand-gray;
-  }
-
-  :-moz-placeholder {
-     color: $brand-gray;
-  }
-
-  ::-moz-placeholder {
-     color: $brand-gray;
-  }
-
-  :-ms-input-placeholder {
-     color: $brand-gray;
-  }
-}
-
-
 .form-control {
    width: 100%;
    resize: none;
    padding: 5px;
    border-radius: $border-radius-base;
-   margin: 5px;
    border: 1px solid $brand-gray-dk;
    background-color: $brand-white;
-   @extend %input-place-holder;
+   margin: 5px;
 
    &.-disabled {
     background-color: $brand-gray-lt;
     color: $brand-gray;
-    border: 1px solid $brand-gray-lt;
+    border: 0px;
     &:hover {
-      border: 1px solid $brand-gray-lt;
+      border: 0px;
     }
    }
 
    &.-error {
-    border: 1px solid $brand-crimson;
+    border-color: $brand-crimson;
      &:hover {
-      border: 1px solid $brand-crimson;
+      border-color: $brand-crimson;
     }
    }
 
@@ -48,8 +27,7 @@
      border: 1px solid $brand-blue;
    }
    &:focus {
-    border: 1px solid #000;
-    outline-offset: 0px;
+    border: 1px solid $brand-black;
     outline: none;
    }
 

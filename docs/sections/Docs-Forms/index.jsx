@@ -4,14 +4,12 @@ export default class Forms extends React.Component {
   render() {
     return (
       <div>
-        <div>
              <h3>FORMS</h3>
 
              <p>
                 This is a collection of symbols for quickly mocking up web applications, created by your friends at One
                 Network Ecommerce and released under the ONE license.
             </p>
-        </div>
 
         <div className="row">
             <div className="col-md-3">
