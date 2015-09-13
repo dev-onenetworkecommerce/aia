@@ -5,6 +5,9 @@ export default class Colors extends React.Component {
     return (
       <div>
         <h1 className="doc-heading"> Colors </h1>
+        <p className="lead">
+          Our variants are called sky, emerald, sun, crimson; which is to Bootstrap's info, success, warning, danger respectively.
+        </p>
 
         <section className="doc-bottom-space">
           <h3>Variations</h3>
