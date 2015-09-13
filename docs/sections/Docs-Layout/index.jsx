@@ -4,143 +4,97 @@ export default class Layout extends React.Component {
   render() {
     return (
       <div>
-        <h1 className="doc-heading">Layout</h1>
-        <div className="row doc-bottom-space _clearfix">
-          <div className="col-md-1 -info">
-            <div className="doc-block-grid">.col-md-1
+        <section className="doc-bottom-space-large">
+          <h1 className="doc-heading">Layout</h1>
+          <p className="lead">June's layout includes basic page containers and a single-tiered, fraction-based grid system. That sounds more complicated than it really is though—it’s just containers, rows, and columns.</p>
+          <div className="row doc-bottom-space">
+            <div className="col-md-1">
+              <div className="doc-block-grid">.col-md-1</div>
+            </div>
+            <div className="col-md-1">
+              <div className="doc-block-grid">.col-md-1</div>
+            </div>
+            <div className="col-md-1">
+              <div className="doc-block-grid">.col-md-1</div>
+            </div>
+            <div className="col-md-1">
+              <div className="doc-block-grid">.col-md-1</div>
+            </div>
+            <div className="col-md-1">
+              <div className="doc-block-grid">.col-md-1</div>
+            </div>
+            <div className="col-md-1">
+              <div className="doc-block-grid">.col-md-1</div>
+            </div>
+            <div className="col-md-1">
+              <div className="doc-block-grid">.col-md-1</div>
+            </div>
+            <div className="col-md-1">
+              <div className="doc-block-grid">.col-md-1</div>
+            </div>
+            <div className="col-md-1">
+              <div className="doc-block-grid">.col-md-1</div>
+            </div>
+            <div className="col-md-1">
+              <div className="doc-block-grid">.col-md-1</div>
+            </div>
+            <div className="col-md-1">
+              <div className="doc-block-grid">.col-md-1</div>
+            </div>
+            <div className="col-md-1">
+              <div className="doc-block-grid">.col-md-1</div>
             </div>
           </div>
-          <div className="col-md-1 -success">
-            <div className="doc-block-grid">.col-md-1
-            </div>
-          </div>
-          <div className="col-md-1 -info">
-            <div className="doc-block-grid">.col-md-1
-            </div>
-          </div>
-          <div className="col-md-1 -success">
-            <div className="doc-block-grid">.col-md-1
-            </div>
-          </div>
-          <div className="col-md-1 -info">
-            <div className="doc-block-grid">.col-md-1
-            </div>
-          </div>
-          <div className="col-md-1 -success">
-            <div className="doc-block-grid">.col-md-1
-            </div>
-          </div>
-          <div className="col-md-1 -info">
-            <div className="doc-block-grid">.col-md-1
-            </div>
-          </div>
-          <div className="col-md-1 -success">
-            <div className="doc-block-grid">.col-md-1
-            </div>
-          </div>
-          <div className="col-md-1 -info">
-            <div className="doc-block-grid">.col-md-1
-            </div>
-          </div>
-          <div className="col-md-1 -success">
-            <div className="doc-block-grid">.col-md-1
-            </div>
-          </div>
-          <div className="col-md-1 -info">
-            <div className="doc-block-grid">.col-md-1
-            </div>
-          </div>
-          <div className="col-md-1 -success">
-            <div className="doc-block-grid">.col-md-1
-            </div>
-          </div>
-        </div>
 
-        <div className="row doc-bottom-space _clearfix">
-          <div className="col-md-3 -info">
-            <div className="doc-block-grid">
-              .col-md-3
+          <div className="row doc-bottom-space">
+            <div className="col-md-3">
+              <div className="doc-block-grid">.col-md-3</div>
+            </div>
+            <div className="col-md-9">
+              <div className="doc-block-grid">.col-md-9</div>
             </div>
           </div>
-          <div className="col-md-9 -success">
-            <div className="doc-block-grid">
-              .col-md-9
-            </div>
-          </div>
-        </div>
 
-        <div className="row doc-bottom-space _clearfix">
-          <div className="col-md-4 -success">
-            <div className="doc-block-grid">
-              .col-md-4
+          <div className="row doc-bottom-space">
+            <div className="col-md-4">
+              <div className="doc-block-grid">.col-md-4</div>
+            </div>
+            <div className="col-md-4">
+              <div className="doc-block-grid">.col-md-4</div>
+            </div>
+            <div className="col-md-4">
+              <div className="doc-block-grid">.col-md-4</div>
             </div>
           </div>
-          <div className="col-md-4 -danger">
-            <div className="doc-block-grid">
-              .col-md-4
-            </div>
-          </div>
-          <div className="col-md-4 -info">
-            <div className="doc-block-grid">
-              .col-md-4
-            </div>
-          </div>
-        </div>
 
-        <div className="row doc-bottom-space _clearfix">
-          <div className="col-md-6 -warning">
-            <div className="doc-block-grid">
-              .col-md-6
+          <div className="row">
+            <div className="col-md-6">
+              <div className="doc-block-grid">.col-md-6</div>
+            </div>
+            <div className="col-md-6">
+              <div className="doc-block-grid">.col-md-6</div>
             </div>
           </div>
-          <div className="col-md-6 -danger">
-            <div className="doc-block-grid">
-              .col-md-6
-            </div>
+        </section>
+
+        <section>
+          <h2 className="doc-heading">Mobile and desktop</h2>
+          <p>Don't want your columns to simply stack in smaller devices? Use the extra small and medium device grid classes by adding .col-xs-* .col-md-* to your columns. See the example below for a better idea of how it all works.</p>
+
+          <div className="row doc-bottom-space">
+            <div className="col-xs-12 col-md-8"><div className="doc-block-grid">.col-xs-12 .col-md-6</div></div>
+            <div className="col-xs-6 col-md-4"><div className="doc-block-grid">col-xs-6 col-md-4</div></div>
           </div>
-        </div>
-
-
-        <h1 className="doc-heading">Nested Layouts</h1>
-
-        <div className="row doc-bottom-space _clearfix">
-          <div className="col-md-8 -warning">
-            <div className="doc-block-grid">
-              .col-md-8
-            </div>
-            <div className="col-md-4 -info">
-              <div className="doc-block-grid">
-              .col-md-4
-              </div>
-            </div>
-            <div className="col-md-4 -info">
-             <div className="doc-block-grid">
-              .col-md-4
-             </div>
-            </div>
-            <div className="col-md-4 -info">
-             <div className="doc-block-grid">
-              .col-md-4
-             </div>
-            </div>
+          <div className="row doc-bottom-space">
+            <div className="col-xs-6 col-md-4"><div className="doc-block-grid">col-xs-6 col-md-4</div></div>
+            <div className="col-xs-6 col-md-4"><div className="doc-block-grid">col-xs-6 col-md-4</div></div>
+            <div className="col-xs-6 col-md-4"><div className="doc-block-grid">col-xs-6 col-md-4</div></div>
           </div>
-          <div className="col-md-4 -danger">
-            <div className="doc-block-grid">
-              .col-md-4
-            </div>
-            <div className="col-md-6 -success">
-              <div className="doc-block-grid">
-                .col-md-6
-              </div>
-            </div>
-            <div className="col-md-6 -success">
-              <div className="doc-block-grid">
-                .col-md-6
-              </div>
-            </div>
+          <div className="row doc-bottom-space">
+            <div className="col-xs-6"><div className="doc-block-grid">col-xs-6</div></div>
+            <div className="col-xs-6"><div className="doc-block-grid">col-xs-6</div></div>
           </div>
-        </div>
-
+        </section>
       </div>
     );
   }

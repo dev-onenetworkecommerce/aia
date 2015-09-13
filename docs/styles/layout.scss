@@ -1,3 +1,9 @@
 .doc-block-grid {
-  width : 100%;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 10px;
+  text-align: center;
+  background: $brand-gray-lt;
+  border: 1px solid $brand-gray;
 }

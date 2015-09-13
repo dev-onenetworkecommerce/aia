@@ -28,6 +28,12 @@ export default class Docs extends React.Component {
             {this.props.children}
           </div>
         </div>
+
+        <footer className="doc-footer">
+          Copyright <strong>ONE Network Ecommerce 2015.</strong> <br />
+          Created and maintained by the Front End team at ONE.&nbsp;
+          <strong>Currently 0.1.0</strong>.
+        </footer>
       </div>
     );
   }

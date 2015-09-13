@@ -26,6 +26,7 @@
 .row {
   margin-left:  -$grid-gutter;
   margin-right: -$grid-gutter;
+  @include clearfix();
 }
 
 

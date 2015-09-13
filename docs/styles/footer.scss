@@ -1,0 +1,10 @@
+.doc-footer {
+  margin-top: 50px;
+  padding: 50px;
+  color: $brand-gray;
+  border-top: 1px solid $brand-gray-lt;
+
+  > strong {
+    color: $brand-black;
+  }
+}
