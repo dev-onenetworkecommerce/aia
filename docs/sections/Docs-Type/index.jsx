@@ -4,6 +4,8 @@ export default class Type extends React.Component {
   render() {
     return (
       <div>
+        <h1 className="doc-heading">Type</h1>
+
         <section className="doc-bottom-space-large">
           <h1>Headings</h1>
           <h1>Headline 1</h1>
@@ -23,7 +25,7 @@ export default class Type extends React.Component {
 
         <section className="doc-bottom-space-large">
           <h1>Lead</h1>
-          <p className="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p>
+          <p className="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus. &mdash; Some Guy</p>
         </section>
 
         <section className="doc-bottom-space-large">

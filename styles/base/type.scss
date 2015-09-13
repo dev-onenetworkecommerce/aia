@@ -17,6 +17,15 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
+h1 { font-size: 30px; }
+h2 { font-size: 21px; }
+h3 { font-size: 16px; }
+h4 { font-size: 14px; }
+h5 { font-size: 12px; }
+h6 { font-size: 11px; }
+
+small { font-size: 90%; }
+
 a {
   color: $brand-blue;
   text-decoration: none;
@@ -26,20 +35,14 @@ a {
   }
 }
 
-.text-tint {
-  &.-info {
-    color: $brand-sky;
-  }
+.text-sky { color: $brand-sky; }
+.text-crimson { color: $brand-crimson; }
+.text-emerald { color: $brand-emerald; }
+.text-sun { color: $brand-sun; }
+.text-muted { color: $brand-gray-dk; }
 
-  &.-danger {
-    color: $brand-crimson;
-  }
-
-  &.-success {
-    color: $brand-emerald;
-  }
-
-  &.-gray {
-    color: $brand-gray-dk;
-  }
+.lead {
+  font-size: 20px;
+  font-weight: 300;
+  color: $brand-gray-dk;
 }

@@ -4,6 +4,7 @@ export default class Slate extends React.Component {
   render() {
     return (
       <div>
+        <h1 className="doc-heading">Slate</h1>
         <h1>Slate</h1>
         <p>Use this for empty collections or loading resources.</p>
         <div className="slate doc-bottom-space">

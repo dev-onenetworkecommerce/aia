@@ -4,23 +4,25 @@ export default class Alerts extends React.Component {
   render() {
     return (
       <div>
-        <h1>Alert</h1>
-      	<strong>This is a collection of symbols for quickly mocking up web applications. Created by your friends at One Network Ecommerce and released under the ONE License</strong>
-      	<div className="alert -success">
-      		<span>Class: alert-box -success</span>
-      		<h3>Well done! You have successfully read this important alert message.</h3>
+        <h1 className="doc-heading">Alerts</h1>
+      	<p className="lead">
+          This is a collection of symbols for quickly mocking up web applications. Created by your friends at One Network Ecommerce and released under the ONE License
+        </p>
+
+      	<div className="alert -success doc-bottom-space">
+      		Well done! You have successfully read this important alert message.
       	</div>
-      	<div className="alert -info">
-      	  <span>Class: alert-box -info</span>
-      		<h3>Heads up! This alert needs your attention, but its not super important.</h3>
+
+      	<div className="alert -info doc-bottom-space">
+      		Heads up! This alert needs your attention, but its not super important.
       	</div>
-      	<div className="alert -warning">
-      	  <span>Class: alert-box -warning</span>
-      		<h3>Warning! Better check yourself, youre not looking too good.</h3>
+
+      	<div className="alert -warning doc-bottom-space">
+      		Warning! Better check yourself, youre not looking too good.
       	</div>
-      	<div className="alert -danger">
-      	  <span>Class: alert-box -danger</span>
-      		<h3>Oh snap! Change a few things up and try this submitting again.</h3>
+
+      	<div className="alert -danger doc-bottom-space">
+      		Oh snap! Change a few things up and try this submitting again.
       	</div>
       </div>
     );
