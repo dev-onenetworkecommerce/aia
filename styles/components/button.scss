@@ -50,7 +50,7 @@
   color: $brand-white;
   border: 1px solid transparent;
   border-radius: $border-radius-base;
-  background: $brand-gray;
+  background: $brand-emerald;
   outline: none; /* remove native outline */
   cursor: pointer;
 
@@ -63,6 +63,10 @@
     text-decoration: none !important;
     background: $brand-gray-dk;
     transition: 0.15s all;
+  }
+
+  &:focus {
+    background: $brand-emerald-dk;
   }
 
   // &.-danger {
@@ -110,6 +114,7 @@
   &.-disabled,
   &:disabled {
     cursor: not-allowed;
+    background: $brand-gray;
   }
 
   > .pre-icon {
