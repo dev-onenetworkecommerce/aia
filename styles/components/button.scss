@@ -1,7 +1,7 @@
 @mixin btn-variant($local-bg, $local-color) {
   color: $local-color;
   background: $local-bg;
-  border: 3px solid $local-bg;
+  border: 2px solid $local-bg;
 
   &:hover,
   &:focus {
@@ -13,13 +13,13 @@
 @mixin btn-variant-inverted($local-color, $local-bg: $brand-white) {
   color: $local-color;
   background: $local-bg;
-  border: 3px solid $local-color;
+  border: 2px solid $local-color;
 
   &:hover,
   &:focus {
     color: $local-bg;
     background: $local-color;
-    border: 3px solid $local-color;
+    border: 2px solid $local-color;
   }
 }
 
@@ -130,10 +130,4 @@
     margin-right: 10px;
     margin-left: 10px;
   }
-
-  // &.-bordered {
-  //   color: $gray;
-  //   background: transparent;
-  //   border: 1px solid $gray;
-  // }
 }
