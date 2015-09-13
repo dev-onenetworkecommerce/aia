@@ -24,6 +24,19 @@ export default class Buttons extends React.Component {
           <p><button className="btn -small">Button</button></p>
           <p><button className="btn -xs">Button</button></p>
         </div>
+
+        <div className="doc-bottom-space">
+          <h2>Inverted</h2>
+          <button className="btn">Button</button>
+          <button className="btn">Button</button>
+          <button className="btn">Button</button>
+          <button className="btn">Button</button>
+        </div>
+
+        <div className="doc-bottom-space">
+          <h2>Disabled</h2>
+          <button className="btn -default -disabled">Button</button>
+        </div>
       </section>
     );
   }
