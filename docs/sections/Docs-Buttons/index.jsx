@@ -17,6 +17,13 @@ export default class Buttons extends React.Component {
           <button className="btn -emerald">Button</button>
         </div>
 
+        <div className="doc-bottom-space">
+          <h2>Sizes</h2>
+          <p><button className="btn -large">Button</button></p>
+          <p><button className="btn -default">Button</button></p>
+          <p><button className="btn -small">Button</button></p>
+          <p><button className="btn -xs">Button</button></p>
+        </div>
       </section>
     );
   }

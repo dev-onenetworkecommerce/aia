@@ -40,16 +40,16 @@
 
 .btn {
   display: inline-block;
-
+  background: $brand-gray;
+  color: $brand-black;
+  border: 1px solid transparent;
   // Size
   padding: 0 20px;
-  height: 32px;
   // Supposedly the same as above, but for some reason,
   // Montserrat looks like it's not centered when it's
   // the same values
   line-height: 30px;
   font-size: $font-size-base;
-  color: $brand-white;
   border-radius: $border-radius-base;
   outline: none; /* remove native outline */
   cursor: pointer;
@@ -96,14 +96,22 @@
     width: 100%;
   }
 
+  &.-xs {
+    padding: 1px 5px;
+    font-size: $mini;
+    line-height: $line-height-base;
+  }
+
   &.-small {
-    height: 24px;
-    padding: 0 15px;
+    padding: 5px 10px;
+    font-size: $mini;
+    line-height: $line-height-base;
   }
 
   &.-large {
-    height: 40px;
-    padding: 0 25px;
+    padding: 10px 16px;
+    font-size: $tiny;
+    line-height: $line-height-base;
   }
 
   /* for hiding; basic transition */
