@@ -69,7 +69,7 @@ export default class Layout extends React.Component {
           </div>
         </div>
 
-          <div className="row doc-bottom-space _clearfix">
+        <div className="row doc-bottom-space _clearfix">
           <div className="col-md-4 -success">
             <div className="doc-block-grid">
               .col-md-4
@@ -99,6 +99,48 @@ export default class Layout extends React.Component {
             </div>
           </div>
         </div>
+
+
+        <h1 className="doc-heading">Nested Layouts</h1>
+
+        <div className="row doc-bottom-space _clearfix">
+          <div className="col-md-8 -warning">
+            <div className="doc-block-grid">
+              .col-md-8
+            </div>
+            <div className="col-md-4 -info">
+              <div className="doc-block-grid">
+              .col-md-4
+              </div>
+            </div>
+            <div className="col-md-4 -info">
+             <div className="doc-block-grid">
+              .col-md-4
+             </div>
+            </div>
+            <div className="col-md-4 -info">
+             <div className="doc-block-grid">
+              .col-md-4
+             </div>
+            </div>
+          </div>
+          <div className="col-md-4 -danger">
+            <div className="doc-block-grid">
+              .col-md-4
+            </div>
+            <div className="col-md-6 -success">
+              <div className="doc-block-grid">
+                .col-md-6
+              </div>
+            </div>
+            <div className="col-md-6 -success">
+              <div className="doc-block-grid">
+                .col-md-6
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     );
   }
