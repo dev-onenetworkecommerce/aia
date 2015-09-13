@@ -22,13 +22,11 @@
     }
    }
 
-   &:hover {
-     border: 1px solid $brand-blue;
-   }
    &:focus {
-    border: 1px solid $brand-black;
-    outline: none;
+     border: 1px solid $brand-blue;
+     outline: none;
    }
+
 
 }
 
