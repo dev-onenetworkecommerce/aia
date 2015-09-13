@@ -19,10 +19,10 @@
   @include clearfix;
 
   ._left {
-    float: left;
+    float: left !important;
   }
 
   ._right {
-    float: right;
+    float: right !important;
   }
 }

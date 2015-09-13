@@ -1,23 +1,32 @@
 .alert {
-  padding: 10px 20px;
+  padding: 20px 15px;
 	position: relative;
 	color: $brand-white;
   border-radius: $border-radius-base;
 
-  &.-success {
+  &.-emerald {
     background-color: $brand-emerald;
   }
 
-  &.-info {
-    background-color : $brand-blue;
+  &.-sky {
+    background-color : $brand-sky;
   }
 
-  &.-warning {
+  &.-sun {
     background-color : $brand-sun;
   }
 
-  &.-danger {
+  &.-crimson {
     background-color: $brand-crimson;
+  }
+
+  &.-large {
+    padding: 30px 15px;
+  }
+
+  &.-block {
+    border: 0;
+    border-radius: 0;
   }
 }
 
