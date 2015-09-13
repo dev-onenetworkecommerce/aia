@@ -113,13 +113,19 @@
     width: 100%;
   }
 
+
+  &.-extra-small {
+    height: 22px;
+    padding: 0 8px;
+    line-height: 22px;
+  }
   &.-small {
-    height: 24px;
+    height: 30px;
     padding: 0 15px;
   }
 
   &.-large {
-    height: 40px;
+    height: 44px;
     padding: 0 25px;
   }
 
@@ -153,9 +159,33 @@
   //   margin-left: 10px;
   // }
 
+<<<<<<< HEAD
   // &.-bordered {
   //   color: $gray;
   //   background: transparent;
   //   border: 1px solid $gray;
   // }
 }
+=======
+}
+
+.btn-group {
+  .btn + .btn{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .btn {
+    border-radius: 0px;
+    border: 1px solid $brand-white;
+  }
+  .btn:first-child {
+    border-top-left-radius: $border-radius-base;
+    border-bottom-left-radius: $border-radius-base;
+  }
+  .btn:last-child {
+    border-top-right-radius: $border-radius-base;
+    border-bottom-right-radius: $border-radius-base;
+  }
+
+}
+>>>>>>> d5e4feafa75d3e23d37a445337aeb579a78721f7
