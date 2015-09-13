@@ -100,7 +100,7 @@ export default class Layout extends React.Component {
           <h1 className="doc-heading">Centered</h1>
           <p>Columns can be centered by adding .centered to the .column class.</p>
           <div className="row">
-            <div className="col-md-6 centered"><div className="doc-block-grid"></div></div>
+            <div className="col-md-6 centered"><div className="doc-block-grid">.col-md-6 .centered</div></div>
           </div>
         </section>
       </div>
