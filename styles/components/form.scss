@@ -1,0 +1,35 @@
+.form-control {
+   width: 100%;
+   resize: none;
+   padding: 5px;
+   border-radius: $border-radius-base;
+   border: 1px solid $brand-gray-dk;
+   background-color: $brand-white;
+
+   &.-disabled {
+    background-color: $brand-gray-lt;
+    color: $brand-gray;
+    border: 0px;
+    &:hover {
+      border: 0px;
+    }
+   }
+
+   &.-error {
+    border-color: $brand-crimson;
+     &:hover {
+      border-color: $brand-crimson;
+    }
+   }
+
+   &:focus {
+     border: 1px solid $brand-blue;
+     outline: none;
+   }
+
+
+}
+
+
+
+
