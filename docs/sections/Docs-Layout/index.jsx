@@ -7,11 +7,11 @@ export default class Layout extends React.Component {
         <h1 className="doc-heading">Layout</h1>
         <div className="row doc-bottom-space _clearfix">
           <div className="col-md-1 -info">
-            <div class="doc-block-grid">.col-md-1
+            <div className="doc-block-grid">.col-md-1
             </div>
           </div>
           <div className="col-md-1 -success">
-            <div class="doc-block-grid">.col-md-1
+            <div className="doc-block-grid">.col-md-1
             </div>
           </div>
           <div className="col-md-1 -info">
