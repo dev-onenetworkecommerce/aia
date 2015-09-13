@@ -77,7 +77,7 @@ export default class Layout extends React.Component {
           </div>
         </section>
 
-        <section>
+        <section className="doc-bottom-space-large">
           <h2 className="doc-heading">Mobile and desktop</h2>
           <p>Don't want your columns to simply stack in smaller devices? Use the extra small and medium device grid classes by adding .col-xs-* .col-md-* to your columns. See the example below for a better idea of how it all works.</p>
 
@@ -93,6 +93,14 @@ export default class Layout extends React.Component {
           <div className="row doc-bottom-space">
             <div className="col-xs-6"><div className="doc-block-grid">.col-xs-6</div></div>
             <div className="col-xs-6"><div className="doc-block-grid">.col-xs-6</div></div>
+          </div>
+        </section>
+
+        <section>
+          <h1 className="doc-heading">Centered</h1>
+          <p>Columns can be centered by adding .centered to the .column class.</p>
+          <div className="row">
+            <div className="col-md-6 centered"><div className="doc-block-grid"></div></div>
           </div>
         </section>
       </div>
