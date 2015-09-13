@@ -1,56 +1,39 @@
-// @mixin btn-variant($local-bg, $local-color: $white) {
-//   color: $local-color;
-//   background: $local-bg;
+@mixin btn-variant($local-bg, $local-color) {
+  color: $local-color;
+  background: $local-bg;
+  border-color: $local-bg;
 
-//   &:hover {
-//     color: $local-color;
-//     background: darken($local-bg, 5%);
-//   }
+  &:hover,
+  &:focus {
+    color: $local-color;
+    background: darken($local-bg, 5%);
+  }
+}
 
-//   &.-disabled,
-//   &:disabled,
-//   &.-disabled:hover,
-//   &:disabled:hover {
-//     background: lighten($local-bg, 20%);
-//   }
-// }
+@mixin btn-variant-inverted($local-color, $local-bg: $brand-white) {
+  color: $local-color;
+  background: $local-bg;
+  border-color: $local-color;
 
-// @mixin btn-variant-bordered($local-bg, $local-color: $white) {
-//   color: $local-bg;
-//   background: transparent;
-//   border-color: $local-bg;
-
-//   &:hover {
-//     color: darken($local-bg, 5%);
-//     background: transparent;
-//     border-color: darken($local-bg, 5%);
-//   }
-
-//   &.-disabled,
-//   &:disabled,
-//   &.-disabled:hover,
-//   &:disabled:hover {
-//     color: lighten($local-bg, 20%);
-//     border-color: lighten($local-bg, 20%);
-//   }
-// }
+  &:hover,
+  &:focus {
+    color: $local-bg;
+    background: $local-color;
+  }
+}
 
 
 .btn {
   display: inline-block;
-
+  border: 1px solid transparent;
   // Size
   padding: 0 20px;
-  height: 32px;
   // Supposedly the same as above, but for some reason,
   // Montserrat looks like it's not centered when it's
   // the same values
   line-height: 30px;
   font-size: $font-size-base;
-  color: $brand-white;
-  border: 1px solid transparent;
   border-radius: $border-radius-base;
-  background: $brand-gray;
   outline: none; /* remove native outline */
   cursor: pointer;
 
@@ -59,41 +42,59 @@
 
   transition: 0.1s all;
 
-  &:hover {
-    text-decoration: none !important;
-    background: $brand-gray-dk;
-    transition: 0.15s all;
+  &.-default { @include btn-variant($brand-gray, $brand-black); }
+
+  &.-sky { @include btn-variant($brand-sky, $brand-white); }
+
+  &.-emerald { @include btn-variant($brand-emerald, $brand-white); }
+
+  &.-crimson { @include btn-variant($brand-crimson, $brand-white); }
+
+  &.-sun { @include btn-variant($brand-sun, $brand-white); }
+
+  &.-inverted.-default { @include btn-variant-inverted($brand-gray); }
+
+  &.-inverted.-sky { @include btn-variant-inverted($brand-sky); }
+
+  &.-inverted.-emerald { @include btn-variant-inverted($brand-emerald); }
+
+  &.-inverted.-sun { @include btn-variant-inverted($brand-sun); }
+
+  &.-inverted.-crimson { @include btn-variant-inverted($brand-crimson); }
+
+  &.-disabled,
+  &:disabled,
+  &.-disabled:hover,
+  &:disabled:hover {
+    color: lighten($brand-black, 20%);
+    background: $brand-gray;
   }
-
-  // &.-danger {
-  //   @include btn-variant($crimson);
-  // }
-
-  // &.-info {
-  //   @include btn-variant($aqua);
-  // }
-
-  // &.-success {
-  //   @include btn-variant($leaf);
-  // }
-
-  // &.-warning {
-  //   @include btn-variant($sun, $black);
-  // }
 
   &.-block {
     display: block;
-    width: 100%;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  &.-xs {
+    height: 25px;
+    padding: 0px 10px;
+    font-size: $mini;
+    line-height: $line-height-base;
   }
 
   &.-small {
-    height: 24px;
-    padding: 0 15px;
+    height: 30px;
+    padding: 5px 15px;
+    font-size: $mini;
+    line-height: $line-height-base;
   }
 
   &.-large {
     height: 40px;
     padding: 0 25px;
+    font-size: $tiny;
+    line-height: $line-height-base;
   }
 
   /* for hiding; basic transition */
@@ -124,10 +125,25 @@
     margin-right: 10px;
     margin-left: 10px;
   }
+}
 
-  // &.-bordered {
-  //   color: $gray;
-  //   background: transparent;
-  //   border: 1px solid $gray;
-  // }
+.btn-group {
+  > .btn { 
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  > .btn:last-child:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  > .btn:first-child:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  > .btn:not(:first-child):not(:last-child) { 
+    border-radius: 0;
+  } 
 }
