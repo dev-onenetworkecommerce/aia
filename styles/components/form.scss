@@ -1,35 +1,47 @@
-.form-control {
-   width: 100%;
-   resize: none;
-   padding: 5px;
-   border-radius: $border-radius-base;
-   border: 1px solid $brand-gray-dk;
-   background-color: $brand-white;
-
-   &.-disabled {
-    background-color: $brand-gray-lt;
-    color: $brand-gray;
-    border: 0px;
-    &:hover {
-      border: 0px;
-    }
-   }
-
-   &.-error {
-    border-color: $brand-crimson;
-     &:hover {
-      border-color: $brand-crimson;
-    }
-   }
-
-   &:focus {
-     border: 1px solid $brand-blue;
-     outline: none;
-   }
-
-
+@mixin form-variant($color) {
+  &,
+  &:focus {
+    border-color: $color;
+  }
 }
 
+.form-control {
+  width: 100%;
+  min-height: 34px;
+  padding: 7px 8px;
+  vertical-align: middle;
+  background-color: $brand-white;
+  border: 1px solid $brand-gray;
+  border-radius: $border-radius-base;
+  outline: none;
 
+  &:focus {
+    border-color: $brand-sky;
+  }
 
+  &.-disabled,
+  &:disabled {
+    cursor: not-allowed;
+    background: $brand-gray-lt;
+  }
 
+  &.-sky {
+    @include form-variant($brand-sky);
+  }
+
+  &.-emerald {
+    @include form-variant($brand-emerald);
+  }
+
+  &.-crimson {
+    @include form-variant($brand-crimson);
+  }
+
+  &.-sun {
+    @include form-variant($brand-sun);
+  }
+}
+
+select.form-control {
+  height: 34px;
+}

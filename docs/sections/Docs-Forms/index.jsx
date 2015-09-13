@@ -4,76 +4,71 @@ export default class Forms extends React.Component {
   render() {
     return (
       <div>
-             <h3>FORMS</h3>
+        <h1 className="doc-heading">Forms</h1>
+        <p className="lead">Style individual form controls and utilize common layouts.</p>
 
-             <p>
-                This is a collection of symbols for quickly mocking up web applications, created by your friends at One
-                Network Ecommerce and released under the ONE license.
-            </p>
+        <section className="doc-bottom-space-large">
+          <div className="row">
+            <div className="col-md-6">
+              <h3 className="doc-heading">Form Elements</h3>
+              <section className="doc-bottom-space">
+                <textarea className="form-control" defaultValue="Text content here." />
+              </section>
 
-        <div className="row">
-            <div className="col-md-3">
+              <section className="doc-bottom-space">
+                <input className="form-control" type="text" value="Input value" />
+              </section>
 
-               <h5>Form Elements</h5>
-               <hr />
+              <section className="doc-bottom-space">
+                <input className="form-control" type="text" placeholder="Placeholder" />
+              </section>
 
-               <textarea className="form-control" name="" place-holder="Text area content">
-                  Text content here.
-               </textarea>
-
-               <input className="form-control" type="text" value="Input value" />
-
-               <input className="form-control" type="text" placeholder="Placeholder" />
-
-               <select className="form-control">
-                 <option value="">Selection Option</option>
-               </select>
-
-
+              <section className="doc-bottom-space">
+                <select className="form-control">
+                  <option>Option 1</option>
+                  <option>Option 2</option>
+                </select>
+              </section>
             </div>
 
-            <div className="col-md-3">
-               <h5>Form Elements(Disabled)</h5>
+            <div className="col-md-6">
+              <h3 className="doc-heading">Disabled</h3>
+              <section className="doc-bottom-space">
+                <textarea className="form-control" placeholder="Enter something" disabled />
+              </section>
 
-               <hr />
+              <section className="doc-bottom-space">
+                <input className="form-control" type="text" placeholder="Enter something" disabled />
+              </section>
 
-               <textarea disabled className="form-control -disabled" name="">
-                  Text content here.
-               </textarea>
-
-               <input  disabled className="form-control -disabled" type="text" value="Input value" />
-
-               <input  disabled className="form-control -disabled" type="text" placeholder="Placeholder" />
-
-               <select disabled className="form-control -disabled">
-                 <option value="">Selection Option</option>
-               </select>
+              <section>
+                <select className="form-control" disabled>
+                  <option>Clickity click!</option>
+                </select>
+              </section>
             </div>
+          </div>
+        </section>
 
-            <div className="col-md-3">
-               <h5>Form Elements with Focus</h5>
+        <section>
+          <h3 className="doc-heading">Variants</h3>
+          <p>To apply, simply add one of the *modifier* classes to .form-control: .-sky, .-emerald, .-sun, .-crimson.</p>
+          <section className="doc-bottom-space">
+            <input className="form-control -sky" type="text" placeholder="Enter something.." />
+          </section>
 
-               <hr />
+          <section className="doc-bottom-space">
+            <input className="form-control -emerald" type="text" placeholder="Enter something.." />
+          </section>
 
-               <textarea className="form-control" name="">
-                  Text content here.
-               </textarea>
+          <section className="doc-bottom-space">
+            <input className="form-control -sun" type="text" placeholder="Enter something.." />
+          </section>
 
-               <input className="form-control" type="text" placeholder="Input Value" />
-            </div>
-
-            <div className="col-md-3">
-
-             <h5>Validation Erros</h5>
-               <hr />
-
-               <textarea className="form-control -error" name="">
-                  Text content here.
-               </textarea>
-
-               <input className="form-control -error" type="text" placeholder="Input Value" />
-            </div>
-        </div>
+          <section className="doc-bottom-space">
+            <input className="form-control -crimson" type="text" placeholder="Enter something.." />
+          </section>
+        </section>
       </div>
     );
   }
