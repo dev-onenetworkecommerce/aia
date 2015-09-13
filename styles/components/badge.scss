@@ -1,18 +1,15 @@
-@mixin badges-variant($bg, $color: $brand-white) {
+@mixin badge-variant($bg, $color: $brand-white) {
   color: $color;
   background-color: $bg;
 }
 
 
-.badges {
-  @include clearfix;
+.badge {
   display: inline-block;
   padding: 0px 7px;
   border-radius: 10px;
-  // For changes in modifiers
-  transition: 0.15s all;
 
-   &.-bordered {
+  &.-default {
     @include label-variant($brand-gray);
   }
 
@@ -35,5 +32,4 @@
    &.-sun {
     @include label-variant($brand-sun);
   }
-
 }

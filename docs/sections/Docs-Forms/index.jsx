@@ -16,7 +16,7 @@ export default class Forms extends React.Component {
               </section>
 
               <section className="doc-bottom-space">
-                <input className="form-control" type="text" value="Input value" />
+                <input className="form-control" type="text" defaultValue="Input value" />
               </section>
 
               <section className="doc-bottom-space">
@@ -50,7 +50,7 @@ export default class Forms extends React.Component {
           </div>
         </section>
 
-        <section>
+        <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Variants</h3>
           <p>To apply, simply add one of the *modifier* classes to .form-control: .-sky, .-emerald, .-sun, .-crimson.</p>
           <section className="doc-bottom-space">
@@ -65,8 +65,50 @@ export default class Forms extends React.Component {
             <input className="form-control -sun" type="text" placeholder="Enter something.." />
           </section>
 
-          <section className="doc-bottom-space">
+          <section>
             <input className="form-control -crimson" type="text" placeholder="Enter something.." />
+          </section>
+        </section>
+
+        <section className="doc-bottom-space-large">
+          <h3 className="doc-heading">Form Groups</h3>
+          <p>Used as a container for a form element.</p>
+          <section className="doc-bottom-space">
+            <div className="form-group">
+              <label htmlFor="form-zx@41a">Username</label>
+              <input id="form-zx@41a" className="form-control" type="text" placeholder="Enter something.." />
+            </div>
+
+            <div className="form-group">
+              <label htmlFor="form-xczcS">Password</label>
+              <input id="form-xczcS" className="form-control" type="password" placeholder="*****" />
+            </div>
+          </section>
+        </section>
+
+        <section>
+          <h3 className="doc-heading">Input Groups</h3>
+          <p>Used as a container for a form element.</p>
+          <section className="doc-bottom-space">
+            <div className="input-group">
+              <span className="addon">00:00</span>
+              <input className="form-control" type="text" placeholder="Enter something.." />
+            </div>
+          </section>
+
+          <section className="doc-bottom-space">
+            <div className="input-group">
+              <span className="addon">00:00</span>
+              <input className="form-control" type="text" placeholder="Enter something.." />
+              <span className="addon">Search</span>
+            </div>
+          </section>
+
+          <section>
+            <div className="input-group">
+              <input className="form-control" type="text" placeholder="Enter something.." />
+              <span className="addon">Search</span>
+            </div>
           </section>
         </section>
       </div>
