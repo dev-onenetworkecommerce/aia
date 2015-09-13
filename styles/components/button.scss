@@ -1,39 +1,41 @@
-// @mixin btn-variant($local-bg, $local-color: $white) {
-//   color: $local-color;
-//   background: $local-bg;
+@mixin btn-variant($local-bg, $local-color: $brand-white) {
+  color: $local-color;
+  background: $local-bg;
 
-//   &:hover {
-//     color: $local-color;
-//     background: darken($local-bg, 5%);
-//   }
+  &:hover,
+  &:focus {
+    color: $local-color;
+    background: darken($local-bg, 20%);
+  }
 
-//   &.-disabled,
-//   &:disabled,
-//   &.-disabled:hover,
-//   &:disabled:hover {
-//     background: lighten($local-bg, 20%);
-//   }
-// }
+  &.-disabled,
+  &:disabled,
+  &.-disabled:hover,
+  &:disabled:hover {
+    background: lighten($local-bg, 20%);
+  }
+}
 
-// @mixin btn-variant-bordered($local-bg, $local-color: $white) {
-//   color: $local-bg;
-//   background: transparent;
-//   border-color: $local-bg;
+@mixin btn-variant-inverted($local-color, $local-bg: $brand-white) {
+  color: $local-color;
+  background: $local-bg;
+  border: 1px solid $local-color;
 
-//   &:hover {
-//     color: darken($local-bg, 5%);
-//     background: transparent;
-//     border-color: darken($local-bg, 5%);
-//   }
+  &:hover,
+  &:focus {
+    color: darken($local-bg, 5%);
+    background: $local-color;
+    border: 1px solid $local-color;
+  }
 
-//   &.-disabled,
-//   &:disabled,
-//   &.-disabled:hover,
-//   &:disabled:hover {
-//     color: lighten($local-bg, 20%);
-//     border-color: lighten($local-bg, 20%);
-//   }
-// }
+  &.-disabled,
+  &:disabled,
+  &.-disabled:hover,
+  &:disabled:hover {
+    color: lighten($local-bg, 20%);
+    border-color: lighten($local-bg, 20%);
+  }
+}
 
 
 .btn {
@@ -69,21 +71,42 @@
     background: $brand-emerald-dk;
   }
 
-  // &.-danger {
-  //   @include btn-variant($crimson);
-  // }
+  &.-inverted {
+    color: $brand-black;
+    background: $brand-white;
+    border: 1px solid $brand-black;
+    &:hover, 
+    &:focus {
+      color: $brand-white;
+      background: $brand-emerald;
+      border: 1px solid $brand-emerald;
+    }
 
-  // &.-info {
-  //   @include btn-variant($aqua);
-  // }
+    &.-crimson { @include btn-variant-inverted($brand-crimson); }
+    &.-sun { @include btn-variant-inverted($brand-sun); }
+    &.-sky { @include btn-variant-inverted($brand-sky); }
+    &.-emerald { @include btn-variant-inverted($brand-emerald); }
+  }
 
-  // &.-success {
-  //   @include btn-variant($leaf);
-  // }
+  &.-default {
+    @include btn-variant($brand-gray);
+  }
 
-  // &.-warning {
-  //   @include btn-variant($sun, $black);
-  // }
+  &.-crimson {
+    @include btn-variant($brand-crimson);
+  }
+
+  &.-sky {
+    @include btn-variant($brand-sky);
+  }
+
+  &.-emerald {
+    @include btn-variant($brand-emerald);
+  }
+
+  &.-sun {
+    @include btn-variant($brand-sun);
+  }
 
   &.-block {
     display: block;
@@ -125,10 +148,10 @@
     margin-left: 10px;
   }
 
-  & + & {
-    margin-right: 10px;
-    margin-left: 10px;
-  }
+  // & + & {
+  //   margin-right: 10px;
+  //   margin-left: 10px;
+  // }
 
   // &.-bordered {
   //   color: $gray;
