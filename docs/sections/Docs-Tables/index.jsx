@@ -4,6 +4,8 @@ export default class Tables extends React.Component {
   render() {
     return (
       <div>
+        <h1 className="doc-heading">Table</h1>
+
         <section className="doc-bottom-space-large">
           <h2>Basic Table</h2>
           <table className="table">

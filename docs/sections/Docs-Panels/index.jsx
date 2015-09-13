@@ -4,6 +4,8 @@ export default class Panels extends React.Component {
   render() {
     return (
     	<div>
+        <h1 className="doc-heading">Panels</h1>
+
         <section className="doc-bottom-space-large">
       		<h2>Basic Panel</h2>
       		<div className="panel -default">

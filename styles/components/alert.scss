@@ -2,18 +2,22 @@
   padding: 10px 20px;
 	position: relative;
 	color: $brand-white;
-}
+  border-radius: $border-radius-base;
 
-.-success {
-  background-color: $brand-emerald;
-}
-.-info {
-  background-color : $brand-blue;
-}
-.-warning {
-  background-color : $brand-sun;
-}
-.-danger {
-  background-color: $brand-crimson;
+  &.-success {
+    background-color: $brand-emerald;
+  }
+
+  &.-info {
+    background-color : $brand-blue;
+  }
+
+  &.-warning {
+    background-color : $brand-sun;
+  }
+
+  &.-danger {
+    background-color: $brand-crimson;
+  }
 }
 

@@ -4,7 +4,7 @@ export default class Labels extends React.Component {
   render() {
     return (
       <div>
-           <h2 className="title">Labels & Badges</h2>
+           <h1 className="doc-heading">Labels & Badges</h1>
            <p>
             This is a collection of symbols for quickly mocking up web applications, created by your friends at One Network Ecommerce and released under the ONE license.
            </p>

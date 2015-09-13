@@ -4,7 +4,7 @@ export default class Colors extends React.Component {
     render() {
     return (
       <div>
-        <h1> Colors </h1>
+        <h1 className="doc-heading"> Colors </h1>
 
         <section className="doc-bottom-space">
           <h3>Variations</h3>
