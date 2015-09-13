@@ -65,12 +65,6 @@
     &.-crimson { @include btn-variant-inverted($brand-crimson); }
   }
 
-  &:hover,
-  &:focus {
-    text-decoration: none !important;
-    transition: 0.15s all;
-  }
-
   &.-disabled,
   &:disabled,
   &.-disabled:hover,
@@ -85,19 +79,22 @@
   }
 
   &.-xs {
-    padding: 1px 5px;
+    height: 25px;
+    padding: 0px 10px;
     font-size: $mini;
     line-height: $line-height-base;
   }
 
   &.-small {
-    padding: 5px 10px;
+    height: 30px;
+    padding: 5px 15px;
     font-size: $mini;
     line-height: $line-height-base;
   }
 
   &.-large {
-    padding: 10px 16px;
+    height: 40px;
+    padding: 0 25px;
     font-size: $tiny;
     line-height: $line-height-base;
   }
