@@ -53,6 +53,9 @@ export default class Buttons extends React.Component {
           <div className="doc-bottom-space">
             <h2>Button Group</h2>
             <div className="btn-group">
+              <button className="btn -default">Button</button>
+              <button className="btn -default">Button</button>
+              <button className="btn -default">Button</button>
             </div>
           </div>
         </section>

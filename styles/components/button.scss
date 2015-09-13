@@ -129,7 +129,23 @@
 }
 
 .btn-group {
-  > .btn:last-child:not(:first-child) {
+  > .btn { 
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    border: 1px solid $brand-gray-dk;
+  }
 
+  > .btn:last-child:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  > .btn:first-child:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  > .btn:not(:first-child):not(:last-child) { 
+    border-radius: 0;
   } 
 }
