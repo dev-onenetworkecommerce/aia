@@ -1,7 +1,7 @@
 @mixin btn-variant($local-bg, $local-color) {
   color: $local-color;
   background: $local-bg;
-  border: 2px solid $local-bg;
+  border-color: $local-bg;
 
   &:hover,
   &:focus {
@@ -13,7 +13,7 @@
 @mixin btn-variant-inverted($local-color, $local-bg: $brand-white) {
   color: $local-color;
   background: $local-bg;
-  border: 2px solid $local-color;
+  border-color: $local-color;
 
   &:hover,
   &:focus {
@@ -26,7 +26,7 @@
 
 .btn {
   display: inline-block;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   // Size
   padding: 0 20px;
   // Supposedly the same as above, but for some reason,
