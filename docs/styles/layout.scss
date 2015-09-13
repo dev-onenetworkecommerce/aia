@@ -4,6 +4,6 @@
   line-height: 50px;
   font-size: 10px;
   text-align: center;
-  background: $brand-gray-lt;
-  border: 1px solid $brand-gray;
+  background: lighten($brand-emerald, 25%);
+  border: 1px solid $brand-emerald;
 }

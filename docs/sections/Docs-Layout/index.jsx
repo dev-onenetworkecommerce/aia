@@ -83,16 +83,16 @@ export default class Layout extends React.Component {
 
           <div className="row doc-bottom-space">
             <div className="col-xs-12 col-md-8"><div className="doc-block-grid">.col-xs-12 .col-md-6</div></div>
-            <div className="col-xs-6 col-md-4"><div className="doc-block-grid">col-xs-6 col-md-4</div></div>
+            <div className="col-xs-6 col-md-4"><div className="doc-block-grid">.col-xs-6 .col-md-4</div></div>
           </div>
           <div className="row doc-bottom-space">
-            <div className="col-xs-6 col-md-4"><div className="doc-block-grid">col-xs-6 col-md-4</div></div>
-            <div className="col-xs-6 col-md-4"><div className="doc-block-grid">col-xs-6 col-md-4</div></div>
-            <div className="col-xs-6 col-md-4"><div className="doc-block-grid">col-xs-6 col-md-4</div></div>
+            <div className="col-xs-6 col-md-4"><div className="doc-block-grid">.col-xs-6 .col-md-4</div></div>
+            <div className="col-xs-6 col-md-4"><div className="doc-block-grid">.col-xs-6 .col-md-4</div></div>
+            <div className="col-xs-6 col-md-4"><div className="doc-block-grid">.col-xs-6 .col-md-4</div></div>
           </div>
           <div className="row doc-bottom-space">
-            <div className="col-xs-6"><div className="doc-block-grid">col-xs-6</div></div>
-            <div className="col-xs-6"><div className="doc-block-grid">col-xs-6</div></div>
+            <div className="col-xs-6"><div className="doc-block-grid">.col-xs-6</div></div>
+            <div className="col-xs-6"><div className="doc-block-grid">.col-xs-6</div></div>
           </div>
         </section>
       </div>
