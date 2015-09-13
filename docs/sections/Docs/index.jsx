@@ -17,6 +17,7 @@ export default class Docs extends React.Component {
             </nav>
 
             <nav className="list-group doc-bottom-space" role="menu">
+              <Link to="/icons" activeClass="-selected" className="menuitem">Icons</Link>
               <Link to="/buttons" activeClass="-selected" className="menuitem">Buttons</Link>
               <Link to="/labels" activeClass="-selected" className="menuitem">Labels</Link>
               <Link to="/alerts" activeClass="-selected" className="menuitem">Alerts</Link>

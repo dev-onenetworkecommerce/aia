@@ -13,6 +13,7 @@ export default (
         <Route path="type" component={require('./sections/Docs-Type')} />
         <Route path="tables" component={require('./sections/Docs-Tables')} />
         <Route path="forms" component={require('./sections/Docs-Forms')} />
+        <Route path="icons" component={require('./sections/Docs-Icons')} />
         <Route path="alerts" component={require('./sections/Docs-Alerts')} />
         <Route path="buttons" component={require('./sections/Docs-Buttons')} />
         <Route path="labels" component={require('./sections/Docs-Labels')} />
