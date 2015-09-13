@@ -65,34 +65,48 @@
     transition: 0.15s all;
   }
 
-  // &.-danger {
-  //   @include btn-variant($crimson);
-  // }
+  &.-info {
+    &:hover {
+      background-color : $brand-blue-dk;
+    }
+  }
 
-  // &.-info {
-  //   @include btn-variant($aqua);
-  // }
+  &.-success {
+    &:hover {
+      background-color : $brand-emerald-dk;
+    }
+  }
 
-  // &.-success {
-  //   @include btn-variant($leaf);
-  // }
+  &.-warning {
+    &:hover {
+      background-color : $brand-sun-dk;
+    }
+  }
 
-  // &.-warning {
-  //   @include btn-variant($sun, $black);
-  // }
+  &.-danger {
+    &:hover {
+      background-color : $brand-crimson-dk;
+    }
+  }
 
   &.-block {
     display: block;
     width: 100%;
   }
 
+
+  &.-extra-small {
+    height: 22px;
+    padding: 0 8px;
+    line-height: 22px;
+  }
   &.-small {
-    height: 24px;
+    height: 30px;
     padding: 0 15px;
   }
 
   &.-large {
-    height: 40px;
+    height: 44px;
     padding: 0 25px;
   }
 
@@ -125,9 +139,24 @@
     margin-left: 10px;
   }
 
-  // &.-bordered {
-  //   color: $gray;
-  //   background: transparent;
-  //   border: 1px solid $gray;
-  // }
+}
+
+.btn-group {
+  .btn + .btn{
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .btn {
+    border-radius: 0px;
+    border: 1px solid $brand-white;
+  }
+  .btn:first-child {
+    border-top-left-radius: $border-radius-base;
+    border-bottom-left-radius: $border-radius-base;
+  }
+  .btn:last-child {
+    border-top-right-radius: $border-radius-base;
+    border-bottom-right-radius: $border-radius-base;
+  }
+
 }
