@@ -1,9 +1,21 @@
 ## aia
-The UI Kit that powers ONE's internal projects. [Check the documentation](dev-onenetworkecommerce.github.io/june).
+```
+npm install aia --save
+```
+The UI Kit that powers ONE's internal projects built on [ReactJS](reactjs.org) and [Sass](sass-lang.com). [Check the documentation](dev-onenetworkecommerce.github.io/june).
 
-1. Todo
-2. Todo
-3. Todo
+## Usage
+If you're using sass, you can simply import the `scss` file.
+```
+@import "path/to/aia/main.scss";
+```
+
+Otherwise, you can get the CSS file directly.
+```
+<link href="path/to/aia/aia.scss" rel="stylesheet">
+```
+
+**Note**: The scripts are not available at the moment. Rest assured, they will be released later on.
 
 ## Developing
 To build the scripts:
