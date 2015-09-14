@@ -28744,16 +28744,16 @@
 	          ),
 	          _react2["default"].createElement(
 	            "section",
-	            null,
+	            { className: "doc-bottom-space" },
 	            _react2["default"].createElement(
 	              "h3",
 	              { className: "doc-heading" },
-	              "Spacers"
+	              "Variations"
 	            ),
 	            _react2["default"].createElement(
 	              "p",
 	              null,
-	              "Add ._spacer to add a uniform margin-bottom to your elements"
+	              "Instead of ._space, you can add either ._spacer-small or ._spacer-large to adjust the margin size."
 	            ),
 	            _react2["default"].createElement(
 	              "div",
@@ -28771,6 +28771,31 @@
 	              "._spacer-large"
 	            ),
 	            _react2["default"].createElement("div", { className: "doc-block _spacer-large" })
+	          ),
+	          _react2["default"].createElement(
+	            "section",
+	            null,
+	            _react2["default"].createElement(
+	              "h3",
+	              { className: "doc-heading" },
+	              "No Spacer"
+	            ),
+	            _react2["default"].createElement(
+	              "p",
+	              null,
+	              "Add ._no-spacer to strictly remove the bottom margin"
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "doc-block _spacer-small" },
+	              "._spacer-small"
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "doc-block _spacer _no-spacer" },
+	              "._no-spacer"
+	            ),
+	            _react2["default"].createElement("div", { className: "doc-block" })
 	          )
 	        )
 	      );

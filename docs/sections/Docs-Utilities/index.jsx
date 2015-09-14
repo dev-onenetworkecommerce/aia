@@ -41,13 +41,21 @@ export default class Utilities extends React.Component {
             <div className="doc-block _spacer">._spacer</div>
           </section>
 
-          <section>
-            <h3 className="doc-heading">Spacers</h3>
-            <p>Add ._spacer to add a uniform margin-bottom to your elements</p>
+          <section className="doc-bottom-space">
+            <h3 className="doc-heading">Variations</h3>
+            <p>Instead of ._space, you can add either ._spacer-small or ._spacer-large to adjust the margin size.</p>
             <div className="doc-block _spacer-small">._spacer-small</div>
             <div className="doc-block _spacer">._spacer</div>
             <div className="doc-block _spacer-large">._spacer-large</div>
             <div className="doc-block _spacer-large"></div>
+          </section>
+
+          <section>
+            <h3 className="doc-heading">No Spacer</h3>
+            <p>Add ._no-spacer to strictly remove the bottom margin</p>
+            <div className="doc-block _spacer-small">._spacer-small</div>
+            <div className="doc-block _spacer _no-spacer">._no-spacer</div>
+            <div className="doc-block"></div>
           </section>
         </section>
 
