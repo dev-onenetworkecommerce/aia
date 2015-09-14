@@ -32,6 +32,25 @@ export default class Utilities extends React.Component {
             <p>Simply apply ._clearfix to parents elements to easily clear floats.</p>
           </section>
         </section>
+
+        <section className="doc-bottom-space-large">
+          <section className="doc-bottom-space">
+            <h3 className="doc-heading">Spacers</h3>
+            <p>Add ._spacer to add a uniform margin-bottom to your elements</p>
+            <div className="doc-block _spacer">._spacer-small</div>
+            <div className="doc-block _spacer">._spacer</div>
+          </section>
+
+          <section>
+            <h3 className="doc-heading">Spacers</h3>
+            <p>Add ._spacer to add a uniform margin-bottom to your elements</p>
+            <div className="doc-block _spacer-small">._spacer-small</div>
+            <div className="doc-block _spacer">._spacer</div>
+            <div className="doc-block _spacer-large">._spacer-large</div>
+            <div className="doc-block _spacer-large"></div>
+          </section>
+        </section>
+
       </div>
     );
   }

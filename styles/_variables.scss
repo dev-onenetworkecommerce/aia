@@ -1,7 +1,14 @@
+// spacer
+$spacer: 1rem !default;
+$spacer-small: 0.75rem !default;
+$spacer-large: 1.5rem !default;
+
 // grid-related stuff
 // [locked]
+
 $grid-columns: 12 !default;
 $grid-gutter: 10px !default; // space between each column
+
 // https://github.com/twbs/bootstrap/blob/v4-dev/scss/mixins/_grid-framework.scss
 $grid-breakpoints: (
   xs: 0, // Extra small screen / phone
@@ -10,6 +17,7 @@ $grid-breakpoints: (
   lg: 62em, // Large screen / desktop
   xl: 75em// Extra large screen / wide desktop
 ) !default;
+
 $container-max-widths: (
   sm: 34rem,    // 480
   md: 45rem,    // 720
@@ -26,12 +34,15 @@ $border-radius-base: 3px;
 $border-radius-rounded: 25px;
 
 $form-size: 34px; // basic form height
+$padding-y: 6px !default;
+$padding-y-sm: 5px !default;
+$padding-y-lg: 10px !default;
+$padding-x: 12px !default;
+$padding-x-sm: 10px !default;
+$padding-x-lg: 16px !default;
 
 $mini: 12px;
 $tiny: 18px;
 $small: 24px;
 $medium: 32px;
 $big: 36px;
-
-$allowance: 30px;
-$allowance-wide: 50px;

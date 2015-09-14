@@ -18,11 +18,12 @@
 ._clearfix {
   @include clearfix;
 
-  ._left {
-    float: left !important;
-  }
-
-  ._right {
-    float: right !important;
-  }
+  ._left { float: left !important;}
+  ._right { float: right !important; }
 }
+
+// Spacers
+._no-spacer { margin-bottom: 0 !important; }
+._spacer-small { margin-bottom: $spacer-small !important; }
+._spacer { margin-bottom: $spacer !important; }
+._spacer-large { margin-bottom: $spacer-large !important; }

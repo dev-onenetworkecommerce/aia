@@ -25476,6 +25476,25 @@
 	            ),
 	            " to correct small inconsistencies across browsers and devices."
 	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          null,
+	          _react2["default"].createElement(
+	            "h1",
+	            { className: "doc-heading" },
+	            "Container"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "Wrap site contents and house our grid system."
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "Use .container for a responsive fixed-width container."
+	          )
 	        )
 	      );
 	    }
@@ -25844,25 +25863,6 @@
 	                ".col-md-6 .centered"
 	              )
 	            )
-	          )
-	        ),
-	        _react2["default"].createElement(
-	          "section",
-	          null,
-	          _react2["default"].createElement(
-	            "h1",
-	            { className: "doc-heading" },
-	            "Container"
-	          ),
-	          _react2["default"].createElement(
-	            "p",
-	            null,
-	            "Wrap site contents and house our grid system."
-	          ),
-	          _react2["default"].createElement(
-	            "p",
-	            null,
-	            "Use .container for a responsive fixed-width container."
 	          )
 	        )
 	      );
@@ -28713,6 +28713,64 @@
 	              null,
 	              "Simply apply ._clearfix to parents elements to easily clear floats."
 	            )
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
+	            "section",
+	            { className: "doc-bottom-space" },
+	            _react2["default"].createElement(
+	              "h3",
+	              { className: "doc-heading" },
+	              "Spacers"
+	            ),
+	            _react2["default"].createElement(
+	              "p",
+	              null,
+	              "Add ._spacer to add a uniform margin-bottom to your elements"
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "doc-block _spacer" },
+	              "._spacer-small"
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "doc-block _spacer" },
+	              "._spacer"
+	            )
+	          ),
+	          _react2["default"].createElement(
+	            "section",
+	            null,
+	            _react2["default"].createElement(
+	              "h3",
+	              { className: "doc-heading" },
+	              "Spacers"
+	            ),
+	            _react2["default"].createElement(
+	              "p",
+	              null,
+	              "Add ._spacer to add a uniform margin-bottom to your elements"
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "doc-block _spacer-small" },
+	              "._spacer-small"
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "doc-block _spacer" },
+	              "._spacer"
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "doc-block _spacer-large" },
+	              "._spacer-large"
+	            ),
+	            _react2["default"].createElement("div", { className: "doc-block _spacer-large" })
 	          )
 	        )
 	      );

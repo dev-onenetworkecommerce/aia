@@ -32,6 +32,12 @@ export default class Scaffolding extends React.Component {
           <h2 className="doc-heading" id="normalize">Built on Normalize</h2>
           <p>For improved cross-browser rendering, we use <a href="https://github.com/necolas/normalize.css/">Normalize.css</a> to correct small inconsistencies across browsers and devices.</p>
         </section>
+
+        <section>
+          <h1 className="doc-heading">Container</h1>
+          <p>Wrap site contents and house our grid system.</p>
+          <p>Use .container for a responsive fixed-width container.</p>
+        </section>
       </div>
     );
   }
