@@ -36,8 +36,10 @@ export default class Buttons extends React.Component {
         </section>
 
         <section className="doc-bottom-space-large">
-          <h3 className="doc-heading">Block Button</h3>
-          <button className="btn -default -block">Button</button>
+          <h3 className="doc-heading">Block buttons</h3>
+          <p>Make any button full-width by adding .btn-block. It adds width: 100%;, changes the display from inline-block to block, and centers the button text.</p>
+          <button className="btn -default -block doc-bottom-space">Block button</button>
+          <button className="btn -default -sm -block">Small block button</button>
         </section>
 
         <section className="doc-bottom-space-large">
