@@ -1,23 +1,23 @@
 {
-  "name": "june",
+  "name": "aia",
   "version": "0.1.0",
-  "description": "",
-  "main": "dist/june.js",
+  "description": "The UI Toolkit that powers ONE's internal projects",
+  "main": "dist/aia.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:script": "./node_modules/.bin/babel --stage=0 --out-file dist/june.js scripts/ --source-maps",
-    "build:style": "sass -r sass-css-importer styles/june.scss:dist/style.css"
+    "build:script": "./node_modules/.bin/babel --stage=0 --out-file dist/aia.js scripts/ --source-maps",
+    "build:style": "sass -r sass-css-importer styles/aia.scss:dist/aia.css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dev-onenetworkecommerce/june.git"
+    "url": "git+https://github.com/dev-onenetworkecommerce/aia.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dev-onenetworkecommerce/june/issues"
+    "url": "https://github.com/dev-onenetworkecommerce/aia/issues"
   },
-  "homepage": "https://github.com/dev-onenetworkecommerce/june#readme",
+  "homepage": "https://github.com/dev-onenetworkecommerce/aia",
   "dependencies": {
     "react": "^0.13.3"
   },
