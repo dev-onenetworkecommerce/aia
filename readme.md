@@ -4,7 +4,7 @@ npm install aia --save
 ```
 The UI Kit that powers ONE's internal projects built on [ReactJS](reactjs.org) and [Sass](sass-lang.com).
 
-Check the [docs](dev-onenetworkecommerce.github.io/aia).
+Check the [docs](https://rawgit.com/dev-onenetworkecommerce/aia/master/docs/index.html#/scaffolding?_k=wflhj2).
 
 ## Usage
 If you're using sass, you can simply import the `scss` file.
