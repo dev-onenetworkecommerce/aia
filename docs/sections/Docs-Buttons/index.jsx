@@ -10,60 +10,72 @@ export default class Buttons extends React.Component {
         </section>
 
         <section className="doc-bottom-space-large">
-          <div className="doc-bottom-space">
-            <h3 className="doc-heading">Emphasis</h3>
-            <button className="btn -sky">Button</button>
-            <button className="btn -sun">Button</button>
-            <button className="btn -crimson">Button</button>
-            <button className="btn -emerald">Button</button>
-          </div>
-
-          <div className="doc-bottom-space">
-            <h3 className="doc-heading">Sizes</h3>
-            <button className="btn -large">Button Large</button>
-            <button className="btn -default">Button</button>
-            <button className="btn -small">Button Small</button>
-            <button className="btn -xs">Button Extra Small</button>
-          </div>
-
-          <div className="doc-bottom-space">
-            <h3 className="doc-heading">Inverted</h3>
-            <button className="btn -inverted -default">Button</button>
-            <button className="btn -inverted -sky">Button</button>
-            <button className="btn -inverted -sun">Button</button>
-            <button className="btn -inverted -crimson">Button</button>
-            <button className="btn -inverted -emerald">Button</button>
-          </div>
-
-          <div className="doc-bottom-space">
-            <h3 className="doc-heading">Block Button</h3>
-            <button className="btn -default -block">Button</button>
-          </div>
-
-          <div className="doc-bottom-space">
-            <h3 className="doc-heading">Rounded Button</h3>
-            <button className="btn -default -rounded">Button</button>
-            <button className="btn -sky -rounded">Button</button>
-            <button className="btn -emerald -rounded">Button</button>
-            <button className="btn -sun -rounded">Button</button>
-            <button className="btn -crimson -rounded">Button</button>
-          </div>
-
-          <div className="doc-bottom-space">
-            <h3 className="doc-heading">Disabled</h3>
-            <button className="btn -default -disabled">Button</button>
-          </div>
+          <h3 className="doc-heading">Variants</h3>
+          <button className="btn -sky">Sky</button>
+          <button className="btn -emerald">Emerald</button>
+          <button className="btn -sun">Sun</button>
+          <button className="btn -crimson">Crimson</button>
         </section>
 
         <section className="doc-bottom-space-large">
-          <div className="doc-bottom-space">
-            <h2>Button Group</h2>
+          <h3 className="doc-heading">Sizes</h3>
+          <p>Apply one of .-xs, .-small, .-large</p>
+          <button className="btn -xs">Extra Small</button>
+          <button className="btn -small">Small</button>
+          <button className="btn">Default</button>
+          <button className="btn -large">Large</button>
+        </section>
+
+        <section className="doc-bottom-space-large">
+          <h3 className="doc-heading">Inverted</h3>
+          <button className="btn -inverted -default">Button</button>
+          <button className="btn -inverted -sky">Button</button>
+          <button className="btn -inverted -sun">Button</button>
+          <button className="btn -inverted -crimson">Button</button>
+          <button className="btn -inverted -emerald">Button</button>
+        </section>
+
+        <section className="doc-bottom-space-large">
+          <h3 className="doc-heading">Block Button</h3>
+          <button className="btn -default -block">Button</button>
+        </section>
+
+        <section className="doc-bottom-space-large">
+          <h3 className="doc-heading">Rounded Button</h3>
+          <button className="btn -default -rounded">Button</button>
+          <button className="btn -sky -rounded">Button</button>
+          <button className="btn -emerald -rounded">Button</button>
+          <button className="btn -sun -rounded">Button</button>
+          <button className="btn -crimson -rounded">Button</button>
+        </section>
+
+        <section className="doc-bottom-space-large">
+          <h3 className="doc-heading">Disabled</h3>
+          <button className="btn -default -disabled">Button</button>
+        </section>
+
+        <section>
+          <h3 className="doc-heading">Button Group</h3>
+          <section className="doc-bottom-space">
             <div className="btn-group">
               <button className="btn -default">Button</button>
               <button className="btn -default">Button</button>
               <button className="btn -default">Button</button>
             </div>
-          </div>
+          </section>
+
+          <section>
+            <h3 className="doc-heading">Rounded Button Group</h3>
+            <div className="alert -sun doc-bottom-space">
+              This has bad API, and will most likely change in the future.
+            </div>
+            <p>Simply add the .-rounded modifier class to .btn-group.</p>
+            <div className="btn-group">
+              <button className="btn -rounded -default">Button</button>
+              <button className="btn -rounded -default">Button</button>
+              <button className="btn -rounded -default">Button</button>
+            </div>
+          </section>
         </section>
       </div>
     );

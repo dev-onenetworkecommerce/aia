@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.1.2 (September 14, 2015) - commit
+- Add `.-rounded` modifier for **Button Group**.
+
 ## v0.1.1 (September 14, 2015) - commit
 - Add `.-rounded` modifier for **Button**.
 - Fix build script.

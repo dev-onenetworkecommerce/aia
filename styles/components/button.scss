@@ -110,6 +110,10 @@
 }
 
 .btn-group {
+  &.-rounded > .btn {
+    border-radius: $border-radius-rounded;
+  }
+
   > .btn {
     margin-right: 0 !important;
     margin-left: 0 !important;
