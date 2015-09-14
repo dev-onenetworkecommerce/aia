@@ -7,7 +7,7 @@ export default class App extends React.Component {
       <div>
         <nav className="nav" role="navigation">
           <div className="container">
-            <Link to="/" className="heading">June</Link>
+            <Link to="/" className="heading">Aia</Link>
 
             <section className="right">
               <Link to="/">Home</Link>

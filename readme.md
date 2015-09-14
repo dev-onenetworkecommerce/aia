@@ -1,4 +1,4 @@
-## june
+## aia
 The UI Kit that powers ONE's internal projects. [Check the documentation](dev-onenetworkecommerce.github.io/june).
 
 1. Todo
@@ -39,4 +39,4 @@ Big thanks to our inspirations:
 - Bootstrap
 - Rico Sta. Cruz
 
-**June** should never be used outside of officially endorsed ONE products or without explicit permission.
+**aia** should never be used outside of officially endorsed ONE products or without explicit permission.

@@ -6,7 +6,7 @@ export default class Layout extends React.Component {
       <div>
         <section className="doc-bottom-space-large">
           <h1 className="doc-heading">Layout</h1>
-          <p className="lead">June's layout includes basic page containers and a single-tiered, fraction-based grid system. That sounds more complicated than it really is though—it’s just containers, rows, and columns.</p>
+          <p className="lead">Out layout includes basic page containers and a single-tiered, fraction-based grid system. That sounds more complicated than it really is though—it’s just containers, rows, and columns.</p>
           <div className="row doc-bottom-space">
             <div className="col-md-1">
               <div className="doc-block-grid">.col-md-1</div>

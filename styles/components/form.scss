@@ -65,19 +65,22 @@ label {
   width: 100%;
 
   > .form-control:first-child,
-  > .addon:first-child {
+  > .addon:first-child,
+  > .addon.-btn:first-child > .btn {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
 
   > .form-control:last-child,
-  > .addon:last-child {
+  > .addon:last-child,
+  > .addon.-btn:last-child > .btn {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
 
   > .form-control:not(:first-child):not(:last-child),
-  > .addon:not(:first-child):not(:last-child) {
+  > .addon:not(:first-child):not(:last-child),
+  > .addon:not(:first-child):not(:last-child) > .btn {
     border-radius: 0;
   }
 
@@ -109,5 +112,9 @@ label {
 
   > .addon:last-child {
     border-left: 0;
+  }
+
+  > .addon.-btn {
+    padding: 0;
   }
 }
