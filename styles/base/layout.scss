@@ -31,15 +31,18 @@
 
 
 // col-xs-12; col-md-12; col-sm-12
-@each $breakpoint in map-keys($grid-breakpoints) {
+@each $label, $breakpoint in $grid-breakpoints {
   @for $i from 1 through $grid-columns {
-    .col-#{$breakpoint}-#{$i} {
-      float: left;
-      width: percentage($i / $grid-columns);
+    .col-#{$label}-#{$i} {
       position: relative;
       min-height: 1px;
       padding-left: $grid-gutter;
       padding-right: $grid-gutter;
+
+      @media(min-width: $breakpoint) {
+        float: left;
+        width: percentage($i / $grid-columns);
+      }
     }
   }
 }
