@@ -38,5 +38,6 @@ Big thanks to our inspirations:
 - PrimerCSS
 - Bootstrap
 - Rico Sta. Cruz
+- JC Ricaro
 
 **aia** should never be used outside of officially endorsed ONE products or without explicit permission.
