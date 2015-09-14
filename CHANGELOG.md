@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.1.5 (September 15, 2015) - commit
+- Add spacers
+
 ## v0.1.4 (September 15, 2015) - commit
 - Fix grid not working properly (not responsive).
 

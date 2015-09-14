@@ -1,12 +1,3 @@
-._clearfix:after {
-  content: "";
-  display: table;
-  clear: both; }
-._clearfix ._left {
-  float: left !important; }
-._clearfix ._right {
-  float: right !important; }
-
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -361,6 +352,27 @@ table {
 td,
 th {
   padding: 0; }
+
+._clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+._clearfix ._left {
+  float: left !important; }
+._clearfix ._right {
+  float: right !important; }
+
+._no-spacer {
+  margin-bottom: 0 !important; }
+
+._spacer-small {
+  margin-bottom: 0.75rem !important; }
+
+._spacer {
+  margin-bottom: 1rem !important; }
+
+._spacer-large {
+  margin-bottom: 1.5rem !important; }
 
 h1, h2, h3, h4, h5, h6
 p, blockquote {
@@ -1063,6 +1075,82 @@ a {
   margin-left: auto;
   margin-right: auto; }
 
+.form-control {
+  display: block;
+  width: 100%;
+  min-height: 34px;
+  padding: 7px 8px;
+  vertical-align: middle;
+  background-color: #fff;
+  border: 1px solid #C4C4C4;
+  border-radius: 3px;
+  outline: none; }
+  .form-control:focus {
+    border-color: #52B5E5; }
+  .form-control.-disabled, .form-control:disabled {
+    cursor: not-allowed;
+    background: #F0F0F0; }
+  .form-control.-sky, .form-control.-sky:focus {
+    border-color: #52B5E5; }
+  .form-control.-emerald, .form-control.-emerald:focus {
+    border-color: #38D4A9; }
+  .form-control.-crimson, .form-control.-crimson:focus {
+    border-color: #F05F50; }
+  .form-control.-sun, .form-control.-sun:focus {
+    border-color: #FFC05A; }
+
+select.form-control {
+  height: 34px; }
+
+label {
+  width: 100%;
+  display: inline-block; }
+
+.form-group {
+  margin-bottom: 20px; }
+
+.input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate;
+  width: 100%; }
+  .input-group > .form-control:first-child,
+  .input-group > .addon:first-child,
+  .input-group > .addon.-btn:first-child > .btn {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; }
+  .input-group > .form-control:last-child,
+  .input-group > .addon:last-child,
+  .input-group > .addon.-btn:last-child > .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; }
+  .input-group > .form-control:not(:first-child):not(:last-child),
+  .input-group > .addon:not(:first-child):not(:last-child),
+  .input-group > .addon:not(:first-child):not(:last-child) > .btn {
+    border-radius: 0; }
+  .input-group > .form-control,
+  .input-group > .addon {
+    display: table-cell; }
+  .input-group > .form-control {
+    z-index: 2;
+    float: left;
+    width: 100%; }
+  .input-group > .addon {
+    z-index: 1;
+    width: 1%;
+    padding: 0 8px;
+    min-height: 34px;
+    background: #F0F0F0;
+    border: 1px solid #C4C4C4;
+    border-radius: 3px;
+    vertical-align: middle; }
+  .input-group > .addon:first-child {
+    border-right: 0; }
+  .input-group > .addon:last-child {
+    border-left: 0; }
+  .input-group > .addon.-btn {
+    padding: 0; }
+
 /*
 <table class="table">
 </table>
@@ -1330,82 +1418,6 @@ body {
   .badge.-sun {
     color: #fff;
     background-color: #FFC05A; }
-
-.form-control {
-  display: block;
-  width: 100%;
-  min-height: 34px;
-  padding: 7px 8px;
-  vertical-align: middle;
-  background-color: #fff;
-  border: 1px solid #C4C4C4;
-  border-radius: 3px;
-  outline: none; }
-  .form-control:focus {
-    border-color: #52B5E5; }
-  .form-control.-disabled, .form-control:disabled {
-    cursor: not-allowed;
-    background: #F0F0F0; }
-  .form-control.-sky, .form-control.-sky:focus {
-    border-color: #52B5E5; }
-  .form-control.-emerald, .form-control.-emerald:focus {
-    border-color: #38D4A9; }
-  .form-control.-crimson, .form-control.-crimson:focus {
-    border-color: #F05F50; }
-  .form-control.-sun, .form-control.-sun:focus {
-    border-color: #FFC05A; }
-
-select.form-control {
-  height: 34px; }
-
-label {
-  width: 100%;
-  display: inline-block; }
-
-.form-group {
-  margin-bottom: 20px; }
-
-.input-group {
-  position: relative;
-  display: table;
-  border-collapse: separate;
-  width: 100%; }
-  .input-group > .form-control:first-child,
-  .input-group > .addon:first-child,
-  .input-group > .addon.-btn:first-child > .btn {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0; }
-  .input-group > .form-control:last-child,
-  .input-group > .addon:last-child,
-  .input-group > .addon.-btn:last-child > .btn {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0; }
-  .input-group > .form-control:not(:first-child):not(:last-child),
-  .input-group > .addon:not(:first-child):not(:last-child),
-  .input-group > .addon:not(:first-child):not(:last-child) > .btn {
-    border-radius: 0; }
-  .input-group > .form-control,
-  .input-group > .addon {
-    display: table-cell; }
-  .input-group > .form-control {
-    z-index: 2;
-    float: left;
-    width: 100%; }
-  .input-group > .addon {
-    z-index: 1;
-    width: 1%;
-    padding: 0 8px;
-    min-height: 34px;
-    background: #F0F0F0;
-    border: 1px solid #C4C4C4;
-    border-radius: 3px;
-    vertical-align: middle; }
-  .input-group > .addon:first-child {
-    border-right: 0; }
-  .input-group > .addon:last-child {
-    border-left: 0; }
-  .input-group > .addon.-btn {
-    padding: 0; }
 
 .list-group {
   background-color: #fff;
