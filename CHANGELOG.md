@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.1.6 (September 15, 2015) - commit
+- Improve badge styling
+- Rename `*-lg` variables to `*-large`.
+
 ## v0.1.5 (September 15, 2015) - commit
 - Add spacers
 

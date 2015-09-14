@@ -1398,8 +1398,9 @@ body {
 
 .badge {
   display: inline-block;
-  padding: 0px 7px;
-  border-radius: 10px; }
+  padding: 5px 10px;
+  line-height: 1;
+  border-radius: 25px; }
   .badge.-default {
     color: #fff;
     background-color: #C4C4C4; }
