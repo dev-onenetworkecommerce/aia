@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.1.4 (September 15, 2015) - commit
+- Fix grid not working properly (not responsive).
+
 ## v0.1.3 (September 14, 2015) - commit
 - Remove `.-narrow`, `.-narrower`, `.-centered` modifier for **Slate**.
 
