@@ -3,10 +3,19 @@
   background: $local-bg;
   border-color: $local-bg;
 
-  &:hover,
+  &:hover {
+    color: $local-color;
+    background: lighten($local-bg, 15%);
+  }
+
   &:focus {
     color: $local-color;
-    background: darken($local-bg, 5%);
+    background: darken($local-bg, 10%);
+  }
+
+  &.-active {
+    color: $local-color;
+    background: darken($local-bg, 10%);
   }
 }
 
@@ -16,7 +25,8 @@
   border-color: $local-color;
 
   &:hover,
-  &:focus {
+  &:focus,
+  &.-active {
     color: $local-bg;
     background: $local-color;
   }
