@@ -1409,12 +1409,6 @@ label {
   border-radius: 3px; }
   .slate.-spacious {
     padding: 60px; }
-  .slate.-narrow {
-    width: 50%; }
-  .slate.-controlled {
-    width: 35%; }
-  .slate.-centered {
-    margin: 0px auto; }
   .slate.-plain {
     background: #fff; }
 

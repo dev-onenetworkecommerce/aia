@@ -27509,12 +27509,22 @@
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
-	            "Block Button"
+	            "Block buttons"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "Make any button full-width by adding .btn-block. It adds width: 100%;, changes the display from inline-block to block, and centers the button text."
 	          ),
 	          _react2["default"].createElement(
 	            "button",
-	            { className: "btn -default -block" },
-	            "Button"
+	            { className: "btn -default -block doc-bottom-space" },
+	            "Block button"
+	          ),
+	          _react2["default"].createElement(
+	            "button",
+	            { className: "btn -default -sm -block" },
+	            "Small block button"
 	          )
 	        ),
 	        _react2["default"].createElement(
@@ -28322,88 +28332,147 @@
 	        "div",
 	        null,
 	        _react2["default"].createElement(
-	          "h1",
-	          { className: "doc-heading" },
-	          "Slate"
-	        ),
-	        _react2["default"].createElement(
-	          "h1",
-	          null,
-	          "Slate"
-	        ),
-	        _react2["default"].createElement(
-	          "p",
-	          null,
-	          "Use this for empty collections or loading resources."
-	        ),
-	        _react2["default"].createElement(
-	          "div",
-	          { className: "slate doc-bottom-space" },
+	          "section",
+	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
-	            "h2",
-	            null,
-	            "Simple Slate"
+	            "h1",
+	            { className: "doc-heading" },
+	            "Slate"
 	          ),
 	          _react2["default"].createElement(
-	            "small",
+	            "p",
 	            null,
-	            "simple slate with padding 30px on all sides and 10px margin on all sides."
+	            "Use this for empty collections or loading resources."
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "slate" },
+	            _react2["default"].createElement(
+	              "h2",
+	              null,
+	              "Simple Slate"
+	            ),
+	            _react2["default"].createElement(
+	              "small",
+	              null,
+	              "simple slate with padding 30px on all sides and 10px margin on all sides."
+	            )
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
+	            "h1",
+	            { className: "doc-heading" },
+	            "Spacious Slate"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "Add the .-spacious class to your slate."
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "slate -spacious" },
+	            _react2["default"].createElement(
+	              "h3",
+	              { className: "doc-heading" },
+	              "Slate spacious"
+	            ),
+	            _react2["default"].createElement(
+	              "small",
+	              null,
+	              "Adds padding to your contents"
+	            )
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space" },
+	          _react2["default"].createElement(
+	            "h3",
+	            { className: "doc-heading" },
+	            "Plain Slate"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "You can make a plain slate by adding the .-plain modifier class"
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "row" },
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "slate -plain" },
+	              _react2["default"].createElement(
+	                "h2",
+	                null,
+	                "Slate with No Background"
+	              ),
+	              _react2["default"].createElement(
+	                "small",
+	                null,
+	                "No border-radius and white background"
+	              )
+	            )
 	          )
 	        ),
 	        _react2["default"].createElement(
 	          "div",
-	          { className: "slate -spacious doc-bottom-space" },
+	          { className: "row doc-bottom-space" },
 	          _react2["default"].createElement(
-	            "h2",
-	            null,
-	            "Slate spacious"
-	          ),
-	          _react2["default"].createElement(
-	            "small",
-	            null,
-	            "Adds padding to your contents"
-	          )
-	        ),
-	        _react2["default"].createElement(
-	          "div",
-	          { className: "slate -plain doc-bottom-space" },
-	          _react2["default"].createElement(
-	            "h2",
-	            null,
-	            "Slate with No Background"
-	          ),
-	          _react2["default"].createElement(
-	            "small",
-	            null,
-	            "No border-radius and white background"
-	          )
-	        ),
-	        _react2["default"].createElement(
-	          "div",
-	          { className: "slate -narrow doc-bottom-space" },
-	          _react2["default"].createElement(
-	            "h2",
-	            null,
+	            "h3",
+	            { className: "doc-heading" },
 	            "Half Slate"
 	          ),
 	          _react2["default"].createElement(
-	            "small",
+	            "p",
 	            null,
-	            "Slate with 50% width"
+	            "With the grid, you can set the width to half."
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "slate col-md-6" },
+	            _react2["default"].createElement(
+	              "h2",
+	              null,
+	              "Half Slate"
+	            ),
+	            _react2["default"].createElement(
+	              "small",
+	              null,
+	              "Slate with 50% width"
+	            )
 	          )
 	        ),
 	        _react2["default"].createElement(
 	          "div",
-	          { className: "slate -narrow -centered" },
+	          { className: "row doc-bottom-space" },
 	          _react2["default"].createElement(
-	            "h2",
-	            null,
-	            "Half Slate"
+	            "h3",
+	            { className: "doc-heading" },
+	            "Centered Half Slate"
 	          ),
 	          _react2["default"].createElement(
-	            "small",
+	            "p",
 	            null,
-	            "Centered slate with 50% width"
+	            "With the centered grid column, you can center a slate."
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "slate col-md-6 centered" },
+	            _react2["default"].createElement(
+	              "h2",
+	              null,
+	              "Centered Half Slate"
+	            ),
+	            _react2["default"].createElement(
+	              "small",
+	              null,
+	              "Centered slate with 50% width"
+	            )
 	          )
 	        )
 	      );
