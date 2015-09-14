@@ -6,8 +6,9 @@
 
 .badge {
   display: inline-block;
-  padding: 0px 7px;
-  border-radius: 10px;
+  padding: $padding-y-small $padding-x-small;
+  line-height: 1;
+  border-radius: $border-radius-rounded;
 
   &.-default {
     @include label-variant($brand-gray);
