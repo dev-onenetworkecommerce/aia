@@ -2,16 +2,18 @@
 ```
 npm install aia --save
 ```
-The UI Kit that powers ONE's internal projects built on [ReactJS](reactjs.org) and [Sass](sass-lang.com). [Check the documentation](dev-onenetworkecommerce.github.io/june).
+The UI Kit that powers ONE's internal projects built on [ReactJS](reactjs.org) and [Sass](sass-lang.com).
+
+Check the [docs](dev-onenetworkecommerce.github.io/aia).
 
 ## Usage
 If you're using sass, you can simply import the `scss` file.
-```
+```sass
 @import "path/to/aia/main.scss";
 ```
 
 Otherwise, you can get the CSS file directly.
-```
+```html
 <link href="path/to/aia/aia.scss" rel="stylesheet">
 ```
 
