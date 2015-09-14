@@ -1,4 +1,4 @@
-## aia
+## aia [![npm version](http://img.shields.io/npm/v/aia.svg?style=flat-square)](https://npmjs.org/package/aia?style=flat-square) [![Build Status](https://img.shields.io/travis/dev-onenetworkecommerce/aia.svg?style=flat-square)](https://travis-ci.org/dev-onenetworkecommerce/aia?branch=master)
 ```
 npm install aia --save
 ```
