@@ -54,7 +54,7 @@ export default class Utilities extends React.Component {
             <h3 className="doc-heading">No Spacer</h3>
             <p>Add ._no-spacer to strictly remove the bottom margin</p>
             <div className="doc-block _spacer-small">._spacer-small</div>
-            <div className="doc-block _spacer _no-spacer">._no-spacer</div>
+            <div className="doc-block _no-spacer">._no-spacer</div>
             <div className="doc-block"></div>
           </section>
         </section>
