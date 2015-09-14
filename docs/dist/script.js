@@ -25815,7 +25815,7 @@
 	        ),
 	        _react2["default"].createElement(
 	          "section",
-	          null,
+	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
 	            "h1",
 	            { className: "doc-heading" },
@@ -25838,6 +25838,25 @@
 	                ".col-md-6 .centered"
 	              )
 	            )
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          null,
+	          _react2["default"].createElement(
+	            "h1",
+	            { className: "doc-heading" },
+	            "Container"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "Wrap site contents and house our grid system."
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "Use .container for a responsive fixed-width container."
 	          )
 	        )
 	      );

@@ -96,12 +96,18 @@ export default class Layout extends React.Component {
           </div>
         </section>
 
-        <section>
+        <section className="doc-bottom-space-large">
           <h1 className="doc-heading">Centered</h1>
           <p>Columns can be centered by adding .centered to the .column class.</p>
           <div className="row">
             <div className="col-md-6 centered"><div className="doc-block-grid">.col-md-6 .centered</div></div>
           </div>
+        </section>
+
+        <section>
+          <h1 className="doc-heading">Container</h1>
+          <p>Wrap site contents and house our grid system.</p>
+          <p>Use .container for a responsive fixed-width container.</p>
         </section>
       </div>
     );
