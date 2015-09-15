@@ -27,3 +27,7 @@
 ._spacer-small { margin-bottom: $spacer-small !important; }
 ._spacer { margin-bottom: $spacer !important; }
 ._spacer-large { margin-bottom: $spacer-large !important; }
+
+// Type
+._text-up { text-transform: uppercase; }
+._text-low { text-transform: lowercase; }
