@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.1.7 (September 15, 2015) - commit
+- Add text transform utilities
+
 ## v0.1.6 (September 15, 2015) - commit
 - Improve badge styling
 - Rename `*-lg` variables to `*-large`.
