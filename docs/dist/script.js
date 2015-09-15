@@ -25842,25 +25842,75 @@
 	          "section",
 	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
-	            "h1",
-	            { className: "doc-heading" },
-	            "Centered"
-	          ),
-	          _react2["default"].createElement(
-	            "p",
-	            null,
-	            "Columns can be centered by adding .centered to the .column class."
-	          ),
-	          _react2["default"].createElement(
-	            "div",
-	            { className: "row" },
+	            "section",
+	            { className: "doc-bottom-space" },
+	            _react2["default"].createElement(
+	              "h1",
+	              { className: "doc-heading" },
+	              "Centered"
+	            ),
 	            _react2["default"].createElement(
 	              "div",
-	              { className: "col-md-6 centered" },
+	              { className: "alert -sun" },
+	              "Previously as .centered. The .centered class will be deprecated in the future for ._centered."
+	            ),
+	            _react2["default"].createElement(
+	              "p",
+	              null,
+	              "Columns can be centered by adding ._centered to the .column class."
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "row" },
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "col-md-6 centered" },
+	                _react2["default"].createElement(
+	                  "div",
+	                  { className: "doc-block-grid" },
+	                  "._centered"
+	                )
+	              )
+	            )
+	          ),
+	          _react2["default"].createElement(
+	            "section",
+	            { className: "doc-bottom-space" },
+	            _react2["default"].createElement(
+	              "h1",
+	              { className: "doc-heading" },
+	              "Centered half-sized block"
+	            ),
+	            _react2["default"].createElement(
+	              "p",
+	              null,
+	              "You can use the grid to set the width of the block along with .centered to center a half-sized block"
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "col-md-6 centered doc-bottom-space" },
 	              _react2["default"].createElement(
 	                "div",
 	                { className: "doc-block-grid" },
-	                ".col-md-6 .centered"
+	                ".col-md-6 ._centered"
+	              )
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "col-md-8 centered doc-bottom-space" },
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "doc-block-grid" },
+	                ".col-md-8 ._centered"
+	              )
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "col-md-4 centered doc-bottom-space" },
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "doc-block-grid" },
+	                ".col-md-4 ._centered"
 	              )
 	            )
 	          )

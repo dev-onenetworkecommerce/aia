@@ -375,19 +375,26 @@ th {
   margin-bottom: 1.5rem !important; }
 
 ._text-up {
-  text-transform: uppercase; }
+  text-transform: uppercase !important; }
 
 ._text-low {
-  text-transform: lowercase; }
+  text-transform: lowercase !important; }
 
 ._text-left {
-  text-align: left; }
+  text-align: left !important; }
 
 ._text-center {
-  text-align: center; }
+  text-align: center !important; }
 
 ._text-right {
-  text-align: right; }
+  text-align: right !important; }
+
+.centered,
+._centered {
+  display: block !important;
+  float: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important; }
 
 h1, h2, h3, h4, h5, h6
 p, blockquote {
@@ -1083,12 +1090,6 @@ a {
     .col-xl-12 {
       float: left;
       width: 100%; } }
-
-.centered {
-  display: block;
-  float: none;
-  margin-left: auto;
-  margin-right: auto; }
 
 .form-control {
   display: block;

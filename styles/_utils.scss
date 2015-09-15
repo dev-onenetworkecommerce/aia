@@ -29,8 +29,17 @@
 ._spacer-large { margin-bottom: $spacer-large !important; }
 
 // Type
-._text-up { text-transform: uppercase; }
-._text-low { text-transform: lowercase; }
-._text-left { text-align: left; }
-._text-center { text-align: center; }
-._text-right { text-align: right; }
+._text-up { text-transform: uppercase !important; }
+._text-low { text-transform: lowercase !important; }
+._text-left { text-align: left !important; }
+._text-center { text-align: center !important; }
+._text-right { text-align: right !important; }
+
+// Center block
+.centered, // deprecating in the future
+._centered { // stays
+  display: block !important;
+  float: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}

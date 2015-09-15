@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.1.9 (September 15, 2015) - commit
+- Add `!important` priority for all utility classes.
+- Deprecate `centered`; add `._centered`.
+
 ## v0.1.8 (September 15, 2015) - commit
 - Add text alignment utilities
 
