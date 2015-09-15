@@ -380,6 +380,15 @@ th {
 ._text-low {
   text-transform: lowercase; }
 
+._text-left {
+  text-align: left; }
+
+._text-center {
+  text-align: center; }
+
+._text-right {
+  text-align: right; }
+
 h1, h2, h3, h4, h5, h6
 p, blockquote {
   margin-top: 0;
