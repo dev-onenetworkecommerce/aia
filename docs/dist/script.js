@@ -28673,6 +28673,30 @@
 	          "section",
 	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
+	            "h3",
+	            { className: "doc-heading" },
+	            "Text transforms"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "Use ._text-up or ._text-low"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            { className: "_text-up" },
+	            "Yolo please swag."
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            { className: "_text-low" },
+	            "YoLo PleAse SwaG."
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
 	            "section",
 	            { className: "doc-bottom-space" },
 	            _react2["default"].createElement(
@@ -28792,7 +28816,7 @@
 	            ),
 	            _react2["default"].createElement(
 	              "div",
-	              { className: "doc-block _spacer _no-spacer" },
+	              { className: "doc-block _no-spacer" },
 	              "._no-spacer"
 	            ),
 	            _react2["default"].createElement("div", { className: "doc-block" })

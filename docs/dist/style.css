@@ -374,6 +374,12 @@ th {
 ._spacer-large {
   margin-bottom: 1.5rem !important; }
 
+._text-up {
+  text-transform: uppercase; }
+
+._text-low {
+  text-transform: lowercase; }
+
 h1, h2, h3, h4, h5, h6
 p, blockquote {
   margin-top: 0;

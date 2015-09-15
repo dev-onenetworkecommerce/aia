@@ -18,6 +18,13 @@ export default class Utilities extends React.Component {
         </section>
 
         <section className="doc-bottom-space-large">
+          <h3 className="doc-heading">Text transforms</h3>
+          <p>Use ._text-up or ._text-low</p>
+          <p className="_text-up">Yolo please swag.</p>
+          <p className="_text-low">YoLo PleAse SwaG.</p>
+        </section>
+
+        <section className="doc-bottom-space-large">
           <section className="doc-bottom-space">
             <h3 className="doc-heading">Quick floats</h3>
             <p>Use these to float an element to left or right.</p>
