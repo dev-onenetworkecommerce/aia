@@ -28675,6 +28675,30 @@
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
+	            "Text alignment"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "Use ._text-center, ._text-left or ._text-right"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            { className: "_text-center" },
+	            "Yolo please swag."
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            { className: "_text-right" },
+	            "Yolo please swag."
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
+	            "h3",
+	            { className: "doc-heading" },
 	            "Text transforms"
 	          ),
 	          _react2["default"].createElement(

@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.1.8 (September 15, 2015) - commit
+- Add text alignment utilities
+
 ## v0.1.7 (September 15, 2015) - commit
 - Add text transform utilities
 

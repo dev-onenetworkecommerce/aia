@@ -18,6 +18,13 @@ export default class Utilities extends React.Component {
         </section>
 
         <section className="doc-bottom-space-large">
+          <h3 className="doc-heading">Text alignment</h3>
+          <p>Use ._text-center, ._text-left or ._text-right</p>
+          <p className="_text-center">Yolo please swag.</p>
+          <p className="_text-right">Yolo please swag.</p>
+        </section>
+
+        <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Text transforms</h3>
           <p>Use ._text-up or ._text-low</p>
           <p className="_text-up">Yolo please swag.</p>
