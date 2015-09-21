@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.1.10 (September 21, 2015) - commit
+- Fix vertical rhythm for text
+- Deprecate `.text-sky`, etc (text variants); add `._text-sky`, etc; Add `_` prefixes.
+
 ## v0.1.9 (September 15, 2015) - commit
 - Add `!important` priority for all utility classes.
 - Deprecate `centered`; add `._centered`.
