@@ -8,7 +8,7 @@
   margin-bottom: ($medium / 2);
 }
 
-h1, h2, h3, h4, h5, h6
+h1, h2, h3, h4, h5, h6,
 p, blockquote {
   @include vertical-rhythm;
 }
@@ -34,12 +34,6 @@ a {
     text-decoration: underline;
   }
 }
-
-.text-sky { color: $brand-sky; }
-.text-crimson { color: $brand-crimson; }
-.text-emerald { color: $brand-emerald; }
-.text-sun { color: $brand-sun; }
-.text-muted { color: $brand-gray-dk; }
 
 .lead {
   font-size: 20px;

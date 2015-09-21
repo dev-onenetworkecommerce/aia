@@ -389,6 +389,36 @@ th {
 ._text-right {
   text-align: right !important; }
 
+.text-sky {
+  color: #52B5E5; }
+
+.text-crimson {
+  color: #F05F50; }
+
+.text-emerald {
+  color: #38D4A9; }
+
+.text-sun {
+  color: #FFC05A; }
+
+.text-muted {
+  color: #78828A; }
+
+._text-sky {
+  color: #52B5E5; }
+
+._text-crimson {
+  color: #F05F50; }
+
+._text-emerald {
+  color: #38D4A9; }
+
+._text-sun {
+  color: #FFC05A; }
+
+._text-muted {
+  color: #78828A; }
+
 .centered,
 ._centered {
   display: block !important;
@@ -396,7 +426,7 @@ th {
   margin-left: auto !important;
   margin-right: auto !important; }
 
-h1, h2, h3, h4, h5, h6
+h1, h2, h3, h4, h5, h6,
 p, blockquote {
   margin-top: 0;
   margin-bottom: 16px; }
@@ -430,21 +460,6 @@ a {
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
-
-.text-sky {
-  color: #52B5E5; }
-
-.text-crimson {
-  color: #F05F50; }
-
-.text-emerald {
-  color: #38D4A9; }
-
-.text-sun {
-  color: #FFC05A; }
-
-.text-muted {
-  color: #78828A; }
 
 .lead {
   font-size: 20px;
