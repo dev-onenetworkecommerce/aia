@@ -29014,21 +29014,21 @@
   \********************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 	
-	Object.defineProperty(exports, '__esModule', {
+	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
 	
-	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 	
-	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
 	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 	
-	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
 	var _react = __webpack_require__(/*! react */ 1);
 	
@@ -29040,21 +29040,188 @@
 	  function Guidelines() {
 	    _classCallCheck(this, Guidelines);
 	
-	    _get(Object.getPrototypeOf(Guidelines.prototype), 'constructor', this).apply(this, arguments);
+	    _get(Object.getPrototypeOf(Guidelines.prototype), "constructor", this).apply(this, arguments);
 	  }
 	
 	  _createClass(Guidelines, [{
-	    key: 'render',
+	    key: "render",
 	    value: function render() {
-	      return _react2['default'].createElement('div', null);
+	      return _react2["default"].createElement(
+	        "div",
+	        null,
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
+	            "h1",
+	            { className: "doc-heading" },
+	            "Guidelines"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            { className: "lead" },
+	            "While not limited to, we have a set of guidelines and standards to keep our code consistent. This covers both JS and CSS."
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
+	            "section",
+	            { className: "doc-bottom-space" },
+	            _react2["default"].createElement(
+	              "h1",
+	              { className: "doc-heading" },
+	              "CSS Best Practices"
+	            ),
+	            _react2["default"].createElement(
+	              "ul",
+	              null,
+	              _react2["default"].createElement(
+	                "li",
+	                null,
+	                _react2["default"].createElement(
+	                  "a",
+	                  { href: "http://codeguide.co/" },
+	                  "Code Guide"
+	                ),
+	                " by ",
+	                _react2["default"].createElement(
+	                  "a",
+	                  { href: "http://twitter.com/mdo" },
+	                  "@mdo"
+	                )
+	              ),
+	              _react2["default"].createElement(
+	                "li",
+	                null,
+	                "If a ui component is to be reused for different purposes, do not use business-logic terms without a good reason."
+	              ),
+	              _react2["default"].createElement(
+	                "li",
+	                null,
+	                "2 spaces."
+	              ),
+	              _react2["default"].createElement(
+	                "li",
+	                null,
+	                "Do not use IDs, ~\\`**please**\\`~."
+	              ),
+	              _react2["default"].createElement(
+	                "li",
+	                null,
+	                "Do not use vendor prefixes (`-webkit-`, `-moz-`) unless necessary. We use ",
+	                _react2["default"].createElement(
+	                  "a",
+	                  { href: "//github.com/postcss/autoprefixer" },
+	                  "Autoprefixer"
+	                ),
+	                "."
+	              ),
+	              _react2["default"].createElement(
+	                "li",
+	                null,
+	                "Enable ",
+	                _react2["default"].createElement(
+	                  "a",
+	                  { href: "http://ricostacruz.com/cheatsheets/css-antialias" },
+	                  "CSS antialiasing"
+	                ),
+	                " globally"
+	              ),
+	              _react2["default"].createElement(
+	                "li",
+	                null,
+	                "Prefer to use a styleguide early on."
+	              ),
+	              _react2["default"].createElement(
+	                "li",
+	                null,
+	                "Refer to [rscss](https://github.com/rstacruz/rscss)"
+	              )
+	            )
+	          ),
+	          _react2["default"].createElement(
+	            "section",
+	            null,
+	            _react2["default"].createElement(
+	              "h3",
+	              { className: "doc-heading" },
+	              "Bootstrap"
+	            ),
+	            _react2["default"].createElement(
+	              "ul",
+	              null,
+	              _react2["default"].createElement(
+	                "li",
+	                null,
+	                "Refer to ",
+	                _react2["default"].createElement(
+	                  "a",
+	                  { href: "https://github.com/rstacruz/bootstrap-practices" },
+	                  "bootstrap-practices"
+	                )
+	              )
+	            )
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          null,
+	          _react2["default"].createElement(
+	            "h1",
+	            { className: "doc-heading" },
+	            "JavaScript"
+	          ),
+	          _react2["default"].createElement(
+	            "ul",
+	            null,
+	            _react2["default"].createElement(
+	              "li",
+	              null,
+	              "Use semicolons;"
+	            ),
+	            _react2["default"].createElement(
+	              "li",
+	              null,
+	              "Commas last,"
+	            ),
+	            _react2["default"].createElement(
+	              "li",
+	              null,
+	              "2 spaces for indentation (no tabs)"
+	            ),
+	            _react2["default"].createElement(
+	              "li",
+	              null,
+	              "Prefer ' over \""
+	            ),
+	            _react2["default"].createElement(
+	              "li",
+	              null,
+	              "80 character line length"
+	            ),
+	            _react2["default"].createElement(
+	              "li",
+	              null,
+	              "\"Attractive\""
+	            ),
+	            _react2["default"].createElement(
+	              "li",
+	              null,
+	              "Do not use the optional parameters of setTimeout and setInterval"
+	            )
+	          )
+	        )
+	      );
 	    }
 	  }]);
 	
 	  return Guidelines;
-	})(_react2['default'].Component);
+	})(_react2["default"].Component);
 	
-	exports['default'] = Guidelines;
-	module.exports = exports['default'];
+	exports["default"] = Guidelines;
+	module.exports = exports["default"];
 
 /***/ }
 /******/ ]);
