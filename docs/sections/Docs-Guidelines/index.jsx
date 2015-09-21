@@ -25,11 +25,24 @@ export default class Guidelines extends React.Component {
           </section>
 
           <section>
-            <h1 className="doc-heading">Bootstrap</h1>
+            <h3 className="doc-heading">Bootstrap</h3>
             <ul>
-              <li>Refer to [**bootstrap-practices**](https://github.com/rstacruz/bootstrap-practices)</li>
+              <li>Refer to <a href="https://github.com/rstacruz/bootstrap-practices">bootstrap-practices</a></li>
             </ul>
           </section>
+        </section>
+
+        <section>
+          <h1 className="doc-heading">JavaScript</h1>
+          <ul>
+            <li>Use semicolons;</li>
+            <li>Commas last,</li>
+            <li>2 spaces for indentation (no tabs)</li>
+            <li>Prefer ' over "</li>
+            <li>80 character line length</li>
+            <li>"Attractive"</li>
+            <li>Do not use the optional parameters of setTimeout and setInterval</li>
+          </ul>
         </section>
       </div>
     );

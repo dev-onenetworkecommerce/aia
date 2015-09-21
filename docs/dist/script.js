@@ -29145,7 +29145,7 @@
 	            "section",
 	            null,
 	            _react2["default"].createElement(
-	              "h1",
+	              "h3",
 	              { className: "doc-heading" },
 	              "Bootstrap"
 	            ),
@@ -29155,8 +29155,61 @@
 	              _react2["default"].createElement(
 	                "li",
 	                null,
-	                "Refer to [**bootstrap-practices**](https://github.com/rstacruz/bootstrap-practices)"
+	                "Refer to ",
+	                _react2["default"].createElement(
+	                  "a",
+	                  { href: "https://github.com/rstacruz/bootstrap-practices" },
+	                  "bootstrap-practices"
+	                )
 	              )
+	            )
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          null,
+	          _react2["default"].createElement(
+	            "h1",
+	            { className: "doc-heading" },
+	            "JavaScript"
+	          ),
+	          _react2["default"].createElement(
+	            "ul",
+	            null,
+	            _react2["default"].createElement(
+	              "li",
+	              null,
+	              "Use semicolons;"
+	            ),
+	            _react2["default"].createElement(
+	              "li",
+	              null,
+	              "Commas last,"
+	            ),
+	            _react2["default"].createElement(
+	              "li",
+	              null,
+	              "2 spaces for indentation (no tabs)"
+	            ),
+	            _react2["default"].createElement(
+	              "li",
+	              null,
+	              "Prefer ' over \""
+	            ),
+	            _react2["default"].createElement(
+	              "li",
+	              null,
+	              "80 character line length"
+	            ),
+	            _react2["default"].createElement(
+	              "li",
+	              null,
+	              "\"Attractive\""
+	            ),
+	            _react2["default"].createElement(
+	              "li",
+	              null,
+	              "Do not use the optional parameters of setTimeout and setInterval"
 	            )
 	          )
 	        )
