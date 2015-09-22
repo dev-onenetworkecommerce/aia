@@ -15,11 +15,7 @@
   }
 
   &.-primary {
-    @include label-variant($brand-blue);
-  }
-
-  &.-crimson {
-    @include label-variant($brand-crimson);
+    @include label-variant($brand-primary);
   }
 
   &.-emerald {
@@ -32,5 +28,9 @@
 
    &.-sun {
     @include label-variant($brand-sun);
+  }
+
+  &.-crimson {
+    @include label-variant($brand-crimson);
   }
 }

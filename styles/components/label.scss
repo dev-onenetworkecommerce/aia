@@ -24,25 +24,22 @@
   }
 
   &.-primary {
-    @include label-variant($brand-blue);
-  }
-
-  &.-crimson {
-    @include label-variant($brand-crimson);
-  }
-
-  &.-emerald {
-    @include label-variant($brand-emerald);
+    @include label-variant($brand-primary);
   }
 
   &.-sky {
     @include label-variant($brand-sky);
   }
 
+  &.-emerald {
+    @include label-variant($brand-emerald);
+  }
+
    &.-sun {
     @include label-variant($brand-sun);
   }
+
+  &.-crimson {
+    @include label-variant($brand-crimson);
+  }
 }
-
-
-
