@@ -9,15 +9,15 @@
   }
 }
 
-@mixin btn-variant-inverted($local-color, $local-bg: $brand-white) {
-  color: $local-color;
-  background: $local-bg;
-  border-color: $local-color;
+@mixin btn-variant-inverted($color) {
+  background: transparent;
+  color: $color;
+  border-color: $color;
 
   &:hover,
   &:focus {
-    color: $local-bg;
-    background: $local-color;
+    color: $brand-white;
+    background: $color;
   }
 }
 
