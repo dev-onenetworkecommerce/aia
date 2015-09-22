@@ -10,15 +10,15 @@
   }
 }
 
-@mixin btn-variant-inverted($border) {
+@mixin btn-variant-inverted($color) {
   background: transparent;
-  color: $border-color;
-  border-color: $border-color;
+  color: $color;
+  border-color: $color;
 
   &:hover,
   &:focus {
     color: $brand-white;
-    background: $border-color;
+    background: $color;
   }
 }
 
