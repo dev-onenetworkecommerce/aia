@@ -443,6 +443,20 @@ th {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+  [class^="icon-"].-x2, [class*=" icon-"].-x2 {
+    font-size: 1.25rem; }
+  [class^="icon-"].-x3, [class*=" icon-"].-x3 {
+    font-size: 1.5rem; }
+  [class^="icon-"].-x4, [class*=" icon-"].-x4 {
+    font-size: 1.75rem; }
+  [class^="icon-"].-x5, [class*=" icon-"].-x5 {
+    font-size: 2rem; }
+  [class^="icon-"].-x6, [class*=" icon-"].-x6 {
+    font-size: 2.25rem; }
+  [class^="icon-"].-x7, [class*=" icon-"].-x7 {
+    font-size: 2.5rem; }
+  [class^="icon-"].-x8, [class*=" icon-"].-x8 {
+    font-size: 2.75rem; }
 
 .icon-grab:before {
   content: "\e856"; }

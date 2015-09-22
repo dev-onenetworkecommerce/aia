@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.1.12 (September 22, 2015) - commit
+- Add icon sizes.
+
 ## v0.1.11 (September 22, 2015) - commit
 - Add `-primary` modifier for panels.
 - Add icons.
