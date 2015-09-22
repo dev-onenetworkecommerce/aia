@@ -28059,22 +28059,65 @@
 	          "section",
 	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
-	            "h3",
-	            { className: "doc-heading" },
-	            "Panel with Header and Body"
-	          ),
-	          _react2["default"].createElement(
-	            "div",
-	            { className: "panel -default" },
+	            "section",
+	            { className: "doc-bottom-space" },
 	            _react2["default"].createElement(
-	              "div",
-	              { className: "heading" },
-	              "Panel Title"
+	              "h3",
+	              { className: "doc-heading" },
+	              "Panel with Heading and Body"
+	            ),
+	            _react2["default"].createElement(
+	              "p",
+	              null,
+	              "Easily add a heading container to your panel with .panel-heading. You may also include any ",
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                '<h1>-<h6>'
+	              ),
+	              " with a ",
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                ".panel-title"
+	              ),
+	              " class to add a pre-styled heading."
 	            ),
 	            _react2["default"].createElement(
 	              "div",
-	              { className: "body" },
-	              "Panel Body"
+	              { className: "panel -default" },
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "heading" },
+	                "Panel Title"
+	              ),
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "body" },
+	                "Panel Body"
+	              )
+	            )
+	          ),
+	          _react2["default"].createElement(
+	            "section",
+	            null,
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "panel -default" },
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "heading" },
+	                _react2["default"].createElement(
+	                  "h2",
+	                  null,
+	                  "Panel Title"
+	                )
+	              ),
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "body" },
+	                "Panel Body"
+	              )
 	            )
 	          )
 	        ),

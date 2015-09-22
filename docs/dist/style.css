@@ -4791,6 +4791,8 @@ body {
     padding: 10px 15px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
+  .panel > .heading > * {
+    margin-bottom: 0; }
   .panel > .body {
     padding: 15px; }
   .panel > .body + .body {
