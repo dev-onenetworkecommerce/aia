@@ -104,16 +104,16 @@ export default class Layout extends React.Component {
             </div>
             <p>Columns can be centered by adding ._centered to the .column class.</p>
             <div className="row">
-              <div className="col-md-6 centered"><div className="doc-block-grid">._centered</div></div>
+              <div className="col-md-6 _centered"><div className="doc-block-grid">._centered</div></div>
             </div>
           </section>
 
           <section className="doc-bottom-space">
             <h1 className="doc-heading">Centered half-sized block</h1>
             <p>You can use the grid to set the width of the block along with .centered to center a half-sized block</p>
-            <div className="col-md-6 centered doc-bottom-space"><div className="doc-block-grid">.col-md-6 ._centered</div></div>
-            <div className="col-md-8 centered doc-bottom-space"><div className="doc-block-grid">.col-md-8 ._centered</div></div>
-            <div className="col-md-4 centered doc-bottom-space"><div className="doc-block-grid">.col-md-4 ._centered</div></div>
+            <div className="col-md-6 _centered doc-bottom-space"><div className="doc-block-grid">.col-md-6 ._centered</div></div>
+            <div className="col-md-8 _centered doc-bottom-space"><div className="doc-block-grid">.col-md-8 ._centered</div></div>
+            <div className="col-md-4 _centered doc-bottom-space"><div className="doc-block-grid">.col-md-4 ._centered</div></div>
           </section>
         </section>
       </div>

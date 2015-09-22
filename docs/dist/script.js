@@ -25864,7 +25864,7 @@
 	              { className: "row" },
 	              _react2["default"].createElement(
 	                "div",
-	                { className: "col-md-6 centered" },
+	                { className: "col-md-6 _centered" },
 	                _react2["default"].createElement(
 	                  "div",
 	                  { className: "doc-block-grid" },
@@ -25888,7 +25888,7 @@
 	            ),
 	            _react2["default"].createElement(
 	              "div",
-	              { className: "col-md-6 centered doc-bottom-space" },
+	              { className: "col-md-6 _centered doc-bottom-space" },
 	              _react2["default"].createElement(
 	                "div",
 	                { className: "doc-block-grid" },
@@ -25897,7 +25897,7 @@
 	            ),
 	            _react2["default"].createElement(
 	              "div",
-	              { className: "col-md-8 centered doc-bottom-space" },
+	              { className: "col-md-8 _centered doc-bottom-space" },
 	              _react2["default"].createElement(
 	                "div",
 	                { className: "doc-block-grid" },
@@ -25906,7 +25906,7 @@
 	            ),
 	            _react2["default"].createElement(
 	              "div",
-	              { className: "col-md-4 centered doc-bottom-space" },
+	              { className: "col-md-4 _centered doc-bottom-space" },
 	              _react2["default"].createElement(
 	                "div",
 	                { className: "doc-block-grid" },
@@ -28868,7 +28868,7 @@
 	          ),
 	          _react2["default"].createElement(
 	            "div",
-	            { className: "slate col-md-6 centered" },
+	            { className: "slate col-md-6 _centered" },
 	            _react2["default"].createElement(
 	              "h2",
 	              null,
@@ -28887,7 +28887,7 @@
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
-	            "Slate With Icons"
+	            "Slate with Icons"
 	          ),
 	          _react2["default"].createElement(
 	            "p",
@@ -28896,12 +28896,12 @@
 	          ),
 	          _react2["default"].createElement(
 	            "div",
-	            { className: "slate col-md-6 centered" },
+	            { className: "slate col-md-6 _centered" },
 	            _react2["default"].createElement("i", { className: "icon icon-cog -x8" }),
 	            _react2["default"].createElement(
 	              "h2",
 	              null,
-	              "Centered Half Slate"
+	              "Half Slate with Icons"
 	            ),
 	            _react2["default"].createElement(
 	              "small",

@@ -45,18 +45,18 @@ export default class Slate extends React.Component {
         <div className="row doc-bottom-space">
           <h3 className="doc-heading">Centered Half Slate</h3>
           <p>With the centered grid column, you can center a slate.</p>
-          <div className="slate col-md-6 centered">
+          <div className="slate col-md-6 _centered">
             <h2>Centered Half Slate</h2>
             <small>Centered slate with 50% width</small>
           </div>
         </div>
 
         <div className="doc-bottom-space">
-          <h3 className="doc-heading">Slate With Icons</h3>
+          <h3 className="doc-heading">Slate with Icons</h3>
           <p>Icons are automatically given a margin of `$spacer-large`.</p>
-          <div className="slate col-md-6 centered">
+          <div className="slate col-md-6 _centered">
             <i className="icon icon-cog -x8" />
-            <h2>Centered Half Slate</h2>
+            <h2>Half Slate with Icons</h2>
             <small>Centered slate with 50% width</small>
           </div>
         </div>
