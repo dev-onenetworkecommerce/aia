@@ -38,6 +38,10 @@
 		@include panel-variant($brand-gray);
 	}
 
+  &.-primary {
+    @include panel-variant($brand-blue);
+  }
+
 	&.-sky {
 		@include panel-variant($brand-sky);
 	}
