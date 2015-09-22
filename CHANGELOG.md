@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.1.11 (September 22, 2015) - commit
+- Add `-primary` modifier for panels.
+- Add icons.
+
 ## v0.1.10 (September 21, 2015) - commit
 - Fix vertical rhythm for text
 - Deprecate `.text-sky`, etc (text variants); add `._text-sky`, etc; Add `_` prefixes.
