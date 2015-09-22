@@ -14,6 +14,11 @@
 	}
 
   > .icon:first-child {
+    display: block;
     margin-bottom: $spacer-large;
+  }
+
+  > *:last-child {
+    margin-bottom: 0;
   }
 }
