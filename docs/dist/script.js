@@ -27285,19 +27285,77 @@
 	        'div',
 	        null,
 	        _react2['default'].createElement(
-	          'h1',
-	          { className: 'doc-heading' },
-	          'Icons'
+	          'section',
+	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            'h1',
+	            { className: 'doc-heading' },
+	            'Icons'
+	          ),
+	          _react2['default'].createElement(
+	            'p',
+	            { className: 'lead' },
+	            'To do.'
+	          ),
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'row' },
+	            this.renderIcons()
+	          )
 	        ),
 	        _react2['default'].createElement(
-	          'p',
-	          { className: 'lead' },
-	          'To do.'
-	        ),
-	        _react2['default'].createElement(
-	          'div',
-	          { className: 'row' },
-	          this.renderIcons()
+	          'section',
+	          null,
+	          _react2['default'].createElement(
+	            'h1',
+	            { className: 'doc-heading' },
+	            'Sizes'
+	          ),
+	          _react2['default'].createElement(
+	            'p',
+	            null,
+	            'Simply add `-x2`, `-x3` til `-x8` as a modifier'
+	          ),
+	          _react2['default'].createElement(
+	            'div',
+	            null,
+	            _react2['default'].createElement('i', { className: '' + PREFIX + ICONS[0] })
+	          ),
+	          _react2['default'].createElement(
+	            'div',
+	            null,
+	            _react2['default'].createElement('i', { className: '' + PREFIX + ICONS[0] + ' -x2' })
+	          ),
+	          _react2['default'].createElement(
+	            'div',
+	            null,
+	            _react2['default'].createElement('i', { className: '' + PREFIX + ICONS[0] + ' -x3' })
+	          ),
+	          _react2['default'].createElement(
+	            'div',
+	            null,
+	            _react2['default'].createElement('i', { className: '' + PREFIX + ICONS[0] + ' -x4' })
+	          ),
+	          _react2['default'].createElement(
+	            'div',
+	            null,
+	            _react2['default'].createElement('i', { className: '' + PREFIX + ICONS[0] + ' -x5' })
+	          ),
+	          _react2['default'].createElement(
+	            'div',
+	            null,
+	            _react2['default'].createElement('i', { className: '' + PREFIX + ICONS[0] + ' -x6' })
+	          ),
+	          _react2['default'].createElement(
+	            'div',
+	            null,
+	            _react2['default'].createElement('i', { className: '' + PREFIX + ICONS[0] + ' -x7' })
+	          ),
+	          _react2['default'].createElement(
+	            'div',
+	            null,
+	            _react2['default'].createElement('i', { className: '' + PREFIX + ICONS[0] + ' -x8' })
+	          )
 	        )
 	      );
 	    }

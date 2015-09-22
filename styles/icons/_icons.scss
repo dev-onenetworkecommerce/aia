@@ -21,6 +21,14 @@
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  &.-x2 { font-size: 1.25rem; }
+  &.-x3 { font-size: 1.5rem; }
+  &.-x4 { font-size: 1.75rem; }
+  &.-x5 { font-size: 2rem; }
+  &.-x6 { font-size: 2.25rem; }
+  &.-x7 { font-size: 2.5rem; }
+  &.-x8 { font-size: 2.75rem; }
 }
 
 .icon-grab:before {

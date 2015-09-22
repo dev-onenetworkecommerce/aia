@@ -1098,12 +1098,27 @@ export default class Icons extends React.Component {
   render() {
     return (
       <div>
-        <h1 className="doc-heading">Icons</h1>
-        <p className="lead">To do.</p>
+        <section className="doc-bottom-space-large">
+          <h1 className="doc-heading">Icons</h1>
+          <p className="lead">To do.</p>
 
-        <div className="row">
-          {this.renderIcons()}
-        </div>
+          <div className="row">
+            {this.renderIcons()}
+          </div>
+        </section>
+
+        <section>
+          <h1 className="doc-heading">Sizes</h1>
+          <p>Simply add `-x2`, `-x3` til `-x8` as a modifier</p>
+          <div><i className={`${PREFIX}${ICONS[0]}`} /></div>
+          <div><i className={`${PREFIX}${ICONS[0]} -x2`} /></div>
+          <div><i className={`${PREFIX}${ICONS[0]} -x3`} /></div>
+          <div><i className={`${PREFIX}${ICONS[0]} -x4`} /></div>
+          <div><i className={`${PREFIX}${ICONS[0]} -x5`} /></div>
+          <div><i className={`${PREFIX}${ICONS[0]} -x6`} /></div>
+          <div><i className={`${PREFIX}${ICONS[0]} -x7`} /></div>
+          <div><i className={`${PREFIX}${ICONS[0]} -x8`} /></div>
+        </section>
       </div>
     );
   }
