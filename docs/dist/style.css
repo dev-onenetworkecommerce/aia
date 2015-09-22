@@ -1503,6 +1503,14 @@ body {
     .panel.-default > .footer {
       background: #C4C4C4;
       color: #fff; }
+  .panel.-primary {
+    border-color: #4684BF; }
+    .panel.-primary > .heading {
+      background: #4684BF;
+      color: #fff; }
+    .panel.-primary > .footer {
+      background: #4684BF;
+      color: #fff; }
   .panel.-sky {
     border-color: #52B5E5; }
     .panel.-sky > .heading {

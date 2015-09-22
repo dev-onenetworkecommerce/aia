@@ -31,6 +31,11 @@ export default class Panels extends React.Component {
 
         <section className="doc-bottom-space-large">
         	<h2>Contextual Alternatives</h2>
+            <div className="panel -primary doc-bottom-space">
+                <div className="heading">Panel Title</div>
+                <div className="body">Panel Body</div>
+            </div>
+            
         	<div className="panel -sky doc-bottom-space">
         		<div className="heading">Panel Title</div>
         		<div className="body">Panel Body</div>
