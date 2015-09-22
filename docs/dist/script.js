@@ -25024,7 +25024,7 @@
 	              ),
 	              _react2['default'].createElement(
 	                'a',
-	                { href: '//github.com/dev-onenetworkecommerce/june', target: '_blank' },
+	                { href: '//github.com/dev-onenetworkecommerce/aia', target: '_blank' },
 	                'Github'
 	              )
 	            )
