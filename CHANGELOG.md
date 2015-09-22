@@ -1,7 +1,8 @@
 # Changelog
 
-## v0.1.13 (September 22, 2015) - commit
-- Update `.panel` to work with multiple `.body`.
+## v0.1.14 (September 22, 2015) - commit
+- Rename `$brand-blue` color to `$brand-primary`.
+- Fix `$brand-primary` and `$brand-sky-dk` hex values (by simply switching the values).
 
 ## v0.1.12 (September 22, 2015) - commit
 - Add icon sizes.
