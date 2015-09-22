@@ -7,14 +7,14 @@ export default class Panels extends React.Component {
         <h1 className="doc-heading">Panels</h1>
 
         <section className="doc-bottom-space-large">
-      		<h2>Basic Panel</h2>
+      		<h3 className="doc-heading">Basic Panel</h3>
       		<div className="panel -default">
       			<div className="body">Basic Panel Example</div>
       		</div>
         </section>
 
         <section className="doc-bottom-space-large">
-      		<h2>Panel with Header and Body</h2>
+      		<h3 className="doc-heading">Panel with Header and Body</h3>
         	<div className="panel -default">
         		<div className="heading">Panel Title</div>
         		<div className="body">Panel Body</div>
@@ -22,7 +22,7 @@ export default class Panels extends React.Component {
         </section>
 
         <section className="doc-bottom-space-large">
-        	<h2>Panel with Footer and Body </h2>
+        	<h3 className="doc-heading">Panel with Footer and Body</h3>
         	<div className="panel -default">
         		<div className="body">Panel Body</div>
         		<div className="footer">Panel Footer</div>
@@ -30,12 +30,12 @@ export default class Panels extends React.Component {
         </section>
 
         <section className="doc-bottom-space-large">
-        	<h2>Contextual Alternatives</h2>
-            <div className="panel -primary doc-bottom-space">
-                <div className="heading">Panel Title</div>
-                <div className="body">Panel Body</div>
-            </div>
-            
+        	<h3 className="doc-heading">Contextual Alternatives</h3>
+          <div className="panel -primary doc-bottom-space">
+              <div className="heading">Panel Title</div>
+              <div className="body">Panel Body</div>
+          </div>
+
         	<div className="panel -sky doc-bottom-space">
         		<div className="heading">Panel Title</div>
         		<div className="body">Panel Body</div>
@@ -55,6 +55,29 @@ export default class Panels extends React.Component {
         		<div className="heading">Panel Title</div>
         		<div className="body">Panel Body</div>
         	</div>
+        </section>
+
+        <section className="doc-bottom-space-large">
+          <h3 className="doc-heading">Panel with Multiple Body</h3>
+          <div className="panel -default">
+            <div className="heading">Panel Title</div>
+            <div className="body">Hey, I'm a body!</div>
+            <div className="body">Oh gosh, I'm also a body!</div>
+            <div className="body">
+              <h4>Favorites:</h4>
+              <div className="doc-bottom-space">
+                <i className="icon-star-full" />
+                <i className="icon-star-full" />
+                <i className="icon-star-full" />
+              </div>
+              <div>
+                <i className="icon-star-full" />
+                <i className="icon-star-full" />
+                <i className="icon-star-empty" />
+              </div>
+            </div>
+            <div className="footer">Footer</div>
+          </div>
         </section>
 
         <section className="doc-bottom-space-large">

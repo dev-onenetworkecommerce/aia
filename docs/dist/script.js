@@ -28041,8 +28041,8 @@
 	          "section",
 	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
-	            "h2",
-	            null,
+	            "h3",
+	            { className: "doc-heading" },
 	            "Basic Panel"
 	          ),
 	          _react2["default"].createElement(
@@ -28059,8 +28059,8 @@
 	          "section",
 	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
-	            "h2",
-	            null,
+	            "h3",
+	            { className: "doc-heading" },
 	            "Panel with Header and Body"
 	          ),
 	          _react2["default"].createElement(
@@ -28082,9 +28082,9 @@
 	          "section",
 	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
-	            "h2",
-	            null,
-	            "Panel with Footer and Body "
+	            "h3",
+	            { className: "doc-heading" },
+	            "Panel with Footer and Body"
 	          ),
 	          _react2["default"].createElement(
 	            "div",
@@ -28105,8 +28105,8 @@
 	          "section",
 	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
-	            "h2",
-	            null,
+	            "h3",
+	            { className: "doc-heading" },
 	            "Contextual Alternatives"
 	          ),
 	          _react2["default"].createElement(
@@ -28177,6 +28177,62 @@
 	              "div",
 	              { className: "body" },
 	              "Panel Body"
+	            )
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
+	            "h3",
+	            { className: "doc-heading" },
+	            "Panel with Multiple Body"
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "panel -default" },
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "heading" },
+	              "Panel Title"
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "body" },
+	              "Hey, I'm a body!"
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "body" },
+	              "Oh gosh, I'm also a body!"
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "body" },
+	              _react2["default"].createElement(
+	                "h4",
+	                null,
+	                "Favorites:"
+	              ),
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "doc-bottom-space" },
+	                _react2["default"].createElement("i", { className: "icon-star-full" }),
+	                _react2["default"].createElement("i", { className: "icon-star-full" }),
+	                _react2["default"].createElement("i", { className: "icon-star-full" })
+	              ),
+	              _react2["default"].createElement(
+	                "div",
+	                null,
+	                _react2["default"].createElement("i", { className: "icon-star-full" }),
+	                _react2["default"].createElement("i", { className: "icon-star-full" }),
+	                _react2["default"].createElement("i", { className: "icon-star-empty" })
+	              )
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "footer" },
+	              "Footer"
 	            )
 	          )
 	        ),

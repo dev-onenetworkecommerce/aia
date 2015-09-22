@@ -6,6 +6,10 @@
     color: $color;
 	}
 
+  > .body + .body {
+    border-color: $bg;
+  }
+
 	& > .footer {
 		background: $bg;
     color: $color;
@@ -26,6 +30,10 @@
 
   > .body {
     padding: 15px;
+  }
+
+  > .body + .body {
+    border-top: 1px solid;
   }
 
   > .footer {

@@ -4793,6 +4793,8 @@ body {
     border-top-right-radius: 3px; }
   .panel > .body {
     padding: 15px; }
+  .panel > .body + .body {
+    border-top: 1px solid; }
   .panel > .footer {
     padding: 10px 15px;
     border-bottom-left-radius: 3px;
@@ -4802,6 +4804,8 @@ body {
     .panel.-default > .heading {
       background: #C4C4C4;
       color: #fff; }
+    .panel.-default > .body + .body {
+      border-color: #C4C4C4; }
     .panel.-default > .footer {
       background: #C4C4C4;
       color: #fff; }
@@ -4810,6 +4814,8 @@ body {
     .panel.-primary > .heading {
       background: #4684BF;
       color: #fff; }
+    .panel.-primary > .body + .body {
+      border-color: #4684BF; }
     .panel.-primary > .footer {
       background: #4684BF;
       color: #fff; }
@@ -4818,6 +4824,8 @@ body {
     .panel.-sky > .heading {
       background: #52B5E5;
       color: #fff; }
+    .panel.-sky > .body + .body {
+      border-color: #52B5E5; }
     .panel.-sky > .footer {
       background: #52B5E5;
       color: #fff; }
@@ -4826,6 +4834,8 @@ body {
     .panel.-emerald > .heading {
       background: #38D4A9;
       color: #fff; }
+    .panel.-emerald > .body + .body {
+      border-color: #38D4A9; }
     .panel.-emerald > .footer {
       background: #38D4A9;
       color: #fff; }
@@ -4834,6 +4844,8 @@ body {
     .panel.-sun > .heading {
       background: #FFC05A;
       color: #fff; }
+    .panel.-sun > .body + .body {
+      border-color: #FFC05A; }
     .panel.-sun > .footer {
       background: #FFC05A;
       color: #fff; }
@@ -4842,6 +4854,8 @@ body {
     .panel.-crimson > .heading {
       background: #F05F50;
       color: #fff; }
+    .panel.-crimson > .body + .body {
+      border-color: #F05F50; }
     .panel.-crimson > .footer {
       background: #F05F50;
       color: #fff; }
