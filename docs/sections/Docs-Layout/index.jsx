@@ -99,7 +99,7 @@ export default class Layout extends React.Component {
         <section className="doc-bottom-space-large">
           <section className="doc-bottom-space">
             <h1 className="doc-heading">Centered</h1>
-            <div className="alert -sun">
+            <div className="alert -sun _spacer">
               Previously as .centered. The .centered class will be deprecated in the future for ._centered.
             </div>
             <p>Columns can be centered by adding ._centered to the .column class.</p>

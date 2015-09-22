@@ -25851,7 +25851,7 @@
 	            ),
 	            _react2["default"].createElement(
 	              "div",
-	              { className: "alert -sun" },
+	              { className: "alert -sun _spacer" },
 	              "Previously as .centered. The .centered class will be deprecated in the future for ._centered."
 	            ),
 	            _react2["default"].createElement(
