@@ -36,13 +36,6 @@
 ._text-right { text-align: right !important; }
 
 // Text color variants
-// for deprecations
-.text-sky { color: $brand-sky; }
-.text-crimson { color: $brand-crimson; }
-.text-emerald { color: $brand-emerald; }
-.text-sun { color: $brand-sun; }
-.text-muted { color: $brand-gray-dk; }
-// replacements for the above :D
 ._text-sky { color: $brand-sky; }
 ._text-crimson { color: $brand-crimson; }
 ._text-emerald { color: $brand-emerald; }
@@ -50,8 +43,7 @@
 ._text-muted { color: $brand-gray-dk; }
 
 // Center block
-.centered, // deprecating in the future
-._centered { // stays
+._centered {
   display: block !important;
   float: none !important;
   margin-left: auto !important;
