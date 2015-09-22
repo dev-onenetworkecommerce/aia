@@ -8,7 +8,8 @@
     "server": "node_modules/.bin/http-server -p 3000",
     "watch:script": "webpack -w -d -v",
     "build:style": "sass -r sass-css-importer styles/main.scss:dist/style.css",
-    "watch:style": "sass --watch -r sass-css-importer styles/main.scss:dist/style.css"
+    "watch:style": "sass --watch -r sass-css-importer styles/main.scss:dist/style.css",
+    "copy:fonts": "cp ../styles/icons/one-icons.* dist/fonts"
   },
   "author": "",
   "license": "ISC",
