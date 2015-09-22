@@ -52,6 +52,5 @@ Big thanks to our inspirations:
 - [Primer](primercss.io)
 - [Bootstrap](getbootstrap.com)
 - [Rico Sta. Cruz](rscss.io)
-- JC Ricaro
 
 **aia** should never be used outside of officially endorsed ONE products or without explicit permission.
