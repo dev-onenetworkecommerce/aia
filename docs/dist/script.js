@@ -28583,6 +28583,45 @@
 	              )
 	            )
 	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          null,
+	          _react2["default"].createElement(
+	            "h2",
+	            { className: "doc-heading" },
+	            "Example: Item with Icons"
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "row" },
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "col-md-4" },
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "list-group" },
+	                _react2["default"].createElement(
+	                  "a",
+	                  { href: "#", className: "menuitem -selected" },
+	                  _react2["default"].createElement("i", { className: "icon icon-home" }),
+	                  "Home"
+	                ),
+	                _react2["default"].createElement(
+	                  "a",
+	                  { className: "menuitem", href: "#" },
+	                  _react2["default"].createElement("i", { className: "icon icon-profile2" }),
+	                  "About"
+	                ),
+	                _react2["default"].createElement(
+	                  "a",
+	                  { className: "menuitem", href: "#" },
+	                  _react2["default"].createElement("i", { className: "icon icon-download4" }),
+	                  "Downloads"
+	                )
+	              )
+	            )
+	          )
 	        )
 	      );
 	    }
@@ -28730,7 +28769,7 @@
 	          "section",
 	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
-	            "h1",
+	            "h3",
 	            { className: "doc-heading" },
 	            "Spacious Slate"
 	          ),

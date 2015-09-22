@@ -31,6 +31,19 @@ export default class ListGroup extends React.Component {
             </div>
           </div>
         </section>
+
+        <section>
+          <h2 className="doc-heading">Example: Item with Icons</h2>
+          <div className="row">
+            <div className="col-md-4">
+              <div className="list-group">
+                <a href="#" className="menuitem -selected"><i className="icon icon-home" />Home</a>
+                <a className="menuitem" href="#"><i className="icon icon-profile2" />About</a>
+                <a className="menuitem" href="#"><i className="icon icon-download4" />Downloads</a>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     );
   }
