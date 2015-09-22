@@ -9,7 +9,7 @@
 // new
 <i class="icon icon-yolo" />
 ```
-- Add icon utils for Slate and Alert.
+- Add icon utils for Slate, List Group, and Alert.
 
 ## v0.1.14 (September 22, 2015) - commit
 - Rename `$brand-blue` color to `$brand-primary`.

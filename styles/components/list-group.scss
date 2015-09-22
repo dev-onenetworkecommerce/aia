@@ -36,4 +36,12 @@
     cursor: default;
     background-color: $brand-white;
   }
+
+  > .menuitem > .icon {
+    color: $brand-black;
+  }
+
+  > .menuitem > .icon:first-child {
+    margin-right: 10px;
+  }
 }
