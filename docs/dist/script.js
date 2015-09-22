@@ -25210,32 +25210,32 @@
 	              { className: 'list-group doc-bottom-space', role: 'menu' },
 	              _react2['default'].createElement(
 	                _reactRouter.Link,
-	                { to: '/scaffolding', activeClass: '-selected', className: 'menuitem' },
+	                { to: '/scaffolding', activeClassName: '-selected', className: 'menuitem' },
 	                'Scaffolding'
 	              ),
 	              _react2['default'].createElement(
 	                _reactRouter.Link,
-	                { to: '/layout', activeClass: '-selected', className: 'menuitem' },
+	                { to: '/layout', activeClassName: '-selected', className: 'menuitem' },
 	                'Layout'
 	              ),
 	              _react2['default'].createElement(
 	                _reactRouter.Link,
-	                { to: '/type', activeClass: '-selected', className: 'menuitem' },
+	                { to: '/type', activeClassName: '-selected', className: 'menuitem' },
 	                'Type'
 	              ),
 	              _react2['default'].createElement(
 	                _reactRouter.Link,
-	                { to: '/tables', activeClass: '-selected', className: 'menuitem' },
+	                { to: '/tables', activeClassName: '-selected', className: 'menuitem' },
 	                'Tables'
 	              ),
 	              _react2['default'].createElement(
 	                _reactRouter.Link,
-	                { to: '/forms', activeClass: '-selected', className: 'menuitem' },
+	                { to: '/forms', activeClassName: '-selected', className: 'menuitem' },
 	                'Forms'
 	              ),
 	              _react2['default'].createElement(
 	                _reactRouter.Link,
-	                { to: '/utilities', activeClass: '-selected', className: 'menuitem' },
+	                { to: '/utilities', activeClassName: '-selected', className: 'menuitem' },
 	                'Utilities'
 	              )
 	            ),
@@ -25244,42 +25244,42 @@
 	              { className: 'list-group doc-bottom-space', role: 'menu' },
 	              _react2['default'].createElement(
 	                _reactRouter.Link,
-	                { to: '/icons', activeClass: '-selected', className: 'menuitem' },
+	                { to: '/icons', activeClassName: '-selected', className: 'menuitem' },
 	                'Icons'
 	              ),
 	              _react2['default'].createElement(
 	                _reactRouter.Link,
-	                { to: '/buttons', activeClass: '-selected', className: 'menuitem' },
+	                { to: '/buttons', activeClassName: '-selected', className: 'menuitem' },
 	                'Buttons'
 	              ),
 	              _react2['default'].createElement(
 	                _reactRouter.Link,
-	                { to: '/nav', activeClass: '-selected', className: 'menuitem' },
+	                { to: '/nav', activeClassName: '-selected', className: 'menuitem' },
 	                'Nav'
 	              ),
 	              _react2['default'].createElement(
 	                _reactRouter.Link,
-	                { to: '/labels', activeClass: '-selected', className: 'menuitem' },
+	                { to: '/labels', activeClassName: '-selected', className: 'menuitem' },
 	                'Labels'
 	              ),
 	              _react2['default'].createElement(
 	                _reactRouter.Link,
-	                { to: '/alerts', activeClass: '-selected', className: 'menuitem' },
+	                { to: '/alerts', activeClassName: '-selected', className: 'menuitem' },
 	                'Alerts'
 	              ),
 	              _react2['default'].createElement(
 	                _reactRouter.Link,
-	                { to: '/list-group', activeClass: '-selected', className: 'menuitem' },
+	                { to: '/list-group', activeClassName: '-selected', className: 'menuitem' },
 	                'List Group'
 	              ),
 	              _react2['default'].createElement(
 	                _reactRouter.Link,
-	                { to: '/panels', activeClass: '-selected', className: 'menuitem' },
+	                { to: '/panels', activeClassName: '-selected', className: 'menuitem' },
 	                'Panels'
 	              ),
 	              _react2['default'].createElement(
 	                _reactRouter.Link,
-	                { to: '/slate', activeClass: '-selected', className: 'menuitem' },
+	                { to: '/slate', activeClassName: '-selected', className: 'menuitem' },
 	                'Slate'
 	              )
 	            ),
@@ -25288,12 +25288,12 @@
 	              { className: 'list-group', role: 'menu' },
 	              _react2['default'].createElement(
 	                _reactRouter.Link,
-	                { to: '/guidelines', activeClass: '-selected', className: 'menuitem' },
+	                { to: '/guidelines', activeClassName: '-selected', className: 'menuitem' },
 	                'Guidelines'
 	              ),
 	              _react2['default'].createElement(
 	                _reactRouter.Link,
-	                { to: '/colors', activeClass: '-selected', className: 'menuitem' },
+	                { to: '/colors', activeClassName: '-selected', className: 'menuitem' },
 	                'Colors'
 	              )
 	            )
