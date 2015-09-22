@@ -28963,20 +28963,24 @@
 	        "div",
 	        null,
 	        _react2["default"].createElement(
-	          "h1",
-	          { className: "doc-heading" },
-	          "Helper classes"
-	        ),
-	        _react2["default"].createElement(
-	          "p",
-	          { className: "lead" },
-	          "Utility classes are available for usage. ",
+	          "section",
+	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
-	            "strong",
-	            null,
-	            "But take note:"
+	            "h1",
+	            { className: "doc-heading" },
+	            "Helper classes"
 	          ),
-	          " Use them sparingly. "
+	          _react2["default"].createElement(
+	            "p",
+	            { className: "lead" },
+	            "Utility classes are available for usage. ",
+	            _react2["default"].createElement(
+	              "strong",
+	              null,
+	              "But take note:"
+	            ),
+	            " Use them sparingly. "
+	          )
 	        ),
 	        _react2["default"].createElement(
 	          "section",
@@ -28993,27 +28997,27 @@
 	          ),
 	          _react2["default"].createElement(
 	            "p",
-	            { className: "text-muted" },
+	            { className: "_text-muted" },
 	            "Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh."
 	          ),
 	          _react2["default"].createElement(
 	            "p",
-	            { className: "text-emerald" },
+	            { className: "_text-emerald" },
 	            "Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh."
 	          ),
 	          _react2["default"].createElement(
 	            "p",
-	            { className: "text-sky" },
+	            { className: "_text-sky" },
 	            "Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh."
 	          ),
 	          _react2["default"].createElement(
 	            "p",
-	            { className: "text-sun" },
+	            { className: "_text-sun" },
 	            "Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh."
 	          ),
 	          _react2["default"].createElement(
 	            "p",
-	            { className: "text-crimson" },
+	            { className: "_text-crimson" },
 	            "Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh."
 	          )
 	        ),
