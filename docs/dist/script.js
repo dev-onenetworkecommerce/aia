@@ -27490,7 +27490,7 @@
 	        ),
 	        _react2["default"].createElement(
 	          "section",
-	          null,
+	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
@@ -27504,6 +27504,21 @@
 	          _react2["default"].createElement(
 	            "div",
 	            { className: "alert -emerald -large" },
+	            "Oh snap! Change a few things up and try this submitting again."
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          null,
+	          _react2["default"].createElement(
+	            "h3",
+	            { className: "doc-heading" },
+	            "Example: With Icons"
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "alert -crimson" },
+	            _react2["default"].createElement("i", { className: "icon icon-alert" }),
 	            "Oh snap! Change a few things up and try this submitting again."
 	          )
 	        )
@@ -28815,6 +28830,35 @@
 	          _react2["default"].createElement(
 	            "div",
 	            { className: "slate col-md-6 centered" },
+	            _react2["default"].createElement(
+	              "h2",
+	              null,
+	              "Centered Half Slate"
+	            ),
+	            _react2["default"].createElement(
+	              "small",
+	              null,
+	              "Centered slate with 50% width"
+	            )
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "div",
+	          { className: "doc-bottom-space" },
+	          _react2["default"].createElement(
+	            "h3",
+	            { className: "doc-heading" },
+	            "Slate With Icons"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "Icons are automatically given a margin of `$spacer-large`."
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "slate col-md-6 centered" },
+	            _react2["default"].createElement("i", { className: "icon icon-cog -x8" }),
 	            _react2["default"].createElement(
 	              "h2",
 	              null,

@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.2.0 (September 22, 2015) - commit
+- Add `icon` class selector; remove `icon-` class pattern selector.
+```sass
+// old
+<i class="icon-yolo" />
+
+// new
+<i class="icon icon-yolo" />
+```
+- Add icon utils for Slate and Alert.
+
 ## v0.1.14 (September 22, 2015) - commit
 - Rename `$brand-blue` color to `$brand-primary`.
 - Fix `$brand-primary` and `$brand-sky-dk` hex values (by simply switching the values).

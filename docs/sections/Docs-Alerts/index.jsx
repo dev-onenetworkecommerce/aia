@@ -35,10 +35,18 @@ export default class Alerts extends React.Component {
           </div>
         </section>
 
-        <section>
+        <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Example: Large</h3>
           <p>Simply apply the .-large class.</p>
           <div className="alert -emerald -large">
+            Oh snap! Change a few things up and try this submitting again.
+          </div>
+        </section>
+
+        <section>
+          <h3 className="doc-heading">Example: With Icons</h3>
+          <div className="alert -crimson">
+            <i className="icon icon-alert" />
             Oh snap! Change a few things up and try this submitting again.
           </div>
         </section>

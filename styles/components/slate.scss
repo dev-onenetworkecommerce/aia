@@ -12,4 +12,8 @@
 	&.-plain {
 		background: $brand-white;
 	}
+
+  > .icon:first-child {
+    margin-bottom: $spacer-large;
+  }
 }

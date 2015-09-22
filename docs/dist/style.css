@@ -4704,6 +4704,8 @@ body {
   .alert.-block {
     border: 0;
     border-radius: 0; }
+  .alert > .icon:first-child {
+    margin-right: 10px; }
 
 .label {
   display: inline-block;
@@ -4898,6 +4900,8 @@ body {
     padding: 60px; }
   .slate.-plain {
     background: #fff; }
+  .slate > .icon:first-child {
+    margin-bottom: 1.5rem; }
 
 .nav {
   height: 50px;
