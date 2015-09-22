@@ -14,7 +14,7 @@ export default class Slate extends React.Component {
         </section>
 
         <section className="doc-bottom-space-large">
-          <h1 className="doc-heading">Spacious Slate</h1>
+          <h3 className="doc-heading">Spacious Slate</h3>
           <p>Add the .-spacious class to your slate.</p>
           <div className="slate -spacious">
             <h3>Slate spacious</h3>
