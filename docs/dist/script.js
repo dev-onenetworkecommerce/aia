@@ -27586,6 +27586,11 @@
 	          ),
 	          _react2["default"].createElement(
 	            "button",
+	            { className: "btn -primary" },
+	            "Primary"
+	          ),
+	          _react2["default"].createElement(
+	            "button",
 	            { className: "btn -sky" },
 	            "Sky"
 	          ),
@@ -27654,6 +27659,11 @@
 	          ),
 	          _react2["default"].createElement(
 	            "button",
+	            { className: "btn -inverted -primary" },
+	            "Button"
+	          ),
+	          _react2["default"].createElement(
+	            "button",
 	            { className: "btn -inverted -sky" },
 	            "Button"
 	          ),
@@ -27693,7 +27703,7 @@
 	          ),
 	          _react2["default"].createElement(
 	            "button",
-	            { className: "btn -default -sm -block" },
+	            { className: "btn -default -small -block" },
 	            "Small block button"
 	          )
 	        ),
@@ -28722,7 +28732,7 @@
 	            { className: "slate -spacious" },
 	            _react2["default"].createElement(
 	              "h3",
-	              { className: "doc-heading" },
+	              null,
 	              "Slate spacious"
 	            ),
 	            _react2["default"].createElement(

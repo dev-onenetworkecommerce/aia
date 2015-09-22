@@ -11,6 +11,7 @@ export default class Buttons extends React.Component {
 
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Variants</h3>
+          <button className="btn -primary">Primary</button>
           <button className="btn -sky">Sky</button>
           <button className="btn -emerald">Emerald</button>
           <button className="btn -sun">Sun</button>
@@ -29,6 +30,7 @@ export default class Buttons extends React.Component {
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Inverted</h3>
           <button className="btn -inverted -default">Button</button>
+          <button className="btn -inverted -primary">Button</button>
           <button className="btn -inverted -sky">Button</button>
           <button className="btn -inverted -sun">Button</button>
           <button className="btn -inverted -crimson">Button</button>
@@ -39,7 +41,7 @@ export default class Buttons extends React.Component {
           <h3 className="doc-heading">Block buttons</h3>
           <p>Make any button full-width by adding .btn-block. It adds width: 100%;, changes the display from inline-block to block, and centers the button text.</p>
           <button className="btn -default -block doc-bottom-space">Block button</button>
-          <button className="btn -default -sm -block">Small block button</button>
+          <button className="btn -default -small -block">Small block button</button>
         </section>
 
         <section className="doc-bottom-space-large">
