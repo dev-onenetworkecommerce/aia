@@ -3,6 +3,7 @@
 ## v0.1.14 (September 22, 2015) - commit
 - Rename `$brand-blue` color to `$brand-primary`.
 - Fix `$brand-primary` and `$brand-sky-dk` hex values (by simply switching the values).
+- Update active `list-group` `menuitem` to have default cursor when hovered (instead of a pointer).
 
 ## v0.1.12 (September 22, 2015) - commit
 - Add icon sizes.

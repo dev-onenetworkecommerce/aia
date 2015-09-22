@@ -4788,6 +4788,7 @@ body {
   .list-group > .menuitem.-selected {
     font-weight: bold;
     color: #4A4A4A;
+    cursor: default;
     background-color: #fff; }
 
 .panel {

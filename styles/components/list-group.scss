@@ -33,6 +33,7 @@
   > .menuitem.-selected {
     font-weight: bold;
     color: $brand-black;
+    cursor: default;
     background-color: $brand-white;
   }
 }
