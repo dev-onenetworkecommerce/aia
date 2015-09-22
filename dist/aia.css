@@ -389,21 +389,6 @@ th {
 ._text-right {
   text-align: right !important; }
 
-.text-sky {
-  color: #52B5E5; }
-
-.text-crimson {
-  color: #F05F50; }
-
-.text-emerald {
-  color: #38D4A9; }
-
-.text-sun {
-  color: #FFC05A; }
-
-.text-muted {
-  color: #78828A; }
-
 ._text-sky {
   color: #52B5E5; }
 
@@ -419,7 +404,6 @@ th {
 ._text-muted {
   color: #78828A; }
 
-.centered,
 ._centered {
   display: block !important;
   float: none !important;

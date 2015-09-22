@@ -10,6 +10,8 @@
 <i class="icon icon-yolo" />
 ```
 - Add icon utils for Slate, List Group, and Alert.
+- Remove `.centered.` (replaced with `._centered`).
+- Remove text color variants `.text-*.` (replaced with `._`; prefixed with `_`).
 
 ## v0.1.14 (September 22, 2015) - commit
 - Rename `$brand-blue` color to `$brand-primary`.
