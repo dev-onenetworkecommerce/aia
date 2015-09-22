@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.1.13 (September 22, 2015) - commit
+- Update `.panel` to work with multiple `.body`.
+
 ## v0.1.12 (September 22, 2015) - commit
 - Add icon sizes.
 
