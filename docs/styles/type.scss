@@ -1,5 +1,14 @@
 .doc-heading {
-  font-size: 200%;
-  font-weight: bold;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 900;
   border-bottom: 1px solid $brand-gray-lt;
 }
+
+h1.doc-heading { font-size: 20px; }
+h2.doc-heading { font-size: 18px; }
+h3.doc-heading { font-size: 16px; }
+h4.doc-heading { font-size: 14px; }
+h5.doc-heading { font-size: 13px; }
+h6.doc-heading { font-size: 11px; }
