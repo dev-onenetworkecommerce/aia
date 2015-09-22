@@ -4596,43 +4596,43 @@ body {
       color: #fff;
       background: #ffb641; }
   .btn.-inverted.-default {
+    background: transparent;
     color: #C4C4C4;
-    background: #fff;
     border-color: #C4C4C4; }
     .btn.-inverted.-default:hover, .btn.-inverted.-default:focus {
       color: #fff;
       background: #C4C4C4; }
   .btn.-inverted.-primary {
+    background: transparent;
     color: #3A569B;
-    background: #fff;
     border-color: #3A569B; }
     .btn.-inverted.-primary:hover, .btn.-inverted.-primary:focus {
       color: #fff;
       background: #3A569B; }
   .btn.-inverted.-sky {
+    background: transparent;
     color: #52B5E5;
-    background: #fff;
     border-color: #52B5E5; }
     .btn.-inverted.-sky:hover, .btn.-inverted.-sky:focus {
       color: #fff;
       background: #52B5E5; }
   .btn.-inverted.-emerald {
+    background: transparent;
     color: #38D4A9;
-    background: #fff;
     border-color: #38D4A9; }
     .btn.-inverted.-emerald:hover, .btn.-inverted.-emerald:focus {
       color: #fff;
       background: #38D4A9; }
   .btn.-inverted.-sun {
+    background: transparent;
     color: #FFC05A;
-    background: #fff;
     border-color: #FFC05A; }
     .btn.-inverted.-sun:hover, .btn.-inverted.-sun:focus {
       color: #fff;
       background: #FFC05A; }
   .btn.-inverted.-crimson {
+    background: transparent;
     color: #F05F50;
-    background: #fff;
     border-color: #F05F50; }
     .btn.-inverted.-crimson:hover, .btn.-inverted.-crimson:focus {
       color: #fff;
