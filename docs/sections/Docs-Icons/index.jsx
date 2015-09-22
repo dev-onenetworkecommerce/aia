@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PREFIX = 'icon-';
+const PREFIX = 'icon';
 const ICONS = [
   'grab',
   'back-link-tab',
@@ -1110,14 +1110,14 @@ export default class Icons extends React.Component {
         <section>
           <h1 className="doc-heading">Sizes</h1>
           <p>Simply add `-x2`, `-x3` til `-x8` as a modifier</p>
-          <div><i className={`${PREFIX}${ICONS[0]}`} /></div>
-          <div><i className={`${PREFIX}${ICONS[0]} -x2`} /></div>
-          <div><i className={`${PREFIX}${ICONS[0]} -x3`} /></div>
-          <div><i className={`${PREFIX}${ICONS[0]} -x4`} /></div>
-          <div><i className={`${PREFIX}${ICONS[0]} -x5`} /></div>
-          <div><i className={`${PREFIX}${ICONS[0]} -x6`} /></div>
-          <div><i className={`${PREFIX}${ICONS[0]} -x7`} /></div>
-          <div><i className={`${PREFIX}${ICONS[0]} -x8`} /></div>
+          <div><i className={`${PREFIX} ${PREFIX}${ICONS[0]}`} /></div>
+          <div><i className={`${PREFIX} ${PREFIX}-${ICONS[0]} -x2`} /></div>
+          <div><i className={`${PREFIX} ${PREFIX}-${ICONS[0]} -x3`} /></div>
+          <div><i className={`${PREFIX} ${PREFIX}-${ICONS[0]} -x4`} /></div>
+          <div><i className={`${PREFIX} ${PREFIX}-${ICONS[0]} -x5`} /></div>
+          <div><i className={`${PREFIX} ${PREFIX}-${ICONS[0]} -x6`} /></div>
+          <div><i className={`${PREFIX} ${PREFIX}-${ICONS[0]} -x7`} /></div>
+          <div><i className={`${PREFIX} ${PREFIX}-${ICONS[0]} -x8`} /></div>
         </section>
       </div>
     );
@@ -1128,8 +1128,8 @@ export default class Icons extends React.Component {
       <div className="col-lg-2 col-md-3 col-xs-4 doc-bottom-space" key={i}>
         <div className="icon-box">
           <div className="inner">
-            <div className="icon"><i className={`${PREFIX}${icon}`} /></div>
-            <small>{PREFIX}{icon}</small>
+            <div className={`${PREFIX} ${PREFIX}-${icon}`} />
+            <small>{PREFIX}-{icon}</small>
           </div>
         </div>
       </div>
