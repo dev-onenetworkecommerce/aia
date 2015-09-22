@@ -4561,36 +4561,37 @@ body {
   transition: 0.1s all; }
   .btn.-default {
     color: #4A4A4A;
-    background: #C4C4C4;
-    border-color: #C4C4C4; }
+    background: #C4C4C4; }
     .btn.-default:hover, .btn.-default:focus {
       color: #4A4A4A;
       background: #b7b7b7; }
+  .btn.-primary {
+    color: #fff;
+    background: #3A569B; }
+    .btn.-primary:hover, .btn.-primary:focus {
+      color: #fff;
+      background: #334c88; }
   .btn.-sky {
     color: #fff;
-    background: #52B5E5;
-    border-color: #52B5E5; }
+    background: #52B5E5; }
     .btn.-sky:hover, .btn.-sky:focus {
       color: #fff;
       background: #3cace2; }
   .btn.-emerald {
     color: #fff;
-    background: #38D4A9;
-    border-color: #38D4A9; }
+    background: #38D4A9; }
     .btn.-emerald:hover, .btn.-emerald:focus {
       color: #fff;
       background: #2bc79c; }
   .btn.-crimson {
     color: #fff;
-    background: #F05F50;
-    border-color: #F05F50; }
+    background: #F05F50; }
     .btn.-crimson:hover, .btn.-crimson:focus {
       color: #fff;
       background: #ee4a39; }
   .btn.-sun {
     color: #fff;
-    background: #FFC05A;
-    border-color: #FFC05A; }
+    background: #FFC05A; }
     .btn.-sun:hover, .btn.-sun:focus {
       color: #fff;
       background: #ffb641; }
@@ -4601,6 +4602,13 @@ body {
     .btn.-inverted.-default:hover, .btn.-inverted.-default:focus {
       color: #fff;
       background: #C4C4C4; }
+  .btn.-inverted.-primary {
+    color: #3A569B;
+    background: #fff;
+    border-color: #3A569B; }
+    .btn.-inverted.-primary:hover, .btn.-inverted.-primary:focus {
+      color: #fff;
+      background: #3A569B; }
   .btn.-inverted.-sky {
     color: #52B5E5;
     background: #fff;
@@ -4715,19 +4723,19 @@ body {
     background-color: #C4C4C4; }
   .label.-primary {
     color: #fff;
-    background-color: #4684BF; }
-  .label.-crimson {
-    color: #fff;
-    background-color: #F05F50; }
-  .label.-emerald {
-    color: #fff;
-    background-color: #38D4A9; }
+    background-color: #3A569B; }
   .label.-sky {
     color: #fff;
     background-color: #52B5E5; }
+  .label.-emerald {
+    color: #fff;
+    background-color: #38D4A9; }
   .label.-sun {
     color: #fff;
     background-color: #FFC05A; }
+  .label.-crimson {
+    color: #fff;
+    background-color: #F05F50; }
 
 .badge {
   display: inline-block;
@@ -4739,10 +4747,7 @@ body {
     background-color: #C4C4C4; }
   .badge.-primary {
     color: #fff;
-    background-color: #4684BF; }
-  .badge.-crimson {
-    color: #fff;
-    background-color: #F05F50; }
+    background-color: #3A569B; }
   .badge.-emerald {
     color: #fff;
     background-color: #38D4A9; }
@@ -4752,6 +4757,9 @@ body {
   .badge.-sun {
     color: #fff;
     background-color: #FFC05A; }
+  .badge.-crimson {
+    color: #fff;
+    background-color: #F05F50; }
 
 .list-group {
   background-color: #fff;
@@ -4785,12 +4793,14 @@ body {
 .panel {
   color: #4A4A4A;
   background: #fff;
-  border: 1px solid;
+  border: 1px solid #C4C4C4;
   border-radius: 5px; }
   .panel > .heading {
     padding: 10px 15px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
+  .panel > .heading > * {
+    margin-bottom: 0; }
   .panel > .body {
     padding: 15px; }
   .panel > .body + .body {
@@ -4799,66 +4809,54 @@ body {
     padding: 10px 15px;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px; }
-  .panel.-default {
+  .panel.-default > .heading {
+    background: #C4C4C4;
+    color: #fff; }
+  .panel.-default > .body + .body {
     border-color: #C4C4C4; }
-    .panel.-default > .heading {
-      background: #C4C4C4;
-      color: #fff; }
-    .panel.-default > .body + .body {
-      border-color: #C4C4C4; }
-    .panel.-default > .footer {
-      background: #C4C4C4;
-      color: #fff; }
-  .panel.-primary {
-    border-color: #4684BF; }
-    .panel.-primary > .heading {
-      background: #4684BF;
-      color: #fff; }
-    .panel.-primary > .body + .body {
-      border-color: #4684BF; }
-    .panel.-primary > .footer {
-      background: #4684BF;
-      color: #fff; }
-  .panel.-sky {
-    border-color: #52B5E5; }
-    .panel.-sky > .heading {
-      background: #52B5E5;
-      color: #fff; }
-    .panel.-sky > .body + .body {
-      border-color: #52B5E5; }
-    .panel.-sky > .footer {
-      background: #52B5E5;
-      color: #fff; }
-  .panel.-emerald {
-    border-color: #38D4A9; }
-    .panel.-emerald > .heading {
-      background: #38D4A9;
-      color: #fff; }
-    .panel.-emerald > .body + .body {
-      border-color: #38D4A9; }
-    .panel.-emerald > .footer {
-      background: #38D4A9;
-      color: #fff; }
-  .panel.-sun {
-    border-color: #FFC05A; }
-    .panel.-sun > .heading {
-      background: #FFC05A;
-      color: #fff; }
-    .panel.-sun > .body + .body {
-      border-color: #FFC05A; }
-    .panel.-sun > .footer {
-      background: #FFC05A;
-      color: #fff; }
-  .panel.-crimson {
-    border-color: #F05F50; }
-    .panel.-crimson > .heading {
-      background: #F05F50;
-      color: #fff; }
-    .panel.-crimson > .body + .body {
-      border-color: #F05F50; }
-    .panel.-crimson > .footer {
-      background: #F05F50;
-      color: #fff; }
+  .panel.-default > .footer {
+    background: #C4C4C4;
+    color: #fff; }
+  .panel.-primary > .heading {
+    background: #3A569B;
+    color: #fff; }
+  .panel.-primary > .body + .body {
+    border-color: #C4C4C4; }
+  .panel.-primary > .footer {
+    background: #C4C4C4;
+    color: #fff; }
+  .panel.-sky > .heading {
+    background: #52B5E5;
+    color: #fff; }
+  .panel.-sky > .body + .body {
+    border-color: #C4C4C4; }
+  .panel.-sky > .footer {
+    background: #C4C4C4;
+    color: #fff; }
+  .panel.-emerald > .heading {
+    background: #38D4A9;
+    color: #fff; }
+  .panel.-emerald > .body + .body {
+    border-color: #C4C4C4; }
+  .panel.-emerald > .footer {
+    background: #C4C4C4;
+    color: #fff; }
+  .panel.-sun > .heading {
+    background: #FFC05A;
+    color: #fff; }
+  .panel.-sun > .body + .body {
+    border-color: #C4C4C4; }
+  .panel.-sun > .footer {
+    background: #C4C4C4;
+    color: #fff; }
+  .panel.-crimson > .heading {
+    background: #F05F50;
+    color: #fff; }
+  .panel.-crimson > .body + .body {
+    border-color: #C4C4C4; }
+  .panel.-crimson > .footer {
+    background: #C4C4C4;
+    color: #fff; }
 
 .dropdown {
   position: relative; }
