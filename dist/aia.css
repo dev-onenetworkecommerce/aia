@@ -4792,6 +4792,10 @@ body {
     color: #4A4A4A;
     cursor: default;
     background-color: #fff; }
+  .list-group > .menuitem > .icon {
+    color: #4A4A4A; }
+  .list-group > .menuitem > .icon:first-child {
+    margin-right: 10px; }
 
 .panel {
   color: #4A4A4A;
@@ -4901,6 +4905,9 @@ body {
   .slate.-plain {
     background: #fff; }
   .slate > .icon:first-child {
+    display: block;
     margin-bottom: 1.5rem; }
+  .slate > *:last-child {
+    margin-bottom: 0; }
 
 /*# sourceMappingURL=aia.css.map */
