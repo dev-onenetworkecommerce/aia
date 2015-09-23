@@ -1,6 +1,10 @@
 # Changelog
 
-## v0.2.1 (September 22, 2015) - commit
+## v0.3.0 (September 23, 2015) - commit
+- Rename `$brand-neutral-dk` and `$brand-neutral-dker` to `$brand-sidebar` and `$brand-sidebar-dk` respectively.
+- Add `$font-size-small` variable.
+
+## v0.2.1 (September 23, 2015) - commit
 - Remove horizontal margins from button-button sibling.
 - Vertically center icons.
 
