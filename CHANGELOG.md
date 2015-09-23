@@ -1,6 +1,9 @@
 # Changelog
 
 ## v0.3.0 (September 23, 2015) - commit
+- Fix `$brand-sidebar-dk` color.
+
+## v0.3.0 (September 23, 2015) - commit
 - Rename `$brand-neutral-dk` and `$brand-neutral-dker` to `$brand-sidebar` and `$brand-sidebar-dk` respectively.
 - Add `$font-size-small` variable.
 
