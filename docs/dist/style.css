@@ -4653,9 +4653,6 @@ body {
     margin-right: 10px; }
   .btn > .post-icon {
     margin-left: 10px; }
-  .btn + .btn {
-    margin-right: 10px;
-    margin-left: 10px; }
 
 .btn-group.-rounded > .btn {
   border-radius: 25px; }
@@ -4972,6 +4969,9 @@ h5.doc-heading {
 
 h6.doc-heading {
   font-size: 11px; }
+
+.btn + .btn {
+  margin-left: 10px; }
 
 .doc-block-grid {
   width: 100%;
