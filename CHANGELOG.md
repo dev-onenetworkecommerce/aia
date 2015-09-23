@@ -3,7 +3,7 @@
 ## v0.3.1 (September 23, 2015) - [commit](https://github.com/dev-onenetworkecommerce/aia/commit/02852e2c29325be6d215d4d92cb46a8653c55e3f)
 - Fix `$brand-sidebar-dk` color.
 
-## v0.3.0 (September 23, 2015) - [commit](https://github.com/dev-onenetworkecommerce/aia/commit/e2e2fecd58516794941fd38f8b1c682271e28af5
+## v0.3.0 (September 23, 2015) - [commit](https://github.com/dev-onenetworkecommerce/aia/commit/e2e2fecd58516794941fd38f8b1c682271e28af5)
 - Rename `$brand-neutral-dk` and `$brand-neutral-dker` to `$brand-sidebar` and `$brand-sidebar-dk` respectively.
 - Add `$font-size-small` variable.
 
