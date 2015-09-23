@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.2.1 (September 22, 2015) - commit
+- Remove horizontal margins from button-button sibling.
+- Vertically center icons.
+
 ## v0.2.0 (September 22, 2015) - commit
 - Add `icon` class selector; remove `icon-` class pattern selector.
 ```sass

@@ -424,6 +424,7 @@ th {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+  vertical-align: middle;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -4651,9 +4652,6 @@ body {
   .btn > .pre-icon {
     margin-right: 10px; }
   .btn > .post-icon {
-    margin-left: 10px; }
-  .btn + .btn {
-    margin-right: 10px;
     margin-left: 10px; }
 
 .btn-group.-rounded > .btn {
