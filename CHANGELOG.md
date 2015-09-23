@@ -1,6 +1,6 @@
 # Changelog
 
-## v0.3.0 (September 23, 2015) - commit
+## v0.3.1 (September 23, 2015) - commit
 - Fix `$brand-sidebar-dk` color.
 
 ## v0.3.0 (September 23, 2015) - commit
