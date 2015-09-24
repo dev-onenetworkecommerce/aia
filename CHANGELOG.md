@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.3.2 (September 24, 2015) - [commit]()
+- Remove custom font-weight for headings; set to browser default (bold).
+- Add responsive mixins.
+
 ## v0.3.1 (September 23, 2015) - [commit](https://github.com/dev-onenetworkecommerce/aia/commit/02852e2c29325be6d215d4d92cb46a8653c55e3f)
 - Fix `$brand-sidebar-dk` color.
 
