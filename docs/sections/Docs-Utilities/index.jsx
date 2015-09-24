@@ -75,6 +75,20 @@ export default class Utilities extends React.Component {
           </section>
         </section>
 
+        <section className="doc-bottom-space-large">
+          <h3 className="doc-heading">Responsive Mixins</h3>
+          <p><em>Mixins</em> such <code>breakpoint-sm</code>, <code>breakpoint-md</code>, and <code>breakpoint-lg</code> are provided to help you with your responsive needs.</p>
+          <p>You can resize your window and the below should be colored <span className="_text-crimson">red</span>, <span className="_text-sun">yellow</span>, <span className="_text-sky">blue</span>, and <span className="_text-emerald">green</span> for xs, sm, md, lg sized screens respectively.</p>
+          <div className="responsive-mixins-box _spacer" />
+          <pre>{`
+            .some-class {
+              @include breakpoint-md {
+                // styling to be applied for
+                // md-sized screens and above
+              }
+            }
+          `}</pre>
+        </section>
       </div>
     );
   }

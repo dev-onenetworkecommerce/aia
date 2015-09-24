@@ -1,0 +1,17 @@
+.responsive-mixins-box {
+  width: 100px;
+  height: 100px;
+  background: $brand-crimson;
+
+  @include breakpoint-sm {
+    background: $brand-sun;
+  }
+
+  @include breakpoint-md {
+    background: $brand-sky;
+  }
+
+  @include breakpoint-lg {
+    background: $brand-emerald;
+  }
+}

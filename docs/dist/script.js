@@ -29197,6 +29197,78 @@
 	            ),
 	            _react2["default"].createElement("div", { className: "doc-block" })
 	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
+	            "h3",
+	            { className: "doc-heading" },
+	            "Responsive Mixins"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            _react2["default"].createElement(
+	              "em",
+	              null,
+	              "Mixins"
+	            ),
+	            " such ",
+	            _react2["default"].createElement(
+	              "code",
+	              null,
+	              "breakpoint-sm"
+	            ),
+	            ", ",
+	            _react2["default"].createElement(
+	              "code",
+	              null,
+	              "breakpoint-md"
+	            ),
+	            ", and ",
+	            _react2["default"].createElement(
+	              "code",
+	              null,
+	              "breakpoint-lg"
+	            ),
+	            " are provided to help you with your responsive needs."
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "You can resize your window and the below should be colored ",
+	            _react2["default"].createElement(
+	              "span",
+	              { className: "_text-crimson" },
+	              "red"
+	            ),
+	            ", ",
+	            _react2["default"].createElement(
+	              "span",
+	              { className: "_text-sun" },
+	              "yellow"
+	            ),
+	            ", ",
+	            _react2["default"].createElement(
+	              "span",
+	              { className: "_text-sky" },
+	              "blue"
+	            ),
+	            ", and ",
+	            _react2["default"].createElement(
+	              "span",
+	              { className: "_text-emerald" },
+	              "green"
+	            ),
+	            " for xs, sm, md, lg sized screens respectively."
+	          ),
+	          _react2["default"].createElement("div", { className: "responsive-mixins-box _spacer" }),
+	          _react2["default"].createElement(
+	            "pre",
+	            null,
+	            "\n            .some-class {\n              @include breakpoint-md {\n                // styling to be applied for\n                // md-sized screens and above\n              }\n            }\n          "
+	          )
 	        )
 	      );
 	    }

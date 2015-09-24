@@ -12,6 +12,31 @@
   }
 }
 
+// Responsive Utilities
+// Note: `xs` (breakpoint-xs) isn't supplied because
+// we're supposed to be implementing mobile-first practices
+// example:
+// @include breakpoint-sm() {
+//   color: red;
+// }
+@mixin breakpoint-sm() {
+  @media (min-width: map-get($grid-breakpoints, sm)) {
+    @content;
+  }
+}
+
+@mixin breakpoint-md() {
+  @media (min-width: map-get($grid-breakpoints, md)) {
+    @content;
+  }
+}
+
+@mixin breakpoint-lg() {
+  @media (min-width: map-get($grid-breakpoints, lg)) {
+    @content;
+  }
+}
+
 // class utilities
 // sparingly use :)
 
@@ -21,7 +46,6 @@
   ._left { float: left !important;}
   ._right { float: right !important; }
 }
-
 // Spacers
 ._no-spacer { margin-bottom: 0 !important; }
 ._spacer-small { margin-bottom: $spacer-small !important; }
