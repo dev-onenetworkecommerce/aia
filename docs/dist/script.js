@@ -27914,23 +27914,28 @@
 	          ),
 	          _react2["default"].createElement(
 	            "span",
+	            { className: "label -primary doc-allowance" },
+	            "Primary"
+	          ),
+	          _react2["default"].createElement(
+	            "span",
 	            { className: "label -emerald doc-allowance" },
-	            "Success"
+	            "Emerald"
 	          ),
 	          _react2["default"].createElement(
 	            "span",
 	            { className: "label -sky doc-allowance" },
-	            "Info"
+	            "Sky"
 	          ),
 	          _react2["default"].createElement(
 	            "span",
 	            { className: "label -sun doc-allowance" },
-	            "Warning"
+	            "Sun"
 	          ),
 	          _react2["default"].createElement(
 	            "span",
 	            { className: "label -crimson" },
-	            "Danger"
+	            "Crimson"
 	          )
 	        ),
 	        _react2["default"].createElement(
@@ -27947,7 +27952,7 @@
 	            "News Feed  ",
 	            _react2["default"].createElement(
 	              "span",
-	              { className: "badge -bordered" },
+	              { className: "badge" },
 	              "20"
 	            )
 	          ),

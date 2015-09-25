@@ -6,13 +6,14 @@
 
 .badge {
   display: inline-block;
-  padding: $padding-y-small $padding-x-small;
-  line-height: 1;
+  // 2px because $font-size-small = 14px - 2px
+  padding: 2px 5px;
+  color: $brand-white;
+  font-size: $font-size-small;
+  font-weight: bold;
+  line-height: 1; // reset
+  background: $brand-gray;
   border-radius: $border-radius-rounded;
-
-  &.-default {
-    @include label-variant($brand-gray);
-  }
 
   &.-primary {
     @include label-variant($brand-primary);

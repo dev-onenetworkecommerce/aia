@@ -10,18 +10,16 @@
 }
 
 .label {
-  @include clearfix;
   display: inline-block;
-  height: $medium;
-  line-height: $medium; /* center text */
-  padding: 0px 10px;
+  // 2px because $font-size-small = 14px - 2px
+  padding: 2px 5px;
   color: $brand-white;
+  font-size: $font-size-small;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1; // reset
   background: $brand-gray;
   border-radius: $border-radius-base;
-
-  &.-bordered {
-    @include label-variant($brand-gray);
-  }
 
   &.-primary {
     @include label-variant($brand-primary);
