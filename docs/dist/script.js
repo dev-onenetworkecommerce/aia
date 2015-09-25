@@ -25319,7 +25319,7 @@
 	          _react2['default'].createElement(
 	            'strong',
 	            null,
-	            'Currently 0.1.0'
+	            'Currently 0.3.1'
 	          ),
 	          '.'
 	        )

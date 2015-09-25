@@ -41,7 +41,7 @@ export default class Docs extends React.Component {
         <footer className="doc-footer">
           Copyright <strong>ONE Network Ecommerce 2015.</strong> <br />
           Created and maintained by the Front End team at ONE.&nbsp;
-          <strong>Currently 0.1.0</strong>.
+          <strong>Currently 0.3.1</strong>.
         </footer>
       </div>
     );
