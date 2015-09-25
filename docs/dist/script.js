@@ -29268,11 +29268,17 @@
 	              null,
 	              "breakpoint-md"
 	            ),
-	            ", and ",
+	            ", ",
 	            _react2["default"].createElement(
 	              "code",
 	              null,
 	              "breakpoint-lg"
+	            ),
+	            ", and ",
+	            _react2["default"].createElement(
+	              "code",
+	              null,
+	              "breakpoint-xl"
 	            ),
 	            " are provided to help you with your responsive needs."
 	          ),
@@ -29280,6 +29286,12 @@
 	            "p",
 	            null,
 	            "You can resize your window and the below should be colored ",
+	            _react2["default"].createElement(
+	              "span",
+	              { className: "_text-muted" },
+	              "gray"
+	            ),
+	            ", ",
 	            _react2["default"].createElement(
 	              "span",
 	              { className: "_text-crimson" },
@@ -29303,7 +29315,7 @@
 	              { className: "_text-emerald" },
 	              "green"
 	            ),
-	            " for xs, sm, md, lg sized screens respectively."
+	            " for xs, sm, md, lg, xl sized screens respectively."
 	          ),
 	          _react2["default"].createElement("div", { className: "responsive-mixins-box _spacer" }),
 	          _react2["default"].createElement(

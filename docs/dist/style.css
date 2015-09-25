@@ -5004,14 +5004,17 @@ code {
 .responsive-mixins-box {
   width: 100px;
   height: 100px;
-  background: #F05F50; }
+  background: #C4C4C4; }
   @media (min-width: 34em) {
     .responsive-mixins-box {
-      background: #FFC05A; } }
+      background: #F05F50; } }
   @media (min-width: 48em) {
     .responsive-mixins-box {
-      background: #52B5E5; } }
+      background: #FFC05A; } }
   @media (min-width: 62em) {
+    .responsive-mixins-box {
+      background: #52B5E5; } }
+  @media (min-width: 75em) {
     .responsive-mixins-box {
       background: #38D4A9; } }
 
