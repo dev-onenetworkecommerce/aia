@@ -4688,20 +4688,14 @@ body {
 
 .label {
   display: inline-block;
-  height: 32px;
-  line-height: 32px;
-  /* center text */
-  padding: 0px 10px;
+  padding: 2px 5px;
   color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1;
   background: #C4C4C4;
   border-radius: 3px; }
-  .label:after {
-    content: "";
-    display: table;
-    clear: both; }
-  .label.-bordered {
-    color: #fff;
-    background-color: #C4C4C4; }
   .label.-primary {
     color: #fff;
     background-color: #3A569B; }
@@ -4720,12 +4714,13 @@ body {
 
 .badge {
   display: inline-block;
-  padding: 5px 10px;
+  padding: 2px 5px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
   line-height: 1;
+  background: #C4C4C4;
   border-radius: 25px; }
-  .badge.-default {
-    color: #fff;
-    background-color: #C4C4C4; }
   .badge.-primary {
     color: #fff;
     background-color: #3A569B; }

@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.3.3 (September 26, 2015) - [commit]()
+- Add responsive mixin for screen size `xl`.
+- Fix (reduced) label and badge sizes.
+
 ## v0.3.2 (September 24, 2015) - [commit](https://github.com/dev-onenetworkecommerce/aia/commit/5b6b0d62121d13b145e43f39084ed9cde370451b)
 - Remove custom font-weight for headings; set to browser default (bold).
 - Add responsive mixins.
