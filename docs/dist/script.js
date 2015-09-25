@@ -25426,6 +25426,24 @@
 	                { href: "#normalize" },
 	                "Built on Normalize"
 	              )
+	            ),
+	            _react2["default"].createElement(
+	              "li",
+	              null,
+	              _react2["default"].createElement(
+	                "a",
+	                { href: "#container" },
+	                "Container"
+	              )
+	            ),
+	            _react2["default"].createElement(
+	              "li",
+	              null,
+	              _react2["default"].createElement(
+	                "a",
+	                { href: "#font-family" },
+	                "Font Family"
+	              )
 	            )
 	          )
 	        ),
@@ -25479,10 +25497,10 @@
 	        ),
 	        _react2["default"].createElement(
 	          "section",
-	          null,
+	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
 	            "h1",
-	            { className: "doc-heading" },
+	            { className: "doc-heading", id: "container" },
 	            "Container"
 	          ),
 	          _react2["default"].createElement(
@@ -25494,6 +25512,25 @@
 	            "p",
 	            null,
 	            "Use .container for a responsive fixed-width container."
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          null,
+	          _react2["default"].createElement(
+	            "h1",
+	            { className: "doc-heading", id: "font-family" },
+	            "Font Family"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "We mainly use Proxima Nova, and load it from Typekit. This is only internally available."
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "The documentation / demos used to load the font, but we are removing it from the docs as of post-0.3.1 to avoid wasting resources."
 	          )
 	        )
 	      );

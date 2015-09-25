@@ -15,6 +15,8 @@ export default class Scaffolding extends React.Component {
             <li><a href="#html5-doctype">HTML5 doctype</a></li>
             <li><a href="#box-sizing">Box-sizing</a></li>
             <li><a href="#normalize">Built on Normalize</a></li>
+            <li><a href="#container">Container</a></li>
+            <li><a href="#font-family">Font Family</a></li>
           </ul>
         </section>
 
@@ -33,10 +35,16 @@ export default class Scaffolding extends React.Component {
           <p>For improved cross-browser rendering, we use <a href="https://github.com/necolas/normalize.css/">Normalize.css</a> to correct small inconsistencies across browsers and devices.</p>
         </section>
 
-        <section>
-          <h1 className="doc-heading">Container</h1>
+        <section className="doc-bottom-space-large">
+          <h1 className="doc-heading" id="container">Container</h1>
           <p>Wrap site contents and house our grid system.</p>
           <p>Use .container for a responsive fixed-width container.</p>
+        </section>
+
+        <section>
+          <h1 className="doc-heading" id="font-family">Font Family</h1>
+          <p>We mainly use Proxima Nova, and load it from Typekit. This is only internally available.</p>
+          <p>The documentation / demos used to load the font, but we are removing it from the docs as of post-0.3.1 to avoid wasting resources.</p>
         </section>
       </div>
     );
