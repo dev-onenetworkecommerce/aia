@@ -27806,7 +27806,7 @@
 	        ),
 	        _react2["default"].createElement(
 	          "section",
-	          null,
+	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
@@ -27870,6 +27870,126 @@
 	                "button",
 	                { className: "btn -rounded -default" },
 	                "Button"
+	              )
+	            )
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          null,
+	          _react2["default"].createElement(
+	            "section",
+	            { className: "doc-bottom-space" },
+	            _react2["default"].createElement(
+	              "h1",
+	              { className: "doc-heading" },
+	              "Pagination"
+	            ),
+	            _react2["default"].createElement(
+	              "p",
+	              { className: "lead" },
+	              "These buttons are a bit different, written entirely for pagination."
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "pagination" },
+	              _react2["default"].createElement(
+	                "button",
+	                { className: "action" },
+	                "Previous"
+	              ),
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "items" },
+	                _react2["default"].createElement(
+	                  "button",
+	                  { className: "item" },
+	                  "1"
+	                ),
+	                _react2["default"].createElement(
+	                  "button",
+	                  { className: "item" },
+	                  "2"
+	                ),
+	                _react2["default"].createElement(
+	                  "button",
+	                  { className: "item" },
+	                  "3"
+	                ),
+	                _react2["default"].createElement(
+	                  "button",
+	                  { className: "item" },
+	                  "4"
+	                )
+	              ),
+	              _react2["default"].createElement(
+	                "button",
+	                { className: "action" },
+	                "Next"
+	              )
+	            )
+	          ),
+	          _react2["default"].createElement(
+	            "section",
+	            { className: "doc-bottom-space" },
+	            _react2["default"].createElement(
+	              "h1",
+	              { className: "doc-heading" },
+	              "Example: Disabled Actions"
+	            ),
+	            _react2["default"].createElement(
+	              "p",
+	              null,
+	              "At the moment, only the previous and next button can be disabled. Through the ",
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                "disabled"
+	              ),
+	              " attribute, or by adding the ",
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                ".-disabled "
+	              ),
+	              " modifier class."
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "pagination" },
+	              _react2["default"].createElement(
+	                "button",
+	                { className: "action", disabled: true },
+	                "Previous"
+	              ),
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "items" },
+	                _react2["default"].createElement(
+	                  "button",
+	                  { className: "item" },
+	                  "1"
+	                ),
+	                _react2["default"].createElement(
+	                  "button",
+	                  { className: "item" },
+	                  "2"
+	                ),
+	                _react2["default"].createElement(
+	                  "button",
+	                  { className: "item" },
+	                  "3"
+	                ),
+	                _react2["default"].createElement(
+	                  "button",
+	                  { className: "item" },
+	                  "4"
+	                )
+	              ),
+	              _react2["default"].createElement(
+	                "button",
+	                { className: "action", disabled: true },
+	                "Next"
 	              )
 	            )
 	          )

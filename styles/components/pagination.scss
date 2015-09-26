@@ -1,0 +1,64 @@
+.pagination {
+  > .action {
+    display: inline-block;
+    padding: 2px 10px;
+    color: $brand-white;
+    font-size: $font-size-small;
+    background: $brand-gray;
+    border: 0;
+    border-radius: $border-radius-base;
+    outline: none; /* remove native outline */
+    cursor: pointer;
+  }
+
+  > .action:hover {
+    background: $brand-black;
+  }
+
+  > .action:first-child {
+    margin-right: 10px;
+  }
+
+  > .action:last-child {
+    margin-left: 10px;
+  }
+
+  > .action:disabled,
+  > .action:disabled:hover,
+  > .action.-disabled,
+  > .action.-disabled:hover {
+    background: $brand-gray-lt;
+    cursor: not-allowed;
+  }
+
+  > .items {
+    display: inline-block;
+  }
+
+  > .items > .item {
+    display: inline-block;
+    padding: 2px 5px;
+    color: $brand-gray;
+    font-size: $font-size-small;
+    background: transparent;
+    border: 1px solid $brand-gray;
+    border-radius: $border-radius-base;
+    outline: none; /* remove native outline */
+    cursor: pointer;
+    transition: 0.15s background;
+  }
+
+  > .items > .item:hover {
+    color: $brand-white;
+    background: $brand-black;
+    border-color: transparent;
+  }
+
+  > .items > .item:not(:last-child) {
+    margin-right: 5px;
+  }
+
+  // > .items > .itemellipsis {
+
+  // }
+}

@@ -58,7 +58,7 @@ export default class Buttons extends React.Component {
           <button className="btn -default -disabled">Button</button>
         </section>
 
-        <section>
+        <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Button Group</h3>
           <section className="doc-bottom-space">
             <div className="btn-group">
@@ -78,6 +78,38 @@ export default class Buttons extends React.Component {
               <button className="btn -rounded -default">Button</button>
               <button className="btn -rounded -default">Button</button>
               <button className="btn -rounded -default">Button</button>
+            </div>
+          </section>
+        </section>
+
+        <section>
+          <section className="doc-bottom-space">
+            <h1 className="doc-heading">Pagination</h1>
+            <p className="lead">These buttons are a bit different, written entirely for pagination.</p>
+            <div className="pagination">
+              <button className="action">Previous</button>
+              <div className="items">
+                <button className="item">1</button>
+                <button className="item">2</button>
+                <button className="item">3</button>
+                <button className="item">4</button>
+              </div>
+              <button className="action">Next</button>
+            </div>
+          </section>
+
+          <section className="doc-bottom-space">
+            <h1 className="doc-heading">Example: Disabled Actions</h1>
+            <p>At the moment, only the previous and next button can be disabled. Through the <code>disabled</code> attribute, or by adding the <code>.-disabled </code> modifier class.</p>
+            <div className="pagination">
+              <button className="action" disabled={true}>Previous</button>
+              <div className="items">
+                <button className="item">1</button>
+                <button className="item">2</button>
+                <button className="item">3</button>
+                <button className="item">4</button>
+              </div>
+              <button className="action" disabled={true}>Next</button>
             </div>
           </section>
         </section>
