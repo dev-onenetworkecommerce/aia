@@ -18715,9 +18715,10 @@
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'list-group', component: __webpack_require__(/*! ./sections/Docs-ListGroup */ 239) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'nav', component: __webpack_require__(/*! ./sections/Docs-Nav */ 240) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'slate', component: __webpack_require__(/*! ./sections/Docs-Slate */ 241) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'utilities', component: __webpack_require__(/*! ./sections/Docs-Utilities */ 242) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'colors', component: __webpack_require__(/*! ./sections/Docs-Colors */ 243) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'guidelines', component: __webpack_require__(/*! ./sections/Docs-Guidelines */ 244) })
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'loaders', component: __webpack_require__(/*! ./sections/Docs-Loaders */ 242) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'utilities', component: __webpack_require__(/*! ./sections/Docs-Utilities */ 243) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'colors', component: __webpack_require__(/*! ./sections/Docs-Colors */ 244) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'guidelines', component: __webpack_require__(/*! ./sections/Docs-Guidelines */ 245) })
 	    )
 	  )
 	);
@@ -25281,6 +25282,11 @@
 	                _reactRouter.Link,
 	                { to: '/slate', activeClassName: '-selected', className: 'menuitem' },
 	                'Slate'
+	              ),
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
+	                { to: '/loaders', activeClassName: '-selected', className: 'menuitem' },
+	                'Loaders'
 	              )
 	            ),
 	            _react2['default'].createElement(
@@ -29091,6 +29097,92 @@
 
 /***/ },
 /* 242 */
+/*!*****************************************!*\
+  !*** ./sections/Docs-Loaders/index.jsx ***!
+  \*****************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var Loader = (function (_React$Component) {
+	  _inherits(Loader, _React$Component);
+	
+	  function Loader() {
+	    _classCallCheck(this, Loader);
+	
+	    _get(Object.getPrototypeOf(Loader.prototype), "constructor", this).apply(this, arguments);
+	  }
+	
+	  _createClass(Loader, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2["default"].createElement(
+	        "div",
+	        null,
+	        _react2["default"].createElement(
+	          "h1",
+	          { className: "doc-heading" },
+	          "Loaders"
+	        ),
+	        _react2["default"].createElement(
+	          "p",
+	          { className: "lead" },
+	          "Loaders are a great way to indicate that a process is still in progress."
+	        ),
+	        _react2["default"].createElement(
+	          "p",
+	          null,
+	          "Our loader is mainly inspired by ",
+	          _react2["default"].createElement(
+	            "a",
+	            { href: "https://heroku.com" },
+	            "Heroku"
+	          ),
+	          " and ",
+	          _react2["default"].createElement(
+	            "a",
+	            { href: "https://travis-ci.org" },
+	            "Travis CI"
+	          ),
+	          "."
+	        ),
+	        _react2["default"].createElement(
+	          "div",
+	          { className: "tri-circle-loader" },
+	          _react2["default"].createElement("div", null),
+	          _react2["default"].createElement("div", null),
+	          _react2["default"].createElement("div", null)
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return Loader;
+	})(_react2["default"].Component);
+	
+	exports["default"] = Loader;
+	module.exports = exports["default"];
+
+/***/ },
+/* 243 */
 /*!*******************************************!*\
   !*** ./sections/Docs-Utilities/index.jsx ***!
   \*******************************************/
@@ -29462,7 +29554,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 243 */
+/* 244 */
 /*!****************************************!*\
   !*** ./sections/Docs-Colors/index.jsx ***!
   \****************************************/
@@ -29563,7 +29655,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 244 */
+/* 245 */
 /*!********************************************!*\
   !*** ./sections/Docs-Guidelines/index.jsx ***!
   \********************************************/

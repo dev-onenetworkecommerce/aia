@@ -1,0 +1,47 @@
+@mixin tri-circle-loader-variant($color) {
+  & > div {
+    background: $color;
+  }
+}
+
+.tri-circle-loader {
+  &.-sky { @include tri-circle-loader-variant($brand-sky); }
+  &.-emerald { @include tri-circle-loader-variant($brand-emerald); }
+  &.-sun { @include tri-circle-loader-variant($brand-sun); }
+  &.-crimson { @include tri-circle-loader-variant($brand-crimson); }
+
+  > div {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: $brand-black;
+    border-radius: 100%;
+    animation: fadeDelay 1.4s infinite ease-in-out;
+    animation-fill-mode: both;
+  }
+
+  > div:not(:last-child) {
+    margin-right: 2px;
+  }
+
+  > div:first-child {
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+  }
+
+  > div:nth-child(2) {
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+  }
+
+  > div:last-child {
+    -webkit-animation-delay: -0.08s;
+    animation-delay: -0.08s;
+  }
+
+  @keyframes fadeDelay {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+}

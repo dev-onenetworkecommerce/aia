@@ -21,6 +21,7 @@ export default (
         <Route path="list-group" component={require('./sections/Docs-ListGroup')} />
         <Route path="nav" component={require('./sections/Docs-Nav')} />
         <Route path="slate" component={require('./sections/Docs-Slate')} />
+        <Route path="loaders" component={require('./sections/Docs-Loaders')} />
         <Route path="utilities" component={require('./sections/Docs-Utilities')} />
         <Route path="colors" component={require('./sections/Docs-Colors')} />
         <Route path="guidelines" component={require('./sections/Docs-Guidelines')} />

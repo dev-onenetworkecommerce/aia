@@ -25,6 +25,7 @@ export default class Docs extends React.Component {
               <Link to="/list-group" activeClassName="-selected" className="menuitem">List Group</Link>
               <Link to="/panels" activeClassName="-selected" className="menuitem">Panels</Link>
               <Link to="/slate" activeClassName="-selected" className="menuitem">Slate</Link>
+              <Link to="/loaders" activeClassName="-selected" className="menuitem">Loaders</Link>
             </nav>
 
             <nav className="list-group" role="menu">
