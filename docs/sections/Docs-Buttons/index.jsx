@@ -70,14 +70,11 @@ export default class Buttons extends React.Component {
 
           <section>
             <h3 className="doc-heading">Rounded Button Group</h3>
-            <div className="alert -sun doc-bottom-space">
-              This has bad API, and will most likely change in the future.
-            </div>
-            <p>Simply add the .-rounded modifier class to .btn-group.</p>
-            <div className="btn-group">
-              <button className="btn -rounded -default">Button</button>
-              <button className="btn -rounded -default">Button</button>
-              <button className="btn -rounded -default">Button</button>
+            <p>Simply add the <code>.-rounded</code> modifier class to <code>.btn-group</code>.</p>
+            <div className="btn-group -rounded">
+              <button className="btn -default">Button</button>
+              <button className="btn -default">Button</button>
+              <button className="btn -default">Button</button>
             </div>
           </section>
         </section>

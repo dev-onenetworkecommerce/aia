@@ -1,5 +1,7 @@
 .btn {
-  & + & {
-    margin-left: 10px;
+  margin-bottom: $spacer;
+
+  &:not(:last-child) {
+    margin-right: $spacer;
   }
 }

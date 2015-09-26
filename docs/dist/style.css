@@ -5012,8 +5012,10 @@ code {
   color: #428642;
   border: 1px solid #A3E2A3; }
 
-.btn + .btn {
-  margin-left: 10px; }
+.btn {
+  margin-bottom: 1rem; }
+  .btn:not(:last-child) {
+    margin-right: 1rem; }
 
 .doc-block-grid {
   width: 100%;

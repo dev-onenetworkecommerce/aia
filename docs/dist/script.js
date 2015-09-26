@@ -27844,31 +27844,38 @@
 	              "Rounded Button Group"
 	            ),
 	            _react2["default"].createElement(
-	              "div",
-	              { className: "alert -sun doc-bottom-space" },
-	              "This has bad API, and will most likely change in the future."
-	            ),
-	            _react2["default"].createElement(
 	              "p",
 	              null,
-	              "Simply add the .-rounded modifier class to .btn-group."
+	              "Simply add the ",
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                ".-rounded"
+	              ),
+	              " modifier class to ",
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                ".btn-group"
+	              ),
+	              "."
 	            ),
 	            _react2["default"].createElement(
 	              "div",
-	              { className: "btn-group" },
+	              { className: "btn-group -rounded" },
 	              _react2["default"].createElement(
 	                "button",
-	                { className: "btn -rounded -default" },
+	                { className: "btn -default" },
 	                "Button"
 	              ),
 	              _react2["default"].createElement(
 	                "button",
-	                { className: "btn -rounded -default" },
+	                { className: "btn -default" },
 	                "Button"
 	              ),
 	              _react2["default"].createElement(
 	                "button",
-	                { className: "btn -rounded -default" },
+	                { className: "btn -default" },
 	                "Button"
 	              )
 	            )
