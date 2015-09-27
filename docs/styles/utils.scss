@@ -19,3 +19,15 @@
     background: $brand-emerald;
   }
 }
+
+.doc-ellipsis-example-container {
+  padding: 10px;
+  width: 200px;
+  line-height: 1;
+  border: 1px solid $brand-sky;
+  border-radius: $border-radius-rounded;
+
+  > p {
+    margin: 0;
+  }
+}

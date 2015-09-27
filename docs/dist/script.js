@@ -29435,6 +29435,52 @@
 	          "section",
 	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
+	            "h1",
+	            { className: "doc-heading" },
+	            "Text Ellipsis"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            { className: "lead" },
+	            "Helpful for collapsing very long text."
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            { className: "_text-muted" },
+	            "As a class, use the ",
+	            _react2["default"].createElement(
+	              "code",
+	              null,
+	              "._ellipsis"
+	            ),
+	            " class; as a mixin, use ",
+	            _react2["default"].createElement(
+	              "code",
+	              null,
+	              "text-ellipsis"
+	            ),
+	            ". As in ",
+	            _react2["default"].createElement(
+	              "code",
+	              null,
+	              "@include text-ellipsis;"
+	            ),
+	            "."
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "doc-ellipsis-example-container" },
+	            _react2["default"].createElement(
+	              "p",
+	              { className: "_ellipsis" },
+	              "This is a very long text, aaand aaand.. yolo please swag."
+	            )
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
 	            "Responsive Mixins"

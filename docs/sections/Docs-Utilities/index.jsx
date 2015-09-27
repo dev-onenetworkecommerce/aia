@@ -76,6 +76,15 @@ export default class Utilities extends React.Component {
         </section>
 
         <section className="doc-bottom-space-large">
+          <h1 className="doc-heading">Text Ellipsis</h1 >
+          <p className="lead">Helpful for collapsing very long text.</p>
+          <p className="_text-muted">As a class, use the <code>._ellipsis</code> class; as a mixin, use <code>text-ellipsis</code>. As in <code>@include text-ellipsis;</code>.</p>
+          <div className="doc-ellipsis-example-container">
+            <p className="_ellipsis">This is a very long text, aaand aaand.. yolo please swag.</p>
+          </div>
+        </section>
+
+        <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Responsive Mixins</h3>
           <p><em>Mixins</em> such <code>breakpoint-sm</code>, <code>breakpoint-md</code>, <code>breakpoint-lg</code>, and <code>breakpoint-xl</code> are provided to help you with your responsive needs.</p>
           <p>You can resize your window and the below should be colored <span className="_text-muted">gray</span>, <span className="_text-crimson">red</span>, <span className="_text-sun">yellow</span>, <span className="_text-sky">blue</span>, and <span className="_text-emerald">green</span> for xs, sm, md, lg, xl sized screens respectively.</p>

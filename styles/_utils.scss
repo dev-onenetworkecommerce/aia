@@ -12,6 +12,14 @@
   }
 }
 
+@mixin text-ellipsis($max-width: 100%) {
+  display: inline-block;
+  overflow: hidden;
+  max-width: $max-width;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 // Responsive Utilities
 // Note: `xs` (breakpoint-xs) isn't supplied because
 // we're supposed to be implementing mobile-first practices
@@ -52,6 +60,11 @@
   ._left { float: left !important;}
   ._right { float: right !important; }
 }
+
+._ellipsis {
+  @include text-ellipsis;
+}
+
 // Spacers
 ._no-spacer { margin-bottom: 0 !important; }
 ._spacer-small { margin-bottom: $spacer-small !important; }
