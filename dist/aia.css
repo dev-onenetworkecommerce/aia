@@ -362,6 +362,13 @@ th {
 ._clearfix ._right {
   float: right !important; }
 
+._ellipsis {
+  display: inline-block;
+  overflow: hidden;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
 ._no-spacer {
   margin-bottom: 0 !important; }
 

@@ -1,5 +1,8 @@
 # Changelog
 
+### v0.3.5 (September 27, 2015) - [commit]()
+- Add ellipsis utility class and mixin.
+
 ### v0.3.4 (September 27, 2015) - [commit]()
 - Add pagination.
 
