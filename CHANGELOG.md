@@ -1,5 +1,8 @@
 # Changelog
 
+### v0.3.4 (September 27, 2015) - [commit]()
+- Add pagination.
+
 ## v0.3.3 (September 26, 2015) - [commit]()
 - Add responsive mixin for screen size `xl`.
 - Fix (reduced) label and badge sizes.

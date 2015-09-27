@@ -1,6 +1,6 @@
 {
   "name": "aia",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "The UI Toolkit that powers ONE's internal projects",
   "main": "dist/aia.js",
   "scripts": {
