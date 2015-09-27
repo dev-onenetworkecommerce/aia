@@ -4675,7 +4675,8 @@ body {
   border-radius: 3px;
   outline: none;
   /* remove native outline */
-  cursor: pointer; }
+  cursor: pointer;
+  min-width: 80px; }
 .pagination > .action:hover {
   background: #4A4A4A; }
 .pagination > .action:first-child {
