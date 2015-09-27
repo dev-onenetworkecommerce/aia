@@ -1,10 +1,23 @@
 .doc-footer {
   margin-top: 50px;
-  padding: 50px;
   color: $brand-gray;
+  padding-top: 25px;
+  padding-bottom: 25px;
   border-top: 1px solid $brand-gray-lt;
 
-  > strong {
+  @include breakpoint-md {
+    padding: 50px;
+  }
+
+  p {
+    margin-bottom: 10px;
+
+    @include breakpoint-sm {
+      margin-bottom: 0;
+    }
+  }
+
+  strong {
     color: $brand-black;
   }
 }

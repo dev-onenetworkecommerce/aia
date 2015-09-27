@@ -5028,10 +5028,19 @@ code {
 
 .doc-footer {
   margin-top: 50px;
-  padding: 50px;
   color: #C4C4C4;
+  padding-top: 25px;
+  padding-bottom: 25px;
   border-top: 1px solid #F0F0F0; }
-  .doc-footer > strong {
+  @media (min-width: 48em) {
+    .doc-footer {
+      padding: 50px; } }
+  .doc-footer p {
+    margin-bottom: 10px; }
+    @media (min-width: 34em) {
+      .doc-footer p {
+        margin-bottom: 0; } }
+  .doc-footer strong {
     color: #4A4A4A; }
 
 .icon-box {

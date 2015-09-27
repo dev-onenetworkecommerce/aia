@@ -25207,7 +25207,7 @@
 	            { className: 'col-md-3' },
 	            _react2['default'].createElement(
 	              'nav',
-	              { className: 'list-group doc-bottom-space', role: 'menu' },
+	              { className: 'list-group _spacer', role: 'menu' },
 	              _react2['default'].createElement(
 	                _reactRouter.Link,
 	                { to: '/scaffolding', activeClassName: '-selected', className: 'menuitem' },
@@ -25241,7 +25241,7 @@
 	            ),
 	            _react2['default'].createElement(
 	              'nav',
-	              { className: 'list-group doc-bottom-space', role: 'menu' },
+	              { className: 'list-group _spacer', role: 'menu' },
 	              _react2['default'].createElement(
 	                _reactRouter.Link,
 	                { to: '/icons', activeClassName: '-selected', className: 'menuitem' },
@@ -25285,7 +25285,7 @@
 	            ),
 	            _react2['default'].createElement(
 	              'nav',
-	              { className: 'list-group', role: 'menu' },
+	              { className: 'list-group _spacer-large', role: 'menu' },
 	              _react2['default'].createElement(
 	                _reactRouter.Link,
 	                { to: '/guidelines', activeClassName: '-selected', className: 'menuitem' },
@@ -25307,21 +25307,27 @@
 	        _react2['default'].createElement(
 	          'footer',
 	          { className: 'doc-footer' },
-	          'Copyright ',
 	          _react2['default'].createElement(
-	            'strong',
+	            'p',
 	            null,
-	            'ONE Network Ecommerce 2015.'
+	            'Copyright ',
+	            _react2['default'].createElement(
+	              'strong',
+	              null,
+	              'ONE Network Ecommerce 2015.'
+	            )
 	          ),
-	          ' ',
-	          _react2['default'].createElement('br', null),
-	          'Created and maintained by the Front End team at ONE. ',
 	          _react2['default'].createElement(
-	            'strong',
+	            'p',
 	            null,
-	            'Currently 0.3.1'
-	          ),
-	          '.'
+	            'Created and maintained by the Front End team at ONE. ',
+	            _react2['default'].createElement(
+	              'strong',
+	              null,
+	              'Currently 0.3.1'
+	            ),
+	            '.'
+	          )
 	        )
 	      );
 	    }

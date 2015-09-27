@@ -7,7 +7,7 @@ export default class Docs extends React.Component {
       <div className="container">
         <div className="row">
           <div className="col-md-3">
-            <nav className="list-group doc-bottom-space" role="menu">
+            <nav className="list-group _spacer" role="menu">
               <Link to="/scaffolding" activeClassName="-selected" className="menuitem">Scaffolding</Link>
               <Link to="/layout" activeClassName="-selected" className="menuitem">Layout</Link>
               <Link to="/type" activeClassName="-selected" className="menuitem">Type</Link>
@@ -16,7 +16,7 @@ export default class Docs extends React.Component {
               <Link to="/utilities" activeClassName="-selected" className="menuitem">Utilities</Link>
             </nav>
 
-            <nav className="list-group doc-bottom-space" role="menu">
+            <nav className="list-group _spacer" role="menu">
               <Link to="/icons" activeClassName="-selected" className="menuitem">Icons</Link>
               <Link to="/buttons" activeClassName="-selected" className="menuitem">Buttons</Link>
               <Link to="/nav" activeClassName="-selected" className="menuitem">Nav</Link>
@@ -27,7 +27,7 @@ export default class Docs extends React.Component {
               <Link to="/slate" activeClassName="-selected" className="menuitem">Slate</Link>
             </nav>
 
-            <nav className="list-group" role="menu">
+            <nav className="list-group _spacer-large" role="menu">
               <Link to="/guidelines" activeClassName="-selected" className="menuitem">Guidelines</Link>
               <Link to="/colors" activeClassName="-selected" className="menuitem">Colors</Link>
             </nav>
@@ -39,9 +39,11 @@ export default class Docs extends React.Component {
         </div>
 
         <footer className="doc-footer">
-          Copyright <strong>ONE Network Ecommerce 2015.</strong> <br />
-          Created and maintained by the Front End team at ONE.&nbsp;
-          <strong>Currently 0.3.1</strong>.
+          <p>Copyright <strong>ONE Network Ecommerce 2015.</strong></p>
+          <p>
+            Created and maintained by the Front End team at ONE.&nbsp;
+            <strong>Currently 0.3.1</strong>.
+          </p>
         </footer>
       </div>
     );
