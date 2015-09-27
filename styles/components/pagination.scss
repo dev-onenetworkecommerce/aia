@@ -32,11 +32,11 @@
     cursor: not-allowed;
   }
 
-  > .items {
+  > .pages {
     display: inline-block;
   }
 
-  > .items > .item {
+  > .pages > .page {
     display: inline-block;
     padding: 2px 5px;
     color: $brand-gray;
@@ -49,22 +49,22 @@
     transition: 0.15s background;
   }
 
-  > .items > .item:hover,
-  > .items > .item.-active, {
+  > .pages > .page:hover,
+  > .pages > .page.-active, {
     color: $brand-white;
     background: $brand-black;
     border-color: transparent;
   }
 
-  > .items > .item.-active:hover {
+  > .pages > .page.-active:hover {
     cursor: default;
   }
 
-  > .items > .item:not(:last-child) {
+  > .pages > .page:not(:last-child) {
     margin-right: 5px;
   }
 
-  // > .items > .itemellipsis {
+  // > .pages > .pageellipsis {
 
   // }
 }

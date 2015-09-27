@@ -4689,9 +4689,9 @@ body {
 .pagination > .action.-disabled:hover {
   background: #F0F0F0;
   cursor: not-allowed; }
-.pagination > .items {
+.pagination > .pages {
   display: inline-block; }
-.pagination > .items > .item {
+.pagination > .pages > .page {
   display: inline-block;
   padding: 2px 5px;
   color: #C4C4C4;
@@ -4703,14 +4703,14 @@ body {
   /* remove native outline */
   cursor: pointer;
   transition: 0.15s background; }
-.pagination > .items > .item:hover,
-.pagination > .items > .item.-active {
+.pagination > .pages > .page:hover,
+.pagination > .pages > .page.-active {
   color: #fff;
   background: #4A4A4A;
   border-color: transparent; }
-.pagination > .items > .item.-active:hover {
+.pagination > .pages > .page.-active:hover {
   cursor: default; }
-.pagination > .items > .item:not(:last-child) {
+.pagination > .pages > .page:not(:last-child) {
   margin-right: 5px; }
 
 .alert {

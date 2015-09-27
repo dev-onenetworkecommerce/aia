@@ -85,11 +85,11 @@ export default class Buttons extends React.Component {
             <p className="lead">These buttons are a bit different, written entirely for pagination.</p>
             <div className="pagination">
               <button className="action">Previous</button>
-              <div className="items">
-                <button className="item">1</button>
-                <button className="item">2</button>
-                <button className="item">3</button>
-                <button className="item">4</button>
+              <div className="pages">
+                <button className="page">1</button>
+                <button className="page">2</button>
+                <button className="page">3</button>
+                <button className="page">4</button>
               </div>
               <button className="action">Next</button>
             </div>
@@ -100,11 +100,11 @@ export default class Buttons extends React.Component {
             <p>Add <code>.-active</code> modifier class to a page button.</p>
             <div className="pagination">
               <button className="action">Previous</button>
-              <div className="items">
-                <button className="item -active">1</button>
-                <button className="item">2</button>
-                <button className="item">3</button>
-                <button className="item">4</button>
+              <div className="pages">
+                <button className="page -active">1</button>
+                <button className="page">2</button>
+                <button className="page">3</button>
+                <button className="page">4</button>
               </div>
               <button className="action">Next</button>
             </div>
@@ -115,11 +115,11 @@ export default class Buttons extends React.Component {
             <p>At the moment, only the previous and next button can be disabled. Through the <code>disabled</code> attribute, or by adding the <code>.-disabled </code> modifier class.</p>
             <div className="pagination">
               <button className="action" disabled={true}>Previous</button>
-              <div className="items">
-                <button className="item">1</button>
-                <button className="item">2</button>
-                <button className="item">3</button>
-                <button className="item">4</button>
+              <div className="pages">
+                <button className="page">1</button>
+                <button className="page">2</button>
+                <button className="page">3</button>
+                <button className="page">4</button>
               </div>
               <button className="action" disabled={true}>Next</button>
             </div>

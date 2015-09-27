@@ -27913,25 +27913,25 @@
 	              ),
 	              _react2["default"].createElement(
 	                "div",
-	                { className: "items" },
+	                { className: "pages" },
 	                _react2["default"].createElement(
 	                  "button",
-	                  { className: "item" },
+	                  { className: "page" },
 	                  "1"
 	                ),
 	                _react2["default"].createElement(
 	                  "button",
-	                  { className: "item" },
+	                  { className: "page" },
 	                  "2"
 	                ),
 	                _react2["default"].createElement(
 	                  "button",
-	                  { className: "item" },
+	                  { className: "page" },
 	                  "3"
 	                ),
 	                _react2["default"].createElement(
 	                  "button",
-	                  { className: "item" },
+	                  { className: "page" },
 	                  "4"
 	                )
 	              ),
@@ -27971,25 +27971,25 @@
 	              ),
 	              _react2["default"].createElement(
 	                "div",
-	                { className: "items" },
+	                { className: "pages" },
 	                _react2["default"].createElement(
 	                  "button",
-	                  { className: "item -active" },
+	                  { className: "page -active" },
 	                  "1"
 	                ),
 	                _react2["default"].createElement(
 	                  "button",
-	                  { className: "item" },
+	                  { className: "page" },
 	                  "2"
 	                ),
 	                _react2["default"].createElement(
 	                  "button",
-	                  { className: "item" },
+	                  { className: "page" },
 	                  "3"
 	                ),
 	                _react2["default"].createElement(
 	                  "button",
-	                  { className: "item" },
+	                  { className: "page" },
 	                  "4"
 	                )
 	              ),
@@ -28035,25 +28035,25 @@
 	              ),
 	              _react2["default"].createElement(
 	                "div",
-	                { className: "items" },
+	                { className: "pages" },
 	                _react2["default"].createElement(
 	                  "button",
-	                  { className: "item" },
+	                  { className: "page" },
 	                  "1"
 	                ),
 	                _react2["default"].createElement(
 	                  "button",
-	                  { className: "item" },
+	                  { className: "page" },
 	                  "2"
 	                ),
 	                _react2["default"].createElement(
 	                  "button",
-	                  { className: "item" },
+	                  { className: "page" },
 	                  "3"
 	                ),
 	                _react2["default"].createElement(
 	                  "button",
-	                  { className: "item" },
+	                  { className: "page" },
 	                  "4"
 	                )
 	              ),
