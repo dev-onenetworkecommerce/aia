@@ -49,10 +49,15 @@
     transition: 0.15s background;
   }
 
-  > .items > .item:hover {
+  > .items > .item:hover,
+  > .items > .item.-active, {
     color: $brand-white;
     background: $brand-black;
     border-color: transparent;
+  }
+
+  > .items > .item.-active:hover {
+    cursor: default;
   }
 
   > .items > .item:not(:last-child) {

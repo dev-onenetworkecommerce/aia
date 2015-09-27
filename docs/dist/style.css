@@ -4703,10 +4703,13 @@ body {
   /* remove native outline */
   cursor: pointer;
   transition: 0.15s background; }
-.pagination > .items > .item:hover {
+.pagination > .items > .item:hover,
+.pagination > .items > .item.-active {
   color: #fff;
   background: #4A4A4A;
   border-color: transparent; }
+.pagination > .items > .item.-active:hover {
+  cursor: default; }
 .pagination > .items > .item:not(:last-child) {
   margin-right: 5px; }
 

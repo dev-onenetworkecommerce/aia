@@ -27946,7 +27946,65 @@
 	            "section",
 	            { className: "doc-bottom-space" },
 	            _react2["default"].createElement(
-	              "h1",
+	              "h3",
+	              { className: "doc-heading" },
+	              "Example: Active Page"
+	            ),
+	            _react2["default"].createElement(
+	              "p",
+	              null,
+	              "Add ",
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                ".-active"
+	              ),
+	              " modifier class to a page button."
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "pagination" },
+	              _react2["default"].createElement(
+	                "button",
+	                { className: "action" },
+	                "Previous"
+	              ),
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "items" },
+	                _react2["default"].createElement(
+	                  "button",
+	                  { className: "item -active" },
+	                  "1"
+	                ),
+	                _react2["default"].createElement(
+	                  "button",
+	                  { className: "item" },
+	                  "2"
+	                ),
+	                _react2["default"].createElement(
+	                  "button",
+	                  { className: "item" },
+	                  "3"
+	                ),
+	                _react2["default"].createElement(
+	                  "button",
+	                  { className: "item" },
+	                  "4"
+	                )
+	              ),
+	              _react2["default"].createElement(
+	                "button",
+	                { className: "action" },
+	                "Next"
+	              )
+	            )
+	          ),
+	          _react2["default"].createElement(
+	            "section",
+	            { className: "doc-bottom-space" },
+	            _react2["default"].createElement(
+	              "h3",
 	              { className: "doc-heading" },
 	              "Example: Disabled Actions"
 	            ),
