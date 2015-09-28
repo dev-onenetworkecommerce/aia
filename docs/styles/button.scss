@@ -1,7 +1,9 @@
-.btn {
-  margin-bottom: $spacer;
+.doc-btn-group {
+  > .btn {
+    margin-bottom: $spacer;
+  }
 
-  &:not(:last-child) {
+  > .btn:not(:last-child) {
     margin-right: $spacer;
   }
 }
