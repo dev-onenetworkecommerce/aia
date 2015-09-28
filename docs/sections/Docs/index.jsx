@@ -42,7 +42,7 @@ export default class Docs extends React.Component {
           <p>Copyright <strong>ONE Network Ecommerce 2015.</strong></p>
           <p>
             Created and maintained by the Front End team at ONE.&nbsp;
-            <strong>Currently 0.3.1</strong>.
+            <strong>Currently 0.3.5</strong>.
           </p>
         </footer>
       </div>
