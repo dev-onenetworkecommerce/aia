@@ -27640,29 +27640,33 @@
 	            "Variants"
 	          ),
 	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn -primary" },
-	            "Primary"
-	          ),
-	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn -sky" },
-	            "Sky"
-	          ),
-	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn -emerald" },
-	            "Emerald"
-	          ),
-	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn -sun" },
-	            "Sun"
-	          ),
-	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn -crimson" },
-	            "Crimson"
+	            "div",
+	            { className: "doc-btn-group" },
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -primary" },
+	              "Primary"
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -sky" },
+	              "Sky"
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -emerald" },
+	              "Emerald"
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -sun" },
+	              "Sun"
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -crimson" },
+	              "Crimson"
+	            )
 	          )
 	        ),
 	        _react2["default"].createElement(
@@ -27679,24 +27683,28 @@
 	            "Apply one of .-xs, .-small, .-large"
 	          ),
 	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn -xs" },
-	            "Extra Small"
-	          ),
-	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn -small" },
-	            "Small"
-	          ),
-	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn" },
-	            "Default"
-	          ),
-	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn -large" },
-	            "Large"
+	            "div",
+	            { className: "doc-btn-group" },
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -xs" },
+	              "Extra Small"
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -small" },
+	              "Small"
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn" },
+	              "Default"
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -large" },
+	              "Large"
+	            )
 	          )
 	        ),
 	        _react2["default"].createElement(
@@ -27708,34 +27716,38 @@
 	            "Inverted"
 	          ),
 	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn -inverted -default" },
-	            "Button"
-	          ),
-	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn -inverted -primary" },
-	            "Button"
-	          ),
-	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn -inverted -sky" },
-	            "Button"
-	          ),
-	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn -inverted -sun" },
-	            "Button"
-	          ),
-	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn -inverted -crimson" },
-	            "Button"
-	          ),
-	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn -inverted -emerald" },
-	            "Button"
+	            "div",
+	            { className: "doc-btn-group" },
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -inverted -default" },
+	              "Button"
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -inverted -primary" },
+	              "Button"
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -inverted -sky" },
+	              "Button"
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -inverted -sun" },
+	              "Button"
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -inverted -crimson" },
+	              "Button"
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -inverted -emerald" },
+	              "Button"
+	            )
 	          )
 	        ),
 	        _react2["default"].createElement(
@@ -27771,29 +27783,33 @@
 	            "Rounded Button"
 	          ),
 	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn -default -rounded" },
-	            "Button"
-	          ),
-	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn -sky -rounded" },
-	            "Button"
-	          ),
-	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn -emerald -rounded" },
-	            "Button"
-	          ),
-	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn -sun -rounded" },
-	            "Button"
-	          ),
-	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn -crimson -rounded" },
-	            "Button"
+	            "div",
+	            { className: "doc-btn-group" },
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -default -rounded" },
+	              "Button"
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -sky -rounded" },
+	              "Button"
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -emerald -rounded" },
+	              "Button"
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -sun -rounded" },
+	              "Button"
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -crimson -rounded" },
+	              "Button"
+	            )
 	          )
 	        ),
 	        _react2["default"].createElement(

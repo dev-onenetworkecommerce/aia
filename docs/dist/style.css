@@ -5023,10 +5023,10 @@ code {
   color: #428642;
   border: 1px solid #A3E2A3; }
 
-.btn {
+.doc-btn-group > .btn {
   margin-bottom: 1rem; }
-  .btn:not(:last-child) {
-    margin-right: 1rem; }
+.doc-btn-group > .btn:not(:last-child) {
+  margin-right: 1rem; }
 
 .doc-block-grid {
   width: 100%;
