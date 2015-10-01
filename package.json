@@ -4,7 +4,7 @@
   "description": "The UI Toolkit that powers ONE's internal projects",
   "main": "dist/aia.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "./node_modulesl/.bin/karma",
     "build:script": "./node_modules/.bin/babel --stage=0 --out-file dist/aia.js scripts/ --source-maps",
     "build:style": "sass -r sass-css-importer styles/aia.scss:dist/aia.css",
     "copy:fonts": "cp styles/icons/one-icons.* dist/fonts"

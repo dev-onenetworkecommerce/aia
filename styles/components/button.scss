@@ -23,7 +23,6 @@
 
 .btn {
   display: inline-block;
-  border: 1px solid transparent;
   // Size
   padding: 0 20px;
   // Supposedly the same as above, but for some reason,
@@ -31,10 +30,16 @@
   // the same values
   line-height: 30px;
   font-size: $font-size-base;
+  border: 1px solid transparent;
   border-radius: $border-radius-base;
   outline: none; /* remove native outline */
   cursor: pointer;
   transition: 0.1s all;
+
+  &,
+  &:hover {
+    text-decoration: none;
+  }
 
   &.-default { @include btn-variant($brand-gray, $brand-black); }
   &.-primary { @include btn-variant($brand-primary); }
