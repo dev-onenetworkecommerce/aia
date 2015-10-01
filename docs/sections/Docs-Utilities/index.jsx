@@ -85,6 +85,17 @@ export default class Utilities extends React.Component {
         </section>
 
         <section className="doc-bottom-space-large">
+          <h3 className="doc-heading">Center Block Mixin</h3>
+          <p>This is a utility for <code>margin: 0 auto;</code> (used for centering blocks).</p>
+          <div className="doc-center-block-mixin-example _spacer" />
+          <pre>{`
+            .some-class {
+              @include center-block;
+            }
+          `}</pre>
+        </section>
+
+        <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Responsive Mixins</h3>
           <p><em>Mixins</em> such <code>breakpoint-sm</code>, <code>breakpoint-md</code>, <code>breakpoint-lg</code>, and <code>breakpoint-xl</code> are provided to help you with your responsive needs.</p>
           <p>You can resize your window and the below should be colored <span className="_text-muted">gray</span>, <span className="_text-crimson">red</span>, <span className="_text-sun">yellow</span>, <span className="_text-sky">blue</span>, and <span className="_text-emerald">green</span> for xs, sm, md, lg, xl sized screens respectively.</p>

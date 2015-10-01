@@ -29499,6 +29499,32 @@
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
+	            "Center Block Mixin"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "This is a utility for ",
+	            _react2["default"].createElement(
+	              "code",
+	              null,
+	              "margin: 0 auto;"
+	            ),
+	            " (used for centering blocks)."
+	          ),
+	          _react2["default"].createElement("div", { className: "doc-center-block-mixin-example _spacer" }),
+	          _react2["default"].createElement(
+	            "pre",
+	            null,
+	            "\n            .some-class {\n              @include center-block;\n            }\n          "
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
+	            "h3",
+	            { className: "doc-heading" },
 	            "Responsive Mixins"
 	          ),
 	          _react2["default"].createElement(

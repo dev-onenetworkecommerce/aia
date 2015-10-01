@@ -31,3 +31,11 @@
     margin: 0;
   }
 }
+
+.doc-center-block-mixin-example {
+  @include center-block;
+  width: 200px;
+  height: 200px;
+  background: $brand-gray;
+  border: 1px solid $brand-gray-dk;
+}

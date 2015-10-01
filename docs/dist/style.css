@@ -4539,15 +4539,17 @@ body {
 
 .btn {
   display: inline-block;
-  border: 1px solid transparent;
   padding: 0 20px;
   line-height: 30px;
   font-size: 14px;
+  border: 1px solid transparent;
   border-radius: 3px;
   outline: none;
   /* remove native outline */
   cursor: pointer;
   transition: 0.1s all; }
+  .btn, .btn:hover {
+    text-decoration: none; }
   .btn.-default {
     color: #4A4A4A;
     background: #C4C4C4; }
@@ -5092,6 +5094,15 @@ code {
   border-radius: 25px; }
   .doc-ellipsis-example-container > p {
     margin: 0; }
+
+.doc-center-block-mixin-example {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  background: #C4C4C4;
+  border: 1px solid #78828A; }
 
 .doc-bottom-space {
   margin-bottom: 25px; }
