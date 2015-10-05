@@ -9,12 +9,12 @@ Check the [docs](https://rawgit.com/dev-onenetworkecommerce/aia/master/docs/inde
 ## Usage
 If you're using sass, you can simply import the `scss` file.
 ```sass
-@import "path/to/aia/main.scss";
+@import "path/to/aia/styles/main.scss";
 ```
 
 Otherwise, you can get the CSS file directly.
 ```html
-<link href="path/to/aia/aia.scss" rel="stylesheet">
+<link href="path/to/aia/dist/aia.css" rel="stylesheet">
 ```
 
 **Note**: The scripts are not available at the moment. Rest assured, they will be released later on.
