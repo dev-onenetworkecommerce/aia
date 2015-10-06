@@ -76,14 +76,14 @@ export default class Panels extends React.Component {
             <div className="body">
               <h4>Favorites:</h4>
               <div className="doc-bottom-space">
-                <i className="icon-star-full" />
-                <i className="icon-star-full" />
-                <i className="icon-star-full" />
+                <i className="icon icon-star-full" />
+                <i className="icon icon-star-full" />
+                <i className="icon icon-star-full" />
               </div>
               <div>
-                <i className="icon-star-full" />
-                <i className="icon-star-full" />
-                <i className="icon-star-empty" />
+                <i className="icon icon-star-full" />
+                <i className="icon icon-star-full" />
+                <i className="icon icon-star-empty" />
               </div>
             </div>
             <div className="footer">Footer</div>
@@ -97,7 +97,7 @@ export default class Panels extends React.Component {
             <div className="body">
               Some default panel content here. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id eli.
             </div>
-            <table className="table">
+            <table className="table -bordered">
               <thead>
                 <tr>
                   <th>#</th>
