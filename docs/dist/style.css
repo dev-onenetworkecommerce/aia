@@ -4860,8 +4860,10 @@ body {
     color: #fff;
     cursor: default;
     background-color: #3A569B; }
-  .list-group > .menuitem > .icon {
+  .list-group > .menuitem.-selected > .icon {
     color: #fff; }
+  .list-group > .menuitem > .icon {
+    color: #4A4A4A; }
   .list-group > .menuitem > .icon:first-child {
     margin-right: 10px; }
 

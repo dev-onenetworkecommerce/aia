@@ -36,8 +36,12 @@
     background-color: $brand-primary;
   }
 
-  > .menuitem > .icon {
+  > .menuitem.-selected > .icon {
     color: $brand-white;
+  }
+
+  > .menuitem > .icon {
+    color: $brand-black;
   }
 
   > .menuitem > .icon:first-child {
