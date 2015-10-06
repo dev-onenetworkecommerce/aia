@@ -424,6 +424,7 @@ th {
   font-weight: normal;
   font-style: normal; }
 .icon {
+  display: inline-block;
   font-family: 'one-icons';
   speak: none;
   font-style: normal;
@@ -4834,15 +4835,16 @@ body {
 
 .list-group {
   background-color: #fff;
-  border: 1px solid #C4C4C4;
   border-radius: 3px;
+  border: 1.5px solid #F0F0F0;
   color: #4A4A4A; }
   .list-group > .menuitem {
     position: relative;
     display: block;
-    padding: 8px 10px;
-    border-bottom: 1px solid #F0F0F0;
+    padding: 15px 10px;
     background-color: #fff;
+    border-bottom: 1.5px solid #F0F0F0;
+    color: #4A4A4A;
     cursor: pointer; }
     .list-group > .menuitem, .list-group > .menuitem:hover {
       text-decoration: none; }
@@ -4857,14 +4859,16 @@ body {
     border-bottom-right-radius: 3px;
     border-bottom: 0; }
   .list-group > .menuitem.-selected {
-    font-weight: bold;
-    color: #4A4A4A;
+    color: #fff;
     cursor: default;
-    background-color: #fff; }
+    background-color: #3A569B; }
+  .list-group > .menuitem.-selected > .icon {
+    color: #fff; }
   .list-group > .menuitem > .icon {
     color: #4A4A4A; }
   .list-group > .menuitem > .icon:first-child {
-    margin-right: 10px; }
+    margin-right: 10px;
+    width: 20px; }
 
 .panel {
   color: #4A4A4A;
