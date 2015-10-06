@@ -28531,16 +28531,16 @@
 	              _react2["default"].createElement(
 	                "div",
 	                { className: "doc-bottom-space" },
-	                _react2["default"].createElement("i", { className: "icon-star-full" }),
-	                _react2["default"].createElement("i", { className: "icon-star-full" }),
-	                _react2["default"].createElement("i", { className: "icon-star-full" })
+	                _react2["default"].createElement("i", { className: "icon icon-star-full" }),
+	                _react2["default"].createElement("i", { className: "icon icon-star-full" }),
+	                _react2["default"].createElement("i", { className: "icon icon-star-full" })
 	              ),
 	              _react2["default"].createElement(
 	                "div",
 	                null,
-	                _react2["default"].createElement("i", { className: "icon-star-full" }),
-	                _react2["default"].createElement("i", { className: "icon-star-full" }),
-	                _react2["default"].createElement("i", { className: "icon-star-empty" })
+	                _react2["default"].createElement("i", { className: "icon icon-star-full" }),
+	                _react2["default"].createElement("i", { className: "icon icon-star-full" }),
+	                _react2["default"].createElement("i", { className: "icon icon-star-empty" })
 	              )
 	            ),
 	            _react2["default"].createElement(
@@ -28573,7 +28573,7 @@
 	            ),
 	            _react2["default"].createElement(
 	              "table",
-	              { className: "table" },
+	              { className: "table -bordered" },
 	              _react2["default"].createElement(
 	                "thead",
 	                null,

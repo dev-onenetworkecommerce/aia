@@ -40,17 +40,17 @@ td {
 
   &.-bordered > thead > tr > th:not(:first-child),
   &.-bordered > tbody > tr > td:not(:first-child) {
-    border-left: 2px solid $brand-gray;
+    border-left: 1px solid $brand-gray;
   }
 
   &.-bordered > thead > tr > th:first-child,
   &.-bordered > tbody > tr > td:first-child {
-    border-left: 2px solid $brand-gray;
+    border-left: 1px solid $brand-gray;
   }
 
   &.-bordered > thead > tr > th:last-child,
   &.-bordered > tbody > tr > td:last-child {
-    border-right: 2px solid $brand-gray;
+    border-right: 1px solid $brand-gray;
   }
 
   &.-hovered > tbody > tr:hover > td {
