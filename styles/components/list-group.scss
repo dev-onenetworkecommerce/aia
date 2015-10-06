@@ -1,7 +1,7 @@
 .list-group {
   background-color: $brand-white;
-  border: 1px solid $brand-gray;
   border-radius: $border-radius-base;
+  border: 2px solid $brand-gray-lt;
   color: $brand-black;
 
   > .menuitem {
@@ -9,8 +9,8 @@
     position: relative;
     display: block;
     padding: 15px 10px;
-    border-bottom: 1px solid $brand-gray-lt;
     background-color: $brand-white;
+    border-bottom: 2px solid $brand-gray-lt;
     color: $brand-black;
     cursor: pointer;
   }
