@@ -4840,7 +4840,7 @@ body {
   .list-group > .menuitem {
     position: relative;
     display: block;
-    padding: 8px 10px;
+    padding: 12px 10px;
     border-bottom: 1px solid #F0F0F0;
     background-color: #fff;
     cursor: pointer; }
