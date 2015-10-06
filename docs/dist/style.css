@@ -4857,12 +4857,11 @@ body {
     border-bottom-right-radius: 3px;
     border-bottom: 0; }
   .list-group > .menuitem.-selected {
-    font-weight: bold;
-    color: #4A4A4A;
+    color: #fff;
     cursor: default;
-    background-color: #fff; }
+    background-color: #3A569B; }
   .list-group > .menuitem > .icon {
-    color: #4A4A4A; }
+    color: #fff; }
   .list-group > .menuitem > .icon:first-child {
     margin-right: 10px; }
 

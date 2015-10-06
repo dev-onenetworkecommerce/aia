@@ -31,14 +31,13 @@
   }
 
   > .menuitem.-selected {
-    font-weight: bold;
-    color: $brand-black;
+    color: $brand-white;
     cursor: default;
-    background-color: $brand-white;
+    background-color: $brand-primary;
   }
 
   > .menuitem > .icon {
-    color: $brand-black;
+    color: $brand-white;
   }
 
   > .menuitem > .icon:first-child {
