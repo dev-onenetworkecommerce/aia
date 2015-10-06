@@ -4835,14 +4835,14 @@ body {
 .list-group {
   background-color: #fff;
   border-radius: 3px;
-  border: 2px solid #F0F0F0;
+  border: 1.5px solid #F0F0F0;
   color: #4A4A4A; }
   .list-group > .menuitem {
     position: relative;
     display: block;
     padding: 15px 10px;
     background-color: #fff;
-    border-bottom: 2px solid #F0F0F0;
+    border-bottom: 1.5px solid #F0F0F0;
     color: #4A4A4A;
     cursor: pointer; }
     .list-group > .menuitem, .list-group > .menuitem:hover {
