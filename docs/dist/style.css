@@ -4837,14 +4837,13 @@ body {
   border: 1px solid #C4C4C4;
   border-radius: 3px;
   color: #4A4A4A; }
-  .list-group > a {
-    color: #4A4A4A; }
   .list-group > .menuitem {
     position: relative;
     display: block;
     padding: 15px 10px;
     border-bottom: 1px solid #F0F0F0;
     background-color: #fff;
+    color: #4A4A4A;
     cursor: pointer; }
     .list-group > .menuitem, .list-group > .menuitem:hover {
       text-decoration: none; }

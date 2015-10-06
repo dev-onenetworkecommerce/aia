@@ -4,8 +4,6 @@
   border-radius: $border-radius-base;
   color: $brand-black;
 
-  > a { color: $brand-black; }
-
   > .menuitem {
     @include link-no-underscore;
     position: relative;
@@ -13,6 +11,7 @@
     padding: 15px 10px;
     border-bottom: 1px solid $brand-gray-lt;
     background-color: $brand-white;
+    color: $brand-black;
     cursor: pointer;
   }
 
