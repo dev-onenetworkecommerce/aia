@@ -1,16 +1,17 @@
 .list-group {
   background-color: $brand-white;
-  border: 1px solid $brand-gray;
   border-radius: $border-radius-base;
+  border: 1.5px solid $brand-gray-lt;
   color: $brand-black;
 
   > .menuitem {
     @include link-no-underscore;
     position: relative;
     display: block;
-    padding: 8px 10px;
-    border-bottom: 1px solid $brand-gray-lt;
+    padding: 15px 10px;
     background-color: $brand-white;
+    border-bottom: 1.5px solid $brand-gray-lt;
+    color: $brand-black;
     cursor: pointer;
   }
 
@@ -31,10 +32,13 @@
   }
 
   > .menuitem.-selected {
-    font-weight: bold;
-    color: $brand-black;
+    color: $brand-white;
     cursor: default;
-    background-color: $brand-white;
+    background-color: $brand-primary;
+  }
+
+  > .menuitem.-selected > .icon {
+    color: $brand-white;
   }
 
   > .menuitem > .icon {
