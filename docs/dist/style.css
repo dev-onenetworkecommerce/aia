@@ -424,6 +424,7 @@ th {
   font-weight: normal;
   font-style: normal; }
 .icon {
+  display: inline-block;
   font-family: 'one-icons';
   speak: none;
   font-style: normal;
@@ -4866,7 +4867,8 @@ body {
   .list-group > .menuitem > .icon {
     color: #4A4A4A; }
   .list-group > .menuitem > .icon:first-child {
-    margin-right: 10px; }
+    margin-right: 10px;
+    width: 20px; }
 
 .panel {
   color: #4A4A4A;

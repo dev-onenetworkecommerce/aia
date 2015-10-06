@@ -47,5 +47,8 @@
 
   > .menuitem > .icon:first-child {
     margin-right: 10px;
+    // 16px is the default icon size
+    // 4px = allowance
+    width: 20px;
   }
 }

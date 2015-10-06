@@ -10,6 +10,8 @@
 }
 
 .icon {
+  // https://github.com/github/octicons/blob/master/octicons/sprockets-octicons.scss#L15
+  display: inline-block;
 	font-family: 'one-icons';
 	speak: none;
 	font-style: normal;
