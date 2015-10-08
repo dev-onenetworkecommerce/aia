@@ -15,9 +15,7 @@
     cursor: pointer;
   }
 
-  > .menuitem:hover {
-    background: $brand-gray-lt;
-  }
+  > .menuitem:hover { background: $brand-gray-lt; }
 
   > .menuitem:first-child {
     border-top-left-radius: $border-radius-base;
@@ -37,17 +35,9 @@
     background-color: $brand-primary;
   }
 
-  > .menuitem > .badge {
-    float: right;
-  }
+  > .menuitem.-selected > .icon { color: $brand-white; }
 
-  > .menuitem.-selected > .icon {
-    color: $brand-white;
-  }
-
-  > .menuitem > .icon {
-    color: $brand-black;
-  }
+  > .menuitem > .icon { color: $brand-black; }
 
   > .menuitem > .icon:first-child {
     margin-right: 10px;
@@ -55,4 +45,6 @@
     // 4px = allowance
     width: 20px;
   }
+
+  > .menuitem > .badge { float: right; }
 }
