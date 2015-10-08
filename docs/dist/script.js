@@ -28835,11 +28835,11 @@
 	        ),
 	        _react2["default"].createElement(
 	          "section",
-	          null,
+	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
 	            "h2",
 	            { className: "doc-heading" },
-	            "Example: Item with Icons"
+	            " Example: Item with Icons "
 	          ),
 	          _react2["default"].createElement(
 	            "div",
@@ -28854,19 +28854,73 @@
 	                  "a",
 	                  { href: "#", className: "menuitem -selected" },
 	                  _react2["default"].createElement("i", { className: "icon icon-home" }),
-	                  "Home"
+	                  " Home "
 	                ),
 	                _react2["default"].createElement(
 	                  "a",
 	                  { className: "menuitem", href: "#" },
 	                  _react2["default"].createElement("i", { className: "icon icon-profile2" }),
-	                  "About"
+	                  " About "
 	                ),
 	                _react2["default"].createElement(
 	                  "a",
 	                  { className: "menuitem", href: "#" },
 	                  _react2["default"].createElement("i", { className: "icon icon-download4" }),
-	                  "Downloads"
+	                  " Downloads "
+	                )
+	              )
+	            )
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          null,
+	          _react2["default"].createElement(
+	            "h2",
+	            { className: "doc-heading" },
+	            " Example: Item with Badge "
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "row" },
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "col-md-4" },
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "list-group" },
+	                _react2["default"].createElement(
+	                  "a",
+	                  { href: "#", className: "menuitem -selected" },
+	                  _react2["default"].createElement("i", { className: "icon icon-home" }),
+	                  _react2["default"].createElement(
+	                    "span",
+	                    { className: "badge" },
+	                    " 69 "
+	                  ),
+	                  " Home"
+	                ),
+	                _react2["default"].createElement(
+	                  "a",
+	                  { href: "#", className: "menuitem" },
+	                  _react2["default"].createElement("i", { className: "icon icon-profile2" }),
+	                  _react2["default"].createElement(
+	                    "span",
+	                    { className: "badge" },
+	                    " 69 "
+	                  ),
+	                  " About"
+	                ),
+	                _react2["default"].createElement(
+	                  "a",
+	                  { href: "#", className: "menuitem" },
+	                  _react2["default"].createElement("i", { className: "icon icon-download4" }),
+	                  _react2["default"].createElement(
+	                    "span",
+	                    { className: "badge" },
+	                    " 69 "
+	                  ),
+	                  " Downloads"
 	                )
 	              )
 	            )
