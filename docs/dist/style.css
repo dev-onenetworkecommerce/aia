@@ -4862,8 +4862,6 @@ body {
     color: #fff;
     cursor: default;
     background-color: #3A569B; }
-  .list-group > .menuitem > .badge {
-    float: right; }
   .list-group > .menuitem.-selected > .icon {
     color: #fff; }
   .list-group > .menuitem > .icon {
@@ -4871,6 +4869,14 @@ body {
   .list-group > .menuitem > .icon:first-child {
     margin-right: 10px;
     width: 20px; }
+  .list-group > .menuitem > .badge {
+    float: right;
+    background: #3A569B;
+    color: #fff; }
+  .list-group > .menuitem.-selected > .badge {
+    float: right;
+    background: #fff;
+    color: #4A4A4A; }
 
 .panel {
   color: #4A4A4A;

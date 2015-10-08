@@ -52,17 +52,17 @@ export default class ListGroup extends React.Component {
               <div className="list-group">
                 <a href="#" className="menuitem -selected"> 
                   <i className="icon icon-home" />
-                  <span className="badge -primary"> 69 </span> Home 
+                  <span className="badge"> 69 </span> Home 
                 </a>
 
                 <a href="#" className="menuitem">
                   <i className="icon icon-profile2" />
-                  <span className="badge -crimson"> 69 </span> About 
+                  <span className="badge"> 69 </span> About 
                 </a>
 
                 <a href="#" className="menuitem"> 
                   <i className="icon icon-download4" /> 
-                  <span className="badge -emerald"> 69 </span> Downloads 
+                  <span className="badge"> 69 </span> Downloads 
                 </a>
               </div>
             </div>

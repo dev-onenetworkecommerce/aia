@@ -28895,7 +28895,7 @@
 	                  _react2["default"].createElement("i", { className: "icon icon-home" }),
 	                  _react2["default"].createElement(
 	                    "span",
-	                    { className: "badge -primary" },
+	                    { className: "badge" },
 	                    " 69 "
 	                  ),
 	                  " Home"
@@ -28906,7 +28906,7 @@
 	                  _react2["default"].createElement("i", { className: "icon icon-profile2" }),
 	                  _react2["default"].createElement(
 	                    "span",
-	                    { className: "badge -crimson" },
+	                    { className: "badge" },
 	                    " 69 "
 	                  ),
 	                  " About"
@@ -28917,7 +28917,7 @@
 	                  _react2["default"].createElement("i", { className: "icon icon-download4" }),
 	                  _react2["default"].createElement(
 	                    "span",
-	                    { className: "badge -emerald" },
+	                    { className: "badge" },
 	                    " 69 "
 	                  ),
 	                  " Downloads"

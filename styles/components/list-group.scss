@@ -46,5 +46,15 @@
     width: 20px;
   }
 
-  > .menuitem > .badge { float: right; }
+  > .menuitem > .badge { 
+    float: right; 
+    background: $brand-primary;
+    color: $brand-white;
+  }
+
+  > .menuitem.-selected > .badge { 
+    float: right; 
+    background: $brand-white;
+    color: $brand-black;
+  }
 }
