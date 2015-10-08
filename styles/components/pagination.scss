@@ -38,7 +38,8 @@
 
   > .pages > .page {
     display: inline-block;
-    min-width: 15px;
+    min-width: 20px;
+    padding: 2px 5px;
     color: $brand-gray;
     font-size: $font-size-small;
     background: transparent;
