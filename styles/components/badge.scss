@@ -14,6 +14,7 @@
   line-height: 1; // reset
   background: $brand-gray;
   border-radius: $border-radius-rounded;
+  float: right;
 
   &.-primary {
     @include label-variant($brand-primary);
