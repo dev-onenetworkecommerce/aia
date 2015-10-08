@@ -4741,6 +4741,7 @@ body {
   display: inline-block; }
 .pagination > .pages > .page {
   display: inline-block;
+  min-width: 17px;
   padding: 2px 5px;
   color: #C4C4C4;
   font-size: 12px;
