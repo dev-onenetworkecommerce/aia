@@ -37,6 +37,10 @@
     background-color: $brand-primary;
   }
 
+  > .menuitem > .badge {
+    float: right;
+  }
+
   > .menuitem.-selected > .icon {
     color: $brand-white;
   }
