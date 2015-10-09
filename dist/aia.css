@@ -4724,7 +4724,8 @@ body {
   outline: none;
   /* remove native outline */
   cursor: pointer;
-  min-width: 80px; }
+  min-width: 80px;
+  text-decoration: none; }
 .pagination > .action:hover {
   background: #4A4A4A; }
 .pagination > .action:first-child {
@@ -4751,7 +4752,8 @@ body {
   outline: none;
   /* remove native outline */
   cursor: pointer;
-  transition: 0.15s background; }
+  transition: 0.15s background;
+  text-decoration: none; }
 .pagination > .pages > .page:hover,
 .pagination > .pages > .page.-active {
   color: #fff;
