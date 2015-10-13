@@ -27881,6 +27881,11 @@
 	            _react2["default"].createElement(
 	              "button",
 	              { className: "btn -emerald" },
+	              _react2["default"].createElement("i", { className: "icon icon-user3" })
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -emerald" },
 	              _react2["default"].createElement("i", { className: "icon icon-user3" }),
 	              " Button"
 	            ),
