@@ -5658,6 +5658,8 @@ body {
     margin-right: 6px; }
   .btn > .icon:last-child {
     margin-left: 6px; }
+  .btn > .icon:first-child:last-child {
+    margin: 0; }
 
 .btn-group.-rounded > .btn {
   border-radius: 25px; }

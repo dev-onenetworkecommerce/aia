@@ -107,6 +107,10 @@
   > .icon:last-child {
     margin-left: ($padding-x / 2);
   }
+
+  > .icon:first-child:last-child {
+    margin: 0;
+  }
 }
 
 .btn-group {
