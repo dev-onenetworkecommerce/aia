@@ -54,6 +54,7 @@ Big thanks to our main contributors:
 - [Jess Vista (jessvista)](https://github.com/jessvista)
 - [Brian Bodollo (maebe22)](https://github.com/maebe22)
 - [Kier Borromeo (srph)](https://github.com/srph)
+- [Fleener Lemon Dela Cruz `DESIGNER`](https://www.behance.net/fleenerlemon)
 
 Special thanks to our inspirations:
 - [Primer](http://primercss.io)
