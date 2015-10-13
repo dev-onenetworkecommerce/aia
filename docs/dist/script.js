@@ -25798,6 +25798,47 @@
 	          _react2["default"].createElement(
 	            "h2",
 	            { className: "doc-heading" },
+	            "Right-floated columns"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "Helpful for cases when you'd like to put the last column for screens as the first column for smaller screens."
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            { className: "_text-muted" },
+	            "It's pretty hard to explain, so take a look yourself. Note that you will also have to switch the column order."
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "row -right" },
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "col-md-3" },
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "doc-block-grid" },
+	                ".col-md-3"
+	              )
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "col-md-9" },
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "doc-block-grid" },
+	                ".col-md-9"
+	              )
+	            )
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
+	            "h2",
+	            { className: "doc-heading" },
 	            "Mobile and desktop"
 	          ),
 	          _react2["default"].createElement(

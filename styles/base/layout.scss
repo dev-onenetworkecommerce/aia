@@ -24,9 +24,13 @@
 }
 
 .row {
-  margin-left:  -$grid-gutter;
-  margin-right: -$grid-gutter;
+  margin-left:  -($grid-gutter);
+  margin-right: -($grid-gutter);
   @include clearfix();
+
+  // @see
+  // .row.-right;
+  // check on the column generation below.
 }
 
 
@@ -42,6 +46,24 @@
       @media(min-width: $breakpoint) {
         float: left;
         width: percentage($i / $grid-columns);
+
+        /*
+         * Floats all columns to the right instaed of left (default).
+         * It is used to place the right (last-declared) column
+         * on top for responsive websites.
+         *
+         * @example
+         * <div class="row -right">
+         *   <div class="col-md-9"></div>
+         *   <div class="col-md-3"></div>
+         * </div>
+         *
+         * @TODO
+         * Needs refactoring
+         */
+        .row.-right > & {
+          float: right;
+        }
       }
     }
   }

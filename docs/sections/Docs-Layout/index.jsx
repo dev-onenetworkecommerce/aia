@@ -78,6 +78,20 @@ export default class Layout extends React.Component {
         </section>
 
         <section className="doc-bottom-space-large">
+          <h2 className="doc-heading">Right-floated columns</h2>
+          <p>Helpful for cases when you'd like to put the last column for screens as the first column for smaller screens.</p>
+          <p className="_text-muted">It's pretty hard to explain, so take a look yourself. Note that you will also have to switch the column order.</p>
+          <div className="row -right">
+            <div className="col-md-3">
+              <div className="doc-block-grid">.col-md-3</div>
+            </div>
+            <div className="col-md-9">
+              <div className="doc-block-grid">.col-md-9</div>
+            </div>
+          </div>
+        </section>
+
+        <section className="doc-bottom-space-large">
           <h2 className="doc-heading">Mobile and desktop</h2>
           <p>Don't want your columns to simply stack in smaller devices? Use the extra small and medium device grid classes by adding .col-xs-* .col-md-* to your columns. See the example below for a better idea of how it all works.</p>
 
