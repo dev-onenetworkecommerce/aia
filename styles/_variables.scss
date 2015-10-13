@@ -1,4 +1,6 @@
+//  paths
 $icon-path: "fonts" !default;
+$img-path: "../img" !default;
 
 // spacer
 $spacer: 1rem !default;
@@ -7,10 +9,8 @@ $spacer-large: 1.5rem !default;
 
 // grid-related stuff
 // [locked]
-
 $grid-columns: 12 !default;
 $grid-gutter: 10px !default; // space between each column
-
 // https://github.com/twbs/bootstrap/blob/v4-dev/scss/mixins/_grid-framework.scss
 $grid-breakpoints: (
   xs: 0, // Extra small screen / phone
@@ -19,7 +19,6 @@ $grid-breakpoints: (
   lg: 62em, // Large screen / desktop
   xl: 75em// Extra large screen / wide desktop
 ) !default;
-
 $container-max-widths: (
   sm: 34rem,    // 480
   md: 45rem,    // 720

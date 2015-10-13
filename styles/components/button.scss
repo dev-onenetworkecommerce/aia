@@ -100,12 +100,16 @@
     cursor: not-allowed;
   }
 
-  > .pre-icon {
-    margin-right: 10px;
+  > .icon:first-child {
+    margin-right: ($padding-x / 2);
   }
 
-  > .post-icon {
-    margin-left: 10px;
+  > .icon:last-child {
+    margin-left: ($padding-x / 2);
+  }
+
+  > .icon:first-child:last-child {
+    margin: 0;
   }
 }
 

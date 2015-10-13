@@ -27873,6 +27873,43 @@
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
+	            "With Icons"
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "doc-btn-group" },
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -emerald" },
+	              _react2["default"].createElement("i", { className: "icon icon-user3" })
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -emerald" },
+	              _react2["default"].createElement("i", { className: "icon icon-user3" }),
+	              " Button"
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -emerald" },
+	              _react2["default"].createElement("i", { className: "icon icon-user3" }),
+	              " Button ",
+	              _react2["default"].createElement("i", { className: "icon icon-user3" })
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -emerald" },
+	              "Button ",
+	              _react2["default"].createElement("i", { className: "icon icon-user3" })
+	            )
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
+	            "h3",
+	            { className: "doc-heading" },
 	            "Button Group"
 	          ),
 	          _react2["default"].createElement(
