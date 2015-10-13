@@ -5654,10 +5654,10 @@ body {
     border-radius: 25px; }
   .btn.-disabled, .btn:disabled {
     cursor: not-allowed; }
-  .btn > .pre-icon {
-    margin-right: 10px; }
-  .btn > .post-icon {
-    margin-left: 10px; }
+  .btn > .icon:first-child {
+    margin-right: 6px; }
+  .btn > .icon:last-child {
+    margin-left: 6px; }
 
 .btn-group.-rounded > .btn {
   border-radius: 25px; }

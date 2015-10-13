@@ -67,6 +67,24 @@ export default class Buttons extends React.Component {
         </section>
 
         <section className="doc-bottom-space-large">
+          <h3 className="doc-heading">With Icons</h3>
+
+          <div className="doc-btn-group">
+            <button className="btn -emerald">
+              <i className="icon icon-user3" /> Button
+            </button>
+
+            <button className="btn -emerald">
+              <i className="icon icon-user3" /> Button <i className="icon icon-user3" />
+            </button>
+
+            <button className="btn -emerald">
+              Button <i className="icon icon-user3" />
+            </button>
+          </div>
+        </section>
+
+        <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Button Group</h3>
           <section className="doc-bottom-space">
             <div className="btn-group">
