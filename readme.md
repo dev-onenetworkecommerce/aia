@@ -48,9 +48,18 @@ npm run watch:style
 ```
 
 ## License
-Big thanks to our inspirations:
+Big thanks to our main contributors:
+- [Jef Mari (jefmari)](https://github.com/jefmari)
+- [Justin Lazaro (juztinlazaro)](https://github.com/juztinlazaro)
+- [Jess Vista (jessvista)](https://github.com/jessvista)
+- [Brian Bodollo (maebe22)](https://github.com/maebe22)
+- [Kier Borromeo (srph)](https://github.com/srph)
+
+Special thanks to our inspirations:
 - [Primer](http://primercss.io)
 - [Bootstrap](http://getbootstrap.com)
 - [Rico Sta. Cruz](http://rscss.io)
+
+Lastly, thanks to [JC Ricaro](https://github.com/JcRicaro) for coining the project name.
 
 **aia** should never be used outside of officially endorsed ONE products or without explicit permission.
