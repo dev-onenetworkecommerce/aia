@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/dev-onenetworkecommerce/aia",
   "dependencies": {
-    "react": "^0.13.3"
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
   },
   "devDependencies": {
     "babel": "^5.8.23",
