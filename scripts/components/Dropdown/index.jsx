@@ -1,107 +1,147 @@
-import React, { DOM, PropTypes } from 'react';
-import DomUtils from '../../utils/DomUtils';
-import on from '../../utils/on';
+import React, { cloneElement, PropTypes } from 'react';
+import { findDOMNode, render, unmountComponentAtNode } from 'react-dom';
+import utils from './utils';
 
 const ESC_KEY = 27;
-const TRIGGER_REF = '@_trigger';
-// Flag if a node inside the root element should close.
-// export const CLOSE_EXCEPTION_CLASS = 'js-dropdown-ex-flag';
+const DEFAULT_POSITION = {
+  x: 'left',
+  y: 'bottom'
+};
 
-class Dropdown extends React.Component {
+export default class Dropdown extends React.Component {
   static propTypes = {
     /**
-     * The component which toggles the dropdown
-     * It should be a function that returns a VDOM node.
+     * The element used to trigger the open state
      */
-    trigger: PropTypes.func,
+    trigger: PropTypes.element.isRequired,
 
-    element: PropTypes.oneOfType([
-      PropTypes.oneOf([
-        // no reason for the dropdown element
-        // to be another
-        'span',
-        'div',
-        'a',
-        'li'
-      ]),
-
-      // in case yo want to pass a itself
-      // <Dropdown element={DOM.a}></Dropdown>
-      // <Dropdown element={MyElement}></Dropdown>
-      PropTypes.element
-    ]).isRequired,
-
-    /**
-     * Props which disabled the whole component to function
-     */
-    disabled: PropTypes.bool
-  }
+    position: PropTypes.shape({
+      x: PropTypes.oneOf(['left', 'right']),
+      y: PropTypes.oneOf(['top', 'bottom'])
+    }).isRequired
+  };
 
   static defaultProps = {
-    element: DOM.span,
-    disabled: false
-  }
+    position: DEFAULT_POSITION
+  };
 
   constructor(props) {
     super(props);
 
-    // active = used to show / hide the dropdown menu
-    this.state = { active: false };
+    this.state = {
+      open: false,
+      top: 0,
+      left: 0
+    };
+
+    this._handleClick = ::this._handleClick;
+    this._handleEsc = ::this._handleEsc;
   }
 
+  // Register click and keydown event listeners
   componentDidMount() {
-    this.$clickUnlistener = on(document, 'click', this.handleClick.bind(this));
-    this.$keyUpUnlistener = on(document, 'keyup', this.handleKeyUp.bind(this));
+    this.mountDropdownContainer();
+    window.addEventListener('click', this._handleClick);
+    window.addEventListener('keydown', this._handleEsc);
   }
 
+  // Unregister all event listeners
   componentWillUnmount() {
-    this.$clickUnlistener();
-    this.$keyUpUnlistener();
+    this.unmountDropdownContainer();
+    this.unmountDropdown();
+    window.removeEventListener('click', this._handleClick);
+    window.removeEventListener('keydown', this._handleEsc);
+  }
+
+  componentDidUpdate() {
+    if ( !this.state.open ) {
+      this.unmountDropdown()
+    } else {
+      this.mountDropdown();
+    }
   }
 
   render() {
-    let { active } = this.state;
-    let { trigger, element, children, ...props } = this.props;
-
-    return (typeof element === 'string'
-      ? DOM[element]
-      : element)(
-        props,
-        trigger(TRIGGER_REF) active ? children : null
-      );
+    return this.props.trigger;
   }
 
-  handleClick(evt) {
-    const { active } = this.state;
-    const { disabled } = this.props;
-    const target = evt.target;
-    const root = React.findDOMNode(this);
-    // "Hey, dropdown, fuck it, it's disabled, okay?"
-    // "It's not me, it's them, dropdown!"
-    // let hasClass = DomUtils.hasClass(target, CLOSE_EXCEPTION_CLASS);
-    if ( disabled ) {
-      return false;
+  mountDropdown() {
+    if ( !this.$container ) {
+      throw new Error('Container does not exist. It may have been removed, or whatever');
     }
 
-    const triggerNode = React.findDOMNode(this.refs[TRIGGER_REF]);
-    // We'll create this condition here, so we don't use
-    // `preventDefault` and `stopPropagation` on child nodes
-    // or elements not inside the root node.
-    if ( target === triggerNode ) {
+    this.$dropdown = render(
+      cloneElement(this.props.children, {
+        style: {
+          top: this.state.top,
+          left: this.state.left
+        }
+      }),
+      this.$container
+    );
+  }
+
+  unmountDropdown() {
+    unmountComponentAtNode(this.$container);
+    this.$dropdown = null;
+  }
+
+  mountDropdownContainer() {
+    this.$container = document.createElement('div');
+    document.body.appendChild(this.$container);
+  }
+
+  unmountDropdownContainer() {
+    if ( this.$container ) {
+      document.body.removeChild(this.$container);
+      this.$container = null;
+    }
+  }
+
+  setPosition() {
+    const offset = utils.calculatePosition(
+      findDOMNode(this),
+      this.$dropdown,
+      this.getPositionProps()
+    );
+
+    this.setState(offset);
+  }
+
+  getPositionProps() {
+    const { position } = this.props;
+
+    return {
+      x: position.x || DEFAULT_POSITION.x,
+      y: position.y || DEFAULT_POSITION.y
+    };
+  }
+
+  _handleEsc(evt) {
+    if ( this.state.open && evt.keyCode === ESC_KEY ) {
+      this.setState({ open: false });
+    }
+  }
+
+  _handleClick(evt) {
+    const { open } = this.state;
+    const triggerNode = findDOMNode(this);
+
+    // If the target is not itself
+    if ( open && evt.target !== triggerNode ) {
+      this.setState({ open: false });
+    // If the target is itself
+    } else if ( evt.target === triggerNode ) {
       evt.preventDefault();
       evt.stopPropagation && evt.stopPropagation();
-    }
-
-    this.setState({ active: DomUtils.isNodeInRoot(target, root) ? !active : false });
-  }
-
-  handleKeyUp(evt) {
-    // Close the dropdown menu when the `escape` key is pressed
-    // while the state is active (menu is shown).
-    if ( this.state.active && evt.keyCode === ESC_KEY ) {
-      this.setState({ active: false });
+      this.setState({ open: !open }, () => {
+        // Given that we have a new state here,
+        // we'll directly use `this.state.open`
+        // instead of the declare constant above.
+        if ( this.state.open ) {
+          this.setPosition();
+        }
+      });
     }
   }
 }
-
-export default Dropdown;
