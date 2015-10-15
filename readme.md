@@ -40,21 +40,16 @@ npm run build:style
 
 To run the docs locally:
 ```bash
-# installation
-cd docs
-npm install
-
 # running
-npm run build:script
-npm run build:style
-npm run server
+npm run docs:build:script
+npm run docs:build:style
+npm run docs:server
 ```
 
 In case you'd like to watch for changes:
 ```bash
-# on ./docs/ root
-npm run watch:script
-npm run watch:style
+npm run docs:watch:script
+npm run docs:watch:style
 ```
 
 ## License
