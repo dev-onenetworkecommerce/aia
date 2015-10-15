@@ -29988,18 +29988,53 @@
 	          'Yea, yolo swag.'
 	        ),
 	        _react2['default'].createElement(
-	          'div',
-	          null,
+	          'section',
+	          { className: 'doc-bottom-space-large' },
 	          _react2['default'].createElement(
 	            _scriptsComponentsDropdown2['default'],
 	            { trigger: _react2['default'].createElement(
 	                'button',
-	                { type: 'button', className: 'btn' },
+	                { className: 'btn' },
 	                'Open Dropdown'
 	              ) },
 	            _react2['default'].createElement(
 	              'div',
 	              { className: 'dropdown' },
+	              _react2['default'].createElement(
+	                'div',
+	                { className: 'menu' },
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'My Profile'
+	                ),
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'Settings'
+	                ),
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'Logout'
+	                )
+	              )
+	            )
+	          )
+	        ),
+	        _react2['default'].createElement(
+	          'section',
+	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            _scriptsComponentsDropdown2['default'],
+	            { trigger: _react2['default'].createElement(
+	                'button',
+	                { className: 'btn' },
+	                'Open Dropdown'
+	              ), position: { x: 'right' } },
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'dropdown -right' },
 	              _react2['default'].createElement(
 	                'div',
 	                { className: 'menu' },
@@ -30279,11 +30314,14 @@
 	  },
 	
 	  calculateX: function calculateX(trigger, overlay, placement) {
+	    var offsetX = this.getOffsetX(trigger);
+	    var box = trigger.getBoundingClientRect();
+	
 	    switch (placement) {
 	      case 'left':
-	        return trigger.getBoundingClientRect().left;
+	        return box.left + offsetX;
 	      case 'right':
-	        return trigger.getBoundingClientRect().left - trigger.getBoundingClientRect().offsetWidth;
+	        return box.left + offsetX + overlay.getBoundingClientRect().width - box.width;
 	      default:
 	        // I can't imagine this being ran through
 	        // No need for this since the placement is validated with `propTypes`
@@ -30292,17 +30330,40 @@
 	  },
 	
 	  calculateY: function calculateY(trigger, overlay, placement) {
+	    var offsetY = this.getOffsetY(trigger);
+	    var box = trigger.getBoundingClientRect();
+	
 	    switch (placement) {
 	      case 'top':
-	        return trigger.getBoundingClientRect().top - overlay.getBoundingClientRect().height;
+	        return box.top + offsetY - overlay.getBoundingClientRect().height;
 	      case 'bottom':
-	        return trigger.getBoundingClientRect().top + trigger.getBoundingClientRect().height;
+	        return box.top + offsetY + box.height;
 	      default:
 	        // I can't imagine this being ran through
 	        // No need for this since the placement is validated with `propTypes`
 	        throw new Error('\n          Invalid placement provided (' + placement + ' given);\n          choose from \'top\' / \'bottom\'\n        ');
-	
 	    }
+	  },
+	
+	  getOffset: function getOffset($el) {
+	    return {
+	      top: this.getOffsetY($el),
+	      left: this.getOffsetX($el)
+	    };
+	  },
+	
+	  getOffsetX: function getOffsetX($el) {
+	    var doc = document && document.documentElement;
+	    var win = window;
+	    var box = $el.getBoundingClientRect();
+	    return win.pageXOffset || doc.scrollLeft;
+	  },
+	
+	  getOffsetY: function getOffsetY($el) {
+	    var doc = document && document.documentElement;
+	    var win = window;
+	    var box = $el.getBoundingClientRect();
+	    return win.pageYOffset || doc.scrollTop;
 	  }
 	};
 	module.exports = exports['default'];

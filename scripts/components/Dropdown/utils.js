@@ -26,11 +26,14 @@ export default {
   },
 
   calculateX(trigger, overlay, placement) {
+    const offsetX = this.getOffsetX(trigger);
+    const box = trigger.getBoundingClientRect();
+
     switch (placement) {
       case 'left':
-        return trigger.getBoundingClientRect().left;
+        return box.left + offsetX;
       case 'right':
-        return trigger.getBoundingClientRect().left - trigger.getBoundingClientRect().offsetWidth;
+        return box.left + offsetX + overlay.getBoundingClientRect().width - box.width;
       default:
         // I can't imagine this being ran through
         // No need for this since the placement is validated with `propTypes`
@@ -42,11 +45,14 @@ export default {
   },
 
   calculateY(trigger, overlay, placement) {
+    const offsetY = this.getOffsetY(trigger);
+    const box = trigger.getBoundingClientRect();
+
     switch (placement) {
       case 'top':
-        return trigger.getBoundingClientRect().top - overlay.getBoundingClientRect().height;
+        return box.top + offsetY - overlay.getBoundingClientRect().height;
       case 'bottom':
-        return trigger.getBoundingClientRect().top + trigger.getBoundingClientRect().height;
+        return box.top + offsetY + box.height;
       default:
         // I can't imagine this being ran through
         // No need for this since the placement is validated with `propTypes`
@@ -54,7 +60,27 @@ export default {
           Invalid placement provided (${placement} given);
           choose from 'top' / 'bottom'
         `);
-
     }
+  },
+
+  getOffset($el) {
+    return {
+      top: this.getOffsetY($el),
+      left: this.getOffsetX($el)
+    }
+  },
+
+  getOffsetX($el) {
+    const doc = document && document.documentElement;
+    const win = window;
+    const box = $el.getBoundingClientRect();
+    return win.pageXOffset || doc.scrollLeft;
+  },
+
+  getOffsetY($el) {
+    const doc = document && document.documentElement;
+    const win = window;
+    const box = $el.getBoundingClientRect();
+    return win.pageYOffset || doc.scrollTop;
   }
 };

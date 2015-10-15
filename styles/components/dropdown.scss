@@ -1,16 +1,43 @@
 .dropdown {
   $dropdown-arrow-size: 6px;
+
   z-index: 999;
   position: absolute;
   // Default is bottom (dropdown)
-  margin-top: $padding-y;
+  margin-top: ($dropdown-arrow-size * 2);
 
   // Dropup
   &.-up {
-    margin-bottom: $padding-y;
+    margin-bottom: ($dropdown-arrow-size * 2);
+  }
+
+  &.-up > .menu::before {
+    left: initial;
+    right: $dropdown-arrow-size;
+  }
+
+  &.-up > .menu::before,
+  &.-up > {
+    top: ($dropdown-arrow-size * 2);
+    border-bottom-color: transparent;
   }
 
   &.up > .menu::before {
+    border-top-color: $brand-gray-lt;
+  }
+
+  &.-up > .menu::after {
+    border-top-color: $brand-white;
+  }
+
+  // Right
+  &.-right > .menu::before {
+    left: initial;
+    right: $dropdown-arrow-size;
+  }
+
+  &.-right > .menu::before,
+  &.-right > .menu::after {
     left: initial;
     right: $dropdown-arrow-size;
   }
