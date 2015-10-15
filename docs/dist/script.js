@@ -30007,6 +30007,16 @@
 	                  'a',
 	                  { href: '#' },
 	                  'My Profile'
+	                ),
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'Settings'
+	                ),
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'Logout'
 	                )
 	              )
 	            )

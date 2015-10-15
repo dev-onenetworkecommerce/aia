@@ -13,6 +13,8 @@ export default class DropdownView extends React.Component {
             <div className="dropdown">
               <div className="menu">
                 <a href="#">My Profile</a>
+                <a href="#">Settings</a>
+                <a href="#">Logout</a>
               </div>
             </div>
           </Dropdown>
