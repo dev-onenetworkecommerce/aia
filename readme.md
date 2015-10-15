@@ -17,7 +17,17 @@ Otherwise, you can get the CSS file directly.
 <link href="path/to/aia/dist/aia.css" rel="stylesheet">
 ```
 
-**Note**: The scripts are not available at the moment. Rest assured, they will be released later on.
+As for the scripts, we're tightly knit to ReactJS 0.14. Our older versions do not have any scripts.
+```es6
+import { Dropdown } from 'aia';
+```
+
+or if you'd like to get only a certain module or component,
+```es6
+import Dropdown from 'aia/lib/components/Dropdown';
+```
+
+UMD builds are not available for now.
 
 ## Developing
 To build the scripts:

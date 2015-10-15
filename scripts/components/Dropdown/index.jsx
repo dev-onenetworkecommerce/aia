@@ -25,32 +25,32 @@ export default class Dropdown extends React.Component {
     position: DEFAULT_POSITION
   };
 
+  state = {
+    open: false,
+    top: 0,
+    left: 0
+  };
+
   constructor(props) {
     super(props);
 
-    this.state = {
-      open: false,
-      top: 0,
-      left: 0
-    };
-
-    this._handleClick = ::this._handleClick;
-    this._handleEsc = ::this._handleEsc;
+    this.handleClick = ::this.handleClick;
+    this.handleEsc = ::this.handleEsc;
   }
 
   // Register click and keydown event listeners
   componentDidMount() {
     this.mountDropdownContainer();
-    window.addEventListener('click', this._handleClick);
-    window.addEventListener('keydown', this._handleEsc);
+    window.addEventListener('click', this.handleClick);
+    window.addEventListener('keydown', this.handleEsc);
   }
 
   // Unregister all event listeners
   componentWillUnmount() {
-    this.unmountDropdownContainer();
     this.unmountDropdown();
-    window.removeEventListener('click', this._handleClick);
-    window.removeEventListener('keydown', this._handleEsc);
+    this.unmountDropdownContainer();
+    window.removeEventListener('click', this.handleClick);
+    window.removeEventListener('keydown', this.handleEsc);
   }
 
   componentDidUpdate() {
@@ -82,8 +82,10 @@ export default class Dropdown extends React.Component {
   }
 
   unmountDropdown() {
-    unmountComponentAtNode(this.$container);
-    this.$dropdown = null;
+    if ( this.$dropdown ) {
+      unmountComponentAtNode(this.$container);
+      this.$dropdown = null;
+    }
   }
 
   mountDropdownContainer() {
@@ -117,13 +119,13 @@ export default class Dropdown extends React.Component {
     };
   }
 
-  _handleEsc(evt) {
+  handleEsc(evt) {
     if ( this.state.open && evt.keyCode === ESC_KEY ) {
       this.setState({ open: false });
     }
   }
 
-  _handleClick(evt) {
+  handleClick(evt) {
     const { open } = this.state;
     const triggerNode = findDOMNode(this);
 

@@ -28,9 +28,9 @@ export default {
   calculateX(trigger, overlay, placement) {
     switch (placement) {
       case 'left':
-        return trigger.offsetLeft;
+        return trigger.getBoundingClientRect().left;
       case 'right':
-        return trigger.offsetLeft - trigger.offsetWidth;
+        return trigger.getBoundingClientRect().left - trigger.getBoundingClientRect().offsetWidth;
       default:
         // I can't imagine this being ran through
         // No need for this since the placement is validated with `propTypes`
@@ -44,9 +44,9 @@ export default {
   calculateY(trigger, overlay, placement) {
     switch (placement) {
       case 'top':
-        return trigger.offsetTop - overlay.offsetHeight;
+        return trigger.getBoundingClientRect().top - overlay.getBoundingClientRect().height;
       case 'bottom':
-        return trigger.offsetTop + trigger.offsetHeight;
+        return trigger.getBoundingClientRect().top + trigger.getBoundingClientRect().height;
       default:
         // I can't imagine this being ran through
         // No need for this since the placement is validated with `propTypes`

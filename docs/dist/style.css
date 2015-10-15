@@ -5923,31 +5923,27 @@ body {
     color: #fff; }
 
 .dropdown {
-  position: relative; }
+  z-index: 999;
+  position: absolute; }
   .dropdown .menu {
-    z-index: 999;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    list-style: none;
     margin: 2px 0 0;
     padding: 5px 0;
     min-width: 160px;
     background: #fff;
     border: 1px solid #78828A;
     border-radius: 3px; }
-  .dropdown .menu > li > a {
+  .dropdown .menu > a {
     display: block;
     width: 100%;
     padding: 5px 20px;
     color: #4A4A4A; }
-  .dropdown .menu > li > a,
-  .dropdown .menu > li > a:hover {
+  .dropdown .menu > a,
+  .dropdown .menu > a:hover {
     text-decoration: none; }
-  .dropdown .menu > li > a:hover,
-  .dropdown .menu > li > a.-active {
+  .dropdown .menu > a:hover,
+  .dropdown .menu > a.-active {
     background: #C4C4C4; }
-  .dropdown .menu > li > a.-disabled {
+  .dropdown .menu > a.-disabled {
     color: #C4C4C4;
     cursor: not-allowed; }
 
