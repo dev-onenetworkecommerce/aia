@@ -76,8 +76,9 @@
   &.-block {
     display: block;
     width: 100%;
-    margin-right: auto !important;
-    margin-left: auto!important;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
   }
 
   &.-xs {

@@ -5643,8 +5643,9 @@ body {
   .btn.-block {
     display: block;
     width: 100%;
-    margin-right: auto !important;
-    margin-left: auto !important; }
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center; }
   .btn.-xs {
     height: 25px;
     padding: 0px 10px;
