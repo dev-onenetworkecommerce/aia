@@ -5648,19 +5648,17 @@ body {
     text-align: center; }
   .btn.-xs {
     height: 25px;
-    padding: 0px 10px;
     font-size: 12px;
-    line-height: 1.7; }
+    line-height: 25px; }
   .btn.-small {
     height: 30px;
-    padding: 5px 15px;
     font-size: 12px;
-    line-height: 1.7; }
+    line-height: 30px; }
   .btn.-large {
-    height: 40px;
+    height: 50px;
     padding: 0 25px;
     font-size: 18px;
-    line-height: 1.7; }
+    line-height: 40px; }
   .btn.-rounded {
     border-radius: 25px; }
   .btn.-disabled, .btn:disabled {
