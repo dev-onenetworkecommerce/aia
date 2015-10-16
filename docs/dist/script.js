@@ -28046,11 +28046,6 @@
 	              "button",
 	              { className: "btn -crimson -rounded" },
 	              "Button"
-	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -clear -rounded" },
-	              "Button"
 	            )
 	          )
 	        ),

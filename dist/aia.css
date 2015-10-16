@@ -5594,7 +5594,7 @@ body {
     .btn.-clear:hover, .btn.-clear:focus {
       color: #334c88;
       text-decoration: underline;
-      background: transparet; }
+      background: transparent; }
   .btn.-inverted.-default {
     background: transparent;
     color: #C4C4C4;

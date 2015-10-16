@@ -60,7 +60,6 @@ export default class Buttons extends React.Component {
             <button className="btn -emerald -rounded">Button</button>
             <button className="btn -sun -rounded">Button</button>
             <button className="btn -crimson -rounded">Button</button>
-            <button className="btn -clear -rounded">Button</button>
           </div>
         </section>
 
