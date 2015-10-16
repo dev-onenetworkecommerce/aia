@@ -5869,8 +5869,7 @@ body {
   .panel > .body {
     padding: 15px; }
   .panel > .body + .body {
-    border-top: 1px solid;
-    background: 1px solid #F0F0F0; }
+    border-top: 1px solid #F0F0F0; }
   .panel > .footer {
     padding: 10px 15px;
     border-bottom-left-radius: 3px;
