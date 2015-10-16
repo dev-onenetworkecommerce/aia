@@ -27901,7 +27901,7 @@
 	            ),
 	            _react2["default"].createElement(
 	              "button",
-	              { className: "btn -clear" },
+	              { className: "btn -plain" },
 	              "Clear"
 	            )
 	          )

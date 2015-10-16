@@ -5585,13 +5585,13 @@ body {
     .btn.-crimson:hover, .btn.-crimson:focus {
       color: #fff;
       background: #ee4a39; }
-  .btn.-clear {
+  .btn.-plain {
     color: #3A569B;
     background: transparent; }
-    .btn.-clear:hover, .btn.-clear:focus {
+    .btn.-plain:hover, .btn.-plain:focus {
       color: #3A569B;
       background: transparent; }
-    .btn.-clear:hover, .btn.-clear:focus {
+    .btn.-plain:hover, .btn.-plain:focus {
       color: #334c88;
       text-decoration: underline;
       background: transparent; }

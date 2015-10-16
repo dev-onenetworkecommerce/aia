@@ -47,7 +47,7 @@
   &.-emerald { @include btn-variant($brand-emerald); }
   &.-sun { @include btn-variant($brand-sun); }
   &.-crimson { @include btn-variant($brand-crimson); }
-  &.-clear {
+  &.-plain {
     @include btn-variant(transparent, $brand-primary);
 
     &:hover,
