@@ -27871,6 +27871,11 @@
 	            { className: "doc-btn-group" },
 	            _react2["default"].createElement(
 	              "button",
+	              { className: "btn -default" },
+	              "Default"
+	            ),
+	            _react2["default"].createElement(
+	              "button",
 	              { className: "btn -primary" },
 	              "Primary"
 	            ),
@@ -27893,6 +27898,11 @@
 	              "button",
 	              { className: "btn -crimson" },
 	              "Crimson"
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -clear" },
+	              "Clear"
 	            )
 	          )
 	        ),
@@ -28035,6 +28045,11 @@
 	            _react2["default"].createElement(
 	              "button",
 	              { className: "btn -crimson -rounded" },
+	              "Button"
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -clear -rounded" },
 	              "Button"
 	            )
 	          )
