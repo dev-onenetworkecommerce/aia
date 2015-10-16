@@ -14,6 +14,14 @@ export default class Panels extends React.Component {
         </section>
 
         <section className="doc-bottom-space-large">
+          <h3 className="doc-heading"> Panel With Consecutive Body </h3>
+          <div className="panel -default">
+            <div className="body"> Basic Panel Example </div> 
+            <div className="body"> Basic Panel Example </div> 
+          </div> 
+        </section>
+
+        <section className="doc-bottom-space-large">
           <section className="doc-bottom-space">
             <h3 className="doc-heading">Panel with Heading and Body</h3>
             <p>Easily add a heading container to your panel with .panel-heading. You may also include any <code>{'<h1>-<h6>'}</code> with a <code>.panel-title</code> class to add a pre-styled heading.</p>
