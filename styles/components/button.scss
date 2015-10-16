@@ -74,21 +74,21 @@
     height: 25px;
     padding: 0px 10px;
     font-size: $mini;
-    line-height: $line-height-base;
+    line-height: 25px;
   }
 
   &.-small {
     height: 30px;
     padding: 5px 15px;
     font-size: $mini;
-    line-height: $line-height-base;
+    line-height: 20px;
   }
 
   &.-large {
     height: 40px;
     padding: 0 25px;
     font-size: $tiny;
-    line-height: $line-height-base;
+    line-height: 40px;
   }
 
   &.-rounded {
