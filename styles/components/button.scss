@@ -47,12 +47,12 @@
   &.-emerald { @include btn-variant($brand-emerald); }
   &.-sun { @include btn-variant($brand-sun); }
   &.-crimson { @include btn-variant($brand-crimson); }
-  &.-plain {
-    @include btn-variant(transparent, $brand-primary);
+  &.-link {
+    @include btn-variant(transparent, $brand-sky);
 
     &:hover,
     &:focus {
-      color: darken($brand-primary, 5%);
+      color: darken($brand-sky, 25%);
       text-decoration: underline;
       background: transparent;
     }
@@ -76,8 +76,9 @@
   &.-block {
     display: block;
     width: 100%;
-    margin-right: auto !important;
-    margin-left: auto!important;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
   }
 
   &.-xs {

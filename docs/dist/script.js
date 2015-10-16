@@ -27901,8 +27901,8 @@
 	            ),
 	            _react2["default"].createElement(
 	              "button",
-	              { className: "btn -plain" },
-	              "Clear"
+	              { className: "btn -link" },
+	              "Link"
 	            )
 	          )
 	        ),
