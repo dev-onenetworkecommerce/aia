@@ -47,7 +47,11 @@
     text-decoration: none;
   }
 
-  &.-default { @include btn-variant($brand-gray, $brand-black); }
+  &.-default { 
+    @include btn-variant($brand-white, $brand-black); 
+    border: 1px solid $brand-gray;
+  }
+  
   &.-primary { @include btn-variant($brand-primary); }
   &.-sky { @include btn-variant($brand-sky); }
   &.-emerald { @include btn-variant($brand-emerald); }
