@@ -8,7 +8,7 @@
     "build:script": "babel ./scripts -d ./lib --ignore '__tests__' --stage=0",
     "build:umd": "NODE_ENV=production webpack scripts/index.js dist/aia.umd.js",
     "build:min": "NODE_ENV=production webpack -p scripts/index.js dist/aia.umd.js",
-    "build:style": "sass -r sass-css-importer styles/aia.scss:dist/aia.css",
+    "build:style": "sass styles/aia.scss:dist/aia.css",
     "copy:fonts": "cp styles/icons/one-icons.* dist/fonts",
     "docs:server": "node_modules/.bin/http-server -p 3000",
     "docs:watch:script": "webpack --config=docs/webpack.config.js -w -d -v --display-errors",
