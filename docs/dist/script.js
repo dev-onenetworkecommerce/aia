@@ -27942,6 +27942,17 @@
 	              { className: "btn -large" },
 	              "Large"
 	            )
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "With icon inside"
+	          ),
+	          _react2["default"].createElement(
+	            "button",
+	            { className: "btn -large" },
+	            "Search ",
+	            _react2["default"].createElement("span", { className: "icon icon-search" })
 	          )
 	        ),
 	        _react2["default"].createElement(
