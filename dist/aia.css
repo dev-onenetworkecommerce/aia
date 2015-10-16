@@ -5553,10 +5553,11 @@ body {
     text-decoration: none; }
   .btn.-default {
     color: #4A4A4A;
-    background: #C4C4C4; }
+    background: #fff;
+    border: 1px solid #C4C4C4; }
     .btn.-default:hover, .btn.-default:focus {
       color: #4A4A4A;
-      background: #b7b7b7; }
+      background: #f2f2f2; }
   .btn.-primary {
     color: #fff;
     background: #3A569B; }
