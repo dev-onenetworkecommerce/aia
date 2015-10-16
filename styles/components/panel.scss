@@ -36,6 +36,7 @@
 
   > .body + .body {
     border-top: 1px solid;
+    background: 1px solid $brand-gray-lt;
   }
 
   > .footer {
