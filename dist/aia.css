@@ -5573,18 +5573,28 @@ body {
     .btn.-emerald:hover, .btn.-emerald:focus {
       color: #fff;
       background: #2bc79c; }
-  .btn.-crimson {
-    color: #fff;
-    background: #F05F50; }
-    .btn.-crimson:hover, .btn.-crimson:focus {
-      color: #fff;
-      background: #ee4a39; }
   .btn.-sun {
     color: #fff;
     background: #FFC05A; }
     .btn.-sun:hover, .btn.-sun:focus {
       color: #fff;
       background: #ffb641; }
+  .btn.-crimson {
+    color: #fff;
+    background: #F05F50; }
+    .btn.-crimson:hover, .btn.-crimson:focus {
+      color: #fff;
+      background: #ee4a39; }
+  .btn.-clear {
+    color: #3A569B;
+    background: transparent; }
+    .btn.-clear:hover, .btn.-clear:focus {
+      color: #3A569B;
+      background: transparent; }
+    .btn.-clear:hover, .btn.-clear:focus {
+      color: #334c88;
+      text-decoration: underline;
+      background: transparet; }
   .btn.-inverted.-default {
     background: transparent;
     color: #C4C4C4;
@@ -5634,7 +5644,8 @@ body {
     display: block;
     width: 100%;
     margin-right: auto !important;
-    margin-left: auto !important; }
+    margin-left: auto !important;
+    text-align: center; }
   .btn.-xs {
     height: 25px;
     padding: 0px 10px;

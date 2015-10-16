@@ -12,11 +12,13 @@ export default class Buttons extends React.Component {
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Variants</h3>
           <div className="doc-btn-group">
+            <button className="btn -default">Default</button>
             <button className="btn -primary">Primary</button>
             <button className="btn -sky">Sky</button>
             <button className="btn -emerald">Emerald</button>
             <button className="btn -sun">Sun</button>
             <button className="btn -crimson">Crimson</button>
+            <button className="btn -clear">Clear</button>
           </div>
         </section>
 
@@ -58,6 +60,7 @@ export default class Buttons extends React.Component {
             <button className="btn -emerald -rounded">Button</button>
             <button className="btn -sun -rounded">Button</button>
             <button className="btn -crimson -rounded">Button</button>
+            <button className="btn -clear -rounded">Button</button>
           </div>
         </section>
 
