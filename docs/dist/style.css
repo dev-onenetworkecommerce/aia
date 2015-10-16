@@ -5547,6 +5547,8 @@ body {
   /* remove native outline */
   cursor: pointer;
   transition: 0.1s all; }
+  .btn > * {
+    vertical-align: middle; }
   .btn, .btn:hover {
     text-decoration: none; }
   .btn.-default {

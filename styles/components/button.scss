@@ -36,6 +36,12 @@
   cursor: pointer;
   transition: 0.1s all;
 
+  // To center all items inside the button vertically
+  // See https://github.com/dev-onenetworkecommerce/aia/issues/84
+  & > * {
+    vertical-align: middle;
+  }
+
   &,
   &:hover {
     text-decoration: none;
