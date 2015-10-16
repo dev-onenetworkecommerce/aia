@@ -5637,17 +5637,14 @@ body {
     margin-left: auto !important; }
   .btn.-xs {
     height: 25px;
-    padding: 0px 10px;
     font-size: 12px;
     line-height: 25px; }
   .btn.-small {
     height: 30px;
-    padding: 5px 15px;
     font-size: 12px;
-    line-height: 20px; }
+    line-height: 30px; }
   .btn.-large {
     height: 40px;
-    padding: 0 25px;
     font-size: 18px;
     line-height: 40px; }
   .btn.-rounded {
