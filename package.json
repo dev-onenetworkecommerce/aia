@@ -12,7 +12,7 @@
     "copy:fonts": "cp styles/icons/one-icons.* dist/fonts",
     "docs:server": "node_modules/.bin/http-server -p 3000",
     "docs:watch:script": "webpack --config=docs/webpack.config.js -w -d -v --display-errors",
-    "docs:build:style": "sass -r sass-css-importer docs/styles/main.scss:docs/dist/style.css",
+    "docs:build:style": "sass docs/styles/main.scss:docs/dist/style.css",
     "docs:watch:style": "sass --watch -r sass-css-importer docs/styles/main.scss:docs/dist/style.css",
     "docs:copy:fonts": "cp ../styles/icons/one-icons.* dist/fonts",
     "postinstall": "npm run build:script"
