@@ -27946,7 +27946,7 @@
 	          _react2["default"].createElement(
 	            "p",
 	            null,
-	            "Button with Icon"
+	            "With icon inside"
 	          ),
 	          _react2["default"].createElement(
 	            "button",
