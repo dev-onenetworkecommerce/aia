@@ -20158,8 +20158,8 @@
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'slate', component: __webpack_require__(/*! ./sections/Docs-Slate */ 250) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'utilities', component: __webpack_require__(/*! ./sections/Docs-Utilities */ 251) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'dropdown', component: __webpack_require__(/*! ./sections/Docs-Dropdown */ 252) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'colors', component: __webpack_require__(/*! ./sections/Docs-Colors */ 255) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'guidelines', component: __webpack_require__(/*! ./sections/Docs-Guidelines */ 256) })
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'colors', component: __webpack_require__(/*! ./sections/Docs-Colors */ 256) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'guidelines', component: __webpack_require__(/*! ./sections/Docs-Guidelines */ 257) })
 	    )
 	  )
 	);
@@ -20520,7 +20520,7 @@
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/lib/createHashHistory.js ***!
   \***********************************************************/
-[257, 161, 163, 164, 165, 166, 167, 168],
+[258, 161, 163, 164, 165, 166, 167, 168],
 /* 163 */
 /*!***********************************************!*\
   !*** ./~/react-router/~/invariant/browser.js ***!
@@ -20723,7 +20723,7 @@
 /*!**********************************************************!*\
   !*** ./~/react-router/~/history/lib/createDOMHistory.js ***!
   \**********************************************************/
-[258, 163, 165, 166, 169],
+[259, 163, 165, 166, 169],
 /* 169 */
 /*!*******************************************************!*\
   !*** ./~/react-router/~/history/lib/createHistory.js ***!
@@ -21020,7 +21020,7 @@
 /*!********************************************************!*\
   !*** ./~/react-router/~/history/~/deep-equal/index.js ***!
   \********************************************************/
-[259, 171, 172],
+[260, 171, 172],
 /* 171 */
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/~/deep-equal/lib/keys.js ***!
@@ -21102,12 +21102,12 @@
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/lib/runTransitionHook.js ***!
   \***********************************************************/
-[260, 161],
+[261, 161],
 /* 175 */
 /*!***************************************************!*\
   !*** ./~/react-router/~/history/lib/deprecate.js ***!
   \***************************************************/
-[261, 161],
+[262, 161],
 /* 176 */
 /*!******************************************!*\
   !*** ./~/react-router/lib/RouteUtils.js ***!
@@ -22079,12 +22079,12 @@
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/index.js ***!
   \****************************************************/
-[262, 183, 185],
+[263, 183, 185],
 /* 183 */
 /*!********************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/stringify.js ***!
   \********************************************************/
-[263, 184],
+[264, 184],
 /* 184 */
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/utils.js ***!
@@ -22276,7 +22276,7 @@
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/parse.js ***!
   \****************************************************/
-[264, 184],
+[265, 184],
 /* 186 */
 /*!****************************************************!*\
   !*** ./~/react-router/lib/computeChangedRoutes.js ***!
@@ -23796,7 +23796,7 @@
 /*!*************************************************************!*\
   !*** ./~/react-router/~/history/lib/createMemoryHistory.js ***!
   \*************************************************************/
-[265, 163, 164, 169],
+[266, 163, 164, 169],
 /* 204 */
 /*!*****************************************************!*\
   !*** ./~/react-router/~/history/lib/useBasename.js ***!
@@ -24258,7 +24258,7 @@
 /*!*******************************************!*\
   !*** ./~/history/lib/createDOMHistory.js ***!
   \*******************************************/
-[258, 207, 209, 210, 214],
+[259, 207, 209, 210, 214],
 /* 214 */
 /*!****************************************!*\
   !*** ./~/history/lib/createHistory.js ***!
@@ -24529,7 +24529,7 @@
 /*!*****************************************!*\
   !*** ./~/history/~/deep-equal/index.js ***!
   \*****************************************/
-[259, 216, 217],
+[260, 216, 217],
 /* 216 */
 /*!********************************************!*\
   !*** ./~/history/~/deep-equal/lib/keys.js ***!
@@ -24653,22 +24653,22 @@
 /*!********************************************!*\
   !*** ./~/history/lib/runTransitionHook.js ***!
   \********************************************/
-[260, 212],
+[261, 212],
 /* 222 */
 /*!************************************!*\
   !*** ./~/history/lib/deprecate.js ***!
   \************************************/
-[261, 212],
+[262, 212],
 /* 223 */
 /*!********************************************!*\
   !*** ./~/history/lib/createHashHistory.js ***!
   \********************************************/
-[257, 212, 207, 208, 209, 210, 211, 213],
+[258, 212, 207, 208, 209, 210, 211, 213],
 /* 224 */
 /*!**********************************************!*\
   !*** ./~/history/lib/createMemoryHistory.js ***!
   \**********************************************/
-[265, 207, 208, 214],
+[266, 207, 208, 214],
 /* 225 */
 /*!**************************************!*\
   !*** ./~/history/lib/useBasename.js ***!
@@ -25063,12 +25063,12 @@
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/index.js ***!
   \*************************************/
-[262, 229, 231],
+[263, 229, 231],
 /* 229 */
 /*!*****************************************!*\
   !*** ./~/history/~/qs/lib/stringify.js ***!
   \*****************************************/
-[263, 230],
+[264, 230],
 /* 230 */
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/utils.js ***!
@@ -25078,7 +25078,7 @@
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/parse.js ***!
   \*************************************/
-[264, 230],
+[265, 230],
 /* 232 */
 /*!*********************************************!*\
   !*** ./~/history/lib/enableBeforeUnload.js ***!
@@ -28615,6 +28615,29 @@
 	          "section",
 	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
+	            "h3",
+	            { className: "doc-heading" },
+	            " Panel With Consecutive Body "
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "panel -default" },
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "body" },
+	              " Basic Panel Example "
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "body" },
+	              " Basic Panel Example "
+	            )
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
 	            "section",
 	            { className: "doc-bottom-space" },
 	            _react2["default"].createElement(
@@ -30121,6 +30144,8 @@
 	
 	var _utils2 = _interopRequireDefault(_utils);
 	
+	var _utilsDomUtils = __webpack_require__(/*! ../../utils/DomUtils */ 255);
+	
 	var ESC_KEY = 27;
 	var DEFAULT_POSITION = {
 	  x: 'left',
@@ -30272,7 +30297,7 @@
 	      if (open && evt.target !== triggerNode) {
 	        this.setState({ open: false });
 	        // If the target is itself
-	      } else if (evt.target === triggerNode) {
+	      } else if ((0, _utilsDomUtils.isNodeInRoot)(evt.target, triggerNode)) {
 	          evt.preventDefault();
 	          evt.stopPropagation && evt.stopPropagation();
 	          this.setState({ open: !open }, function () {
@@ -30391,6 +30416,55 @@
 
 /***/ },
 /* 255 */
+/*!***********************************!*\
+  !*** ./scripts/utils/DomUtils.js ***!
+  \***********************************/
+/***/ function(module, exports) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	exports['default'] = {
+	  /**
+	   * Checks whether a node is within
+	   * a root nodes tree
+	   *
+	   * Copyright 2014+ React Bootstrap.
+	   * This content of this was copied from
+	   * https://github.com/react-bootstrap/react-bootstrap/blob/master/src/DropdownStateMixin.js
+	   *
+	   * @param {DOMElement} node
+	   * @param {DOMElement} root
+	   * @returns {boolean}
+	   */
+	  isNodeInRoot: function isNodeInRoot(node, root) {
+	    while (node) {
+	      if (node === root) {
+	        return true;
+	      }
+	      node = node.parentNode;
+	    }
+	
+	    return false;
+	  },
+	
+	  /**
+	   * Checks if the given node has the given class
+	   *
+	   * @param {DOMElement} node
+	   * @param {string} className
+	   * @returns {boolean}
+	   */
+	  hasClass: function hasClass(node, className) {
+	    return node.className.split(' ').indexOf(className) !== -1;
+	  }
+	};
+	module.exports = exports['default'];
+
+/***/ },
+/* 256 */
 /*!*********************************************!*\
   !*** ./docs/sections/Docs-Colors/index.jsx ***!
   \*********************************************/
@@ -30491,7 +30565,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 256 */
+/* 257 */
 /*!*************************************************!*\
   !*** ./docs/sections/Docs-Guidelines/index.jsx ***!
   \*************************************************/
@@ -30707,7 +30781,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 257 */
+/* 258 */
 /*!************************************!*\
   !*** template of 162 referencing  ***!
   \************************************/
@@ -30949,7 +31023,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 258 */
+/* 259 */
 /*!************************************!*\
   !*** template of 168 referencing  ***!
   \************************************/
@@ -31007,7 +31081,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 259 */
+/* 260 */
 /*!************************************!*\
   !*** template of 170 referencing  ***!
   \************************************/
@@ -31108,7 +31182,7 @@
 	}
 
 /***/ },
-/* 260 */
+/* 261 */
 /*!************************************!*\
   !*** template of 174 referencing  ***!
   \************************************/
@@ -31142,7 +31216,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 261 */
+/* 262 */
 /*!************************************!*\
   !*** template of 175 referencing  ***!
   \************************************/
@@ -31171,7 +31245,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 262 */
+/* 263 */
 /*!************************************!*\
   !*** template of 182 referencing  ***!
   \************************************/
@@ -31194,7 +31268,7 @@
 	};
 
 /***/ },
-/* 263 */
+/* 264 */
 /*!************************************!*\
   !*** template of 183 referencing  ***!
   \************************************/
@@ -31312,7 +31386,7 @@
 	};
 
 /***/ },
-/* 264 */
+/* 265 */
 /*!************************************!*\
   !*** template of 185 referencing  ***!
   \************************************/
@@ -31490,7 +31564,7 @@
 	};
 
 /***/ },
-/* 265 */
+/* 266 */
 /*!************************************!*\
   !*** template of 203 referencing  ***!
   \************************************/

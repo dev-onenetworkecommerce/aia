@@ -1,6 +1,7 @@
 import React, { cloneElement, PropTypes } from 'react';
 import { findDOMNode, render, unmountComponentAtNode } from 'react-dom';
 import utils from './utils';
+import { isNodeInRoot } from '../../utils/DomUtils';
 
 const ESC_KEY = 27;
 const DEFAULT_POSITION = {
@@ -133,7 +134,7 @@ export default class Dropdown extends React.Component {
     if ( open && evt.target !== triggerNode ) {
       this.setState({ open: false });
     // If the target is itself
-    } else if ( evt.target === triggerNode ) {
+    } else if ( isNodeInRoot(evt.target, triggerNode) ) {
       evt.preventDefault();
       evt.stopPropagation && evt.stopPropagation();
       this.setState({ open: !open }, () => {
