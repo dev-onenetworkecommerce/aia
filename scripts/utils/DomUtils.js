@@ -4,7 +4,7 @@ export default {
    * a root nodes tree
    *
    * Copyright 2014+ React Bootstrap.
-   * This content of this was copied from
+   * This code was copied from
    * https://github.com/react-bootstrap/react-bootstrap/blob/master/src/DropdownStateMixin.js
    *
    * @param {DOMElement} node
