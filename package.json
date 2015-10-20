@@ -10,7 +10,7 @@
     "build:min": "NODE_ENV=production webpack -p scripts/index.js dist/aia.umd.js",
     "build:style": "sass styles/aia.scss:dist/aia.css",
     "copy:fonts": "cp styles/icons/one-icons.* dist/fonts",
-    "docs:server": "node_modules/.bin/http-server -p 3000",
+    "docs:server": "node_modules/.bin/http-server docs -p 3000",
     "docs:watch:script": "webpack --config=docs/webpack.config.js -w -d -v --display-errors",
     "docs:build:style": "sass docs/styles/main.scss:docs/dist/style.css",
     "docs:watch:style": "sass --watch docs/styles/main.scss:docs/dist/style.css",
