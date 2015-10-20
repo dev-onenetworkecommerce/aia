@@ -30367,7 +30367,7 @@
 	      case 'left':
 	        return box.left + offsetX;
 	      case 'right':
-	        return box.left + offsetX + overlay.getBoundingClientRect().width - box.width;
+	        return box.left + offsetX + box.width - overlay.getBoundingClientRect().width;
 	      default:
 	        // I can't imagine this being ran through
 	        // No need for this since the placement is validated with `propTypes`
