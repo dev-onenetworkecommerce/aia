@@ -5995,6 +5995,48 @@ body {
     color: #F0F0F0;
     cursor: not-allowed; }
 
+/**
+ * All 4 components are here
+ * body.modal-body
+ * modal-backdrop
+ * modal
+ * modal dialog
+ *
+ * @usage
+ * Usage with ReactJS
+ * <Modal>
+ *   <div className="modal">
+ *     <div className="dialog">
+ *     </div>
+ *   </div>
+ * </Modal>
+ */
+body.modal-body {
+  overflow: hidden; }
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.7);
+  z-index: 999; }
+
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; }
+
+.modal-dialog {
+  margin: 10px; }
+  @media (min-width: 48em) {
+    .modal-dialog {
+      margin: 30px; } }
+
 .slate {
   padding: 30px;
   text-align: center;

@@ -20158,8 +20158,9 @@
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'slate', component: __webpack_require__(/*! ./sections/Docs-Slate */ 250) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'utilities', component: __webpack_require__(/*! ./sections/Docs-Utilities */ 251) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'dropdown', component: __webpack_require__(/*! ./sections/Docs-Dropdown */ 252) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'colors', component: __webpack_require__(/*! ./sections/Docs-Colors */ 256) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'guidelines', component: __webpack_require__(/*! ./sections/Docs-Guidelines */ 257) })
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'modal', component: __webpack_require__(/*! ./sections/Docs-Modal */ 256) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'colors', component: __webpack_require__(/*! ./sections/Docs-Colors */ 258) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'guidelines', component: __webpack_require__(/*! ./sections/Docs-Guidelines */ 259) })
 	    )
 	  )
 	);
@@ -20520,7 +20521,7 @@
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/lib/createHashHistory.js ***!
   \***********************************************************/
-[258, 161, 163, 164, 165, 166, 167, 168],
+[260, 161, 163, 164, 165, 166, 167, 168],
 /* 163 */
 /*!***********************************************!*\
   !*** ./~/react-router/~/invariant/browser.js ***!
@@ -20723,7 +20724,7 @@
 /*!**********************************************************!*\
   !*** ./~/react-router/~/history/lib/createDOMHistory.js ***!
   \**********************************************************/
-[259, 163, 165, 166, 169],
+[261, 163, 165, 166, 169],
 /* 169 */
 /*!*******************************************************!*\
   !*** ./~/react-router/~/history/lib/createHistory.js ***!
@@ -21020,7 +21021,7 @@
 /*!********************************************************!*\
   !*** ./~/react-router/~/history/~/deep-equal/index.js ***!
   \********************************************************/
-[260, 171, 172],
+[262, 171, 172],
 /* 171 */
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/~/deep-equal/lib/keys.js ***!
@@ -21102,12 +21103,12 @@
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/lib/runTransitionHook.js ***!
   \***********************************************************/
-[261, 161],
+[263, 161],
 /* 175 */
 /*!***************************************************!*\
   !*** ./~/react-router/~/history/lib/deprecate.js ***!
   \***************************************************/
-[262, 161],
+[264, 161],
 /* 176 */
 /*!******************************************!*\
   !*** ./~/react-router/lib/RouteUtils.js ***!
@@ -22079,12 +22080,12 @@
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/index.js ***!
   \****************************************************/
-[263, 183, 185],
+[265, 183, 185],
 /* 183 */
 /*!********************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/stringify.js ***!
   \********************************************************/
-[264, 184],
+[266, 184],
 /* 184 */
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/utils.js ***!
@@ -22276,7 +22277,7 @@
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/parse.js ***!
   \****************************************************/
-[265, 184],
+[267, 184],
 /* 186 */
 /*!****************************************************!*\
   !*** ./~/react-router/lib/computeChangedRoutes.js ***!
@@ -23796,7 +23797,7 @@
 /*!*************************************************************!*\
   !*** ./~/react-router/~/history/lib/createMemoryHistory.js ***!
   \*************************************************************/
-[266, 163, 164, 169],
+[268, 163, 164, 169],
 /* 204 */
 /*!*****************************************************!*\
   !*** ./~/react-router/~/history/lib/useBasename.js ***!
@@ -24258,7 +24259,7 @@
 /*!*******************************************!*\
   !*** ./~/history/lib/createDOMHistory.js ***!
   \*******************************************/
-[259, 207, 209, 210, 214],
+[261, 207, 209, 210, 214],
 /* 214 */
 /*!****************************************!*\
   !*** ./~/history/lib/createHistory.js ***!
@@ -24529,7 +24530,7 @@
 /*!*****************************************!*\
   !*** ./~/history/~/deep-equal/index.js ***!
   \*****************************************/
-[260, 216, 217],
+[262, 216, 217],
 /* 216 */
 /*!********************************************!*\
   !*** ./~/history/~/deep-equal/lib/keys.js ***!
@@ -24653,22 +24654,22 @@
 /*!********************************************!*\
   !*** ./~/history/lib/runTransitionHook.js ***!
   \********************************************/
-[261, 212],
+[263, 212],
 /* 222 */
 /*!************************************!*\
   !*** ./~/history/lib/deprecate.js ***!
   \************************************/
-[262, 212],
+[264, 212],
 /* 223 */
 /*!********************************************!*\
   !*** ./~/history/lib/createHashHistory.js ***!
   \********************************************/
-[258, 212, 207, 208, 209, 210, 211, 213],
+[260, 212, 207, 208, 209, 210, 211, 213],
 /* 224 */
 /*!**********************************************!*\
   !*** ./~/history/lib/createMemoryHistory.js ***!
   \**********************************************/
-[266, 207, 208, 214],
+[268, 207, 208, 214],
 /* 225 */
 /*!**************************************!*\
   !*** ./~/history/lib/useBasename.js ***!
@@ -25063,12 +25064,12 @@
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/index.js ***!
   \*************************************/
-[263, 229, 231],
+[265, 229, 231],
 /* 229 */
 /*!*****************************************!*\
   !*** ./~/history/~/qs/lib/stringify.js ***!
   \*****************************************/
-[264, 230],
+[266, 230],
 /* 230 */
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/utils.js ***!
@@ -25078,7 +25079,7 @@
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/parse.js ***!
   \*************************************/
-[265, 230],
+[267, 230],
 /* 232 */
 /*!*********************************************!*\
   !*** ./~/history/lib/enableBeforeUnload.js ***!
@@ -25467,6 +25468,11 @@
 	                _reactRouter.Link,
 	                { to: '/dropdown', activeClassName: '-selected', className: 'menuitem' },
 	                'Dropdown'
+	              ),
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
+	                { to: '/modal', activeClassName: '-selected', className: 'menuitem' },
+	                'Modal'
 	              )
 	            ),
 	            _react2['default'].createElement(
@@ -30426,45 +30432,335 @@
 	Object.defineProperty(exports, '__esModule', {
 	  value: true
 	});
-	exports['default'] = {
-	  /**
-	   * Checks whether a node is within
-	   * a root nodes tree
-	   *
-	   * Copyright 2014+ React Bootstrap.
-	   * This content of this was copied from
-	   * https://github.com/react-bootstrap/react-bootstrap/blob/master/src/DropdownStateMixin.js
-	   *
-	   * @param {DOMElement} node
-	   * @param {DOMElement} root
-	   * @returns {boolean}
-	   */
-	  isNodeInRoot: function isNodeInRoot(node, root) {
-	    while (node) {
-	      if (node === root) {
-	        return true;
-	      }
-	      node = node.parentNode;
+	exports.isNodeInRoot = isNodeInRoot;
+	exports.hasClass = hasClass;
+	exports.addClass = addClass;
+	exports.removeClass = removeClass;
+	
+	function isNodeInRoot(node, root) {
+	  while (node) {
+	    if (node === root) {
+	      return true;
 	    }
-	
-	    return false;
-	  },
-	
-	  /**
-	   * Checks if the given node has the given class
-	   *
-	   * @param {DOMElement} node
-	   * @param {string} className
-	   * @returns {boolean}
-	   */
-	  hasClass: function hasClass(node, className) {
-	    return node.className.split(' ').indexOf(className) !== -1;
+	    node = node.parentNode;
 	  }
-	};
-	module.exports = exports['default'];
+	
+	  return false;
+	}
+	
+	/**
+	 * Checks if the given node has the given class
+	 *
+	 * @param {DOMElement} node
+	 * @param {string} className
+	 * @returns {boolean}
+	 */
+	
+	function hasClass(node, className) {
+	  return node.className.split(' ').indexOf(className) !== -1;
+	}
+	
+	/**
+	 * @TODO
+	 * Add array or classes
+	 *
+	 * @param {DOMElement}
+	 * @param {string}
+	 */
+	
+	function addClass(node, className) {
+	  if (hasClass(node, className)) {
+	    return;
+	  }
+	
+	  var classes = node.className.split(' ');
+	  classes.push(className);
+	  return node.className = classes.join(' ');
+	}
+	
+	;
+	
+	/**
+	 * @TODO
+	 * Add array or classes
+	 *
+	 * @param {DOMElement}
+	 * @param {string}
+	 */
+	
+	function removeClass(node, className) {
+	  // @REFACTOR
+	  // Do not use hasClass because it doubles
+	  // the amount of process executed
+	  if (!hasClass(node, className)) {
+	    return;
+	  }
+	
+	  var classes = node.className.split(' ');
+	  var index = classes.indexOf(className);
+	  classes.splice(index, 1);
+	  return node.className = classes.join(' ');
+	}
 
 /***/ },
 /* 256 */
+/*!********************************************!*\
+  !*** ./docs/sections/Docs-Modal/index.jsx ***!
+  \********************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _scriptsComponentsModal = __webpack_require__(/*! ../../../scripts/components/Modal */ 257);
+	
+	var _scriptsComponentsModal2 = _interopRequireDefault(_scriptsComponentsModal);
+	
+	var ModalView = (function (_React$Component) {
+	  _inherits(ModalView, _React$Component);
+	
+	  function ModalView() {
+	    _classCallCheck(this, ModalView);
+	
+	    _get(Object.getPrototypeOf(ModalView.prototype), 'constructor', this).apply(this, arguments);
+	
+	    this.state = {
+	      open: false
+	    };
+	  }
+	
+	  _createClass(ModalView, [{
+	    key: 'render',
+	    value: function render() {
+	      var _this = this;
+	
+	      return _react2['default'].createElement(
+	        'div',
+	        null,
+	        _react2['default'].createElement(
+	          'h1',
+	          { className: 'doc-heading' },
+	          'Modals'
+	        ),
+	        this.state.open,
+	        _react2['default'].createElement(
+	          'button',
+	          { className: 'btn -primary', onClick: function () {
+	              return _this.setState({ open: true });
+	            } },
+	          'Open Modal'
+	        ),
+	        _react2['default'].createElement(
+	          _scriptsComponentsModal2['default'],
+	          { open: this.state.open },
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'modal' },
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'modal-dialog' },
+	              _react2['default'].createElement(
+	                'div',
+	                { className: 'container' },
+	                _react2['default'].createElement(
+	                  'div',
+	                  { className: 'row' },
+	                  _react2['default'].createElement(
+	                    'div',
+	                    { className: 'col-md-6 _centered' },
+	                    _react2['default'].createElement(
+	                      'div',
+	                      { className: '_clearfix' },
+	                      _react2['default'].createElement(
+	                        'h3',
+	                        { className: '_left' },
+	                        ' Search '
+	                      ),
+	                      _react2['default'].createElement('i', { className: 'icon icon-close _right', onClick: function () {
+	                          return _this.setState({ open: false });
+	                        } })
+	                    )
+	                  )
+	                )
+	              )
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return ModalView;
+	})(_react2['default'].Component);
+	
+	exports['default'] = ModalView;
+	module.exports = exports['default'];
+
+/***/ },
+/* 257 */
+/*!********************************************!*\
+  !*** ./scripts/components/Modal/index.jsx ***!
+  \********************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactDom = __webpack_require__(/*! react-dom */ 157);
+	
+	var _utilsDomUtils = __webpack_require__(/*! ../../utils/DomUtils */ 255);
+	
+	var MODAL_BODY_CLASS = 'modal-body';
+	var MODAL_BACKDROP_CLASS = 'modal-backdrop';
+	
+	var Modal = (function (_React$Component) {
+	  _inherits(Modal, _React$Component);
+	
+	  function Modal() {
+	    _classCallCheck(this, Modal);
+	
+	    _get(Object.getPrototypeOf(Modal.prototype), 'constructor', this).apply(this, arguments);
+	  }
+	
+	  _createClass(Modal, [{
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {
+	      if (this.props.open) {
+	        this.mountContainer();
+	        this.mountModal();
+	      }
+	    }
+	  }, {
+	    key: 'componentWillUnmount',
+	    value: function componentWillUnmount() {
+	      this.unmountModal();
+	      this.unmountContainer();
+	    }
+	  }, {
+	    key: 'componentDidUpdate',
+	    value: function componentDidUpdate(prevProps) {
+	      // Avoid remount / reunmount
+	      if (prevProps.open === this.props.open) {
+	        return;
+	      }
+	
+	      if (this.props.open) {
+	        this.mountContainer();
+	        this.mountModal();
+	      } else {
+	        this.unmountModal();
+	        this.unmountContainer();
+	      }
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      return _react2['default'].createElement('noscript', null);
+	    }
+	  }, {
+	    key: 'mountContainer',
+	    value: function mountContainer() {
+	      this.$container = document.createElement('div');
+	      document.body.appendChild(this.$container);
+	    }
+	  }, {
+	    key: 'unmountContainer',
+	    value: function unmountContainer() {
+	      if (this.$container == null) {
+	        return;
+	      }
+	
+	      // @REFACTOR
+	      // Move to another function
+	      (0, _utilsDomUtils.removeClass)(document.body, MODAL_BODY_CLASS);
+	
+	      document.body.removeChild(this.$container);
+	      this.$container = null;
+	    }
+	  }, {
+	    key: 'mountModal',
+	    value: function mountModal() {
+	      if (this.$container == null) {
+	        throw new Error('The container does not exist. ' + 'It may have been removed, or whatever');
+	      }
+	
+	      // @REFACTOR
+	      // Move to another function
+	      (0, _utilsDomUtils.addClass)(document.body, MODAL_BODY_CLASS);
+	
+	      this.$modal = (0, _reactDom.render)(_react2['default'].createElement(
+	        'div',
+	        null,
+	        _react2['default'].createElement('div', { className: MODAL_BACKDROP_CLASS }),
+	        this.props.children
+	      ), this.$container);
+	    }
+	  }, {
+	    key: 'unmountModal',
+	    value: function unmountModal() {
+	      if (this.$modal == null) {
+	        return;
+	      }
+	
+	      (0, _reactDom.unmountComponentAtNode)(this.$container);
+	      this.$modal = null;
+	    }
+	  }], [{
+	    key: 'propTypes',
+	    value: {
+	      open: _react.PropTypes.bool.isRequired
+	    },
+	    enumerable: true
+	  }, {
+	    key: 'defaultProps',
+	    value: {
+	      open: false
+	    },
+	    enumerable: true
+	  }]);
+	
+	  return Modal;
+	})(_react2['default'].Component);
+	
+	exports['default'] = Modal;
+	module.exports = exports['default'];
+
+/***/ },
+/* 258 */
 /*!*********************************************!*\
   !*** ./docs/sections/Docs-Colors/index.jsx ***!
   \*********************************************/
@@ -30565,7 +30861,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 257 */
+/* 259 */
 /*!*************************************************!*\
   !*** ./docs/sections/Docs-Guidelines/index.jsx ***!
   \*************************************************/
@@ -30781,7 +31077,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 258 */
+/* 260 */
 /*!************************************!*\
   !*** template of 162 referencing  ***!
   \************************************/
@@ -31023,7 +31319,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 259 */
+/* 261 */
 /*!************************************!*\
   !*** template of 168 referencing  ***!
   \************************************/
@@ -31081,7 +31377,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 260 */
+/* 262 */
 /*!************************************!*\
   !*** template of 170 referencing  ***!
   \************************************/
@@ -31182,7 +31478,7 @@
 	}
 
 /***/ },
-/* 261 */
+/* 263 */
 /*!************************************!*\
   !*** template of 174 referencing  ***!
   \************************************/
@@ -31216,7 +31512,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 262 */
+/* 264 */
 /*!************************************!*\
   !*** template of 175 referencing  ***!
   \************************************/
@@ -31245,7 +31541,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 263 */
+/* 265 */
 /*!************************************!*\
   !*** template of 182 referencing  ***!
   \************************************/
@@ -31268,7 +31564,7 @@
 	};
 
 /***/ },
-/* 264 */
+/* 266 */
 /*!************************************!*\
   !*** template of 183 referencing  ***!
   \************************************/
@@ -31386,7 +31682,7 @@
 	};
 
 /***/ },
-/* 265 */
+/* 267 */
 /*!************************************!*\
   !*** template of 185 referencing  ***!
   \************************************/
@@ -31564,7 +31860,7 @@
 	};
 
 /***/ },
-/* 266 */
+/* 268 */
 /*!************************************!*\
   !*** template of 203 referencing  ***!
   \************************************/
