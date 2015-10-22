@@ -31,8 +31,14 @@ export default class Buttons extends React.Component {
             <button className="btn">Default</button>
             <button className="btn -large">Large</button>
           </div>
+          
           <p>With icon inside</p>
-          <button className="btn -large">Search <span className="icon icon-search"></span></button>
+          <div className="doc-btn-group">
+            <button className="btn -xs"> Search <span className="icon icon-search" /> </button>
+            <button className="btn -small"> Search <span className="icon icon-search" /> </button>
+            <button className="btn"> Search <span className="icon icon-search" /> </button>
+            <button className="btn -large"> Search <span className="icon icon-search" /> </button>
+          </div>
         </section>
 
         <section className="doc-bottom-space-large">
