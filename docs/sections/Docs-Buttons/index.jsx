@@ -82,11 +82,7 @@ export default class Buttons extends React.Component {
 
             <button className="btn -emerald">Button <i className="icon icon-user3" /> </button>
           </div>
-        </section>
 
-        <section className="doc-bottom-space-large">
-          <h3 className="doc-heading"> With Icons Inside In Different Sizes </h3>
-          
           <div className="doc-btn-group">
             <button className="btn -xs -emeral+d"> <i className="icon icon-user3" /> Button </button>
             <button className="btn -small -emerald"> <i className="icon icon-user3" /> Button </button>
