@@ -5434,16 +5434,17 @@ label {
   position: relative;
   display: table;
   border-collapse: separate;
-  width: 100%;
-  border: 1px solid #C4C4C4; }
+  width: 100%; }
   .input-group > .form-control:first-child,
   .input-group > .addon:first-child,
   .input-group > .addon.-btn:first-child > .btn {
+    border-left: 1px solid #C4C4C4;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0; }
   .input-group > .form-control:last-child,
   .input-group > .addon:last-child,
   .input-group > .addon.-btn:last-child > .btn {
+    border-right: 1px solid #C4C4C4;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0; }
   .input-group > .form-control:not(:first-child):not(:last-child),
@@ -5457,13 +5458,17 @@ label {
     z-index: 2;
     float: left;
     width: 100%;
-    border: 0; }
+    border-right: 0;
+    border-left: 0; }
+    .input-group > .form-control:focus {
+      border: 1px solid #52B5E5; }
   .input-group > .addon {
     z-index: 1;
     width: 1%;
     vertical-align: middle;
     padding: 0 8px;
     min-height: 34px;
+    border: 1px solid #C4C4C4;
     border-radius: 3px; }
   .input-group > .addon:first-child {
     border-right: 0; }

@@ -46,11 +46,12 @@ label {
   display: table;
   border-collapse: separate;
   width: 100%;
-  border: 1px solid $brand-gray;
 
   > .form-control:first-child,
   > .addon:first-child,
   > .addon.-btn:first-child > .btn {
+    border-left: 1px solid $brand-gray;
+    
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
@@ -58,6 +59,8 @@ label {
   > .form-control:last-child,
   > .addon:last-child,
   > .addon.-btn:last-child > .btn {
+    border-right: 1px solid $brand-gray;
+
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
@@ -77,7 +80,12 @@ label {
     z-index: 2;
     float: left;
     width: 100%;
-    border: 0;
+    border-right: 0;
+    border-left: 0;
+
+    &:focus { 
+      border: 1px solid $brand-sky;
+    }
   }
 
   > .addon {
@@ -86,6 +94,7 @@ label {
     vertical-align: middle;
     padding: 0 8px;
     min-height: $form-size;
+    border: 1px solid $brand-gray;
     border-radius: $border-radius-base;
   }
 
