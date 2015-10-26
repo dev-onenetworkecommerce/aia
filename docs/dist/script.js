@@ -27948,17 +27948,6 @@
 	              { className: "btn -large" },
 	              "Large"
 	            )
-	          ),
-	          _react2["default"].createElement(
-	            "p",
-	            null,
-	            "With icon inside"
-	          ),
-	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn -large" },
-	            "Search ",
-	            _react2["default"].createElement("span", { className: "icon icon-search" })
 	          )
 	        ),
 	        _react2["default"].createElement(
@@ -28094,26 +28083,62 @@
 	            _react2["default"].createElement(
 	              "button",
 	              { className: "btn -emerald" },
-	              _react2["default"].createElement("i", { className: "icon icon-user3" })
+	              " ",
+	              _react2["default"].createElement("i", { className: "icon icon-user3" }),
+	              " "
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -emerald" },
+	              " ",
+	              _react2["default"].createElement("i", { className: "icon icon-user3" }),
+	              " Button "
 	            ),
 	            _react2["default"].createElement(
 	              "button",
 	              { className: "btn -emerald" },
 	              _react2["default"].createElement("i", { className: "icon icon-user3" }),
-	              " Button"
-	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -emerald" },
-	              _react2["default"].createElement("i", { className: "icon icon-user3" }),
-	              " Button ",
+	              " Button",
 	              _react2["default"].createElement("i", { className: "icon icon-user3" })
 	            ),
 	            _react2["default"].createElement(
 	              "button",
 	              { className: "btn -emerald" },
 	              "Button ",
-	              _react2["default"].createElement("i", { className: "icon icon-user3" })
+	              _react2["default"].createElement("i", { className: "icon icon-user3" }),
+	              " "
+	            )
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "doc-btn-group" },
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -xs -emerald" },
+	              " ",
+	              _react2["default"].createElement("i", { className: "icon icon-user3" }),
+	              " Button "
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -small -emerald" },
+	              " ",
+	              _react2["default"].createElement("i", { className: "icon icon-user3" }),
+	              " Button "
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -emerald" },
+	              " ",
+	              _react2["default"].createElement("i", { className: "icon icon-user3" }),
+	              " Button "
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -large -emerald" },
+	              " ",
+	              _react2["default"].createElement("i", { className: "icon icon-user3" }),
+	              " Button "
 	            )
 	          )
 	        ),
