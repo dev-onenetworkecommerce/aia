@@ -31,8 +31,7 @@ export default class Buttons extends React.Component {
             <button className="btn">Default</button>
             <button className="btn -large">Large</button>
           </div>
-          <p>With icon inside</p>
-          <button className="btn -large">Search <span className="icon icon-search"></span></button>
+          
         </section>
 
         <section className="doc-bottom-space-large">
@@ -74,21 +73,21 @@ export default class Buttons extends React.Component {
           <h3 className="doc-heading">With Icons</h3>
 
           <div className="doc-btn-group">
+            <button className="btn -emerald"> <i className="icon icon-user3" /> </button>
+            <button className="btn -emerald"> <i className="icon icon-user3" /> Button </button>
             <button className="btn -emerald">
+              <i className="icon icon-user3" /> Button 
               <i className="icon icon-user3" />
             </button>
 
-            <button className="btn -emerald">
-              <i className="icon icon-user3" /> Button
-            </button>
+            <button className="btn -emerald">Button <i className="icon icon-user3" /> </button>
+          </div>
 
-            <button className="btn -emerald">
-              <i className="icon icon-user3" /> Button <i className="icon icon-user3" />
-            </button>
-
-            <button className="btn -emerald">
-              Button <i className="icon icon-user3" />
-            </button>
+          <div className="doc-btn-group">
+            <button className="btn -xs -emerald"> <i className="icon icon-user3" /> Button </button>
+            <button className="btn -small -emerald"> <i className="icon icon-user3" /> Button </button>
+            <button className="btn -emerald"> <i className="icon icon-user3" /> Button </button>
+            <button className="btn -large -emerald"> <i className="icon icon-user3" /> Button </button>
           </div>
         </section>
 
