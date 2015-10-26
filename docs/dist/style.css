@@ -5397,14 +5397,14 @@ a {
         float: right; } }
 
 .form-control {
+  vertical-align: middle;
   display: block;
   width: 100%;
   min-height: 34px;
   padding: 7px 8px;
-  vertical-align: middle;
-  background-color: #fff;
   border: 1px solid #C4C4C4;
   border-radius: 3px;
+  background-color: #fff;
   outline: none; }
   .form-control:focus {
     border-color: #52B5E5; }
@@ -5434,7 +5434,8 @@ label {
   position: relative;
   display: table;
   border-collapse: separate;
-  width: 100%; }
+  width: 100%;
+  border: 1px solid #C4C4C4; }
   .input-group > .form-control:first-child,
   .input-group > .addon:first-child,
   .input-group > .addon.-btn:first-child > .btn {
@@ -5455,16 +5456,15 @@ label {
   .input-group > .form-control {
     z-index: 2;
     float: left;
-    width: 100%; }
+    width: 100%;
+    border: 0; }
   .input-group > .addon {
     z-index: 1;
     width: 1%;
+    vertical-align: middle;
     padding: 0 8px;
     min-height: 34px;
-    background: #F0F0F0;
-    border: 1px solid #C4C4C4;
-    border-radius: 3px;
-    vertical-align: middle; }
+    border-radius: 3px; }
   .input-group > .addon:first-child {
     border-right: 0; }
   .input-group > .addon:last-child {
