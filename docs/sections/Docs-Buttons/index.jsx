@@ -84,7 +84,7 @@ export default class Buttons extends React.Component {
           </div>
 
           <div className="doc-btn-group">
-            <button className="btn -xs -emeral+d"> <i className="icon icon-user3" /> Button </button>
+            <button className="btn -xs -emerald"> <i className="icon icon-user3" /> Button </button>
             <button className="btn -small -emerald"> <i className="icon icon-user3" /> Button </button>
             <button className="btn -emerald"> <i className="icon icon-user3" /> Button </button>
             <button className="btn -large -emerald"> <i className="icon icon-user3" /> Button </button>
