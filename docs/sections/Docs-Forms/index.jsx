@@ -84,7 +84,6 @@ export default class Forms extends React.Component {
               <option>Option 2</option>
             </select>
           </section>
-
         </section>
 
         <section className="doc-bottom-space-large">
