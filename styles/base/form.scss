@@ -46,11 +46,10 @@
     @include form-variant($brand-crimson);
     background-color: $brand-crimson;
     color: $brand-crimson-dk;
+    &::-webkit-input-placeholder {
+      color: $brand-crimson-dk;
+    }
   }
-  &.-error::-webkit-input-placeholder {
-   color: $brand-crimson-dk;
-  }
-
 }
 
 // fix issue with <select> padding

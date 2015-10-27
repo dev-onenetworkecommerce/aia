@@ -5424,8 +5424,8 @@ a {
     color: #C85044; }
     .form-control.-error, .form-control.-error:focus {
       border-color: #F05F50; }
-  .form-control.-error::-webkit-input-placeholder {
-    color: #C85044; }
+    .form-control.-error::-webkit-input-placeholder {
+      color: #C85044; }
 
 select.form-control {
   height: 34px; }
