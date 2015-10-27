@@ -22,6 +22,18 @@ export default class Slate extends React.Component {
           </div>
         </section>
 
+        <section className="doc-bottom-space-large">
+          <h3 className="doc-heading"> Loading Slate </h3>
+          <div className="slate">
+            <div className="tri-circle-loader _spacer">
+              <div />
+              <div />
+              <div />
+            </div>
+            <h3> I am a Loading Slate </h3>
+          </div>
+        </section>
+
         <section className="doc-bottom-space">
           <h3 className="doc-heading">Plain Slate</h3>
           <p>You can make a plain slate by adding the .-plain modifier class</p>
