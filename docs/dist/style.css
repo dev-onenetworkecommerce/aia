@@ -5937,30 +5937,12 @@ body {
 .dropdown {
   z-index: 999;
   position: absolute;
-  margin-top: 12px; }
-  .dropdown.-up {
-    margin-bottom: 12px; }
-  .dropdown.-up > .menu::before {
-    left: initial;
-    right: 6px; }
-  .dropdown.-up > .menu::before, .dropdown.-up > {
-    top: 12px;
-    border-bottom-color: transparent; }
-  .dropdown.up > .menu::before {
-    border-top-color: #F0F0F0; }
-  .dropdown.-up > .menu::after {
-    border-top-color: #fff; }
-  .dropdown.-right > .menu::before {
-    left: initial;
-    right: 6px; }
-  .dropdown.-right > .menu::before, .dropdown.-right > .menu::after {
-    left: initial;
-    right: 6px; }
+  margin-top: 20px; }
   .dropdown > .menu {
     position: relative;
     padding: 6px 0;
     min-width: 140px;
-    font-size: 12px;
+    font-size: 14px;
     background: #fff;
     border: 1px solid #F0F0F0;
     border-radius: 3px;
@@ -5970,19 +5952,19 @@ body {
     content: "";
     display: block;
     position: absolute;
-    top: -12px;
-    left: 6px;
+    top: -20px;
+    left: 10px;
     height: 0;
     width: 0;
-    border: 6px solid transparent; }
+    border: 10px solid transparent; }
   .dropdown > .menu::before {
-    border-bottom-color: #C4C4C4; }
+    border-bottom-color: #78828A; }
   .dropdown > .menu::after {
     border-bottom-color: #fff; }
   .dropdown > .menu > a {
     display: block;
     width: 100%;
-    padding: 3px 9px;
+    padding: 3px 18px;
     color: #4A4A4A; }
   .dropdown > .menu > a,
   .dropdown > .menu > a:hover {
@@ -5994,6 +5976,26 @@ body {
   .dropdown > .menu > a.-disabled {
     color: #F0F0F0;
     cursor: not-allowed; }
+  .dropdown > .menu > a > .icon {
+    padding: 3px; }
+  .dropdown.-up {
+    margin-top: -20px; }
+  .dropdown.-up > .menu::before, .dropdown.-up > .menu::after {
+    left: initial;
+    right: 10px;
+    top: initial;
+    bottom: -20px;
+    border-bottom-color: transparent; }
+  .dropdown.-up > .menu::before {
+    border-top-color: #78828A; }
+  .dropdown.-up > .menu::after {
+    border-top-color: #fff; }
+  .dropdown.-right > .menu::before {
+    left: initial;
+    right: 10px; }
+  .dropdown.-right > .menu::before, .dropdown.-right > .menu::after {
+    left: initial;
+    right: 10px; }
 
 /**
  * All 4 components are here
