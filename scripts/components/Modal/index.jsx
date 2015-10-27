@@ -52,10 +52,6 @@ export default class Modal extends React.Component {
       return;
     }
 
-    // @REFACTOR
-    // Move to another function
-    removeClass(document.body, MODAL_BODY_CLASS);
-
     document.body.removeChild(this.$container);
     this.$container = null;
   }
@@ -85,6 +81,10 @@ export default class Modal extends React.Component {
     if ( this.$modal == null ) {
       return;
     }
+
+    // @REFACTOR
+    // Move to another function
+    removeClass(document.body, MODAL_BODY_CLASS);
 
     unmountComponentAtNode(this.$container);
     this.$modal = null;

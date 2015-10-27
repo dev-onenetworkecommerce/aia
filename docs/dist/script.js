@@ -30730,10 +30730,6 @@
 	        return;
 	      }
 	
-	      // @REFACTOR
-	      // Move to another function
-	      (0, _utilsDomUtils.removeClass)(document.body, MODAL_BODY_CLASS);
-	
 	      document.body.removeChild(this.$container);
 	      this.$container = null;
 	    }
@@ -30761,6 +30757,10 @@
 	      if (this.$modal == null) {
 	        return;
 	      }
+	
+	      // @REFACTOR
+	      // Move to another function
+	      (0, _utilsDomUtils.removeClass)(document.body, MODAL_BODY_CLASS);
 	
 	      (0, _reactDom.unmountComponentAtNode)(this.$container);
 	      this.$modal = null;
