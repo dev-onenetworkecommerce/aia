@@ -44,11 +44,11 @@
 
   &.-error {
     @include form-variant($brand-crimson);
-    background-color: rgba(240, 95, 80, 0.6);
-    color: $brand-crimson;
+    background-color: $brand-crimson;
+    color: $brand-crimson-dk;
   }
   &.-error::-webkit-input-placeholder {
-   color: $brand-crimson;
+   color: $brand-crimson-dk;
   }
 
 }

@@ -71,7 +71,7 @@ export default class Forms extends React.Component {
         </section>
 
         <section className="doc-bottom-space-large">
-          <h3 className="doc-heading">Error</h3>
+          <h3 className="doc-heading">Forms Error</h3>
           <p>Individual fields may display an error state. To apply, simply add one of the *modifier* classes to .form-control: .-error</p>
 
           <section className="doc-bottom-space">
