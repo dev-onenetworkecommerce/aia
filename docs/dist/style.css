@@ -5419,6 +5419,13 @@ a {
     border-color: #F05F50; }
   .form-control.-sun, .form-control.-sun:focus {
     border-color: #FFC05A; }
+  .form-control.-error {
+    background-color: rgba(240, 95, 80, 0.6);
+    color: #F05F50; }
+    .form-control.-error, .form-control.-error:focus {
+      border-color: #F05F50; }
+  .form-control.-error::-webkit-input-placeholder {
+    color: #F05F50; }
 
 select.form-control {
   height: 34px; }
