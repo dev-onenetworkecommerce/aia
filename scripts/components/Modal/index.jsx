@@ -15,8 +15,9 @@ export default class Modal extends React.Component {
   };
 
   componentDidMount() {
+    this.mountContainer();
+
     if ( this.props.open ) {
-      this.mountContainer();
       this.mountModal();
     }
   }
@@ -27,17 +28,10 @@ export default class Modal extends React.Component {
   }
 
   componentDidUpdate(prevProps) {
-    // Avoid remount / reunmount
-    if ( prevProps.open === this.props.open ) {
-      return;
-    }
-
     if ( this.props.open ) {
-      this.mountContainer();
       this.mountModal();
     } else {
       this.unmountModal();
-      this.unmountContainer();
     }
   }
 
