@@ -5420,7 +5420,7 @@ a {
   .form-control.-sun, .form-control.-sun:focus {
     border-color: #FFC05A; }
   .form-control.-error {
-    background-color: #F05F50;
+    background-color: #fce0dd;
     color: #C85044; }
     .form-control.-error, .form-control.-error:focus {
       border-color: #F05F50; }

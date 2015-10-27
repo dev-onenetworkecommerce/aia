@@ -44,7 +44,7 @@
 
   &.-error {
     @include form-variant($brand-crimson);
-    background-color: $brand-crimson;
+    background-color: lighten($brand-crimson, 30);
     color: $brand-crimson-dk;
     &::-webkit-input-placeholder {
       color: $brand-crimson-dk;
