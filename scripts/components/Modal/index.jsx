@@ -4,6 +4,7 @@ import { addClass, removeClass } from '../../utils/DomUtils';
 
 const MODAL_BODY_CLASS = 'modal-body';
 const MODAL_BACKDROP_CLASS = 'modal-backdrop';
+const ESC_KEY = 27;
 
 export default class Modal extends React.Component {
   static propTypes = {
@@ -20,11 +21,13 @@ export default class Modal extends React.Component {
     if ( this.props.open ) {
       this.mountModal();
     }
+    window.addEventListener('keyup', this.handleKeyUp());
   }
 
   componentWillUnmount() {
     this.unmountModal();
     this.unmountContainer();
+    window.addEventListener('keyup', this.handleKeyUp());
   }
 
   componentDidUpdate(prevProps) {
@@ -85,5 +88,13 @@ export default class Modal extends React.Component {
 
     unmountComponentAtNode(this.$container);
     this.$modal = null;
+  }
+
+  handleKeyUp() {
+    return (evt) => {
+      if( evt.keyCode === ESC_KEY ) {
+        this.unmountModal();
+      }
+    }
   }
 }
