@@ -1,3 +1,7 @@
-export { default as Dropdown } from './Dropdown';
-export { default as Tooltip } from './Tooltip';
-export { default as OverlayTrigger } from './OverlayTrigger';
+import Dropdown from './components/Dropdown';
+import Modal from './components/Modal';
+
+export default {
+  Dropdown,
+  Modal
+};

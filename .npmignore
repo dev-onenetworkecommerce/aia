@@ -1,4 +1,8 @@
-scripts
+.travis.yaml
+CHANGELOG.md
+CONTRIBUTING.md
+Gemfile.lock
+webpack.config.js
 node_modules
 docs
 design

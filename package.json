@@ -1,13 +1,21 @@
 {
   "name": "aia",
-  "version": "0.3.10",
+  "version": "0.4.9",
   "description": "The UI Toolkit that powers ONE's internal projects",
-  "main": "dist/aia.js",
+  "main": "lib/index",
   "scripts": {
     "test": "./node_modulesl/.bin/karma",
-    "build:script": "./node_modules/.bin/babel --stage=0 --out-file dist/aia.js scripts/ --source-maps",
-    "build:style": "sass -r sass-css-importer styles/aia.scss:dist/aia.css",
-    "copy:fonts": "cp styles/icons/one-icons.* dist/fonts"
+    "build:script": "babel ./scripts -d ./lib --ignore '__tests__' --stage=0",
+    "build:umd": "NODE_ENV=production webpack scripts/index.js dist/aia.umd.js",
+    "build:min": "NODE_ENV=production webpack -p scripts/index.js dist/aia.umd.js",
+    "build:style": "sass styles/aia.scss:dist/aia.css",
+    "copy:fonts": "cp styles/icons/one-icons.* dist/fonts",
+    "docs:server": "node_modules/.bin/http-server docs -p 3000",
+    "docs:watch:script": "webpack --config=docs/webpack.config.js -w -d -v --display-errors",
+    "docs:build:style": "sass docs/styles/main.scss:docs/dist/style.css",
+    "docs:watch:style": "sass --watch docs/styles/main.scss:docs/dist/style.css",
+    "docs:copy:fonts": "cp ../styles/icons/one-icons.* dist/fonts",
+    "postinstall": "npm run build:script"
   },
   "repository": {
     "type": "git",
@@ -19,11 +27,15 @@
     "url": "https://github.com/dev-onenetworkecommerce/aia/issues"
   },
   "homepage": "https://github.com/dev-onenetworkecommerce/aia",
-  "dependencies": {
-    "react": "^0.13.3"
-  },
   "devDependencies": {
     "babel": "^5.8.23",
-    "babel-core": "^5.8.24"
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
+    "history": "^1.12.5",
+    "http-server": "^0.8.5",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-router": "^1.0.0-rc3",
+    "webpack": "^1.12.2"
   }
 }

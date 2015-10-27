@@ -12,11 +12,13 @@ export default class Buttons extends React.Component {
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Variants</h3>
           <div className="doc-btn-group">
+            <button className="btn -default">Default</button>
             <button className="btn -primary">Primary</button>
             <button className="btn -sky">Sky</button>
             <button className="btn -emerald">Emerald</button>
             <button className="btn -sun">Sun</button>
             <button className="btn -crimson">Crimson</button>
+            <button className="btn -link">Link</button>
           </div>
         </section>
 
@@ -29,6 +31,7 @@ export default class Buttons extends React.Component {
             <button className="btn">Default</button>
             <button className="btn -large">Large</button>
           </div>
+          
         </section>
 
         <section className="doc-bottom-space-large">
@@ -64,6 +67,28 @@ export default class Buttons extends React.Component {
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Disabled</h3>
           <button className="btn -default -disabled">Button</button>
+        </section>
+
+        <section className="doc-bottom-space-large">
+          <h3 className="doc-heading">With Icons</h3>
+
+          <div className="doc-btn-group">
+            <button className="btn -emerald"> <i className="icon icon-user3" /> </button>
+            <button className="btn -emerald"> <i className="icon icon-user3" /> Button </button>
+            <button className="btn -emerald">
+              <i className="icon icon-user3" /> Button 
+              <i className="icon icon-user3" />
+            </button>
+
+            <button className="btn -emerald">Button <i className="icon icon-user3" /> </button>
+          </div>
+
+          <div className="doc-btn-group">
+            <button className="btn -xs -emerald"> <i className="icon icon-user3" /> Button </button>
+            <button className="btn -small -emerald"> <i className="icon icon-user3" /> Button </button>
+            <button className="btn -emerald"> <i className="icon icon-user3" /> Button </button>
+            <button className="btn -large -emerald"> <i className="icon icon-user3" /> Button </button>
+          </div>
         </section>
 
         <section className="doc-bottom-space-large">

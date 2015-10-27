@@ -1,0 +1,52 @@
+/**
+ * All 4 components are here
+ * body.modal-body
+ * modal-backdrop
+ * modal
+ * modal dialog
+ *
+ * @usage
+ * Usage with ReactJS
+ * <Modal>
+ *   <div className="modal">
+ *     <div className="dialog">
+ *     </div>
+ *   </div>
+ * </Modal>
+ */
+
+body.modal-body {
+  overflow: hidden;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255,255,255,0.8);
+  z-index: $modal-backdrop-zIndex;
+}
+
+// Position `.modal-dialog` in the backdrop
+.modal {
+  z-index: $modal-zIndex;
+  overflow: scroll;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+// @TODO
+// IMPROVEMENTS
+// BECAUSE IT LOOKS LIKE SHIT (IT DOES NOTHING)
+.modal-dialog {
+  margin: 10px;
+
+  @include breakpoint-md {
+    margin: 30px;
+  }
+}

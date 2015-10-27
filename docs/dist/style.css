@@ -3844,7 +3844,23 @@ a {
   @media (min-width: 0) {
     .col-xs-1 {
       float: left;
-      width: 8.33333%; } }
+      width: 8.33333%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-xs-1 {
+        float: right; } }
 
 .col-xs-2 {
   position: relative;
@@ -3854,7 +3870,23 @@ a {
   @media (min-width: 0) {
     .col-xs-2 {
       float: left;
-      width: 16.66667%; } }
+      width: 16.66667%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-xs-2 {
+        float: right; } }
 
 .col-xs-3 {
   position: relative;
@@ -3864,7 +3896,23 @@ a {
   @media (min-width: 0) {
     .col-xs-3 {
       float: left;
-      width: 25%; } }
+      width: 25%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-xs-3 {
+        float: right; } }
 
 .col-xs-4 {
   position: relative;
@@ -3874,7 +3922,23 @@ a {
   @media (min-width: 0) {
     .col-xs-4 {
       float: left;
-      width: 33.33333%; } }
+      width: 33.33333%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-xs-4 {
+        float: right; } }
 
 .col-xs-5 {
   position: relative;
@@ -3884,7 +3948,23 @@ a {
   @media (min-width: 0) {
     .col-xs-5 {
       float: left;
-      width: 41.66667%; } }
+      width: 41.66667%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-xs-5 {
+        float: right; } }
 
 .col-xs-6 {
   position: relative;
@@ -3894,7 +3974,23 @@ a {
   @media (min-width: 0) {
     .col-xs-6 {
       float: left;
-      width: 50%; } }
+      width: 50%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-xs-6 {
+        float: right; } }
 
 .col-xs-7 {
   position: relative;
@@ -3904,7 +4000,23 @@ a {
   @media (min-width: 0) {
     .col-xs-7 {
       float: left;
-      width: 58.33333%; } }
+      width: 58.33333%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-xs-7 {
+        float: right; } }
 
 .col-xs-8 {
   position: relative;
@@ -3914,7 +4026,23 @@ a {
   @media (min-width: 0) {
     .col-xs-8 {
       float: left;
-      width: 66.66667%; } }
+      width: 66.66667%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-xs-8 {
+        float: right; } }
 
 .col-xs-9 {
   position: relative;
@@ -3924,7 +4052,23 @@ a {
   @media (min-width: 0) {
     .col-xs-9 {
       float: left;
-      width: 75%; } }
+      width: 75%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-xs-9 {
+        float: right; } }
 
 .col-xs-10 {
   position: relative;
@@ -3934,7 +4078,23 @@ a {
   @media (min-width: 0) {
     .col-xs-10 {
       float: left;
-      width: 83.33333%; } }
+      width: 83.33333%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-xs-10 {
+        float: right; } }
 
 .col-xs-11 {
   position: relative;
@@ -3944,7 +4104,23 @@ a {
   @media (min-width: 0) {
     .col-xs-11 {
       float: left;
-      width: 91.66667%; } }
+      width: 91.66667%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-xs-11 {
+        float: right; } }
 
 .col-xs-12 {
   position: relative;
@@ -3954,7 +4130,23 @@ a {
   @media (min-width: 0) {
     .col-xs-12 {
       float: left;
-      width: 100%; } }
+      width: 100%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-xs-12 {
+        float: right; } }
 
 .col-sm-1 {
   position: relative;
@@ -3964,7 +4156,23 @@ a {
   @media (min-width: 34em) {
     .col-sm-1 {
       float: left;
-      width: 8.33333%; } }
+      width: 8.33333%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-sm-1 {
+        float: right; } }
 
 .col-sm-2 {
   position: relative;
@@ -3974,7 +4182,23 @@ a {
   @media (min-width: 34em) {
     .col-sm-2 {
       float: left;
-      width: 16.66667%; } }
+      width: 16.66667%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-sm-2 {
+        float: right; } }
 
 .col-sm-3 {
   position: relative;
@@ -3984,7 +4208,23 @@ a {
   @media (min-width: 34em) {
     .col-sm-3 {
       float: left;
-      width: 25%; } }
+      width: 25%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-sm-3 {
+        float: right; } }
 
 .col-sm-4 {
   position: relative;
@@ -3994,7 +4234,23 @@ a {
   @media (min-width: 34em) {
     .col-sm-4 {
       float: left;
-      width: 33.33333%; } }
+      width: 33.33333%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-sm-4 {
+        float: right; } }
 
 .col-sm-5 {
   position: relative;
@@ -4004,7 +4260,23 @@ a {
   @media (min-width: 34em) {
     .col-sm-5 {
       float: left;
-      width: 41.66667%; } }
+      width: 41.66667%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-sm-5 {
+        float: right; } }
 
 .col-sm-6 {
   position: relative;
@@ -4014,7 +4286,23 @@ a {
   @media (min-width: 34em) {
     .col-sm-6 {
       float: left;
-      width: 50%; } }
+      width: 50%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-sm-6 {
+        float: right; } }
 
 .col-sm-7 {
   position: relative;
@@ -4024,7 +4312,23 @@ a {
   @media (min-width: 34em) {
     .col-sm-7 {
       float: left;
-      width: 58.33333%; } }
+      width: 58.33333%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-sm-7 {
+        float: right; } }
 
 .col-sm-8 {
   position: relative;
@@ -4034,7 +4338,23 @@ a {
   @media (min-width: 34em) {
     .col-sm-8 {
       float: left;
-      width: 66.66667%; } }
+      width: 66.66667%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-sm-8 {
+        float: right; } }
 
 .col-sm-9 {
   position: relative;
@@ -4044,7 +4364,23 @@ a {
   @media (min-width: 34em) {
     .col-sm-9 {
       float: left;
-      width: 75%; } }
+      width: 75%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-sm-9 {
+        float: right; } }
 
 .col-sm-10 {
   position: relative;
@@ -4054,7 +4390,23 @@ a {
   @media (min-width: 34em) {
     .col-sm-10 {
       float: left;
-      width: 83.33333%; } }
+      width: 83.33333%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-sm-10 {
+        float: right; } }
 
 .col-sm-11 {
   position: relative;
@@ -4064,7 +4416,23 @@ a {
   @media (min-width: 34em) {
     .col-sm-11 {
       float: left;
-      width: 91.66667%; } }
+      width: 91.66667%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-sm-11 {
+        float: right; } }
 
 .col-sm-12 {
   position: relative;
@@ -4074,7 +4442,23 @@ a {
   @media (min-width: 34em) {
     .col-sm-12 {
       float: left;
-      width: 100%; } }
+      width: 100%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-sm-12 {
+        float: right; } }
 
 .col-md-1 {
   position: relative;
@@ -4084,7 +4468,23 @@ a {
   @media (min-width: 48em) {
     .col-md-1 {
       float: left;
-      width: 8.33333%; } }
+      width: 8.33333%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-md-1 {
+        float: right; } }
 
 .col-md-2 {
   position: relative;
@@ -4094,7 +4494,23 @@ a {
   @media (min-width: 48em) {
     .col-md-2 {
       float: left;
-      width: 16.66667%; } }
+      width: 16.66667%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-md-2 {
+        float: right; } }
 
 .col-md-3 {
   position: relative;
@@ -4104,7 +4520,23 @@ a {
   @media (min-width: 48em) {
     .col-md-3 {
       float: left;
-      width: 25%; } }
+      width: 25%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-md-3 {
+        float: right; } }
 
 .col-md-4 {
   position: relative;
@@ -4114,7 +4546,23 @@ a {
   @media (min-width: 48em) {
     .col-md-4 {
       float: left;
-      width: 33.33333%; } }
+      width: 33.33333%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-md-4 {
+        float: right; } }
 
 .col-md-5 {
   position: relative;
@@ -4124,7 +4572,23 @@ a {
   @media (min-width: 48em) {
     .col-md-5 {
       float: left;
-      width: 41.66667%; } }
+      width: 41.66667%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-md-5 {
+        float: right; } }
 
 .col-md-6 {
   position: relative;
@@ -4134,7 +4598,23 @@ a {
   @media (min-width: 48em) {
     .col-md-6 {
       float: left;
-      width: 50%; } }
+      width: 50%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-md-6 {
+        float: right; } }
 
 .col-md-7 {
   position: relative;
@@ -4144,7 +4624,23 @@ a {
   @media (min-width: 48em) {
     .col-md-7 {
       float: left;
-      width: 58.33333%; } }
+      width: 58.33333%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-md-7 {
+        float: right; } }
 
 .col-md-8 {
   position: relative;
@@ -4154,7 +4650,23 @@ a {
   @media (min-width: 48em) {
     .col-md-8 {
       float: left;
-      width: 66.66667%; } }
+      width: 66.66667%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-md-8 {
+        float: right; } }
 
 .col-md-9 {
   position: relative;
@@ -4164,7 +4676,23 @@ a {
   @media (min-width: 48em) {
     .col-md-9 {
       float: left;
-      width: 75%; } }
+      width: 75%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-md-9 {
+        float: right; } }
 
 .col-md-10 {
   position: relative;
@@ -4174,7 +4702,23 @@ a {
   @media (min-width: 48em) {
     .col-md-10 {
       float: left;
-      width: 83.33333%; } }
+      width: 83.33333%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-md-10 {
+        float: right; } }
 
 .col-md-11 {
   position: relative;
@@ -4184,7 +4728,23 @@ a {
   @media (min-width: 48em) {
     .col-md-11 {
       float: left;
-      width: 91.66667%; } }
+      width: 91.66667%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-md-11 {
+        float: right; } }
 
 .col-md-12 {
   position: relative;
@@ -4194,7 +4754,23 @@ a {
   @media (min-width: 48em) {
     .col-md-12 {
       float: left;
-      width: 100%; } }
+      width: 100%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-md-12 {
+        float: right; } }
 
 .col-lg-1 {
   position: relative;
@@ -4204,7 +4780,23 @@ a {
   @media (min-width: 62em) {
     .col-lg-1 {
       float: left;
-      width: 8.33333%; } }
+      width: 8.33333%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-lg-1 {
+        float: right; } }
 
 .col-lg-2 {
   position: relative;
@@ -4214,7 +4806,23 @@ a {
   @media (min-width: 62em) {
     .col-lg-2 {
       float: left;
-      width: 16.66667%; } }
+      width: 16.66667%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-lg-2 {
+        float: right; } }
 
 .col-lg-3 {
   position: relative;
@@ -4224,7 +4832,23 @@ a {
   @media (min-width: 62em) {
     .col-lg-3 {
       float: left;
-      width: 25%; } }
+      width: 25%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-lg-3 {
+        float: right; } }
 
 .col-lg-4 {
   position: relative;
@@ -4234,7 +4858,23 @@ a {
   @media (min-width: 62em) {
     .col-lg-4 {
       float: left;
-      width: 33.33333%; } }
+      width: 33.33333%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-lg-4 {
+        float: right; } }
 
 .col-lg-5 {
   position: relative;
@@ -4244,7 +4884,23 @@ a {
   @media (min-width: 62em) {
     .col-lg-5 {
       float: left;
-      width: 41.66667%; } }
+      width: 41.66667%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-lg-5 {
+        float: right; } }
 
 .col-lg-6 {
   position: relative;
@@ -4254,7 +4910,23 @@ a {
   @media (min-width: 62em) {
     .col-lg-6 {
       float: left;
-      width: 50%; } }
+      width: 50%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-lg-6 {
+        float: right; } }
 
 .col-lg-7 {
   position: relative;
@@ -4264,7 +4936,23 @@ a {
   @media (min-width: 62em) {
     .col-lg-7 {
       float: left;
-      width: 58.33333%; } }
+      width: 58.33333%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-lg-7 {
+        float: right; } }
 
 .col-lg-8 {
   position: relative;
@@ -4274,7 +4962,23 @@ a {
   @media (min-width: 62em) {
     .col-lg-8 {
       float: left;
-      width: 66.66667%; } }
+      width: 66.66667%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-lg-8 {
+        float: right; } }
 
 .col-lg-9 {
   position: relative;
@@ -4284,7 +4988,23 @@ a {
   @media (min-width: 62em) {
     .col-lg-9 {
       float: left;
-      width: 75%; } }
+      width: 75%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-lg-9 {
+        float: right; } }
 
 .col-lg-10 {
   position: relative;
@@ -4294,7 +5014,23 @@ a {
   @media (min-width: 62em) {
     .col-lg-10 {
       float: left;
-      width: 83.33333%; } }
+      width: 83.33333%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-lg-10 {
+        float: right; } }
 
 .col-lg-11 {
   position: relative;
@@ -4304,7 +5040,23 @@ a {
   @media (min-width: 62em) {
     .col-lg-11 {
       float: left;
-      width: 91.66667%; } }
+      width: 91.66667%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-lg-11 {
+        float: right; } }
 
 .col-lg-12 {
   position: relative;
@@ -4314,7 +5066,23 @@ a {
   @media (min-width: 62em) {
     .col-lg-12 {
       float: left;
-      width: 100%; } }
+      width: 100%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-lg-12 {
+        float: right; } }
 
 .col-xl-1 {
   position: relative;
@@ -4324,7 +5092,23 @@ a {
   @media (min-width: 75em) {
     .col-xl-1 {
       float: left;
-      width: 8.33333%; } }
+      width: 8.33333%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-xl-1 {
+        float: right; } }
 
 .col-xl-2 {
   position: relative;
@@ -4334,7 +5118,23 @@ a {
   @media (min-width: 75em) {
     .col-xl-2 {
       float: left;
-      width: 16.66667%; } }
+      width: 16.66667%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-xl-2 {
+        float: right; } }
 
 .col-xl-3 {
   position: relative;
@@ -4344,7 +5144,23 @@ a {
   @media (min-width: 75em) {
     .col-xl-3 {
       float: left;
-      width: 25%; } }
+      width: 25%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-xl-3 {
+        float: right; } }
 
 .col-xl-4 {
   position: relative;
@@ -4354,7 +5170,23 @@ a {
   @media (min-width: 75em) {
     .col-xl-4 {
       float: left;
-      width: 33.33333%; } }
+      width: 33.33333%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-xl-4 {
+        float: right; } }
 
 .col-xl-5 {
   position: relative;
@@ -4364,7 +5196,23 @@ a {
   @media (min-width: 75em) {
     .col-xl-5 {
       float: left;
-      width: 41.66667%; } }
+      width: 41.66667%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-xl-5 {
+        float: right; } }
 
 .col-xl-6 {
   position: relative;
@@ -4374,7 +5222,23 @@ a {
   @media (min-width: 75em) {
     .col-xl-6 {
       float: left;
-      width: 50%; } }
+      width: 50%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-xl-6 {
+        float: right; } }
 
 .col-xl-7 {
   position: relative;
@@ -4384,7 +5248,23 @@ a {
   @media (min-width: 75em) {
     .col-xl-7 {
       float: left;
-      width: 58.33333%; } }
+      width: 58.33333%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-xl-7 {
+        float: right; } }
 
 .col-xl-8 {
   position: relative;
@@ -4394,7 +5274,23 @@ a {
   @media (min-width: 75em) {
     .col-xl-8 {
       float: left;
-      width: 66.66667%; } }
+      width: 66.66667%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-xl-8 {
+        float: right; } }
 
 .col-xl-9 {
   position: relative;
@@ -4404,7 +5300,23 @@ a {
   @media (min-width: 75em) {
     .col-xl-9 {
       float: left;
-      width: 75%; } }
+      width: 75%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-xl-9 {
+        float: right; } }
 
 .col-xl-10 {
   position: relative;
@@ -4414,7 +5326,23 @@ a {
   @media (min-width: 75em) {
     .col-xl-10 {
       float: left;
-      width: 83.33333%; } }
+      width: 83.33333%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-xl-10 {
+        float: right; } }
 
 .col-xl-11 {
   position: relative;
@@ -4424,7 +5352,23 @@ a {
   @media (min-width: 75em) {
     .col-xl-11 {
       float: left;
-      width: 91.66667%; } }
+      width: 91.66667%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-xl-11 {
+        float: right; } }
 
 .col-xl-12 {
   position: relative;
@@ -4434,7 +5378,23 @@ a {
   @media (min-width: 75em) {
     .col-xl-12 {
       float: left;
-      width: 100%; } }
+      width: 100%;
+      /*
+       * Floats all columns to the right instaed of left (default).
+       * It is used to place the right (last-declared) column
+       * on top for responsive websites.
+       *
+       * @example
+       * <div class="row -right">
+       *   <div class="col-md-9"></div>
+       *   <div class="col-md-3"></div>
+       * </div>
+       *
+       * @TODO
+       * Needs refactoring
+       */ }
+      .row.-right > .col-xl-12 {
+        float: right; } }
 
 .form-control {
   display: block;
@@ -4587,14 +5547,17 @@ body {
   /* remove native outline */
   cursor: pointer;
   transition: 0.1s all; }
+  .btn > * {
+    vertical-align: middle; }
   .btn, .btn:hover {
     text-decoration: none; }
   .btn.-default {
     color: #4A4A4A;
-    background: #C4C4C4; }
+    background: #fff;
+    border: 1px solid #C4C4C4; }
     .btn.-default:hover, .btn.-default:focus {
       color: #4A4A4A;
-      background: #b7b7b7; }
+      background: #f2f2f2; }
   .btn.-primary {
     color: #fff;
     background: #3A569B; }
@@ -4613,18 +5576,28 @@ body {
     .btn.-emerald:hover, .btn.-emerald:focus {
       color: #fff;
       background: #2bc79c; }
-  .btn.-crimson {
-    color: #fff;
-    background: #F05F50; }
-    .btn.-crimson:hover, .btn.-crimson:focus {
-      color: #fff;
-      background: #ee4a39; }
   .btn.-sun {
     color: #fff;
     background: #FFC05A; }
     .btn.-sun:hover, .btn.-sun:focus {
       color: #fff;
       background: #ffb641; }
+  .btn.-crimson {
+    color: #fff;
+    background: #F05F50; }
+    .btn.-crimson:hover, .btn.-crimson:focus {
+      color: #fff;
+      background: #ee4a39; }
+  .btn.-link {
+    color: #52B5E5;
+    background: transparent; }
+    .btn.-link:hover, .btn.-link:focus {
+      color: #52B5E5;
+      background: transparent; }
+    .btn.-link:hover, .btn.-link:focus {
+      color: #1873a0;
+      text-decoration: underline;
+      background: transparent; }
   .btn.-inverted.-default {
     background: transparent;
     color: #C4C4C4;
@@ -4673,31 +5646,32 @@ body {
   .btn.-block {
     display: block;
     width: 100%;
-    margin-right: auto !important;
-    margin-left: auto !important; }
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center; }
   .btn.-xs {
     height: 25px;
-    padding: 0px 10px;
     font-size: 12px;
-    line-height: 1.7; }
+    line-height: 25px; }
   .btn.-small {
     height: 30px;
-    padding: 5px 15px;
     font-size: 12px;
-    line-height: 1.7; }
+    line-height: 30px; }
   .btn.-large {
-    height: 40px;
+    height: 50px;
     padding: 0 25px;
     font-size: 18px;
-    line-height: 1.7; }
+    line-height: 40px; }
   .btn.-rounded {
     border-radius: 25px; }
   .btn.-disabled, .btn:disabled {
     cursor: not-allowed; }
-  .btn > .pre-icon {
-    margin-right: 10px; }
-  .btn > .post-icon {
-    margin-left: 10px; }
+  .btn > .icon:first-child {
+    margin-right: 6px; }
+  .btn > .icon:last-child {
+    margin-left: 6px; }
+  .btn > .icon:first-child:last-child {
+    margin: 0; }
 
 .btn-group.-rounded > .btn {
   border-radius: 25px; }
@@ -4724,7 +5698,8 @@ body {
   outline: none;
   /* remove native outline */
   cursor: pointer;
-  min-width: 80px; }
+  min-width: 80px;
+  text-decoration: none; }
 .pagination > .action:hover {
   background: #4A4A4A; }
 .pagination > .action:first-child {
@@ -4751,7 +5726,8 @@ body {
   outline: none;
   /* remove native outline */
   cursor: pointer;
-  transition: 0.15s background; }
+  transition: 0.15s background;
+  text-decoration: none; }
 .pagination > .pages > .page:hover,
 .pagination > .pages > .page.-active {
   color: #fff;
@@ -4894,7 +5870,7 @@ body {
   .panel > .body {
     padding: 15px; }
   .panel > .body + .body {
-    border-top: 1px solid; }
+    border-top: 1px solid #F0F0F0; }
   .panel > .footer {
     padding: 10px 15px;
     border-bottom-left-radius: 3px;
@@ -4960,33 +5936,108 @@ body {
     color: #fff; }
 
 .dropdown {
-  position: relative; }
-  .dropdown .menu {
-    z-index: 999;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    list-style: none;
-    margin: 2px 0 0;
-    padding: 5px 0;
-    min-width: 160px;
+  z-index: 999;
+  position: absolute;
+  margin-top: 12px; }
+  .dropdown.-up {
+    margin-bottom: 12px; }
+  .dropdown.-up > .menu::before {
+    left: initial;
+    right: 6px; }
+  .dropdown.-up > .menu::before, .dropdown.-up > {
+    top: 12px;
+    border-bottom-color: transparent; }
+  .dropdown.up > .menu::before {
+    border-top-color: #F0F0F0; }
+  .dropdown.-up > .menu::after {
+    border-top-color: #fff; }
+  .dropdown.-right > .menu::before {
+    left: initial;
+    right: 6px; }
+  .dropdown.-right > .menu::before, .dropdown.-right > .menu::after {
+    left: initial;
+    right: 6px; }
+  .dropdown > .menu {
+    position: relative;
+    padding: 6px 0;
+    min-width: 140px;
+    font-size: 12px;
     background: #fff;
-    border: 1px solid #78828A;
-    border-radius: 3px; }
-  .dropdown .menu > li > a {
+    border: 1px solid #F0F0F0;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #F0F0F0; }
+  .dropdown > .menu::before,
+  .dropdown > .menu::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -12px;
+    left: 6px;
+    height: 0;
+    width: 0;
+    border: 6px solid transparent; }
+  .dropdown > .menu::before {
+    border-bottom-color: #C4C4C4; }
+  .dropdown > .menu::after {
+    border-bottom-color: #fff; }
+  .dropdown > .menu > a {
     display: block;
     width: 100%;
-    padding: 5px 20px;
+    padding: 3px 9px;
     color: #4A4A4A; }
-  .dropdown .menu > li > a,
-  .dropdown .menu > li > a:hover {
+  .dropdown > .menu > a,
+  .dropdown > .menu > a:hover {
     text-decoration: none; }
-  .dropdown .menu > li > a:hover,
-  .dropdown .menu > li > a.-active {
-    background: #C4C4C4; }
-  .dropdown .menu > li > a.-disabled {
-    color: #C4C4C4;
+  .dropdown > .menu > a:hover,
+  .dropdown > .menu > a.-active {
+    color: #fff;
+    background: #3A569B; }
+  .dropdown > .menu > a.-disabled {
+    color: #F0F0F0;
     cursor: not-allowed; }
+
+/**
+ * All 4 components are here
+ * body.modal-body
+ * modal-backdrop
+ * modal
+ * modal dialog
+ *
+ * @usage
+ * Usage with ReactJS
+ * <Modal>
+ *   <div className="modal">
+ *     <div className="dialog">
+ *     </div>
+ *   </div>
+ * </Modal>
+ */
+body.modal-body {
+  overflow: hidden; }
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 999; }
+
+.modal {
+  z-index: 1000;
+  overflow: scroll;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+.modal-dialog {
+  margin: 10px; }
+  @media (min-width: 48em) {
+    .modal-dialog {
+      margin: 30px; } }
 
 .slate {
   padding: 30px;
