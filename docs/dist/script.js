@@ -30684,8 +30684,9 @@
 	  _createClass(Modal, [{
 	    key: 'componentDidMount',
 	    value: function componentDidMount() {
+	      this.mountContainer();
+	
 	      if (this.props.open) {
-	        this.mountContainer();
 	        this.mountModal();
 	      }
 	    }
@@ -30698,17 +30699,10 @@
 	  }, {
 	    key: 'componentDidUpdate',
 	    value: function componentDidUpdate(prevProps) {
-	      // Avoid remount / reunmount
-	      if (prevProps.open === this.props.open) {
-	        return;
-	      }
-	
 	      if (this.props.open) {
-	        this.mountContainer();
 	        this.mountModal();
 	      } else {
 	        this.unmountModal();
-	        this.unmountContainer();
 	      }
 	    }
 	  }, {
