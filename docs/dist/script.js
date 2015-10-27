@@ -30598,7 +30598,7 @@
 	        ),
 	        _react2['default'].createElement(
 	          _scriptsComponentsModal2['default'],
-	          { open: this.state.open },
+	          { open: this.state.open, onRequestClose: this.handleClose.bind(this) },
 	          _react2['default'].createElement(
 	            'div',
 	            { className: 'modal' },
@@ -30633,6 +30633,11 @@
 	          )
 	        )
 	      );
+	    }
+	  }, {
+	    key: 'handleClose',
+	    value: function handleClose() {
+	      this.setState({ open: false });
 	    }
 	  }]);
 	
@@ -30694,14 +30699,14 @@
 	      if (this.props.open) {
 	        this.mountModal();
 	      }
-	      window.addEventListener('keyup', this.handleKeyUp());
+	      window.addEventListener('keyup', this.handleKeyUp.call(this));
 	    }
 	  }, {
 	    key: 'componentWillUnmount',
 	    value: function componentWillUnmount() {
 	      this.unmountModal();
 	      this.unmountContainer();
-	      window.addEventListener('keyup', this.handleKeyUp());
+	      window.addEventListener('keyup', this.handleKeyUp.call(this));
 	    }
 	  }, {
 	    key: 'componentDidUpdate',
@@ -30772,7 +30777,7 @@
 	
 	      return function (evt) {
 	        if (evt.keyCode === ESC_KEY) {
-	          _this.unmountModal();
+	          _this.props.onRequestClose();
 	        }
 	      };
 	    }

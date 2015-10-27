@@ -7,6 +7,7 @@ const MODAL_BACKDROP_CLASS = 'modal-backdrop';
 const ESC_KEY = 27;
 
 export default class Modal extends React.Component {
+
   static propTypes = {
     open: PropTypes.bool.isRequired,
   };
@@ -21,13 +22,13 @@ export default class Modal extends React.Component {
     if ( this.props.open ) {
       this.mountModal();
     }
-    window.addEventListener('keyup', this.handleKeyUp());
+    window.addEventListener('keyup', ::this.handleKeyUp());
   }
 
   componentWillUnmount() {
     this.unmountModal();
     this.unmountContainer();
-    window.addEventListener('keyup', this.handleKeyUp());
+    window.addEventListener('keyup', ::this.handleKeyUp());
   }
 
   componentDidUpdate(prevProps) {
@@ -92,8 +93,8 @@ export default class Modal extends React.Component {
 
   handleKeyUp() {
     return (evt) => {
-      if( evt.keyCode === ESC_KEY ) {
-        this.unmountModal();
+      if ( evt.keyCode === ESC_KEY ) {
+        this.props.onRequestClose();
       }
     }
   }
