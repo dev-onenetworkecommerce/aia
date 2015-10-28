@@ -38,22 +38,8 @@ export default class DropdownView extends React.Component {
         <section className="doc-bottom-space-large">
           <p className="lead">Dropup</p>
 
-          <Dropdown trigger={<button className="btn -default">Open me!</button>} position={{ y: 'top' }}>
+          <Dropdown trigger={<button className="btn -default">Open me!</button>} position={{ x: 'right' , y: 'top' }}>
             <div className="dropdown -up">
-              <div className="menu">
-                <a href="#">My Profile</a>
-                <a href="#">Settings</a>
-                <a href="#">Logout</a>
-              </div>
-            </div>
-          </Dropdown>
-        </section>
-
-        <section className="doc-bottom-space-large">
-          <p className="lead">Dropup right</p>
-
-          <Dropdown trigger={<button className="btn -default">Open me!</button>} position={{ x: 'right' , y: 'top'}}>
-            <div className="dropdown -up -right">
               <div className="menu">
                 <a href="#">My Profile</a>
                 <a href="#">Settings</a>

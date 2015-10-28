@@ -30126,50 +30126,10 @@
 	                'button',
 	                { className: 'btn -default' },
 	                'Open me!'
-	              ), position: { y: 'top' } },
-	            _react2['default'].createElement(
-	              'div',
-	              { className: 'dropdown -up' },
-	              _react2['default'].createElement(
-	                'div',
-	                { className: 'menu' },
-	                _react2['default'].createElement(
-	                  'a',
-	                  { href: '#' },
-	                  'My Profile'
-	                ),
-	                _react2['default'].createElement(
-	                  'a',
-	                  { href: '#' },
-	                  'Settings'
-	                ),
-	                _react2['default'].createElement(
-	                  'a',
-	                  { href: '#' },
-	                  'Logout'
-	                )
-	              )
-	            )
-	          )
-	        ),
-	        _react2['default'].createElement(
-	          'section',
-	          { className: 'doc-bottom-space-large' },
-	          _react2['default'].createElement(
-	            'p',
-	            { className: 'lead' },
-	            'Dropup right'
-	          ),
-	          _react2['default'].createElement(
-	            _scriptsComponentsDropdown2['default'],
-	            { trigger: _react2['default'].createElement(
-	                'button',
-	                { className: 'btn -default' },
-	                'Open me!'
 	              ), position: { x: 'right', y: 'top' } },
 	            _react2['default'].createElement(
 	              'div',
-	              { className: 'dropdown -up -right' },
+	              { className: 'dropdown -up' },
 	              _react2['default'].createElement(
 	                'div',
 	                { className: 'menu' },

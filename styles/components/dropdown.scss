@@ -66,7 +66,6 @@
 
   > .menu > .divider {
     height: 1px;
-    margin: 6px 0px;
     background-color: $brand-gray-lt;
   }
 
@@ -89,6 +88,8 @@
 
   &.-up > .menu::before,
   &.-up > .menu::after {
+    left: initial;
+    right: $dropdown-arrow-size;
     top: initial;
     bottom: -($dropdown-arrow-size * 2);
     border-bottom-color: transparent;
@@ -100,13 +101,5 @@
 
   &.-up > .menu::after {
     border-top-color: $brand-white;
-  }
-
-  //Up Right
-  &.-up &.-right> .menu::before,
-  &.-up &.-right> .menu::after {
-    left: $dropdown-arrow-size;
-    right: initial;
-    top: initial;
   }
 }
