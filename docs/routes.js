@@ -24,6 +24,7 @@ export default (
         <Route path="utilities" component={require('./sections/Docs-Utilities')} />
         <Route path="dropdown" component={require('./sections/Docs-Dropdown')} />
         <Route path="modal" component={require('./sections/Docs-Modal')} />
+        <Route path="tooltip" component={require('./sections/Docs-Tooltip')} />
         <Route path="colors" component={require('./sections/Docs-Colors')} />
         <Route path="guidelines" component={require('./sections/Docs-Guidelines')} />
       </Route>
