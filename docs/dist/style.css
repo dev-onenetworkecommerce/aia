@@ -5980,7 +5980,7 @@ body {
     width: 20px; }
   .dropdown > .menu > .divider {
     height: 1px;
-    margin: 5px 0px;
+    margin: 6px 0;
     background-color: #F0F0F0; }
   .dropdown.-right > .menu::before {
     left: initial;

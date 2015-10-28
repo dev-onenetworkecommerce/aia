@@ -66,7 +66,7 @@
 
   > .menu > .divider {
     height: 1px;
-    margin: 5px 0px;
+    margin: ($padding-x / 2) 0;
     background-color: $brand-gray-lt;
   }
 
