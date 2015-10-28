@@ -30045,7 +30045,7 @@
 	            { trigger: _react2['default'].createElement(
 	                'button',
 	                { className: 'btn -default' },
-	                'Click me!'
+	                'Open me!'
 	              ) },
 	            _react2['default'].createElement(
 	              'div',
@@ -30085,7 +30085,7 @@
 	            { trigger: _react2['default'].createElement(
 	                'button',
 	                { className: 'btn -default' },
-	                'Click me!'
+	                'Open me!'
 	              ), position: { x: 'right' } },
 	            _react2['default'].createElement(
 	              'div',
@@ -30125,7 +30125,7 @@
 	            { trigger: _react2['default'].createElement(
 	                'button',
 	                { className: 'btn -default' },
-	                'Click me!'
+	                'Open me!'
 	              ), position: { y: 'top' } },
 	            _react2['default'].createElement(
 	              'div',
@@ -30165,7 +30165,7 @@
 	            { trigger: _react2['default'].createElement(
 	                'button',
 	                { className: 'btn -default' },
-	                'Click me!'
+	                'Open me!'
 	              ), position: { x: 'right', y: 'top' } },
 	            _react2['default'].createElement(
 	              'div',
@@ -30205,7 +30205,7 @@
 	            { trigger: _react2['default'].createElement(
 	                'button',
 	                { className: 'btn -default' },
-	                'Click me!'
+	                'Open me!'
 	              ) },
 	            _react2['default'].createElement(
 	              'div',
@@ -30251,7 +30251,7 @@
 	            { trigger: _react2['default'].createElement(
 	                'button',
 	                { className: 'btn -default' },
-	                'Click me!'
+	                'Open me!'
 	              ) },
 	            _react2['default'].createElement(
 	              'div',
