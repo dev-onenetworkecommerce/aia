@@ -133,16 +133,31 @@
 }
 
 .btn-group {
+  display: inline-block;
+  vertical-align: middle;
+
   &.-rounded > .btn {
     border-radius: $border-radius-rounded;
   }
 
-  > .btn {
-    margin-right: 0 !important;
-    margin-left: 0 !important;
+  &.-small > .btn {
+    height: 30px;
+    font-size: $mini;
+    line-height: 30px;
+  }
+  &.-large > .btn {
+    height: 50px;
+    padding: 0 25px;
+    font-size: $tiny;
+    line-height: 40px;
+  }
+
+  + .btn-group {
+    margin-left: ($padding-x / 2);
   }
 
   > .btn:last-child:not(:first-child) {
+    margin-left: -1px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
@@ -153,6 +168,7 @@
   }
 
   > .btn:not(:first-child):not(:last-child) {
+    margin-left: -1px;
     border-radius: 0;
   }
 }
