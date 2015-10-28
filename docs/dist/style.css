@@ -5976,8 +5976,8 @@ body {
   .dropdown > .menu > a.-disabled {
     color: #F0F0F0;
     cursor: not-allowed; }
-  .dropdown > .menu > a > .icon {
-    padding: 3px; }
+  .dropdown > .menu > a > .icon:first-child {
+    width: 20px; }
   .dropdown.-up {
     margin-top: -20px; }
   .dropdown.-up > .menu::before, .dropdown.-up > .menu::after {
