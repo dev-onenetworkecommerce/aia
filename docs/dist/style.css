@@ -5855,6 +5855,21 @@ body {
     background: #fff;
     color: #4A4A4A; }
 
+.wrapper {
+  position: relative;
+  width: 200px;
+  height: 200px; }
+  .wrapper > .loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background: #EDEDED; }
+  .wrapper > .avatar {
+    height: 200px;
+    width: 200px; }
+
 .panel {
   color: #4A4A4A;
   background: #fff;

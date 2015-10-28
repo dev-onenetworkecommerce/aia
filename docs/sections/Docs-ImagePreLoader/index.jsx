@@ -7,14 +7,13 @@ export default class ImagePreLoader extends React.Component {
   };
 
   render() {
-    const { image } = this.props;
 
     return (
       <div className="wrapper">
         { !this.state.loaded ? (<div className="loader" />) : '' } 
 
         <img 
-          src={image} 
+          src="http://placehold.it/200x200" 
           onLoad={::this.imageLoad}
           onError={::this.imageError} 
           className="avatar" />
