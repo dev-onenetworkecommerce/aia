@@ -11,8 +11,8 @@ export default class TooltipView extends React.Component {
     return (
       <div>
         <h1 className="doc-heading">Tooltip</h1>
-        <Tooltip position="right" text="sample tooltip">
-          This is the tooltip
+        <Tooltip position="bottom" text="sample tooltip">
+            This is the tooltip
         </Tooltip>
       </div>
     );
