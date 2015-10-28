@@ -71,6 +71,17 @@ export default class Forms extends React.Component {
         </section>
 
         <section className="doc-bottom-space-large">
+          <h3 className="doc-heading">Form Error</h3>
+          <p>To apply, .message</p>
+          <section className="doc-bottom-space">
+            <div className="form-group">
+              <input className="form-control -crimson" type="text" placeholder="Enter something.." />
+              <div className="message">Error invalid something..</div>
+            </div>
+          </section>
+        </section>
+
+        <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Form Groups</h3>
           <p>Used as a container for a form element.</p>
           <section className="doc-bottom-space">
