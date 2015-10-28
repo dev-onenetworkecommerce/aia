@@ -5567,6 +5567,10 @@ body {
   line-height: 1.7;
   font-family: "proxima-nova", Helvetica, "Helvetica Neue", sans-serif, serif; }
 
+hr {
+  border: 0;
+  border-top: 1px solid #C4C4C4; }
+
 .btn {
   display: inline-block;
   padding: 0 20px;
