@@ -30058,18 +30058,18 @@
 	          'Dropdown'
 	        ),
 	        _react2['default'].createElement(
-	          'p',
-	          { className: 'lead' },
-	          'Yea, yolo swag.'
-	        ),
-	        _react2['default'].createElement(
 	          'section',
 	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            'p',
+	            { className: 'lead' },
+	            'Dropdown'
+	          ),
 	          _react2['default'].createElement(
 	            _scriptsComponentsDropdown2['default'],
 	            { trigger: _react2['default'].createElement(
 	                'button',
-	                { className: 'btn' },
+	                { className: 'btn -default' },
 	                'Open Dropdown'
 	              ) },
 	            _react2['default'].createElement(
@@ -30101,10 +30101,55 @@
 	          'section',
 	          { className: 'doc-bottom-space-large' },
 	          _react2['default'].createElement(
+	            'p',
+	            { className: 'lead' },
+	            'Dropup'
+	          ),
+	          _react2['default'].createElement(
 	            _scriptsComponentsDropdown2['default'],
 	            { trigger: _react2['default'].createElement(
 	                'button',
-	                { className: 'btn' },
+	                { className: 'btn -default' },
+	                'Open Dropup'
+	              ), position: { y: 'top' } },
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'dropdown -up' },
+	              _react2['default'].createElement(
+	                'div',
+	                { className: 'menu' },
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'My Profile'
+	                ),
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'Settings'
+	                ),
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'Logout'
+	                )
+	              )
+	            )
+	          )
+	        ),
+	        _react2['default'].createElement(
+	          'section',
+	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            'p',
+	            { className: 'lead' },
+	            'Dropdown right'
+	          ),
+	          _react2['default'].createElement(
+	            _scriptsComponentsDropdown2['default'],
+	            { trigger: _react2['default'].createElement(
+	                'button',
+	                { className: 'btn -default' },
 	                'Open Dropdown'
 	              ), position: { x: 'right' } },
 	            _react2['default'].createElement(
@@ -30127,6 +30172,49 @@
 	                  'a',
 	                  { href: '#' },
 	                  'Logout'
+	                )
+	              )
+	            )
+	          )
+	        ),
+	        _react2['default'].createElement(
+	          'section',
+	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            'p',
+	            { className: 'lead' },
+	            'With icons'
+	          ),
+	          _react2['default'].createElement(
+	            _scriptsComponentsDropdown2['default'],
+	            { trigger: _react2['default'].createElement(
+	                'button',
+	                { className: 'btn -default' },
+	                'Open Dropdown'
+	              ) },
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'dropdown' },
+	              _react2['default'].createElement(
+	                'div',
+	                { className: 'menu' },
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  _react2['default'].createElement('i', { className: 'icon icon-user3' }),
+	                  ' My Profile'
+	                ),
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  _react2['default'].createElement('i', { className: 'icon icon-settings' }),
+	                  ' Settings'
+	                ),
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  _react2['default'].createElement('i', { className: 'icon icon-signout' }),
+	                  ' Logout'
 	                )
 	              )
 	            )
@@ -30409,6 +30497,7 @@
 	  calculateY: function calculateY(trigger, overlay, placement) {
 	    var offsetY = this.getOffsetY(trigger);
 	    var box = trigger.getBoundingClientRect();
+	    console.log(overlay.getBoundingClientRect());
 	
 	    switch (placement) {
 	      case 'top':
