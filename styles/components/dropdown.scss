@@ -1,9 +1,7 @@
 .dropdown {
   $dropdown-arrow-size: 10px;
-
   z-index: 999;
   position: absolute;
-  // Default is bottom (dropdown)
   margin-top: ($dropdown-arrow-size * 2);
 
   > .menu {
@@ -66,15 +64,31 @@
     // 4px = allowance
   }
 
-  // Dropup
+  > .menu > .divider {
+    height: 1px;
+    margin: 6px 0px;
+    background-color: $brand-gray-lt;
+  }
+
+  // Right
+  &.-right > .menu::before {
+    left: initial;
+    right: $dropdown-arrow-size;
+  }
+
+  &.-right > .menu::before,
+  &.-right > .menu::after {
+    left: initial;
+    right: $dropdown-arrow-size;
+  }
+
+  // Up
   &.-up {
     margin-top: -($dropdown-arrow-size * 2);
   }
 
   &.-up > .menu::before,
   &.-up > .menu::after {
-    left: initial;
-    right: $dropdown-arrow-size;
     top: initial;
     bottom: -($dropdown-arrow-size * 2);
     border-bottom-color: transparent;
@@ -88,15 +102,11 @@
     border-top-color: $brand-white;
   }
 
-  // Right
-  &.-right > .menu::before {
-    left: initial;
-    right: $dropdown-arrow-size;
-  }
-
-  &.-right > .menu::before,
-  &.-right > .menu::after {
-    left: initial;
-    right: $dropdown-arrow-size;
+  //Up Right
+  &.-up &.-right> .menu::before,
+  &.-up &.-right> .menu::after {
+    left: $dropdown-arrow-size;
+    right: initial;
+    top: initial;
   }
 }

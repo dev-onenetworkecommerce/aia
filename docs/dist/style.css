@@ -5978,11 +5978,19 @@ body {
     cursor: not-allowed; }
   .dropdown > .menu > a > .icon:first-child {
     width: 20px; }
+  .dropdown > .menu > .divider {
+    height: 1px;
+    margin: 6px 0px;
+    background-color: #F0F0F0; }
+  .dropdown.-right > .menu::before {
+    left: initial;
+    right: 10px; }
+  .dropdown.-right > .menu::before, .dropdown.-right > .menu::after {
+    left: initial;
+    right: 10px; }
   .dropdown.-up {
     margin-top: -20px; }
   .dropdown.-up > .menu::before, .dropdown.-up > .menu::after {
-    left: initial;
-    right: 10px;
     top: initial;
     bottom: -20px;
     border-bottom-color: transparent; }
@@ -5990,12 +5998,10 @@ body {
     border-top-color: #78828A; }
   .dropdown.-up > .menu::after {
     border-top-color: #fff; }
-  .dropdown.-right > .menu::before {
-    left: initial;
-    right: 10px; }
-  .dropdown.-right > .menu::before, .dropdown.-right > .menu::after {
-    left: initial;
-    right: 10px; }
+  .dropdown.-up .dropdown.-right > .menu::before, .dropdown.-up .dropdown.-right > .menu::after {
+    left: 10px;
+    right: initial;
+    top: initial; }
 
 /**
  * All 4 components are here

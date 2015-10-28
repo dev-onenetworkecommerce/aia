@@ -10,22 +10,8 @@ export default class DropdownView extends React.Component {
         <section className="doc-bottom-space-large">
           <p className="lead">Dropdown</p>
 
-          <Dropdown trigger={<button className="btn -default">Open Dropdown</button>}>
+          <Dropdown trigger={<button className="btn -default">Click me!</button>}>
             <div className="dropdown">
-              <div className="menu">
-                <a href="#">My Profile</a>
-                <a href="#">Settings</a>
-                <a href="#">Logout</a>
-              </div>
-            </div>
-          </Dropdown>
-        </section>
-
-        <section className="doc-bottom-space-large">
-          <p className="lead">Dropup</p>
-
-          <Dropdown trigger={<button className="btn -default">Open Dropup</button>} position={{ y: 'top' }}>
-            <div className="dropdown -up">
               <div className="menu">
                 <a href="#">My Profile</a>
                 <a href="#">Settings</a>
@@ -38,7 +24,7 @@ export default class DropdownView extends React.Component {
         <section className="doc-bottom-space-large">
           <p className="lead">Dropdown right</p>
 
-          <Dropdown trigger={<button className="btn -default">Open Dropdown</button>} position={{ x: 'right' }}>
+          <Dropdown trigger={<button className="btn -default">Click me!</button>} position={{ x: 'right' }}>
             <div className="dropdown -right">
               <div className="menu">
                 <a href="#">My Profile</a>
@@ -50,9 +36,53 @@ export default class DropdownView extends React.Component {
         </section>
 
         <section className="doc-bottom-space-large">
-          <p className="lead">With icons</p>
+          <p className="lead">Dropup</p>
 
-          <Dropdown trigger={<button className="btn -default">Open Dropdown</button>}>
+          <Dropdown trigger={<button className="btn -default">Click me!</button>} position={{ y: 'top' }}>
+            <div className="dropdown -up">
+              <div className="menu">
+                <a href="#">My Profile</a>
+                <a href="#">Settings</a>
+                <a href="#">Logout</a>
+              </div>
+            </div>
+          </Dropdown>
+        </section>
+
+        <section className="doc-bottom-space-large">
+          <p className="lead">Dropup right</p>
+
+          <Dropdown trigger={<button className="btn -default">Click me!</button>} position={{ x: 'right' , y: 'top'}}>
+            <div className="dropdown -up -right">
+              <div className="menu">
+                <a href="#">My Profile</a>
+                <a href="#">Settings</a>
+                <a href="#">Logout</a>
+              </div>
+            </div>
+          </Dropdown>
+        </section>
+
+        <section className="doc-bottom-space-large">
+          <p className="lead">With Divider</p>
+
+          <Dropdown trigger={<button className="btn -default">Click me!</button>}>
+            <div className="dropdown">
+              <div className="menu">
+                <a href="#">My Profile</a>
+                <a href="#">Settings</a>
+                <a href="#">Logout</a>
+                <div className="divider"></div>
+                <a href="#">Help</a>
+              </div>
+            </div>
+          </Dropdown>
+        </section>
+
+        <section className="doc-bottom-space-large">
+          <p className="lead">With Icons</p>
+
+          <Dropdown trigger={<button className="btn -default">Click me!</button>}>
             <div className="dropdown">
               <div className="menu">
                 <a href="#"><i className="icon icon-user3"></i> My Profile</a>

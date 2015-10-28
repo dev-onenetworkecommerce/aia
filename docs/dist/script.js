@@ -30045,51 +30045,11 @@
 	            { trigger: _react2['default'].createElement(
 	                'button',
 	                { className: 'btn -default' },
-	                'Open Dropdown'
+	                'Click me!'
 	              ) },
 	            _react2['default'].createElement(
 	              'div',
 	              { className: 'dropdown' },
-	              _react2['default'].createElement(
-	                'div',
-	                { className: 'menu' },
-	                _react2['default'].createElement(
-	                  'a',
-	                  { href: '#' },
-	                  'My Profile'
-	                ),
-	                _react2['default'].createElement(
-	                  'a',
-	                  { href: '#' },
-	                  'Settings'
-	                ),
-	                _react2['default'].createElement(
-	                  'a',
-	                  { href: '#' },
-	                  'Logout'
-	                )
-	              )
-	            )
-	          )
-	        ),
-	        _react2['default'].createElement(
-	          'section',
-	          { className: 'doc-bottom-space-large' },
-	          _react2['default'].createElement(
-	            'p',
-	            { className: 'lead' },
-	            'Dropup'
-	          ),
-	          _react2['default'].createElement(
-	            _scriptsComponentsDropdown2['default'],
-	            { trigger: _react2['default'].createElement(
-	                'button',
-	                { className: 'btn -default' },
-	                'Open Dropup'
-	              ), position: { y: 'top' } },
-	            _react2['default'].createElement(
-	              'div',
-	              { className: 'dropdown -up' },
 	              _react2['default'].createElement(
 	                'div',
 	                { className: 'menu' },
@@ -30125,7 +30085,7 @@
 	            { trigger: _react2['default'].createElement(
 	                'button',
 	                { className: 'btn -default' },
-	                'Open Dropdown'
+	                'Click me!'
 	              ), position: { x: 'right' } },
 	            _react2['default'].createElement(
 	              'div',
@@ -30158,14 +30118,140 @@
 	          _react2['default'].createElement(
 	            'p',
 	            { className: 'lead' },
-	            'With icons'
+	            'Dropup'
 	          ),
 	          _react2['default'].createElement(
 	            _scriptsComponentsDropdown2['default'],
 	            { trigger: _react2['default'].createElement(
 	                'button',
 	                { className: 'btn -default' },
-	                'Open Dropdown'
+	                'Click me!'
+	              ), position: { y: 'top' } },
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'dropdown -up' },
+	              _react2['default'].createElement(
+	                'div',
+	                { className: 'menu' },
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'My Profile'
+	                ),
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'Settings'
+	                ),
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'Logout'
+	                )
+	              )
+	            )
+	          )
+	        ),
+	        _react2['default'].createElement(
+	          'section',
+	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            'p',
+	            { className: 'lead' },
+	            'Dropup right'
+	          ),
+	          _react2['default'].createElement(
+	            _scriptsComponentsDropdown2['default'],
+	            { trigger: _react2['default'].createElement(
+	                'button',
+	                { className: 'btn -default' },
+	                'Click me!'
+	              ), position: { x: 'right', y: 'top' } },
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'dropdown -up -right' },
+	              _react2['default'].createElement(
+	                'div',
+	                { className: 'menu' },
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'My Profile'
+	                ),
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'Settings'
+	                ),
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'Logout'
+	                )
+	              )
+	            )
+	          )
+	        ),
+	        _react2['default'].createElement(
+	          'section',
+	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            'p',
+	            { className: 'lead' },
+	            'With Divider'
+	          ),
+	          _react2['default'].createElement(
+	            _scriptsComponentsDropdown2['default'],
+	            { trigger: _react2['default'].createElement(
+	                'button',
+	                { className: 'btn -default' },
+	                'Click me!'
+	              ) },
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'dropdown' },
+	              _react2['default'].createElement(
+	                'div',
+	                { className: 'menu' },
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'My Profile'
+	                ),
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'Settings'
+	                ),
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'Logout'
+	                ),
+	                _react2['default'].createElement('div', { className: 'divider' }),
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'Help'
+	                )
+	              )
+	            )
+	          )
+	        ),
+	        _react2['default'].createElement(
+	          'section',
+	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            'p',
+	            { className: 'lead' },
+	            'With Icons'
+	          ),
+	          _react2['default'].createElement(
+	            _scriptsComponentsDropdown2['default'],
+	            { trigger: _react2['default'].createElement(
+	                'button',
+	                { className: 'btn -default' },
+	                'Click me!'
 	              ) },
 	            _react2['default'].createElement(
 	              'div',
