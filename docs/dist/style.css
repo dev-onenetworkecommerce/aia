@@ -5653,11 +5653,11 @@ body {
     height: 25px;
     font-size: 12px;
     line-height: 25px; }
-  .btn.-small {
+  .btn.-small, .btn-group.-small > .btn {
     height: 30px;
     font-size: 12px;
     line-height: 30px; }
-  .btn.-large {
+  .btn.-large, .btn-group.-large > .btn {
     height: 50px;
     padding: 0 25px;
     font-size: 18px;
@@ -5678,15 +5678,6 @@ body {
   vertical-align: middle; }
   .btn-group.-rounded > .btn {
     border-radius: 25px; }
-  .btn-group.-small > .btn {
-    height: 30px;
-    font-size: 12px;
-    line-height: 30px; }
-  .btn-group.-large > .btn {
-    height: 50px;
-    padding: 0 25px;
-    font-size: 18px;
-    line-height: 40px; }
   .btn-group + .btn-group {
     margin-left: 6px; }
   .btn-group > .btn:last-child:not(:first-child) {

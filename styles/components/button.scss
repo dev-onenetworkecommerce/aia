@@ -141,15 +141,10 @@
   }
 
   &.-small > .btn {
-    height: 30px;
-    font-size: $mini;
-    line-height: 30px;
+    @extend .btn.-small;
   }
   &.-large > .btn {
-    height: 50px;
-    padding: 0 25px;
-    font-size: $tiny;
-    line-height: 40px;
+    @extend .btn.-large;
   }
 
   + .btn-group {
