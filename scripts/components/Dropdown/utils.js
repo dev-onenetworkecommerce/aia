@@ -47,6 +47,7 @@ export default {
   calculateY(trigger, overlay, placement) {
     const offsetY = this.getOffsetY(trigger);
     const box = trigger.getBoundingClientRect();
+    console.log(overlay.getBoundingClientRect());
 
     switch (placement) {
       case 'top':
