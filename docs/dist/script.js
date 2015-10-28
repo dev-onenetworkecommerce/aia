@@ -30878,8 +30878,7 @@
 	  }, {
 	    key: 'defaultProps',
 	    value: {
-	      open: false,
-	      onRequestClose: function onRequestClose() {}
+	      open: false
 	    },
 	    enumerable: true
 	  }]);
