@@ -5964,7 +5964,7 @@ body {
   .dropdown > .menu > a {
     display: block;
     width: 100%;
-    padding: 6px 18px;
+    padding: 4px 18px;
     color: #4A4A4A; }
   .dropdown > .menu > a,
   .dropdown > .menu > a:hover {
