@@ -1,4 +1,4 @@
-import React, { PropTypes, cloneElement } from 'react';
+import React, { PropTypes, cloneElement, cloneWithProps } from 'react';
 import utils from './utils';
 
 let $container = document.body;

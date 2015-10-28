@@ -35,7 +35,7 @@ export default class Modal extends React.Component {
   componentWillUnmount() {
     this.unmountModal();
     this.unmountContainer();
-    window.addEventListener('keyup', this.handleKeyUp);
+    window.removeEventListener('keyup', this.handleKeyUp);
   }
 
   componentDidUpdate(prevProps) {
