@@ -6,19 +6,17 @@
 }
 
 .form-control {
+  vertical-align: middle;
   display: block;
   width: 100%;
   min-height: 34px;
   padding: 7px 8px;
-  vertical-align: middle;
-  background-color: $brand-white;
   border: 1px solid $brand-gray;
   border-radius: $border-radius-base;
+  background-color: $brand-white;
   outline: none;
 
-  &:focus {
-    border-color: $brand-sky;
-  }
+  &:focus { border-color: $brand-sky; }
 
   &.-disabled,
   &:disabled {
@@ -26,27 +24,14 @@
     background: $brand-gray-lt;
   }
 
-  &.-sky {
-    @include form-variant($brand-sky);
-  }
-
-  &.-emerald {
-    @include form-variant($brand-emerald);
-  }
-
-  &.-crimson {
-    @include form-variant($brand-crimson);
-  }
-
-  &.-sun {
-    @include form-variant($brand-sun);
-  }
+  &.-sky { @include form-variant($brand-sky); }
+  &.-emerald { @include form-variant($brand-emerald); }
+  &.-crimson { @include form-variant($brand-crimson); }
+  &.-sun { @include form-variant($brand-sun); }
 }
 
 // fix issue with <select> padding
-select.form-control {
-  height: 34px;
-}
+select.form-control { height: 34px; }
 
 label {
   width: 100%;
@@ -54,9 +39,7 @@ label {
 }
 
 // form containers
-.form-group {
-  margin-bottom: 20px;
-}
+.form-group { margin-bottom: 20px; }
 
 .input-group {
   position: relative;
@@ -67,6 +50,8 @@ label {
   > .form-control:first-child,
   > .addon:first-child,
   > .addon.-btn:first-child > .btn {
+    border-left: 1px solid $brand-gray;
+    
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
@@ -74,6 +59,8 @@ label {
   > .form-control:last-child,
   > .addon:last-child,
   > .addon.-btn:last-child > .btn {
+    border-right: 1px solid $brand-gray;
+
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
@@ -93,28 +80,25 @@ label {
     z-index: 2;
     float: left;
     width: 100%;
+    border-right: 0;
+    border-left: 0;
+
+    &:focus { 
+      border: 1px solid $brand-sky;
+    }
   }
 
   > .addon {
     z-index: 1;
     width: 1%;
+    vertical-align: middle;
     padding: 0 8px;
     min-height: $form-size;
-    background: $brand-gray-lt;
     border: 1px solid $brand-gray;
     border-radius: $border-radius-base;
-    vertical-align: middle;
   }
 
-  > .addon:first-child {
-    border-right: 0;
-  }
-
-  > .addon:last-child {
-    border-left: 0;
-  }
-
-  > .addon.-btn {
-    padding: 0;
-  }
+  > .addon:first-child { border-right: 0; }
+  > .addon:last-child { border-left: 0; }
+  > .addon.-btn { padding: 0; }
 }
