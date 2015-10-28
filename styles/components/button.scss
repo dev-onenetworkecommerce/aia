@@ -140,9 +140,14 @@
     border-radius: $border-radius-rounded;
   }
 
+  &.-xs > .btn {
+    @extend .btn.-xs;
+  }
+
   &.-small > .btn {
     @extend .btn.-small;
   }
+
   &.-large > .btn {
     @extend .btn.-large;
   }

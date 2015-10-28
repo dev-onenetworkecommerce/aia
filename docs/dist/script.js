@@ -28233,6 +28233,12 @@
 	              _react2["default"].createElement(
 	                "code",
 	                null,
+	                ".-xs"
+	              ),
+	              " , ",
+	              _react2["default"].createElement(
+	                "code",
+	                null,
 	                ".-small"
 	              ),
 	              " or ",
@@ -28248,6 +28254,25 @@
 	                ".btn-group"
 	              ),
 	              "."
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "btn-group -xs" },
+	              _react2["default"].createElement(
+	                "button",
+	                { className: "btn -default" },
+	                "Extrasmall"
+	              ),
+	              _react2["default"].createElement(
+	                "button",
+	                { className: "btn -default" },
+	                "Extrasmall"
+	              ),
+	              _react2["default"].createElement(
+	                "button",
+	                { className: "btn -default" },
+	                "Extrasmall"
+	              )
 	            ),
 	            _react2["default"].createElement(
 	              "div",
@@ -28288,22 +28313,26 @@
 	              )
 	            ),
 	            _react2["default"].createElement(
-	              "div",
-	              { className: "btn-group -large" },
+	              "section",
+	              { className: "doc-bottom-space" },
 	              _react2["default"].createElement(
-	                "button",
-	                { className: "btn -default" },
-	                "Large"
-	              ),
-	              _react2["default"].createElement(
-	                "button",
-	                { className: "btn -default" },
-	                "Large"
-	              ),
-	              _react2["default"].createElement(
-	                "button",
-	                { className: "btn -default" },
-	                "Large"
+	                "div",
+	                { className: "btn-group -large" },
+	                _react2["default"].createElement(
+	                  "button",
+	                  { className: "btn -default" },
+	                  "Large"
+	                ),
+	                _react2["default"].createElement(
+	                  "button",
+	                  { className: "btn -default" },
+	                  "Large"
+	                ),
+	                _react2["default"].createElement(
+	                  "button",
+	                  { className: "btn -default" },
+	                  "Large"
+	                )
 	              )
 	            )
 	          )

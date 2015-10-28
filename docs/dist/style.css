@@ -5649,7 +5649,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     text-align: center; }
-  .btn.-xs {
+  .btn.-xs, .btn-group.-xs > .btn {
     height: 25px;
     font-size: 12px;
     line-height: 25px; }
