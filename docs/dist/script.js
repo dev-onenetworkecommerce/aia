@@ -30685,10 +30685,12 @@
 	var Modal = (function (_React$Component) {
 	  _inherits(Modal, _React$Component);
 	
-	  function Modal() {
+	  function Modal(props) {
 	    _classCallCheck(this, Modal);
 	
-	    _get(Object.getPrototypeOf(Modal.prototype), 'constructor', this).apply(this, arguments);
+	    _get(Object.getPrototypeOf(Modal.prototype), 'constructor', this).call(this, props);
+	
+	    this.handleKeyUp = this.handleKeyUp.bind(this);
 	  }
 	
 	  _createClass(Modal, [{
@@ -30699,14 +30701,14 @@
 	      if (this.props.open) {
 	        this.mountModal();
 	      }
-	      window.addEventListener('keyup', this.handleKeyUp.call(this));
+	      window.addEventListener('keyup', this.handleKeyUp);
 	    }
 	  }, {
 	    key: 'componentWillUnmount',
 	    value: function componentWillUnmount() {
 	      this.unmountModal();
 	      this.unmountContainer();
-	      window.addEventListener('keyup', this.handleKeyUp.call(this));
+	      window.addEventListener('keyup', this.handleKeyUp);
 	    }
 	  }, {
 	    key: 'componentDidUpdate',
@@ -30772,25 +30774,23 @@
 	    }
 	  }, {
 	    key: 'handleKeyUp',
-	    value: function handleKeyUp() {
-	      var _this = this;
-	
-	      return function (evt) {
-	        if (evt.keyCode === ESC_KEY) {
-	          _this.props.onRequestClose();
-	        }
-	      };
+	    value: function handleKeyUp(evt) {
+	      if (evt.keyCode === ESC_KEY) {
+	        this.props.onRequestClose();
+	      }
 	    }
 	  }], [{
 	    key: 'propTypes',
 	    value: {
-	      open: _react.PropTypes.bool.isRequired
+	      open: _react.PropTypes.bool.isRequired,
+	      onRequestClose: _react.PropTypes.func.isRequired
 	    },
 	    enumerable: true
 	  }, {
 	    key: 'defaultProps',
 	    value: {
-	      open: false
+	      open: false,
+	      onRequestClose: function onRequestClose() {}
 	    },
 	    enumerable: true
 	  }]);

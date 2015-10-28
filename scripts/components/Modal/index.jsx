@@ -8,12 +8,20 @@ const ESC_KEY = 27;
 
 export default class Modal extends React.Component {
 
+  constructor(props) {
+    super(props);
+
+    this.handleKeyUp = ::this.handleKeyUp;
+  };
+
   static propTypes = {
     open: PropTypes.bool.isRequired,
+    onRequestClose: PropTypes.func.isRequired
   };
 
   static defaultProps = {
-    open: false
+    open: false,
+    onRequestClose: () => {}
   };
 
   componentDidMount() {
@@ -22,13 +30,13 @@ export default class Modal extends React.Component {
     if ( this.props.open ) {
       this.mountModal();
     }
-    window.addEventListener('keyup', ::this.handleKeyUp());
+    window.addEventListener('keyup', this.handleKeyUp);
   }
 
   componentWillUnmount() {
     this.unmountModal();
     this.unmountContainer();
-    window.addEventListener('keyup', ::this.handleKeyUp());
+    window.addEventListener('keyup', this.handleKeyUp);
   }
 
   componentDidUpdate(prevProps) {
@@ -91,11 +99,9 @@ export default class Modal extends React.Component {
     this.$modal = null;
   }
 
-  handleKeyUp() {
-    return (evt) => {
+  handleKeyUp(evt) {
       if ( evt.keyCode === ESC_KEY ) {
         this.props.onRequestClose();
       }
-    }
   }
 }
