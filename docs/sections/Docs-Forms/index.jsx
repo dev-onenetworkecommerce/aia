@@ -75,7 +75,7 @@ export default class Forms extends React.Component {
           <p>To apply, .message</p>
           <section className="doc-bottom-space">
             <div className="form-group">
-              <input className="form-control -crimson tooltip" type="text" placeholder="Enter something.." />
+              <input className="form-control -crimson" type="text" placeholder="Enter something.." />
               <div className="message">Error invalid something..</div>
             </div>
           </section>

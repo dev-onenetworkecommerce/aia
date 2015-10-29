@@ -27325,7 +27325,7 @@
 	            _react2["default"].createElement(
 	              "div",
 	              { className: "form-group" },
-	              _react2["default"].createElement("input", { className: "form-control -crimson tooltip", type: "text", placeholder: "Enter something.." }),
+	              _react2["default"].createElement("input", { className: "form-control -crimson", type: "text", placeholder: "Enter something.." }),
 	              _react2["default"].createElement(
 	                "div",
 	                { className: "message" },

@@ -41,28 +41,18 @@
   &.-sun {
     @include form-variant($brand-sun);
   }
-
-  &.-error {
-    @include form-variant($brand-crimson);
-    background-color: lighten($brand-crimson, 30);
-    color: $brand-crimson-dk;
-    &::-webkit-input-placeholder {
-      color: $brand-crimson-dk;
-    }
-  }
 }
 
 .form-group {
   position: relative;
 }
 
-.form-group > .message {
+.form-group .form-control + .message {
   position: absolute;
   top: 40px;
-  left: 20px;
   z-index: 9999;
   visibility: hidden;
-  width: 220px;
+  max-width: 220px;
   text-align: center;
   color: #FFFFFF;
   line-height: 2;
@@ -71,7 +61,7 @@
   border-radius: 5px;
 }
 
-.form-group > .message:after {
+.form-group .form-control + .message:after {
   content: '';
   position: absolute;
   bottom: 100%;
@@ -84,7 +74,7 @@
   border-left: 8px solid transparent;
 }
 
-.form-group .tooltip:focus + .message {
+.form-group .form-control:focus + .message {
   visibility: visible;
 }
 

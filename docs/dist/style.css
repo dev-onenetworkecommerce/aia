@@ -5419,24 +5419,16 @@ a {
     border-color: #F05F50; }
   .form-control.-sun, .form-control.-sun:focus {
     border-color: #FFC05A; }
-  .form-control.-error {
-    background-color: #fce0dd;
-    color: #C85044; }
-    .form-control.-error, .form-control.-error:focus {
-      border-color: #F05F50; }
-    .form-control.-error::-webkit-input-placeholder {
-      color: #C85044; }
 
 .form-group {
   position: relative; }
 
-.form-group > .message {
+.form-group .form-control + .message {
   position: absolute;
   top: 40px;
-  left: 20px;
   z-index: 9999;
   visibility: hidden;
-  width: 220px;
+  max-width: 220px;
   text-align: center;
   color: #FFFFFF;
   line-height: 2;
@@ -5444,7 +5436,7 @@ a {
   height: auto;
   border-radius: 5px; }
 
-.form-group > .message:after {
+.form-group .form-control + .message:after {
   content: '';
   position: absolute;
   bottom: 100%;
@@ -5456,7 +5448,7 @@ a {
   border-right: 8px solid transparent;
   border-left: 8px solid transparent; }
 
-.form-group .tooltip:focus + .message {
+.form-group .form-control:focus + .message {
   visibility: visible; }
 
 select.form-control {
