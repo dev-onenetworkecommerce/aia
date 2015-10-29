@@ -71,21 +71,13 @@ export default class Forms extends React.Component {
         </section>
 
         <section className="doc-bottom-space-large">
-          <h3 className="doc-heading">Forms Error</h3>
-          <p>Individual fields may display an error state. To apply, simply add one of the *modifier* classes to .form-control: .-error</p>
-
+          <h3 className="doc-heading">Form Error</h3>
+          <p>To apply, .message</p>
           <section className="doc-bottom-space">
             <div className="form-group">
-                <input className="form-control -crimson" type="text" placeholder="Enter something.." />
-                <span className="message">Tool tip</span>
+              <input className="form-control -crimson" type="text" placeholder="Enter something.." />
+              <div className="message">Error invalid something..</div>
             </div>
-          </section>
-
-          <section className="doc-bottom-space">
-            <select className="form-control -crimson">
-              <option>Option 1</option>
-              <option>Option 2</option>
-            </select>
           </section>
         </section>
 

@@ -101,7 +101,7 @@ export default class Buttons extends React.Component {
             </div>
           </section>
 
-          <section>
+          <section className="doc-bottom-space">
             <h3 className="doc-heading">Rounded Button Group</h3>
             <p>Simply add the <code>.-rounded</code> modifier class to <code>.btn-group</code>.</p>
             <div className="btn-group -rounded">
@@ -109,6 +109,35 @@ export default class Buttons extends React.Component {
               <button className="btn -default">Button</button>
               <button className="btn -default">Button</button>
             </div>
+          </section>
+
+          <section>
+            <h3 className="doc-heading">Button Group Sizes</h3>
+            <p>You may add the <code>.-xs</code> , <code>.-small</code> or <code>.-large</code> modifier class to <code>.btn-group</code>.</p>
+            <div className="btn-group -xs">
+              <button className="btn -default">Extrasmall</button>
+              <button className="btn -default">Extrasmall</button>
+              <button className="btn -default">Extrasmall</button>
+            </div>
+            <div className="btn-group -small">
+              <button className="btn -default">Small</button>
+              <button className="btn -default">Small</button>
+              <button className="btn -default">Small</button>
+            </div>
+            <div className="btn-group">
+              <button className="btn -default">Default</button>
+              <button className="btn -default">Default</button>
+              <button className="btn -default">Default</button>
+            </div>
+
+            <section className="doc-bottom-space">
+              <div className="btn-group -large">
+                <button className="btn -default">Large</button>
+                <button className="btn -default">Large</button>
+                <button className="btn -default">Large</button>
+              </div>
+            </section>
+
           </section>
         </section>
 

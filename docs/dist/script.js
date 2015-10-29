@@ -27312,12 +27312,12 @@
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
-	            "Forms Error"
+	            "Form Error"
 	          ),
 	          _react2["default"].createElement(
 	            "p",
 	            null,
-	            "Individual fields may display an error state. To apply, simply add one of the *modifier* classes to .form-control: .-error"
+	            "To apply, .message"
 	          ),
 	          _react2["default"].createElement(
 	            "section",
@@ -27327,27 +27327,9 @@
 	              { className: "form-group" },
 	              _react2["default"].createElement("input", { className: "form-control -crimson", type: "text", placeholder: "Enter something.." }),
 	              _react2["default"].createElement(
-	                "span",
+	                "div",
 	                { className: "message" },
-	                "Tool tip"
-	              )
-	            )
-	          ),
-	          _react2["default"].createElement(
-	            "section",
-	            { className: "doc-bottom-space" },
-	            _react2["default"].createElement(
-	              "select",
-	              { className: "form-control -crimson" },
-	              _react2["default"].createElement(
-	                "option",
-	                null,
-	                "Option 1"
-	              ),
-	              _react2["default"].createElement(
-	                "option",
-	                null,
-	                "Option 2"
+	                "Error invalid something.."
 	              )
 	            )
 	          )
@@ -28225,7 +28207,7 @@
 	          ),
 	          _react2["default"].createElement(
 	            "section",
-	            null,
+	            { className: "doc-bottom-space" },
 	            _react2["default"].createElement(
 	              "h3",
 	              { className: "doc-heading" },
@@ -28265,6 +28247,124 @@
 	                "button",
 	                { className: "btn -default" },
 	                "Button"
+	              )
+	            )
+	          ),
+	          _react2["default"].createElement(
+	            "section",
+	            null,
+	            _react2["default"].createElement(
+	              "h3",
+	              { className: "doc-heading" },
+	              "Button Group Sizes"
+	            ),
+	            _react2["default"].createElement(
+	              "p",
+	              null,
+	              "You may add the ",
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                ".-xs"
+	              ),
+	              " , ",
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                ".-small"
+	              ),
+	              " or ",
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                ".-large"
+	              ),
+	              " modifier class to ",
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                ".btn-group"
+	              ),
+	              "."
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "btn-group -xs" },
+	              _react2["default"].createElement(
+	                "button",
+	                { className: "btn -default" },
+	                "Extrasmall"
+	              ),
+	              _react2["default"].createElement(
+	                "button",
+	                { className: "btn -default" },
+	                "Extrasmall"
+	              ),
+	              _react2["default"].createElement(
+	                "button",
+	                { className: "btn -default" },
+	                "Extrasmall"
+	              )
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "btn-group -small" },
+	              _react2["default"].createElement(
+	                "button",
+	                { className: "btn -default" },
+	                "Small"
+	              ),
+	              _react2["default"].createElement(
+	                "button",
+	                { className: "btn -default" },
+	                "Small"
+	              ),
+	              _react2["default"].createElement(
+	                "button",
+	                { className: "btn -default" },
+	                "Small"
+	              )
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "btn-group" },
+	              _react2["default"].createElement(
+	                "button",
+	                { className: "btn -default" },
+	                "Default"
+	              ),
+	              _react2["default"].createElement(
+	                "button",
+	                { className: "btn -default" },
+	                "Default"
+	              ),
+	              _react2["default"].createElement(
+	                "button",
+	                { className: "btn -default" },
+	                "Default"
+	              )
+	            ),
+	            _react2["default"].createElement(
+	              "section",
+	              { className: "doc-bottom-space" },
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "btn-group -large" },
+	                _react2["default"].createElement(
+	                  "button",
+	                  { className: "btn -default" },
+	                  "Large"
+	                ),
+	                _react2["default"].createElement(
+	                  "button",
+	                  { className: "btn -default" },
+	                  "Large"
+	                ),
+	                _react2["default"].createElement(
+	                  "button",
+	                  { className: "btn -default" },
+	                  "Large"
+	                )
 	              )
 	            )
 	          )
@@ -30108,19 +30208,19 @@
 	          'Dropdown'
 	        ),
 	        _react2['default'].createElement(
-	          'p',
-	          { className: 'lead' },
-	          'Yea, yolo swag.'
-	        ),
-	        _react2['default'].createElement(
 	          'section',
 	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            'p',
+	            { className: 'lead' },
+	            'Dropdown'
+	          ),
 	          _react2['default'].createElement(
 	            _scriptsComponentsDropdown2['default'],
 	            { trigger: _react2['default'].createElement(
 	                'button',
-	                { className: 'btn' },
-	                'Open Dropdown'
+	                { className: 'btn -default' },
+	                'Open me!'
 	              ) },
 	            _react2['default'].createElement(
 	              'div',
@@ -30151,11 +30251,16 @@
 	          'section',
 	          { className: 'doc-bottom-space-large' },
 	          _react2['default'].createElement(
+	            'p',
+	            { className: 'lead' },
+	            'Dropdown right'
+	          ),
+	          _react2['default'].createElement(
 	            _scriptsComponentsDropdown2['default'],
 	            { trigger: _react2['default'].createElement(
 	                'button',
-	                { className: 'btn' },
-	                'Open Dropdown'
+	                { className: 'btn -default' },
+	                'Open me!'
 	              ), position: { x: 'right' } },
 	            _react2['default'].createElement(
 	              'div',
@@ -30177,6 +30282,135 @@
 	                  'a',
 	                  { href: '#' },
 	                  'Logout'
+	                )
+	              )
+	            )
+	          )
+	        ),
+	        _react2['default'].createElement(
+	          'section',
+	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            'p',
+	            { className: 'lead' },
+	            'Dropup'
+	          ),
+	          _react2['default'].createElement(
+	            _scriptsComponentsDropdown2['default'],
+	            { trigger: _react2['default'].createElement(
+	                'button',
+	                { className: 'btn -default' },
+	                'Open me!'
+	              ), position: { x: 'right', y: 'top' } },
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'dropdown -up' },
+	              _react2['default'].createElement(
+	                'div',
+	                { className: 'menu' },
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'My Profile'
+	                ),
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'Settings'
+	                ),
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'Logout'
+	                )
+	              )
+	            )
+	          )
+	        ),
+	        _react2['default'].createElement(
+	          'section',
+	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            'p',
+	            { className: 'lead' },
+	            'With Divider'
+	          ),
+	          _react2['default'].createElement(
+	            _scriptsComponentsDropdown2['default'],
+	            { trigger: _react2['default'].createElement(
+	                'button',
+	                { className: 'btn -default' },
+	                'Open me!'
+	              ) },
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'dropdown' },
+	              _react2['default'].createElement(
+	                'div',
+	                { className: 'menu' },
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'My Profile'
+	                ),
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'Settings'
+	                ),
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'Logout'
+	                ),
+	                _react2['default'].createElement('div', { className: 'divider' }),
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  'Help'
+	                )
+	              )
+	            )
+	          )
+	        ),
+	        _react2['default'].createElement(
+	          'section',
+	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            'p',
+	            { className: 'lead' },
+	            'With Icons'
+	          ),
+	          _react2['default'].createElement(
+	            _scriptsComponentsDropdown2['default'],
+	            { trigger: _react2['default'].createElement(
+	                'button',
+	                { className: 'btn -default' },
+	                'Open me!'
+	              ) },
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'dropdown' },
+	              _react2['default'].createElement(
+	                'div',
+	                { className: 'menu' },
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  _react2['default'].createElement('i', { className: 'icon icon-user3' }),
+	                  ' My Profile'
+	                ),
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  _react2['default'].createElement('i', { className: 'icon icon-settings' }),
+	                  ' Settings'
+	                ),
+	                _react2['default'].createElement(
+	                  'a',
+	                  { href: '#' },
+	                  _react2['default'].createElement('i', { className: 'icon icon-signout' }),
+	                  ' Logout'
 	                )
 	              )
 	            )
@@ -30459,6 +30693,7 @@
 	  calculateY: function calculateY(trigger, overlay, placement) {
 	    var offsetY = this.getOffsetY(trigger);
 	    var box = trigger.getBoundingClientRect();
+	    console.log(overlay.getBoundingClientRect());
 	
 	    switch (placement) {
 	      case 'top':
@@ -30644,7 +30879,7 @@
 	        ),
 	        _react2['default'].createElement(
 	          _scriptsComponentsModal2['default'],
-	          { open: this.state.open },
+	          { open: this.state.open, onRequestClose: this.handleClose.bind(this) },
 	          _react2['default'].createElement(
 	            'div',
 	            { className: 'modal' },
@@ -30679,6 +30914,11 @@
 	          )
 	        )
 	      );
+	    }
+	  }, {
+	    key: 'handleClose',
+	    value: function handleClose() {
+	      this.setState({ open: false });
 	    }
 	  }]);
 	
@@ -30721,14 +30961,17 @@
 	
 	var MODAL_BODY_CLASS = 'modal-body';
 	var MODAL_BACKDROP_CLASS = 'modal-backdrop';
+	var ESC_KEY = 27;
 	
 	var Modal = (function (_React$Component) {
 	  _inherits(Modal, _React$Component);
 	
-	  function Modal() {
+	  function Modal(props) {
 	    _classCallCheck(this, Modal);
 	
-	    _get(Object.getPrototypeOf(Modal.prototype), 'constructor', this).apply(this, arguments);
+	    _get(Object.getPrototypeOf(Modal.prototype), 'constructor', this).call(this, props);
+	
+	    this.handleKeyUp = this.handleKeyUp.bind(this);
 	  }
 	
 	  _createClass(Modal, [{
@@ -30739,12 +30982,14 @@
 	      if (this.props.open) {
 	        this.mountModal();
 	      }
+	      window.addEventListener('keyup', this.handleKeyUp);
 	    }
 	  }, {
 	    key: 'componentWillUnmount',
 	    value: function componentWillUnmount() {
 	      this.unmountModal();
 	      this.unmountContainer();
+	      window.addEventListener('keyup', this.handleKeyUp);
 	    }
 	  }, {
 	    key: 'componentDidUpdate',
@@ -30808,10 +31053,18 @@
 	      (0, _reactDom.unmountComponentAtNode)(this.$container);
 	      this.$modal = null;
 	    }
+	  }, {
+	    key: 'handleKeyUp',
+	    value: function handleKeyUp(evt) {
+	      if (evt.keyCode === ESC_KEY) {
+	        this.props.onRequestClose();
+	      }
+	    }
 	  }], [{
 	    key: 'propTypes',
 	    value: {
-	      open: _react.PropTypes.bool.isRequired
+	      open: _react.PropTypes.bool.isRequired,
+	      onRequestClose: _react.PropTypes.func.isRequired
 	    },
 	    enumerable: true
 	  }, {
