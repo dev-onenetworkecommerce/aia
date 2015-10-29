@@ -5441,7 +5441,7 @@ a {
   color: #FFFFFF;
   line-height: 2;
   background: #F05F50;
-  height: 30px;
+  height: auto;
   border-radius: 5px; }
 
 .form-group > .message:after {
