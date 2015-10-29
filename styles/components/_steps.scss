@@ -7,26 +7,29 @@
   li {
     position: relative;
     display: inline-block;
-    margin: 0 1em;
-    width: 2em;
-    height: 2em;
+    margin: 0 25px;
+    width: 50px;
+    height: 50px;
     padding: 2px 10px;
     text-align: center;
     background: $brand-gray-lt;
     text-decoration: none;
-    border-radius: 1em;
-    border: $border-radius-base solid $brand-gray;
+    border-radius: 50%;
+    border: 3px solid $brand-gray;
   }
 
-  li > a { color: $brand-gray-dk; }
+  li > a { 
+    color: $brand-gray-dk; 
+    z-index: 1;
+  }
 
-  li::before{
+  li::before {
     content: '';
     position: absolute;
-    top: 0.9em;
-    left: -4em;
-    width: 4em;
-    height: 0.2em;
+    top: 20px;
+    right: 5px;
+    width: 100px;
+    height: 5px;
     background: $brand-gray;
     z-index: -1;
   }
