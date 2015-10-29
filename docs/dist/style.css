@@ -5420,6 +5420,40 @@ a {
   .form-control.-sun, .form-control.-sun:focus {
     border-color: #FFC05A; }
 
+.form-group {
+  position: relative; }
+
+.form-group > .message {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  z-index: 9999;
+  visibility: hidden;
+  width: 220px;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 2;
+  background: #F05F50;
+  height: 30px; }
+
+.form-group > .message:after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0;
+  height: 0;
+  border-bottom: 8px solid #F05F50;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent; }
+
+.form-group .tooltip:hover {
+  background: #000; }
+
+.form-group .tooltip:focus + .message {
+  visibility: visible; }
+
 select.form-control {
   height: 34px; }
 

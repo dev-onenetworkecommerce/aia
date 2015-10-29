@@ -16678,7 +16678,7 @@
 	        start: input.selectionStart,
 	        end: input.selectionEnd
 	      };
-	    } else if (document.selection && (input.nodeName && input.nodeName.toLowerCase() === 'input')) {
+	    } else if (document.selection && input.nodeName && input.nodeName.toLowerCase() === 'input') {
 	      // IE8 input.
 	      var range = document.selection.createRange();
 	      // There can only be one selection per document in IE, so it must
@@ -16713,7 +16713,7 @@
 	    if ('selectionStart' in input) {
 	      input.selectionStart = start;
 	      input.selectionEnd = Math.min(end, input.value.length);
-	    } else if (document.selection && (input.nodeName && input.nodeName.toLowerCase() === 'input')) {
+	    } else if (document.selection && input.nodeName && input.nodeName.toLowerCase() === 'input') {
 	      var range = input.createTextRange();
 	      range.collapse(true);
 	      range.moveStart('character', start);
@@ -27312,6 +27312,34 @@
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
+	            "Form Error"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "To apply, .message"
+	          ),
+	          _react2["default"].createElement(
+	            "section",
+	            { className: "doc-bottom-space" },
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "form-group" },
+	              _react2["default"].createElement("input", { className: "form-control -crimson tooltip", type: "text", placeholder: "Enter something.." }),
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "message" },
+	                "Error invalid something.."
+	              )
+	            )
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
+	            "h3",
+	            { className: "doc-heading" },
 	            "Form Groups"
 	          ),
 	          _react2["default"].createElement(
@@ -31929,7 +31957,7 @@
 	        var cleanRoot = root[0] === '[' && root[root.length - 1] === ']' ? root.slice(1, root.length - 1) : root;
 	        var index = parseInt(cleanRoot, 10);
 	        var indexString = '' + index;
-	        if (!isNaN(index) && root !== cleanRoot && indexString === cleanRoot && index >= 0 && (options.parseArrays && index <= options.arrayLimit)) {
+	        if (!isNaN(index) && root !== cleanRoot && indexString === cleanRoot && index >= 0 && options.parseArrays && index <= options.arrayLimit) {
 	
 	            obj = [];
 	            obj[index] = internals.parseObject(chain, val, options);
