@@ -20192,7 +20192,8 @@
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'dropdown', component: __webpack_require__(/*! ./sections/Docs-Dropdown */ 253) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'modal', component: __webpack_require__(/*! ./sections/Docs-Modal */ 257) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'colors', component: __webpack_require__(/*! ./sections/Docs-Colors */ 259) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'guidelines', component: __webpack_require__(/*! ./sections/Docs-Guidelines */ 260) })
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'steps', component: __webpack_require__(/*! ./sections/Docs-Steps */ 260) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'guidelines', component: __webpack_require__(/*! ./sections/Docs-Guidelines */ 261) })
 	    )
 	  )
 	);
@@ -20553,7 +20554,7 @@
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/lib/createHashHistory.js ***!
   \***********************************************************/
-[261, 162, 164, 165, 166, 167, 168, 169],
+[262, 162, 164, 165, 166, 167, 168, 169],
 /* 164 */
 /*!***********************************************!*\
   !*** ./~/react-router/~/invariant/browser.js ***!
@@ -20756,7 +20757,7 @@
 /*!**********************************************************!*\
   !*** ./~/react-router/~/history/lib/createDOMHistory.js ***!
   \**********************************************************/
-[262, 164, 166, 167, 170],
+[263, 164, 166, 167, 170],
 /* 170 */
 /*!*******************************************************!*\
   !*** ./~/react-router/~/history/lib/createHistory.js ***!
@@ -21053,7 +21054,7 @@
 /*!********************************************************!*\
   !*** ./~/react-router/~/history/~/deep-equal/index.js ***!
   \********************************************************/
-[263, 172, 173],
+[264, 172, 173],
 /* 172 */
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/~/deep-equal/lib/keys.js ***!
@@ -21135,12 +21136,12 @@
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/lib/runTransitionHook.js ***!
   \***********************************************************/
-[264, 162],
+[265, 162],
 /* 176 */
 /*!***************************************************!*\
   !*** ./~/react-router/~/history/lib/deprecate.js ***!
   \***************************************************/
-[265, 162],
+[266, 162],
 /* 177 */
 /*!******************************************!*\
   !*** ./~/react-router/lib/RouteUtils.js ***!
@@ -22112,12 +22113,12 @@
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/index.js ***!
   \****************************************************/
-[266, 184, 186],
+[267, 184, 186],
 /* 184 */
 /*!********************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/stringify.js ***!
   \********************************************************/
-[267, 185],
+[268, 185],
 /* 185 */
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/utils.js ***!
@@ -22309,7 +22310,7 @@
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/parse.js ***!
   \****************************************************/
-[268, 185],
+[269, 185],
 /* 187 */
 /*!****************************************************!*\
   !*** ./~/react-router/lib/computeChangedRoutes.js ***!
@@ -23829,7 +23830,7 @@
 /*!*************************************************************!*\
   !*** ./~/react-router/~/history/lib/createMemoryHistory.js ***!
   \*************************************************************/
-[269, 164, 165, 170],
+[270, 164, 165, 170],
 /* 205 */
 /*!*****************************************************!*\
   !*** ./~/react-router/~/history/lib/useBasename.js ***!
@@ -24296,7 +24297,7 @@
 /*!*******************************************!*\
   !*** ./~/history/lib/createDOMHistory.js ***!
   \*******************************************/
-[262, 208, 210, 211, 215],
+[263, 208, 210, 211, 215],
 /* 215 */
 /*!****************************************!*\
   !*** ./~/history/lib/createHistory.js ***!
@@ -24566,7 +24567,7 @@
 /*!*****************************************!*\
   !*** ./~/history/~/deep-equal/index.js ***!
   \*****************************************/
-[263, 217, 218],
+[264, 217, 218],
 /* 217 */
 /*!********************************************!*\
   !*** ./~/history/~/deep-equal/lib/keys.js ***!
@@ -24690,22 +24691,22 @@
 /*!********************************************!*\
   !*** ./~/history/lib/runTransitionHook.js ***!
   \********************************************/
-[264, 213],
+[265, 213],
 /* 223 */
 /*!************************************!*\
   !*** ./~/history/lib/deprecate.js ***!
   \************************************/
-[265, 213],
+[266, 213],
 /* 224 */
 /*!********************************************!*\
   !*** ./~/history/lib/createHashHistory.js ***!
   \********************************************/
-[261, 213, 208, 209, 210, 211, 212, 214],
+[262, 213, 208, 209, 210, 211, 212, 214],
 /* 225 */
 /*!**********************************************!*\
   !*** ./~/history/lib/createMemoryHistory.js ***!
   \**********************************************/
-[269, 208, 209, 215],
+[270, 208, 209, 215],
 /* 226 */
 /*!**************************************!*\
   !*** ./~/history/lib/useBasename.js ***!
@@ -25113,12 +25114,12 @@
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/index.js ***!
   \*************************************/
-[266, 230, 232],
+[267, 230, 232],
 /* 230 */
 /*!*****************************************!*\
   !*** ./~/history/~/qs/lib/stringify.js ***!
   \*****************************************/
-[267, 231],
+[268, 231],
 /* 231 */
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/utils.js ***!
@@ -25128,7 +25129,7 @@
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/parse.js ***!
   \*************************************/
-[268, 231],
+[269, 231],
 /* 233 */
 /*!*********************************************!*\
   !*** ./~/history/lib/enableBeforeUnload.js ***!
@@ -25522,6 +25523,11 @@
 	                _reactRouter.Link,
 	                { to: '/modal', activeClassName: '-selected', className: 'menuitem' },
 	                'Modal'
+	              ),
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
+	                { to: '/steps', activeClassName: '-selected', className: 'menuitem' },
+	                'Steps'
 	              )
 	            ),
 	            _react2['default'].createElement(
@@ -31258,6 +31264,106 @@
 
 /***/ },
 /* 260 */
+/*!********************************************!*\
+  !*** ./docs/sections/Docs-Steps/index.jsx ***!
+  \********************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var Steps = (function (_React$Component) {
+	  _inherits(Steps, _React$Component);
+	
+	  function Steps() {
+	    _classCallCheck(this, Steps);
+	
+	    _get(Object.getPrototypeOf(Steps.prototype), "constructor", this).apply(this, arguments);
+	  }
+	
+	  _createClass(Steps, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2["default"].createElement(
+	        "ul",
+	        { className: "steps" },
+	        _react2["default"].createElement(
+	          "li",
+	          { className: "-complete" },
+	          " ",
+	          _react2["default"].createElement(
+	            "a",
+	            null,
+	            " ",
+	            _react2["default"].createElement("i", { className: "icon icon-checkmark" }),
+	            " "
+	          ),
+	          " "
+	        ),
+	        _react2["default"].createElement(
+	          "li",
+	          { className: "-complete" },
+	          " ",
+	          _react2["default"].createElement(
+	            "a",
+	            null,
+	            " ",
+	            _react2["default"].createElement("i", { className: "icon icon-checkmark" }),
+	            " "
+	          ),
+	          " "
+	        ),
+	        _react2["default"].createElement(
+	          "li",
+	          { className: "-active" },
+	          " ",
+	          _react2["default"].createElement(
+	            "a",
+	            null,
+	            " 3 "
+	          ),
+	          " "
+	        ),
+	        _react2["default"].createElement(
+	          "li",
+	          null,
+	          " ",
+	          _react2["default"].createElement(
+	            "a",
+	            null,
+	            " 4 "
+	          ),
+	          " "
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return Steps;
+	})(_react2["default"].Component);
+	
+	exports["default"] = Steps;
+	module.exports = exports["default"];
+
+/***/ },
+/* 261 */
 /*!*************************************************!*\
   !*** ./docs/sections/Docs-Guidelines/index.jsx ***!
   \*************************************************/
@@ -31473,7 +31579,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 261 */
+/* 262 */
 /*!************************************!*\
   !*** template of 163 referencing  ***!
   \************************************/
@@ -31715,7 +31821,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 262 */
+/* 263 */
 /*!************************************!*\
   !*** template of 169 referencing  ***!
   \************************************/
@@ -31773,7 +31879,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 263 */
+/* 264 */
 /*!************************************!*\
   !*** template of 171 referencing  ***!
   \************************************/
@@ -31874,7 +31980,7 @@
 	}
 
 /***/ },
-/* 264 */
+/* 265 */
 /*!************************************!*\
   !*** template of 175 referencing  ***!
   \************************************/
@@ -31908,7 +32014,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 265 */
+/* 266 */
 /*!************************************!*\
   !*** template of 176 referencing  ***!
   \************************************/
@@ -31937,7 +32043,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 266 */
+/* 267 */
 /*!************************************!*\
   !*** template of 183 referencing  ***!
   \************************************/
@@ -31960,7 +32066,7 @@
 	};
 
 /***/ },
-/* 267 */
+/* 268 */
 /*!************************************!*\
   !*** template of 184 referencing  ***!
   \************************************/
@@ -32078,7 +32184,7 @@
 	};
 
 /***/ },
-/* 268 */
+/* 269 */
 /*!************************************!*\
   !*** template of 186 referencing  ***!
   \************************************/
@@ -32256,7 +32362,7 @@
 	};
 
 /***/ },
-/* 269 */
+/* 270 */
 /*!************************************!*\
   !*** template of 204 referencing  ***!
   \************************************/
