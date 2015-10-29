@@ -5409,8 +5409,9 @@ a {
   .form-control:focus {
     border-color: #52B5E5; }
   .form-control.-disabled, .form-control:disabled {
-    cursor: not-allowed;
-    background: #F0F0F0; }
+    color: #C4C4C4;
+    border-color: #C4C4C4;
+    cursor: not-allowed; }
   .form-control.-sky, .form-control.-sky:focus {
     border-color: #52B5E5; }
   .form-control.-emerald, .form-control.-emerald:focus {
@@ -5725,6 +5726,22 @@ hr {
   .btn-group > .btn:not(:first-child):not(:last-child) {
     margin-left: -1px;
     border-radius: 0; }
+
+.hide-text {
+  display: block; }
+  .hide-text > .extender {
+    display: inline-block;
+    height: 12px;
+    padding: 0 5px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 6px;
+    color: #78828A;
+    border: 1px solid transparent;
+    border-radius: 1px;
+    text-decoration: none;
+    vertical-align: middle;
+    outline: none; }
 
 .pagination > .action {
   display: inline-block;

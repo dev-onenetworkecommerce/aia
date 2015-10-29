@@ -186,6 +186,14 @@ export default class Buttons extends React.Component {
               <button className="action" disabled={true}>Next</button>
             </div>
           </section>
+
+          <section className="doc-bottom-space-large">
+            <h3 className="doc-heading">Hide text button</h3>
+            <p>Just add <code>.-hide-text</code> to imply hidden text</p>
+            <span className="hide-text">
+              <button className="extender">...</button>
+            </span>
+          </section>
         </section>
       </div>
     );
