@@ -33,10 +33,10 @@
 
   li:first-child::before { display: none; }
 
- .-active::before { background: $brand-sky-dk; }
-  .-active { background: $brand-sky-dk; }
-  .-active > a { color: $brand-white; }
+  li.-active::before { background: $brand-sky-dk; }
+  li.-active { background: $brand-sky-dk; }
+  li.-active > a { color: $brand-white; }
 
-  .-complete { background: $brand-emerald; }
-  .-complete > a { color: $brand-white; }
+  li.-complete { background: $brand-emerald; }
+  li.-complete > a { color: $brand-white; }
 }

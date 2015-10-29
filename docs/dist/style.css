@@ -5880,15 +5880,15 @@ hr {
     z-index: -1; }
   .steps li:first-child::before {
     display: none; }
-  .steps .-active::before {
+  .steps li.-active::before {
     background: #4684BF; }
-  .steps .-active {
+  .steps li.-active {
     background: #4684BF; }
-  .steps .-active > a {
+  .steps li.-active > a {
     color: #fff; }
-  .steps .-complete {
+  .steps li.-complete {
     background: #38D4A9; }
-  .steps .-complete > a {
+  .steps li.-complete > a {
     color: #fff; }
 
 .list-group {
