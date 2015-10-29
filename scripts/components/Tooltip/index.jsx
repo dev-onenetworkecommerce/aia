@@ -1,13 +1,20 @@
-import React, { PropTypes, findDOMNode } from 'react';
-import { render, unmountComponentAtNode } from 'react-dom';
+import React, { cloneElement, PropTypes } from 'react';
+import { render, unmountComponentAtNode, findDOMNode } from 'react-dom';
 import utils from './utils';
-
-
 
 export default class ToolTip extends React.Component {
 
+  constructor(props) {
+    super(props);
+
+    this.handleMouseEnter = ::this.handleMouseEnter;
+    this.handleMouseOut = ::this.handleMouseOut;
+  }
+
   state = {
-    show: true
+    show: false ,
+    top: 0,
+    left: 0
   }
 
   static PropTypes = {
@@ -22,28 +29,36 @@ export default class ToolTip extends React.Component {
 
   static defaultProps = {
     position: 'left',
-    text: 'Input Tooltip here',
+    text: 'Input Tooltip Text here',
   }
 
   componentDidMount() {
     const { show } = this.state;
+    const node = findDOMNode(this);
     this.mountContainer();
     if ( show ) {
       this.mountTooltip();
     }
 
-    findDOMNode(this).addEventListener('mouseenter',function(){
-      console.log('123');
-    });
+    node.addEventListener('mouseenter', this.handleMouseEnter);
+    node.addEventListener('mouseout', this.handleMouseOut);
   };
 
   componentWillUnmount() {
     this.unmountTooltip();
     this.unmountContainer();
+    node.removeEventListener('mouseenter', this.handleMouseEnter);
+    node.removeEventListener('mouseout', this.handleMouseOut);
   };
 
+  componentDidUpdate() {
+     this.state.show
+     ? this.mountTooltip()
+     : this.unmountTooltip();
+  }
+
   render() {
-    return <div>{this.props.children}</div>;
+    return <span>{this.props.children}</span>;
   };
 
 
@@ -62,7 +77,7 @@ export default class ToolTip extends React.Component {
   };
 
   mountTooltip() {
-    if ( this.$container == null ) {
+    if ( !this.$container ) {
       throw new Error(
         'The container does not exist. ' +
         'It may have been removed, or whatever'
@@ -70,9 +85,13 @@ export default class ToolTip extends React.Component {
     }
 
     this.$tooltip = render(
-      <div>
-        {this.props.text}
-      </div>,
+      cloneElement(<div>{this.props.text}</div>, {
+        style: {
+          top: this.state.top,
+          left: this.state.left,
+          position: "absolute"
+        }
+      }),
       this.$container
     );
   }
@@ -84,6 +103,26 @@ export default class ToolTip extends React.Component {
 
     unmountComponentAtNode(this.$container);
     this.$tooltip = null;
+  }
+
+  handleMouseEnter() {
+    this.setState({
+      show: true
+    }, () => {
+      let trigger = findDOMNode(this);
+      console.log("top:"+trigger.offsetTop);
+      console.log("height:"+trigger.offsetHeight);
+      console.log("width:"+trigger.offsetWidth);
+      console.log("left:"+trigger.offsetLeft);
+      let overlay = findDOMNode(this.$tooltip);
+      let { position } = this.props;
+      let { top, left } = utils.calculatePosition(trigger, overlay, position);
+      this.setState({ top, left });
+    });
+  };
+
+  handleMouseOut() {
+    this.setState({ show: false });
   }
 
 
