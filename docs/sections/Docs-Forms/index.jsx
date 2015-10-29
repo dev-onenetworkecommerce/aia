@@ -75,11 +75,14 @@ export default class Forms extends React.Component {
           <p>Individual fields may display an error state. To apply, simply add one of the *modifier* classes to .form-control: .-error</p>
 
           <section className="doc-bottom-space">
-            <input className="form-control -error" type="text" placeholder="Enter something.." />
+            <div className="form-group">
+                <input className="form-control -crimson" type="text" placeholder="Enter something.." />
+                <span className="message">Tool tip</span>
+            </div>
           </section>
 
           <section className="doc-bottom-space">
-            <select className="form-control -error">
+            <select className="form-control -crimson">
               <option>Option 1</option>
               <option>Option 2</option>
             </select>

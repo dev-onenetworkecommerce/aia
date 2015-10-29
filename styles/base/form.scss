@@ -41,15 +41,6 @@
   &.-sun {
     @include form-variant($brand-sun);
   }
-
-  &.-error {
-    @include form-variant($brand-crimson);
-    background-color: lighten($brand-crimson, 30);
-    color: $brand-crimson-dk;
-    &::-webkit-input-placeholder {
-      color: $brand-crimson-dk;
-    }
-  }
 }
 
 // fix issue with <select> padding
@@ -126,4 +117,10 @@ label {
   > .addon.-btn {
     padding: 0;
   }
+}
+.form-group > .tooltip {
+  visibility: hidden;
+}
+.form-group:focus > .tooltip {
+  visibility: hidden;
 }

@@ -27322,14 +27322,23 @@
 	          _react2["default"].createElement(
 	            "section",
 	            { className: "doc-bottom-space" },
-	            _react2["default"].createElement("input", { className: "form-control -error", type: "text", placeholder: "Enter something.." })
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "form-group" },
+	              _react2["default"].createElement("input", { className: "form-control -crimson", type: "text", placeholder: "Enter something.." }),
+	              _react2["default"].createElement(
+	                "span",
+	                { className: "message" },
+	                "Tool tip"
+	              )
+	            )
 	          ),
 	          _react2["default"].createElement(
 	            "section",
 	            { className: "doc-bottom-space" },
 	            _react2["default"].createElement(
 	              "select",
-	              { className: "form-control -error" },
+	              { className: "form-control -crimson" },
 	              _react2["default"].createElement(
 	                "option",
 	                null,
