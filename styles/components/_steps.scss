@@ -31,17 +31,12 @@
     z-index: -1;
   }
 
- .-active::before {
-    background: $brand-sky-dk;
-  }
-
-
   li:first-child::before { display: none; }
 
+ .-active::before { background: $brand-sky-dk; }
   .-active { background: $brand-sky-dk; }
   .-active > a { color: $brand-white; }
 
   .-complete { background: $brand-emerald; }
   .-complete > a { color: $brand-white; }
-
 }

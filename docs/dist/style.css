@@ -5410,11 +5410,7 @@ a {
     border-color: #52B5E5; }
   .form-control.-disabled, .form-control:disabled {
     color: #C4C4C4;
-<<<<<<< HEAD
-    border-color: #C4C4C4;
-=======
     border-color: #F0F0F0;
->>>>>>> dfcd306f886cad732775b329f1f18e0ae7d337f6
     cursor: not-allowed; }
   .form-control.-sky, .form-control.-sky:focus {
     border-color: #52B5E5; }
@@ -5882,10 +5878,10 @@ hr {
     height: 0.2em;
     background: #C4C4C4;
     z-index: -1; }
-  .steps .-active::before {
-    background: #4684BF; }
   .steps li:first-child::before {
     display: none; }
+  .steps .-active::before {
+    background: #4684BF; }
   .steps .-active {
     background: #4684BF; }
   .steps .-active > a {
