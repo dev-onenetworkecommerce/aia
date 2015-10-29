@@ -5419,6 +5419,13 @@ a {
     border-color: #F05F50; }
   .form-control.-sun, .form-control.-sun:focus {
     border-color: #FFC05A; }
+  .form-control.-error {
+    background-color: #fce0dd;
+    color: #C85044; }
+    .form-control.-error, .form-control.-error:focus {
+      border-color: #F05F50; }
+    .form-control.-error::-webkit-input-placeholder {
+      color: #C85044; }
 
 .form-group {
   position: relative; }
@@ -5434,7 +5441,8 @@ a {
   color: #FFFFFF;
   line-height: 2;
   background: #F05F50;
-  height: 30px; }
+  height: 30px;
+  border-radius: 5px; }
 
 .form-group > .message:after {
   content: '';
@@ -5447,9 +5455,6 @@ a {
   border-bottom: 8px solid #F05F50;
   border-right: 8px solid transparent;
   border-left: 8px solid transparent; }
-
-.form-group .tooltip:hover {
-  background: #000; }
 
 .form-group .tooltip:focus + .message {
   visibility: visible; }
