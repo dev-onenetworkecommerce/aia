@@ -13,7 +13,6 @@
     padding: 2px 10px;
     text-align: center;
     background: $brand-gray-lt;
-    text-decoration: none;
     border-radius: 50%;
     border: 3px solid $brand-gray;
   }
@@ -21,6 +20,7 @@
   li > a { 
     color: $brand-gray-dk; 
     z-index: 1;
+    text-decoration: none;
   }
 
   li::before {
