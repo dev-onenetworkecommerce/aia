@@ -23,7 +23,7 @@
   &.-disabled,
   &:disabled {
     color: $brand-gray;
-    border-color: $brand-gray;
+    border-color: $brand-gray-lt;
     cursor: not-allowed;
   }
 

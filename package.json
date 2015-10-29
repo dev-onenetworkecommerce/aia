@@ -1,6 +1,6 @@
 {
   "name": "aia",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "The UI Toolkit that powers ONE's internal projects",
   "main": "lib/index",
   "scripts": {
