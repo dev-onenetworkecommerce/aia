@@ -1,0 +1,21 @@
+.breadcrumb {
+  padding: 8px 15px;
+  list-style: none;
+  color: $brand-gray;
+  border-radius: $border-radius-base;
+  font-size: $mini;
+
+  > a { 
+    color: $brand-gray; 
+    text-decoration: none;
+  }
+
+  > a > li { display: inline-block; }
+
+  a + a:before {
+    padding: 0 5px;
+    content: "/\00a0";
+  }
+
+  .active { color: $brand-black; }
+}

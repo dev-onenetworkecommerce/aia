@@ -5409,8 +5409,9 @@ a {
   .form-control:focus {
     border-color: #52B5E5; }
   .form-control.-disabled, .form-control:disabled {
-    cursor: not-allowed;
-    background: #F0F0F0; }
+    color: #C4C4C4;
+    border-color: #C4C4C4;
+    cursor: not-allowed; }
   .form-control.-sky, .form-control.-sky:focus {
     border-color: #52B5E5; }
   .form-control.-emerald, .form-control.-emerald:focus {
@@ -5848,6 +5849,23 @@ hr {
   .badge.-crimson {
     color: #fff;
     background-color: #F05F50; }
+
+.breadcrumb {
+  padding: 8px 15px;
+  list-style: none;
+  color: #C4C4C4;
+  border-radius: 3px;
+  font-size: 12px; }
+  .breadcrumb > a {
+    color: #C4C4C4;
+    text-decoration: none; }
+  .breadcrumb > a > li {
+    display: inline-block; }
+  .breadcrumb a + a:before {
+    padding: 0 5px;
+    content: "/\00a0"; }
+  .breadcrumb .active {
+    color: #4A4A4A; }
 
 .list-group {
   background-color: #fff;

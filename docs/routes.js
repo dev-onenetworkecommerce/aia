@@ -18,6 +18,7 @@ export default (
         <Route path="buttons" component={require('./sections/Docs-Buttons')} />
         <Route path="labels" component={require('./sections/Docs-Labels')} />
         <Route path="panels" component={require('./sections/Docs-Panels')} />
+        <Route path="breadcrumbs" component={require('./sections/Docs-Breadcrumbs')} />
         <Route path="list-group" component={require('./sections/Docs-ListGroup')} />
         <Route path="nav" component={require('./sections/Docs-Nav')} />
         <Route path="slate" component={require('./sections/Docs-Slate')} />
