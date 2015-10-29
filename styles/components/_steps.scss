@@ -36,10 +36,15 @@
 
   li:first-child::before { display: none; }
 
-  li.-active::before { background: $brand-sky-dk; }
-  li.-active { background: $brand-sky-dk; }
   li.-active > a { color: $brand-white; }
+  li.-active::before,
+  li.-active { 
+    background: $brand-sky-dk; 
+  }
 
-  li.-complete { background: $brand-emerald; }
   li.-complete > a { color: $brand-white; }
+  li.-complete,
+  li.-complete:before { 
+    background: $brand-emerald; 
+  }
 }
