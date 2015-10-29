@@ -5432,7 +5432,7 @@ a {
   max-width: 220px;
   text-align: center;
   color: #FFFFFF;
-  line-height: 2;
+  padding: 8px 10px;
   background: #F05F50;
   height: auto;
   border-radius: 5px; }
