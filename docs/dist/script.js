@@ -32405,18 +32405,20 @@
 	        ),
 	        _react2["default"].createElement(
 	          "li",
-	          { className: "-active" },
+	          { className: "-complete" },
 	          " ",
 	          _react2["default"].createElement(
 	            "a",
 	            null,
-	            " 2 "
+	            " ",
+	            _react2["default"].createElement("i", { className: "icon icon-checkmark" }),
+	            " "
 	          ),
 	          " "
 	        ),
 	        _react2["default"].createElement(
 	          "li",
-	          null,
+	          { className: "-active" },
 	          " ",
 	          _react2["default"].createElement(
 	            "a",

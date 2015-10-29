@@ -5881,16 +5881,16 @@ hr {
     z-index: -1; }
   .steps li:first-child::before {
     display: none; }
-  .steps li.-active::before {
-    background: #4684BF; }
-  .steps li.-active {
-    background: #4684BF; }
   .steps li.-active > a {
     color: #fff; }
-  .steps li.-complete {
-    background: #38D4A9; }
+  .steps li.-active::before,
+  .steps li.-active {
+    background: #4684BF; }
   .steps li.-complete > a {
     color: #fff; }
+  .steps li.-complete,
+  .steps li.-complete:before {
+    background: #38D4A9; }
 
 .list-group {
   background-color: #fff;
