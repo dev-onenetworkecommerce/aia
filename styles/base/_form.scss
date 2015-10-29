@@ -22,8 +22,9 @@
 
   &.-disabled,
   &:disabled {
+    color: $brand-gray;
+    border-color: $brand-gray;
     cursor: not-allowed;
-    background: $brand-gray-lt;
   }
 
   &.-sky {
