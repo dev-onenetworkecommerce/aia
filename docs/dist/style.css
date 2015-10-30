@@ -5403,14 +5403,15 @@ a {
   padding: 7px 8px;
   vertical-align: middle;
   background-color: #fff;
-  border: 1px solid #C4C4C4;
+  border: 1px solid #4A4A4A;
   border-radius: 3px;
   outline: none; }
   .form-control:focus {
     border-color: #52B5E5; }
   .form-control.-disabled, .form-control:disabled {
-    cursor: not-allowed;
-    background: #F0F0F0; }
+    color: #C4C4C4;
+    border-color: #F0F0F0;
+    cursor: not-allowed; }
   .form-control.-sky, .form-control.-sky:focus {
     border-color: #52B5E5; }
   .form-control.-emerald, .form-control.-emerald:focus {
@@ -5419,6 +5420,37 @@ a {
     border-color: #F05F50; }
   .form-control.-sun, .form-control.-sun:focus {
     border-color: #FFC05A; }
+
+.form-group {
+  position: relative; }
+
+.form-group .form-control + .message {
+  position: absolute;
+  top: 40px;
+  z-index: 9999;
+  visibility: hidden;
+  max-width: 220px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 8px 10px;
+  background: #F05F50;
+  height: auto;
+  border-radius: 5px; }
+
+.form-group .form-control + .message:after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0;
+  height: 0;
+  border-bottom: 8px solid #F05F50;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent; }
+
+.form-group .form-control:focus + .message {
+  visibility: visible; }
 
 select.form-control {
   height: 34px; }
@@ -5536,6 +5568,10 @@ body {
   line-height: 1.7;
   font-family: "proxima-nova", Helvetica, "Helvetica Neue", sans-serif, serif; }
 
+hr {
+  border: 0;
+  border-top: 1px solid #C4C4C4; }
+
 .btn {
   display: inline-block;
   padding: 0 20px;
@@ -5649,15 +5685,15 @@ body {
     margin-right: auto;
     margin-left: auto;
     text-align: center; }
-  .btn.-xs {
+  .btn.-xs, .btn-group.-xs > .btn {
     height: 25px;
     font-size: 12px;
     line-height: 25px; }
-  .btn.-small {
+  .btn.-small, .btn-group.-small > .btn {
     height: 30px;
     font-size: 12px;
     line-height: 30px; }
-  .btn.-large {
+  .btn.-large, .btn-group.-large > .btn {
     height: 50px;
     padding: 0 25px;
     font-size: 18px;
@@ -5673,19 +5709,23 @@ body {
   .btn > .icon:first-child:last-child {
     margin: 0; }
 
-.btn-group.-rounded > .btn {
-  border-radius: 25px; }
-.btn-group > .btn {
-  margin-right: 0 !important;
-  margin-left: 0 !important; }
-.btn-group > .btn:last-child:not(:first-child) {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0; }
-.btn-group > .btn:first-child:not(:last-child) {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0; }
-.btn-group > .btn:not(:first-child):not(:last-child) {
-  border-radius: 0; }
+.btn-group {
+  display: inline-block;
+  vertical-align: middle; }
+  .btn-group.-rounded > .btn {
+    border-radius: 25px; }
+  .btn-group + .btn-group {
+    margin-left: 6px; }
+  .btn-group > .btn:last-child:not(:first-child) {
+    margin-left: -1px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; }
+  .btn-group > .btn:first-child:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; }
+  .btn-group > .btn:not(:first-child):not(:last-child) {
+    margin-left: -1px;
+    border-radius: 0; }
 
 .pagination > .action {
   display: inline-block;
@@ -5809,6 +5849,48 @@ body {
   .badge.-crimson {
     color: #fff;
     background-color: #F05F50; }
+
+.steps {
+  padding: 8px 15px;
+  list-style: none;
+  color: #C4C4C4;
+  font-size: 24px; }
+  .steps li {
+    position: relative;
+    display: inline-block;
+    margin: 0 25px;
+    width: 50px;
+    height: 50px;
+    padding: 2px 10px;
+    text-align: center;
+    background: #F0F0F0;
+    border-radius: 50%;
+    border: 3px solid #C4C4C4; }
+  .steps li > a {
+    color: #78828A;
+    z-index: 1;
+    text-decoration: none; }
+  .steps li::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    width: 100px;
+    height: 5px;
+    background: #C4C4C4;
+    z-index: -1; }
+  .steps li:first-child::before {
+    display: none; }
+  .steps li.-active > a {
+    color: #fff; }
+  .steps li.-active::before,
+  .steps li.-active {
+    background: #4684BF; }
+  .steps li.-complete > a {
+    color: #fff; }
+  .steps li.-complete,
+  .steps li.-complete:before {
+    background: #38D4A9; }
 
 .list-group {
   background-color: #fff;
@@ -5979,7 +6061,7 @@ body {
   .dropdown > .menu > a {
     display: block;
     width: 100%;
-    padding: 6px 18px;
+    padding: 4px 18px;
     color: #4A4A4A; }
   .dropdown > .menu > a,
   .dropdown > .menu > a:hover {
@@ -5993,11 +6075,21 @@ body {
     cursor: not-allowed; }
   .dropdown > .menu > a > .icon:first-child {
     width: 20px; }
+  .dropdown > .menu > .divider {
+    height: 1px;
+    margin: 6px 0;
+    background-color: #F0F0F0; }
+  .dropdown.-right > .menu::before {
+    left: initial;
+    right: 10px; }
+  .dropdown.-right > .menu::before, .dropdown.-right > .menu::after {
+    left: initial;
+    right: 10px; }
   .dropdown.-up {
     margin-top: -20px; }
   .dropdown.-up > .menu::before, .dropdown.-up > .menu::after {
-    left: initial;
-    right: 10px;
+    left: 10px;
+    right: initial;
     top: initial;
     bottom: -20px;
     border-bottom-color: transparent; }
@@ -6005,12 +6097,6 @@ body {
     border-top-color: #78828A; }
   .dropdown.-up > .menu::after {
     border-top-color: #fff; }
-  .dropdown.-right > .menu::before {
-    left: initial;
-    right: 10px; }
-  .dropdown.-right > .menu::before, .dropdown.-right > .menu::after {
-    left: initial;
-    right: 10px; }
 
 /**
  * All 4 components are here
