@@ -1,4 +1,6 @@
 import React from 'react';
+import ImagePreLoader from '../../../scripts/components/ImagePreLoader';
+
 
 export default class ImagePreLoaderView extends React.Component {
   state = {
@@ -9,15 +11,11 @@ export default class ImagePreLoaderView extends React.Component {
   render() {
 
     return (
-      <div className="wrapper">
-        { !this.state.loaded ? (<div className="loader" />) : '' } 
-
         <img 
           src="http://placehold.it/200x200" 
           onLoad={::this.imageLoad}
           onError={::this.imageError} 
           className="avatar" />
-      </div>
     );
   }
 

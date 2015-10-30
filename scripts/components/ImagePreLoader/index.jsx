@@ -1,8 +1,9 @@
 import React, { PropTypes } from 'react';
-import { render, unmountComponentAtNode} from 'react-dom';
-impport { addClass, removeClass } from '../../utils/DomUtils';
+import { render, unmountComponentAtNode } from 'react-dom';
+import { addClass, removeClass } from '../../utils/DomUtils';
 
 const WRAPPER_CLASS = 'wrapper';
+const LOADER_CLASS = 'loader';
 
 export default class ImagePreLoader extends React.Component {
   
@@ -57,7 +58,7 @@ export default class ImagePreLoader extends React.Component {
 
     this.$imagePreLoader = render(
       <div>
-        <div />
+        <div className={LOADER_CLASS}/>
         {this.props.children}
       </div>
     );
