@@ -11,16 +11,12 @@ export default class ImagePreLoader extends React.Component {
     super(props);
   }
 
-  static propTypes = {
-    loading: PropTypes.bool.isRequired
-  };
-
   componentWillMount() {
     this.mountContainer();
 
-    if ( this.props.loading ) {
-      this.mountImagePreLoader();
-    }
+    // if ( this.props.loading ) {
+    //   this.mountImagePreLoader();
+    // }
   }
 
   componentWillUnMount() {

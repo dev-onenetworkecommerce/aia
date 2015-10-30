@@ -31142,11 +31142,15 @@
 	    key: 'render',
 	    value: function render() {
 	
-	      return _react2['default'].createElement('img', {
-	        src: 'http://placehold.it/200x200',
-	        onLoad: this.imageLoad.bind(this),
-	        onError: this.imageError.bind(this),
-	        className: 'avatar' });
+	      return _react2['default'].createElement(
+	        _scriptsComponentsImagePreLoader2['default'],
+	        null,
+	        _react2['default'].createElement('img', {
+	          src: 'http://placehold.it/200x200',
+	          onLoad: this.imageLoad.bind(this),
+	          onError: this.imageError.bind(this),
+	          className: 'avatar' })
+	      );
 	    }
 	  }, {
 	    key: 'imageLoad',

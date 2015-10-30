@@ -11,11 +11,13 @@ export default class ImagePreLoaderView extends React.Component {
   render() {
 
     return (
+      <ImagePreLoader>
         <img 
           src="http://placehold.it/200x200" 
           onLoad={::this.imageLoad}
           onError={::this.imageError} 
           className="avatar" />
+      </ImagePreLoader>
     );
   }
 
