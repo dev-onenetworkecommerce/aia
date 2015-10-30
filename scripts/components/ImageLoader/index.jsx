@@ -10,6 +10,15 @@ export default class ImagePreLoader extends React.Component {
     super(props);
   }
 
+  componentWillMount() {
+    this.mountContainer();
+  }
+
+  componentWillUnMount() {
+    this.unmountImagePreLoader();
+    this.unMountContainer();
+  }
+
   render() {
     return <noscript />;
   }
