@@ -3,10 +3,10 @@ import { render, unmountComponentAtNode, findDOMNode } from 'react-dom';
 import { addClass, removeClass } from '../../utils/DomUtils';
 import utils from './utils';
 
-const ARROW_LEFT = 'tooltip arrowleft';
-const ARROW_RIGHT = 'tooltip arrowright';
-const ARROW_UP = 'tooltip arrowup';
-const ARROW_DOWN = 'tooltip arrowdown';
+const ARROW_LEFT = 'tooltip -arrowright';
+const ARROW_RIGHT = 'tooltip -arrowleft';
+const ARROW_UP = 'tooltip -arrowdown';
+const ARROW_DOWN = 'tooltip -arrowup';
 
 
 export default class ToolTip extends React.Component {

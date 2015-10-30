@@ -6131,66 +6131,58 @@ body.modal-body {
   color: #fff;
   border-radius: 3px;
   padding: 5px; }
-
-.tooltip.arrowleft {
-  margin-right: 10px; }
-
-.tooltip.arrowleft:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 100%;
-  margin-top: -8px;
-  width: 0;
-  height: 0;
-  border-left: 8px solid #4A4A4A;
-  border-top: 8px solid transparent;
-  border-bottom: 8px solid transparent; }
-
-.tooltip.arrowright {
-  margin-left: 10px; }
-
-.tooltip.arrowright:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  right: 100%;
-  margin-top: -8px;
-  width: 0;
-  height: 0;
-  border-right: 8px solid #4A4A4A;
-  border-top: 8px solid transparent;
-  border-bottom: 8px solid transparent; }
-
-.tooltip.arrowup {
-  margin-bottom: 10px; }
-
-.tooltip.arrowup:after {
-  content: '';
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -8px;
-  width: 0;
-  height: 0;
-  border-top: 8px solid #4A4A4A;
-  border-right: 8px solid transparent;
-  border-left: 8px solid transparent; }
-
-.tooltip.arrowdown {
-  margin-top: 10px; }
-
-.tooltip.arrowdown:after {
-  content: '';
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -8px;
-  width: 0;
-  height: 0;
-  border-bottom: 8px solid #4A4A4A;
-  border-right: 8px solid transparent;
-  border-left: 8px solid transparent; }
+  .tooltip.-arrowright {
+    margin-right: 10px; }
+  .tooltip.-arrowright:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -8px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid #4A4A4A;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent; }
+  .tooltip.-arrowleft {
+    margin-left: 10px; }
+  .tooltip.-arrowleft:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -8px;
+    width: 0;
+    height: 0;
+    border-right: 8px solid #4A4A4A;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent; }
+  .tooltip.-arrowdown {
+    margin-bottom: 10px; }
+  .tooltip.-arrowdown:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -8px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid #4A4A4A;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent; }
+  .tooltip.-arrowup {
+    margin-top: 10px; }
+  .tooltip.-arrowup:after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -8px;
+    width: 0;
+    height: 0;
+    border-bottom: 8px solid #4A4A4A;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent; }
 
 .slate {
   padding: 30px;

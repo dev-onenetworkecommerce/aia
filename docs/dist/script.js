@@ -32607,10 +32607,10 @@
 	
 	var _utils2 = _interopRequireDefault(_utils);
 	
-	var ARROW_LEFT = 'tooltip arrowleft';
-	var ARROW_RIGHT = 'tooltip arrowright';
-	var ARROW_UP = 'tooltip arrowup';
-	var ARROW_DOWN = 'tooltip arrowdown';
+	var ARROW_LEFT = 'tooltip -arrowright';
+	var ARROW_RIGHT = 'tooltip -arrowleft';
+	var ARROW_UP = 'tooltip -arrowdown';
+	var ARROW_DOWN = 'tooltip -arrowup';
 	
 	var ToolTip = (function (_React$Component) {
 	  _inherits(ToolTip, _React$Component);
@@ -32734,7 +32734,7 @@
 	  }, {
 	    key: 'handleMouseOut',
 	    value: function handleMouseOut() {
-	      this.setState({ show: false });
+	      this.setState({ show: true });
 	    }
 	  }, {
 	    key: 'selectArrow',
