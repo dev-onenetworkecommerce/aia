@@ -32733,7 +32733,7 @@
 	  }, {
 	    key: 'handleMouseOut',
 	    value: function handleMouseOut() {
-	      this.setState({ show: true });
+	      this.setState({ show: false });
 	    }
 	  }, {
 	    key: 'selectArrow',
