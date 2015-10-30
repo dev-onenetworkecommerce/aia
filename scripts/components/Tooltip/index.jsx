@@ -129,7 +129,7 @@ export default class ToolTip extends React.Component {
   };
 
   handleMouseOut() {
-    this.setState({ show: true });
+    this.setState({ show: false });
   }
 
   selectArrow() {
