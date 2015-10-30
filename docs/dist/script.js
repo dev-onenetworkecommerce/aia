@@ -20142,7 +20142,7 @@
 	    _react2['default'].createElement(_reactRouter.Route, { path: 'about', component: __webpack_require__(/*! ./sections/.About */ 236) }),
 	    _react2['default'].createElement(
 	      _reactRouter.Route,
-	      { component: __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./sections/Docs\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())) },
+	      { component: __webpack_require__(/*! ./sections/Docs */ 237) },
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'scaffolding', component: __webpack_require__(/*! ./sections/Docs-Scaffolding */ 238) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'layout', component: __webpack_require__(/*! ./sections/Docs-Layout */ 239) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'type', component: __webpack_require__(/*! ./sections/Docs-Type */ 240) }),
@@ -20159,10 +20159,10 @@
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'utilities', component: __webpack_require__(/*! ./sections/Docs-Utilities */ 251) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'dropdown', component: __webpack_require__(/*! ./sections/Docs-Dropdown */ 252) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'modal', component: __webpack_require__(/*! ./sections/Docs-Modal */ 256) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'image-preloader', component: __webpack_require__(/*! ./sections/Docs-ImagePreLoader */ 270) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'colors', component: __webpack_require__(/*! ./sections/Docs-Colors */ 258) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'steps', component: __webpack_require__(/*! ./sections/Docs-Steps */ 259) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'guidelines', component: __webpack_require__(/*! ./sections/Docs-Guidelines */ 260) })
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'image-preloader', component: __webpack_require__(/*! ./sections/Docs-ImagePreLoader */ 258) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'colors', component: __webpack_require__(/*! ./sections/Docs-Colors */ 259) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'steps', component: __webpack_require__(/*! ./sections/Docs-Steps */ 260) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'guidelines', component: __webpack_require__(/*! ./sections/Docs-Guidelines */ 261) })
 	    )
 	  )
 	);
@@ -20523,7 +20523,7 @@
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/lib/createHashHistory.js ***!
   \***********************************************************/
-[261, 161, 163, 164, 165, 166, 167, 168],
+[262, 161, 163, 164, 165, 166, 167, 168],
 /* 163 */
 /*!***********************************************!*\
   !*** ./~/react-router/~/invariant/browser.js ***!
@@ -20726,7 +20726,7 @@
 /*!**********************************************************!*\
   !*** ./~/react-router/~/history/lib/createDOMHistory.js ***!
   \**********************************************************/
-[262, 163, 165, 166, 169],
+[263, 163, 165, 166, 169],
 /* 169 */
 /*!*******************************************************!*\
   !*** ./~/react-router/~/history/lib/createHistory.js ***!
@@ -21023,7 +21023,7 @@
 /*!********************************************************!*\
   !*** ./~/react-router/~/history/~/deep-equal/index.js ***!
   \********************************************************/
-[263, 171, 172],
+[264, 171, 172],
 /* 171 */
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/~/deep-equal/lib/keys.js ***!
@@ -21105,12 +21105,12 @@
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/lib/runTransitionHook.js ***!
   \***********************************************************/
-[264, 161],
+[265, 161],
 /* 175 */
 /*!***************************************************!*\
   !*** ./~/react-router/~/history/lib/deprecate.js ***!
   \***************************************************/
-[265, 161],
+[266, 161],
 /* 176 */
 /*!******************************************!*\
   !*** ./~/react-router/lib/RouteUtils.js ***!
@@ -22082,12 +22082,12 @@
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/index.js ***!
   \****************************************************/
-[266, 183, 185],
+[267, 183, 185],
 /* 183 */
 /*!********************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/stringify.js ***!
   \********************************************************/
-[267, 184],
+[268, 184],
 /* 184 */
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/utils.js ***!
@@ -22279,7 +22279,7 @@
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/parse.js ***!
   \****************************************************/
-[268, 184],
+[269, 184],
 /* 186 */
 /*!****************************************************!*\
   !*** ./~/react-router/lib/computeChangedRoutes.js ***!
@@ -23799,7 +23799,7 @@
 /*!*************************************************************!*\
   !*** ./~/react-router/~/history/lib/createMemoryHistory.js ***!
   \*************************************************************/
-[269, 163, 164, 169],
+[270, 163, 164, 169],
 /* 204 */
 /*!*****************************************************!*\
   !*** ./~/react-router/~/history/lib/useBasename.js ***!
@@ -24266,7 +24266,7 @@
 /*!*******************************************!*\
   !*** ./~/history/lib/createDOMHistory.js ***!
   \*******************************************/
-[262, 207, 209, 210, 214],
+[263, 207, 209, 210, 214],
 /* 214 */
 /*!****************************************!*\
   !*** ./~/history/lib/createHistory.js ***!
@@ -24536,7 +24536,7 @@
 /*!*****************************************!*\
   !*** ./~/history/~/deep-equal/index.js ***!
   \*****************************************/
-[263, 216, 217],
+[264, 216, 217],
 /* 216 */
 /*!********************************************!*\
   !*** ./~/history/~/deep-equal/lib/keys.js ***!
@@ -24660,22 +24660,22 @@
 /*!********************************************!*\
   !*** ./~/history/lib/runTransitionHook.js ***!
   \********************************************/
-[264, 212],
+[265, 212],
 /* 222 */
 /*!************************************!*\
   !*** ./~/history/lib/deprecate.js ***!
   \************************************/
-[265, 212],
+[266, 212],
 /* 223 */
 /*!********************************************!*\
   !*** ./~/history/lib/createHashHistory.js ***!
   \********************************************/
-[261, 212, 207, 208, 209, 210, 211, 213],
+[262, 212, 207, 208, 209, 210, 211, 213],
 /* 224 */
 /*!**********************************************!*\
   !*** ./~/history/lib/createMemoryHistory.js ***!
   \**********************************************/
-[269, 207, 208, 214],
+[270, 207, 208, 214],
 /* 225 */
 /*!**************************************!*\
   !*** ./~/history/lib/useBasename.js ***!
@@ -25070,12 +25070,12 @@
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/index.js ***!
   \*************************************/
-[266, 229, 231],
+[267, 229, 231],
 /* 229 */
 /*!*****************************************!*\
   !*** ./~/history/~/qs/lib/stringify.js ***!
   \*****************************************/
-[267, 230],
+[268, 230],
 /* 230 */
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/utils.js ***!
@@ -25085,7 +25085,7 @@
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/parse.js ***!
   \*************************************/
-[268, 230],
+[269, 230],
 /* 232 */
 /*!*********************************************!*\
   !*** ./~/history/lib/enableBeforeUnload.js ***!
@@ -25344,7 +25344,210 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 237 */,
+/* 237 */
+/*!**************************************!*\
+  !*** ./docs/sections/Docs/index.jsx ***!
+  \**************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRouter = __webpack_require__(/*! react-router */ 159);
+	
+	var Docs = (function (_React$Component) {
+	  _inherits(Docs, _React$Component);
+	
+	  function Docs() {
+	    _classCallCheck(this, Docs);
+	
+	    _get(Object.getPrototypeOf(Docs.prototype), 'constructor', this).apply(this, arguments);
+	  }
+	
+	  _createClass(Docs, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2['default'].createElement(
+	        'div',
+	        { className: 'container' },
+	        _react2['default'].createElement(
+	          'div',
+	          { className: 'row' },
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'col-md-3' },
+	            _react2['default'].createElement(
+	              'nav',
+	              { className: 'list-group _spacer', role: 'menu' },
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
+	                { to: '/scaffolding', activeClassName: '-selected', className: 'menuitem' },
+	                'Scaffolding'
+	              ),
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
+	                { to: '/layout', activeClassName: '-selected', className: 'menuitem' },
+	                'Layout'
+	              ),
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
+	                { to: '/type', activeClassName: '-selected', className: 'menuitem' },
+	                'Type'
+	              ),
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
+	                { to: '/tables', activeClassName: '-selected', className: 'menuitem' },
+	                'Tables'
+	              ),
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
+	                { to: '/forms', activeClassName: '-selected', className: 'menuitem' },
+	                'Forms'
+	              ),
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
+	                { to: '/utilities', activeClassName: '-selected', className: 'menuitem' },
+	                'Utilities'
+	              )
+	            ),
+	            _react2['default'].createElement(
+	              'nav',
+	              { className: 'list-group _spacer', role: 'menu' },
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
+	                { to: '/icons', activeClassName: '-selected', className: 'menuitem' },
+	                'Icons'
+	              ),
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
+	                { to: '/buttons', activeClassName: '-selected', className: 'menuitem' },
+	                'Buttons'
+	              ),
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
+	                { to: '/nav', activeClassName: '-selected', className: 'menuitem' },
+	                'Nav'
+	              ),
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
+	                { to: '/labels', activeClassName: '-selected', className: 'menuitem' },
+	                'Labels'
+	              ),
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
+	                { to: '/alerts', activeClassName: '-selected', className: 'menuitem' },
+	                'Alerts'
+	              ),
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
+	                { to: '/list-group', activeClassName: '-selected', className: 'menuitem' },
+	                'List Group'
+	              ),
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
+	                { to: '/panels', activeClassName: '-selected', className: 'menuitem' },
+	                'Panels'
+	              ),
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
+	                { to: '/slate', activeClassName: '-selected', className: 'menuitem' },
+	                'Slate'
+	              ),
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
+	                { to: '/dropdown', activeClassName: '-selected', className: 'menuitem' },
+	                'Dropdown'
+	              ),
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
+	                { to: '/modal', activeClassName: '-selected', className: 'menuitem' },
+	                'Modal'
+	              ),
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
+	                { to: '/image-preloader', activeClassName: '-selected', className: 'menuitem' },
+	                'Image PreLoader'
+	              ),
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
+	                { to: '/steps', activeClassName: '-selected', className: 'menuitem' },
+	                'Steps'
+	              )
+	            ),
+	            _react2['default'].createElement(
+	              'nav',
+	              { className: 'list-group _spacer-large', role: 'menu' },
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
+	                { to: '/guidelines', activeClassName: '-selected', className: 'menuitem' },
+	                'Guidelines'
+	              ),
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
+	                { to: '/colors', activeClassName: '-selected', className: 'menuitem' },
+	                'Colors'
+	              )
+	            )
+	          ),
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'col-md-9' },
+	            this.props.children
+	          )
+	        ),
+	        _react2['default'].createElement(
+	          'footer',
+	          { className: 'doc-footer' },
+	          _react2['default'].createElement(
+	            'p',
+	            null,
+	            'Copyright ',
+	            _react2['default'].createElement(
+	              'strong',
+	              null,
+	              'ONE Network Ecommerce 2015.'
+	            )
+	          ),
+	          _react2['default'].createElement(
+	            'p',
+	            null,
+	            'Created and maintained by the Front End team at ONE. ',
+	            _react2['default'].createElement(
+	              'strong',
+	              null,
+	              'Currently 0.3.5'
+	            ),
+	            '.'
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return Docs;
+	})(_react2['default'].Component);
+	
+	exports['default'] = Docs;
+	module.exports = exports['default'];
+
+/***/ },
 /* 238 */
 /*!**************************************************!*\
   !*** ./docs/sections/Docs-Scaffolding/index.jsx ***!
@@ -30892,6 +31095,81 @@
 
 /***/ },
 /* 258 */
+/*!*****************************************************!*\
+  !*** ./docs/sections/Docs-ImagePreLoader/index.jsx ***!
+  \*****************************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var ImagePreLoader = (function (_React$Component) {
+	  _inherits(ImagePreLoader, _React$Component);
+	
+	  function ImagePreLoader() {
+	    _classCallCheck(this, ImagePreLoader);
+	
+	    _get(Object.getPrototypeOf(ImagePreLoader.prototype), "constructor", this).apply(this, arguments);
+	
+	    this.state = {
+	      loaded: false,
+	      error: false
+	    };
+	  }
+	
+	  _createClass(ImagePreLoader, [{
+	    key: "render",
+	    value: function render() {
+	
+	      return _react2["default"].createElement(
+	        "div",
+	        { className: "wrapper" },
+	        !this.state.loaded ? _react2["default"].createElement("div", { className: "loader" }) : '',
+	        _react2["default"].createElement("img", {
+	          src: "http://placehold.it/200x200",
+	          onLoad: this.imageLoad.bind(this),
+	          onError: this.imageError.bind(this),
+	          className: "avatar" })
+	      );
+	    }
+	  }, {
+	    key: "imageLoad",
+	    value: function imageLoad() {
+	      this.setState({ loaded: true });
+	    }
+	  }, {
+	    key: "imageError",
+	    value: function imageError() {
+	      this.setState({ error: true });
+	      window.alert('Error on loading Image');
+	    }
+	  }]);
+	
+	  return ImagePreLoader;
+	})(_react2["default"].Component);
+	
+	exports["default"] = ImagePreLoader;
+	module.exports = exports["default"];
+
+/***/ },
+/* 259 */
 /*!*********************************************!*\
   !*** ./docs/sections/Docs-Colors/index.jsx ***!
   \*********************************************/
@@ -30992,7 +31270,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 259 */
+/* 260 */
 /*!********************************************!*\
   !*** ./docs/sections/Docs-Steps/index.jsx ***!
   \********************************************/
@@ -31092,7 +31370,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 260 */
+/* 261 */
 /*!*************************************************!*\
   !*** ./docs/sections/Docs-Guidelines/index.jsx ***!
   \*************************************************/
@@ -31308,7 +31586,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 261 */
+/* 262 */
 /*!************************************!*\
   !*** template of 162 referencing  ***!
   \************************************/
@@ -31550,7 +31828,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 262 */
+/* 263 */
 /*!************************************!*\
   !*** template of 168 referencing  ***!
   \************************************/
@@ -31608,7 +31886,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 263 */
+/* 264 */
 /*!************************************!*\
   !*** template of 170 referencing  ***!
   \************************************/
@@ -31709,7 +31987,7 @@
 	}
 
 /***/ },
-/* 264 */
+/* 265 */
 /*!************************************!*\
   !*** template of 174 referencing  ***!
   \************************************/
@@ -31743,7 +32021,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 265 */
+/* 266 */
 /*!************************************!*\
   !*** template of 175 referencing  ***!
   \************************************/
@@ -31772,7 +32050,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 266 */
+/* 267 */
 /*!************************************!*\
   !*** template of 182 referencing  ***!
   \************************************/
@@ -31795,7 +32073,7 @@
 	};
 
 /***/ },
-/* 267 */
+/* 268 */
 /*!************************************!*\
   !*** template of 183 referencing  ***!
   \************************************/
@@ -31913,7 +32191,7 @@
 	};
 
 /***/ },
-/* 268 */
+/* 269 */
 /*!************************************!*\
   !*** template of 185 referencing  ***!
   \************************************/
@@ -32091,7 +32369,7 @@
 	};
 
 /***/ },
-/* 269 */
+/* 270 */
 /*!************************************!*\
   !*** template of 203 referencing  ***!
   \************************************/
@@ -32249,81 +32527,6 @@
 	
 	exports['default'] = createMemoryHistory;
 	module.exports = exports['default'];
-
-/***/ },
-/* 270 */
-/*!*****************************************************!*\
-  !*** ./docs/sections/Docs-ImagePreLoader/index.jsx ***!
-  \*****************************************************/
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
-	
-	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	
-	var _react = __webpack_require__(/*! react */ 1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var ImagePreLoader = (function (_React$Component) {
-	  _inherits(ImagePreLoader, _React$Component);
-	
-	  function ImagePreLoader() {
-	    _classCallCheck(this, ImagePreLoader);
-	
-	    _get(Object.getPrototypeOf(ImagePreLoader.prototype), "constructor", this).apply(this, arguments);
-	
-	    this.state = {
-	      loaded: false,
-	      error: false
-	    };
-	  }
-	
-	  _createClass(ImagePreLoader, [{
-	    key: "render",
-	    value: function render() {
-	
-	      return _react2["default"].createElement(
-	        "div",
-	        { className: "wrapper" },
-	        !this.state.loaded ? _react2["default"].createElement("div", { className: "loader" }) : '',
-	        _react2["default"].createElement("img", {
-	          src: "http://placehold.it/200x200",
-	          onLoad: this.imageLoad.bind(this),
-	          onError: this.imageError.bind(this),
-	          className: "avatar" })
-	      );
-	    }
-	  }, {
-	    key: "imageLoad",
-	    value: function imageLoad() {
-	      this.setState({ loaded: true });
-	    }
-	  }, {
-	    key: "imageError",
-	    value: function imageError() {
-	      this.setState({ error: true });
-	      window.alert('Error on loading Image');
-	    }
-	  }]);
-	
-	  return ImagePreLoader;
-	})(_react2["default"].Component);
-	
-	exports["default"] = ImagePreLoader;
-	module.exports = exports["default"];
 
 /***/ }
 /******/ ])));
