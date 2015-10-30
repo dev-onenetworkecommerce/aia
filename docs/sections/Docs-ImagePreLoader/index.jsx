@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class ImagePreLoader extends React.Component {
+export default class ImagePreLoaderView extends React.Component {
   state = {
     loaded: false,
     error: false
