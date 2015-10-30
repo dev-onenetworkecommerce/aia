@@ -16,30 +16,35 @@ export default {
    * I left a comment here because the terminologies were a bit confusing.
    * There's duplicated code (for example, top and bottom had the same `left` offset;
    * left and right had the same `top` offset) because obviously, it would be unnecessarily
-   * expensiver and/or the code with be more lengthy (which is seriously fucking bad).
+   * more expensive and/or the code with be more lengthy (which is seriously fucking bad).
    */
   calculatePosition(trigger, overlay, placement) {
-    // offsetTop, offsetLeft
+    const coords = trigger.getBoundingClientRect();
+    const coordsTop = coords.top,
+          coordsBottom = coords.bottom,
+          coordsLeft = coords.left,
+          coordsRight = coords.right;
+
     switch (placement) {
       case 'left':
         return {
-          top: trigger.offsetTop + (trigger.offsetHeight / 2) - (overlay.offsetHeight / 2),
-          left: trigger.offsetLeft - overlay.offsetWidth
+          top: (coordsTop + (trigger.offsetHeight / 2)) + ( trigger.offsetHeight / 2 )  - overlay.offsetHeight,
+          left: coordsLeft - overlay.offsetWidth
         };
       case 'right':
         return {
-          top: trigger.offsetTop + (trigger.offsetHeight / 2) - (overlay.offsetHeight / 2),
-          left: trigger.offsetLeft + trigger.offsetWidth
+          top: (coordsTop + (trigger.offsetHeight / 2)) + ( trigger.offsetHeight / 2 )  - overlay.offsetHeight,
+          left: coordsRight
         };
       case 'top':
         return {
-          top: trigger.offsetTop - overlay.offsetHeight,
-          left: trigger.offsetLeft + (trigger.offsetWidth / 2) - (overlay.offsetWidth / 2)
+          top: coordsTop - overlay.offsetHeight,
+          left: coordsRight - (trigger.offsetWidth / 2) - (overlay.offsetWidth / 2)
         };
       case 'bottom':
         return {
-          top: trigger.offsetTop + trigger.offsetHeight,
-          left: trigger.offsetLeft + (trigger.offsetWidth / 2) - (overlay.offsetWidth / 2)
+          top: coordsBottom,
+          left: coordsRight - (trigger.offsetWidth / 2) - (overlay.offsetWidth / 2)
         };
       default:
         // I can't imagine this being ran through

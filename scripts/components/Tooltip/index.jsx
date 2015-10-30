@@ -1,6 +1,13 @@
 import React, { cloneElement, PropTypes } from 'react';
 import { render, unmountComponentAtNode, findDOMNode } from 'react-dom';
+import { addClass, removeClass } from '../../utils/DomUtils';
 import utils from './utils';
+
+const ARROW_LEFT = 'tooltip arrowleft';
+const ARROW_RIGHT = 'tooltip arrowright';
+const ARROW_UP = 'tooltip arrowup';
+const ARROW_DOWN = 'tooltip arrowdown';
+
 
 export default class ToolTip extends React.Component {
 
@@ -85,7 +92,10 @@ export default class ToolTip extends React.Component {
     }
 
     this.$tooltip = render(
-      cloneElement(<div>{this.props.text}</div>, {
+      cloneElement(
+        <div className={this.selectArrow()}>
+          {this.props.text}
+        </div>, {
         style: {
           top: this.state.top,
           left: this.state.left,
@@ -110,10 +120,6 @@ export default class ToolTip extends React.Component {
       show: true
     }, () => {
       let trigger = findDOMNode(this);
-      console.log("top:"+trigger.offsetTop);
-      console.log("height:"+trigger.offsetHeight);
-      console.log("width:"+trigger.offsetWidth);
-      console.log("left:"+trigger.offsetLeft);
       let overlay = findDOMNode(this.$tooltip);
       let { position } = this.props;
       let { top, left } = utils.calculatePosition(trigger, overlay, position);
@@ -122,7 +128,21 @@ export default class ToolTip extends React.Component {
   };
 
   handleMouseOut() {
-    this.setState({ show: false });
+    this.setState({ show: true });
+  }
+
+  selectArrow() {
+    switch(this.props.position) {
+      case 'top':
+        return ARROW_UP;
+      case 'bottom':
+        return ARROW_DOWN;
+      case 'left':
+        return ARROW_LEFT;
+      case 'right':
+        return ARROW_RIGHT;
+      default:
+    }
   }
 
 
