@@ -52,6 +52,7 @@ export default class ToolTip extends React.Component {
   };
 
   componentWillUnmount() {
+    const node = findDOMNode(this);
     this.unmountTooltip();
     this.unmountContainer();
     node.removeEventListener('mouseenter', this.handleMouseEnter);
@@ -128,7 +129,7 @@ export default class ToolTip extends React.Component {
   };
 
   handleMouseOut() {
-    this.setState({ show: false });
+    this.setState({ show: true });
   }
 
   selectArrow() {

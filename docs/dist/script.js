@@ -32646,6 +32646,7 @@
 	  }, {
 	    key: 'componentWillUnmount',
 	    value: function componentWillUnmount() {
+	      var node = (0, _reactDom.findDOMNode)(this);
 	      this.unmountTooltip();
 	      this.unmountContainer();
 	      node.removeEventListener('mouseenter', this.handleMouseEnter);
@@ -32733,7 +32734,7 @@
 	  }, {
 	    key: 'handleMouseOut',
 	    value: function handleMouseOut() {
-	      this.setState({ show: false });
+	      this.setState({ show: true });
 	    }
 	  }, {
 	    key: 'selectArrow',
