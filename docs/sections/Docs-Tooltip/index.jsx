@@ -25,12 +25,6 @@ export default class TooltipView extends React.Component {
           <p className="lead">Tooltip Left </p>
           <Tooltip position="left">
             Hover to reveal the tooltip.<br/>
-            Hover to reveal the tooltip.<br/>
-            Hover to reveal the tooltip.<br/>
-            Hover to reveal the tooltip.<br/>
-            Hover to reveal the tooltip.<br/>
-            Hover to reveal the tooltip.<br/>
-            Hover to reveal the tooltip.<br/>
           </Tooltip>
         </section>
 
@@ -38,11 +32,7 @@ export default class TooltipView extends React.Component {
           <p className="lead">Tooltip Right </p>
           <Tooltip position="right">
             Hover to reveal the tooltip.<br/>
-            Hover to reveal the tooltip.<br/>
-            Hover to reveal the tooltip.<br/>
-            Hover to reveal the tooltip.<br/>
-            Hover to reveal the tooltip.<br/>
-          </Tooltip>
+           </Tooltip>
         </section>
 
       </div>

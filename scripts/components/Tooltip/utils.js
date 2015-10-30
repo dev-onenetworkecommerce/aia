@@ -23,27 +23,28 @@ export default {
     const coordsTop = coords.top,
           coordsBottom = coords.bottom,
           coordsLeft = coords.left,
-          coordsRight = coords.right;
+          coordsRight = coords.right,
+          ADD_MARGIN = 8;
 
     switch (placement) {
       case 'left':
         return {
-          top: (coordsTop + (trigger.offsetHeight / 2)) + ( trigger.offsetHeight / 2 )  - overlay.offsetHeight,
-          left: coordsLeft - overlay.offsetWidth
+          top: (coordsTop + (trigger.offsetHeight / 2)) + trigger.offsetHeight - overlay.offsetHeight,
+          left: coordsLeft - overlay.offsetWidth - ADD_MARGIN
         };
       case 'right':
         return {
-          top: (coordsTop + (trigger.offsetHeight / 2)) + ( trigger.offsetHeight / 2 )  - overlay.offsetHeight,
-          left: coordsRight
+          top: (coordsTop + (trigger.offsetHeight / 2)) + trigger.offsetHeight - overlay.offsetHeight,
+          left: coordsRight + ADD_MARGIN
         };
       case 'top':
         return {
-          top: coordsTop - overlay.offsetHeight,
+          top: coordsTop - overlay.offsetHeight - ADD_MARGIN,
           left: coordsRight - (trigger.offsetWidth / 2) - (overlay.offsetWidth / 2)
         };
       case 'bottom':
         return {
-          top: coordsBottom,
+          top: coordsBottom + ADD_MARGIN,
           left: coordsRight - (trigger.offsetWidth / 2) - (overlay.offsetWidth / 2)
         };
       default:
