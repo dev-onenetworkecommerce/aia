@@ -1,7 +1,6 @@
 import React, { PropTypes, cloneElement } from 'react';
 import { render, unmountComponentAtNode, findDOMNode } from 'react-dom';
 import { addClass, removeClass } from '../../utils/DomUtils';
-import { calculatePosition } from './utils';
 
 const IMAGEPRELOADER_BACKDROP_CLASS = 'wrapper';
 const IMAGE_PRELOADER_BODY_CLASS = 'loader';

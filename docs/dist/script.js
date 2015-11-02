@@ -31388,8 +31388,6 @@
 	
 	var _utilsDomUtils = __webpack_require__(/*! ../../utils/DomUtils */ 255);
 	
-	var _utils = __webpack_require__(/*! ./utils */ 272);
-	
 	var IMAGEPRELOADER_BACKDROP_CLASS = 'wrapper';
 	var IMAGE_PRELOADER_BODY_CLASS = 'loader';
 	
@@ -32675,26 +32673,6 @@
 	
 	exports['default'] = createMemoryHistory;
 	module.exports = exports['default'];
-
-/***/ },
-/* 272 */
-/*!****************************************************!*\
-  !*** ./scripts/components/ImagePreLoader/utils.js ***!
-  \****************************************************/
-/***/ function(module, exports) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	exports["default"] = {
-	  calculatePosition: function calculatePosition(trigger, overlay) {
-	    var coordinates = trigger.getBoundingClientRect();
-	    return coordinates;
-	  }
-	};
-	module.exports = exports["default"];
 
 /***/ }
 /******/ ])));
