@@ -20159,8 +20159,9 @@
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'utilities', component: __webpack_require__(/*! ./sections/Docs-Utilities */ 251) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'dropdown', component: __webpack_require__(/*! ./sections/Docs-Dropdown */ 252) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'modal', component: __webpack_require__(/*! ./sections/Docs-Modal */ 256) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'colors', component: __webpack_require__(/*! ./sections/Docs-Colors */ 260) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'steps', component: __webpack_require__(/*! ./sections/Docs-Steps */ 261) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'colors', component: __webpack_require__(/*! ./sections/Docs-Colors */ 258) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'steps', component: __webpack_require__(/*! ./sections/Docs-Steps */ 259) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'image-preloader', component: __webpack_require__(/*! ./sections/Docs-ImagePreLoader */ 260) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'guidelines', component: __webpack_require__(/*! ./sections/Docs-Guidelines */ 262) })
 	    )
 	  )
@@ -31093,9 +31094,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 258 */,
-/* 259 */,
-/* 260 */
+/* 258 */
 /*!*********************************************!*\
   !*** ./docs/sections/Docs-Colors/index.jsx ***!
   \*********************************************/
@@ -31196,7 +31195,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 261 */
+/* 259 */
 /*!********************************************!*\
   !*** ./docs/sections/Docs-Steps/index.jsx ***!
   \********************************************/
@@ -31294,6 +31293,229 @@
 	
 	exports["default"] = Steps;
 	module.exports = exports["default"];
+
+/***/ },
+/* 260 */
+/*!*****************************************************!*\
+  !*** ./docs/sections/Docs-ImagePreLoader/index.jsx ***!
+  \*****************************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _scriptsComponentsImagePreLoader = __webpack_require__(/*! ../../../scripts/components/ImagePreLoader */ 261);
+	
+	var _scriptsComponentsImagePreLoader2 = _interopRequireDefault(_scriptsComponentsImagePreLoader);
+	
+	var ImagePreLoaderView = (function (_React$Component) {
+	  _inherits(ImagePreLoaderView, _React$Component);
+	
+	  function ImagePreLoaderView() {
+	    _classCallCheck(this, ImagePreLoaderView);
+	
+	    _get(Object.getPrototypeOf(ImagePreLoaderView.prototype), 'constructor', this).apply(this, arguments);
+	
+	    this.state = {
+	      loaded: false
+	    };
+	  }
+	
+	  _createClass(ImagePreLoaderView, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2['default'].createElement(
+	        'div',
+	        null,
+	        _react2['default'].createElement(_scriptsComponentsImagePreLoader2['default'], {
+	          src: 'http://placehold.it/200x200',
+	          wrapper: _react2['default'].createElement('div', { className: 'wrapper' }) })
+	      );
+	    }
+	  }]);
+	
+	  return ImagePreLoaderView;
+	})(_react2['default'].Component);
+	
+	exports['default'] = ImagePreLoaderView;
+	module.exports = exports['default'];
+
+/***/ },
+/* 261 */
+/*!*****************************************************!*\
+  !*** ./scripts/components/ImagePreLoader/index.jsx ***!
+  \*****************************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactDom = __webpack_require__(/*! react-dom */ 157);
+	
+	var _utilsDomUtils = __webpack_require__(/*! ../../utils/DomUtils */ 255);
+	
+	var _utils = __webpack_require__(/*! ./utils */ 272);
+	
+	var IMAGEPRELOADER_BACKDROP_CLASS = 'wrapper';
+	var IMAGE_PRELOADER_BODY_CLASS = 'loader';
+	
+	var ImagePreLoader = (function (_React$Component) {
+	  _inherits(ImagePreLoader, _React$Component);
+	
+	  _createClass(ImagePreLoader, null, [{
+	    key: 'propTypes',
+	    value: {
+	      src: _react.PropTypes.string.isRequired,
+	      wrapper: _react.PropTypes.object.isRequired
+	    },
+	    enumerable: true
+	  }]);
+	
+	  function ImagePreLoader(props) {
+	    _classCallCheck(this, ImagePreLoader);
+	
+	    _get(Object.getPrototypeOf(ImagePreLoader.prototype), 'constructor', this).call(this, props);
+	    this.state = {
+	      loaded: false,
+	      top: 0,
+	      left: 0
+	    };
+	  }
+	
+	  _createClass(ImagePreLoader, [{
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {
+	      this.mountContainer();
+	
+	      if (!this.state.loaded) {
+	        this.mountImagePreLoader();
+	      }
+	
+	      var trigger = (0, _reactDom.findDOMNode)(this);
+	
+	      var _trigger$getBoundingClientRect = trigger.getBoundingClientRect();
+	
+	      var top = _trigger$getBoundingClientRect.top;
+	      var left = _trigger$getBoundingClientRect.left;
+	
+	      this.setState({ top: top, left: left });
+	    }
+	  }, {
+	    key: 'componentWillUnmount',
+	    value: function componentWillUnmount() {
+	      this.unmountContainer();
+	      this.unmountImagePreLoader();
+	    }
+	  }, {
+	    key: 'componentDidUpdate',
+	    value: function componentDidUpdate(prevProps) {
+	      if (!this.state.loaded) {
+	        this.mountImagePreLoader();
+	      } else {
+	        this.unmountImagePreLoader();
+	      }
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      return _react2['default'].createElement('img', {
+	        src: this.props.src,
+	        onLoad: this.imageOnLoad.bind(this),
+	        onError: this.imageOnError.bind(this)
+	      });
+	    }
+	  }, {
+	    key: 'imageOnLoad',
+	    value: function imageOnLoad() {
+	      this.setState({ loaded: true });
+	    }
+	  }, {
+	    key: 'imageOnError',
+	    value: function imageOnError() {
+	      this.setState({ loaded: false });
+	      window.alert('error on loading image');
+	    }
+	  }, {
+	    key: 'mountContainer',
+	    value: function mountContainer() {
+	      this.$container = document.createElement('div');
+	      document.body.appendChild(this.$container);
+	    }
+	  }, {
+	    key: 'unmountContainer',
+	    value: function unmountContainer() {
+	      if (this.$container == null) {
+	        return;
+	      }
+	
+	      document.body.removeChild(this.$container);
+	      this.$container = null;
+	    }
+	  }, {
+	    key: 'mountImagePreLoader',
+	    value: function mountImagePreLoader() {
+	      if (this.$container == null) {
+	        throw new Error('The container does not exist.' + 'It may have been removed');
+	      }
+	
+	      this.$imagePreLoader = (0, _reactDom.render)((0, _react.cloneElement)(this.props.wrapper, {
+	        style: {
+	          top: this.state.top,
+	          left: this.state.left
+	        }
+	      }), this.$container);
+	    }
+	  }, {
+	    key: 'unmountImagePreLoader',
+	    value: function unmountImagePreLoader() {
+	      if (this.$imagePreLoader == null) {
+	        return;
+	      }
+	
+	      (0, _reactDom.unmountComponentAtNode)(this.$container);
+	      this.$imagePreLoader = null;
+	    }
+	  }]);
+	
+	  return ImagePreLoader;
+	})(_react2['default'].Component);
+	
+	exports['default'] = ImagePreLoader;
+	module.exports = exports['default'];
 
 /***/ },
 /* 262 */
@@ -32453,6 +32675,26 @@
 	
 	exports['default'] = createMemoryHistory;
 	module.exports = exports['default'];
+
+/***/ },
+/* 272 */
+/*!****************************************************!*\
+  !*** ./scripts/components/ImagePreLoader/utils.js ***!
+  \****************************************************/
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports["default"] = {
+	  calculatePosition: function calculatePosition(trigger, overlay) {
+	    var coordinates = trigger.getBoundingClientRect();
+	    return coordinates;
+	  }
+	};
+	module.exports = exports["default"];
 
 /***/ }
 /******/ ])));

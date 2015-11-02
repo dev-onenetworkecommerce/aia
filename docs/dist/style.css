@@ -5938,19 +5938,12 @@ hr {
     color: #4A4A4A; }
 
 .wrapper {
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 200px;
-  height: 200px; }
-  .wrapper > .loader {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 200px;
-    height: 200px;
-    background: #EDEDED; }
-  .wrapper > .avatar {
-    height: 200px;
-    width: 200px; }
+  height: 200px;
+  background: #EDEDED; }
 
 .panel {
   color: #4A4A4A;

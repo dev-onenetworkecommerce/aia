@@ -1,19 +1,8 @@
 .wrapper {
-  position: relative;
-  width: 200px;
-  height: 200px;
-
-  > .loader {
     position: absolute;
     top: 0;
     left: 0;
     width: 200px;
     height: 200px;
     background: #EDEDED;
-  }
-
-  > .avatar {
-    height: 200px;
-    width: 200px;
-  }
 }
