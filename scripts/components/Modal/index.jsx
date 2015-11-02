@@ -99,10 +99,8 @@ export default class Modal extends React.Component {
   }
 
   handleKeyUp(evt) {
-    if ( evt.keyCode === ESC_KEY ) {
-      if ( this.props.open === true ) {
-        this.props.onRequestClose()
-      }
+    if ( this.props.open && evt.keyCode === ESC_KEY ) {
+      this.props.onRequestClose();
     }
   }
 }
