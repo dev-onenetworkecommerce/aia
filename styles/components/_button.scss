@@ -173,20 +173,27 @@
   }
 }
 
-.hide-text {
-  display: block;
-  > .extender {
-    display: inline-block;
+.more-btn {
+  @extend .btn;
+  display: flex;
+  padding: 0 5px;
+  font-weight: bold;
+  line-height: 6px;
+  color: $brand-gray-dk;
+
+  &:before{
+    content: '...';
     height: 12px;
-    padding: 0 5px;
-    font-size: ($font-size-base - 2);
-    font-weight: bold;
-    line-height: 6px;
-    color: $brand-gray-dk;
-    border: 1px solid transparent;
-    border-radius: 1px;
-    text-decoration: none;
-    vertical-align: middle;
-    outline: none;
+  }
+
+  &.-inline {
+    display: inline-flex;
+    position: relative;
+    top: -1px;
   }
 }
+
+  
+
+  
+

@@ -28608,22 +28608,25 @@
 	            _react2["default"].createElement(
 	              "p",
 	              null,
-	              "Just add ",
+	              "Using ",
 	              _react2["default"].createElement(
 	                "code",
 	                null,
-	                ".-hide-text"
+	                ".more-btn"
 	              ),
-	              " to imply hidden text"
+	              ", it will hide text with an indication of a toggle button appearance. add ",
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                ".-inline"
+	              ),
+	              " to make it inline."
 	            ),
 	            _react2["default"].createElement(
-	              "span",
-	              { className: "hide-text" },
-	              _react2["default"].createElement(
-	                "button",
-	                { className: "extender" },
-	                "..."
-	              )
+	              "p",
+	              null,
+	              "Today my life is a ",
+	              _react2["default"].createElement("button", { className: "more-btn" })
 	            )
 	          )
 	        )
