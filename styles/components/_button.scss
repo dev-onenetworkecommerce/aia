@@ -172,3 +172,28 @@
     border-radius: 0;
   }
 }
+
+.more-btn {
+  @extend .btn;
+  display: flex;
+  padding: 0 5px;
+  font-weight: bold;
+  line-height: 6px;
+  color: $brand-gray-dk;
+
+  &:before{
+    content: '...';
+    height: 12px;
+  }
+
+  &.-inline {
+    display: inline-flex;
+    position: relative;
+    top: -1px;
+  }
+}
+
+  
+
+  
+

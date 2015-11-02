@@ -186,6 +186,12 @@ export default class Buttons extends React.Component {
               <button className="action" disabled={true}>Next</button>
             </div>
           </section>
+
+          <section className="doc-bottom-space-large">
+            <h3 className="doc-heading">Hide text button</h3>
+            <p>Using <code>.more-btn</code>, it will hide text with an indication of a toggle button appearance. add <code>.-inline</code> to make it inline.</p>
+            <button className="more-btn"></button>
+          </section>
         </section>
       </div>
     );
