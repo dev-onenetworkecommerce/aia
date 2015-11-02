@@ -20160,8 +20160,9 @@
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'dropdown', component: __webpack_require__(/*! ./sections/Docs-Dropdown */ 252) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'modal', component: __webpack_require__(/*! ./sections/Docs-Modal */ 256) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'colors', component: __webpack_require__(/*! ./sections/Docs-Colors */ 258) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'steps', component: __webpack_require__(/*! ./sections/Docs-Steps */ 270) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'guidelines', component: __webpack_require__(/*! ./sections/Docs-Guidelines */ 259) })
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'steps', component: __webpack_require__(/*! ./sections/Docs-Steps */ 259) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'image-preloader', component: __webpack_require__(/*! ./sections/Docs-ImagePreLoader */ 260) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'guidelines', component: __webpack_require__(/*! ./sections/Docs-Guidelines */ 262) })
 	    )
 	  )
 	);
@@ -20522,7 +20523,7 @@
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/lib/createHashHistory.js ***!
   \***********************************************************/
-[260, 161, 163, 164, 165, 166, 167, 168],
+[263, 161, 163, 164, 165, 166, 167, 168],
 /* 163 */
 /*!***********************************************!*\
   !*** ./~/react-router/~/invariant/browser.js ***!
@@ -20725,7 +20726,7 @@
 /*!**********************************************************!*\
   !*** ./~/react-router/~/history/lib/createDOMHistory.js ***!
   \**********************************************************/
-[261, 163, 165, 166, 169],
+[264, 163, 165, 166, 169],
 /* 169 */
 /*!*******************************************************!*\
   !*** ./~/react-router/~/history/lib/createHistory.js ***!
@@ -21022,7 +21023,7 @@
 /*!********************************************************!*\
   !*** ./~/react-router/~/history/~/deep-equal/index.js ***!
   \********************************************************/
-[262, 171, 172],
+[265, 171, 172],
 /* 171 */
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/~/deep-equal/lib/keys.js ***!
@@ -21104,12 +21105,12 @@
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/lib/runTransitionHook.js ***!
   \***********************************************************/
-[263, 161],
+[266, 161],
 /* 175 */
 /*!***************************************************!*\
   !*** ./~/react-router/~/history/lib/deprecate.js ***!
   \***************************************************/
-[264, 161],
+[267, 161],
 /* 176 */
 /*!******************************************!*\
   !*** ./~/react-router/lib/RouteUtils.js ***!
@@ -22081,12 +22082,12 @@
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/index.js ***!
   \****************************************************/
-[265, 183, 185],
+[268, 183, 185],
 /* 183 */
 /*!********************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/stringify.js ***!
   \********************************************************/
-[266, 184],
+[269, 184],
 /* 184 */
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/utils.js ***!
@@ -22278,7 +22279,7 @@
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/parse.js ***!
   \****************************************************/
-[267, 184],
+[270, 184],
 /* 186 */
 /*!****************************************************!*\
   !*** ./~/react-router/lib/computeChangedRoutes.js ***!
@@ -23798,7 +23799,7 @@
 /*!*************************************************************!*\
   !*** ./~/react-router/~/history/lib/createMemoryHistory.js ***!
   \*************************************************************/
-[268, 163, 164, 169],
+[271, 163, 164, 169],
 /* 204 */
 /*!*****************************************************!*\
   !*** ./~/react-router/~/history/lib/useBasename.js ***!
@@ -24265,7 +24266,7 @@
 /*!*******************************************!*\
   !*** ./~/history/lib/createDOMHistory.js ***!
   \*******************************************/
-[261, 207, 209, 210, 214],
+[264, 207, 209, 210, 214],
 /* 214 */
 /*!****************************************!*\
   !*** ./~/history/lib/createHistory.js ***!
@@ -24535,7 +24536,7 @@
 /*!*****************************************!*\
   !*** ./~/history/~/deep-equal/index.js ***!
   \*****************************************/
-[262, 216, 217],
+[265, 216, 217],
 /* 216 */
 /*!********************************************!*\
   !*** ./~/history/~/deep-equal/lib/keys.js ***!
@@ -24659,22 +24660,22 @@
 /*!********************************************!*\
   !*** ./~/history/lib/runTransitionHook.js ***!
   \********************************************/
-[263, 212],
+[266, 212],
 /* 222 */
 /*!************************************!*\
   !*** ./~/history/lib/deprecate.js ***!
   \************************************/
-[264, 212],
+[267, 212],
 /* 223 */
 /*!********************************************!*\
   !*** ./~/history/lib/createHashHistory.js ***!
   \********************************************/
-[260, 212, 207, 208, 209, 210, 211, 213],
+[263, 212, 207, 208, 209, 210, 211, 213],
 /* 224 */
 /*!**********************************************!*\
   !*** ./~/history/lib/createMemoryHistory.js ***!
   \**********************************************/
-[268, 207, 208, 214],
+[271, 207, 208, 214],
 /* 225 */
 /*!**************************************!*\
   !*** ./~/history/lib/useBasename.js ***!
@@ -25069,12 +25070,12 @@
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/index.js ***!
   \*************************************/
-[265, 229, 231],
+[268, 229, 231],
 /* 229 */
 /*!*****************************************!*\
   !*** ./~/history/~/qs/lib/stringify.js ***!
   \*****************************************/
-[266, 230],
+[269, 230],
 /* 230 */
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/utils.js ***!
@@ -25084,7 +25085,7 @@
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/parse.js ***!
   \*************************************/
-[267, 230],
+[270, 230],
 /* 232 */
 /*!*********************************************!*\
   !*** ./~/history/lib/enableBeforeUnload.js ***!
@@ -25478,6 +25479,11 @@
 	                _reactRouter.Link,
 	                { to: '/modal', activeClassName: '-selected', className: 'menuitem' },
 	                'Modal'
+	              ),
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
+	                { to: '/image-preloader', activeClassName: '-selected', className: 'menuitem' },
+	                'Image PreLoader'
 	              ),
 	              _react2['default'].createElement(
 	                _reactRouter.Link,
@@ -31190,6 +31196,327 @@
 
 /***/ },
 /* 259 */
+/*!********************************************!*\
+  !*** ./docs/sections/Docs-Steps/index.jsx ***!
+  \********************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var Steps = (function (_React$Component) {
+	  _inherits(Steps, _React$Component);
+	
+	  function Steps() {
+	    _classCallCheck(this, Steps);
+	
+	    _get(Object.getPrototypeOf(Steps.prototype), "constructor", this).apply(this, arguments);
+	  }
+	
+	  _createClass(Steps, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2["default"].createElement(
+	        "ul",
+	        { className: "steps" },
+	        _react2["default"].createElement(
+	          "li",
+	          { className: "-complete" },
+	          " ",
+	          _react2["default"].createElement(
+	            "a",
+	            null,
+	            " ",
+	            _react2["default"].createElement("i", { className: "icon icon-checkmark" }),
+	            " "
+	          ),
+	          " "
+	        ),
+	        _react2["default"].createElement(
+	          "li",
+	          { className: "-complete" },
+	          " ",
+	          _react2["default"].createElement(
+	            "a",
+	            null,
+	            " ",
+	            _react2["default"].createElement("i", { className: "icon icon-checkmark" }),
+	            " "
+	          ),
+	          " "
+	        ),
+	        _react2["default"].createElement(
+	          "li",
+	          { className: "-active" },
+	          " ",
+	          _react2["default"].createElement(
+	            "a",
+	            null,
+	            " 3 "
+	          ),
+	          " "
+	        ),
+	        _react2["default"].createElement(
+	          "li",
+	          null,
+	          " ",
+	          _react2["default"].createElement(
+	            "a",
+	            null,
+	            " 4 "
+	          ),
+	          " "
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return Steps;
+	})(_react2["default"].Component);
+	
+	exports["default"] = Steps;
+	module.exports = exports["default"];
+
+/***/ },
+/* 260 */
+/*!*****************************************************!*\
+  !*** ./docs/sections/Docs-ImagePreLoader/index.jsx ***!
+  \*****************************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _scriptsComponentsImagePreLoader = __webpack_require__(/*! ../../../scripts/components/ImagePreLoader */ 261);
+	
+	var _scriptsComponentsImagePreLoader2 = _interopRequireDefault(_scriptsComponentsImagePreLoader);
+	
+	var ImagePreLoaderView = (function (_React$Component) {
+	  _inherits(ImagePreLoaderView, _React$Component);
+	
+	  function ImagePreLoaderView() {
+	    _classCallCheck(this, ImagePreLoaderView);
+	
+	    _get(Object.getPrototypeOf(ImagePreLoaderView.prototype), 'constructor', this).apply(this, arguments);
+	
+	    this.state = {
+	      loaded: false
+	    };
+	  }
+	
+	  _createClass(ImagePreLoaderView, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2['default'].createElement(
+	        'div',
+	        null,
+	        _react2['default'].createElement(_scriptsComponentsImagePreLoader2['default'], {
+	          src: 'http://placehold.it/200x200',
+	          wrapper: _react2['default'].createElement('div', { className: 'wrapper' }) })
+	      );
+	    }
+	  }]);
+	
+	  return ImagePreLoaderView;
+	})(_react2['default'].Component);
+	
+	exports['default'] = ImagePreLoaderView;
+	module.exports = exports['default'];
+
+/***/ },
+/* 261 */
+/*!*****************************************************!*\
+  !*** ./scripts/components/ImagePreLoader/index.jsx ***!
+  \*****************************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactDom = __webpack_require__(/*! react-dom */ 157);
+	
+	var _utilsDomUtils = __webpack_require__(/*! ../../utils/DomUtils */ 255);
+	
+	var IMAGEPRELOADER_BACKDROP_CLASS = 'wrapper';
+	var IMAGE_PRELOADER_BODY_CLASS = 'loader';
+	
+	var ImagePreLoader = (function (_React$Component) {
+	  _inherits(ImagePreLoader, _React$Component);
+	
+	  _createClass(ImagePreLoader, null, [{
+	    key: 'propTypes',
+	    value: {
+	      src: _react.PropTypes.string.isRequired,
+	      wrapper: _react.PropTypes.object.isRequired
+	    },
+	    enumerable: true
+	  }]);
+	
+	  function ImagePreLoader(props) {
+	    _classCallCheck(this, ImagePreLoader);
+	
+	    _get(Object.getPrototypeOf(ImagePreLoader.prototype), 'constructor', this).call(this, props);
+	    this.state = {
+	      loaded: false,
+	      top: 0,
+	      left: 0
+	    };
+	  }
+	
+	  _createClass(ImagePreLoader, [{
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {
+	      this.mountContainer();
+	
+	      if (!this.state.loaded) {
+	        this.mountImagePreLoader();
+	      }
+	
+	      var trigger = (0, _reactDom.findDOMNode)(this);
+	
+	      var _trigger$getBoundingClientRect = trigger.getBoundingClientRect();
+	
+	      var top = _trigger$getBoundingClientRect.top;
+	      var left = _trigger$getBoundingClientRect.left;
+	
+	      this.setState({ top: top, left: left });
+	    }
+	  }, {
+	    key: 'componentWillUnmount',
+	    value: function componentWillUnmount() {
+	      this.unmountContainer();
+	      this.unmountImagePreLoader();
+	    }
+	  }, {
+	    key: 'componentDidUpdate',
+	    value: function componentDidUpdate(prevProps) {
+	      if (!this.state.loaded) {
+	        this.mountImagePreLoader();
+	      } else {
+	        this.unmountImagePreLoader();
+	      }
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      return _react2['default'].createElement('img', {
+	        src: this.props.src,
+	        onLoad: this.imageOnLoad.bind(this),
+	        onError: this.imageOnError.bind(this)
+	      });
+	    }
+	  }, {
+	    key: 'imageOnLoad',
+	    value: function imageOnLoad() {
+	      this.setState({ loaded: true });
+	    }
+	  }, {
+	    key: 'imageOnError',
+	    value: function imageOnError() {
+	      this.setState({ loaded: false });
+	      window.alert('error on loading image');
+	    }
+	  }, {
+	    key: 'mountContainer',
+	    value: function mountContainer() {
+	      this.$container = document.createElement('div');
+	      document.body.appendChild(this.$container);
+	    }
+	  }, {
+	    key: 'unmountContainer',
+	    value: function unmountContainer() {
+	      if (this.$container == null) {
+	        return;
+	      }
+	
+	      document.body.removeChild(this.$container);
+	      this.$container = null;
+	    }
+	  }, {
+	    key: 'mountImagePreLoader',
+	    value: function mountImagePreLoader() {
+	      if (this.$container == null) {
+	        throw new Error('The container does not exist.' + 'It may have been removed');
+	      }
+	
+	      this.$imagePreLoader = (0, _reactDom.render)((0, _react.cloneElement)(this.props.wrapper, {
+	        style: {
+	          top: this.state.top,
+	          left: this.state.left
+	        }
+	      }), this.$container);
+	    }
+	  }, {
+	    key: 'unmountImagePreLoader',
+	    value: function unmountImagePreLoader() {
+	      if (this.$imagePreLoader == null) {
+	        return;
+	      }
+	
+	      (0, _reactDom.unmountComponentAtNode)(this.$container);
+	      this.$imagePreLoader = null;
+	    }
+	  }]);
+	
+	  return ImagePreLoader;
+	})(_react2['default'].Component);
+	
+	exports['default'] = ImagePreLoader;
+	module.exports = exports['default'];
+
+/***/ },
+/* 262 */
 /*!*************************************************!*\
   !*** ./docs/sections/Docs-Guidelines/index.jsx ***!
   \*************************************************/
@@ -31405,7 +31732,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 260 */
+/* 263 */
 /*!************************************!*\
   !*** template of 162 referencing  ***!
   \************************************/
@@ -31647,7 +31974,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 261 */
+/* 264 */
 /*!************************************!*\
   !*** template of 168 referencing  ***!
   \************************************/
@@ -31705,7 +32032,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 262 */
+/* 265 */
 /*!************************************!*\
   !*** template of 170 referencing  ***!
   \************************************/
@@ -31806,7 +32133,7 @@
 	}
 
 /***/ },
-/* 263 */
+/* 266 */
 /*!************************************!*\
   !*** template of 174 referencing  ***!
   \************************************/
@@ -31840,7 +32167,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 264 */
+/* 267 */
 /*!************************************!*\
   !*** template of 175 referencing  ***!
   \************************************/
@@ -31869,7 +32196,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 265 */
+/* 268 */
 /*!************************************!*\
   !*** template of 182 referencing  ***!
   \************************************/
@@ -31892,7 +32219,7 @@
 	};
 
 /***/ },
-/* 266 */
+/* 269 */
 /*!************************************!*\
   !*** template of 183 referencing  ***!
   \************************************/
@@ -32010,7 +32337,7 @@
 	};
 
 /***/ },
-/* 267 */
+/* 270 */
 /*!************************************!*\
   !*** template of 185 referencing  ***!
   \************************************/
@@ -32188,7 +32515,7 @@
 	};
 
 /***/ },
-/* 268 */
+/* 271 */
 /*!************************************!*\
   !*** template of 203 referencing  ***!
   \************************************/
@@ -32346,107 +32673,6 @@
 	
 	exports['default'] = createMemoryHistory;
 	module.exports = exports['default'];
-
-/***/ },
-/* 269 */,
-/* 270 */
-/*!********************************************!*\
-  !*** ./docs/sections/Docs-Steps/index.jsx ***!
-  \********************************************/
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
-	
-	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	
-	var _react = __webpack_require__(/*! react */ 1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var Steps = (function (_React$Component) {
-	  _inherits(Steps, _React$Component);
-	
-	  function Steps() {
-	    _classCallCheck(this, Steps);
-	
-	    _get(Object.getPrototypeOf(Steps.prototype), "constructor", this).apply(this, arguments);
-	  }
-	
-	  _createClass(Steps, [{
-	    key: "render",
-	    value: function render() {
-	      return _react2["default"].createElement(
-	        "ul",
-	        { className: "steps" },
-	        _react2["default"].createElement(
-	          "li",
-	          { className: "-complete" },
-	          " ",
-	          _react2["default"].createElement(
-	            "a",
-	            null,
-	            " ",
-	            _react2["default"].createElement("i", { className: "icon icon-checkmark" }),
-	            " "
-	          ),
-	          " "
-	        ),
-	        _react2["default"].createElement(
-	          "li",
-	          { className: "-complete" },
-	          " ",
-	          _react2["default"].createElement(
-	            "a",
-	            null,
-	            " ",
-	            _react2["default"].createElement("i", { className: "icon icon-checkmark" }),
-	            " "
-	          ),
-	          " "
-	        ),
-	        _react2["default"].createElement(
-	          "li",
-	          { className: "-active" },
-	          " ",
-	          _react2["default"].createElement(
-	            "a",
-	            null,
-	            " 3 "
-	          ),
-	          " "
-	        ),
-	        _react2["default"].createElement(
-	          "li",
-	          null,
-	          " ",
-	          _react2["default"].createElement(
-	            "a",
-	            null,
-	            " 4 "
-	          ),
-	          " "
-	        )
-	      );
-	    }
-	  }]);
-	
-	  return Steps;
-	})(_react2["default"].Component);
-	
-	exports["default"] = Steps;
-	module.exports = exports["default"];
 
 /***/ }
 /******/ ])));

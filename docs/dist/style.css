@@ -5937,6 +5937,14 @@ hr {
     background: #fff;
     color: #4A4A4A; }
 
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background: #EDEDED; }
+
 .panel {
   color: #4A4A4A;
   background: #fff;
