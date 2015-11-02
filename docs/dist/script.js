@@ -28622,12 +28622,7 @@
 	              ),
 	              " to make it inline."
 	            ),
-	            _react2["default"].createElement(
-	              "p",
-	              null,
-	              "Today my life is a ",
-	              _react2["default"].createElement("button", { className: "more-btn" })
-	            )
+	            _react2["default"].createElement("button", { className: "more-btn" })
 	          )
 	        )
 	      );
