@@ -30548,7 +30548,7 @@
 	        throw new Error('Container does not exist. It may have been removed, or whatever');
 	      }
 	
-	      this.$dropdown = (0, _reactDom.render)((0, _react.cloneElement)(this.props.children, {
+	      this.$dropdown = (0, _reactDom.unstable_renderSubtreeIntoContainer)(this, (0, _react.cloneElement)(this.props.children, {
 	        style: {
 	          top: this.state.top,
 	          left: this.state.left
@@ -30695,7 +30695,6 @@
 	  calculateY: function calculateY(trigger, overlay, placement) {
 	    var offsetY = this.getOffsetY(trigger);
 	    var box = trigger.getBoundingClientRect();
-	    console.log(overlay.getBoundingClientRect());
 	
 	    switch (placement) {
 	      case 'top':
@@ -30968,10 +30967,19 @@
 	var Modal = (function (_React$Component) {
 	  _inherits(Modal, _React$Component);
 	
-	  function Modal(props) {
+	  _createClass(Modal, null, [{
+	    key: 'propTypes',
+	    value: {
+	      open: _react.PropTypes.bool.isRequired,
+	      onRequestClose: _react.PropTypes.func.isRequired
+	    },
+	    enumerable: true
+	  }]);
+	
+	  function Modal(props, context) {
 	    _classCallCheck(this, Modal);
 	
-	    _get(Object.getPrototypeOf(Modal.prototype), 'constructor', this).call(this, props);
+	    _get(Object.getPrototypeOf(Modal.prototype), 'constructor', this).call(this, props, context);
 	
 	    this.handleKeyUp = this.handleKeyUp.bind(this);
 	  }
@@ -31034,7 +31042,7 @@
 	      // Move to another function
 	      (0, _utilsDomUtils.addClass)(document.body, MODAL_BODY_CLASS);
 	
-	      this.$modal = (0, _reactDom.render)(_react2['default'].createElement(
+	      this.$modal = (0, _reactDom.unstable_renderSubtreeIntoContainer)(this, _react2['default'].createElement(
 	        'div',
 	        null,
 	        _react2['default'].createElement('div', { className: MODAL_BACKDROP_CLASS }),
@@ -31063,13 +31071,6 @@
 	      }
 	    }
 	  }], [{
-	    key: 'propTypes',
-	    value: {
-	      open: _react.PropTypes.bool.isRequired,
-	      onRequestClose: _react.PropTypes.func.isRequired
-	    },
-	    enumerable: true
-	  }, {
 	    key: 'defaultProps',
 	    value: {
 	      open: false
