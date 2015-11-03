@@ -9,9 +9,11 @@ export default class ImagePreLoaderView extends React.Component {
   render() {
     return (
       <div> 
-        <ImagePreLoader
-          src="http://placehold.it/200x200"
+        <div>
+          <ImagePreLoader
+          src="http://placehold.it/300x300"
           wrapper={<div className="wrapper" />} />
+        </div>
       </div>
     );
   }

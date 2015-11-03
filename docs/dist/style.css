@@ -5938,12 +5938,9 @@ hr {
     color: #4A4A4A; }
 
 .wrapper {
+  display: block;
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 200px;
-  height: 200px;
-  background: #EDEDED; }
+  background: #F0F0F0; }
 
 .panel {
   color: #4A4A4A;

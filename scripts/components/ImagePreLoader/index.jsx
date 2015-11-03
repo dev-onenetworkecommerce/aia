@@ -15,6 +15,8 @@ export default class ImagePreLoader extends React.Component {
     loaded: false,
     top: 0,
     left: 0,
+    width: 0,
+    height: 0
   };
 
   constructor(props) {
@@ -27,11 +29,13 @@ export default class ImagePreLoader extends React.Component {
     if ( !this.state.loaded ) {
       this.mountImagePreLoader();
     }
-
-    const trigger = findDOMNode(this);
-
-    const { top, left } = trigger.getBoundingClientRect();
-    this.setState({ top, left });
+    
+    this.setState(() => {
+      const trigger = findDOMNode(this);
+      const { top, left, height, width } = trigger.getBoundingClientRect();
+      this.setState({ top, left, height, width });
+      console.log(trigger.getBoundingClientRect());
+    });
   }
 
   componentWillUnmount() {
@@ -90,7 +94,9 @@ export default class ImagePreLoader extends React.Component {
       cloneElement(this.props.wrapper, {
         style: {
           top: this.state.top,
-          left: this.state.left
+          left: this.state.left,
+          height: this.state.height,
+          width: this.state.width
         }
       }),
       this.$container

@@ -31344,9 +31344,13 @@
 	      return _react2['default'].createElement(
 	        'div',
 	        null,
-	        _react2['default'].createElement(_scriptsComponentsImagePreLoader2['default'], {
-	          src: 'http://placehold.it/200x200',
-	          wrapper: _react2['default'].createElement('div', { className: 'wrapper' }) })
+	        _react2['default'].createElement(
+	          'div',
+	          null,
+	          _react2['default'].createElement(_scriptsComponentsImagePreLoader2['default'], {
+	            src: 'http://placehold.it/300x300',
+	            wrapper: _react2['default'].createElement('div', { className: 'wrapper' }) })
+	        )
 	      );
 	    }
 	  }]);
@@ -31410,27 +31414,36 @@
 	    this.state = {
 	      loaded: false,
 	      top: 0,
-	      left: 0
+	      left: 0,
+	      width: 0,
+	      height: 0
 	    };
 	  }
 	
 	  _createClass(ImagePreLoader, [{
 	    key: 'componentDidMount',
 	    value: function componentDidMount() {
+	      var _this = this;
+	
 	      this.mountContainer();
 	
 	      if (!this.state.loaded) {
 	        this.mountImagePreLoader();
 	      }
 	
-	      var trigger = (0, _reactDom.findDOMNode)(this);
+	      this.setState(function () {
+	        var trigger = (0, _reactDom.findDOMNode)(_this);
 	
-	      var _trigger$getBoundingClientRect = trigger.getBoundingClientRect();
+	        var _trigger$getBoundingClientRect = trigger.getBoundingClientRect();
 	
-	      var top = _trigger$getBoundingClientRect.top;
-	      var left = _trigger$getBoundingClientRect.left;
+	        var top = _trigger$getBoundingClientRect.top;
+	        var left = _trigger$getBoundingClientRect.left;
+	        var height = _trigger$getBoundingClientRect.height;
+	        var width = _trigger$getBoundingClientRect.width;
 	
-	      this.setState({ top: top, left: left });
+	        _this.setState({ top: top, left: left, height: height, width: width });
+	        console.log(trigger.getBoundingClientRect());
+	      });
 	    }
 	  }, {
 	    key: 'componentWillUnmount',
@@ -31493,7 +31506,9 @@
 	      this.$imagePreLoader = (0, _reactDom.render)((0, _react.cloneElement)(this.props.wrapper, {
 	        style: {
 	          top: this.state.top,
-	          left: this.state.left
+	          left: this.state.left,
+	          height: this.state.height,
+	          width: this.state.width
 	        }
 	      }), this.$container);
 	    }
