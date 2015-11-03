@@ -7,20 +7,19 @@ const MODAL_BACKDROP_CLASS = 'modal-backdrop';
 const ESC_KEY = 27;
 
 export default class Modal extends React.Component {
-
-  constructor(props) {
-    super(props);
-
-    this.handleKeyUp = ::this.handleKeyUp;
-  };
-
   static propTypes = {
     open: PropTypes.bool.isRequired,
     onRequestClose: PropTypes.func.isRequired
   };
 
+  constructor(props, context) {
+    super(props, context);
+
+    this.handleKeyUp = ::this.handleKeyUp;
+  };
+
   static defaultProps = {
-    open: false,
+    open: false
   };
 
   componentDidMount() {
