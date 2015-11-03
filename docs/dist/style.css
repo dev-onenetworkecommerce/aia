@@ -5430,13 +5430,13 @@ a {
   top: 40px;
   z-index: 9999;
   max-width: 220px;
-  text-align: center;
   padding: 10px 15px;
+  line-height: 1;
+  font-size: 12px;
+  text-align: center;
   color: #fff;
   background: #F05F50;
-  border-radius: 5px;
-  line-height: 1;
-  font-size: 12px; }
+  border-radius: 5px; }
 
 .form-group .form-control + .message:after {
   content: '';
@@ -5490,12 +5490,12 @@ label {
   .input-group > .addon {
     z-index: 1;
     width: 1%;
-    padding: 0 8px;
     min-height: 34px;
+    vertical-align: middle;
+    padding: 0 8px;
     background: #F0F0F0;
     border: 1px solid #C4C4C4;
-    border-radius: 3px;
-    vertical-align: middle; }
+    border-radius: 3px; }
   .input-group > .addon:first-child {
     border-right: 0; }
   .input-group > .addon:last-child {

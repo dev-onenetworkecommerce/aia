@@ -54,13 +54,13 @@
   top: 40px;
   z-index: 9999;
   max-width: 220px;
-  text-align: center;
   padding: 10px 15px;
+  line-height: 1;
+  font-size: $font-size-small;
+  text-align: center;
   color: $brand-white;
   background: $brand-crimson;
   border-radius: 5px;
-  line-height: 1;
-  font-size: $font-size-small;
 }
 
 .form-group .form-control + .message:after {
@@ -134,12 +134,12 @@ label {
   > .addon {
     z-index: 1;
     width: 1%;
-    padding: 0 8px;
     min-height: $form-size;
+    vertical-align: middle;
+    padding: 0 8px;
     background: $brand-gray-lt;
     border: 1px solid $brand-gray;
     border-radius: $border-radius-base;
-    vertical-align: middle;
   }
 
   > .addon:first-child {
