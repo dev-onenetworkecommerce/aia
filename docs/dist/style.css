@@ -6076,7 +6076,11 @@ body.modal-body {
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0; }
+  right: 0;
+  transform: scale(1); }
+  .modal.-fade {
+    transition: .25s all;
+    transform: scale(0); }
 
 .modal-dialog {
   margin: 10px; }

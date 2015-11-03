@@ -20159,8 +20159,8 @@
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'utilities', component: __webpack_require__(/*! ./sections/Docs-Utilities */ 251) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'dropdown', component: __webpack_require__(/*! ./sections/Docs-Dropdown */ 252) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'modal', component: __webpack_require__(/*! ./sections/Docs-Modal */ 256) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'colors', component: __webpack_require__(/*! ./sections/Docs-Colors */ 258) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'guidelines', component: __webpack_require__(/*! ./sections/Docs-Guidelines */ 259) })
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'colors', component: __webpack_require__(/*! ./sections/Docs-Colors */ 259) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'guidelines', component: __webpack_require__(/*! ./sections/Docs-Guidelines */ 260) })
 	    )
 	  )
 	);
@@ -20521,7 +20521,7 @@
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/lib/createHashHistory.js ***!
   \***********************************************************/
-[260, 161, 163, 164, 165, 166, 167, 168],
+[261, 161, 163, 164, 165, 166, 167, 168],
 /* 163 */
 /*!***********************************************!*\
   !*** ./~/react-router/~/invariant/browser.js ***!
@@ -20724,7 +20724,7 @@
 /*!**********************************************************!*\
   !*** ./~/react-router/~/history/lib/createDOMHistory.js ***!
   \**********************************************************/
-[261, 163, 165, 166, 169],
+[262, 163, 165, 166, 169],
 /* 169 */
 /*!*******************************************************!*\
   !*** ./~/react-router/~/history/lib/createHistory.js ***!
@@ -21021,7 +21021,7 @@
 /*!********************************************************!*\
   !*** ./~/react-router/~/history/~/deep-equal/index.js ***!
   \********************************************************/
-[262, 171, 172],
+[263, 171, 172],
 /* 171 */
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/~/deep-equal/lib/keys.js ***!
@@ -21103,12 +21103,12 @@
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/lib/runTransitionHook.js ***!
   \***********************************************************/
-[263, 161],
+[264, 161],
 /* 175 */
 /*!***************************************************!*\
   !*** ./~/react-router/~/history/lib/deprecate.js ***!
   \***************************************************/
-[264, 161],
+[265, 161],
 /* 176 */
 /*!******************************************!*\
   !*** ./~/react-router/lib/RouteUtils.js ***!
@@ -22080,12 +22080,12 @@
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/index.js ***!
   \****************************************************/
-[265, 183, 185],
+[266, 183, 185],
 /* 183 */
 /*!********************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/stringify.js ***!
   \********************************************************/
-[266, 184],
+[267, 184],
 /* 184 */
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/utils.js ***!
@@ -22277,7 +22277,7 @@
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/parse.js ***!
   \****************************************************/
-[267, 184],
+[268, 184],
 /* 186 */
 /*!****************************************************!*\
   !*** ./~/react-router/lib/computeChangedRoutes.js ***!
@@ -23797,7 +23797,7 @@
 /*!*************************************************************!*\
   !*** ./~/react-router/~/history/lib/createMemoryHistory.js ***!
   \*************************************************************/
-[268, 163, 164, 169],
+[269, 163, 164, 169],
 /* 204 */
 /*!*****************************************************!*\
   !*** ./~/react-router/~/history/lib/useBasename.js ***!
@@ -24259,7 +24259,7 @@
 /*!*******************************************!*\
   !*** ./~/history/lib/createDOMHistory.js ***!
   \*******************************************/
-[261, 207, 209, 210, 214],
+[262, 207, 209, 210, 214],
 /* 214 */
 /*!****************************************!*\
   !*** ./~/history/lib/createHistory.js ***!
@@ -24530,7 +24530,7 @@
 /*!*****************************************!*\
   !*** ./~/history/~/deep-equal/index.js ***!
   \*****************************************/
-[262, 216, 217],
+[263, 216, 217],
 /* 216 */
 /*!********************************************!*\
   !*** ./~/history/~/deep-equal/lib/keys.js ***!
@@ -24654,22 +24654,22 @@
 /*!********************************************!*\
   !*** ./~/history/lib/runTransitionHook.js ***!
   \********************************************/
-[263, 212],
+[264, 212],
 /* 222 */
 /*!************************************!*\
   !*** ./~/history/lib/deprecate.js ***!
   \************************************/
-[264, 212],
+[265, 212],
 /* 223 */
 /*!********************************************!*\
   !*** ./~/history/lib/createHashHistory.js ***!
   \********************************************/
-[260, 212, 207, 208, 209, 210, 211, 213],
+[261, 212, 207, 208, 209, 210, 211, 213],
 /* 224 */
 /*!**********************************************!*\
   !*** ./~/history/lib/createMemoryHistory.js ***!
   \**********************************************/
-[268, 207, 208, 214],
+[269, 207, 208, 214],
 /* 225 */
 /*!**************************************!*\
   !*** ./~/history/lib/useBasename.js ***!
@@ -25064,12 +25064,12 @@
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/index.js ***!
   \*************************************/
-[265, 229, 231],
+[266, 229, 231],
 /* 229 */
 /*!*****************************************!*\
   !*** ./~/history/~/qs/lib/stringify.js ***!
   \*****************************************/
-[266, 230],
+[267, 230],
 /* 230 */
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/utils.js ***!
@@ -25079,7 +25079,7 @@
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/parse.js ***!
   \*************************************/
-[267, 230],
+[268, 230],
 /* 232 */
 /*!*********************************************!*\
   !*** ./~/history/lib/enableBeforeUnload.js ***!
@@ -30542,7 +30542,7 @@
 	        throw new Error('Container does not exist. It may have been removed, or whatever');
 	      }
 	
-	      this.$dropdown = (0, _reactDom.render)((0, _react.cloneElement)(this.props.children, {
+	      this.$dropdown = (0, _reactDom.unstable_renderSubtreeIntoContainer)(this, (0, _react.cloneElement)(this.props.children, {
 	        style: {
 	          top: this.state.top,
 	          left: this.state.left
@@ -30875,34 +30875,32 @@
 	        ),
 	        _react2['default'].createElement(
 	          _scriptsComponentsModal2['default'],
-	          { open: this.state.open, onRequestClose: this.handleClose.bind(this) },
+	          { open: this.state.open, onRequestClose: function () {
+	              return _this.setState({ open: false });
+	            } },
 	          _react2['default'].createElement(
 	            'div',
-	            { className: 'modal' },
+	            { className: 'modal-dialog' },
 	            _react2['default'].createElement(
 	              'div',
-	              { className: 'modal-dialog' },
+	              { className: 'container' },
 	              _react2['default'].createElement(
 	                'div',
-	                { className: 'container' },
+	                { className: 'row' },
 	                _react2['default'].createElement(
 	                  'div',
-	                  { className: 'row' },
+	                  { className: 'col-md-6 _centered' },
 	                  _react2['default'].createElement(
 	                    'div',
-	                    { className: 'col-md-6 _centered' },
+	                    { className: '_clearfix' },
 	                    _react2['default'].createElement(
-	                      'div',
-	                      { className: '_clearfix' },
-	                      _react2['default'].createElement(
-	                        'h3',
-	                        { className: '_left' },
-	                        ' Search '
-	                      ),
-	                      _react2['default'].createElement('i', { className: 'icon icon-close _right', onClick: function () {
-	                          return _this.setState({ open: false });
-	                        } })
-	                    )
+	                      'h3',
+	                      { className: '_left' },
+	                      ' Search '
+	                    ),
+	                    _react2['default'].createElement('i', { className: 'icon icon-close _right', onClick: function () {
+	                        return _this.setState({ open: false });
+	                      } })
 	                  )
 	                )
 	              )
@@ -30910,11 +30908,6 @@
 	          )
 	        )
 	      );
-	    }
-	  }, {
-	    key: 'handleClose',
-	    value: function handleClose() {
-	      this.setState({ open: false });
 	    }
 	  }]);
 	
@@ -30943,6 +30936,8 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
+	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
@@ -30955,18 +30950,49 @@
 	
 	var _utilsDomUtils = __webpack_require__(/*! ../../utils/DomUtils */ 255);
 	
+	var _classnames2 = __webpack_require__(/*! classnames */ 258);
+	
+	var _classnames3 = _interopRequireDefault(_classnames2);
+	
 	var MODAL_BODY_CLASS = 'modal-body';
+	var MODAL_CLASS = 'modal';
+	var MODAL_TRANSITION_CLASS = '-fade';
+	var MODAL_TRANSITION_CLOSE_TIMEOUT_MS = 750;
 	var MODAL_BACKDROP_CLASS = 'modal-backdrop';
 	var ESC_KEY = 27;
 	
 	var Modal = (function (_React$Component) {
 	  _inherits(Modal, _React$Component);
 	
+	  _createClass(Modal, null, [{
+	    key: 'propTypes',
+	    value: {
+	      open: _react.PropTypes.bool.isRequired,
+	      onRequestClose: _react.PropTypes.func.isRequired,
+	      closeTimeoutMS: _react.PropTypes.number
+	    },
+	    enumerable: true
+	  }, {
+	    key: 'defaultProps',
+	    value: {
+	      open: false,
+	      closeTimeoutMS: MODAL_TRANSITION_CLOSE_TIMEOUT_MS
+	    },
+	    enumerable: true
+	  }]);
+	
 	  function Modal(props) {
 	    _classCallCheck(this, Modal);
 	
 	    _get(Object.getPrototypeOf(Modal.prototype), 'constructor', this).call(this, props);
 	
+	    this.state = {
+	      // @TODO
+	      // Rename this to `beforeClose`
+	      // to add focus management
+	      // https://github.com/rackt/react-modal/blob/master/lib/components/ModalPortal.js#L67
+	      closing: false
+	    };
 	    this.handleKeyUp = this.handleKeyUp.bind(this);
 	  }
 	
@@ -30976,25 +31002,27 @@
 	      this.mountContainer();
 	
 	      if (this.props.open) {
-	        this.mountModal();
+	        this.open();
 	      }
+	
 	      window.addEventListener('keyup', this.handleKeyUp);
+	    }
+	  }, {
+	    key: 'componentWillReceiveProps',
+	    value: function componentWillReceiveProps(nextProps) {
+	      if (nextProps.open) {
+	        this.open();
+	      } else {
+	        this.close();
+	      }
 	    }
 	  }, {
 	    key: 'componentWillUnmount',
 	    value: function componentWillUnmount() {
-	      this.unmountModal();
+	      this.close();
 	      this.unmountContainer();
+	      clearTimeout(this.timer);
 	      window.addEventListener('keyup', this.handleKeyUp);
-	    }
-	  }, {
-	    key: 'componentDidUpdate',
-	    value: function componentDidUpdate(prevProps) {
-	      if (this.props.open) {
-	        this.mountModal();
-	      } else {
-	        this.unmountModal();
-	      }
 	    }
 	  }, {
 	    key: 'render',
@@ -31024,15 +31052,15 @@
 	        throw new Error('The container does not exist. ' + 'It may have been removed, or whatever');
 	      }
 	
-	      // @REFACTOR
-	      // Move to another function
-	      (0, _utilsDomUtils.addClass)(document.body, MODAL_BODY_CLASS);
-	
 	      this.$modal = (0, _reactDom.render)(_react2['default'].createElement(
 	        'div',
 	        null,
 	        _react2['default'].createElement('div', { className: MODAL_BACKDROP_CLASS }),
-	        this.props.children
+	        _react2['default'].createElement(
+	          'div',
+	          { className: this.getModalClassName() },
+	          this.props.children
+	        )
 	      ), this.$container);
 	    }
 	  }, {
@@ -31042,12 +31070,39 @@
 	        return;
 	      }
 	
-	      // @REFACTOR
-	      // Move to another function
-	      (0, _utilsDomUtils.removeClass)(document.body, MODAL_BODY_CLASS);
-	
 	      (0, _reactDom.unmountComponentAtNode)(this.$container);
 	      this.$modal = null;
+	    }
+	  }, {
+	    key: 'open',
+	    value: function open() {
+	      (0, _utilsDomUtils.addClass)(document.body, MODAL_BODY_CLASS);
+	      this.mountModal();
+	    }
+	  }, {
+	    key: 'close',
+	    value: function close() {
+	      var _this = this;
+	
+	      if (this.props.closeTimeoutMS > 0) {
+	        this.setState({ closing: true }, function () {
+	          _this.timer = setTimeout(_this.closeWithTimeout, _this.props.closeTimeoutMS);
+	        });
+	      } else {
+	        this.closeWithoutTimeout();
+	      }
+	    }
+	  }, {
+	    key: 'closeWithoutTimeout',
+	    value: function closeWithoutTimeout() {
+	      (0, _utilsDomUtils.removeClass)(document.body, MODAL_BODY_CLASS);
+	      this.setState({ closing: false });
+	      this.unmountModal();
+	    }
+	  }, {
+	    key: 'getModalClassName',
+	    value: function getModalClassName() {
+	      return (0, _classnames3['default'])(MODAL_CLASS, _defineProperty({}, MODAL_TRANSITION_CLASS, this.state.closing));
 	    }
 	  }, {
 	    key: 'handleKeyUp',
@@ -31056,19 +31111,6 @@
 	        this.props.onRequestClose();
 	      }
 	    }
-	  }], [{
-	    key: 'propTypes',
-	    value: {
-	      open: _react.PropTypes.bool.isRequired,
-	      onRequestClose: _react.PropTypes.func.isRequired
-	    },
-	    enumerable: true
-	  }, {
-	    key: 'defaultProps',
-	    value: {
-	      open: false
-	    },
-	    enumerable: true
 	  }]);
 	
 	  return Modal;
@@ -31079,6 +31121,64 @@
 
 /***/ },
 /* 258 */
+/*!*******************************!*\
+  !*** ./~/classnames/index.js ***!
+  \*******************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_RESULT__;/*!
+	  Copyright (c) 2015 Jed Watson.
+	  Licensed under the MIT License (MIT), see
+	  http://jedwatson.github.io/classnames
+	*/
+	/* global define */
+	
+	'use strict';
+	
+	(function () {
+		'use strict';
+	
+		var hasOwn = ({}).hasOwnProperty;
+	
+		function classNames() {
+			var classes = '';
+	
+			for (var i = 0; i < arguments.length; i++) {
+				var arg = arguments[i];
+				if (!arg) continue;
+	
+				var argType = typeof arg;
+	
+				if (argType === 'string' || argType === 'number') {
+					classes += ' ' + arg;
+				} else if (Array.isArray(arg)) {
+					classes += ' ' + classNames.apply(null, arg);
+				} else if (argType === 'object') {
+					for (var key in arg) {
+						if (hasOwn.call(arg, key) && arg[key]) {
+							classes += ' ' + key;
+						}
+					}
+				}
+			}
+	
+			return classes.substr(1);
+		}
+	
+		if (typeof module !== 'undefined' && module.exports) {
+			module.exports = classNames;
+		} else if (true) {
+			// register as 'classnames', consistent with npm package name
+			!(__WEBPACK_AMD_DEFINE_RESULT__ = function () {
+				return classNames;
+			}.call(exports, __webpack_require__, exports, module), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+		} else {
+			window.classNames = classNames;
+		}
+	})();
+
+/***/ },
+/* 259 */
 /*!*********************************************!*\
   !*** ./docs/sections/Docs-Colors/index.jsx ***!
   \*********************************************/
@@ -31179,7 +31279,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 259 */
+/* 260 */
 /*!*************************************************!*\
   !*** ./docs/sections/Docs-Guidelines/index.jsx ***!
   \*************************************************/
@@ -31395,7 +31495,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 260 */
+/* 261 */
 /*!************************************!*\
   !*** template of 162 referencing  ***!
   \************************************/
@@ -31637,7 +31737,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 261 */
+/* 262 */
 /*!************************************!*\
   !*** template of 168 referencing  ***!
   \************************************/
@@ -31695,7 +31795,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 262 */
+/* 263 */
 /*!************************************!*\
   !*** template of 170 referencing  ***!
   \************************************/
@@ -31796,7 +31896,7 @@
 	}
 
 /***/ },
-/* 263 */
+/* 264 */
 /*!************************************!*\
   !*** template of 174 referencing  ***!
   \************************************/
@@ -31830,7 +31930,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 264 */
+/* 265 */
 /*!************************************!*\
   !*** template of 175 referencing  ***!
   \************************************/
@@ -31859,7 +31959,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 265 */
+/* 266 */
 /*!************************************!*\
   !*** template of 182 referencing  ***!
   \************************************/
@@ -31882,7 +31982,7 @@
 	};
 
 /***/ },
-/* 266 */
+/* 267 */
 /*!************************************!*\
   !*** template of 183 referencing  ***!
   \************************************/
@@ -32000,7 +32100,7 @@
 	};
 
 /***/ },
-/* 267 */
+/* 268 */
 /*!************************************!*\
   !*** template of 185 referencing  ***!
   \************************************/
@@ -32178,7 +32278,7 @@
 	};
 
 /***/ },
-/* 268 */
+/* 269 */
 /*!************************************!*\
   !*** template of 203 referencing  ***!
   \************************************/

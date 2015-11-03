@@ -37,5 +37,8 @@
     "react-dom": "^0.14.0",
     "react-router": "^1.0.0-rc3",
     "webpack": "^1.12.2"
+  },
+  "peerDependencies": {
+    "classnames": "^2.2.0"
   }
 }

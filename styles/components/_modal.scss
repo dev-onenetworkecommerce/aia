@@ -38,6 +38,14 @@ body.modal-body {
   bottom: 0;
   left: 0;
   right: 0;
+  transform: scale(1); // For -fade
+  // Fade transition
+  // @TODO
+  // Make reusable transitions?
+  &.-fade {
+    transition: .25s all;
+    transform: scale(0);
+  }
 }
 
 // @TODO

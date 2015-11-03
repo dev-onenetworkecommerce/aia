@@ -78,7 +78,6 @@ export default class DropdownView extends React.Component {
             </div>
           </Dropdown>
         </section>
-
       </div>
     );
   }

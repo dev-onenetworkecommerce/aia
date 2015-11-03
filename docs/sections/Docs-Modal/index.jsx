@@ -12,16 +12,14 @@ export default class ModalView extends React.Component {
         <h1 className="doc-heading">Modals</h1>
         {this.state.open}
         <button className="btn -primary" onClick={() => this.setState({ open: true })}>Open Modal</button>
-        <Modal open={this.state.open} onRequestClose={::this.handleClose}>
-          <div className="modal">
-            <div className="modal-dialog">
-              <div className="container">
-                <div className="row">
-                  <div className="col-md-6 _centered">
-                    <div className="_clearfix">
-                      <h3 className="_left"> Search </h3>
-                      <i className="icon icon-close _right" onClick={() => this.setState({ open: false })} />
-                    </div>
+        <Modal open={this.state.open} onRequestClose={() => this.setState({ open: false })}>
+          <div className="modal-dialog">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-6 _centered">
+                  <div className="_clearfix">
+                    <h3 className="_left"> Search </h3>
+                    <i className="icon icon-close _right" onClick={() => this.setState({ open: false })} />
                   </div>
                 </div>
               </div>
@@ -30,9 +28,5 @@ export default class ModalView extends React.Component {
         </Modal>
       </div>
     );
-  }
-
-  handleClose() {
-    this.setState({ open: false });
   }
 }
