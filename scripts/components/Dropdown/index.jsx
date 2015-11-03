@@ -1,5 +1,5 @@
 import React, { cloneElement, PropTypes } from 'react';
-import { findDOMNode, render, unmountComponentAtNode } from 'react-dom';
+import { findDOMNode, unstable_renderSubtreeIntoContainer, unmountComponentAtNode } from 'react-dom';
 import utils from './utils';
 import { isNodeInRoot } from '../../utils/DomUtils';
 
@@ -71,7 +71,8 @@ export default class Dropdown extends React.Component {
       throw new Error('Container does not exist. It may have been removed, or whatever');
     }
 
-    this.$dropdown = render(
+    this.$dropdown = unstable_renderSubtreeIntoContainer(
+      this,
       cloneElement(this.props.children, {
         style: {
           top: this.state.top,
