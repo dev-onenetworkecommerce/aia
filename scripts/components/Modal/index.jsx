@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import { render, unmountComponentAtNode } from 'react-dom';
+import { unstable_renderSubtreeIntoContainer, unmountComponentAtNode } from 'react-dom';
 import { addClass, removeClass } from '../../utils/DomUtils';
 
 const MODAL_BODY_CLASS = 'modal-body';
@@ -75,7 +75,8 @@ export default class Modal extends React.Component {
     // Move to another function
     addClass(document.body, MODAL_BODY_CLASS);
 
-    this.$modal = render(
+    this.$modal = unstable_renderSubtreeIntoContainer(
+      this,
       <div>
         <div className={MODAL_BACKDROP_CLASS} />
         {this.props.children}
