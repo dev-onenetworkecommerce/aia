@@ -79,6 +79,14 @@ export default class Forms extends React.Component {
               <div className="message">Error invalid something..</div>
             </div>
           </section>
+
+          <p>Places the message above, useful for when an overlapping element is expected (such as date picker).</p>
+          <section className="doc-bottom-space">
+            <div className="form-group">
+              <input className="form-control -crimson" type="text" placeholder="Enter something.." />
+              <div className="message -top">Error invalid something..</div>
+            </div>
+          </section>
         </section>
 
         <section className="doc-bottom-space-large">

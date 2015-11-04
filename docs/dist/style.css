@@ -5451,6 +5451,19 @@ a {
 .form-group .form-control:focus + .message {
   visibility: visible; }
 
+.form-group .form-control + .message.-top {
+  bottom: 40px;
+  top: -40px; }
+
+.form-group .form-control + .message.-top:after {
+  top: 100%;
+  border-top: 8px solid #F05F50;
+  border-bottom: none; }
+
+.form-group .form-control:hover + .message.-top,
+.form-group .form-control:focus + .message.-top {
+  visibility: visible; }
+
 select.form-control {
   height: 34px; }
 

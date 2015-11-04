@@ -27344,6 +27344,25 @@
 	                "Error invalid something.."
 	              )
 	            )
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "Places the message above, useful for when an overlapping element is expected (such as date picker)."
+	          ),
+	          _react2["default"].createElement(
+	            "section",
+	            { className: "doc-bottom-space" },
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "form-group" },
+	              _react2["default"].createElement("input", { className: "form-control -crimson", type: "text", placeholder: "Enter something.." }),
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "message -top" },
+	                "Error invalid something.."
+	              )
+	            )
 	          )
 	        ),
 	        _react2["default"].createElement(
