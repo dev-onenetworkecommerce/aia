@@ -27,11 +27,8 @@ export default class Docs extends React.Component {
               <Link to="/slate" activeClassName="-selected" className="menuitem">Slate</Link>
               <Link to="/dropdown" activeClassName="-selected" className="menuitem">Dropdown</Link>
               <Link to="/modal" activeClassName="-selected" className="menuitem">Modal</Link>
-<<<<<<< HEAD
               <Link to="/loaders" activeClassName="-selected" className="menuitem">Loaders</Link>
-=======
               <Link to="/steps" activeClassName="-selected" className="menuitem">Steps</Link>
->>>>>>> e1411a47aa2bde2409e1f6a9879e7992e411c594
             </nav>
 
             <nav className="list-group _spacer-large" role="menu">
