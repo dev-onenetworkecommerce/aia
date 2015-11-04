@@ -27329,7 +27329,7 @@
 	          _react2["default"].createElement(
 	            "p",
 	            null,
-	            "To apply, .message"
+	            "To apply to bottom, .message"
 	          ),
 	          _react2["default"].createElement(
 	            "section",
@@ -27341,6 +27341,25 @@
 	              _react2["default"].createElement(
 	                "div",
 	                { className: "message" },
+	                "Error invalid something.."
+	              )
+	            )
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "To apply message to top , .message .-top"
+	          ),
+	          _react2["default"].createElement(
+	            "section",
+	            { className: "doc-bottom-space" },
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "form-group" },
+	              _react2["default"].createElement("input", { className: "form-control -crimson", type: "text", placeholder: "Enter something.." }),
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "message -top" },
 	                "Error invalid something.."
 	              )
 	            )
