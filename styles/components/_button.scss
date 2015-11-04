@@ -133,16 +133,31 @@
 }
 
 .btn-group {
+  display: inline-block;
+  vertical-align: middle;
+
   &.-rounded > .btn {
     border-radius: $border-radius-rounded;
   }
 
-  > .btn {
-    margin-right: 0 !important;
-    margin-left: 0 !important;
+  &.-xs > .btn {
+    @extend .btn.-xs;
+  }
+
+  &.-small > .btn {
+    @extend .btn.-small;
+  }
+
+  &.-large > .btn {
+    @extend .btn.-large;
+  }
+
+  + .btn-group {
+    margin-left: ($padding-x / 2);
   }
 
   > .btn:last-child:not(:first-child) {
+    margin-left: -1px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
@@ -153,6 +168,7 @@
   }
 
   > .btn:not(:first-child):not(:last-child) {
+    margin-left: -1px;
     border-radius: 0;
   }
 }

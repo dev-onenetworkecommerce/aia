@@ -1,0 +1,117 @@
+.dropdown {
+  $dropdown-arrow-size: 10px;
+  z-index: 999;
+  position: absolute;
+  margin-top: ($dropdown-arrow-size * 2);
+
+  > .menu {
+    position: relative;
+    padding: ($padding-x / 2) 0;
+    min-width: 160px;
+    font-size: $font-size-base;
+    background-color: $brand-white;
+    border: 1px solid $brand-gray-lt;
+    border-radius: $border-radius-base;
+    box-shadow: 0 0 5px $brand-gray-lt;
+  }
+
+  > .menu::before,
+  > .menu::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -($dropdown-arrow-size * 2);
+    left: $dropdown-arrow-size;
+    height: 0;
+    width: 0;
+    border: $dropdown-arrow-size solid transparent;
+  }
+
+  > .menu::before {
+    border-bottom-color: $brand-gray-dk;
+  }
+
+  > .menu::after {
+    border-bottom-color: $brand-white;
+  }
+
+  > .menu > a {
+    display: block;
+    width: 100%;
+    padding: ($padding-x / 3) ($padding-y * 3);
+    color: $brand-black;
+  }
+
+  > .menu > a,
+  > .menu > a:hover {
+    text-decoration: none;
+  }
+
+  > .menu > a:hover,
+  > .menu > a.-active {
+    color: $brand-white;
+    background: $brand-primary;
+  }
+
+  > .menu > a.-disabled {
+    color: $brand-gray-lt;
+    cursor: not-allowed;
+  }
+
+  > .menu > a > .icon:first-child {
+    width: 20px;
+    // 16px is the default icon size
+    // 4px = allowance
+  }
+
+  > .menu > .divider {
+    height: 1px;
+    margin: ($padding-x / 2) 0;
+    background-color: $brand-gray-lt;
+  }
+
+  > .menu > a .badge {
+    float: right; 
+    background-color: $brand-primary;
+    color: $brand-white;
+  }
+
+  > .menu > a:hover .badge {
+    background-color: $brand-white;
+    color: $brand-primary;
+  }
+
+  // Right
+  &.-right > .menu::before {
+    left: initial;
+    right: $dropdown-arrow-size;
+  }
+
+  &.-right > .menu::before,
+  &.-right > .menu::after {
+    left: initial;
+    right: $dropdown-arrow-size;
+  }
+
+  // Up
+  &.-up {
+    margin-top: -($dropdown-arrow-size * 2);
+  }
+
+  &.-up > .menu::before,
+  &.-up > .menu::after {
+    left: $dropdown-arrow-size;
+    right: initial;
+    top: initial;
+    bottom: -($dropdown-arrow-size * 2);
+    border-bottom-color: transparent;
+  }
+
+  &.-up > .menu::before {
+    border-top-color: $brand-gray-dk;
+  }
+
+  &.-up > .menu::after {
+    border-top-color: $brand-white;
+  }
+}

@@ -12,7 +12,7 @@
   padding: 7px 8px;
   vertical-align: middle;
   background-color: $brand-white;
-  border: 1px solid $brand-gray;
+  border: 1px solid $brand-black;
   border-radius: $border-radius-base;
   outline: none;
 
@@ -22,8 +22,9 @@
 
   &.-disabled,
   &:disabled {
+    color: $brand-gray;
+    border-color: $brand-gray-lt;
     cursor: not-allowed;
-    background: $brand-gray-lt;
   }
 
   &.-sky {
@@ -42,6 +43,41 @@
     @include form-variant($brand-sun);
   }
 }
+
+.form-group {
+  position: relative;
+}
+
+.form-group .form-control + .message {
+  visibility: hidden;
+  position: absolute;
+  top: 40px;
+  z-index: 9999;
+  max-width: 220px;
+  padding: 10px 15px;
+  line-height: 1;
+  font-size: $font-size-small;
+  text-align: center;
+  color: $brand-white;
+  background: $brand-crimson;
+  border-radius: 5px;
+}
+
+.form-group .form-control + .message:after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 5%;
+  border-bottom: 8px solid $brand-crimson;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+
+.form-group .form-control:hover + .message,
+.form-group .form-control:focus + .message {
+  visibility: visible;
+}
+
 
 // fix issue with <select> padding
 select.form-control {
@@ -98,12 +134,12 @@ label {
   > .addon {
     z-index: 1;
     width: 1%;
-    padding: 0 8px;
     min-height: $form-size;
+    vertical-align: middle;
+    padding: 0 8px;
     background: $brand-gray-lt;
     border: 1px solid $brand-gray;
     border-radius: $border-radius-base;
-    vertical-align: middle;
   }
 
   > .addon:first-child {
