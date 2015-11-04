@@ -28013,22 +28013,22 @@
 	            { className: "doc-btn-group" },
 	            _react2["default"].createElement(
 	              "button",
-	              { className: "btn -xs" },
+	              { className: "btn -default -xs" },
 	              "Extra Small"
 	            ),
 	            _react2["default"].createElement(
 	              "button",
-	              { className: "btn -small" },
+	              { className: "btn -default -small" },
 	              "Small"
 	            ),
 	            _react2["default"].createElement(
 	              "button",
-	              { className: "btn" },
+	              { className: "btn -default" },
 	              "Default"
 	            ),
 	            _react2["default"].createElement(
 	              "button",
-	              { className: "btn -large" },
+	              { className: "btn -default -large" },
 	              "Large"
 	            )
 	          )
