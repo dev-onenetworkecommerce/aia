@@ -6147,7 +6147,11 @@ body.modal-body {
     margin-bottom: 1.5rem; }
   .slate > *:last-child {
     margin-bottom: 0; }
+  .slate > .tri-circle-loader {
+    margin-bottom: 1.5rem; }
 
+.tri-circle-loader.-light > div {
+  background: #fff; }
 .tri-circle-loader.-sky > div {
   background: #52B5E5; }
 .tri-circle-loader.-emerald > div {

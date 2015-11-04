@@ -5,20 +5,14 @@
   background: $brand-gray-lt;
   border-radius: $border-radius-base;
 
-	&.-spacious {
-		padding: 60px;
-	}
-
-	&.-plain {
-		background: $brand-white;
-	}
+	&.-spacious { padding: 60px; }
+	&.-plain { background: $brand-white; }
 
   > .icon:first-child {
     display: block;
     margin-bottom: $spacer-large;
   }
 
-  > *:last-child {
-    margin-bottom: 0;
-  }
+  > *:last-child { margin-bottom: 0; }
+  > .tri-circle-loader { margin-bottom: $spacer-large; }
 }

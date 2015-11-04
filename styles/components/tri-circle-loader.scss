@@ -5,6 +5,7 @@
 }
 
 .tri-circle-loader {
+  &.-light { @include tri-circle-loader-variant($brand-white); }
   &.-sky { @include tri-circle-loader-variant($brand-sky); }
   &.-emerald { @include tri-circle-loader-variant($brand-emerald); }
   &.-sun { @include tri-circle-loader-variant($brand-sun); }

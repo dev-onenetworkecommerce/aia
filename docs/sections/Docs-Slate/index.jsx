@@ -25,7 +25,7 @@ export default class Slate extends React.Component {
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading"> Loading Slate </h3>
           <div className="slate">
-            <div className="tri-circle-loader _spacer">
+            <div className="tri-circle-loader">
               <div />
               <div />
               <div />

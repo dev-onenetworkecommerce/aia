@@ -29630,7 +29630,7 @@
 	            { className: "slate" },
 	            _react2["default"].createElement(
 	              "div",
-	              { className: "tri-circle-loader _spacer" },
+	              { className: "tri-circle-loader" },
 	              _react2["default"].createElement("div", null),
 	              _react2["default"].createElement("div", null),
 	              _react2["default"].createElement("div", null)
