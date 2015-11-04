@@ -28108,14 +28108,29 @@
 	            " Button with Loader "
 	          ),
 	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn -default" },
+	            "div",
+	            { className: "doc-btn-group" },
 	            _react2["default"].createElement(
-	              "div",
-	              { className: "tri-circle-loader" },
-	              _react2["default"].createElement("div", null),
-	              _react2["default"].createElement("div", null),
-	              _react2["default"].createElement("div", null)
+	              "button",
+	              { className: "btn -default" },
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "tri-circle-loader" },
+	                _react2["default"].createElement("div", null),
+	                _react2["default"].createElement("div", null),
+	                _react2["default"].createElement("div", null)
+	              )
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -primary" },
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "tri-circle-loader -light" },
+	                _react2["default"].createElement("div", null),
+	                _react2["default"].createElement("div", null),
+	                _react2["default"].createElement("div", null)
+	              )
 	            )
 	          )
 	        ),
