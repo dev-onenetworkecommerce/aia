@@ -27323,7 +27323,7 @@
 	          _react2["default"].createElement(
 	            "p",
 	            null,
-	            "To apply to bottom, .message"
+	            "To apply, .message"
 	          ),
 	          _react2["default"].createElement(
 	            "section",
@@ -27342,7 +27342,7 @@
 	          _react2["default"].createElement(
 	            "p",
 	            null,
-	            "To apply message to top , .message .-top"
+	            "Places the message above, useful for when an overlapping element is expected (such as date picker)."
 	          ),
 	          _react2["default"].createElement(
 	            "section",

@@ -80,7 +80,6 @@ export default class Forms extends React.Component {
             </div>
           </section>
 
-          <p>To apply message to top , .message .-top</p>
           <p>Places the message above, useful for when an overlapping element is expected (such as date picker).</p>
           <section className="doc-bottom-space">
             <div className="form-group">
