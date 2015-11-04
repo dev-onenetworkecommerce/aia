@@ -5836,7 +5836,7 @@ hr {
   .badge.-primary {
     color: #fff;
     background-color: #3A569B; }
-  .badge.-emerald {
+  .badge.-emerald, .list-group > .menuitem > .badge, .dropdown > .menu > a .badge {
     color: #fff;
     background-color: #38D4A9; }
   .badge.-sky {
@@ -5925,15 +5925,13 @@ hr {
   .list-group > .menuitem > .icon {
     color: #4A4A4A; }
   .list-group > .menuitem > .icon:first-child {
-    margin-right: 10px;
-    width: 20px; }
+    width: 20px;
+    margin-right: 10px; }
   .list-group > .menuitem > .badge {
-    float: right;
-    background: #3A569B;
-    color: #fff; }
+    float: right; }
   .list-group > .menuitem.-selected > .badge {
     float: right;
-    background: #fff;
+    background-color: #fff;
     color: #4A4A4A; }
 
 .panel {
@@ -6064,9 +6062,7 @@ hr {
     margin: 6px 0;
     background-color: #F0F0F0; }
   .dropdown > .menu > a .badge {
-    float: right;
-    background-color: #3A569B;
-    color: #fff; }
+    float: right; }
   .dropdown > .menu > a:hover .badge {
     background-color: #fff;
     color: #3A569B; }

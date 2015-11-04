@@ -40,21 +40,20 @@
   > .menuitem > .icon { color: $brand-black; }
 
   > .menuitem > .icon:first-child {
-    margin-right: 10px;
+    width: 20px;
     // 16px is the default icon size
     // 4px = allowance
-    width: 20px;
+    margin-right: 10px;
   }
 
   > .menuitem > .badge { 
-    float: right; 
-    background: $brand-primary;
-    color: $brand-white;
+    @extend .badge.-emerald;
+    float: right;
   }
 
   > .menuitem.-selected > .badge { 
     float: right; 
-    background: $brand-white;
+    background-color: $brand-white;
     color: $brand-black;
   }
 }

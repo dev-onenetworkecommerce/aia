@@ -6022,9 +6022,9 @@ hr {
   .dropdown > .menu {
     position: relative;
     padding: 6px 0;
-    min-width: 140px;
+    min-width: 160px;
     font-size: 14px;
-    background: #fff;
+    background-color: #fff;
     border: 1px solid #F0F0F0;
     border-radius: 3px;
     box-shadow: 0 0 5px #F0F0F0; }
@@ -6063,6 +6063,13 @@ hr {
     height: 1px;
     margin: 6px 0;
     background-color: #F0F0F0; }
+  .dropdown > .menu > a .badge {
+    float: right;
+    background-color: #3A569B;
+    color: #fff; }
+  .dropdown > .menu > a:hover .badge {
+    background-color: #fff;
+    color: #3A569B; }
   .dropdown.-right > .menu::before {
     left: initial;
     right: 10px; }
