@@ -47,14 +47,13 @@
   }
 
   > .menuitem > .badge { 
-    float: right; 
-    background: $brand-emerald;
-    color: $brand-white;
+    @extend .badge.-emerald;
+    float: right;
   }
 
   > .menuitem.-selected > .badge { 
     float: right; 
-    background: $brand-white;
+    background-color: $brand-white;
     color: $brand-black;
   }
 }

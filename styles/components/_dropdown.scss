@@ -71,9 +71,8 @@
   }
 
   > .menu > a .badge {
-    float: right; 
-    background-color: $brand-emerald;
-    color: $brand-white;
+    @extend .badge.-emerald;
+    float: right;
   }
 
   > .menu > a:hover .badge {
