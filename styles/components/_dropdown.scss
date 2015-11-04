@@ -7,9 +7,9 @@
   > .menu {
     position: relative;
     padding: ($padding-x / 2) 0;
-    min-width: 140px;
+    min-width: 160px;
     font-size: $font-size-base;
-    background: $brand-white;
+    background-color: $brand-white;
     border: 1px solid $brand-gray-lt;
     border-radius: $border-radius-base;
     box-shadow: 0 0 5px $brand-gray-lt;
@@ -68,6 +68,17 @@
     height: 1px;
     margin: ($padding-x / 2) 0;
     background-color: $brand-gray-lt;
+  }
+
+  > .menu > a .badge {
+    float: right; 
+    background-color: $brand-primary;
+    color: $brand-white;
+  }
+
+  > .menu > a:hover .badge {
+    background-color: $brand-white;
+    color: $brand-primary;
   }
 
   // Right

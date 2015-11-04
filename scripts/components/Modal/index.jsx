@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import { render, unmountComponentAtNode } from 'react-dom';
+import { unstable_renderSubtreeIntoContainer, unmountComponentAtNode } from 'react-dom';
 import { addClass, removeClass } from '../../utils/DomUtils';
 
 const MODAL_BODY_CLASS = 'modal-body';
@@ -7,20 +7,19 @@ const MODAL_BACKDROP_CLASS = 'modal-backdrop';
 const ESC_KEY = 27;
 
 export default class Modal extends React.Component {
-
-  constructor(props) {
-    super(props);
-
-    this.handleKeyUp = ::this.handleKeyUp;
-  };
-
   static propTypes = {
     open: PropTypes.bool.isRequired,
     onRequestClose: PropTypes.func.isRequired
   };
 
+  constructor(props, context) {
+    super(props, context);
+
+    this.handleKeyUp = ::this.handleKeyUp;
+  };
+
   static defaultProps = {
-    open: false,
+    open: false
   };
 
   componentDidMount() {
@@ -76,7 +75,8 @@ export default class Modal extends React.Component {
     // Move to another function
     addClass(document.body, MODAL_BODY_CLASS);
 
-    this.$modal = render(
+    this.$modal = unstable_renderSubtreeIntoContainer(
+      this,
       <div>
         <div className={MODAL_BACKDROP_CLASS} />
         {this.props.children}
@@ -99,7 +99,7 @@ export default class Modal extends React.Component {
   }
 
   handleKeyUp(evt) {
-    if ( evt.keyCode === ESC_KEY ) {
+    if ( this.props.open && evt.keyCode === ESC_KEY ) {
       this.props.onRequestClose();
     }
   }

@@ -5425,30 +5425,29 @@ a {
   position: relative; }
 
 .form-group .form-control + .message {
+  visibility: hidden;
   position: absolute;
   top: 40px;
   z-index: 9999;
-  visibility: hidden;
   max-width: 220px;
+  padding: 10px 15px;
+  line-height: 1;
+  font-size: 12px;
   text-align: center;
-  color: #FFFFFF;
-  padding: 8px 10px;
+  color: #fff;
   background: #F05F50;
-  height: auto;
   border-radius: 5px; }
 
 .form-group .form-control + .message:after {
   content: '';
   position: absolute;
   bottom: 100%;
-  left: 50%;
-  margin-left: -8px;
-  width: 0;
-  height: 0;
+  left: 5%;
   border-bottom: 8px solid #F05F50;
   border-right: 8px solid transparent;
   border-left: 8px solid transparent; }
 
+.form-group .form-control:hover + .message,
 .form-group .form-control:focus + .message {
   visibility: visible; }
 
@@ -5491,12 +5490,12 @@ label {
   .input-group > .addon {
     z-index: 1;
     width: 1%;
-    padding: 0 8px;
     min-height: 34px;
+    vertical-align: middle;
+    padding: 0 8px;
     background: #F0F0F0;
     border: 1px solid #C4C4C4;
-    border-radius: 3px;
-    vertical-align: middle; }
+    border-radius: 3px; }
   .input-group > .addon:first-child {
     border-right: 0; }
   .input-group > .addon:last-child {
@@ -6023,9 +6022,9 @@ hr {
   .dropdown > .menu {
     position: relative;
     padding: 6px 0;
-    min-width: 140px;
+    min-width: 160px;
     font-size: 14px;
-    background: #fff;
+    background-color: #fff;
     border: 1px solid #F0F0F0;
     border-radius: 3px;
     box-shadow: 0 0 5px #F0F0F0; }
@@ -6064,6 +6063,13 @@ hr {
     height: 1px;
     margin: 6px 0;
     background-color: #F0F0F0; }
+  .dropdown > .menu > a .badge {
+    float: right;
+    background-color: #3A569B;
+    color: #fff; }
+  .dropdown > .menu > a:hover .badge {
+    background-color: #fff;
+    color: #3A569B; }
   .dropdown.-right > .menu::before {
     left: initial;
     right: 10px; }

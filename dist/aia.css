@@ -5425,30 +5425,29 @@ a {
   position: relative; }
 
 .form-group .form-control + .message {
+  visibility: hidden;
   position: absolute;
   top: 40px;
   z-index: 9999;
-  visibility: hidden;
   max-width: 220px;
+  padding: 10px 15px;
+  line-height: 1;
+  font-size: 12px;
   text-align: center;
-  color: #FFFFFF;
-  line-height: 2;
+  color: #fff;
   background: #F05F50;
-  height: auto;
   border-radius: 5px; }
 
 .form-group .form-control + .message:after {
   content: '';
   position: absolute;
   bottom: 100%;
-  left: 50%;
-  margin-left: -8px;
-  width: 0;
-  height: 0;
+  left: 5%;
   border-bottom: 8px solid #F05F50;
   border-right: 8px solid transparent;
   border-left: 8px solid transparent; }
 
+.form-group .form-control:hover + .message,
 .form-group .form-control:focus + .message {
   visibility: visible; }
 
@@ -5491,12 +5490,12 @@ label {
   .input-group > .addon {
     z-index: 1;
     width: 1%;
-    padding: 0 8px;
     min-height: 34px;
+    vertical-align: middle;
+    padding: 0 8px;
     background: #F0F0F0;
     border: 1px solid #C4C4C4;
-    border-radius: 3px;
-    vertical-align: middle; }
+    border-radius: 3px; }
   .input-group > .addon:first-child {
     border-right: 0; }
   .input-group > .addon:last-child {
@@ -5849,6 +5848,48 @@ hr {
   .badge.-crimson {
     color: #fff;
     background-color: #F05F50; }
+
+.steps {
+  padding: 8px 15px;
+  list-style: none;
+  color: #C4C4C4;
+  font-size: 24px; }
+  .steps li {
+    position: relative;
+    display: inline-block;
+    margin: 0 25px;
+    width: 50px;
+    height: 50px;
+    padding: 2px 10px;
+    text-align: center;
+    background: #F0F0F0;
+    border-radius: 50%;
+    border: 3px solid #C4C4C4; }
+  .steps li > a {
+    color: #78828A;
+    z-index: 1;
+    text-decoration: none; }
+  .steps li::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    right: 5px;
+    width: 100px;
+    height: 5px;
+    background: #C4C4C4;
+    z-index: -1; }
+  .steps li:first-child::before {
+    display: none; }
+  .steps li.-active > a {
+    color: #fff; }
+  .steps li.-active::before,
+  .steps li.-active {
+    background: #4684BF; }
+  .steps li.-complete > a {
+    color: #fff; }
+  .steps li.-complete,
+  .steps li.-complete:before {
+    background: #38D4A9; }
 
 .list-group {
   background-color: #fff;

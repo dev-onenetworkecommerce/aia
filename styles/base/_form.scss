@@ -49,16 +49,17 @@
 }
 
 .form-group .form-control + .message {
+  visibility: hidden;
   position: absolute;
   top: 40px;
   z-index: 9999;
-  visibility: hidden;
   max-width: 220px;
+  padding: 10px 15px;
+  line-height: 1;
+  font-size: $font-size-small;
   text-align: center;
-  color: #FFFFFF;
-  padding: 8px 10px;
+  color: $brand-white;
   background: $brand-crimson;
-  height: auto;
   border-radius: 5px;
 }
 
@@ -66,15 +67,13 @@
   content: '';
   position: absolute;
   bottom: 100%;
-  left: 50%;
-  margin-left: -8px;
-  width: 0;
-  height: 0;
+  left: 5%;
   border-bottom: 8px solid $brand-crimson;
   border-right: 8px solid transparent;
   border-left: 8px solid transparent;
 }
 
+.form-group .form-control:hover + .message,
 .form-group .form-control:focus + .message {
   visibility: visible;
 }
@@ -135,12 +134,12 @@ label {
   > .addon {
     z-index: 1;
     width: 1%;
-    padding: 0 8px;
     min-height: $form-size;
+    vertical-align: middle;
+    padding: 0 8px;
     background: $brand-gray-lt;
     border: 1px solid $brand-gray;
     border-radius: $border-radius-base;
-    vertical-align: middle;
   }
 
   > .addon:first-child {
