@@ -65,6 +65,27 @@ export default class Buttons extends React.Component {
         </section>
 
         <section className="doc-bottom-space-large">
+          <h3 className="doc-heading"> Button with Loader </h3>
+          <div className="doc-btn-group"> 
+            <button className="btn -default"> 
+              <div className="tri-circle-loader">
+                <div />
+                <div />
+                <div />
+              </div>
+            </button>
+
+            <button className="btn -primary">
+              <div className="tri-circle-loader -light">
+                <div />
+                <div />
+                <div />
+              </div>
+            </button>
+          </div>
+        </section>
+
+        <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Disabled</h3>
           <button className="btn -default -disabled">Button</button>
         </section>
@@ -80,7 +101,7 @@ export default class Buttons extends React.Component {
               <i className="icon icon-user3" />
             </button>
 
-            <button className="btn -emerald">Button <i className="icon icon-user3" /> </button>
+            <button className="btn -emerald"> Button <i className="icon icon-user3" /> </button>
           </div>
 
           <div className="doc-btn-group">

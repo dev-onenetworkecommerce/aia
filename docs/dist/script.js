@@ -20156,12 +20156,13 @@
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'list-group', component: __webpack_require__(/*! ./sections/Docs-ListGroup */ 248) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'nav', component: __webpack_require__(/*! ./sections/Docs-Nav */ 249) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'slate', component: __webpack_require__(/*! ./sections/Docs-Slate */ 250) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'utilities', component: __webpack_require__(/*! ./sections/Docs-Utilities */ 251) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'dropdown', component: __webpack_require__(/*! ./sections/Docs-Dropdown */ 252) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'modal', component: __webpack_require__(/*! ./sections/Docs-Modal */ 256) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'colors', component: __webpack_require__(/*! ./sections/Docs-Colors */ 258) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'steps', component: __webpack_require__(/*! ./sections/Docs-Steps */ 259) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'guidelines', component: __webpack_require__(/*! ./sections/Docs-Guidelines */ 260) })
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'loaders', component: __webpack_require__(/*! ./sections/Docs-Loaders */ 251) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'utilities', component: __webpack_require__(/*! ./sections/Docs-Utilities */ 252) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'dropdown', component: __webpack_require__(/*! ./sections/Docs-Dropdown */ 253) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'modal', component: __webpack_require__(/*! ./sections/Docs-Modal */ 257) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'colors', component: __webpack_require__(/*! ./sections/Docs-Colors */ 259) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'steps', component: __webpack_require__(/*! ./sections/Docs-Steps */ 260) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'guidelines', component: __webpack_require__(/*! ./sections/Docs-Guidelines */ 261) })
 	    )
 	  )
 	);
@@ -20522,7 +20523,7 @@
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/lib/createHashHistory.js ***!
   \***********************************************************/
-[261, 161, 163, 164, 165, 166, 167, 168],
+[262, 161, 163, 164, 165, 166, 167, 168],
 /* 163 */
 /*!***********************************************!*\
   !*** ./~/react-router/~/invariant/browser.js ***!
@@ -20725,7 +20726,7 @@
 /*!**********************************************************!*\
   !*** ./~/react-router/~/history/lib/createDOMHistory.js ***!
   \**********************************************************/
-[262, 163, 165, 166, 169],
+[263, 163, 165, 166, 169],
 /* 169 */
 /*!*******************************************************!*\
   !*** ./~/react-router/~/history/lib/createHistory.js ***!
@@ -21022,7 +21023,7 @@
 /*!********************************************************!*\
   !*** ./~/react-router/~/history/~/deep-equal/index.js ***!
   \********************************************************/
-[263, 171, 172],
+[264, 171, 172],
 /* 171 */
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/~/deep-equal/lib/keys.js ***!
@@ -21104,12 +21105,12 @@
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/lib/runTransitionHook.js ***!
   \***********************************************************/
-[264, 161],
+[265, 161],
 /* 175 */
 /*!***************************************************!*\
   !*** ./~/react-router/~/history/lib/deprecate.js ***!
   \***************************************************/
-[265, 161],
+[266, 161],
 /* 176 */
 /*!******************************************!*\
   !*** ./~/react-router/lib/RouteUtils.js ***!
@@ -22081,12 +22082,12 @@
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/index.js ***!
   \****************************************************/
-[266, 183, 185],
+[267, 183, 185],
 /* 183 */
 /*!********************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/stringify.js ***!
   \********************************************************/
-[267, 184],
+[268, 184],
 /* 184 */
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/utils.js ***!
@@ -22278,7 +22279,7 @@
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/parse.js ***!
   \****************************************************/
-[268, 184],
+[269, 184],
 /* 186 */
 /*!****************************************************!*\
   !*** ./~/react-router/lib/computeChangedRoutes.js ***!
@@ -23798,7 +23799,7 @@
 /*!*************************************************************!*\
   !*** ./~/react-router/~/history/lib/createMemoryHistory.js ***!
   \*************************************************************/
-[269, 163, 164, 169],
+[270, 163, 164, 169],
 /* 204 */
 /*!*****************************************************!*\
   !*** ./~/react-router/~/history/lib/useBasename.js ***!
@@ -24265,7 +24266,7 @@
 /*!*******************************************!*\
   !*** ./~/history/lib/createDOMHistory.js ***!
   \*******************************************/
-[262, 207, 209, 210, 214],
+[263, 207, 209, 210, 214],
 /* 214 */
 /*!****************************************!*\
   !*** ./~/history/lib/createHistory.js ***!
@@ -24535,7 +24536,7 @@
 /*!*****************************************!*\
   !*** ./~/history/~/deep-equal/index.js ***!
   \*****************************************/
-[263, 216, 217],
+[264, 216, 217],
 /* 216 */
 /*!********************************************!*\
   !*** ./~/history/~/deep-equal/lib/keys.js ***!
@@ -24659,22 +24660,22 @@
 /*!********************************************!*\
   !*** ./~/history/lib/runTransitionHook.js ***!
   \********************************************/
-[264, 212],
+[265, 212],
 /* 222 */
 /*!************************************!*\
   !*** ./~/history/lib/deprecate.js ***!
   \************************************/
-[265, 212],
+[266, 212],
 /* 223 */
 /*!********************************************!*\
   !*** ./~/history/lib/createHashHistory.js ***!
   \********************************************/
-[261, 212, 207, 208, 209, 210, 211, 213],
+[262, 212, 207, 208, 209, 210, 211, 213],
 /* 224 */
 /*!**********************************************!*\
   !*** ./~/history/lib/createMemoryHistory.js ***!
   \**********************************************/
-[269, 207, 208, 214],
+[270, 207, 208, 214],
 /* 225 */
 /*!**************************************!*\
   !*** ./~/history/lib/useBasename.js ***!
@@ -25069,12 +25070,12 @@
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/index.js ***!
   \*************************************/
-[266, 229, 231],
+[267, 229, 231],
 /* 229 */
 /*!*****************************************!*\
   !*** ./~/history/~/qs/lib/stringify.js ***!
   \*****************************************/
-[267, 230],
+[268, 230],
 /* 230 */
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/utils.js ***!
@@ -25084,7 +25085,7 @@
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/parse.js ***!
   \*************************************/
-[268, 230],
+[269, 230],
 /* 232 */
 /*!*********************************************!*\
   !*** ./~/history/lib/enableBeforeUnload.js ***!
@@ -25478,6 +25479,11 @@
 	                _reactRouter.Link,
 	                { to: '/modal', activeClassName: '-selected', className: 'menuitem' },
 	                'Modal'
+	              ),
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
+	                { to: '/loaders', activeClassName: '-selected', className: 'menuitem' },
+	                'Loaders'
 	              ),
 	              _react2['default'].createElement(
 	                _reactRouter.Link,
@@ -28118,6 +28124,41 @@
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
+	            " Button with Loader "
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "doc-btn-group" },
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -default" },
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "tri-circle-loader" },
+	                _react2["default"].createElement("div", null),
+	                _react2["default"].createElement("div", null),
+	                _react2["default"].createElement("div", null)
+	              )
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -primary" },
+	              _react2["default"].createElement(
+	                "div",
+	                { className: "tri-circle-loader -light" },
+	                _react2["default"].createElement("div", null),
+	                _react2["default"].createElement("div", null),
+	                _react2["default"].createElement("div", null)
+	              )
+	            )
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
+	            "h3",
+	            { className: "doc-heading" },
 	            "Disabled"
 	          ),
 	          _react2["default"].createElement(
@@ -28161,7 +28202,7 @@
 	            _react2["default"].createElement(
 	              "button",
 	              { className: "btn -emerald" },
-	              "Button ",
+	              " Button ",
 	              _react2["default"].createElement("i", { className: "icon icon-user3" }),
 	              " "
 	            )
@@ -29612,6 +29653,31 @@
 	        ),
 	        _react2["default"].createElement(
 	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
+	            "h3",
+	            { className: "doc-heading" },
+	            " Loading Slate "
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "slate" },
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "tri-circle-loader" },
+	              _react2["default"].createElement("div", null),
+	              _react2["default"].createElement("div", null),
+	              _react2["default"].createElement("div", null)
+	            ),
+	            _react2["default"].createElement(
+	              "h3",
+	              null,
+	              " I am a Loading Slate "
+	            )
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
 	          { className: "doc-bottom-space" },
 	          _react2["default"].createElement(
 	            "h3",
@@ -29739,6 +29805,92 @@
 
 /***/ },
 /* 251 */
+/*!**********************************************!*\
+  !*** ./docs/sections/Docs-Loaders/index.jsx ***!
+  \**********************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var Loader = (function (_React$Component) {
+	  _inherits(Loader, _React$Component);
+	
+	  function Loader() {
+	    _classCallCheck(this, Loader);
+	
+	    _get(Object.getPrototypeOf(Loader.prototype), "constructor", this).apply(this, arguments);
+	  }
+	
+	  _createClass(Loader, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2["default"].createElement(
+	        "div",
+	        null,
+	        _react2["default"].createElement(
+	          "h1",
+	          { className: "doc-heading" },
+	          "Loaders"
+	        ),
+	        _react2["default"].createElement(
+	          "p",
+	          { className: "lead" },
+	          "Loaders are a great way to indicate that a process is still in progress."
+	        ),
+	        _react2["default"].createElement(
+	          "p",
+	          null,
+	          "Our loader is mainly inspired by ",
+	          _react2["default"].createElement(
+	            "a",
+	            { href: "https://heroku.com" },
+	            "Heroku"
+	          ),
+	          " and ",
+	          _react2["default"].createElement(
+	            "a",
+	            { href: "https://travis-ci.org" },
+	            "Travis CI"
+	          ),
+	          "."
+	        ),
+	        _react2["default"].createElement(
+	          "div",
+	          { className: "tri-circle-loader" },
+	          _react2["default"].createElement("div", null),
+	          _react2["default"].createElement("div", null),
+	          _react2["default"].createElement("div", null)
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return Loader;
+	})(_react2["default"].Component);
+	
+	exports["default"] = Loader;
+	module.exports = exports["default"];
+
+/***/ },
+/* 252 */
 /*!************************************************!*\
   !*** ./docs/sections/Docs-Utilities/index.jsx ***!
   \************************************************/
@@ -30182,7 +30334,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 252 */
+/* 253 */
 /*!***********************************************!*\
   !*** ./docs/sections/Docs-Dropdown/index.jsx ***!
   \***********************************************/
@@ -30208,7 +30360,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _scriptsComponentsDropdown = __webpack_require__(/*! ../../../scripts/components/Dropdown */ 253);
+	var _scriptsComponentsDropdown = __webpack_require__(/*! ../../../scripts/components/Dropdown */ 254);
 	
 	var _scriptsComponentsDropdown2 = _interopRequireDefault(_scriptsComponentsDropdown);
 	
@@ -30565,7 +30717,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 253 */
+/* 254 */
 /*!***********************************************!*\
   !*** ./scripts/components/Dropdown/index.jsx ***!
   \***********************************************/
@@ -30593,11 +30745,11 @@
 	
 	var _reactDom = __webpack_require__(/*! react-dom */ 157);
 	
-	var _utils = __webpack_require__(/*! ./utils */ 254);
+	var _utils = __webpack_require__(/*! ./utils */ 255);
 	
 	var _utils2 = _interopRequireDefault(_utils);
 	
-	var _utilsDomUtils = __webpack_require__(/*! ../../utils/DomUtils */ 255);
+	var _utilsDomUtils = __webpack_require__(/*! ../../utils/DomUtils */ 256);
 	
 	var ESC_KEY = 27;
 	var DEFAULT_POSITION = {
@@ -30772,7 +30924,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 254 */
+/* 255 */
 /*!**********************************************!*\
   !*** ./scripts/components/Dropdown/utils.js ***!
   \**********************************************/
@@ -30868,7 +31020,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 255 */
+/* 256 */
 /*!***********************************!*\
   !*** ./scripts/utils/DomUtils.js ***!
   \***********************************/
@@ -30950,7 +31102,7 @@
 	}
 
 /***/ },
-/* 256 */
+/* 257 */
 /*!********************************************!*\
   !*** ./docs/sections/Docs-Modal/index.jsx ***!
   \********************************************/
@@ -30976,7 +31128,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _scriptsComponentsModal = __webpack_require__(/*! ../../../scripts/components/Modal */ 257);
+	var _scriptsComponentsModal = __webpack_require__(/*! ../../../scripts/components/Modal */ 258);
 	
 	var _scriptsComponentsModal2 = _interopRequireDefault(_scriptsComponentsModal);
 	
@@ -31066,7 +31218,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 257 */
+/* 258 */
 /*!********************************************!*\
   !*** ./scripts/components/Modal/index.jsx ***!
   \********************************************/
@@ -31094,7 +31246,7 @@
 	
 	var _reactDom = __webpack_require__(/*! react-dom */ 157);
 	
-	var _utilsDomUtils = __webpack_require__(/*! ../../utils/DomUtils */ 255);
+	var _utilsDomUtils = __webpack_require__(/*! ../../utils/DomUtils */ 256);
 	
 	var MODAL_BODY_CLASS = 'modal-body';
 	var MODAL_BACKDROP_CLASS = 'modal-backdrop';
@@ -31221,7 +31373,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 258 */
+/* 259 */
 /*!*********************************************!*\
   !*** ./docs/sections/Docs-Colors/index.jsx ***!
   \*********************************************/
@@ -31322,7 +31474,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 259 */
+/* 260 */
 /*!********************************************!*\
   !*** ./docs/sections/Docs-Steps/index.jsx ***!
   \********************************************/
@@ -31422,7 +31574,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 260 */
+/* 261 */
 /*!*************************************************!*\
   !*** ./docs/sections/Docs-Guidelines/index.jsx ***!
   \*************************************************/
@@ -31638,7 +31790,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 261 */
+/* 262 */
 /*!************************************!*\
   !*** template of 162 referencing  ***!
   \************************************/
@@ -31880,7 +32032,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 262 */
+/* 263 */
 /*!************************************!*\
   !*** template of 168 referencing  ***!
   \************************************/
@@ -31938,7 +32090,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 263 */
+/* 264 */
 /*!************************************!*\
   !*** template of 170 referencing  ***!
   \************************************/
@@ -32039,7 +32191,7 @@
 	}
 
 /***/ },
-/* 264 */
+/* 265 */
 /*!************************************!*\
   !*** template of 174 referencing  ***!
   \************************************/
@@ -32073,7 +32225,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 265 */
+/* 266 */
 /*!************************************!*\
   !*** template of 175 referencing  ***!
   \************************************/
@@ -32102,7 +32254,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 266 */
+/* 267 */
 /*!************************************!*\
   !*** template of 182 referencing  ***!
   \************************************/
@@ -32125,7 +32277,7 @@
 	};
 
 /***/ },
-/* 267 */
+/* 268 */
 /*!************************************!*\
   !*** template of 183 referencing  ***!
   \************************************/
@@ -32243,7 +32395,7 @@
 	};
 
 /***/ },
-/* 268 */
+/* 269 */
 /*!************************************!*\
   !*** template of 185 referencing  ***!
   \************************************/
@@ -32421,7 +32573,7 @@
 	};
 
 /***/ },
-/* 269 */
+/* 270 */
 /*!************************************!*\
   !*** template of 203 referencing  ***!
   \************************************/
