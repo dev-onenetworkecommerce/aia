@@ -5451,6 +5451,19 @@ a {
 .form-group .form-control:focus + .message {
   visibility: visible; }
 
+.form-group .form-control + .message.-top {
+  bottom: 40px;
+  top: -40px; }
+
+.form-group .form-control + .message.-top:after {
+  top: 100%;
+  border-top: 8px solid #F05F50;
+  border-bottom: none; }
+
+.form-group .form-control:hover + .message.-top,
+.form-group .form-control:focus + .message.-top {
+  visibility: visible; }
+
 select.form-control {
   height: 34px; }
 
@@ -6022,9 +6035,9 @@ hr {
   .dropdown > .menu {
     position: relative;
     padding: 6px 0;
-    min-width: 140px;
+    min-width: 160px;
     font-size: 14px;
-    background: #fff;
+    background-color: #fff;
     border: 1px solid #F0F0F0;
     border-radius: 3px;
     box-shadow: 0 0 5px #F0F0F0; }
@@ -6063,6 +6076,13 @@ hr {
     height: 1px;
     margin: 6px 0;
     background-color: #F0F0F0; }
+  .dropdown > .menu > a .badge {
+    float: right;
+    background-color: #3A569B;
+    color: #fff; }
+  .dropdown > .menu > a:hover .badge {
+    background-color: #fff;
+    color: #3A569B; }
   .dropdown.-right > .menu::before {
     left: initial;
     right: 10px; }
@@ -6140,5 +6160,44 @@ body.modal-body {
     margin-bottom: 1.5rem; }
   .slate > *:last-child {
     margin-bottom: 0; }
+  .slate > .tri-circle-loader {
+    margin-bottom: 1.5rem; }
+
+.tri-circle-loader.-light > div {
+  background: #fff; }
+.tri-circle-loader.-sky > div {
+  background: #52B5E5; }
+.tri-circle-loader.-emerald > div {
+  background: #38D4A9; }
+.tri-circle-loader.-sun > div {
+  background: #FFC05A; }
+.tri-circle-loader.-crimson > div {
+  background: #F05F50; }
+.tri-circle-loader > div {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #4A4A4A;
+  border-radius: 100%;
+  animation: fadeDelay 1.4s infinite ease-in-out;
+  animation-fill-mode: both; }
+.tri-circle-loader > div:not(:last-child) {
+  margin-right: 2px; }
+.tri-circle-loader > div:first-child {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s; }
+.tri-circle-loader > div:nth-child(2) {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s; }
+.tri-circle-loader > div:last-child {
+  -webkit-animation-delay: -0.08s;
+  animation-delay: -0.08s; }
+@keyframes fadeDelay {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 /*# sourceMappingURL=aia.css.map */
