@@ -12,3 +12,11 @@ body {
   line-height: $line-height-base;
   @include proxima;
 }
+
+hr {
+  // @TODO
+  // Add margin for `hr`;
+  // tho, we can just add the utility class "_spacer"
+  border: 0;
+  border-top: 1px solid $brand-gray;
+}
