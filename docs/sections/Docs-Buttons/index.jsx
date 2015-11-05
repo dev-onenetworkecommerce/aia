@@ -11,6 +11,7 @@ export default class Buttons extends React.Component {
 
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Variants</h3>
+          <p>Variants such as <code>.-defualt</code>, <code>.-primary</code>, <code>.-sky</code>, <code>.-emerald</code>, <code>.-sun</code>, <code>.-crimson</code> or <code>.-link</code>. Depends on your need.</p>
           <div className="doc-btn-group">
             <button className="btn -default">Default</button>
             <button className="btn -primary">Primary</button>
@@ -24,18 +25,18 @@ export default class Buttons extends React.Component {
 
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Sizes</h3>
-          <p>Apply one of .-xs, .-small, .-large</p>
+          <p>Apply one of <code>.-xs</code>, <code>.-small,</code> or <code>.-large</code></p>
           <div className="doc-btn-group">
             <button className="btn -default -xs">Extra Small</button>
             <button className="btn -default -small">Small</button>
             <button className="btn -default">Default</button>
             <button className="btn -default -large">Large</button>
           </div>
-          
         </section>
 
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Inverted</h3>
+          <p>Simply use <code>.-inverted</code> to a button to make it appear no action.</p>
           <div className="doc-btn-group">
             <button className="btn -inverted -default">Button</button>
             <button className="btn -inverted -primary">Button</button>
@@ -48,13 +49,14 @@ export default class Buttons extends React.Component {
 
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Block buttons</h3>
-          <p>Make any button full-width by adding .btn-block. It adds width: 100%;, changes the display from inline-block to block, and centers the button text.</p>
+          <p>Make any button full-width by adding <code>.-block</code> to make it full-width in a block element with centered text.</p>
           <button className="btn -default -block doc-bottom-space">Block button</button>
           <button className="btn -default -small -block">Small block button</button>
         </section>
 
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Rounded Button</h3>
+          <p>Just add <code>.-rounded</code> to make the button rounded.</p>
           <div className="doc-btn-group">
             <button className="btn -default -rounded">Button</button>
             <button className="btn -sky -rounded">Button</button>
@@ -66,6 +68,7 @@ export default class Buttons extends React.Component {
 
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading"> Button with Loader </h3>
+          <p>Want your button itself serves as loading or progress indicator? Just create a div with class of <code>.tri-circle-loader</code> inside the button and add 3 empty divs inside that will serve as circles. You can also add <code>.-light</code> for a different variant.</p>
           <div className="doc-btn-group"> 
             <button className="btn -default"> 
               <div className="tri-circle-loader">
@@ -87,33 +90,35 @@ export default class Buttons extends React.Component {
 
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Disabled</h3>
+          <p>Make a button in disable state using <code>.-disable</code> modifier class.</p>
           <button className="btn -default -disabled">Button</button>
         </section>
 
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading">With Icons</h3>
-
+          <p>Can be done in icon only, icon with text, icon after text or icon in both left and right of text.</p>
           <div className="doc-btn-group">
-            <button className="btn -emerald"> <i className="icon icon-user3" /> </button>
-            <button className="btn -emerald"> <i className="icon icon-user3" /> Button </button>
-            <button className="btn -emerald">
+            <button className="btn -default"> <i className="icon icon-user3" /> </button>
+            <button className="btn -default"> <i className="icon icon-user3" /> Button </button>
+            <button className="btn -default"> Button <i className="icon icon-user3" /> </button>
+            <button className="btn -default">
               <i className="icon icon-user3" /> Button 
               <i className="icon icon-user3" />
             </button>
-
-            <button className="btn -emerald"> Button <i className="icon icon-user3" /> </button>
           </div>
 
+          <p>With Icon in different button variants.</p>
           <div className="doc-btn-group">
-            <button className="btn -xs -emerald"> <i className="icon icon-user3" /> Button </button>
-            <button className="btn -small -emerald"> <i className="icon icon-user3" /> Button </button>
-            <button className="btn -emerald"> <i className="icon icon-user3" /> Button </button>
-            <button className="btn -large -emerald"> <i className="icon icon-user3" /> Button </button>
+            <button className="btn -xs -default"> <i className="icon icon-user3" /> Button </button>
+            <button className="btn -small -default"> <i className="icon icon-user3" /> Button </button>
+            <button className="btn -default"> <i className="icon icon-user3" /> Button </button>
+            <button className="btn -large -default"> <i className="icon icon-user3" /> Button </button>
           </div>
         </section>
 
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Button Group</h3>
+          <p>Want to have a set of buttons that are attach to each other? Just simply wrap them in a <code>.btn-group</code> to give the button space from the other button</p>
           <section className="doc-bottom-space">
             <div className="btn-group">
               <button className="btn -default">Button</button>
