@@ -2,9 +2,8 @@
   padding: 8px 15px;
   list-style: none;
   color: $brand-gray;
-  font-size: $small;
 
-  li {
+  .item {
     position: relative;
     display: inline-block;
     margin: 0 25px;
@@ -15,15 +14,20 @@
     background: $brand-gray-lt;
     border-radius: 50%;
     border: 3px solid $brand-gray;
+    font-size: $small;
   }
 
-  li > a { 
+  .item > a { 
     color: $brand-gray-dk; 
     z-index: 1;
     text-decoration: none;
   }
 
-  li::before {
+  > .item > a > .icon {
+    padding: 8px 0;
+  }
+
+  .item::before {
     content: '';
     position: absolute;
     top: 20px;
@@ -34,17 +38,17 @@
     z-index: -1;
   }
 
-  li:first-child::before { display: none; }
+  .item:first-child::before { display: none; }
 
-  li.-active > a { color: $brand-white; }
-  li.-active::before,
-  li.-active { 
+  .item.-active > a { color: $brand-white; }
+  .item.-active::before,
+  .item.-active { 
     background: $brand-sky-dk; 
   }
 
-  li.-complete > a { color: $brand-white; }
-  li.-complete,
-  li.-complete:before { 
+  .item.-complete > a { color: $brand-white; }
+  .item.-complete,
+  .item.-complete:before { 
     background: $brand-emerald; 
   }
 }

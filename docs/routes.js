@@ -13,6 +13,7 @@ export default (
         <Route path="type" component={require('./sections/Docs-Type')} />
         <Route path="tables" component={require('./sections/Docs-Tables')} />
         <Route path="forms" component={require('./sections/Docs-Forms')} />
+        <Route path="breadcrumbs" component={require('./sections/Docs-Breadcrumbs')} />
         <Route path="icons" component={require('./sections/Docs-Icons')} />
         <Route path="alerts" component={require('./sections/Docs-Alerts')} />
         <Route path="buttons" component={require('./sections/Docs-Buttons')} />
@@ -26,7 +27,6 @@ export default (
         <Route path="dropdown" component={require('./sections/Docs-Dropdown')} />
         <Route path="modal" component={require('./sections/Docs-Modal')} />
         <Route path="colors" component={require('./sections/Docs-Colors')} />
-        <Route path="steps" component={require('./sections/Docs-Steps')} />
         <Route path="guidelines" component={require('./sections/Docs-Guidelines')} />
       </Route>
     </Route>
