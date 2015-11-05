@@ -5866,66 +5866,23 @@ hr {
   padding: 8px 15px;
   list-style: none;
   color: #C4C4C4; }
-  .breadcrumb > .plain.-active > a {
+  .breadcrumb > li.active > a {
     color: #4A4A4A; }
-  .breadcrumb > .plain {
+  .breadcrumb > li {
     display: inline-block;
     font-size: 12px; }
-  .breadcrumb > .plain + .plain:before {
+  .breadcrumb > li + li:before {
     padding: 0 5px;
     content: "/\00a0"; }
-  .breadcrumb > .plain > a {
+  .breadcrumb > li > a {
     color: #C4C4C4;
     text-decoration: none; }
-  .breadcrumb .item {
-    position: relative;
-    display: inline-block;
-    margin: 0 25px;
-    width: 50px;
-    height: 50px;
-    padding: 2px 10px;
-    text-align: center;
-    background: #F0F0F0;
-    border-radius: 50%;
-    border: 3px solid #C4C4C4;
-    font-size: 24px; }
-  .breadcrumb .item > a {
-    color: #78828A;
-    z-index: 1;
-    text-decoration: none; }
-  .breadcrumb > .item > a > .icon {
-    padding: 8px 0; }
-  .breadcrumb .item::before {
-    content: '';
-    position: absolute;
-    top: 20px;
-    right: 5px;
-    width: 100px;
-    height: 5px;
-    background: #C4C4C4;
-    z-index: -1; }
-  .breadcrumb .item:first-child {
-    margin-left: 0; }
-  .breadcrumb .item:last-child {
-    margin-right: 0; }
-  .breadcrumb .item:first-child::before {
-    display: none; }
-  .breadcrumb .item.-active > a {
-    color: #fff; }
-  .breadcrumb .item.-active::before,
-  .breadcrumb .item.-active {
-    background: #4684BF; }
-  .breadcrumb .item.-complete > a {
-    color: #fff; }
-  .breadcrumb .item.-complete,
-  .breadcrumb .item.-complete:before {
-    background: #38D4A9; }
 
 .steps {
   padding: 8px 15px;
   list-style: none;
   color: #C4C4C4; }
-  .steps .item {
+  .steps li {
     position: relative;
     display: inline-block;
     margin: 0 25px;
@@ -5937,13 +5894,13 @@ hr {
     border-radius: 50%;
     border: 3px solid #C4C4C4;
     font-size: 24px; }
-  .steps .item > a {
+  .steps li > a {
     color: #78828A;
     z-index: 1;
     text-decoration: none; }
-  .steps > .item > a > .icon {
+  .steps > li > a > .icon {
     padding: 8px 0; }
-  .steps .item::before {
+  .steps li::before {
     content: '';
     position: absolute;
     top: 20px;
@@ -5952,17 +5909,21 @@ hr {
     height: 5px;
     background: #C4C4C4;
     z-index: -1; }
-  .steps .item:first-child::before {
+  .steps li:first-child {
+    margin-left: 0; }
+  .steps li:last-child {
+    margin-right: 0; }
+  .steps li:first-child::before {
     display: none; }
-  .steps .item.-active > a {
+  .steps .active > a {
     color: #fff; }
-  .steps .item.-active::before,
-  .steps .item.-active {
+  .steps .active::before,
+  .steps .active {
     background: #4684BF; }
-  .steps .item.-complete > a {
+  .steps .complete > a {
     color: #fff; }
-  .steps .item.-complete,
-  .steps .item.-complete:before {
+  .steps .complete,
+  .steps .complete:before {
     background: #38D4A9; }
 
 .list-group {

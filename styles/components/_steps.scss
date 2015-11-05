@@ -3,7 +3,7 @@
   list-style: none;
   color: $brand-gray;
 
-  .item {
+  li {
     position: relative;
     display: inline-block;
     margin: 0 25px;
@@ -17,17 +17,17 @@
     font-size: $small;
   }
 
-  .item > a { 
+  li > a { 
     color: $brand-gray-dk; 
     z-index: 1;
     text-decoration: none;
   }
 
-  > .item > a > .icon {
+  > li > a > .icon {
     padding: 8px 0;
   }
 
-  .item::before {
+  li::before {
     content: '';
     position: absolute;
     top: 20px;
@@ -38,17 +38,19 @@
     z-index: -1;
   }
 
-  .item:first-child::before { display: none; }
+  li:first-child { margin-left: 0; }
+  li:last-child { margin-right: 0; }
+  li:first-child::before { display: none; }
 
-  .item.-active > a { color: $brand-white; }
-  .item.-active::before,
-  .item.-active { 
+  .active > a { color: $brand-white; }
+  .active::before,
+  .active { 
     background: $brand-sky-dk; 
   }
 
-  .item.-complete > a { color: $brand-white; }
-  .item.-complete,
-  .item.-complete:before { 
+  .complete > a { color: $brand-white; }
+  .complete,
+  .complete:before { 
     background: $brand-emerald; 
   }
 }
