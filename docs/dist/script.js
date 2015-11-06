@@ -26333,6 +26333,20 @@
 	          _react2["default"].createElement(
 	            "h1",
 	            null,
+	            " Link "
+	          ),
+	          _react2["default"].createElement(
+	            "a",
+	            { href: "javascript:void(0)" },
+	            " Look, look! I'm a link. "
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
+	            "h1",
+	            null,
 	            "Lead"
 	          ),
 	          _react2["default"].createElement(
