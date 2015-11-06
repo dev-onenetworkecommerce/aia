@@ -5862,11 +5862,26 @@ hr {
     color: #fff;
     background-color: #F05F50; }
 
-.steps {
+.breadcrumb {
   padding: 8px 15px;
   list-style: none;
-  color: #C4C4C4;
-  font-size: 24px; }
+  color: #C4C4C4; }
+  .breadcrumb > li.active > a {
+    color: #4A4A4A; }
+  .breadcrumb > li {
+    display: inline-block;
+    font-size: 12px; }
+  .breadcrumb > li + li:before {
+    padding: 0 5px;
+    content: "/\00a0"; }
+  .breadcrumb > li > a {
+    color: #C4C4C4;
+    text-decoration: none; }
+
+.steps {
+  padding: 0;
+  list-style: none;
+  color: #C4C4C4; }
   .steps li {
     position: relative;
     display: inline-block;
@@ -5877,11 +5892,14 @@ hr {
     text-align: center;
     background: #F0F0F0;
     border-radius: 50%;
-    border: 3px solid #C4C4C4; }
+    border: 3px solid #C4C4C4;
+    font-size: 24px; }
   .steps li > a {
     color: #78828A;
     z-index: 1;
     text-decoration: none; }
+  .steps > li > a > .icon {
+    padding: 8px 0; }
   .steps li::before {
     content: '';
     position: absolute;
@@ -5891,17 +5909,21 @@ hr {
     height: 5px;
     background: #C4C4C4;
     z-index: -1; }
+  .steps li:first-child {
+    margin-left: 0; }
+  .steps li:last-child {
+    margin-right: 0; }
   .steps li:first-child::before {
     display: none; }
-  .steps li.-active > a {
+  .steps .active > a {
     color: #fff; }
-  .steps li.-active::before,
-  .steps li.-active {
+  .steps .active::before,
+  .steps .active {
     background: #4684BF; }
-  .steps li.-complete > a {
+  .steps .complete > a {
     color: #fff; }
-  .steps li.-complete,
-  .steps li.-complete:before {
+  .steps .complete,
+  .steps .complete:before {
     background: #38D4A9; }
 
 .list-group {
