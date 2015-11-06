@@ -26337,8 +26337,8 @@
 	          ),
 	          _react2["default"].createElement(
 	            "a",
-	            { href: "/#/type" },
-	            " Redirect me to Something "
+	            { href: "javascript:void(0)" },
+	            " Look, look! I'm a link. "
 	          )
 	        ),
 	        _react2["default"].createElement(

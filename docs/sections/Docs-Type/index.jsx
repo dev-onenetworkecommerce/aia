@@ -25,7 +25,7 @@ export default class Type extends React.Component {
 
         <section className="doc-bottom-space-large">
           <h1> Link </h1>
-          <a href="/#/type"> Redirect me to Something </a>
+          <a href="javascript:void(0)"> Look, look! I'm a link. </a>
         </section>
 
         <section className="doc-bottom-space-large">
