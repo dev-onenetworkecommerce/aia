@@ -1,8 +1,7 @@
 .steps {
-  padding: 8px 15px;
+  padding: 0;
   list-style: none;
   color: $brand-gray;
-  font-size: $small;
 
   li {
     position: relative;
@@ -15,12 +14,17 @@
     background: $brand-gray-lt;
     border-radius: 50%;
     border: 3px solid $brand-gray;
+    font-size: $small;
   }
 
   li > a { 
     color: $brand-gray-dk; 
     z-index: 1;
     text-decoration: none;
+  }
+
+  > li > a > .icon {
+    padding: 8px 0;
   }
 
   li::before {
@@ -34,17 +38,19 @@
     z-index: -1;
   }
 
+  li:first-child { margin-left: 0; }
+  li:last-child { margin-right: 0; }
   li:first-child::before { display: none; }
 
-  li.-active > a { color: $brand-white; }
-  li.-active::before,
-  li.-active { 
+  .active > a { color: $brand-white; }
+  .active::before,
+  .active { 
     background: $brand-sky-dk; 
   }
 
-  li.-complete > a { color: $brand-white; }
-  li.-complete,
-  li.-complete:before { 
+  .complete > a { color: $brand-white; }
+  .complete,
+  .complete:before { 
     background: $brand-emerald; 
   }
 }

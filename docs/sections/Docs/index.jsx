@@ -19,6 +19,7 @@ export default class Docs extends React.Component {
             <nav className="list-group _spacer" role="menu">
               <Link to="/icons" activeClassName="-selected" className="menuitem">Icons</Link>
               <Link to="/buttons" activeClassName="-selected" className="menuitem">Buttons</Link>
+              <Link to="/breadcrumbs" activeClassName="-selected" className="menuitem">Breadcrumbs</Link>
               <Link to="/nav" activeClassName="-selected" className="menuitem">Nav</Link>
               <Link to="/labels" activeClassName="-selected" className="menuitem">Labels</Link>
               <Link to="/alerts" activeClassName="-selected" className="menuitem">Alerts</Link>
@@ -28,7 +29,6 @@ export default class Docs extends React.Component {
               <Link to="/dropdown" activeClassName="-selected" className="menuitem">Dropdown</Link>
               <Link to="/modal" activeClassName="-selected" className="menuitem">Modal</Link>
               <Link to="/loaders" activeClassName="-selected" className="menuitem">Loaders</Link>
-              <Link to="/steps" activeClassName="-selected" className="menuitem">Steps</Link>
             </nav>
 
             <nav className="list-group _spacer-large" role="menu">

@@ -20148,6 +20148,7 @@
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'type', component: __webpack_require__(/*! ./sections/Docs-Type */ 240) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'tables', component: __webpack_require__(/*! ./sections/Docs-Tables */ 241) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'forms', component: __webpack_require__(/*! ./sections/Docs-Forms */ 242) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'breadcrumbs', component: __webpack_require__(/*! ./sections/Docs-Breadcrumbs */ 271) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'icons', component: __webpack_require__(/*! ./sections/Docs-Icons */ 243) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'alerts', component: __webpack_require__(/*! ./sections/Docs-Alerts */ 244) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'buttons', component: __webpack_require__(/*! ./sections/Docs-Buttons */ 245) }),
@@ -20161,7 +20162,6 @@
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'dropdown', component: __webpack_require__(/*! ./sections/Docs-Dropdown */ 253) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'modal', component: __webpack_require__(/*! ./sections/Docs-Modal */ 257) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'colors', component: __webpack_require__(/*! ./sections/Docs-Colors */ 259) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'steps', component: __webpack_require__(/*! ./sections/Docs-Steps */ 260) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'guidelines', component: __webpack_require__(/*! ./sections/Docs-Guidelines */ 261) })
 	    )
 	  )
@@ -25442,6 +25442,11 @@
 	              ),
 	              _react2['default'].createElement(
 	                _reactRouter.Link,
+	                { to: '/breadcrumbs', activeClassName: '-selected', className: 'menuitem' },
+	                'Breadcrumbs'
+	              ),
+	              _react2['default'].createElement(
+	                _reactRouter.Link,
 	                { to: '/nav', activeClassName: '-selected', className: 'menuitem' },
 	                'Nav'
 	              ),
@@ -25484,11 +25489,6 @@
 	                _reactRouter.Link,
 	                { to: '/loaders', activeClassName: '-selected', className: 'menuitem' },
 	                'Loaders'
-	              ),
-	              _react2['default'].createElement(
-	                _reactRouter.Link,
-	                { to: '/steps', activeClassName: '-selected', className: 'menuitem' },
-	                'Steps'
 	              )
 	            ),
 	            _react2['default'].createElement(
@@ -31629,106 +31629,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 260 */
-/*!********************************************!*\
-  !*** ./docs/sections/Docs-Steps/index.jsx ***!
-  \********************************************/
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
-	
-	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	
-	var _react = __webpack_require__(/*! react */ 1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var Steps = (function (_React$Component) {
-	  _inherits(Steps, _React$Component);
-	
-	  function Steps() {
-	    _classCallCheck(this, Steps);
-	
-	    _get(Object.getPrototypeOf(Steps.prototype), "constructor", this).apply(this, arguments);
-	  }
-	
-	  _createClass(Steps, [{
-	    key: "render",
-	    value: function render() {
-	      return _react2["default"].createElement(
-	        "ul",
-	        { className: "steps" },
-	        _react2["default"].createElement(
-	          "li",
-	          { className: "-complete" },
-	          " ",
-	          _react2["default"].createElement(
-	            "a",
-	            null,
-	            " ",
-	            _react2["default"].createElement("i", { className: "icon icon-checkmark" }),
-	            " "
-	          ),
-	          " "
-	        ),
-	        _react2["default"].createElement(
-	          "li",
-	          { className: "-complete" },
-	          " ",
-	          _react2["default"].createElement(
-	            "a",
-	            null,
-	            " ",
-	            _react2["default"].createElement("i", { className: "icon icon-checkmark" }),
-	            " "
-	          ),
-	          " "
-	        ),
-	        _react2["default"].createElement(
-	          "li",
-	          { className: "-active" },
-	          " ",
-	          _react2["default"].createElement(
-	            "a",
-	            null,
-	            " 3 "
-	          ),
-	          " "
-	        ),
-	        _react2["default"].createElement(
-	          "li",
-	          null,
-	          " ",
-	          _react2["default"].createElement(
-	            "a",
-	            null,
-	            " 4 "
-	          ),
-	          " "
-	        )
-	      );
-	    }
-	  }]);
-	
-	  return Steps;
-	})(_react2["default"].Component);
-	
-	exports["default"] = Steps;
-	module.exports = exports["default"];
-
-/***/ },
+/* 260 */,
 /* 261 */
 /*!*************************************************!*\
   !*** ./docs/sections/Docs-Guidelines/index.jsx ***!
@@ -32886,6 +32787,165 @@
 	
 	exports['default'] = createMemoryHistory;
 	module.exports = exports['default'];
+
+/***/ },
+/* 271 */
+/*!**************************************************!*\
+  !*** ./docs/sections/Docs-Breadcrumbs/index.jsx ***!
+  \**************************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var Breadcrumbs = (function (_React$Component) {
+	  _inherits(Breadcrumbs, _React$Component);
+	
+	  function Breadcrumbs() {
+	    _classCallCheck(this, Breadcrumbs);
+	
+	    _get(Object.getPrototypeOf(Breadcrumbs.prototype), "constructor", this).apply(this, arguments);
+	  }
+	
+	  _createClass(Breadcrumbs, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2["default"].createElement(
+	        "div",
+	        null,
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
+	            "h1",
+	            { className: "doc-heading" },
+	            " Breadcrumb "
+	          ),
+	          _react2["default"].createElement(
+	            "ol",
+	            { className: "breadcrumb" },
+	            _react2["default"].createElement(
+	              "li",
+	              null,
+	              " ",
+	              _react2["default"].createElement(
+	                "a",
+	                null,
+	                " Home "
+	              ),
+	              " "
+	            ),
+	            _react2["default"].createElement(
+	              "li",
+	              null,
+	              " ",
+	              _react2["default"].createElement(
+	                "a",
+	                null,
+	                " Profile "
+	              ),
+	              " "
+	            ),
+	            _react2["default"].createElement(
+	              "li",
+	              { className: "active" },
+	              " ",
+	              _react2["default"].createElement(
+	                "a",
+	                null,
+	                " Logout "
+	              ),
+	              " "
+	            )
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
+	            "h1",
+	            { className: "doc-heading" },
+	            " Steps Breadcrumb "
+	          ),
+	          _react2["default"].createElement(
+	            "ul",
+	            { className: "steps" },
+	            _react2["default"].createElement(
+	              "li",
+	              { className: "complete" },
+	              " ",
+	              _react2["default"].createElement(
+	                "a",
+	                null,
+	                " ",
+	                _react2["default"].createElement("i", { className: "icon icon-checkmark" }),
+	                " "
+	              ),
+	              " "
+	            ),
+	            _react2["default"].createElement(
+	              "li",
+	              { className: "complete" },
+	              " ",
+	              _react2["default"].createElement(
+	                "a",
+	                null,
+	                " ",
+	                _react2["default"].createElement("i", { className: "icon icon-checkmark" }),
+	                " "
+	              ),
+	              " "
+	            ),
+	            _react2["default"].createElement(
+	              "li",
+	              { className: "active" },
+	              " ",
+	              _react2["default"].createElement(
+	                "a",
+	                null,
+	                " 3 "
+	              ),
+	              " "
+	            ),
+	            _react2["default"].createElement(
+	              "li",
+	              null,
+	              " ",
+	              _react2["default"].createElement(
+	                "a",
+	                null,
+	                " 4 "
+	              ),
+	              " "
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return Breadcrumbs;
+	})(_react2["default"].Component);
+	
+	exports["default"] = Breadcrumbs;
+	module.exports = exports["default"];
 
 /***/ }
 /******/ ])));
