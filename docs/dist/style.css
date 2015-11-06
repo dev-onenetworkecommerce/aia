@@ -5879,7 +5879,7 @@ hr {
     text-decoration: none; }
 
 .steps {
-  padding: 8px 15px;
+  padding: 0;
   list-style: none;
   color: #C4C4C4; }
   .steps li {
