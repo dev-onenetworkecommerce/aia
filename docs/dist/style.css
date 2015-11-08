@@ -5979,7 +5979,8 @@ hr {
   .panel > .heading {
     padding: 10px 15px;
     border-top-left-radius: 3px;
-    border-top-right-radius: 3px; }
+    border-top-right-radius: 3px;
+    border-bottom: 1px solid #C4C4C4; }
   .panel > .heading > * {
     margin-bottom: 0; }
   .panel > .body {

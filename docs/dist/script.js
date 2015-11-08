@@ -29161,11 +29161,16 @@
 	          ),
 	          _react2["default"].createElement(
 	            "div",
-	            { className: "panel -default" },
+	            { className: "panel" },
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "heading" },
+	              "Heading"
+	            ),
 	            _react2["default"].createElement(
 	              "div",
 	              { className: "body" },
-	              "Basic Panel Example"
+	              "I'm the body!"
 	            )
 	          )
 	        ),

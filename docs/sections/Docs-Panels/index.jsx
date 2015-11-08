@@ -8,17 +8,18 @@ export default class Panels extends React.Component {
 
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Basic Panel</h3>
-          <div className="panel -default">
-            <div className="body">Basic Panel Example</div>
+          <div className="panel">
+            <div className="heading">Heading</div>
+            <div className="body">I'm the body!</div>
           </div>
         </section>
 
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading"> Panel With Consecutive Body </h3>
           <div className="panel -default">
-            <div className="body"> Basic Panel Example </div> 
-            <div className="body"> Basic Panel Example </div> 
-          </div> 
+            <div className="body"> Basic Panel Example </div>
+            <div className="body"> Basic Panel Example </div>
+          </div>
         </section>
 
         <section className="doc-bottom-space-large">
