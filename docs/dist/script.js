@@ -27223,11 +27223,6 @@
 	              "div",
 	              { className: "col-md-6" },
 	              _react2["default"].createElement(
-	                "h3",
-	                { className: "doc-heading" },
-	                "Form Elements"
-	              ),
-	              _react2["default"].createElement(
 	                "section",
 	                { className: "doc-bottom-space" },
 	                _react2["default"].createElement("textarea", { className: "form-control", defaultValue: "Text content here." })

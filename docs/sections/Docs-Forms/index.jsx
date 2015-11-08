@@ -10,7 +10,6 @@ export default class Forms extends React.Component {
         <section className="doc-bottom-space-large">
           <div className="row">
             <div className="col-md-6">
-              <h3 className="doc-heading">Form Elements</h3>
               <section className="doc-bottom-space">
                 <textarea className="form-control" defaultValue="Text content here." />
               </section>
