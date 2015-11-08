@@ -29152,13 +29152,13 @@
 	          "Panels"
 	        ),
 	        _react2["default"].createElement(
+	          "p",
+	          { className: "lead" },
+	          "These are useful to put an element in a box."
+	        ),
+	        _react2["default"].createElement(
 	          "section",
 	          { className: "doc-bottom-space-large" },
-	          _react2["default"].createElement(
-	            "h3",
-	            { className: "doc-heading" },
-	            "Basic Panel"
-	          ),
 	          _react2["default"].createElement(
 	            "div",
 	            { className: "panel" },

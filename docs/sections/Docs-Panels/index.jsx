@@ -5,9 +5,8 @@ export default class Panels extends React.Component {
     return (
       <div>
         <h1 className="doc-heading">Panels</h1>
-
+        <p className="lead">These are useful to put an element in a box.</p>
         <section className="doc-bottom-space-large">
-          <h3 className="doc-heading">Basic Panel</h3>
           <div className="panel">
             <div className="heading">Heading</div>
             <div className="body">I'm the body!</div>
