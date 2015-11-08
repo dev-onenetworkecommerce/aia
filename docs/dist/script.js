@@ -26138,14 +26138,15 @@
 	              "Centered"
 	            ),
 	            _react2["default"].createElement(
-	              "div",
-	              { className: "alert -sun _spacer" },
-	              "Previously as .centered. The .centered class will be deprecated in the future for ._centered."
-	            ),
-	            _react2["default"].createElement(
 	              "p",
 	              null,
-	              "Columns can be centered by adding ._centered to the .column class."
+	              "Columns can be centered by adding ",
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                "._centered"
+	              ),
+	              " to the column class."
 	            ),
 	            _react2["default"].createElement(
 	              "div",
