@@ -72,7 +72,7 @@ export default class Forms extends React.Component {
 
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Form Error</h3>
-          <p>To apply, .message</p>
+          <p className="lead">You may present form errors with a tooltip-like presentation.</p>
           <section className="doc-bottom-space">
             <div className="form-group">
               <input className="form-control -crimson" type="text" placeholder="Enter something.." />
@@ -80,8 +80,9 @@ export default class Forms extends React.Component {
             </div>
           </section>
 
-          <p>Places the message above, useful for when an overlapping element is expected (such as date picker).</p>
-          <section className="doc-bottom-space">
+          <section>
+            <h3 className="doc-heading">Top-positioned message</h3>
+            <p>Places the message above the input, useful when an overlapping element is expected to display below (such as date picker).</p>
             <div className="form-group">
               <input className="form-control -crimson" type="text" placeholder="Enter something.." />
               <div className="message -top">Error invalid something..</div>

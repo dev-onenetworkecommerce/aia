@@ -27339,8 +27339,8 @@
 	          ),
 	          _react2["default"].createElement(
 	            "p",
-	            null,
-	            "To apply, .message"
+	            { className: "lead" },
+	            "You may present form errors with a tooltip-like presentation."
 	          ),
 	          _react2["default"].createElement(
 	            "section",
@@ -27357,13 +27357,18 @@
 	            )
 	          ),
 	          _react2["default"].createElement(
-	            "p",
-	            null,
-	            "Places the message above, useful for when an overlapping element is expected (such as date picker)."
-	          ),
-	          _react2["default"].createElement(
 	            "section",
-	            { className: "doc-bottom-space" },
+	            null,
+	            _react2["default"].createElement(
+	              "h3",
+	              { className: "doc-heading" },
+	              "Top-positioned message"
+	            ),
+	            _react2["default"].createElement(
+	              "p",
+	              null,
+	              "Places the message above the input, useful when an overlapping element is expected to display below (such as date picker)."
+	            ),
 	            _react2["default"].createElement(
 	              "div",
 	              { className: "form-group" },
