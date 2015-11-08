@@ -28048,25 +28048,27 @@
   \**********************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 	
-	Object.defineProperty(exports, "__esModule", {
+	Object.defineProperty(exports, '__esModule', {
 	  value: true
 	});
 	
-	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 	
-	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
 	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 	
 	var _react = __webpack_require__(/*! react */ 1);
 	
 	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRouter = __webpack_require__(/*! react-router */ 159);
 	
 	var Buttons = (function (_React$Component) {
 	  _inherits(Buttons, _React$Component);
@@ -28074,852 +28076,846 @@
 	  function Buttons() {
 	    _classCallCheck(this, Buttons);
 	
-	    _get(Object.getPrototypeOf(Buttons.prototype), "constructor", this).apply(this, arguments);
+	    _get(Object.getPrototypeOf(Buttons.prototype), 'constructor', this).apply(this, arguments);
 	  }
 	
 	  _createClass(Buttons, [{
-	    key: "render",
+	    key: 'render',
 	    value: function render() {
-	      return _react2["default"].createElement(
-	        "div",
+	      return _react2['default'].createElement(
+	        'div',
 	        null,
-	        _react2["default"].createElement(
-	          "section",
-	          { className: "doc-bottom-space-large" },
-	          _react2["default"].createElement(
-	            "h1",
-	            { className: "doc-heading" },
-	            "Buttons"
+	        _react2['default'].createElement(
+	          'section',
+	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            'h1',
+	            { className: 'doc-heading' },
+	            'Buttons'
 	          ),
-	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn -default" },
-	            "Button"
+	          _react2['default'].createElement(
+	            'button',
+	            { className: 'btn -default' },
+	            'Button'
 	          )
 	        ),
-	        _react2["default"].createElement(
-	          "section",
-	          { className: "doc-bottom-space-large" },
-	          _react2["default"].createElement(
-	            "h3",
-	            { className: "doc-heading" },
-	            "Variants"
+	        _react2['default'].createElement(
+	          'section',
+	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            'h3',
+	            { className: 'doc-heading' },
+	            'Variants'
 	          ),
-	          _react2["default"].createElement(
-	            "p",
+	          _react2['default'].createElement(
+	            'p',
 	            null,
-	            "Variants such as ",
-	            _react2["default"].createElement(
-	              "code",
+	            'Variants such as ',
+	            _react2['default'].createElement(
+	              'code',
 	              null,
-	              ".-defualt"
+	              '.-defualt'
 	            ),
-	            ", ",
-	            _react2["default"].createElement(
-	              "code",
+	            ', ',
+	            _react2['default'].createElement(
+	              'code',
 	              null,
-	              ".-primary"
+	              '.-primary'
 	            ),
-	            ", ",
-	            _react2["default"].createElement(
-	              "code",
+	            ', ',
+	            _react2['default'].createElement(
+	              'code',
 	              null,
-	              ".-sky"
+	              '.-sky'
 	            ),
-	            ", ",
-	            _react2["default"].createElement(
-	              "code",
+	            ', ',
+	            _react2['default'].createElement(
+	              'code',
 	              null,
-	              ".-emerald"
+	              '.-emerald'
 	            ),
-	            ", ",
-	            _react2["default"].createElement(
-	              "code",
+	            ', ',
+	            _react2['default'].createElement(
+	              'code',
 	              null,
-	              ".-sun"
+	              '.-sun'
 	            ),
-	            ", ",
-	            _react2["default"].createElement(
-	              "code",
+	            ', ',
+	            _react2['default'].createElement(
+	              'code',
 	              null,
-	              ".-crimson"
+	              '.-crimson'
 	            ),
-	            " or ",
-	            _react2["default"].createElement(
-	              "code",
+	            ' or ',
+	            _react2['default'].createElement(
+	              'code',
 	              null,
-	              ".-link"
+	              '.-link'
 	            ),
-	            ". Depends on your need."
+	            '. Depends on your need.'
 	          ),
-	          _react2["default"].createElement(
-	            "div",
-	            { className: "doc-btn-group" },
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -default" },
-	              "Default"
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'doc-btn-group' },
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -default' },
+	              'Default'
 	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -primary" },
-	              "Primary"
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -primary' },
+	              'Primary'
 	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -sky" },
-	              "Sky"
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -sky' },
+	              'Sky'
 	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -emerald" },
-	              "Emerald"
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -emerald' },
+	              'Emerald'
 	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -sun" },
-	              "Sun"
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -sun' },
+	              'Sun'
 	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -crimson" },
-	              "Crimson"
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -crimson' },
+	              'Crimson'
 	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -link" },
-	              "Link"
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -link' },
+	              'Link'
 	            )
 	          )
 	        ),
-	        _react2["default"].createElement(
-	          "section",
-	          { className: "doc-bottom-space-large" },
-	          _react2["default"].createElement(
-	            "h3",
-	            { className: "doc-heading" },
-	            "Sizes"
+	        _react2['default'].createElement(
+	          'section',
+	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            'h3',
+	            { className: 'doc-heading' },
+	            'Sizes'
 	          ),
-	          _react2["default"].createElement(
-	            "p",
+	          _react2['default'].createElement(
+	            'p',
 	            null,
-	            "Apply one of ",
-	            _react2["default"].createElement(
-	              "code",
+	            'Apply one of ',
+	            _react2['default'].createElement(
+	              'code',
 	              null,
-	              ".-xs"
+	              '.-xs'
 	            ),
-	            ", ",
-	            _react2["default"].createElement(
-	              "code",
+	            ', ',
+	            _react2['default'].createElement(
+	              'code',
 	              null,
-	              ".-small,"
+	              '.-small,'
 	            ),
-	            " or ",
-	            _react2["default"].createElement(
-	              "code",
+	            ' or ',
+	            _react2['default'].createElement(
+	              'code',
 	              null,
-	              ".-large"
+	              '.-large'
 	            )
 	          ),
-	          _react2["default"].createElement(
-	            "div",
-	            { className: "doc-btn-group" },
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -default -xs" },
-	              "Extra Small"
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'doc-btn-group' },
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -default -xs' },
+	              'Extra Small'
 	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -default -small" },
-	              "Small"
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -default -small' },
+	              'Small'
 	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -default" },
-	              "Default"
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -default' },
+	              'Default'
 	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -default -large" },
-	              "Large"
-	            )
-	          )
-	        ),
-	        _react2["default"].createElement(
-	          "section",
-	          { className: "doc-bottom-space-large" },
-	          _react2["default"].createElement(
-	            "h3",
-	            { className: "doc-heading" },
-	            "Inverted"
-	          ),
-	          _react2["default"].createElement(
-	            "p",
-	            null,
-	            "Simply use ",
-	            _react2["default"].createElement(
-	              "code",
-	              null,
-	              ".-inverted"
-	            ),
-	            " to a button to make it appear no action."
-	          ),
-	          _react2["default"].createElement(
-	            "div",
-	            { className: "doc-btn-group" },
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -inverted -default" },
-	              "Button"
-	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -inverted -primary" },
-	              "Button"
-	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -inverted -sky" },
-	              "Button"
-	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -inverted -sun" },
-	              "Button"
-	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -inverted -crimson" },
-	              "Button"
-	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -inverted -emerald" },
-	              "Button"
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -default -large' },
+	              'Large'
 	            )
 	          )
 	        ),
-	        _react2["default"].createElement(
-	          "section",
-	          { className: "doc-bottom-space-large" },
-	          _react2["default"].createElement(
-	            "h3",
-	            { className: "doc-heading" },
-	            "Block buttons"
+	        _react2['default'].createElement(
+	          'section',
+	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            'h3',
+	            { className: 'doc-heading' },
+	            'Inverted'
 	          ),
-	          _react2["default"].createElement(
-	            "p",
+	          _react2['default'].createElement(
+	            'p',
 	            null,
-	            "Make any button full-width by adding ",
-	            _react2["default"].createElement(
-	              "code",
+	            'Simply use ',
+	            _react2['default'].createElement(
+	              'code',
 	              null,
-	              ".-block"
+	              '.-inverted'
 	            ),
-	            " to make it full-width in a block element with centered text."
+	            ' to a button to make it appear no action.'
 	          ),
-	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn -default -block doc-bottom-space" },
-	            "Block button"
-	          ),
-	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn -default -small -block" },
-	            "Small block button"
-	          )
-	        ),
-	        _react2["default"].createElement(
-	          "section",
-	          { className: "doc-bottom-space-large" },
-	          _react2["default"].createElement(
-	            "h3",
-	            { className: "doc-heading" },
-	            "Rounded Button"
-	          ),
-	          _react2["default"].createElement(
-	            "p",
-	            null,
-	            "Just add ",
-	            _react2["default"].createElement(
-	              "code",
-	              null,
-	              ".-rounded"
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'doc-btn-group' },
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -inverted -default' },
+	              'Button'
 	            ),
-	            " to make the button rounded."
-	          ),
-	          _react2["default"].createElement(
-	            "div",
-	            { className: "doc-btn-group" },
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -default -rounded" },
-	              "Button"
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -inverted -primary' },
+	              'Button'
 	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -sky -rounded" },
-	              "Button"
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -inverted -sky' },
+	              'Button'
 	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -emerald -rounded" },
-	              "Button"
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -inverted -sun' },
+	              'Button'
 	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -sun -rounded" },
-	              "Button"
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -inverted -crimson' },
+	              'Button'
 	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -crimson -rounded" },
-	              "Button"
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -inverted -emerald' },
+	              'Button'
 	            )
 	          )
 	        ),
-	        _react2["default"].createElement(
-	          "section",
-	          { className: "doc-bottom-space-large" },
-	          _react2["default"].createElement(
-	            "h3",
-	            { className: "doc-heading" },
-	            " Button with Loader "
+	        _react2['default'].createElement(
+	          'section',
+	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            'h3',
+	            { className: 'doc-heading' },
+	            'Block buttons'
 	          ),
-	          _react2["default"].createElement(
-	            "p",
+	          _react2['default'].createElement(
+	            'p',
 	            null,
-	            "Want your button itself serves as loading or progress indicator? Just create a div with class of ",
-	            _react2["default"].createElement(
-	              "code",
+	            'Make any button full-width by adding ',
+	            _react2['default'].createElement(
+	              'code',
 	              null,
-	              ".tri-circle-loader"
+	              '.-block'
 	            ),
-	            " inside the button and add 3 empty divs inside that will serve as circles. You can also add ",
-	            _react2["default"].createElement(
-	              "code",
-	              null,
-	              ".-light"
-	            ),
-	            " for a different variant."
+	            ' to make it full-width in a block element with centered text.'
 	          ),
-	          _react2["default"].createElement(
-	            "div",
-	            { className: "doc-btn-group" },
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -default" },
-	              _react2["default"].createElement(
-	                "div",
-	                { className: "tri-circle-loader" },
-	                _react2["default"].createElement("div", null),
-	                _react2["default"].createElement("div", null),
-	                _react2["default"].createElement("div", null)
+	          _react2['default'].createElement(
+	            'button',
+	            { className: 'btn -default -block doc-bottom-space' },
+	            'Block button'
+	          ),
+	          _react2['default'].createElement(
+	            'button',
+	            { className: 'btn -default -small -block' },
+	            'Small block button'
+	          )
+	        ),
+	        _react2['default'].createElement(
+	          'section',
+	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            'h3',
+	            { className: 'doc-heading' },
+	            'Rounded Button'
+	          ),
+	          _react2['default'].createElement(
+	            'p',
+	            null,
+	            'Just add ',
+	            _react2['default'].createElement(
+	              'code',
+	              null,
+	              '.-rounded'
+	            ),
+	            ' to make the button rounded.'
+	          ),
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'doc-btn-group' },
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -default -rounded' },
+	              'Button'
+	            ),
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -sky -rounded' },
+	              'Button'
+	            ),
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -emerald -rounded' },
+	              'Button'
+	            ),
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -sun -rounded' },
+	              'Button'
+	            ),
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -crimson -rounded' },
+	              'Button'
+	            )
+	          )
+	        ),
+	        _react2['default'].createElement(
+	          'section',
+	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            'h3',
+	            { className: 'doc-heading' },
+	            ' Button with Loader '
+	          ),
+	          _react2['default'].createElement(
+	            'p',
+	            null,
+	            'You can use our provided ',
+	            _react2['default'].createElement(
+	              _reactRouter.Link,
+	              { to: '/loaders' },
+	              'loader'
+	            ),
+	            ' inside the button.'
+	          ),
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'doc-btn-group' },
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -default' },
+	              _react2['default'].createElement(
+	                'div',
+	                { className: 'tri-circle-loader' },
+	                _react2['default'].createElement('div', null),
+	                _react2['default'].createElement('div', null),
+	                _react2['default'].createElement('div', null)
 	              )
 	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -primary" },
-	              _react2["default"].createElement(
-	                "div",
-	                { className: "tri-circle-loader -light" },
-	                _react2["default"].createElement("div", null),
-	                _react2["default"].createElement("div", null),
-	                _react2["default"].createElement("div", null)
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -primary' },
+	              _react2['default'].createElement(
+	                'div',
+	                { className: 'tri-circle-loader -light' },
+	                _react2['default'].createElement('div', null),
+	                _react2['default'].createElement('div', null),
+	                _react2['default'].createElement('div', null)
 	              )
 	            )
 	          )
 	        ),
-	        _react2["default"].createElement(
-	          "section",
-	          { className: "doc-bottom-space-large" },
-	          _react2["default"].createElement(
-	            "h3",
-	            { className: "doc-heading" },
-	            "Disabled"
+	        _react2['default'].createElement(
+	          'section',
+	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            'h3',
+	            { className: 'doc-heading' },
+	            'Disabled'
 	          ),
-	          _react2["default"].createElement(
-	            "p",
+	          _react2['default'].createElement(
+	            'p',
 	            null,
-	            "Make a button in disable state using ",
-	            _react2["default"].createElement(
-	              "code",
+	            'Make a button in disable state using ',
+	            _react2['default'].createElement(
+	              'code',
 	              null,
-	              ".-disable"
+	              '.-disable'
 	            ),
-	            " modifier class."
+	            ' modifier class.'
 	          ),
-	          _react2["default"].createElement(
-	            "button",
-	            { className: "btn -default -disabled" },
-	            "Button"
+	          _react2['default'].createElement(
+	            'button',
+	            { className: 'btn -default -disabled' },
+	            'Button'
 	          )
 	        ),
-	        _react2["default"].createElement(
-	          "section",
-	          { className: "doc-bottom-space-large" },
-	          _react2["default"].createElement(
-	            "h3",
-	            { className: "doc-heading" },
-	            "With Icons"
+	        _react2['default'].createElement(
+	          'section',
+	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            'h3',
+	            { className: 'doc-heading' },
+	            'With Icons'
 	          ),
-	          _react2["default"].createElement(
-	            "p",
+	          _react2['default'].createElement(
+	            'p',
 	            null,
-	            "Can be done in icon only, icon with text, icon after text or icon in both left and right of text."
+	            'Can be done in icon only, icon with text, icon after text or icon in both left and right of text.'
 	          ),
-	          _react2["default"].createElement(
-	            "div",
-	            { className: "doc-btn-group" },
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -default" },
-	              " ",
-	              _react2["default"].createElement("i", { className: "icon icon-user3" }),
-	              " "
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'doc-btn-group' },
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -default' },
+	              ' ',
+	              _react2['default'].createElement('i', { className: 'icon icon-user3' }),
+	              ' '
 	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -default" },
-	              " ",
-	              _react2["default"].createElement("i", { className: "icon icon-user3" }),
-	              " Button "
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -default' },
+	              ' ',
+	              _react2['default'].createElement('i', { className: 'icon icon-user3' }),
+	              ' Button '
 	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -default" },
-	              " Button ",
-	              _react2["default"].createElement("i", { className: "icon icon-user3" }),
-	              " "
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -default' },
+	              ' Button ',
+	              _react2['default'].createElement('i', { className: 'icon icon-user3' }),
+	              ' '
 	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -default" },
-	              _react2["default"].createElement("i", { className: "icon icon-user3" }),
-	              " Button",
-	              _react2["default"].createElement("i", { className: "icon icon-user3" })
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -default' },
+	              _react2['default'].createElement('i', { className: 'icon icon-user3' }),
+	              ' Button',
+	              _react2['default'].createElement('i', { className: 'icon icon-user3' })
 	            )
 	          ),
-	          _react2["default"].createElement(
-	            "p",
+	          _react2['default'].createElement(
+	            'p',
 	            null,
-	            "With Icon in different button variants."
+	            'With Icon in different button variants.'
 	          ),
-	          _react2["default"].createElement(
-	            "div",
-	            { className: "doc-btn-group" },
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -xs -default" },
-	              " ",
-	              _react2["default"].createElement("i", { className: "icon icon-user3" }),
-	              " Button "
+	          _react2['default'].createElement(
+	            'div',
+	            { className: 'doc-btn-group' },
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -xs -default' },
+	              ' ',
+	              _react2['default'].createElement('i', { className: 'icon icon-user3' }),
+	              ' Button '
 	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -small -default" },
-	              " ",
-	              _react2["default"].createElement("i", { className: "icon icon-user3" }),
-	              " Button "
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -small -default' },
+	              ' ',
+	              _react2['default'].createElement('i', { className: 'icon icon-user3' }),
+	              ' Button '
 	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -default" },
-	              " ",
-	              _react2["default"].createElement("i", { className: "icon icon-user3" }),
-	              " Button "
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -default' },
+	              ' ',
+	              _react2['default'].createElement('i', { className: 'icon icon-user3' }),
+	              ' Button '
 	            ),
-	            _react2["default"].createElement(
-	              "button",
-	              { className: "btn -large -default" },
-	              " ",
-	              _react2["default"].createElement("i", { className: "icon icon-user3" }),
-	              " Button "
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -large -default' },
+	              ' ',
+	              _react2['default'].createElement('i', { className: 'icon icon-user3' }),
+	              ' Button '
 	            )
 	          )
 	        ),
-	        _react2["default"].createElement(
-	          "section",
-	          { className: "doc-bottom-space-large" },
-	          _react2["default"].createElement(
-	            "h3",
-	            { className: "doc-heading" },
-	            "Button Group"
+	        _react2['default'].createElement(
+	          'section',
+	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            'h3',
+	            { className: 'doc-heading' },
+	            'Button Group'
 	          ),
-	          _react2["default"].createElement(
-	            "p",
+	          _react2['default'].createElement(
+	            'p',
 	            null,
-	            "Want to have a set of buttons that are attach to each other? Just simply wrap them in a ",
-	            _react2["default"].createElement(
-	              "code",
+	            'Want to have a set of buttons that are attach to each other? Just simply wrap them in a ',
+	            _react2['default'].createElement(
+	              'code',
 	              null,
-	              ".btn-group"
+	              '.btn-group'
 	            ),
-	            " to give the button space from the other button"
+	            ' to give the button space from the other button'
 	          ),
-	          _react2["default"].createElement(
-	            "section",
-	            { className: "doc-bottom-space" },
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "btn-group" },
-	              _react2["default"].createElement(
-	                "button",
-	                { className: "btn -default" },
-	                "Button"
+	          _react2['default'].createElement(
+	            'section',
+	            { className: 'doc-bottom-space' },
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'btn-group' },
+	              _react2['default'].createElement(
+	                'button',
+	                { className: 'btn -default' },
+	                'Button'
 	              ),
-	              _react2["default"].createElement(
-	                "button",
-	                { className: "btn -default" },
-	                "Button"
+	              _react2['default'].createElement(
+	                'button',
+	                { className: 'btn -default' },
+	                'Button'
 	              ),
-	              _react2["default"].createElement(
-	                "button",
-	                { className: "btn -default" },
-	                "Button"
+	              _react2['default'].createElement(
+	                'button',
+	                { className: 'btn -default' },
+	                'Button'
 	              )
 	            )
 	          ),
-	          _react2["default"].createElement(
-	            "section",
-	            { className: "doc-bottom-space" },
-	            _react2["default"].createElement(
-	              "h3",
-	              { className: "doc-heading" },
-	              "Rounded Button Group"
+	          _react2['default'].createElement(
+	            'section',
+	            { className: 'doc-bottom-space' },
+	            _react2['default'].createElement(
+	              'h3',
+	              { className: 'doc-heading' },
+	              'Rounded Button Group'
 	            ),
-	            _react2["default"].createElement(
-	              "p",
+	            _react2['default'].createElement(
+	              'p',
 	              null,
-	              "Simply add the ",
-	              _react2["default"].createElement(
-	                "code",
+	              'Simply add the ',
+	              _react2['default'].createElement(
+	                'code',
 	                null,
-	                ".-rounded"
+	                '.-rounded'
 	              ),
-	              " modifier class to ",
-	              _react2["default"].createElement(
-	                "code",
+	              ' modifier class to ',
+	              _react2['default'].createElement(
+	                'code',
 	                null,
-	                ".btn-group"
+	                '.btn-group'
 	              ),
-	              "."
+	              '.'
 	            ),
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "btn-group -rounded" },
-	              _react2["default"].createElement(
-	                "button",
-	                { className: "btn -default" },
-	                "Button"
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'btn-group -rounded' },
+	              _react2['default'].createElement(
+	                'button',
+	                { className: 'btn -default' },
+	                'Button'
 	              ),
-	              _react2["default"].createElement(
-	                "button",
-	                { className: "btn -default" },
-	                "Button"
+	              _react2['default'].createElement(
+	                'button',
+	                { className: 'btn -default' },
+	                'Button'
 	              ),
-	              _react2["default"].createElement(
-	                "button",
-	                { className: "btn -default" },
-	                "Button"
+	              _react2['default'].createElement(
+	                'button',
+	                { className: 'btn -default' },
+	                'Button'
 	              )
 	            )
 	          ),
-	          _react2["default"].createElement(
-	            "section",
+	          _react2['default'].createElement(
+	            'section',
 	            null,
-	            _react2["default"].createElement(
-	              "h3",
-	              { className: "doc-heading" },
-	              "Button Group Sizes"
+	            _react2['default'].createElement(
+	              'h3',
+	              { className: 'doc-heading' },
+	              'Button Group Sizes'
 	            ),
-	            _react2["default"].createElement(
-	              "p",
+	            _react2['default'].createElement(
+	              'p',
 	              null,
-	              "You may add the ",
-	              _react2["default"].createElement(
-	                "code",
+	              'You may add the ',
+	              _react2['default'].createElement(
+	                'code',
 	                null,
-	                ".-xs"
+	                '.-xs'
 	              ),
-	              " , ",
-	              _react2["default"].createElement(
-	                "code",
+	              ' , ',
+	              _react2['default'].createElement(
+	                'code',
 	                null,
-	                ".-small"
+	                '.-small'
 	              ),
-	              " or ",
-	              _react2["default"].createElement(
-	                "code",
+	              ' or ',
+	              _react2['default'].createElement(
+	                'code',
 	                null,
-	                ".-large"
+	                '.-large'
 	              ),
-	              " modifier class to ",
-	              _react2["default"].createElement(
-	                "code",
+	              ' modifier class to ',
+	              _react2['default'].createElement(
+	                'code',
 	                null,
-	                ".btn-group"
+	                '.btn-group'
 	              ),
-	              "."
+	              '.'
 	            ),
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "btn-group -xs" },
-	              _react2["default"].createElement(
-	                "button",
-	                { className: "btn -default" },
-	                "Extrasmall"
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'btn-group -xs' },
+	              _react2['default'].createElement(
+	                'button',
+	                { className: 'btn -default' },
+	                'Extrasmall'
 	              ),
-	              _react2["default"].createElement(
-	                "button",
-	                { className: "btn -default" },
-	                "Extrasmall"
+	              _react2['default'].createElement(
+	                'button',
+	                { className: 'btn -default' },
+	                'Extrasmall'
 	              ),
-	              _react2["default"].createElement(
-	                "button",
-	                { className: "btn -default" },
-	                "Extrasmall"
+	              _react2['default'].createElement(
+	                'button',
+	                { className: 'btn -default' },
+	                'Extrasmall'
 	              )
 	            ),
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "btn-group -small" },
-	              _react2["default"].createElement(
-	                "button",
-	                { className: "btn -default" },
-	                "Small"
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'btn-group -small' },
+	              _react2['default'].createElement(
+	                'button',
+	                { className: 'btn -default' },
+	                'Small'
 	              ),
-	              _react2["default"].createElement(
-	                "button",
-	                { className: "btn -default" },
-	                "Small"
+	              _react2['default'].createElement(
+	                'button',
+	                { className: 'btn -default' },
+	                'Small'
 	              ),
-	              _react2["default"].createElement(
-	                "button",
-	                { className: "btn -default" },
-	                "Small"
+	              _react2['default'].createElement(
+	                'button',
+	                { className: 'btn -default' },
+	                'Small'
 	              )
 	            ),
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "btn-group" },
-	              _react2["default"].createElement(
-	                "button",
-	                { className: "btn -default" },
-	                "Default"
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'btn-group' },
+	              _react2['default'].createElement(
+	                'button',
+	                { className: 'btn -default' },
+	                'Default'
 	              ),
-	              _react2["default"].createElement(
-	                "button",
-	                { className: "btn -default" },
-	                "Default"
+	              _react2['default'].createElement(
+	                'button',
+	                { className: 'btn -default' },
+	                'Default'
 	              ),
-	              _react2["default"].createElement(
-	                "button",
-	                { className: "btn -default" },
-	                "Default"
+	              _react2['default'].createElement(
+	                'button',
+	                { className: 'btn -default' },
+	                'Default'
 	              )
 	            ),
-	            _react2["default"].createElement(
-	              "section",
-	              { className: "doc-bottom-space" },
-	              _react2["default"].createElement(
-	                "div",
-	                { className: "btn-group -large" },
-	                _react2["default"].createElement(
-	                  "button",
-	                  { className: "btn -default" },
-	                  "Large"
+	            _react2['default'].createElement(
+	              'section',
+	              { className: 'doc-bottom-space' },
+	              _react2['default'].createElement(
+	                'div',
+	                { className: 'btn-group -large' },
+	                _react2['default'].createElement(
+	                  'button',
+	                  { className: 'btn -default' },
+	                  'Large'
 	                ),
-	                _react2["default"].createElement(
-	                  "button",
-	                  { className: "btn -default" },
-	                  "Large"
+	                _react2['default'].createElement(
+	                  'button',
+	                  { className: 'btn -default' },
+	                  'Large'
 	                ),
-	                _react2["default"].createElement(
-	                  "button",
-	                  { className: "btn -default" },
-	                  "Large"
+	                _react2['default'].createElement(
+	                  'button',
+	                  { className: 'btn -default' },
+	                  'Large'
 	                )
 	              )
 	            )
 	          )
 	        ),
-	        _react2["default"].createElement(
-	          "section",
+	        _react2['default'].createElement(
+	          'section',
 	          null,
-	          _react2["default"].createElement(
-	            "section",
-	            { className: "doc-bottom-space" },
-	            _react2["default"].createElement(
-	              "h1",
-	              { className: "doc-heading" },
-	              "Pagination"
+	          _react2['default'].createElement(
+	            'section',
+	            { className: 'doc-bottom-space' },
+	            _react2['default'].createElement(
+	              'h1',
+	              { className: 'doc-heading' },
+	              'Pagination'
 	            ),
-	            _react2["default"].createElement(
-	              "p",
-	              { className: "lead" },
-	              "These buttons are a bit different, written entirely for pagination."
+	            _react2['default'].createElement(
+	              'p',
+	              { className: 'lead' },
+	              'These buttons are a bit different, written entirely for pagination.'
 	            ),
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "pagination" },
-	              _react2["default"].createElement(
-	                "button",
-	                { className: "action" },
-	                "Previous"
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'pagination' },
+	              _react2['default'].createElement(
+	                'button',
+	                { className: 'action' },
+	                'Previous'
 	              ),
-	              _react2["default"].createElement(
-	                "div",
-	                { className: "pages" },
-	                _react2["default"].createElement(
-	                  "button",
-	                  { className: "page" },
-	                  "1"
+	              _react2['default'].createElement(
+	                'div',
+	                { className: 'pages' },
+	                _react2['default'].createElement(
+	                  'button',
+	                  { className: 'page' },
+	                  '1'
 	                ),
-	                _react2["default"].createElement(
-	                  "button",
-	                  { className: "page" },
-	                  "2"
+	                _react2['default'].createElement(
+	                  'button',
+	                  { className: 'page' },
+	                  '2'
 	                ),
-	                _react2["default"].createElement(
-	                  "button",
-	                  { className: "page" },
-	                  "3"
+	                _react2['default'].createElement(
+	                  'button',
+	                  { className: 'page' },
+	                  '3'
 	                ),
-	                _react2["default"].createElement(
-	                  "button",
-	                  { className: "page" },
-	                  "4"
+	                _react2['default'].createElement(
+	                  'button',
+	                  { className: 'page' },
+	                  '4'
 	                )
 	              ),
-	              _react2["default"].createElement(
-	                "button",
-	                { className: "action" },
-	                "Next"
+	              _react2['default'].createElement(
+	                'button',
+	                { className: 'action' },
+	                'Next'
 	              )
 	            )
 	          ),
-	          _react2["default"].createElement(
-	            "section",
-	            { className: "doc-bottom-space" },
-	            _react2["default"].createElement(
-	              "h3",
-	              { className: "doc-heading" },
-	              "Example: Active Page"
+	          _react2['default'].createElement(
+	            'section',
+	            { className: 'doc-bottom-space' },
+	            _react2['default'].createElement(
+	              'h3',
+	              { className: 'doc-heading' },
+	              'Example: Active Page'
 	            ),
-	            _react2["default"].createElement(
-	              "p",
+	            _react2['default'].createElement(
+	              'p',
 	              null,
-	              "Add ",
-	              _react2["default"].createElement(
-	                "code",
+	              'Add ',
+	              _react2['default'].createElement(
+	                'code',
 	                null,
-	                ".-active"
+	                '.-active'
 	              ),
-	              " modifier class to a page button."
+	              ' modifier class to a page button.'
 	            ),
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "pagination" },
-	              _react2["default"].createElement(
-	                "button",
-	                { className: "action" },
-	                "Previous"
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'pagination' },
+	              _react2['default'].createElement(
+	                'button',
+	                { className: 'action' },
+	                'Previous'
 	              ),
-	              _react2["default"].createElement(
-	                "div",
-	                { className: "pages" },
-	                _react2["default"].createElement(
-	                  "button",
-	                  { className: "page -active" },
-	                  "1"
+	              _react2['default'].createElement(
+	                'div',
+	                { className: 'pages' },
+	                _react2['default'].createElement(
+	                  'button',
+	                  { className: 'page -active' },
+	                  '1'
 	                ),
-	                _react2["default"].createElement(
-	                  "button",
-	                  { className: "page" },
-	                  "2"
+	                _react2['default'].createElement(
+	                  'button',
+	                  { className: 'page' },
+	                  '2'
 	                ),
-	                _react2["default"].createElement(
-	                  "button",
-	                  { className: "page" },
-	                  "3"
+	                _react2['default'].createElement(
+	                  'button',
+	                  { className: 'page' },
+	                  '3'
 	                ),
-	                _react2["default"].createElement(
-	                  "button",
-	                  { className: "page" },
-	                  "4"
+	                _react2['default'].createElement(
+	                  'button',
+	                  { className: 'page' },
+	                  '4'
 	                )
 	              ),
-	              _react2["default"].createElement(
-	                "button",
-	                { className: "action" },
-	                "Next"
+	              _react2['default'].createElement(
+	                'button',
+	                { className: 'action' },
+	                'Next'
 	              )
 	            )
 	          ),
-	          _react2["default"].createElement(
-	            "section",
-	            { className: "doc-bottom-space" },
-	            _react2["default"].createElement(
-	              "h3",
-	              { className: "doc-heading" },
-	              "Example: Disabled Actions"
+	          _react2['default'].createElement(
+	            'section',
+	            { className: 'doc-bottom-space' },
+	            _react2['default'].createElement(
+	              'h3',
+	              { className: 'doc-heading' },
+	              'Example: Disabled Actions'
 	            ),
-	            _react2["default"].createElement(
-	              "p",
+	            _react2['default'].createElement(
+	              'p',
 	              null,
-	              "At the moment, only the previous and next button can be disabled. Through the ",
-	              _react2["default"].createElement(
-	                "code",
+	              'At the moment, only the previous and next button can be disabled. Through the ',
+	              _react2['default'].createElement(
+	                'code',
 	                null,
-	                "disabled"
+	                'disabled'
 	              ),
-	              " attribute, or by adding the ",
-	              _react2["default"].createElement(
-	                "code",
+	              ' attribute, or by adding the ',
+	              _react2['default'].createElement(
+	                'code',
 	                null,
-	                ".-disabled "
+	                '.-disabled '
 	              ),
-	              " modifier class."
+	              ' modifier class.'
 	            ),
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "pagination" },
-	              _react2["default"].createElement(
-	                "button",
-	                { className: "action", disabled: true },
-	                "Previous"
+	            _react2['default'].createElement(
+	              'div',
+	              { className: 'pagination' },
+	              _react2['default'].createElement(
+	                'button',
+	                { className: 'action', disabled: true },
+	                'Previous'
 	              ),
-	              _react2["default"].createElement(
-	                "div",
-	                { className: "pages" },
-	                _react2["default"].createElement(
-	                  "button",
-	                  { className: "page" },
-	                  "1"
+	              _react2['default'].createElement(
+	                'div',
+	                { className: 'pages' },
+	                _react2['default'].createElement(
+	                  'button',
+	                  { className: 'page' },
+	                  '1'
 	                ),
-	                _react2["default"].createElement(
-	                  "button",
-	                  { className: "page" },
-	                  "2"
+	                _react2['default'].createElement(
+	                  'button',
+	                  { className: 'page' },
+	                  '2'
 	                ),
-	                _react2["default"].createElement(
-	                  "button",
-	                  { className: "page" },
-	                  "3"
+	                _react2['default'].createElement(
+	                  'button',
+	                  { className: 'page' },
+	                  '3'
 	                ),
-	                _react2["default"].createElement(
-	                  "button",
-	                  { className: "page" },
-	                  "4"
+	                _react2['default'].createElement(
+	                  'button',
+	                  { className: 'page' },
+	                  '4'
 	                )
 	              ),
-	              _react2["default"].createElement(
-	                "button",
-	                { className: "action", disabled: true },
-	                "Next"
+	              _react2['default'].createElement(
+	                'button',
+	                { className: 'action', disabled: true },
+	                'Next'
 	              )
 	            )
 	          )
@@ -28929,10 +28925,10 @@
 	  }]);
 	
 	  return Buttons;
-	})(_react2["default"].Component);
+	})(_react2['default'].Component);
 	
-	exports["default"] = Buttons;
-	module.exports = exports["default"];
+	exports['default'] = Buttons;
+	module.exports = exports['default'];
 
 /***/ },
 /* 247 */
@@ -30190,10 +30186,25 @@
 	        ),
 	        _react2["default"].createElement(
 	          "div",
-	          { className: "tri-circle-loader" },
-	          _react2["default"].createElement("div", null),
-	          _react2["default"].createElement("div", null),
-	          _react2["default"].createElement("div", null)
+	          { className: "doc-loader-panel" },
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "tri-circle-loader" },
+	            _react2["default"].createElement("div", null),
+	            _react2["default"].createElement("div", null),
+	            _react2["default"].createElement("div", null)
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "div",
+	          { className: "doc-loader-panel -dark" },
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "tri-circle-loader -light" },
+	            _react2["default"].createElement("div", null),
+	            _react2["default"].createElement("div", null),
+	            _react2["default"].createElement("div", null)
+	          )
 	        )
 	      );
 	    }

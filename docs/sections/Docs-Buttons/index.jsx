@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 export default class Buttons extends React.Component {
   render() {
@@ -68,9 +69,9 @@ export default class Buttons extends React.Component {
 
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading"> Button with Loader </h3>
-          <p>Want your button itself serves as loading or progress indicator? Just create a div with class of <code>.tri-circle-loader</code> inside the button and add 3 empty divs inside that will serve as circles. You can also add <code>.-light</code> for a different variant.</p>
-          <div className="doc-btn-group"> 
-            <button className="btn -default"> 
+          <p>You can use our provided <Link to="/loaders">loader</Link> inside the button.</p>
+          <div className="doc-btn-group">
+            <button className="btn -default">
               <div className="tri-circle-loader">
                 <div />
                 <div />
@@ -102,7 +103,7 @@ export default class Buttons extends React.Component {
             <button className="btn -default"> <i className="icon icon-user3" /> Button </button>
             <button className="btn -default"> Button <i className="icon icon-user3" /> </button>
             <button className="btn -default">
-              <i className="icon icon-user3" /> Button 
+              <i className="icon icon-user3" /> Button
               <i className="icon icon-user3" />
             </button>
           </div>

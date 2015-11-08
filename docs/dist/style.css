@@ -6350,6 +6350,16 @@ code {
     font-size: 40px;
     margin-bottom: 10px; }
 
+.doc-loader-panel {
+  display: inline-block;
+  padding: 10px 15px;
+  background: #F0F0F0;
+  border-radius: 3px; }
+  .doc-loader-panel.-dark {
+    background: #4A4A4A; }
+  .doc-loader-panel + .doc-loader-panel {
+    margin-left: 10px; }
+
 .responsive-mixins-box {
   width: 100px;
   height: 100px;
