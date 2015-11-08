@@ -56,7 +56,7 @@ npm run docs:watch:style
 Big thanks to our main contributors:
 - [Jef Mari (jefmari)](https://github.com/jefmari)
 - [Justin Lazaro (juztinlazaro)](https://github.com/juztinlazaro)
-- [Jess Vista (jessvista)](https://github.com/vistajess)
+- [Jess Vista (vistajess)](https://github.com/vistajess)
 - [Brian Bodollo (maebe22)](https://github.com/maebe22)
 - [Kier Borromeo (srph)](https://github.com/srph)
 - [Fleener Lemon Dela Cruz `DESIGNER`](https://www.behance.net/fleenerlemon)
