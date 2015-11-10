@@ -12,7 +12,7 @@
   padding: 7px 8px;
   vertical-align: middle;
   background-color: $brand-white;
-  border: 1px solid $brand-black;
+  border: 1px solid $brand-gray;
   border-radius: $border-radius-base;
   outline: none;
 
@@ -169,5 +169,10 @@ label {
 
   > .addon.-btn {
     padding: 0;
+  }
+
+  > .addon.-btn > .btn {
+    border-radius: 2px;
+    margin-right: -0.5px;
   }
 }
