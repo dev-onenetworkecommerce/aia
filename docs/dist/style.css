@@ -5887,45 +5887,43 @@ hr {
     position: relative;
     display: inline-block;
     margin: 0 25px;
-    width: 50px;
-    height: 50px;
-    padding: 2px 10px;
+    width: 40px;
+    height: 40px;
     text-align: center;
     background: #F0F0F0;
     border-radius: 50%;
-    border: 3px solid #C4C4C4;
-    font-size: 24px; }
+    border: 3px solid #C4C4C4; }
   .steps li > a {
     color: #78828A;
     z-index: 1;
     text-decoration: none; }
   .steps > li > a > .icon {
     padding: 8px 0; }
-  .steps li::before {
+  .steps li::after {
     content: '';
     position: absolute;
-    top: 20px;
-    right: 5px;
+    top: 15px;
+    left: 40px;
     width: 100px;
-    height: 5px;
+    height: 3px;
     background: #C4C4C4;
     z-index: -1; }
   .steps li:first-child {
     margin-left: 0; }
   .steps li:last-child {
     margin-right: 0; }
-  .steps li:first-child::before {
+  .steps li:last-child::after {
     display: none; }
-  .steps .active > a {
-    color: #fff; }
-  .steps .active::before,
-  .steps .active {
-    background: #4684BF; }
+  .steps .complete,
+  .steps .complete::after {
+    background: #38D4A9; }
   .steps .complete > a {
     color: #fff; }
-  .steps .complete,
-  .steps .complete:before {
-    background: #38D4A9; }
+  .steps .active,
+  .steps .active::after {
+    background: #4684BF; }
+  .steps .active > a {
+    color: #fff; }
 
 .list-group {
   background-color: #fff;
