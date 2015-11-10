@@ -5889,6 +5889,7 @@ hr {
     margin: 0 25px;
     width: 40px;
     height: 40px;
+    line-height: 40px;
     text-align: center;
     background: #F0F0F0;
     border-radius: 50%;
@@ -5897,13 +5898,10 @@ hr {
     color: #78828A;
     z-index: 1;
     text-decoration: none; }
-  .steps > li > a > .icon {
-    padding: 8px 0; }
   .steps li::after {
     content: '';
     position: absolute;
     top: 15px;
-    left: 40px;
     width: 100px;
     height: 3px;
     background: #C4C4C4;
