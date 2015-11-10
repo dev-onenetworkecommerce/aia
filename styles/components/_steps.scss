@@ -1,5 +1,6 @@
 .steps {
   padding: 0;
+  margin: 0;
   list-style: none;
   color: $brand-gray;
 
@@ -17,8 +18,8 @@
     font-size: $small;
   }
 
-  li > a { 
-    color: $brand-gray-dk; 
+  li > a {
+    color: $brand-gray-dk;
     z-index: 1;
     text-decoration: none;
   }
@@ -44,13 +45,13 @@
 
   .active > a { color: $brand-white; }
   .active::before,
-  .active { 
-    background: $brand-sky-dk; 
+  .active {
+    background: $brand-sky-dk;
   }
 
   .complete > a { color: $brand-white; }
   .complete,
-  .complete:before { 
-    background: $brand-emerald; 
+  .complete:before {
+    background: $brand-emerald;
   }
 }

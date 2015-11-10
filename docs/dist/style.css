@@ -5880,6 +5880,7 @@ hr {
 
 .steps {
   padding: 0;
+  margin: 0;
   list-style: none;
   color: #C4C4C4; }
   .steps li {
