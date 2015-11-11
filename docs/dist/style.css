@@ -5646,6 +5646,9 @@ hr {
       color: #1873a0;
       text-decoration: underline;
       background: transparent; }
+    .btn.-link.-disabled, .btn.-link:disabled, .btn.-link.-disabled:hover, .btn.-link:disabled:hover {
+      background: transparent;
+      text-decoration: none; }
   .btn.-inverted.-default {
     background: transparent;
     color: #C4C4C4;
