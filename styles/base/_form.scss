@@ -7,10 +7,10 @@
 
 .form-control {
   display: block;
+  vertical-align: middle;
   width: 100%;
   min-height: 34px;
   padding: 7px 8px;
-  vertical-align: middle;
   background-color: $brand-white;
   border: 1px solid $brand-black;
   border-radius: $border-radius-base;
@@ -155,7 +155,7 @@ label {
     vertical-align: middle;
     padding: 0 8px;
     background: $brand-gray-lt;
-    border: 1px solid $brand-gray;
+    border: 1px solid $brand-black;
     border-radius: $border-radius-base;
   }
 
@@ -169,5 +169,10 @@ label {
 
   > .addon.-btn {
     padding: 0;
+  }
+
+  > .addon.-btn > .btn{
+    border-radius: 2px;
+    margin-right: -0.5px;
   }
 }

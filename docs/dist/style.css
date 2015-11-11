@@ -5400,10 +5400,10 @@ a {
 
 .form-control {
   display: block;
+  vertical-align: middle;
   width: 100%;
   min-height: 34px;
   padding: 7px 8px;
-  vertical-align: middle;
   background-color: #fff;
   border: 1px solid #4A4A4A;
   border-radius: 3px;
@@ -5509,7 +5509,7 @@ label {
     vertical-align: middle;
     padding: 0 8px;
     background: #F0F0F0;
-    border: 1px solid #C4C4C4;
+    border: 1px solid #4A4A4A;
     border-radius: 3px; }
   .input-group > .addon:first-child {
     border-right: 0; }
@@ -5517,6 +5517,9 @@ label {
     border-left: 0; }
   .input-group > .addon.-btn {
     padding: 0; }
+  .input-group > .addon.-btn > .btn {
+    border-radius: 2px;
+    margin-right: -0.5px; }
 
 /*
 <table class="table">
