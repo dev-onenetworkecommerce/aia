@@ -368,6 +368,8 @@ th {
   max-width: 100%;
   text-overflow: ellipsis;
   white-space: nowrap; }
+  ._ellipsis.-expander:hover {
+    max-width: 10000px !important; }
 
 ._no-spacer {
   margin-bottom: 0 !important; }

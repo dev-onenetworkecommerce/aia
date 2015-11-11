@@ -69,6 +69,10 @@
 
 ._ellipsis {
   @include text-ellipsis;
+
+  &.-expander:hover {
+    max-width: 10000px !important;
+  }
 }
 
 // Spacers
