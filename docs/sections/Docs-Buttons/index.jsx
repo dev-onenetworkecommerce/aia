@@ -7,12 +7,7 @@ export default class Buttons extends React.Component {
       <div>
         <section className="doc-bottom-space-large">
           <h1 className="doc-heading">Buttons</h1>
-          <button className="btn -default">Button</button>
-        </section>
 
-        <section className="doc-bottom-space-large">
-          <h3 className="doc-heading">Variants</h3>
-          <p>Variants such as <code>.-defualt</code>, <code>.-primary</code>, <code>.-sky</code>, <code>.-emerald</code>, <code>.-sun</code>, <code>.-crimson</code> or <code>.-link</code>. Depends on your need.</p>
           <div className="doc-btn-group">
             <button className="btn -default">Default</button>
             <button className="btn -primary">Primary</button>
