@@ -6063,9 +6063,9 @@ hr {
     min-width: 160px;
     font-size: 14px;
     background-color: #fff;
-    border: 1px solid #F0F0F0;
+    border: 1px solid #C4C4C4;
     border-radius: 3px;
-    box-shadow: 0 0 5px #F0F0F0; }
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1); }
   .dropdown > .menu::before,
   .dropdown > .menu::after {
     content: "";
@@ -6077,7 +6077,7 @@ hr {
     width: 0;
     border: 10px solid transparent; }
   .dropdown > .menu::before {
-    border-bottom-color: #78828A; }
+    border-bottom-color: #4A4A4A; }
   .dropdown > .menu::after {
     border-bottom-color: #fff; }
   .dropdown > .menu > a {

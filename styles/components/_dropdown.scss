@@ -10,9 +10,9 @@
     min-width: 160px;
     font-size: $font-size-base;
     background-color: $brand-white;
-    border: 1px solid $brand-gray-lt;
+    border: 1px solid $brand-gray;
     border-radius: $border-radius-base;
-    box-shadow: 0 0 5px $brand-gray-lt;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.1);
   }
 
   > .menu::before,
@@ -28,7 +28,10 @@
   }
 
   > .menu::before {
-    border-bottom-color: $brand-gray-dk;
+    // Because we're taking advantage of the color bleeding,
+    // we need to show a darker color than the dropdown's border color.
+    // Otherwise, it would appear lighter against the dropdown's border.
+    border-bottom-color: $brand-black;
   }
 
   > .menu::after {
@@ -71,7 +74,7 @@
   }
 
   > .menu > a .badge {
-    float: right; 
+    float: right;
     background-color: $brand-primary;
     color: $brand-white;
   }
