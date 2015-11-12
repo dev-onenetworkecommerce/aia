@@ -30545,7 +30545,7 @@
 	            _react2["default"].createElement(
 	              "code",
 	              null,
-	              "-expander"
+	              ".-expander"
 	            ),
 	            ", you can reveal the entire text on hover"
 	          ),
@@ -30555,7 +30555,7 @@
 	            _react2["default"].createElement(
 	              "p",
 	              { className: "_ellipsis -expander" },
-	              "This is a very long text, aand aaand.. yolo please swag."
+	              "This is a very long text, aand aaand yolo please swag."
 	            )
 	          )
 	        ),

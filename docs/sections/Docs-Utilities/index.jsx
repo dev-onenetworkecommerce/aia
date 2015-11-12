@@ -83,7 +83,7 @@ export default class Utilities extends React.Component {
           </div>
           <p className="_text-muted _spacer">Adding <code>.-expander</code>, you can reveal the entire text on hover</p>
           <div className="doc-ellipsis-example-container">
-            <p className="_ellipsis -expander">This is a very long text, aand aaand.. yolo please swag.</p>
+            <p className="_ellipsis -expander">This is a very long text, aand aaand yolo please swag.</p>
           </div>
         </section>
 
