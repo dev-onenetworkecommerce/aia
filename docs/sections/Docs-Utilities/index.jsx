@@ -21,14 +21,14 @@ export default class Utilities extends React.Component {
 
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Text alignment</h3>
-          <p>Use ._text-center, ._text-left or ._text-right</p>
+          <p>Use <code>._text-center</code>, <code>._text-left</code> or <code>._text-right</code></p>
           <p className="_text-center">Yolo please swag.</p>
           <p className="_text-right">Yolo please swag.</p>
         </section>
 
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Text transforms</h3>
-          <p>Use ._text-up or ._text-low</p>
+          <p>Use <code>._text-up</code> or <code>._text-low</code></p>
           <p className="_text-up">Yolo please swag.</p>
           <p className="_text-low">YoLo PleAse SwaG.</p>
         </section>
@@ -38,14 +38,14 @@ export default class Utilities extends React.Component {
             <h3 className="doc-heading">Quick floats</h3>
             <p>Use these to float an element to left or right.</p>
             <div className="_clearfix">
-              <div className="_left doc-block">._left</div>
-              <div className="_right doc-block">._right</div>
+              <div className="_left doc-block"><code>._left</code></div>
+              <div className="_right doc-block"><code>._right</code></div>
             </div>
           </section>
 
           <section>
             <h3 className="doc-heading">Clearfix</h3>
-            <p>Simply apply ._clearfix to parents elements to easily clear floats.</p>
+            <p>Simply apply <code>._clearfix</code> to parents elements to easily clear floats.</p>
           </section>
         </section>
 
@@ -53,23 +53,23 @@ export default class Utilities extends React.Component {
           <section className="doc-bottom-space">
             <h3 className="doc-heading">Spacers</h3>
             <p>Add ._spacer to add a uniform margin-bottom to your elements</p>
-            <div className="doc-block _spacer">._spacer-small</div>
-            <div className="doc-block _spacer">._spacer</div>
+            <div className="doc-block _spacer"><code>._spacer-small</code></div>
+            <div className="doc-block _spacer"><code>._spacer</code></div>
           </section>
 
           <section className="doc-bottom-space">
             <h3 className="doc-heading">Variations</h3>
             <p>Instead of ._space, you can add either ._spacer-small or ._spacer-large to adjust the margin size.</p>
-            <div className="doc-block _spacer-small">._spacer-small</div>
-            <div className="doc-block _spacer">._spacer</div>
-            <div className="doc-block _spacer-large">._spacer-large</div>
+            <div className="doc-block _spacer-small"><code>._spacer-small</code></div>
+            <div className="doc-block _spacer"><code>._spacer</code></div>
+            <div className="doc-block _spacer-large"><code>._spacer-large</code></div>
           </section>
 
           <section>
             <h3 className="doc-heading">No Spacer</h3>
             <p>Add ._no-spacer to strictly remove the bottom margin</p>
-            <div className="doc-block _spacer-small">._spacer-small</div>
-            <div className="doc-block _no-spacer">._no-spacer</div>
+            <div className="doc-block _spacer-small"><code>._spacer-small</code></div>
+            <div className="doc-block _no-spacer"><code>._no-spacer</code></div>
             <div className="doc-block"></div>
           </section>
         </section>

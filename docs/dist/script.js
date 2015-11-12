@@ -30328,7 +30328,24 @@
 	          _react2["default"].createElement(
 	            "p",
 	            null,
-	            "Use ._text-center, ._text-left or ._text-right"
+	            "Use ",
+	            _react2["default"].createElement(
+	              "code",
+	              null,
+	              "._text-center"
+	            ),
+	            ", ",
+	            _react2["default"].createElement(
+	              "code",
+	              null,
+	              "._text-left"
+	            ),
+	            " or ",
+	            _react2["default"].createElement(
+	              "code",
+	              null,
+	              "._text-right"
+	            )
 	          ),
 	          _react2["default"].createElement(
 	            "p",
@@ -30352,7 +30369,18 @@
 	          _react2["default"].createElement(
 	            "p",
 	            null,
-	            "Use ._text-up or ._text-low"
+	            "Use ",
+	            _react2["default"].createElement(
+	              "code",
+	              null,
+	              "._text-up"
+	            ),
+	            " or ",
+	            _react2["default"].createElement(
+	              "code",
+	              null,
+	              "._text-low"
+	            )
 	          ),
 	          _react2["default"].createElement(
 	            "p",
@@ -30387,12 +30415,20 @@
 	              _react2["default"].createElement(
 	                "div",
 	                { className: "_left doc-block" },
-	                "._left"
+	                _react2["default"].createElement(
+	                  "code",
+	                  null,
+	                  "._left"
+	                )
 	              ),
 	              _react2["default"].createElement(
 	                "div",
 	                { className: "_right doc-block" },
-	                "._right"
+	                _react2["default"].createElement(
+	                  "code",
+	                  null,
+	                  "._right"
+	                )
 	              )
 	            )
 	          ),
@@ -30407,7 +30443,13 @@
 	            _react2["default"].createElement(
 	              "p",
 	              null,
-	              "Simply apply ._clearfix to parents elements to easily clear floats."
+	              "Simply apply ",
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                "._clearfix"
+	              ),
+	              " to parents elements to easily clear floats."
 	            )
 	          )
 	        ),
@@ -30430,12 +30472,20 @@
 	            _react2["default"].createElement(
 	              "div",
 	              { className: "doc-block _spacer" },
-	              "._spacer-small"
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                "._spacer-small"
+	              )
 	            ),
 	            _react2["default"].createElement(
 	              "div",
 	              { className: "doc-block _spacer" },
-	              "._spacer"
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                "._spacer"
+	              )
 	            )
 	          ),
 	          _react2["default"].createElement(
@@ -30454,17 +30504,29 @@
 	            _react2["default"].createElement(
 	              "div",
 	              { className: "doc-block _spacer-small" },
-	              "._spacer-small"
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                "._spacer-small"
+	              )
 	            ),
 	            _react2["default"].createElement(
 	              "div",
 	              { className: "doc-block _spacer" },
-	              "._spacer"
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                "._spacer"
+	              )
 	            ),
 	            _react2["default"].createElement(
 	              "div",
 	              { className: "doc-block _spacer-large" },
-	              "._spacer-large"
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                "._spacer-large"
+	              )
 	            )
 	          ),
 	          _react2["default"].createElement(
@@ -30483,12 +30545,20 @@
 	            _react2["default"].createElement(
 	              "div",
 	              { className: "doc-block _spacer-small" },
-	              "._spacer-small"
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                "._spacer-small"
+	              )
 	            ),
 	            _react2["default"].createElement(
 	              "div",
 	              { className: "doc-block _no-spacer" },
-	              "._no-spacer"
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                "._no-spacer"
+	              )
 	            ),
 	            _react2["default"].createElement("div", { className: "doc-block" })
 	          )
