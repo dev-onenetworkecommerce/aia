@@ -28094,67 +28094,6 @@
 	            'Buttons'
 	          ),
 	          _react2['default'].createElement(
-	            'button',
-	            { className: 'btn -default' },
-	            'Button'
-	          )
-	        ),
-	        _react2['default'].createElement(
-	          'section',
-	          { className: 'doc-bottom-space-large' },
-	          _react2['default'].createElement(
-	            'h3',
-	            { className: 'doc-heading' },
-	            'Variants'
-	          ),
-	          _react2['default'].createElement(
-	            'p',
-	            null,
-	            'Variants such as ',
-	            _react2['default'].createElement(
-	              'code',
-	              null,
-	              '.-defualt'
-	            ),
-	            ', ',
-	            _react2['default'].createElement(
-	              'code',
-	              null,
-	              '.-primary'
-	            ),
-	            ', ',
-	            _react2['default'].createElement(
-	              'code',
-	              null,
-	              '.-sky'
-	            ),
-	            ', ',
-	            _react2['default'].createElement(
-	              'code',
-	              null,
-	              '.-emerald'
-	            ),
-	            ', ',
-	            _react2['default'].createElement(
-	              'code',
-	              null,
-	              '.-sun'
-	            ),
-	            ', ',
-	            _react2['default'].createElement(
-	              'code',
-	              null,
-	              '.-crimson'
-	            ),
-	            ' or ',
-	            _react2['default'].createElement(
-	              'code',
-	              null,
-	              '.-link'
-	            ),
-	            '. Depends on your need.'
-	          ),
-	          _react2['default'].createElement(
 	            'div',
 	            { className: 'doc-btn-group' },
 	            _react2['default'].createElement(
