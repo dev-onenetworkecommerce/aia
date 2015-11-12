@@ -6117,8 +6117,6 @@ hr {
   .dropdown.-up {
     margin-top: -20px; }
   .dropdown.-up > .menu::before, .dropdown.-up > .menu::after {
-    left: 10px;
-    right: initial;
     top: initial;
     bottom: -20px;
     border-bottom-color: transparent; }
