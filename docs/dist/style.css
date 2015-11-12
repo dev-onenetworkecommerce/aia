@@ -6183,12 +6183,12 @@ body.modal-body {
   .slate.-plain {
     background: #fff; }
   .slate > .icon:first-child {
-    display: block;
+    display: block; }
+  .slate > .icon:first-child,
+  .slate > .tri-circle-loader:first-child {
     margin-bottom: 1.5rem; }
   .slate > *:last-child {
     margin-bottom: 0; }
-  .slate > .tri-circle-loader {
-    margin-bottom: 1.5rem; }
 
 .tri-circle-loader.-light > div {
   background: #fff; }

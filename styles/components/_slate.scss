@@ -10,9 +10,12 @@
 
   > .icon:first-child {
     display: block;
+  }
+
+  > .icon:first-child,
+  > .tri-circle-loader:first-child {
     margin-bottom: $spacer-large;
   }
 
   > *:last-child { margin-bottom: 0; }
-  > .tri-circle-loader { margin-bottom: $spacer-large; }
 }
