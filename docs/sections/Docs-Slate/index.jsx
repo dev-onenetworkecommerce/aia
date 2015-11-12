@@ -14,7 +14,7 @@ export default class Slate extends React.Component {
         </section>
 
         <section className="doc-bottom-space-large">
-          <h3 className="doc-heading">Spacious Slate</h3>
+          <h3 className="doc-heading">Example: Spacious</h3>
           <p>Add the .-spacious class to your slate.</p>
           <div className="slate -spacious">
             <h3>Slate spacious</h3>
@@ -22,20 +22,8 @@ export default class Slate extends React.Component {
           </div>
         </section>
 
-        <section className="doc-bottom-space-large">
-          <h3 className="doc-heading"> Loading Slate </h3>
-          <div className="slate">
-            <div className="tri-circle-loader">
-              <div />
-              <div />
-              <div />
-            </div>
-            <h3> I am a Loading Slate </h3>
-          </div>
-        </section>
-
         <section className="doc-bottom-space">
-          <h3 className="doc-heading">Plain Slate</h3>
+          <h3 className="doc-heading">Example: Plain</h3>
           <p>You can make a plain slate by adding the .-plain modifier class</p>
           <div className="row">
             <div className="slate -plain">
@@ -46,16 +34,7 @@ export default class Slate extends React.Component {
         </section>
 
         <div className="row doc-bottom-space">
-          <h3 className="doc-heading">Half Slate</h3>
-          <p>With the grid, you can set the width to half.</p>
-          <div className="slate col-md-6">
-            <h2>Half Slate</h2>
-            <small>Slate with 50% width</small>
-          </div>
-        </div>
-
-        <div className="row doc-bottom-space">
-          <h3 className="doc-heading">Centered Half Slate</h3>
+          <h3 className="doc-heading">Example: Center Half-sized Slate</h3>
           <p>With the centered grid column, you can center a slate.</p>
           <div className="slate col-md-6 _centered">
             <h2>Centered Half Slate</h2>

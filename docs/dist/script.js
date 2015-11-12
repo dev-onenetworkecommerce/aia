@@ -30017,7 +30017,13 @@
 	          _react2["default"].createElement(
 	            "p",
 	            null,
-	            "Icons are automatically given a margin of `$spacer-large`."
+	            "Icons are automatically given a margin of ",
+	            _react2["default"].createElement(
+	              "code",
+	              null,
+	              "$spacer-large"
+	            ),
+	            "."
 	          ),
 	          _react2["default"].createElement(
 	            "div",
