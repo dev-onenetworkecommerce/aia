@@ -29856,7 +29856,7 @@
 	            _react2["default"].createElement(
 	              "h2",
 	              null,
-	              "Slate"
+	              "This is a blank slate"
 	            ),
 	            _react2["default"].createElement(
 	              "p",
@@ -29990,7 +29990,7 @@
 	        ),
 	        _react2["default"].createElement(
 	          "section",
-	          null,
+	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
@@ -30015,6 +30015,40 @@
 	              "h3",
 	              null,
 	              " The products are being loaded. "
+	            )
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          null,
+	          _react2["default"].createElement(
+	            "h1",
+	            { className: "doc-heading" },
+	            "Example: With Icon and Button"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "This is how a slate fully looks like."
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "slate" },
+	            _react2["default"].createElement("i", { className: "icon icon-cog -x8" }),
+	            _react2["default"].createElement(
+	              "h2",
+	              null,
+	              "This is a blank slate"
+	            ),
+	            _react2["default"].createElement(
+	              "p",
+	              null,
+	              "Use it to provide information when no dynamic content exists."
+	            ),
+	            _react2["default"].createElement(
+	              "button",
+	              { className: "btn -emerald" },
+	              "Load More"
 	            )
 	          )
 	        )

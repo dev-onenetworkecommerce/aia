@@ -8,7 +8,7 @@ export default class Slate extends React.Component {
           <h1 className="doc-heading">Slate</h1>
           <p className="lead">Use this as a placeholder for empty collections or loading resources.</p>
           <div className="slate">
-          	<h2>Slate</h2>
+          	<h2>This is a blank slate</h2>
           	<p>Use it to provide information when no dynamic content exists.</p>
           </div>
         </section>
@@ -52,7 +52,7 @@ export default class Slate extends React.Component {
           </div>
         </section>
 
-        <section>
+        <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Example: With Loader </h3>
           <p>Works similarly to icons.</p>
           <div className="slate">
@@ -62,6 +62,17 @@ export default class Slate extends React.Component {
               <div />
             </div>
             <h3> The products are being loaded. </h3>
+          </div>
+        </section>
+
+        <section>
+          <h1 className="doc-heading">Example: With Icon and Button</h1>
+          <p>This is how a slate fully looks like.</p>
+          <div className="slate">
+            <i className="icon icon-cog -x8" />
+            <h2>This is a blank slate</h2>
+            <p>Use it to provide information when no dynamic content exists.</p>
+            <button className="btn -emerald">Load More</button>
           </div>
         </section>
       </div>
