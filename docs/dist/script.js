@@ -29959,7 +29959,7 @@
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
-	            "Slate with Icons"
+	            "Example: With Icons"
 	          ),
 	          _react2["default"].createElement(
 	            "p",
@@ -29985,6 +29985,36 @@
 	              "small",
 	              null,
 	              "Centered slate with 50% width"
+	            )
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          null,
+	          _react2["default"].createElement(
+	            "h3",
+	            { className: "doc-heading" },
+	            "Example: With Loader "
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "Works similarly to icons."
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "slate" },
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "tri-circle-loader" },
+	              _react2["default"].createElement("div", null),
+	              _react2["default"].createElement("div", null),
+	              _react2["default"].createElement("div", null)
+	            ),
+	            _react2["default"].createElement(
+	              "h3",
+	              null,
+	              " The products are being loaded. "
 	            )
 	          )
 	        )

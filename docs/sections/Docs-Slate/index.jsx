@@ -51,6 +51,19 @@ export default class Slate extends React.Component {
             <small>Centered slate with 50% width</small>
           </div>
         </section>
+
+        <section>
+          <h3 className="doc-heading">Example: With Loader </h3>
+          <p>Works similarly to icons.</p>
+          <div className="slate">
+            <div className="tri-circle-loader">
+              <div />
+              <div />
+              <div />
+            </div>
+            <h3> The products are being loaded. </h3>
+          </div>
+        </section>
       </div>
     );
   }
