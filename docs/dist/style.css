@@ -5719,6 +5719,10 @@ hr {
     padding: 0 25px;
     font-size: 18px;
     line-height: 40px; }
+  .btn.-large > .icon:first-child, .btn-group.-large > .btn > .icon:first-child {
+    margin-right: 16px; }
+  .btn.-large > .icon:last-child, .btn-group.-large > .btn > .icon:last-child {
+    margin-left: 16px; }
   .btn.-rounded {
     border-radius: 25px; }
   .btn.-disabled, .btn:disabled {
