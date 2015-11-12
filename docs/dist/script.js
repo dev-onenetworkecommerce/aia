@@ -30497,65 +30497,73 @@
 	          "section",
 	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
-	            "h1",
-	            { className: "doc-heading" },
-	            "Text Ellipsis"
-	          ),
-	          _react2["default"].createElement(
-	            "p",
-	            { className: "lead" },
-	            "Helpful for collapsing very long text."
-	          ),
-	          _react2["default"].createElement(
-	            "p",
-	            { className: "_text-muted" },
-	            "As a class, use the ",
+	            "section",
+	            { className: "doc-bottom-space" },
 	            _react2["default"].createElement(
-	              "code",
-	              null,
-	              "._ellipsis"
+	              "h1",
+	              { className: "doc-heading" },
+	              "Text Ellipsis"
 	            ),
-	            " class; as a mixin, use ",
-	            _react2["default"].createElement(
-	              "code",
-	              null,
-	              "text-ellipsis"
-	            ),
-	            ". As in ",
-	            _react2["default"].createElement(
-	              "code",
-	              null,
-	              "@include text-ellipsis;"
-	            ),
-	            "."
-	          ),
-	          _react2["default"].createElement(
-	            "div",
-	            { className: "doc-ellipsis-example-container" },
 	            _react2["default"].createElement(
 	              "p",
-	              { className: "_ellipsis" },
-	              "This is a very long text, aand aaand yolo please swag."
+	              { className: "lead" },
+	              "Helpful for collapsing very long text."
+	            ),
+	            _react2["default"].createElement(
+	              "p",
+	              { className: "_text-muted" },
+	              "As a class, use the ",
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                "._ellipsis"
+	              ),
+	              " class; as a mixin, use ",
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                "text-ellipsis"
+	              ),
+	              ". As in ",
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                "@include text-ellipsis;"
+	              ),
+	              "."
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "doc-ellipsis-example-container" },
+	              _react2["default"].createElement(
+	                "p",
+	                { className: "_ellipsis" },
+	                "This is a very long text, aand aaand yolo please swag."
+	              )
 	            )
 	          ),
 	          _react2["default"].createElement(
-	            "p",
-	            { className: "_text-muted _spacer" },
-	            "Adding ",
-	            _react2["default"].createElement(
-	              "code",
-	              null,
-	              ".-expander"
-	            ),
-	            ", you can reveal the entire text on hover"
-	          ),
-	          _react2["default"].createElement(
-	            "div",
-	            { className: "doc-ellipsis-example-container" },
+	            "section",
+	            null,
 	            _react2["default"].createElement(
 	              "p",
-	              { className: "_ellipsis -expander" },
-	              "This is a very long text, aand aaand yolo please swag."
+	              { className: "_text-muted _spacer" },
+	              "Adding ",
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                ".-expander"
+	              ),
+	              ", you can reveal the entire text on hover"
+	            ),
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "doc-ellipsis-example-container" },
+	              _react2["default"].createElement(
+	                "p",
+	                { className: "_ellipsis -expander" },
+	                "This is a very long text, aand aaand yolo please swag."
+	              )
 	            )
 	          )
 	        ),

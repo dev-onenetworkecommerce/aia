@@ -75,16 +75,21 @@ export default class Utilities extends React.Component {
         </section>
 
         <section className="doc-bottom-space-large">
-          <h1 className="doc-heading">Text Ellipsis</h1>
-          <p className="lead">Helpful for collapsing very long text.</p>
-          <p className="_text-muted">As a class, use the <code>._ellipsis</code> class; as a mixin, use <code>text-ellipsis</code>. As in <code>@include text-ellipsis;</code>.</p>
-          <div className="doc-ellipsis-example-container">
-            <p className="_ellipsis">This is a very long text, aand aaand yolo please swag.</p>
-          </div>
-          <p className="_text-muted _spacer">Adding <code>.-expander</code>, you can reveal the entire text on hover</p>
-          <div className="doc-ellipsis-example-container">
-            <p className="_ellipsis -expander">This is a very long text, aand aaand yolo please swag.</p>
-          </div>
+          <section className="doc-bottom-space">
+            <h1 className="doc-heading">Text Ellipsis</h1>
+            <p className="lead">Helpful for collapsing very long text.</p>
+            <p className="_text-muted">As a class, use the <code>._ellipsis</code> class; as a mixin, use <code>text-ellipsis</code>. As in <code>@include text-ellipsis;</code>.</p>
+            <div className="doc-ellipsis-example-container">
+              <p className="_ellipsis">This is a very long text, aand aaand yolo please swag.</p>
+            </div>
+          </section>
+
+          <section>
+            <p className="_text-muted _spacer">Adding <code>.-expander</code>, you can reveal the entire text on hover</p>
+            <div className="doc-ellipsis-example-container">
+              <p className="_ellipsis -expander">This is a very long text, aand aaand yolo please swag.</p>
+            </div>
+          </section>
         </section>
 
         <section className="doc-bottom-space-large">
