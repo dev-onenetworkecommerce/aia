@@ -29859,7 +29859,7 @@
 	              "Simple Slate"
 	            ),
 	            _react2["default"].createElement(
-	              "small",
+	              "p",
 	              null,
 	              "simple slate with padding 30px on all sides and 10px margin on all sides."
 	            )
@@ -29887,7 +29887,7 @@
 	              "Slate spacious"
 	            ),
 	            _react2["default"].createElement(
-	              "small",
+	              "p",
 	              null,
 	              "Adds padding to your contents"
 	            )
@@ -29918,7 +29918,7 @@
 	                "Slate with No Background"
 	              ),
 	              _react2["default"].createElement(
-	                "small",
+	                "p",
 	                null,
 	                "No border-radius and white background"
 	              )
@@ -29947,7 +29947,7 @@
 	              "Centered Half Slate"
 	            ),
 	            _react2["default"].createElement(
-	              "small",
+	              "p",
 	              null,
 	              "Centered slate with 50% width"
 	            )
@@ -29982,7 +29982,7 @@
 	              "Half Slate with Icons"
 	            ),
 	            _react2["default"].createElement(
-	              "small",
+	              "p",
 	              null,
 	              "Centered slate with 50% width"
 	            )

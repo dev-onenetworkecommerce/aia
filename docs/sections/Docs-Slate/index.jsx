@@ -9,7 +9,7 @@ export default class Slate extends React.Component {
           <p className="lead">Use this for empty collections or loading resources.</p>
           <div className="slate">
           	<h2>Simple Slate</h2>
-          	<small>simple slate with padding 30px on all sides and 10px margin on all sides.</small>
+          	<p>simple slate with padding 30px on all sides and 10px margin on all sides.</p>
           </div>
         </section>
 
@@ -18,7 +18,7 @@ export default class Slate extends React.Component {
           <p>Add the .-spacious class to your slate.</p>
           <div className="slate -spacious">
             <h3>Slate spacious</h3>
-            <small>Adds padding to your contents</small>
+            <p>Adds padding to your contents</p>
           </div>
         </section>
 
@@ -28,7 +28,7 @@ export default class Slate extends React.Component {
           <div className="row">
             <div className="slate -plain">
               <h2>Slate with No Background</h2>
-              <small>No border-radius and white background</small>
+              <p>No border-radius and white background</p>
             </div>
           </div>
         </section>
@@ -38,7 +38,7 @@ export default class Slate extends React.Component {
           <p>With the centered grid column, you can center a slate.</p>
           <div className="slate col-md-6 _centered">
             <h2>Centered Half Slate</h2>
-            <small>Centered slate with 50% width</small>
+            <p>Centered slate with 50% width</p>
           </div>
         </div>
 
@@ -48,7 +48,7 @@ export default class Slate extends React.Component {
           <div className="slate">
             <i className="icon icon-cog -x8" />
             <h2>Half Slate with Icons</h2>
-            <small>Centered slate with 50% width</small>
+            <p>Centered slate with 50% width</p>
           </div>
         </section>
 
