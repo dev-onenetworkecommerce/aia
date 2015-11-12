@@ -8,45 +8,30 @@ export default class Forms extends React.Component {
         <p className="lead">Style individual form controls and utilize common layouts.</p>
 
         <section className="doc-bottom-space-large">
-          <div className="row">
-            <div className="col-md-6">
-              <section className="doc-bottom-space">
-                <textarea className="form-control" defaultValue="Text content here." />
-              </section>
+          <section className="doc-bottom-space">
+            <textarea className="form-control" defaultValue="Text content here." />
+          </section>
 
-              <section className="doc-bottom-space">
-                <input className="form-control" type="text" defaultValue="Input value" />
-              </section>
+          <section className="doc-bottom-space">
+            <input className="form-control" type="text" defaultValue="Input value" />
+          </section>
 
-              <section className="doc-bottom-space">
-                <input className="form-control" type="text" placeholder="Placeholder" />
-              </section>
+          <section className="doc-bottom-space">
+            <input className="form-control" type="text" placeholder="Placeholder" />
+          </section>
 
-              <section className="doc-bottom-space">
-                <select className="form-control">
-                  <option>Option 1</option>
-                  <option>Option 2</option>
-                </select>
-              </section>
-            </div>
+          <section className="doc-bottom-space">
+            <select className="form-control">
+              <option>Option 1</option>
+              <option>Option 2</option>
+            </select>
+          </section>
+        </section>
 
-            <div className="col-md-6">
-              <h3 className="doc-heading">Disabled</h3>
-              <section className="doc-bottom-space">
-                <textarea className="form-control" placeholder="Enter something" disabled />
-              </section>
-
-              <section className="doc-bottom-space">
-                <input className="form-control" type="text" placeholder="Enter something" disabled />
-              </section>
-
-              <section>
-                <select className="form-control" disabled>
-                  <option>Clickity click!</option>
-                </select>
-              </section>
-            </div>
-          </div>
+        <section className="doc-bottom-space-large">
+          <h3 className="doc-heading">Disabled state</h3>
+          <p>Add the <code>disabled</code> boolean attribute on an input to prevent user interactions. Disabled inputs appear monotone and add a not-allowed cursor.</p>
+          <input className="form-control" type="text" placeholder="Enter something" disabled />
         </section>
 
         <section className="doc-bottom-space-large">

@@ -27217,78 +27217,59 @@
 	          "section",
 	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
-	            "div",
-	            { className: "row" },
+	            "section",
+	            { className: "doc-bottom-space" },
+	            _react2["default"].createElement("textarea", { className: "form-control", defaultValue: "Text content here." })
+	          ),
+	          _react2["default"].createElement(
+	            "section",
+	            { className: "doc-bottom-space" },
+	            _react2["default"].createElement("input", { className: "form-control", type: "text", defaultValue: "Input value" })
+	          ),
+	          _react2["default"].createElement(
+	            "section",
+	            { className: "doc-bottom-space" },
+	            _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Placeholder" })
+	          ),
+	          _react2["default"].createElement(
+	            "section",
+	            { className: "doc-bottom-space" },
 	            _react2["default"].createElement(
-	              "div",
-	              { className: "col-md-6" },
+	              "select",
+	              { className: "form-control" },
 	              _react2["default"].createElement(
-	                "section",
-	                { className: "doc-bottom-space" },
-	                _react2["default"].createElement("textarea", { className: "form-control", defaultValue: "Text content here." })
-	              ),
-	              _react2["default"].createElement(
-	                "section",
-	                { className: "doc-bottom-space" },
-	                _react2["default"].createElement("input", { className: "form-control", type: "text", defaultValue: "Input value" })
-	              ),
-	              _react2["default"].createElement(
-	                "section",
-	                { className: "doc-bottom-space" },
-	                _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Placeholder" })
-	              ),
-	              _react2["default"].createElement(
-	                "section",
-	                { className: "doc-bottom-space" },
-	                _react2["default"].createElement(
-	                  "select",
-	                  { className: "form-control" },
-	                  _react2["default"].createElement(
-	                    "option",
-	                    null,
-	                    "Option 1"
-	                  ),
-	                  _react2["default"].createElement(
-	                    "option",
-	                    null,
-	                    "Option 2"
-	                  )
-	                )
-	              )
-	            ),
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "col-md-6" },
-	              _react2["default"].createElement(
-	                "h3",
-	                { className: "doc-heading" },
-	                "Disabled"
-	              ),
-	              _react2["default"].createElement(
-	                "section",
-	                { className: "doc-bottom-space" },
-	                _react2["default"].createElement("textarea", { className: "form-control", placeholder: "Enter something", disabled: true })
-	              ),
-	              _react2["default"].createElement(
-	                "section",
-	                { className: "doc-bottom-space" },
-	                _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something", disabled: true })
-	              ),
-	              _react2["default"].createElement(
-	                "section",
+	                "option",
 	                null,
-	                _react2["default"].createElement(
-	                  "select",
-	                  { className: "form-control", disabled: true },
-	                  _react2["default"].createElement(
-	                    "option",
-	                    null,
-	                    "Clickity click!"
-	                  )
-	                )
+	                "Option 1"
+	              ),
+	              _react2["default"].createElement(
+	                "option",
+	                null,
+	                "Option 2"
 	              )
 	            )
 	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
+	            "h3",
+	            { className: "doc-heading" },
+	            "Disabled state"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "Add the ",
+	            _react2["default"].createElement(
+	              "code",
+	              null,
+	              "disabled"
+	            ),
+	            " boolean attribute on an input to prevent user interactions. Disabled inputs appear monotone and add a not-allowed cursor."
+	          ),
+	          _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something", disabled: true })
 	        ),
 	        _react2["default"].createElement(
 	          "section",
