@@ -27618,7 +27618,12 @@
 	          _react2["default"].createElement(
 	            "h1",
 	            { className: "doc-heading" },
-	            " Breadcrumb "
+	            "Breadcrumbs"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            { className: "lead" },
+	            "Indicate the current page's location within a navigational hierarchy."
 	          ),
 	          _react2["default"].createElement(
 	            "ol",
@@ -27664,7 +27669,12 @@
 	          _react2["default"].createElement(
 	            "h1",
 	            { className: "doc-heading" },
-	            " Steps Breadcrumb "
+	            " Steps Breadcrumbs "
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            { className: "lead" },
+	            "Useful for indicating on which step the user is in the wizard."
 	          ),
 	          _react2["default"].createElement(
 	            "ul",
