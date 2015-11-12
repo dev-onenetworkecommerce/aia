@@ -29848,7 +29848,7 @@
 	          _react2["default"].createElement(
 	            "p",
 	            { className: "lead" },
-	            "Use this for empty collections or loading resources."
+	            "Use this as a placeholder for empty collections or loading resources."
 	          ),
 	          _react2["default"].createElement(
 	            "div",
@@ -29856,12 +29856,12 @@
 	            _react2["default"].createElement(
 	              "h2",
 	              null,
-	              "Simple Slate"
+	              "Slate"
 	            ),
 	            _react2["default"].createElement(
 	              "p",
 	              null,
-	              "simple slate with padding 30px on all sides and 10px margin on all sides."
+	              "Use it to provide information when no dynamic content exists."
 	            )
 	          )
 	        ),

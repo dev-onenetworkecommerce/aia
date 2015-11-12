@@ -6,10 +6,10 @@ export default class Slate extends React.Component {
       <div>
         <section className="doc-bottom-space-large">
           <h1 className="doc-heading">Slate</h1>
-          <p className="lead">Use this for empty collections or loading resources.</p>
+          <p className="lead">Use this as a placeholder for empty collections or loading resources.</p>
           <div className="slate">
-          	<h2>Simple Slate</h2>
-          	<p>simple slate with padding 30px on all sides and 10px margin on all sides.</p>
+          	<h2>Slate</h2>
+          	<p>Use it to provide information when no dynamic content exists.</p>
           </div>
         </section>
 
