@@ -59,7 +59,7 @@ export default class Utilities extends React.Component {
 
           <section className="doc-bottom-space">
             <h3 className="doc-heading">Variations</h3>
-            <p>Instead of ._space, you can add either ._spacer-small or ._spacer-large to adjust the margin size.</p>
+            <p>Instead of <code>._space</code>, you can add either <code>._spacer-small</code> or <code>._spacer-large</code> to adjust the margin size.</p>
             <div className="_spacer-small"><div className="doc-block"><code>._spacer-small</code></div></div>
             <div className="_spacer"><div className="doc-block"><code>._spacer</code></div></div>
             <div className="_spacer-large"><div className="doc-block"><code>._spacer-large</code></div></div>

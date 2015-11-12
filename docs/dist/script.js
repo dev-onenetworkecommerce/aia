@@ -30515,7 +30515,25 @@
 	            _react2["default"].createElement(
 	              "p",
 	              null,
-	              "Instead of ._space, you can add either ._spacer-small or ._spacer-large to adjust the margin size."
+	              "Instead of ",
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                "._space"
+	              ),
+	              ", you can add either ",
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                "._spacer-small"
+	              ),
+	              " or ",
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                "._spacer-large"
+	              ),
+	              " to adjust the margin size."
 	            ),
 	            _react2["default"].createElement(
 	              "div",
