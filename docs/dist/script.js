@@ -29847,7 +29847,7 @@
 	          ),
 	          _react2["default"].createElement(
 	            "p",
-	            null,
+	            { className: "lead" },
 	            "Use this for empty collections or loading resources."
 	          ),
 	          _react2["default"].createElement(

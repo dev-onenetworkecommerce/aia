@@ -42,7 +42,7 @@ export default class Slate extends React.Component {
           </div>
         </div>
 
-        <div className="doc-bottom-space">
+        <section className="doc-bottom-space">
           <h3 className="doc-heading">Slate with Icons</h3>
           <p>Icons are automatically given a margin of <code>$spacer-large</code>.</p>
           <div className="slate">
@@ -50,7 +50,7 @@ export default class Slate extends React.Component {
             <h2>Half Slate with Icons</h2>
             <small>Centered slate with 50% width</small>
           </div>
-        </div>
+        </section>
       </div>
     );
   }
