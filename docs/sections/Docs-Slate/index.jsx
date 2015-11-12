@@ -43,7 +43,7 @@ export default class Slate extends React.Component {
         </div>
 
         <section className="doc-bottom-space">
-          <h3 className="doc-heading">Slate with Icons</h3>
+          <h3 className="doc-heading">Example: With Icons</h3>
           <p>Icons are automatically given a margin of <code>$spacer-large</code>.</p>
           <div className="slate">
             <i className="icon icon-cog -x8" />

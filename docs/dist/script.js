@@ -29954,7 +29954,7 @@
 	          )
 	        ),
 	        _react2["default"].createElement(
-	          "div",
+	          "section",
 	          { className: "doc-bottom-space" },
 	          _react2["default"].createElement(
 	            "h3",
