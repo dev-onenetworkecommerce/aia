@@ -31865,6 +31865,19 @@
 	          _react2["default"].createElement(
 	            "h3",
 	            null,
+	            "Main"
+	          ),
+	          _react2["default"].createElement("div", { title: "-primary", className: "doc-swatch -primary" }),
+	          _react2["default"].createElement("div", { title: "-sidebar-lt", className: "doc-swatch -sidebar-lt" }),
+	          _react2["default"].createElement("div", { title: "-sidebar", className: "doc-swatch -sidebar" }),
+	          _react2["default"].createElement("div", { title: "-sidebar-dk", className: "doc-swatch -sidebar-dk" })
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space" },
+	          _react2["default"].createElement(
+	            "h3",
+	            null,
 	            "Variations"
 	          ),
 	          _react2["default"].createElement("div", { title: "-sky", className: "doc-swatch -sky" }),

@@ -6254,6 +6254,14 @@ body.modal-body {
   border-radius: 3px; }
   .doc-swatch + .doc-swatch {
     margin-left: 0.5rem; }
+  .doc-swatch.-primary {
+    background: #3A569B; }
+  .doc-swatch.-sidebar-lt {
+    background: #5372C5; }
+  .doc-swatch.-sidebar {
+    background: #19273F; }
+  .doc-swatch.-sidebar-dk {
+    background: #0B121F; }
   .doc-swatch.-sky {
     background: #52B5E5; }
   .doc-swatch.-sky-dk {

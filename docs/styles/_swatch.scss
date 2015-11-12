@@ -8,6 +8,22 @@
     margin-left: 0.5rem;
   }
 
+  &.-primary {
+    background: $brand-primary;
+  }
+
+  &.-sidebar-lt {
+    background: $brand-sidebar-lt;
+  }
+
+  &.-sidebar {
+    background: $brand-sidebar;
+  }
+
+  &.-sidebar-dk {
+    background: $brand-sidebar-dk;
+  }
+
   &.-sky {
     background: $brand-sky;
   }

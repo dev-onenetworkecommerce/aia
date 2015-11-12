@@ -10,6 +10,14 @@ export default class Colors extends React.Component {
         </p>
 
         <section className="doc-bottom-space">
+          <h3>Main</h3>
+          <div title="-primary" className="doc-swatch -primary"></div>
+          <div title="-sidebar-lt" className="doc-swatch -sidebar-lt"></div>
+          <div title="-sidebar" className="doc-swatch -sidebar"></div>
+          <div title="-sidebar-dk" className="doc-swatch -sidebar-dk"></div>
+        </section>
+
+        <section className="doc-bottom-space">
           <h3>Variations</h3>
           <div title="-sky" className="doc-swatch -sky"></div>
           <div title="-emerald" className="doc-swatch -emerald"></div>
