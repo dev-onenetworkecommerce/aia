@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
+import { version } from '../../../package.json';
 
 export default class Docs extends React.Component {
   render() {
@@ -46,7 +47,7 @@ export default class Docs extends React.Component {
           <p>Copyright <strong>ONE Network Ecommerce 2015.</strong></p>
           <p>
             Created and maintained by the Front End team at ONE.&nbsp;
-            <strong>Currently 0.3.5</strong>.
+            <strong>Currently {version}</strong>.
           </p>
         </footer>
       </div>

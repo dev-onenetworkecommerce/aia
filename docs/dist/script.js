@@ -20143,26 +20143,26 @@
 	    _react2['default'].createElement(
 	      _reactRouter.Route,
 	      { component: __webpack_require__(/*! ./sections/Docs */ 237) },
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'scaffolding', component: __webpack_require__(/*! ./sections/Docs-Scaffolding */ 238) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'layout', component: __webpack_require__(/*! ./sections/Docs-Layout */ 239) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'type', component: __webpack_require__(/*! ./sections/Docs-Type */ 240) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'tables', component: __webpack_require__(/*! ./sections/Docs-Tables */ 241) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'forms', component: __webpack_require__(/*! ./sections/Docs-Forms */ 242) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'breadcrumbs', component: __webpack_require__(/*! ./sections/Docs-Breadcrumbs */ 243) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'icons', component: __webpack_require__(/*! ./sections/Docs-Icons */ 244) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'alerts', component: __webpack_require__(/*! ./sections/Docs-Alerts */ 245) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'buttons', component: __webpack_require__(/*! ./sections/Docs-Buttons */ 246) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'labels', component: __webpack_require__(/*! ./sections/Docs-Labels */ 247) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'panels', component: __webpack_require__(/*! ./sections/Docs-Panels */ 248) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'list-group', component: __webpack_require__(/*! ./sections/Docs-ListGroup */ 249) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'nav', component: __webpack_require__(/*! ./sections/Docs-Nav */ 250) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'slate', component: __webpack_require__(/*! ./sections/Docs-Slate */ 251) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'loaders', component: __webpack_require__(/*! ./sections/Docs-Loaders */ 252) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'utilities', component: __webpack_require__(/*! ./sections/Docs-Utilities */ 253) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'dropdown', component: __webpack_require__(/*! ./sections/Docs-Dropdown */ 254) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'modal', component: __webpack_require__(/*! ./sections/Docs-Modal */ 258) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'colors', component: __webpack_require__(/*! ./sections/Docs-Colors */ 260) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'guidelines', component: __webpack_require__(/*! ./sections/Docs-Guidelines */ 261) })
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'scaffolding', component: __webpack_require__(/*! ./sections/Docs-Scaffolding */ 239) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'layout', component: __webpack_require__(/*! ./sections/Docs-Layout */ 240) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'type', component: __webpack_require__(/*! ./sections/Docs-Type */ 241) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'tables', component: __webpack_require__(/*! ./sections/Docs-Tables */ 242) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'forms', component: __webpack_require__(/*! ./sections/Docs-Forms */ 243) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'breadcrumbs', component: __webpack_require__(/*! ./sections/Docs-Breadcrumbs */ 244) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'icons', component: __webpack_require__(/*! ./sections/Docs-Icons */ 245) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'alerts', component: __webpack_require__(/*! ./sections/Docs-Alerts */ 246) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'buttons', component: __webpack_require__(/*! ./sections/Docs-Buttons */ 247) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'labels', component: __webpack_require__(/*! ./sections/Docs-Labels */ 248) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'panels', component: __webpack_require__(/*! ./sections/Docs-Panels */ 249) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'list-group', component: __webpack_require__(/*! ./sections/Docs-ListGroup */ 250) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'nav', component: __webpack_require__(/*! ./sections/Docs-Nav */ 251) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'slate', component: __webpack_require__(/*! ./sections/Docs-Slate */ 252) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'loaders', component: __webpack_require__(/*! ./sections/Docs-Loaders */ 253) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'utilities', component: __webpack_require__(/*! ./sections/Docs-Utilities */ 254) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'dropdown', component: __webpack_require__(/*! ./sections/Docs-Dropdown */ 255) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'modal', component: __webpack_require__(/*! ./sections/Docs-Modal */ 259) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'colors', component: __webpack_require__(/*! ./sections/Docs-Colors */ 261) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'guidelines', component: __webpack_require__(/*! ./sections/Docs-Guidelines */ 262) })
 	    )
 	  )
 	);
@@ -20523,7 +20523,7 @@
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/lib/createHashHistory.js ***!
   \***********************************************************/
-[262, 161, 163, 164, 165, 166, 167, 168],
+[263, 161, 163, 164, 165, 166, 167, 168],
 /* 163 */
 /*!***********************************************!*\
   !*** ./~/react-router/~/invariant/browser.js ***!
@@ -20726,7 +20726,7 @@
 /*!**********************************************************!*\
   !*** ./~/react-router/~/history/lib/createDOMHistory.js ***!
   \**********************************************************/
-[263, 163, 165, 166, 169],
+[264, 163, 165, 166, 169],
 /* 169 */
 /*!*******************************************************!*\
   !*** ./~/react-router/~/history/lib/createHistory.js ***!
@@ -21023,7 +21023,7 @@
 /*!********************************************************!*\
   !*** ./~/react-router/~/history/~/deep-equal/index.js ***!
   \********************************************************/
-[264, 171, 172],
+[265, 171, 172],
 /* 171 */
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/~/deep-equal/lib/keys.js ***!
@@ -21105,12 +21105,12 @@
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/lib/runTransitionHook.js ***!
   \***********************************************************/
-[265, 161],
+[266, 161],
 /* 175 */
 /*!***************************************************!*\
   !*** ./~/react-router/~/history/lib/deprecate.js ***!
   \***************************************************/
-[266, 161],
+[267, 161],
 /* 176 */
 /*!******************************************!*\
   !*** ./~/react-router/lib/RouteUtils.js ***!
@@ -22082,12 +22082,12 @@
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/index.js ***!
   \****************************************************/
-[267, 183, 185],
+[268, 183, 185],
 /* 183 */
 /*!********************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/stringify.js ***!
   \********************************************************/
-[268, 184],
+[269, 184],
 /* 184 */
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/utils.js ***!
@@ -22279,7 +22279,7 @@
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/parse.js ***!
   \****************************************************/
-[269, 184],
+[270, 184],
 /* 186 */
 /*!****************************************************!*\
   !*** ./~/react-router/lib/computeChangedRoutes.js ***!
@@ -23799,7 +23799,7 @@
 /*!*************************************************************!*\
   !*** ./~/react-router/~/history/lib/createMemoryHistory.js ***!
   \*************************************************************/
-[270, 163, 164, 169],
+[271, 163, 164, 169],
 /* 204 */
 /*!*****************************************************!*\
   !*** ./~/react-router/~/history/lib/useBasename.js ***!
@@ -24261,7 +24261,7 @@
 /*!*******************************************!*\
   !*** ./~/history/lib/createDOMHistory.js ***!
   \*******************************************/
-[263, 207, 209, 210, 214],
+[264, 207, 209, 210, 214],
 /* 214 */
 /*!****************************************!*\
   !*** ./~/history/lib/createHistory.js ***!
@@ -24532,7 +24532,7 @@
 /*!*****************************************!*\
   !*** ./~/history/~/deep-equal/index.js ***!
   \*****************************************/
-[264, 216, 217],
+[265, 216, 217],
 /* 216 */
 /*!********************************************!*\
   !*** ./~/history/~/deep-equal/lib/keys.js ***!
@@ -24656,22 +24656,22 @@
 /*!********************************************!*\
   !*** ./~/history/lib/runTransitionHook.js ***!
   \********************************************/
-[265, 212],
+[266, 212],
 /* 222 */
 /*!************************************!*\
   !*** ./~/history/lib/deprecate.js ***!
   \************************************/
-[266, 212],
+[267, 212],
 /* 223 */
 /*!********************************************!*\
   !*** ./~/history/lib/createHashHistory.js ***!
   \********************************************/
-[262, 212, 207, 208, 209, 210, 211, 213],
+[263, 212, 207, 208, 209, 210, 211, 213],
 /* 224 */
 /*!**********************************************!*\
   !*** ./~/history/lib/createMemoryHistory.js ***!
   \**********************************************/
-[270, 207, 208, 214],
+[271, 207, 208, 214],
 /* 225 */
 /*!**************************************!*\
   !*** ./~/history/lib/useBasename.js ***!
@@ -25066,12 +25066,12 @@
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/index.js ***!
   \*************************************/
-[267, 229, 231],
+[268, 229, 231],
 /* 229 */
 /*!*****************************************!*\
   !*** ./~/history/~/qs/lib/stringify.js ***!
   \*****************************************/
-[268, 230],
+[269, 230],
 /* 230 */
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/utils.js ***!
@@ -25081,7 +25081,7 @@
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/parse.js ***!
   \*************************************/
-[269, 230],
+[270, 230],
 /* 232 */
 /*!*********************************************!*\
   !*** ./~/history/lib/enableBeforeUnload.js ***!
@@ -25368,6 +25368,8 @@
 	
 	var _reactRouter = __webpack_require__(/*! react-router */ 159);
 	
+	var _packageJson = __webpack_require__(/*! ../../../package.json */ 238);
+	
 	var Docs = (function (_React$Component) {
 	  _inherits(Docs, _React$Component);
 	
@@ -25528,7 +25530,8 @@
 	            _react2['default'].createElement(
 	              'strong',
 	              null,
-	              'Currently 0.3.5'
+	              'Currently ',
+	              _packageJson.version
 	            ),
 	            '.'
 	          )
@@ -25545,6 +25548,56 @@
 
 /***/ },
 /* 238 */
+/*!**********************!*\
+  !*** ./package.json ***!
+  \**********************/
+/***/ function(module, exports) {
+
+	module.exports = {
+		"name": "aia",
+		"version": "0.6.0",
+		"description": "The UI Toolkit that powers ONE's internal projects",
+		"main": "lib/index",
+		"scripts": {
+			"test": "./node_modulesl/.bin/karma",
+			"build:script": "babel ./scripts -d ./lib --ignore '__tests__' --stage=0",
+			"build:umd": "NODE_ENV=production webpack scripts/index.js dist/aia.umd.js",
+			"build:min": "NODE_ENV=production webpack -p scripts/index.js dist/aia.umd.js",
+			"build:style": "sass styles/aia.scss:dist/aia.css",
+			"copy:fonts": "cp styles/icons/one-icons.* dist/fonts",
+			"docs:server": "node_modules/.bin/http-server docs -p 3000",
+			"docs:watch:script": "webpack --config=docs/webpack.config.js -w -d -v --display-errors",
+			"docs:build:style": "sass docs/styles/main.scss:docs/dist/style.css",
+			"docs:watch:style": "sass --watch docs/styles/main.scss:docs/dist/style.css",
+			"docs:copy:fonts": "cp ../styles/icons/one-icons.* dist/fonts",
+			"postinstall": "npm run build:script"
+		},
+		"repository": {
+			"type": "git",
+			"url": "git+https://github.com/dev-onenetworkecommerce/aia.git"
+		},
+		"author": "",
+		"license": "ISC",
+		"bugs": {
+			"url": "https://github.com/dev-onenetworkecommerce/aia/issues"
+		},
+		"homepage": "https://github.com/dev-onenetworkecommerce/aia",
+		"devDependencies": {
+			"babel": "^5.8.23",
+			"babel-core": "^5.8.25",
+			"babel-loader": "^5.3.2",
+			"history": "^1.12.5",
+			"http-server": "^0.8.5",
+			"json-loader": "^0.5.3",
+			"react": "^0.14.0",
+			"react-dom": "^0.14.0",
+			"react-router": "^1.0.0-rc3",
+			"webpack": "^1.12.2"
+		}
+	};
+
+/***/ },
+/* 239 */
 /*!**************************************************!*\
   !*** ./docs/sections/Docs-Scaffolding/index.jsx ***!
   \**************************************************/
@@ -25754,7 +25807,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 239 */
+/* 240 */
 /*!*********************************************!*\
   !*** ./docs/sections/Docs-Layout/index.jsx ***!
   \*********************************************/
@@ -26215,7 +26268,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 240 */
+/* 241 */
 /*!*******************************************!*\
   !*** ./docs/sections/Docs-Type/index.jsx ***!
   \*******************************************/
@@ -26592,7 +26645,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 241 */
+/* 242 */
 /*!*********************************************!*\
   !*** ./docs/sections/Docs-Tables/index.jsx ***!
   \*********************************************/
@@ -27162,7 +27215,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 242 */
+/* 243 */
 /*!********************************************!*\
   !*** ./docs/sections/Docs-Forms/index.jsx ***!
   \********************************************/
@@ -27571,7 +27624,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 243 */
+/* 244 */
 /*!**************************************************!*\
   !*** ./docs/sections/Docs-Breadcrumbs/index.jsx ***!
   \**************************************************/
@@ -27740,7 +27793,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 244 */
+/* 245 */
 /*!********************************************!*\
   !*** ./docs/sections/Docs-Icons/index.jsx ***!
   \********************************************/
@@ -27894,7 +27947,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 245 */
+/* 246 */
 /*!*********************************************!*\
   !*** ./docs/sections/Docs-Alerts/index.jsx ***!
   \*********************************************/
@@ -28033,7 +28086,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 246 */
+/* 247 */
 /*!**********************************************!*\
   !*** ./docs/sections/Docs-Buttons/index.jsx ***!
   \**********************************************/
@@ -28861,7 +28914,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 247 */
+/* 248 */
 /*!*********************************************!*\
   !*** ./docs/sections/Docs-Labels/index.jsx ***!
   \*********************************************/
@@ -29031,7 +29084,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 248 */
+/* 249 */
 /*!*********************************************!*\
   !*** ./docs/sections/Docs-Panels/index.jsx ***!
   \*********************************************/
@@ -29507,7 +29560,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 249 */
+/* 250 */
 /*!************************************************!*\
   !*** ./docs/sections/Docs-ListGroup/index.jsx ***!
   \************************************************/
@@ -29734,7 +29787,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 250 */
+/* 251 */
 /*!******************************************!*\
   !*** ./docs/sections/Docs-Nav/index.jsx ***!
   \******************************************/
@@ -29796,7 +29849,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 251 */
+/* 252 */
 /*!********************************************!*\
   !*** ./docs/sections/Docs-Slate/index.jsx ***!
   \********************************************/
@@ -30063,7 +30116,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 252 */
+/* 253 */
 /*!**********************************************!*\
   !*** ./docs/sections/Docs-Loaders/index.jsx ***!
   \**********************************************/
@@ -30164,7 +30217,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 253 */
+/* 254 */
 /*!************************************************!*\
   !*** ./docs/sections/Docs-Utilities/index.jsx ***!
   \************************************************/
@@ -30760,7 +30813,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 254 */
+/* 255 */
 /*!***********************************************!*\
   !*** ./docs/sections/Docs-Dropdown/index.jsx ***!
   \***********************************************/
@@ -30786,7 +30839,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _scriptsComponentsDropdown = __webpack_require__(/*! ../../../scripts/components/Dropdown */ 255);
+	var _scriptsComponentsDropdown = __webpack_require__(/*! ../../../scripts/components/Dropdown */ 256);
 	
 	var _scriptsComponentsDropdown2 = _interopRequireDefault(_scriptsComponentsDropdown);
 	
@@ -31169,7 +31222,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 255 */
+/* 256 */
 /*!***********************************************!*\
   !*** ./scripts/components/Dropdown/index.jsx ***!
   \***********************************************/
@@ -31197,11 +31250,11 @@
 	
 	var _reactDom = __webpack_require__(/*! react-dom */ 157);
 	
-	var _utils = __webpack_require__(/*! ./utils */ 256);
+	var _utils = __webpack_require__(/*! ./utils */ 257);
 	
 	var _utils2 = _interopRequireDefault(_utils);
 	
-	var _utilsDomUtils = __webpack_require__(/*! ../../utils/DomUtils */ 257);
+	var _utilsDomUtils = __webpack_require__(/*! ../../utils/DomUtils */ 258);
 	
 	var ESC_KEY = 27;
 	var DEFAULT_POSITION = {
@@ -31376,7 +31429,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 256 */
+/* 257 */
 /*!**********************************************!*\
   !*** ./scripts/components/Dropdown/utils.js ***!
   \**********************************************/
@@ -31472,7 +31525,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 257 */
+/* 258 */
 /*!***********************************!*\
   !*** ./scripts/utils/DomUtils.js ***!
   \***********************************/
@@ -31554,7 +31607,7 @@
 	}
 
 /***/ },
-/* 258 */
+/* 259 */
 /*!********************************************!*\
   !*** ./docs/sections/Docs-Modal/index.jsx ***!
   \********************************************/
@@ -31580,7 +31633,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _scriptsComponentsModal = __webpack_require__(/*! ../../../scripts/components/Modal */ 259);
+	var _scriptsComponentsModal = __webpack_require__(/*! ../../../scripts/components/Modal */ 260);
 	
 	var _scriptsComponentsModal2 = _interopRequireDefault(_scriptsComponentsModal);
 	
@@ -31670,7 +31723,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 259 */
+/* 260 */
 /*!********************************************!*\
   !*** ./scripts/components/Modal/index.jsx ***!
   \********************************************/
@@ -31698,7 +31751,7 @@
 	
 	var _reactDom = __webpack_require__(/*! react-dom */ 157);
 	
-	var _utilsDomUtils = __webpack_require__(/*! ../../utils/DomUtils */ 257);
+	var _utilsDomUtils = __webpack_require__(/*! ../../utils/DomUtils */ 258);
 	
 	var MODAL_BODY_CLASS = 'modal-body';
 	var MODAL_BACKDROP_CLASS = 'modal-backdrop';
@@ -31825,7 +31878,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 260 */
+/* 261 */
 /*!*********************************************!*\
   !*** ./docs/sections/Docs-Colors/index.jsx ***!
   \*********************************************/
@@ -31939,7 +31992,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 261 */
+/* 262 */
 /*!*************************************************!*\
   !*** ./docs/sections/Docs-Guidelines/index.jsx ***!
   \*************************************************/
@@ -32155,7 +32208,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 262 */
+/* 263 */
 /*!************************************!*\
   !*** template of 162 referencing  ***!
   \************************************/
@@ -32397,7 +32450,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 263 */
+/* 264 */
 /*!************************************!*\
   !*** template of 168 referencing  ***!
   \************************************/
@@ -32455,7 +32508,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 264 */
+/* 265 */
 /*!************************************!*\
   !*** template of 170 referencing  ***!
   \************************************/
@@ -32556,7 +32609,7 @@
 	}
 
 /***/ },
-/* 265 */
+/* 266 */
 /*!************************************!*\
   !*** template of 174 referencing  ***!
   \************************************/
@@ -32590,7 +32643,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 266 */
+/* 267 */
 /*!************************************!*\
   !*** template of 175 referencing  ***!
   \************************************/
@@ -32619,7 +32672,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 267 */
+/* 268 */
 /*!************************************!*\
   !*** template of 182 referencing  ***!
   \************************************/
@@ -32642,7 +32695,7 @@
 	};
 
 /***/ },
-/* 268 */
+/* 269 */
 /*!************************************!*\
   !*** template of 183 referencing  ***!
   \************************************/
@@ -32760,7 +32813,7 @@
 	};
 
 /***/ },
-/* 269 */
+/* 270 */
 /*!************************************!*\
   !*** template of 185 referencing  ***!
   \************************************/
@@ -32938,7 +32991,7 @@
 	};
 
 /***/ },
-/* 270 */
+/* 271 */
 /*!************************************!*\
   !*** template of 203 referencing  ***!
   \************************************/
