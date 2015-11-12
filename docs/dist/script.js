@@ -30535,7 +30535,7 @@
 	            _react2["default"].createElement(
 	              "p",
 	              { className: "_ellipsis" },
-	              "This is a very long text, aand aaand.. yolo please swag."
+	              "This is a very long text, aand aaand yolo please swag."
 	            )
 	          ),
 	          _react2["default"].createElement(
