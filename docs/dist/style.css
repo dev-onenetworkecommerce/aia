@@ -5416,6 +5416,7 @@ a {
   .form-control.-disabled, .form-control:disabled {
     color: #C4C4C4;
     border-color: #F0F0F0;
+    background: #F0F0F0;
     cursor: not-allowed; }
   .form-control.-sky, .form-control.-sky:focus {
     border-color: #52B5E5; }
