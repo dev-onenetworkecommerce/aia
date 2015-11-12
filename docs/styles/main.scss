@@ -15,10 +15,12 @@ $icon-path: "../../dist/fonts";
 .doc-bottom-space-small { margin-bottom: 10px; }
 .doc-allowance { margin-right: 5px; }
 
+// Not really a block
 .doc-block {
-  width: 100%;
-  max-width: 125px;
+  display: inline-block;
+  min-width: 125px;
   height: 50px;
+  padding: 0 5px;
   line-height: 50px;
   text-align: center;
   background: $brand-gray-lt;

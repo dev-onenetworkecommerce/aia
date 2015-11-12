@@ -30414,20 +30414,28 @@
 	              { className: "_clearfix" },
 	              _react2["default"].createElement(
 	                "div",
-	                { className: "_left doc-block" },
+	                { className: "_left" },
 	                _react2["default"].createElement(
-	                  "code",
-	                  null,
-	                  "._left"
+	                  "div",
+	                  { className: "doc-block" },
+	                  _react2["default"].createElement(
+	                    "code",
+	                    null,
+	                    "._left"
+	                  )
 	                )
 	              ),
 	              _react2["default"].createElement(
 	                "div",
-	                { className: "_right doc-block" },
+	                { className: "_right" },
 	                _react2["default"].createElement(
-	                  "code",
-	                  null,
-	                  "._right"
+	                  "div",
+	                  { className: "doc-block" },
+	                  _react2["default"].createElement(
+	                    "code",
+	                    null,
+	                    "._right"
+	                  )
 	                )
 	              )
 	            )
@@ -30471,20 +30479,28 @@
 	            ),
 	            _react2["default"].createElement(
 	              "div",
-	              { className: "doc-block _spacer" },
+	              { className: "_spacer" },
 	              _react2["default"].createElement(
-	                "code",
-	                null,
-	                "._spacer-small"
+	                "div",
+	                { className: "doc-block" },
+	                _react2["default"].createElement(
+	                  "code",
+	                  null,
+	                  "._spacer-small"
+	                )
 	              )
 	            ),
 	            _react2["default"].createElement(
 	              "div",
-	              { className: "doc-block _spacer" },
+	              { className: "_spacer" },
 	              _react2["default"].createElement(
-	                "code",
-	                null,
-	                "._spacer"
+	                "div",
+	                { className: "doc-block" },
+	                _react2["default"].createElement(
+	                  "code",
+	                  null,
+	                  "._spacer"
+	                )
 	              )
 	            )
 	          ),
@@ -30503,31 +30519,44 @@
 	            ),
 	            _react2["default"].createElement(
 	              "div",
-	              { className: "doc-block _spacer-small" },
+	              { className: "_spacer-small" },
 	              _react2["default"].createElement(
-	                "code",
-	                null,
-	                "._spacer-small"
+	                "div",
+	                { className: "doc-block" },
+	                _react2["default"].createElement(
+	                  "code",
+	                  null,
+	                  "._spacer-small"
+	                )
 	              )
 	            ),
 	            _react2["default"].createElement(
 	              "div",
-	              { className: "doc-block _spacer" },
+	              { className: "_spacer" },
 	              _react2["default"].createElement(
-	                "code",
-	                null,
-	                "._spacer"
+	                "div",
+	                { className: "doc-block" },
+	                _react2["default"].createElement(
+	                  "code",
+	                  null,
+	                  "._spacer"
+	                )
 	              )
 	            ),
 	            _react2["default"].createElement(
 	              "div",
-	              { className: "doc-block _spacer-large" },
+	              { className: "_spacer-large" },
 	              _react2["default"].createElement(
-	                "code",
-	                null,
-	                "._spacer-large"
+	                "div",
+	                { className: "doc-block" },
+	                _react2["default"].createElement(
+	                  "code",
+	                  null,
+	                  "._spacer-large"
+	                )
 	              )
-	            )
+	            ),
+	            _react2["default"].createElement("div", { className: "doc-block" })
 	          ),
 	          _react2["default"].createElement(
 	            "section",
@@ -30544,20 +30573,28 @@
 	            ),
 	            _react2["default"].createElement(
 	              "div",
-	              { className: "doc-block _spacer-small" },
+	              { className: "_spacer-small" },
 	              _react2["default"].createElement(
-	                "code",
-	                null,
-	                "._spacer-small"
+	                "div",
+	                { className: "doc-block" },
+	                _react2["default"].createElement(
+	                  "code",
+	                  null,
+	                  "._spacer-small"
+	                )
 	              )
 	            ),
 	            _react2["default"].createElement(
 	              "div",
-	              { className: "doc-block _no-spacer" },
+	              { className: "_no-spacer" },
 	              _react2["default"].createElement(
-	                "code",
-	                null,
-	                "._no-spacer"
+	                "div",
+	                { className: "doc-block" },
+	                _react2["default"].createElement(
+	                  "code",
+	                  null,
+	                  "._no-spacer"
+	                )
 	              )
 	            ),
 	            _react2["default"].createElement("div", { className: "doc-block" })

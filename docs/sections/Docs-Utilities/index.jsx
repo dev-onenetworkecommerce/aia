@@ -38,8 +38,8 @@ export default class Utilities extends React.Component {
             <h3 className="doc-heading">Quick floats</h3>
             <p>Use these to float an element to left or right.</p>
             <div className="_clearfix">
-              <div className="_left doc-block"><code>._left</code></div>
-              <div className="_right doc-block"><code>._right</code></div>
+              <div className="_left"><div className="doc-block"><code>._left</code></div></div>
+              <div className="_right"><div className="doc-block"><code>._right</code></div></div>
             </div>
           </section>
 
@@ -53,23 +53,24 @@ export default class Utilities extends React.Component {
           <section className="doc-bottom-space">
             <h3 className="doc-heading">Spacers</h3>
             <p>Add ._spacer to add a uniform margin-bottom to your elements</p>
-            <div className="doc-block _spacer"><code>._spacer-small</code></div>
-            <div className="doc-block _spacer"><code>._spacer</code></div>
+            <div className="_spacer"><div className="doc-block"><code>._spacer-small</code></div></div>
+            <div className="_spacer"><div className="doc-block"><code>._spacer</code></div></div>
           </section>
 
           <section className="doc-bottom-space">
             <h3 className="doc-heading">Variations</h3>
             <p>Instead of ._space, you can add either ._spacer-small or ._spacer-large to adjust the margin size.</p>
-            <div className="doc-block _spacer-small"><code>._spacer-small</code></div>
-            <div className="doc-block _spacer"><code>._spacer</code></div>
-            <div className="doc-block _spacer-large"><code>._spacer-large</code></div>
+            <div className="_spacer-small"><div className="doc-block"><code>._spacer-small</code></div></div>
+            <div className="_spacer"><div className="doc-block"><code>._spacer</code></div></div>
+            <div className="_spacer-large"><div className="doc-block"><code>._spacer-large</code></div></div>
+            <div className="doc-block"></div>
           </section>
 
           <section>
             <h3 className="doc-heading">No Spacer</h3>
             <p>Add ._no-spacer to strictly remove the bottom margin</p>
-            <div className="doc-block _spacer-small"><code>._spacer-small</code></div>
-            <div className="doc-block _no-spacer"><code>._no-spacer</code></div>
+            <div className="_spacer-small"><div className="doc-block"><code>._spacer-small</code></div></div>
+            <div className="_no-spacer"><div className="doc-block"><code>._no-spacer</code></div></div>
             <div className="doc-block"></div>
           </section>
         </section>
