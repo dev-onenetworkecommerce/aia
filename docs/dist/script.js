@@ -30021,7 +30021,7 @@
 	          ),
 	          _react2["default"].createElement(
 	            "div",
-	            { className: "slate col-md-6 _centered" },
+	            { className: "slate" },
 	            _react2["default"].createElement("i", { className: "icon icon-cog -x8" }),
 	            _react2["default"].createElement(
 	              "h2",
