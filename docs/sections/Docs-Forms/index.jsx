@@ -8,7 +8,7 @@ export default class Forms extends React.Component {
         <p className="lead">Style individual form controls and utilize common layouts.</p>
 
         <section className="doc-bottom-space-large">
-          <section className="doc-bottom-space-large">
+          <section className="doc-bottom-space">
             <textarea className="form-control" defaultValue="Text content here." />
           </section>
 
@@ -36,7 +36,7 @@ export default class Forms extends React.Component {
 
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Variants</h3>
-          <p>To apply, simply add one of the *modifier* classes to <code>.form-control</code>: <code>.-sky</code>, <code>.-emerald,</code> <code>.-sun</code>, <code>.-crimson</code>.</p>
+          <p>To apply, simply add one of the *modifier* classes to .form-control: .-sky, .-emerald, .-sun, .-crimson.</p>
           <section className="doc-bottom-space">
             <input className="form-control -sky" type="text" placeholder="Enter something.." />
           </section>
@@ -76,7 +76,7 @@ export default class Forms extends React.Component {
 
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Form Groups</h3>
-          <p>Used <code>.form-group</code> as a container for form elements to have an ideal spacing.</p>
+          <p>Use as a container for a form element.</p>
           <section className="doc-bottom-space">
             <div className="form-group">
               <label htmlFor="form-zx@41a">Username</label>
@@ -93,7 +93,7 @@ export default class Forms extends React.Component {
         <section>
           <section className="doc-bottom-space">
             <h3 className="doc-heading">Input Groups</h3>
-            <p>Used <code>.input-group</code> as a container for a group of input elements.</p>
+            <p>Use as a container for a form element.</p>
             <section className="doc-bottom-space">
               <div className="input-group">
                 <span className="addon">00:00</span>
