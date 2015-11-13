@@ -4,7 +4,7 @@
   "description": "The UI Toolkit that powers ONE's internal projects",
   "main": "lib/index",
   "scripts": {
-    "test": "./node_modulesl/.bin/karma",
+    "test": "./node_modules/.bin/karma",
     "build:script": "babel ./scripts -d ./lib --ignore '__tests__' --stage=0",
     "build:umd": "NODE_ENV=production webpack scripts/index.js dist/aia.umd.js",
     "build:min": "NODE_ENV=production webpack -p scripts/index.js dist/aia.umd.js",
