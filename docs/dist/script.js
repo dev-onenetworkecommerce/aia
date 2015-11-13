@@ -27320,7 +27320,7 @@
 	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
 	            "section",
-	            { className: "doc-bottom-space-largem-space" },
+	            { className: "doc-bottom-space-large" },
 	            _react2["default"].createElement("textarea", { className: "form-control", defaultValue: "Text content here." })
 	          ),
 	          _react2["default"].createElement(

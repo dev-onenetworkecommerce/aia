@@ -8,7 +8,7 @@ export default class Forms extends React.Component {
         <p className="lead">Style individual form controls and utilize common layouts.</p>
 
         <section className="doc-bottom-space-large">
-          <section className="doc-bottom-space-largem-space">
+          <section className="doc-bottom-space-large">
             <textarea className="form-control" defaultValue="Text content here." />
           </section>
 
