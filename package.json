@@ -5,7 +5,7 @@
   "main": "lib/index",
   "scripts": {
     "test": "./node_modules/.bin/karma",
-    "build:script": "babel ./scripts -d ./lib --ignore '__tests__' --stage=0",
+    "build:script": "./node_modules/.bin/babel ./scripts -d ./lib --ignore '__tests__' --stage=0",
     "build:umd": "NODE_ENV=production webpack scripts/index.js dist/aia.umd.js",
     "build:min": "NODE_ENV=production webpack -p scripts/index.js dist/aia.umd.js",
     "build:style": "sass styles/aia.scss:dist/aia.css",
