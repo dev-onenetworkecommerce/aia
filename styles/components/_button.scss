@@ -55,7 +55,6 @@
   &.-primary { @include btn-variant($brand-primary); }
   &.-sky { @include btn-variant($brand-sky); }
   &.-emerald { @include btn-variant($brand-emerald); }
-  &.-sun { @include btn-variant($brand-sun); }
   &.-crimson { @include btn-variant($brand-crimson); }
   &.-link {
     @include btn-variant(transparent, $brand-sky);
@@ -80,7 +79,6 @@
   &.-inverted.-primary { @include btn-variant-inverted($brand-primary); }
   &.-inverted.-sky { @include btn-variant-inverted($brand-sky); }
   &.-inverted.-emerald { @include btn-variant-inverted($brand-emerald); }
-  &.-inverted.-sun { @include btn-variant-inverted($brand-sun); }
   &.-inverted.-crimson { @include btn-variant-inverted($brand-crimson); }
 
   &.-disabled,

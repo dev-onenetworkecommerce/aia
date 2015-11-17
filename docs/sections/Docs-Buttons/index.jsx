@@ -13,7 +13,6 @@ export default class Buttons extends React.Component {
             <button className="btn -primary">Primary</button>
             <button className="btn -sky">Sky</button>
             <button className="btn -emerald">Emerald</button>
-            <button className="btn -sun">Sun</button>
             <button className="btn -crimson">Crimson</button>
             <button className="btn -link">Link</button>
           </div>
@@ -37,7 +36,6 @@ export default class Buttons extends React.Component {
             <button className="btn -inverted -default">Button</button>
             <button className="btn -inverted -primary">Button</button>
             <button className="btn -inverted -sky">Button</button>
-            <button className="btn -inverted -sun">Button</button>
             <button className="btn -inverted -crimson">Button</button>
             <button className="btn -inverted -emerald">Button</button>
           </div>
@@ -57,7 +55,6 @@ export default class Buttons extends React.Component {
             <button className="btn -default -rounded">Button</button>
             <button className="btn -sky -rounded">Button</button>
             <button className="btn -emerald -rounded">Button</button>
-            <button className="btn -sun -rounded">Button</button>
             <button className="btn -crimson -rounded">Button</button>
           </div>
         </section>
