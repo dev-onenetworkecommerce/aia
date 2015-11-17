@@ -52,7 +52,7 @@
     border: 1px solid $brand-gray;
   }
 
-  &.-primary { @include btn-variant($brand-primary); }
+  &.-primary { @include btn-variant($brand-sidebar-lt); }
   &.-sky { @include btn-variant($brand-sky); }
   &.-emerald { @include btn-variant($brand-emerald); }
   &.-crimson { @include btn-variant($brand-crimson); }
@@ -76,7 +76,7 @@
   }
 
   &.-inverted.-default { @include btn-variant-inverted($brand-gray); }
-  &.-inverted.-primary { @include btn-variant-inverted($brand-primary); }
+  &.-inverted.-primary { @include btn-variant-inverted($brand-sidebar-lt); }
   &.-inverted.-sky { @include btn-variant-inverted($brand-sky); }
   &.-inverted.-emerald { @include btn-variant-inverted($brand-emerald); }
   &.-inverted.-crimson { @include btn-variant-inverted($brand-crimson); }
