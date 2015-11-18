@@ -56,7 +56,7 @@ export default class Forms extends React.Component {
 
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Form Groups</h3>
-          <p>Use as a container for a form element.</p>
+          <p>Used as a container for a form element.</p>
           <section className="doc-bottom-space">
             <div className="form-group">
               <label htmlFor="form-zx@41a">Username</label>

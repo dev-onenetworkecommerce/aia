@@ -27357,7 +27357,7 @@
 	            _react2["default"].createElement(
 	              "h3",
 	              { className: "doc-heading" },
-	              "Top-positioned message"
+	              "Example: Top-positioned message"
 	            ),
 	            _react2["default"].createElement(
 	              "p",
