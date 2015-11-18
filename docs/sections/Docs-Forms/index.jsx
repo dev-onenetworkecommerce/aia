@@ -35,26 +35,6 @@ export default class Forms extends React.Component {
         </section>
 
         <section className="doc-bottom-space-large">
-          <h3 className="doc-heading">Variants</h3>
-          <p>To apply, simply add one of the *modifier* classes to .form-control: .-sky, .-emerald, .-sun, .-crimson.</p>
-          <section className="doc-bottom-space">
-            <input className="form-control -sky" type="text" placeholder="Enter something.." />
-          </section>
-
-          <section className="doc-bottom-space">
-            <input className="form-control -emerald" type="text" placeholder="Enter something.." />
-          </section>
-
-          <section className="doc-bottom-space">
-            <input className="form-control -sun" type="text" placeholder="Enter something.." />
-          </section>
-
-          <section>
-            <input className="form-control -crimson" type="text" placeholder="Enter something.." />
-          </section>
-        </section>
-
-        <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Form Error</h3>
           <p className="lead">You may present form errors with a tooltip-like presentation.</p>
           <section className="doc-bottom-space">

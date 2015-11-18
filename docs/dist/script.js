@@ -27330,40 +27330,6 @@
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
-	            "Variants"
-	          ),
-	          _react2["default"].createElement(
-	            "p",
-	            null,
-	            "To apply, simply add one of the *modifier* classes to .form-control: .-sky, .-emerald, .-sun, .-crimson."
-	          ),
-	          _react2["default"].createElement(
-	            "section",
-	            { className: "doc-bottom-space" },
-	            _react2["default"].createElement("input", { className: "form-control -sky", type: "text", placeholder: "Enter something.." })
-	          ),
-	          _react2["default"].createElement(
-	            "section",
-	            { className: "doc-bottom-space" },
-	            _react2["default"].createElement("input", { className: "form-control -emerald", type: "text", placeholder: "Enter something.." })
-	          ),
-	          _react2["default"].createElement(
-	            "section",
-	            { className: "doc-bottom-space" },
-	            _react2["default"].createElement("input", { className: "form-control -sun", type: "text", placeholder: "Enter something.." })
-	          ),
-	          _react2["default"].createElement(
-	            "section",
-	            null,
-	            _react2["default"].createElement("input", { className: "form-control -crimson", type: "text", placeholder: "Enter something.." })
-	          )
-	        ),
-	        _react2["default"].createElement(
-	          "section",
-	          { className: "doc-bottom-space-large" },
-	          _react2["default"].createElement(
-	            "h3",
-	            { className: "doc-heading" },
 	            "Form Error"
 	          ),
 	          _react2["default"].createElement(

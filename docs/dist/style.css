@@ -5418,14 +5418,8 @@ a {
     border-color: #F0F0F0;
     background: #F0F0F0;
     cursor: not-allowed; }
-  .form-control.-sky, .form-control.-sky:focus {
-    border-color: #52B5E5; }
-  .form-control.-emerald, .form-control.-emerald:focus {
-    border-color: #38D4A9; }
   .form-control.-crimson, .form-control.-crimson:focus {
     border-color: #F05F50; }
-  .form-control.-sun, .form-control.-sun:focus {
-    border-color: #FFC05A; }
 
 .form-group {
   position: relative; }

@@ -1,10 +1,3 @@
-@mixin form-variant($color) {
-  &,
-  &:focus {
-    border-color: $color;
-  }
-}
-
 .form-control {
   display: block;
   width: 100%;
@@ -28,20 +21,9 @@
     cursor: not-allowed;
   }
 
-  &.-sky {
-    @include form-variant($brand-sky);
-  }
-
-  &.-emerald {
-    @include form-variant($brand-emerald);
-  }
-
-  &.-crimson {
-    @include form-variant($brand-crimson);
-  }
-
-  &.-sun {
-    @include form-variant($brand-sun);
+  &.-crimson,
+  &.-crimson:focus {
+    border-color: $brand-crimson;
   }
 }
 
