@@ -5409,7 +5409,7 @@ a {
   vertical-align: middle;
   background-color: #fff;
   border: 1px solid #4A4A4A;
-  border-radius: 3px;
+  border-radius: 5px;
   outline: none; }
   .form-control:focus {
     border-color: #52B5E5; }
@@ -5517,7 +5517,7 @@ label {
     padding: 0 8px;
     background: #F0F0F0;
     border: 1px solid #C4C4C4;
-    border-radius: 3px; }
+    border-radius: 5px; }
   .input-group > .addon:first-child {
     border-right: 0; }
   .input-group > .addon:last-child {
@@ -5599,7 +5599,7 @@ hr {
   line-height: 30px;
   font-size: 14px;
   border: 1px solid transparent;
-  border-radius: 3px;
+  border-radius: 5px;
   outline: none;
   /* remove native outline */
   cursor: pointer;
@@ -5749,7 +5749,7 @@ hr {
   font-size: 12px;
   background: #C4C4C4;
   border: 0;
-  border-radius: 3px;
+  border-radius: 5px;
   outline: none;
   /* remove native outline */
   cursor: pointer;
@@ -5777,7 +5777,7 @@ hr {
   font-size: 12px;
   background: transparent;
   border: 1px solid #C4C4C4;
-  border-radius: 3px;
+  border-radius: 5px;
   outline: none;
   /* remove native outline */
   cursor: pointer;
@@ -5811,7 +5811,7 @@ hr {
   padding: 20px 15px;
   position: relative;
   color: #fff;
-  border-radius: 3px; }
+  border-radius: 5px; }
   .alert.-emerald {
     background-color: #38D4A9; }
   .alert.-sky {
@@ -5837,7 +5837,7 @@ hr {
   text-transform: uppercase;
   line-height: 1;
   background: #C4C4C4;
-  border-radius: 3px; }
+  border-radius: 5px; }
   .label.-primary {
     color: #fff;
     background-color: #3A569B; }
@@ -5942,7 +5942,7 @@ hr {
 
 .list-group {
   background-color: #fff;
-  border-radius: 3px;
+  border-radius: 5px;
   border: 1.5px solid #F0F0F0;
   color: #4A4A4A; }
   .list-group > .menuitem {
@@ -5958,12 +5958,12 @@ hr {
   .list-group > .menuitem:hover {
     background: #F0F0F0; }
   .list-group > .menuitem:first-child {
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     border-top: 0; }
   .list-group > .menuitem:last-child {
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     border-bottom: 0; }
   .list-group > .menuitem.-selected {
     color: #fff;
@@ -5992,8 +5992,8 @@ hr {
   border-radius: 5px; }
   .panel > .heading {
     padding: 10px 15px;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     border-bottom: 1px solid #C4C4C4; }
   .panel > .heading > * {
     margin-bottom: 0; }
@@ -6003,8 +6003,8 @@ hr {
     border-top: 1px solid #F0F0F0; }
   .panel > .footer {
     padding: 10px 15px;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px; }
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; }
   .panel > .table.-bordered > thead > tr > th:first-child,
   .panel > .table.-bordered > tbody > tr > td:first-child {
     border-left: 0; }
@@ -6028,7 +6028,7 @@ hr {
     font-size: 14px;
     background-color: #fff;
     border: 1px solid #C4C4C4;
-    border-radius: 3px;
+    border-radius: 5px;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1); }
   .dropdown > .menu::before,
   .dropdown > .menu::after {
@@ -6137,7 +6137,7 @@ body.modal-body {
   text-align: center;
   color: #78828A;
   background: #F0F0F0;
-  border-radius: 3px; }
+  border-radius: 5px; }
   .slate.-spacious {
     padding: 60px; }
   .slate.-plain {
@@ -6210,7 +6210,7 @@ body.modal-body {
   display: inline-block;
   width: 6rem;
   height: 6rem;
-  border-radius: 3px; }
+  border-radius: 5px; }
   .doc-swatch + .doc-swatch {
     margin-left: 0.5rem; }
   .doc-swatch.-primary {
@@ -6309,7 +6309,7 @@ code {
     color: #4A4A4A; }
 
 .icon-box {
-  border-radius: 3px;
+  border-radius: 5px;
   background: #F0F0F0;
   padding: 30px;
   text-align: center; }
@@ -6325,7 +6325,7 @@ code {
   display: inline-block;
   padding: 10px 15px;
   background: #F0F0F0;
-  border-radius: 3px; }
+  border-radius: 5px; }
   .doc-loader-panel.-dark {
     background: #4A4A4A; }
   .doc-loader-panel + .doc-loader-panel {
@@ -6387,6 +6387,6 @@ code {
   text-align: center;
   background: #F0F0F0;
   border: 1px solid #C4C4C4;
-  border-radius: 3px; }
+  border-radius: 5px; }
 
 /*# sourceMappingURL=style.css.map */
