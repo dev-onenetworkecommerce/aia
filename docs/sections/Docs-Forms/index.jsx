@@ -45,7 +45,7 @@ export default class Forms extends React.Component {
           </section>
 
           <section>
-            <h3 className="doc-heading">Top-positioned message</h3>
+            <h3 className="doc-heading">Example: Top-positioned message</h3>
             <p>Places the message above the input, useful when an overlapping element is expected to display below (such as date picker).</p>
             <div className="form-group">
               <input className="form-control -crimson" type="text" placeholder="Enter something.." />
