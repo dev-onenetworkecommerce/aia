@@ -7,7 +7,7 @@ export default class Alerts extends React.Component {
         <section className="doc-bottom-space-large">
           <h1 className="doc-heading">Alerts</h1>
         	<p className="lead">
-            This is a collection of symbols for quickly mocking up web applications. Created by your friends at One Network Ecommerce and released under the ONE License
+            Use alerts to inform or notify the user.
           </p>
 
           <div className="alert -sky doc-bottom-space">

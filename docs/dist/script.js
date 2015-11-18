@@ -27965,7 +27965,7 @@
 	          _react2["default"].createElement(
 	            "p",
 	            { className: "lead" },
-	            "This is a collection of symbols for quickly mocking up web applications. Created by your friends at One Network Ecommerce and released under the ONE License"
+	            "Use alerts to inform or notify the user."
 	          ),
 	          _react2["default"].createElement(
 	            "div",
