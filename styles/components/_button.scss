@@ -24,11 +24,12 @@
 .btn {
   display: inline-block;
   // Size
-  padding: 0 20px;
+  padding: 0 40px;
   // Supposedly the same as above, but for some reason,
   // Montserrat looks like it's not centered when it's
   // the same values
-  line-height: 30px;
+  height: 36px;
+  line-height: 36px;
   font-size: $font-size-base;
   border: 1px solid transparent;
   border-radius: $border-radius-base;
@@ -98,22 +99,24 @@
   }
 
   &.-xs {
-    height: 25px;
-    font-size: $mini;
-    line-height: 25px;
+    padding: 0 15px;
+    height: 22px;
+    font-size: 12px;
+    line-height: 22px;
   }
 
   &.-small {
-    height: 30px;
-    font-size: $mini;
-    line-height: 30px;
+    padding: 0 20px;
+    height: 26px;
+    font-size: 12px;
+    line-height: 26px;
   }
 
   &.-large {
-    height: 50px;
-    padding: 0 25px;
-    font-size: $tiny;
-    line-height: 40px;
+    padding: 0 45px;
+    height: 45px;
+    font-size: 20px;
+    line-height: 45px;
   }
 
   &.-large > .icon:first-child {
