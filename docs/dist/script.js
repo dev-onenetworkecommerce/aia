@@ -25555,12 +25555,12 @@
 
 	module.exports = {
 		"name": "aia",
-		"version": "0.6.1",
+		"version": "0.6.2",
 		"description": "The UI Toolkit that powers ONE's internal projects",
 		"main": "lib/index",
 		"scripts": {
-			"test": "./node_modulesl/.bin/karma",
-			"build:script": "babel ./scripts -d ./lib --ignore '__tests__' --stage=0",
+			"test": "./node_modules/.bin/karma",
+			"build:script": "./node_modules/.bin/babel ./scripts -d ./lib --ignore '__tests__' --stage=0",
 			"build:umd": "NODE_ENV=production webpack scripts/index.js dist/aia.umd.js",
 			"build:min": "NODE_ENV=production webpack -p scripts/index.js dist/aia.umd.js",
 			"build:style": "sass styles/aia.scss:dist/aia.css",
@@ -27421,7 +27421,7 @@
 	          _react2["default"].createElement(
 	            "p",
 	            null,
-	            "Used as a container for a form element."
+	            "Use as a container for a form element."
 	          ),
 	          _react2["default"].createElement(
 	            "section",
@@ -27462,7 +27462,7 @@
 	            _react2["default"].createElement(
 	              "p",
 	              null,
-	              "Used as a container for a form element."
+	              "Use as a container for a form element."
 	            ),
 	            _react2["default"].createElement(
 	              "section",
@@ -28162,11 +28162,6 @@
 	            ),
 	            _react2['default'].createElement(
 	              'button',
-	              { className: 'btn -sun' },
-	              'Sun'
-	            ),
-	            _react2['default'].createElement(
-	              'button',
 	              { className: 'btn -crimson' },
 	              'Crimson'
 	            ),
@@ -28271,11 +28266,6 @@
 	            ),
 	            _react2['default'].createElement(
 	              'button',
-	              { className: 'btn -inverted -sun' },
-	              'Button'
-	            ),
-	            _react2['default'].createElement(
-	              'button',
 	              { className: 'btn -inverted -crimson' },
 	              'Button'
 	            ),
@@ -28351,11 +28341,6 @@
 	            _react2['default'].createElement(
 	              'button',
 	              { className: 'btn -emerald -rounded' },
-	              'Button'
-	            ),
-	            _react2['default'].createElement(
-	              'button',
-	              { className: 'btn -sun -rounded' },
 	              'Button'
 	            ),
 	            _react2['default'].createElement(
@@ -28727,7 +28712,7 @@
 	        ),
 	        _react2['default'].createElement(
 	          'section',
-	          null,
+	          { className: 'doc-bottom-space-large' },
 	          _react2['default'].createElement(
 	            'section',
 	            { className: 'doc-bottom-space' },
@@ -28840,7 +28825,7 @@
 	          ),
 	          _react2['default'].createElement(
 	            'section',
-	            { className: 'doc-bottom-space' },
+	            null,
 	            _react2['default'].createElement(
 	              'h3',
 	              { className: 'doc-heading' },
@@ -28900,6 +28885,50 @@
 	                { className: 'action', disabled: true },
 	                'Next'
 	              )
+	            )
+	          )
+	        ),
+	        _react2['default'].createElement(
+	          'section',
+	          null,
+	          _react2['default'].createElement(
+	            'section',
+	            { className: 'doc-bottom-space' },
+	            _react2['default'].createElement(
+	              'h1',
+	              { className: 'doc-heading' },
+	              'Light Button'
+	            ),
+	            _react2['default'].createElement(
+	              'p',
+	              { className: 'lead' },
+	              'It is useful for actions for a resource in a list. Advised to pair the text with an icon.'
+	            ),
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'light-btn' },
+	              _react2['default'].createElement('i', { className: 'icon icon-pencil' }),
+	              'Edit'
+	            )
+	          ),
+	          _react2['default'].createElement(
+	            'section',
+	            null,
+	            _react2['default'].createElement(
+	              'h1',
+	              { className: 'doc-heading' },
+	              'Example: Darker Light Button'
+	            ),
+	            _react2['default'].createElement(
+	              'p',
+	              null,
+	              'A larger and darker variant of the light button. This is useful for general actions in a list.'
+	            ),
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'light-btn -dark' },
+	              _react2['default'].createElement('i', { className: 'icon icon-plus2' }),
+	              'New User'
 	            )
 	          )
 	        )
@@ -29163,7 +29192,7 @@
 	          ),
 	          _react2["default"].createElement(
 	            "div",
-	            { className: "panel -default" },
+	            { className: "panel" },
 	            _react2["default"].createElement(
 	              "div",
 	              { className: "body" },
@@ -29206,7 +29235,7 @@
 	            ),
 	            _react2["default"].createElement(
 	              "div",
-	              { className: "panel -default" },
+	              { className: "panel" },
 	              _react2["default"].createElement(
 	                "div",
 	                { className: "heading" },
@@ -29224,7 +29253,7 @@
 	            null,
 	            _react2["default"].createElement(
 	              "div",
-	              { className: "panel -default" },
+	              { className: "panel" },
 	              _react2["default"].createElement(
 	                "div",
 	                { className: "heading" },
@@ -29252,7 +29281,7 @@
 	          ),
 	          _react2["default"].createElement(
 	            "div",
-	            { className: "panel -default" },
+	            { className: "panel" },
 	            _react2["default"].createElement(
 	              "div",
 	              { className: "body" },
@@ -29271,90 +29300,11 @@
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
-	            "Contextual Alternatives"
-	          ),
-	          _react2["default"].createElement(
-	            "div",
-	            { className: "panel -primary doc-bottom-space" },
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "heading" },
-	              "Panel Title"
-	            ),
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "body" },
-	              "Panel Body"
-	            )
-	          ),
-	          _react2["default"].createElement(
-	            "div",
-	            { className: "panel -sky doc-bottom-space" },
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "heading" },
-	              "Panel Title"
-	            ),
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "body" },
-	              "Panel Body"
-	            )
-	          ),
-	          _react2["default"].createElement(
-	            "div",
-	            { className: "panel -emerald doc-bottom-space" },
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "heading" },
-	              "Panel Title"
-	            ),
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "body" },
-	              "Panel Body"
-	            )
-	          ),
-	          _react2["default"].createElement(
-	            "div",
-	            { className: "panel -sun doc-bottom-space" },
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "heading" },
-	              "Panel Title"
-	            ),
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "body" },
-	              "Panel Body"
-	            )
-	          ),
-	          _react2["default"].createElement(
-	            "div",
-	            { className: "panel -crimson" },
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "heading" },
-	              "Panel Title"
-	            ),
-	            _react2["default"].createElement(
-	              "div",
-	              { className: "body" },
-	              "Panel Body"
-	            )
-	          )
-	        ),
-	        _react2["default"].createElement(
-	          "section",
-	          { className: "doc-bottom-space-large" },
-	          _react2["default"].createElement(
-	            "h3",
-	            { className: "doc-heading" },
 	            "Panel with Multiple Body"
 	          ),
 	          _react2["default"].createElement(
 	            "div",
-	            { className: "panel -default" },
+	            { className: "panel" },
 	            _react2["default"].createElement(
 	              "div",
 	              { className: "heading" },
@@ -29410,7 +29360,7 @@
 	          ),
 	          _react2["default"].createElement(
 	            "div",
-	            { className: "panel -default" },
+	            { className: "panel" },
 	            _react2["default"].createElement(
 	              "div",
 	              { className: "heading" },
@@ -29517,7 +29467,7 @@
 	          ),
 	          _react2["default"].createElement(
 	            "div",
-	            { className: "panel -default" },
+	            { className: "panel" },
 	            _react2["default"].createElement(
 	              "div",
 	              { className: "heading" },

@@ -1,0 +1,30 @@
+.light-btn {
+  @extend .btn;
+  @extend .btn.-small;
+  @extend .btn.-link;
+
+  color: $brand-gray;
+
+  &:hover,
+  &:focus {
+    color: $brand-gray-dk;
+    text-decoration: none;
+  }
+
+  &:disabled,
+  &:disabled:hover {
+    // @refactor
+    // move this disabled styling to .btn.-link
+    color: $brand-gray-lt;
+    background-color: $brand-white;
+  }
+
+  &.-dark {
+    font-size: $font-size-base;
+    color: $brand-black;
+  }
+
+  &.-dark:hover {
+    color: $brand-gray-dk;
+  }
+}

@@ -160,7 +160,7 @@ export default class Buttons extends React.Component {
           </section>
         </section>
 
-        <section>
+        <section className="doc-bottom-space-large">
           <section className="doc-bottom-space">
             <h1 className="doc-heading">Pagination</h1>
             <p className="lead">These buttons are a bit different, written entirely for pagination.</p>
@@ -191,7 +191,7 @@ export default class Buttons extends React.Component {
             </div>
           </section>
 
-          <section className="doc-bottom-space">
+          <section>
             <h3 className="doc-heading">Example: Disabled Actions</h3>
             <p>At the moment, only the previous and next button can be disabled. Through the <code>disabled</code> attribute, or by adding the <code>.-disabled </code> modifier class.</p>
             <div className="pagination">
@@ -204,6 +204,26 @@ export default class Buttons extends React.Component {
               </div>
               <button className="action" disabled={true}>Next</button>
             </div>
+          </section>
+        </section>
+
+        <section>
+          <section className="doc-bottom-space">
+            <h1 className="doc-heading">Light Button</h1>
+            <p className="lead">It is useful for actions for a resource in a list. Advised to pair the text with an icon.</p>
+            <button className="light-btn">
+              <i className="icon icon-pencil" />
+              Edit
+            </button>
+          </section>
+
+          <section>
+            <h1 className="doc-heading">Example: Darker Light Button</h1>
+            <p>A larger and darker variant of the light button. This is useful for general actions in a list.</p>
+            <button className="light-btn -dark">
+              <i className="icon icon-plus2" />
+              New User
+            </button>
           </section>
         </section>
       </div>
