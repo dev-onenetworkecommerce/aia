@@ -1,14 +1,14 @@
 .panel {
   color: $brand-black;
 	background: $brand-white;
-  border: 1px solid $brand-gray;
+  border: 1px solid $brand-gray-lt;
 	border-radius: 5px;
 
   > .heading {
     padding: 10px 15px;
     border-top-left-radius: $border-radius-base;
     border-top-right-radius: $border-radius-base;
-    border-bottom: 1px solid $brand-gray;
+    border-bottom: 1px solid $brand-gray-lt;
   }
 
   > .heading > * {

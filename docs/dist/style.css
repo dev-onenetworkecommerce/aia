@@ -5988,13 +5988,13 @@ hr {
 .panel {
   color: #4A4A4A;
   background: #fff;
-  border: 1px solid #C4C4C4;
+  border: 1px solid #F0F0F0;
   border-radius: 5px; }
   .panel > .heading {
     padding: 10px 15px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    border-bottom: 1px solid #C4C4C4; }
+    border-bottom: 1px solid #F0F0F0; }
   .panel > .heading > * {
     margin-bottom: 0; }
   .panel > .body {
