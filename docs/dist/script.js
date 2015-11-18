@@ -27387,7 +27387,7 @@
 	          _react2["default"].createElement(
 	            "p",
 	            null,
-	            "Use as a container for a form element."
+	            "Used as a container for a form element."
 	          ),
 	          _react2["default"].createElement(
 	            "section",
@@ -27999,7 +27999,7 @@
 	          _react2["default"].createElement(
 	            "p",
 	            null,
-	            "Useful when you'd like to use the whole space without the border and radius. Simply apply the .-block class."
+	            "Useful when you'd like to use a more emphasized alert (for example, growl)."
 	          ),
 	          _react2["default"].createElement(
 	            "div",

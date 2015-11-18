@@ -29,7 +29,7 @@ export default class Alerts extends React.Component {
 
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Example: Block</h3>
-          <p>Useful when you'd like to use the whole space without the border and radius. Simply apply the .-block class.</p>
+          <p>Useful when you'd like to use a more emphasized alert (for example, growl).</p>
           <div className="alert -emerald -block">
             Oh snap! Change a few things up and try this submitting again.
           </div>

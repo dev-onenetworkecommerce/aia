@@ -5817,6 +5817,7 @@ hr {
   .alert.-large {
     padding: 30px 15px; }
   .alert.-block {
+    text-align: center;
     border: 0;
     border-radius: 0; }
   .alert > .icon:first-child {
