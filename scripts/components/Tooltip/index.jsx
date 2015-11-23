@@ -19,13 +19,13 @@ export default class ToolTip extends React.Component {
   }
 
   state = {
-    show: false ,
+    show: false,
     top: 0,
     left: 0
   }
 
   static PropTypes = {
-     position: PropTypes.oneOf([
+    position: PropTypes.oneOf([
     'top',
     'left',
     'right',
