@@ -20,34 +20,31 @@ export default {
    */
   calculatePosition(trigger, overlay, placement) {
     const coords = trigger.getBoundingClientRect();
-    const coordsTop = coords.top,
-          coordsBottom = coords.bottom,
-          coordsLeft = coords.left,
-          coordsRight = coords.right,
-          ADD_MARGIN = 8;
+    const ADD_MARGIN = 8;
 
     switch (placement) {
       case 'left':
         return {
-          top: (coordsTop + (trigger.offsetHeight / 2)) + trigger.offsetHeight - overlay.offsetHeight,
-          left: coordsLeft - overlay.offsetWidth - ADD_MARGIN
+          top: (coords.top + (trigger.offsetHeight / 2)) + trigger.offsetHeight - overlay.offsetHeight,
+          left: coords.left - overlay.offsetWidth - ADD_MARGIN
         };
       case 'right':
         return {
-          top: (coordsTop + (trigger.offsetHeight / 2)) + trigger.offsetHeight - overlay.offsetHeight,
-          left: coordsRight + ADD_MARGIN
+          top: (coords.top + (trigger.offsetHeight / 2)) + trigger.offsetHeight - overlay.offsetHeight,
+          left: coords.right + ADD_MARGIN
         };
       case 'top':
         return {
-          top: coordsTop - overlay.offsetHeight - ADD_MARGIN,
-          left: coordsRight - (trigger.offsetWidth / 2) - (overlay.offsetWidth / 2)
+          top: coords.top - overlay.offsetHeight - ADD_MARGIN,
+          left: coords.right - (trigger.offsetWidth / 2) - (overlay.offsetWidth / 2)
         };
       case 'bottom':
         return {
-          top: coordsBottom + ADD_MARGIN,
-          left: coordsRight - (trigger.offsetWidth / 2) - (overlay.offsetWidth / 2)
+          top: coords.bottom + ADD_MARGIN,
+          left: coords.right - (trigger.offsetWidth / 2) - (overlay.offsetWidth / 2)
         };
       default:
+        return null;
         // I can't imagine this being ran through
         // No need for this since the placement is validated with `propTypes`
     }
