@@ -5591,8 +5591,9 @@ hr {
 
 .btn, .light-btn {
   display: inline-block;
-  padding: 0 20px;
-  line-height: 30px;
+  padding: 0 40px;
+  height: 36px;
+  line-height: 36px;
   font-size: 14px;
   border: 1px solid transparent;
   border-radius: 5px;
@@ -5693,18 +5694,20 @@ hr {
     margin-left: auto;
     text-align: center; }
   .btn.-xs, .btn-group.-xs > .btn, .btn-group.-xs > .light-btn, .-xs.light-btn {
-    height: 25px;
+    padding: 0 15px;
+    height: 22px;
     font-size: 12px;
-    line-height: 25px; }
+    line-height: 22px; }
   .btn.-small, .btn-group.-small > .btn, .btn-group.-small > .light-btn, .light-btn {
-    height: 30px;
+    padding: 0 20px;
+    height: 26px;
     font-size: 12px;
-    line-height: 30px; }
+    line-height: 26px; }
   .btn.-large, .btn-group.-large > .btn, .btn-group.-large > .light-btn, .-large.light-btn {
-    height: 50px;
-    padding: 0 25px;
-    font-size: 18px;
-    line-height: 40px; }
+    padding: 0 45px;
+    height: 45px;
+    font-size: 20px;
+    line-height: 45px; }
   .btn.-large > .icon:first-child, .btn-group.-large > .btn > .icon:first-child, .btn-group.-large > .light-btn > .icon:first-child, .-large.light-btn > .icon:first-child {
     margin-right: 16px; }
   .btn.-large > .icon:last-child, .btn-group.-large > .btn > .icon:last-child, .btn-group.-large > .light-btn > .icon:last-child, .-large.light-btn > .icon:last-child {
