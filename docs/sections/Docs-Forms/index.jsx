@@ -8,75 +8,48 @@ export default class Forms extends React.Component {
         <p className="lead">Style individual form controls and utilize common layouts.</p>
 
         <section className="doc-bottom-space-large">
-          <div className="row">
-            <div className="col-md-6">
-              <h3 className="doc-heading">Form Elements</h3>
-              <section className="doc-bottom-space">
-                <textarea className="form-control" defaultValue="Text content here." />
-              </section>
+          <section className="doc-bottom-space">
+            <textarea className="form-control" defaultValue="Text content here." />
+          </section>
 
-              <section className="doc-bottom-space">
-                <input className="form-control" type="text" defaultValue="Input value" />
-              </section>
+          <section className="doc-bottom-space">
+            <input className="form-control" type="text" defaultValue="Input value" />
+          </section>
 
-              <section className="doc-bottom-space">
-                <input className="form-control" type="text" placeholder="Placeholder" />
-              </section>
+          <section className="doc-bottom-space">
+            <input className="form-control" type="text" placeholder="Placeholder" />
+          </section>
 
-              <section className="doc-bottom-space">
-                <select className="form-control">
-                  <option>Option 1</option>
-                  <option>Option 2</option>
-                </select>
-              </section>
-            </div>
-
-            <div className="col-md-6">
-              <h3 className="doc-heading">Disabled</h3>
-              <section className="doc-bottom-space">
-                <textarea className="form-control" placeholder="Enter something" disabled />
-              </section>
-
-              <section className="doc-bottom-space">
-                <input className="form-control" type="text" placeholder="Enter something" disabled />
-              </section>
-
-              <section>
-                <select className="form-control" disabled>
-                  <option>Clickity click!</option>
-                </select>
-              </section>
-            </div>
-          </div>
+          <section className="doc-bottom-space">
+            <select className="form-control">
+              <option>Option 1</option>
+              <option>Option 2</option>
+            </select>
+          </section>
         </section>
 
         <section className="doc-bottom-space-large">
-          <h3 className="doc-heading">Variants</h3>
-          <p>To apply, simply add one of the *modifier* classes to .form-control: .-sky, .-emerald, .-sun, .-crimson.</p>
-          <section className="doc-bottom-space">
-            <input className="form-control -sky" type="text" placeholder="Enter something.." />
-          </section>
-
-          <section className="doc-bottom-space">
-            <input className="form-control -emerald" type="text" placeholder="Enter something.." />
-          </section>
-
-          <section className="doc-bottom-space">
-            <input className="form-control -sun" type="text" placeholder="Enter something.." />
-          </section>
-
-          <section>
-            <input className="form-control -crimson" type="text" placeholder="Enter something.." />
-          </section>
+          <h3 className="doc-heading">Disabled state</h3>
+          <p>Add the <code>disabled</code> boolean attribute on an input to prevent user interactions. Disabled inputs appear monotone and add a not-allowed cursor.</p>
+          <input className="form-control" type="text" placeholder="Enter something" disabled />
         </section>
 
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Form Error</h3>
-          <p>To apply, .message</p>
+          <p className="lead">You may present form errors with a tooltip-like presentation.</p>
           <section className="doc-bottom-space">
             <div className="form-group">
               <input className="form-control -crimson" type="text" placeholder="Enter something.." />
               <div className="message">Error invalid something..</div>
+            </div>
+          </section>
+
+          <section>
+            <h3 className="doc-heading">Example: Top-positioned message</h3>
+            <p>Places the message above the input, useful when an overlapping element is expected to display below (such as date picker).</p>
+            <div className="form-group">
+              <input className="form-control -crimson" type="text" placeholder="Enter something.." />
+              <div className="message -top">Error invalid something..</div>
             </div>
           </section>
         </section>
@@ -100,7 +73,7 @@ export default class Forms extends React.Component {
         <section>
           <section className="doc-bottom-space">
             <h3 className="doc-heading">Input Groups</h3>
-            <p>Used as a container for a form element.</p>
+            <p>Use as a container for a form element.</p>
             <section className="doc-bottom-space">
               <div className="input-group">
                 <span className="addon">00:00</span>

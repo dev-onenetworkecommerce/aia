@@ -47,15 +47,14 @@
     text-decoration: none;
   }
 
-  &.-default { 
-    @include btn-variant($brand-white, $brand-black); 
+  &.-default {
+    @include btn-variant($brand-white, $brand-black);
     border: 1px solid $brand-gray;
   }
-  
-  &.-primary { @include btn-variant($brand-primary); }
+
+  &.-primary { @include btn-variant($brand-sidebar-lt); }
   &.-sky { @include btn-variant($brand-sky); }
   &.-emerald { @include btn-variant($brand-emerald); }
-  &.-sun { @include btn-variant($brand-sun); }
   &.-crimson { @include btn-variant($brand-crimson); }
   &.-link {
     @include btn-variant(transparent, $brand-sky);
@@ -66,13 +65,20 @@
       text-decoration: underline;
       background: transparent;
     }
+
+    &.-disabled,
+    &:disabled,
+    &.-disabled:hover,
+    &:disabled:hover {
+      background: transparent;
+      text-decoration: none;
+    }
   }
 
   &.-inverted.-default { @include btn-variant-inverted($brand-gray); }
-  &.-inverted.-primary { @include btn-variant-inverted($brand-primary); }
+  &.-inverted.-primary { @include btn-variant-inverted($brand-sidebar-lt); }
   &.-inverted.-sky { @include btn-variant-inverted($brand-sky); }
   &.-inverted.-emerald { @include btn-variant-inverted($brand-emerald); }
-  &.-inverted.-sun { @include btn-variant-inverted($brand-sun); }
   &.-inverted.-crimson { @include btn-variant-inverted($brand-crimson); }
 
   &.-disabled,
@@ -108,6 +114,14 @@
     padding: 0 25px;
     font-size: $tiny;
     line-height: 40px;
+  }
+
+  &.-large > .icon:first-child {
+    margin-right: $padding-x-large;
+  }
+
+  &.-large > .icon:last-child {
+    margin-left: $padding-x-large;
   }
 
   &.-rounded {

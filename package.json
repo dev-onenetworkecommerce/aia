@@ -1,11 +1,11 @@
 {
   "name": "aia",
-  "version": "0.5.4",
+  "version": "0.6.2",
   "description": "The UI Toolkit that powers ONE's internal projects",
   "main": "lib/index",
   "scripts": {
-    "test": "./node_modulesl/.bin/karma",
-    "build:script": "babel ./scripts -d ./lib --ignore '__tests__' --stage=0",
+    "test": "./node_modules/.bin/karma",
+    "build:script": "./node_modules/.bin/babel ./scripts -d ./lib --ignore '__tests__' --stage=0",
     "build:umd": "NODE_ENV=production webpack scripts/index.js dist/aia.umd.js",
     "build:min": "NODE_ENV=production webpack -p scripts/index.js dist/aia.umd.js",
     "build:style": "sass styles/aia.scss:dist/aia.css",
@@ -33,6 +33,7 @@
     "babel-loader": "^5.3.2",
     "history": "^1.12.5",
     "http-server": "^0.8.5",
+    "json-loader": "^0.5.3",
     "react": "^0.14.0",
     "react-dom": "^0.14.0",
     "react-router": "^1.0.0-rc3",

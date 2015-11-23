@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
+import { version } from '../../../package.json';
 
 export default class Docs extends React.Component {
   render() {
@@ -19,6 +20,7 @@ export default class Docs extends React.Component {
             <nav className="list-group _spacer" role="menu">
               <Link to="/icons" activeClassName="-selected" className="menuitem">Icons</Link>
               <Link to="/buttons" activeClassName="-selected" className="menuitem">Buttons</Link>
+              <Link to="/breadcrumbs" activeClassName="-selected" className="menuitem">Breadcrumbs</Link>
               <Link to="/nav" activeClassName="-selected" className="menuitem">Nav</Link>
               <Link to="/labels" activeClassName="-selected" className="menuitem">Labels</Link>
               <Link to="/alerts" activeClassName="-selected" className="menuitem">Alerts</Link>
@@ -27,8 +29,12 @@ export default class Docs extends React.Component {
               <Link to="/slate" activeClassName="-selected" className="menuitem">Slate</Link>
               <Link to="/dropdown" activeClassName="-selected" className="menuitem">Dropdown</Link>
               <Link to="/modal" activeClassName="-selected" className="menuitem">Modal</Link>
+<<<<<<< HEAD
               <Link to="/tooltip" activeClassName="-selected" className="menuitem">Tooltip</Link>
               <Link to="/steps" activeClassName="-selected" className="menuitem">Steps</Link>
+=======
+              <Link to="/loaders" activeClassName="-selected" className="menuitem">Loaders</Link>
+>>>>>>> 872adcab0f007204d75c50f93260281ce1472888
             </nav>
 
             <nav className="list-group _spacer-large" role="menu">
@@ -46,7 +52,7 @@ export default class Docs extends React.Component {
           <p>Copyright <strong>ONE Network Ecommerce 2015.</strong></p>
           <p>
             Created and maintained by the Front End team at ONE.&nbsp;
-            <strong>Currently 0.3.5</strong>.
+            <strong>Currently {version}</strong>.
           </p>
         </footer>
       </div>

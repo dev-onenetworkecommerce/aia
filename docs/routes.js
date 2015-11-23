@@ -13,6 +13,7 @@ export default (
         <Route path="type" component={require('./sections/Docs-Type')} />
         <Route path="tables" component={require('./sections/Docs-Tables')} />
         <Route path="forms" component={require('./sections/Docs-Forms')} />
+        <Route path="breadcrumbs" component={require('./sections/Docs-Breadcrumbs')} />
         <Route path="icons" component={require('./sections/Docs-Icons')} />
         <Route path="alerts" component={require('./sections/Docs-Alerts')} />
         <Route path="buttons" component={require('./sections/Docs-Buttons')} />
@@ -21,12 +22,16 @@ export default (
         <Route path="list-group" component={require('./sections/Docs-ListGroup')} />
         <Route path="nav" component={require('./sections/Docs-Nav')} />
         <Route path="slate" component={require('./sections/Docs-Slate')} />
+        <Route path="loaders" component={require('./sections/Docs-Loaders')} />
         <Route path="utilities" component={require('./sections/Docs-Utilities')} />
         <Route path="dropdown" component={require('./sections/Docs-Dropdown')} />
         <Route path="modal" component={require('./sections/Docs-Modal')} />
         <Route path="colors" component={require('./sections/Docs-Colors')} />
+<<<<<<< HEAD
         <Route path="tooltip" component={require('./sections/Docs-Tooltip')} />
         <Route path="steps" component={require('./sections/Docs-Steps')} />
+=======
+>>>>>>> 872adcab0f007204d75c50f93260281ce1472888
         <Route path="guidelines" component={require('./sections/Docs-Guidelines')} />
       </Route>
     </Route>

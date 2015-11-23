@@ -5,20 +5,18 @@
   background: $brand-gray-lt;
   border-radius: $border-radius-base;
 
-	&.-spacious {
-		padding: 60px;
-	}
+	&.-spacious { padding: 60px; }
+	&.-plain { background: $brand-white; }
 
-	&.-plain {
-		background: $brand-white;
-	}
-
-  > .icon:first-child {
-    display: block;
+  // For consistency
+  h1, h2, h3, h4, h5, h6, p {
     margin-bottom: $spacer-large;
   }
 
-  > *:last-child {
-    margin-bottom: 0;
+  // To put a margin for preceding elements like icon and loader
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: $spacer-large;
   }
+
+  > *:last-child { margin-bottom: 0; }
 }
