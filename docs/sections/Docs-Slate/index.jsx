@@ -7,6 +7,7 @@ export default class Slate extends React.Component {
         <section className="doc-bottom-space-large">
           <h1 className="doc-heading">Slate</h1>
           <p className="lead">Use this as a placeholder for empty collections or loading resources.</p>
+          <div className="alert -sky doc-bottom-space">Heads up! Paragraphs are optional inside the slate.</div>
           <div className="slate">
           	<h2>This is a blank slate</h2>
           	<p>Use it to provide information when no dynamic content exists.</p>
@@ -15,7 +16,7 @@ export default class Slate extends React.Component {
 
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Example: Spacious</h3>
-          <p>Add the .-spacious class to your slate.</p>
+          <p>Add the <code>.-spacious</code> class to your slate.</p>
           <div className="slate -spacious">
             <h3>Slate spacious</h3>
             <p>Adds padding to your contents</p>
@@ -24,7 +25,7 @@ export default class Slate extends React.Component {
 
         <section className="doc-bottom-space">
           <h3 className="doc-heading">Example: Plain</h3>
-          <p>You can make a plain slate by adding the .-plain modifier class</p>
+          <p>You can make a plain slate by adding the <code>.-plain</code> modifier class</p>
           <div className="row">
             <div className="slate -plain">
               <h2>Slate with No Background</h2>
