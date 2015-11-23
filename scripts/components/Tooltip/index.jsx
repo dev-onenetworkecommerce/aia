@@ -40,23 +40,19 @@ export default class ToolTip extends React.Component {
   }
 
   componentDidMount() {
-    const { show } = this.state;
-    const node = findDOMNode(this);
     this.mountContainer();
-    if ( show ) {
+    if ( this.state.show ) {
       this.mountTooltip();
     }
-
-    node.addEventListener('mouseenter', this.handleMouseEnter);
-    node.addEventListener('mouseout', this.handleMouseOut);
+    findDOMNode(this).addEventListener('mouseenter', this.handleMouseEnter);
+    findDOMNode(this).addEventListener('mouseout', this.handleMouseOut);
   };
 
   componentWillUnmount() {
-    const node = findDOMNode(this);
     this.unmountTooltip();
     this.unmountContainer();
-    node.removeEventListener('mouseenter', this.handleMouseEnter);
-    node.removeEventListener('mouseout', this.handleMouseOut);
+    findDOMNode(this).removeEventListener('mouseenter', this.handleMouseEnter);
+    findDOMNode(this).removeEventListener('mouseout', this.handleMouseOut);
   };
 
   componentDidUpdate() {
@@ -129,7 +125,7 @@ export default class ToolTip extends React.Component {
   };
 
   handleMouseOut() {
-    this.setState({ show: true });
+    this.setState({ show: false });
   }
 
   selectArrow() {
@@ -143,6 +139,7 @@ export default class ToolTip extends React.Component {
       case 'right':
         return ARROW_RIGHT;
       default:
+        return null;
     }
   }
 

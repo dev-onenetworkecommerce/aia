@@ -33255,25 +33255,20 @@
 	  _createClass(ToolTip, [{
 	    key: 'componentDidMount',
 	    value: function componentDidMount() {
-	      var show = this.state.show;
-	
-	      var node = (0, _reactDom.findDOMNode)(this);
 	      this.mountContainer();
-	      if (show) {
+	      if (this.state.show) {
 	        this.mountTooltip();
 	      }
-	
-	      node.addEventListener('mouseenter', this.handleMouseEnter);
-	      node.addEventListener('mouseout', this.handleMouseOut);
+	      (0, _reactDom.findDOMNode)(this).addEventListener('mouseenter', this.handleMouseEnter);
+	      (0, _reactDom.findDOMNode)(this).addEventListener('mouseout', this.handleMouseOut);
 	    }
 	  }, {
 	    key: 'componentWillUnmount',
 	    value: function componentWillUnmount() {
-	      var node = (0, _reactDom.findDOMNode)(this);
 	      this.unmountTooltip();
 	      this.unmountContainer();
-	      node.removeEventListener('mouseenter', this.handleMouseEnter);
-	      node.removeEventListener('mouseout', this.handleMouseOut);
+	      (0, _reactDom.findDOMNode)(this).removeEventListener('mouseenter', this.handleMouseEnter);
+	      (0, _reactDom.findDOMNode)(this).removeEventListener('mouseout', this.handleMouseOut);
 	    }
 	  }, {
 	    key: 'componentDidUpdate',
@@ -33357,7 +33352,7 @@
 	  }, {
 	    key: 'handleMouseOut',
 	    value: function handleMouseOut() {
-	      this.setState({ show: true });
+	      this.setState({ show: false });
 	    }
 	  }, {
 	    key: 'selectArrow',
@@ -33372,6 +33367,7 @@
 	        case 'right':
 	          return ARROW_RIGHT;
 	        default:
+	          return null;
 	      }
 	    }
 	  }], [{
@@ -33435,22 +33431,22 @@
 	    switch (placement) {
 	      case 'left':
 	        return {
-	          top: coords.top + trigger.offsetHeight / 2 + trigger.offsetHeight - overlay.offsetHeight,
+	          top: coords.top + trigger.offsetHeight / 2 + trigger.offsetHeight - overlay.offsetHeight + window.pageYOffset,
 	          left: coords.left - overlay.offsetWidth - ADD_MARGIN
 	        };
 	      case 'right':
 	        return {
-	          top: coords.top + trigger.offsetHeight / 2 + trigger.offsetHeight - overlay.offsetHeight,
+	          top: coords.top + trigger.offsetHeight / 2 + trigger.offsetHeight - overlay.offsetHeight + window.pageYOffset,
 	          left: coords.right + ADD_MARGIN
 	        };
 	      case 'top':
 	        return {
-	          top: coords.top - overlay.offsetHeight - ADD_MARGIN,
+	          top: coords.top - overlay.offsetHeight - ADD_MARGIN + window.pageYOffset,
 	          left: coords.right - trigger.offsetWidth / 2 - overlay.offsetWidth / 2
 	        };
 	      case 'bottom':
 	        return {
-	          top: coords.bottom + ADD_MARGIN,
+	          top: coords.bottom + ADD_MARGIN + window.pageYOffset,
 	          left: coords.right - trigger.offsetWidth / 2 - overlay.offsetWidth / 2
 	        };
 	      default:

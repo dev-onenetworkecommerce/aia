@@ -25,22 +25,22 @@ export default {
     switch (placement) {
       case 'left':
         return {
-          top: (coords.top + (trigger.offsetHeight / 2)) + trigger.offsetHeight - overlay.offsetHeight,
+          top: (coords.top + (trigger.offsetHeight / 2)) + trigger.offsetHeight - overlay.offsetHeight  + window.pageYOffset,
           left: coords.left - overlay.offsetWidth - ADD_MARGIN
         };
       case 'right':
         return {
-          top: (coords.top + (trigger.offsetHeight / 2)) + trigger.offsetHeight - overlay.offsetHeight,
+          top: (coords.top + (trigger.offsetHeight / 2)) + trigger.offsetHeight - overlay.offsetHeight + window.pageYOffset,
           left: coords.right + ADD_MARGIN
         };
       case 'top':
         return {
-          top: coords.top - overlay.offsetHeight - ADD_MARGIN,
+          top: (coords.top - overlay.offsetHeight - ADD_MARGIN)  + window.pageYOffset,
           left: coords.right - (trigger.offsetWidth / 2) - (overlay.offsetWidth / 2)
         };
       case 'bottom':
         return {
-          top: coords.bottom + ADD_MARGIN,
+          top: coords.bottom + ADD_MARGIN  + window.pageYOffset,
           left: coords.right - (trigger.offsetWidth / 2) - (overlay.offsetWidth / 2)
         };
       default:
