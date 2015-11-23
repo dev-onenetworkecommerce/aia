@@ -5710,7 +5710,10 @@ hr {
   .btn.-rounded, .-rounded.light-btn {
     border-radius: 25px; }
   .btn.-disabled, .-disabled.light-btn, .btn:disabled, .light-btn:disabled {
-    cursor: not-allowed; }
+    cursor: not-allowed;
+    border: 0;
+    background-color: #F0F0F0;
+    color: #C4C4C4; }
   .btn > .icon:first-child, .light-btn > .icon:first-child {
     margin-right: 6px; }
   .btn > .icon:last-child, .light-btn > .icon:last-child {

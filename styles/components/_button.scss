@@ -131,6 +131,9 @@
   &.-disabled,
   &:disabled {
     cursor: not-allowed;
+    border: 0;
+    background-color: $brand-gray-lt;
+    color: $brand-gray;
   }
 
   > .icon:first-child {
