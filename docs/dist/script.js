@@ -27970,10 +27970,24 @@
 	var Alerts = (function (_React$Component) {
 	  _inherits(Alerts, _React$Component);
 	
-	  function Alerts() {
+	  _createClass(Alerts, [{
+	    key: "componentWillUnmount",
+	    value: function componentWillUnmount() {
+	      if (this._growlTimeout) {
+	        cancelTimeout(this._growlTimeout);
+	      }
+	    }
+	  }]);
+	
+	  function Alerts(props) {
 	    _classCallCheck(this, Alerts);
 	
-	    _get(Object.getPrototypeOf(Alerts.prototype), "constructor", this).apply(this, arguments);
+	    _get(Object.getPrototypeOf(Alerts.prototype), "constructor", this).call(this, props);
+	
+	    this.state = {
+	      growl: false
+	    };
+	    this.handleShowGrowl = this.handleShowGrowl.bind(this);
 	  }
 	
 	  _createClass(Alerts, [{
@@ -28018,7 +28032,7 @@
 	        ),
 	        _react2["default"].createElement(
 	          "section",
-	          { className: "doc-bottom-space-large" },
+	          { className: "doc-bottom-space" },
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
@@ -28037,7 +28051,7 @@
 	        ),
 	        _react2["default"].createElement(
 	          "section",
-	          { className: "doc-bottom-space-large" },
+	          { className: "doc-bottom-space" },
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
@@ -28056,7 +28070,7 @@
 	        ),
 	        _react2["default"].createElement(
 	          "section",
-	          null,
+	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
@@ -28068,8 +28082,68 @@
 	            _react2["default"].createElement("i", { className: "icon icon-alert" }),
 	            "Oh snap! Change a few things up and try this submitting again."
 	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          null,
+	          _react2["default"].createElement(
+	            "h3",
+	            { className: "doc-heading" },
+	            "Growl"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            { className: "lead" },
+	            "This is useful for notifying the user of an update with a pop-up message."
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "alert -sky _spacer" },
+	            "According to ",
+	            _react2["default"].createElement(
+	              "a",
+	              { href: "https://en.wikipedia.org/wiki/Growl_(software)" },
+	              "Wikipedia"
+	            ),
+	            ", Growl is a global notification system and pop-up notification implementation."
+	          ),
+	          _react2["default"].createElement(
+	            "button",
+	            { className: "btn -primary", onClick: this.handleShowGrowl },
+	            "Show Growl"
+	          ),
+	          this.renderGrowl()
 	        )
 	      );
+	    }
+	  }, {
+	    key: "renderGrowl",
+	    value: function renderGrowl() {
+	      return this.state.growl ? _react2["default"].createElement(
+	        "div",
+	        { className: "alert-growl" },
+	        _react2["default"].createElement(
+	          "div",
+	          { className: "alert -crimson" },
+	          _react2["default"].createElement("i", { className: "icon icon-alert" }),
+	          "Oh snap! Change a few things up and try this submitting again."
+	        )
+	      ) : null;
+	    }
+	  }, {
+	    key: "handleShowGrowl",
+	    value: function handleShowGrowl() {
+	      var _this = this;
+	
+	      if (this.state.growl) {
+	        return;
+	      }
+	
+	      this.setState({ growl: true }, function () {
+	        _this._growlTimeout = setTimeout(function () {
+	          _this.setState({ growl: false });
+	        }, 1500);
+	      });
 	    }
 	  }]);
 	
