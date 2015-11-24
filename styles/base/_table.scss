@@ -14,13 +14,9 @@ td {
     background: $brand-white;
   }
 
-  &.-striped > tbody > tr:nth-child(odd) > td {
-    background: $brand-gray;
-  }
-
-  &.-striped > tbody > tr:nth-child(even) > td {
-    background: $brand-white;
-  }
+  &.-striped > tbody > tr:nth-child(odd) > td { background: $brand-gray-lt; }
+  &.-striped > tbody > tr:nth-child(even) > td { background: $brand-white; }
+  &.-striped.-hovered > tbody > tr:hover > td { background: $brand-gray; }
 
   // &.-striped.-hovered > tbody > tr:hover > td {
     // background: $off-gray;
@@ -53,9 +49,7 @@ td {
     border-right: 1px solid $brand-gray;
   }
 
-  &.-hovered > tbody > tr:hover > td {
-    background: $brand-gray-lt;
-  }
+  &.-hovered > tbody > tr:hover > td { background: $brand-gray-lt; }
 
   & > thead > tr > th.-align-right,
   & > tbody > tr > td.-align-right {
