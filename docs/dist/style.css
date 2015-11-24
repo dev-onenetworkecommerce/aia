@@ -419,6 +419,9 @@ th {
   margin-left: auto !important;
   margin-right: auto !important; }
 
+._heading-bold {
+  font-weight: 600; }
+
 @font-face {
   font-family: 'one-icons';
   src: url("fonts/one-icons.eot?gr3uvv");
