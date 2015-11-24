@@ -17,10 +17,5 @@
     margin-bottom: $spacer-small;
   }
 
-  // To put a margin for preceding elements like icon and loader
-  h1, h2, h3, h4, h5, h6 {
-    margin-top: $spacer-large;
-  }
-
   > *:last-child { margin-bottom: 0; }
 }

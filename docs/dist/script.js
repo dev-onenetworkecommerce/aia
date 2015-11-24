@@ -29866,7 +29866,7 @@
 	          _react2["default"].createElement(
 	            "p",
 	            { className: "lead" },
-	            "Use this as a placeholder for empty collections or loading resources."
+	            "Use this as a placeholder for loading collections with lack of resources or empty results. Together with an icon, it gives an instant definition on what the state is for."
 	          ),
 	          _react2["default"].createElement(
 	            "div",
@@ -29876,6 +29876,7 @@
 	          _react2["default"].createElement(
 	            "div",
 	            { className: "slate" },
+	            _react2["default"].createElement("i", { className: "icon icon-cog -x8" }),
 	            _react2["default"].createElement(
 	              "h2",
 	              null,
@@ -29910,8 +29911,9 @@
 	          _react2["default"].createElement(
 	            "div",
 	            { className: "slate -spacious" },
+	            _react2["default"].createElement("i", { className: "icon icon-cog -x8" }),
 	            _react2["default"].createElement(
-	              "h3",
+	              "h2",
 	              null,
 	              "Slate spacious"
 	            ),
@@ -29947,6 +29949,7 @@
 	            _react2["default"].createElement(
 	              "div",
 	              { className: "slate -plain" },
+	              _react2["default"].createElement("i", { className: "icon icon-cog -x8" }),
 	              _react2["default"].createElement(
 	                "h2",
 	                null,
@@ -29976,6 +29979,7 @@
 	          _react2["default"].createElement(
 	            "div",
 	            { className: "slate col-md-6 _centered" },
+	            _react2["default"].createElement("i", { className: "icon icon-cog -x8" }),
 	            _react2["default"].createElement(
 	              "h2",
 	              null,
@@ -29990,51 +29994,16 @@
 	        ),
 	        _react2["default"].createElement(
 	          "section",
-	          { className: "doc-bottom-space" },
-	          _react2["default"].createElement(
-	            "h3",
-	            { className: "doc-heading" },
-	            "Example: With Icons"
-	          ),
-	          _react2["default"].createElement(
-	            "p",
-	            null,
-	            "Icons are automatically given a margin of ",
-	            _react2["default"].createElement(
-	              "code",
-	              null,
-	              "$spacer-large"
-	            ),
-	            "."
-	          ),
-	          _react2["default"].createElement(
-	            "div",
-	            { className: "slate" },
-	            _react2["default"].createElement("i", { className: "icon icon-cog -x8" }),
-	            _react2["default"].createElement(
-	              "h2",
-	              null,
-	              "Half Slate with Icons"
-	            ),
-	            _react2["default"].createElement(
-	              "p",
-	              null,
-	              "Centered slate with 50% width"
-	            )
-	          )
-	        ),
-	        _react2["default"].createElement(
-	          "section",
 	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
-	            "Example: With Loader "
+	            "Example: Loading State "
 	          ),
 	          _react2["default"].createElement(
 	            "p",
 	            null,
-	            "Works similarly to icons."
+	            "Slate can be use as loading state."
 	          ),
 	          _react2["default"].createElement(
 	            "div",
@@ -30055,16 +30024,16 @@
 	        ),
 	        _react2["default"].createElement(
 	          "section",
-	          null,
+	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
-	            "h1",
+	            "h3",
 	            { className: "doc-heading" },
-	            "Example: With Icon and Button"
+	            "Example: With Button"
 	          ),
 	          _react2["default"].createElement(
 	            "p",
 	            null,
-	            "This is how a slate fully looks like."
+	            "This is how a slate fully looks like with button."
 	          ),
 	          _react2["default"].createElement(
 	            "div",
