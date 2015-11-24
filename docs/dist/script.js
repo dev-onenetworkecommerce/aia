@@ -28078,7 +28078,7 @@
 	          ),
 	          _react2["default"].createElement(
 	            "div",
-	            { className: "alert -crimson doc-bottom-space" },
+	            { className: "alert -crimson" },
 	            "Heads up! We're updating this module in this ",
 	            _react2["default"].createElement(
 	              "a",

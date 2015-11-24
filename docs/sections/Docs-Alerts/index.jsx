@@ -59,7 +59,7 @@ export default class Alerts extends React.Component {
             Heads up! We're updating this module in this <a href="#">forum discussion</a>.
           </div>
 
-          <div className="alert -crimson doc-bottom-space">
+          <div className="alert -crimson">
             Heads up! We're updating this module in this <a href="#">forum discussion</a>.
           </div>
         </section>
