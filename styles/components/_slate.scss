@@ -9,13 +9,12 @@
 	&.-plain { background: $brand-white; }
 
   // For consistency
-  h1, h2, h3, h4, h5, h6, p {
+  h1, h2, h3, h4, h5, h6 {
     margin-bottom: $spacer-large;
   }
 
-  // To put a margin for preceding elements like icon and loader
-  h1, h2, h3, h4, h5, h6 {
-    margin-top: $spacer-large;
+  p {
+    margin-bottom: $spacer-small;
   }
 
   > *:last-child { margin-bottom: 0; }
