@@ -44,6 +44,27 @@ export default class Alerts extends React.Component {
         </section>
 
         <section className="doc-bottom-space">
+          <h3 className="doc-heading">Example: Links</h3>
+          <p>Links are boldened and given a darker shade of the variant's color.</p>
+
+          <div className="alert -sky doc-bottom-space">
+            Heads up! We're updating this module in this <a href="#">forum discussion</a>.
+          </div>
+
+          <div className="alert -emerald doc-bottom-space">
+            Heads up! We're updating this module in this <a href="#">forum discussion</a>.
+          </div>
+
+          <div className="alert -sun doc-bottom-space">
+            Heads up! We're updating this module in this <a href="#">forum discussion</a>.
+          </div>
+
+          <div className="alert -crimson">
+            Heads up! We're updating this module in this <a href="#">forum discussion</a>.
+          </div>
+        </section>
+
+        <section className="doc-bottom-space">
           <h3 className="doc-heading">Example: Block</h3>
           <p>Useful when you'd like to use a more emphasized alert (for example, growl).</p>
           <div className="alert -emerald -block">

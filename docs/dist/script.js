@@ -28036,6 +28036,64 @@
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
+	            "Example: Links"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "Links are boldened and given a darker shade of the variant's color."
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "alert -sky doc-bottom-space" },
+	            "Heads up! We're updating this module in this ",
+	            _react2["default"].createElement(
+	              "a",
+	              { href: "#" },
+	              "forum discussion"
+	            ),
+	            "."
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "alert -emerald doc-bottom-space" },
+	            "Heads up! We're updating this module in this ",
+	            _react2["default"].createElement(
+	              "a",
+	              { href: "#" },
+	              "forum discussion"
+	            ),
+	            "."
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "alert -sun doc-bottom-space" },
+	            "Heads up! We're updating this module in this ",
+	            _react2["default"].createElement(
+	              "a",
+	              { href: "#" },
+	              "forum discussion"
+	            ),
+	            "."
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "alert -crimson" },
+	            "Heads up! We're updating this module in this ",
+	            _react2["default"].createElement(
+	              "a",
+	              { href: "#" },
+	              "forum discussion"
+	            ),
+	            "."
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space" },
+	          _react2["default"].createElement(
+	            "h3",
+	            { className: "doc-heading" },
 	            "Example: Block"
 	          ),
 	          _react2["default"].createElement(

@@ -5836,6 +5836,16 @@ hr {
     border-radius: 0; }
   .alert > .icon:first-child {
     margin-right: 10px; }
+  .alert a {
+    font-weight: bold; }
+  .alert.-sky a {
+    color: #2F5B86; }
+  .alert.-emerald a {
+    color: #227D64; }
+  .alert.-sun a {
+    color: #80612E; }
+  .alert.-crimson a {
+    color: #86342C; }
 
 .alert-growl {
   position: fixed;
