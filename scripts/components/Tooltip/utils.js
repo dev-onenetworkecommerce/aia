@@ -20,7 +20,6 @@ export default {
    */
   calculatePosition(trigger, overlay, placement) {
     const box = trigger.getBoundingClientRect();
-    console.log(overlay.offsetHeight);
     switch (placement) {
       case 'left':
         return {
