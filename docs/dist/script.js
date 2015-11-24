@@ -28184,6 +28184,11 @@
 	              'button',
 	              { className: 'btn -link' },
 	              'Link'
+	            ),
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -primary-link' },
+	              'Primary link'
 	            )
 	          )
 	        ),

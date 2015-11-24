@@ -15,6 +15,7 @@ export default class Buttons extends React.Component {
             <button className="btn -emerald">Emerald</button>
             <button className="btn -crimson">Crimson</button>
             <button className="btn -link">Link</button>
+            <button className="btn -primary-link">Primary link</button>
           </div>
         </section>
 
