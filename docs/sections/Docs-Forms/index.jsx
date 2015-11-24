@@ -70,65 +70,34 @@ export default class Forms extends React.Component {
           </section>
         </section>
 
-        <section>
+        <section className="doc-bottom-space-large">
           <section className="doc-bottom-space">
             <h3 className="doc-heading">Input Groups</h3>
             <p>Use as a container for a form element.</p>
             <section className="doc-bottom-space">
               <div className="input-group">
-                <span className="addon">00:00</span>
                 <input className="form-control" type="text" placeholder="Enter something.." />
+                <span className="addon">Search</span>
               </div>
             </section>
-
+            <p>Add <code>.-primary-link</code> in the addon to use the other variant.</p>
             <section className="doc-bottom-space">
               <div className="input-group">
-                <span className="addon">00:00</span>
                 <input className="form-control" type="text" placeholder="Enter something.." />
-                <span className="addon">Search</span>
-              </div>
-            </section>
-
-            <section>
-              <div className="input-group">
-                <input className="form-control" type="text" placeholder="Enter something.." />
-                <span className="addon">Search</span>
+                <span className="addon -primary-link">Search</span>
               </div>
             </section>
           </section>
-
-          <section>
-            <h3 className="doc-heading">Example: Input group with buttons</h3>
-            <section className="doc-bottom-space">
-              <div className="input-group">
-                <input className="form-control" type="text" placeholder="Enter something.." />
-                <span className="addon -btn"><button className="btn -sky">Search</button></span>
-              </div>
-            </section>
-
-            <section className="doc-bottom-space">
-              <div className="input-group">
-                <span className="addon">$</span>
-                <input className="form-control" type="text" placeholder="Enter something.." />
-                <span className="addon -btn"><button className="btn -sky">Buy</button></span>
-              </div>
-            </section>
-
-            <section className="doc-bottom-space">
-              <div className="input-group">
-                <span className="addon -btn"><button className="btn -sky">Buy</button></span>
-                <input className="form-control" type="text" placeholder="Enter something.." />
-                <span className="addon">$</span>
-              </div>
-            </section>
-
-            <section className="doc-bottom-space">
-              <div className="input-group">
-                <span className="addon -btn"><button className="btn -sky">Buy</button></span>
-                <input className="form-control" type="text" placeholder="Enter something.." />
-                <span className="addon -btn"><button className="btn -sky">Sell</button></span>
-              </div>
-            </section>
+        </section>
+        <section className="doc-bottom-space-large">
+          <h3 className="doc-heading">Example: Input group For Search</h3>
+          <p>Consist of button and search icon.</p>
+          <section className="doc-bottom-space">
+            <div className="input-group">
+              <span className="addon -btn"><button className="btn -sky">Search</button></span>
+              <input className="form-control" type="text" placeholder="Enter something.." />
+              <i className="icon icon-search" />
+            </div>
           </section>
         </section>
       </div>

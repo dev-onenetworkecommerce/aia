@@ -27465,7 +27465,7 @@
 	        ),
 	        _react2["default"].createElement(
 	          "section",
-	          null,
+	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
 	            "section",
 	            { className: "doc-bottom-space" },
@@ -27485,25 +27485,6 @@
 	              _react2["default"].createElement(
 	                "div",
 	                { className: "input-group" },
-	                _react2["default"].createElement(
-	                  "span",
-	                  { className: "addon" },
-	                  "00:00"
-	                ),
-	                _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something.." })
-	              )
-	            ),
-	            _react2["default"].createElement(
-	              "section",
-	              { className: "doc-bottom-space" },
-	              _react2["default"].createElement(
-	                "div",
-	                { className: "input-group" },
-	                _react2["default"].createElement(
-	                  "span",
-	                  { className: "addon" },
-	                  "00:00"
-	                ),
 	                _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something.." }),
 	                _react2["default"].createElement(
 	                  "span",
@@ -27513,118 +27494,62 @@
 	              )
 	            ),
 	            _react2["default"].createElement(
-	              "section",
+	              "p",
 	              null,
+	              "Add ",
+	              _react2["default"].createElement(
+	                "code",
+	                null,
+	                ".-primary-link"
+	              ),
+	              " in the addon to use the other variant."
+	            ),
+	            _react2["default"].createElement(
+	              "section",
+	              { className: "doc-bottom-space" },
 	              _react2["default"].createElement(
 	                "div",
 	                { className: "input-group" },
 	                _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something.." }),
 	                _react2["default"].createElement(
 	                  "span",
-	                  { className: "addon" },
+	                  { className: "addon -primary-link" },
 	                  "Search"
 	                )
 	              )
 	            )
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
+	            "h3",
+	            { className: "doc-heading" },
+	            "Example: Input group For Search"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "Consist of button and search icon."
 	          ),
 	          _react2["default"].createElement(
 	            "section",
-	            null,
+	            { className: "doc-bottom-space" },
 	            _react2["default"].createElement(
-	              "h3",
-	              { className: "doc-heading" },
-	              "Example: Input group with buttons"
-	            ),
-	            _react2["default"].createElement(
-	              "section",
-	              { className: "doc-bottom-space" },
+	              "div",
+	              { className: "input-group" },
 	              _react2["default"].createElement(
-	                "div",
-	                { className: "input-group" },
-	                _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something.." }),
+	                "span",
+	                { className: "addon -btn" },
 	                _react2["default"].createElement(
-	                  "span",
-	                  { className: "addon -btn" },
-	                  _react2["default"].createElement(
-	                    "button",
-	                    { className: "btn -sky" },
-	                    "Search"
-	                  )
+	                  "button",
+	                  { className: "btn -sky" },
+	                  "Search"
 	                )
-	              )
-	            ),
-	            _react2["default"].createElement(
-	              "section",
-	              { className: "doc-bottom-space" },
-	              _react2["default"].createElement(
-	                "div",
-	                { className: "input-group" },
-	                _react2["default"].createElement(
-	                  "span",
-	                  { className: "addon" },
-	                  "$"
-	                ),
-	                _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something.." }),
-	                _react2["default"].createElement(
-	                  "span",
-	                  { className: "addon -btn" },
-	                  _react2["default"].createElement(
-	                    "button",
-	                    { className: "btn -sky" },
-	                    "Buy"
-	                  )
-	                )
-	              )
-	            ),
-	            _react2["default"].createElement(
-	              "section",
-	              { className: "doc-bottom-space" },
-	              _react2["default"].createElement(
-	                "div",
-	                { className: "input-group" },
-	                _react2["default"].createElement(
-	                  "span",
-	                  { className: "addon -btn" },
-	                  _react2["default"].createElement(
-	                    "button",
-	                    { className: "btn -sky" },
-	                    "Buy"
-	                  )
-	                ),
-	                _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something.." }),
-	                _react2["default"].createElement(
-	                  "span",
-	                  { className: "addon" },
-	                  "$"
-	                )
-	              )
-	            ),
-	            _react2["default"].createElement(
-	              "section",
-	              { className: "doc-bottom-space" },
-	              _react2["default"].createElement(
-	                "div",
-	                { className: "input-group" },
-	                _react2["default"].createElement(
-	                  "span",
-	                  { className: "addon -btn" },
-	                  _react2["default"].createElement(
-	                    "button",
-	                    { className: "btn -sky" },
-	                    "Buy"
-	                  )
-	                ),
-	                _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something.." }),
-	                _react2["default"].createElement(
-	                  "span",
-	                  { className: "addon -btn" },
-	                  _react2["default"].createElement(
-	                    "button",
-	                    { className: "btn -sky" },
-	                    "Sell"
-	                  )
-	                )
-	              )
+	              ),
+	              _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something.." }),
+	              _react2["default"].createElement("i", { className: "icon icon-search" })
 	            )
 	          )
 	        )

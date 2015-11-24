@@ -8,6 +8,7 @@
   border: 1px solid $brand-black;
   border-radius: $border-radius-base;
   outline: none;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
 
   &:focus {
     border-color: $brand-sky;
@@ -137,9 +138,15 @@ label {
     min-height: $form-size;
     vertical-align: middle;
     padding: 0 8px;
-    background: $brand-gray-lt;
-    border: 1px solid $brand-gray;
+    border: 1px solid $brand-black;
     border-radius: $border-radius-base;
+    background-color: $brand-white;
+    color: $brand-black;
+  }
+  > .addon.-primary-link {
+    border-color: $brand-sidebar-lt;
+    background-color: $brand-sidebar-lt;
+    color: $brand-white;
   }
 
   > .addon:first-child {
@@ -152,5 +159,22 @@ label {
 
   > .addon.-btn {
     padding: 0;
+  }
+
+  > .addon .btn {
+    height: 32px;
+    line-height: 32px;
+  }
+
+  > .addon.-btn > .btn{
+    border-radius: 2px;
+    margin-right: -0.5px;
+  }
+
+  > .icon-search {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
   }
 }
