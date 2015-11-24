@@ -10,7 +10,7 @@
     margin: 0 25px;
     width: 40px;
     height: 40px;
-    line-height: 40px;
+    line-height: 35px;
     text-align: center;
     background: $brand-gray-lt;
     border-radius: 50%;
@@ -45,6 +45,10 @@
     display: none;
   }
 
+  .complete {
+    line-height: 40px;
+  }
+  
   .complete,
   .complete::after {
     background: $brand-emerald;
