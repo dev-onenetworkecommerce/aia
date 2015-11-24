@@ -27742,7 +27742,7 @@
 	          _react2["default"].createElement(
 	            "p",
 	            { className: "lead" },
-	            "Useful for indicating on which step the user is in the wizard."
+	            "Useful for indicating on which step the user is in the wizard and change number into check if the user pass or complete the previous step."
 	          ),
 	          _react2["default"].createElement(
 	            "ul",
