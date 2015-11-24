@@ -5774,7 +5774,7 @@ hr {
 .pagination > .pages > .page {
   display: inline-block;
   min-width: 20px;
-  padding: 2px 5px;
+  padding: 2px 8px;
   color: #C4C4C4;
   font-size: 12px;
   background: transparent;
