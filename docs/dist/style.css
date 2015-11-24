@@ -5827,12 +5827,18 @@ hr {
     background-color: #F05F50; }
   .alert.-large {
     padding: 30px 15px; }
-  .alert.-block {
+  .alert.-block, .alert-growl > .alert {
     text-align: center;
     border: 0;
     border-radius: 0; }
   .alert > .icon:first-child {
     margin-right: 10px; }
+
+.alert-growl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; }
 
 .label {
   display: inline-block;
