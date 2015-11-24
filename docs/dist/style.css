@@ -5522,6 +5522,9 @@ label {
   .input-group > .addon.-btn {
     padding: 0; }
 
+.form-actions > *:not(:last-child) {
+  margin-right: 12px; }
+
 /*
 <table class="table">
 </table>
