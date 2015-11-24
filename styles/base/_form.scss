@@ -154,3 +154,9 @@ label {
     padding: 0;
   }
 }
+
+.form-actions {
+  > *:not(:last-child) {
+    margin-right: $padding-x;
+  }
+}
