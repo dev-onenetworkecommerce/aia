@@ -5909,7 +5909,7 @@ hr {
     margin: 0 25px;
     width: 40px;
     height: 40px;
-    line-height: 40px;
+    line-height: 35px;
     text-align: center;
     background: #F0F0F0;
     border-radius: 50%;
@@ -5932,6 +5932,8 @@ hr {
     margin-right: 0; }
   .steps li:last-child::after {
     display: none; }
+  .steps li.complete {
+    line-height: 40px; }
   .steps .complete,
   .steps .complete::after {
     background: #38D4A9; }
