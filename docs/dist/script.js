@@ -20162,8 +20162,8 @@
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'dropdown', component: __webpack_require__(/*! ./sections/Docs-Dropdown */ 255) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'modal', component: __webpack_require__(/*! ./sections/Docs-Modal */ 259) }),
 	      _react2['default'].createElement(_reactRouter.Route, { path: 'colors', component: __webpack_require__(/*! ./sections/Docs-Colors */ 261) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'tooltip', component: __webpack_require__(/*! ./sections/Docs-Tooltip */ 272) }),
-	      _react2['default'].createElement(_reactRouter.Route, { path: 'guidelines', component: __webpack_require__(/*! ./sections/Docs-Guidelines */ 262) })
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'tooltip', component: __webpack_require__(/*! ./sections/Docs-Tooltip */ 262) }),
+	      _react2['default'].createElement(_reactRouter.Route, { path: 'guidelines', component: __webpack_require__(/*! ./sections/Docs-Guidelines */ 265) })
 	    )
 	  )
 	);
@@ -20524,7 +20524,7 @@
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/lib/createHashHistory.js ***!
   \***********************************************************/
-[263, 161, 163, 164, 165, 166, 167, 168],
+[266, 161, 163, 164, 165, 166, 167, 168],
 /* 163 */
 /*!***********************************************!*\
   !*** ./~/react-router/~/invariant/browser.js ***!
@@ -20727,7 +20727,7 @@
 /*!**********************************************************!*\
   !*** ./~/react-router/~/history/lib/createDOMHistory.js ***!
   \**********************************************************/
-[264, 163, 165, 166, 169],
+[267, 163, 165, 166, 169],
 /* 169 */
 /*!*******************************************************!*\
   !*** ./~/react-router/~/history/lib/createHistory.js ***!
@@ -21024,7 +21024,7 @@
 /*!********************************************************!*\
   !*** ./~/react-router/~/history/~/deep-equal/index.js ***!
   \********************************************************/
-[265, 171, 172],
+[268, 171, 172],
 /* 171 */
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/~/deep-equal/lib/keys.js ***!
@@ -21106,12 +21106,12 @@
 /*!***********************************************************!*\
   !*** ./~/react-router/~/history/lib/runTransitionHook.js ***!
   \***********************************************************/
-[266, 161],
+[269, 161],
 /* 175 */
 /*!***************************************************!*\
   !*** ./~/react-router/~/history/lib/deprecate.js ***!
   \***************************************************/
-[267, 161],
+[270, 161],
 /* 176 */
 /*!******************************************!*\
   !*** ./~/react-router/lib/RouteUtils.js ***!
@@ -22083,12 +22083,12 @@
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/index.js ***!
   \****************************************************/
-[268, 183, 185],
+[271, 183, 185],
 /* 183 */
 /*!********************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/stringify.js ***!
   \********************************************************/
-[269, 184],
+[272, 184],
 /* 184 */
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/utils.js ***!
@@ -22280,7 +22280,7 @@
 /*!****************************************************!*\
   !*** ./~/react-router/~/history/~/qs/lib/parse.js ***!
   \****************************************************/
-[270, 184],
+[273, 184],
 /* 186 */
 /*!****************************************************!*\
   !*** ./~/react-router/lib/computeChangedRoutes.js ***!
@@ -23800,7 +23800,7 @@
 /*!*************************************************************!*\
   !*** ./~/react-router/~/history/lib/createMemoryHistory.js ***!
   \*************************************************************/
-[271, 163, 164, 169],
+[274, 163, 164, 169],
 /* 204 */
 /*!*****************************************************!*\
   !*** ./~/react-router/~/history/lib/useBasename.js ***!
@@ -24267,7 +24267,7 @@
 /*!*******************************************!*\
   !*** ./~/history/lib/createDOMHistory.js ***!
   \*******************************************/
-[264, 207, 209, 210, 214],
+[267, 207, 209, 210, 214],
 /* 214 */
 /*!****************************************!*\
   !*** ./~/history/lib/createHistory.js ***!
@@ -24537,7 +24537,7 @@
 /*!*****************************************!*\
   !*** ./~/history/~/deep-equal/index.js ***!
   \*****************************************/
-[265, 216, 217],
+[268, 216, 217],
 /* 216 */
 /*!********************************************!*\
   !*** ./~/history/~/deep-equal/lib/keys.js ***!
@@ -24661,22 +24661,22 @@
 /*!********************************************!*\
   !*** ./~/history/lib/runTransitionHook.js ***!
   \********************************************/
-[266, 212],
+[269, 212],
 /* 222 */
 /*!************************************!*\
   !*** ./~/history/lib/deprecate.js ***!
   \************************************/
-[267, 212],
+[270, 212],
 /* 223 */
 /*!********************************************!*\
   !*** ./~/history/lib/createHashHistory.js ***!
   \********************************************/
-[263, 212, 207, 208, 209, 210, 211, 213],
+[266, 212, 207, 208, 209, 210, 211, 213],
 /* 224 */
 /*!**********************************************!*\
   !*** ./~/history/lib/createMemoryHistory.js ***!
   \**********************************************/
-[271, 207, 208, 214],
+[274, 207, 208, 214],
 /* 225 */
 /*!**************************************!*\
   !*** ./~/history/lib/useBasename.js ***!
@@ -25071,12 +25071,12 @@
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/index.js ***!
   \*************************************/
-[268, 229, 231],
+[271, 229, 231],
 /* 229 */
 /*!*****************************************!*\
   !*** ./~/history/~/qs/lib/stringify.js ***!
   \*****************************************/
-[269, 230],
+[272, 230],
 /* 230 */
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/utils.js ***!
@@ -25086,7 +25086,7 @@
 /*!*************************************!*\
   !*** ./~/history/~/qs/lib/parse.js ***!
   \*************************************/
-[270, 230],
+[273, 230],
 /* 232 */
 /*!*********************************************!*\
   !*** ./~/history/lib/enableBeforeUnload.js ***!
@@ -31919,6 +31919,386 @@
 
 /***/ },
 /* 262 */
+/*!**********************************************!*\
+  !*** ./docs/sections/Docs-Tooltip/index.jsx ***!
+  \**********************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _scriptsComponentsTooltip = __webpack_require__(/*! ../../../scripts/components/Tooltip */ 263);
+	
+	var _scriptsComponentsTooltip2 = _interopRequireDefault(_scriptsComponentsTooltip);
+	
+	var TooltipView = (function (_React$Component) {
+	  _inherits(TooltipView, _React$Component);
+	
+	  function TooltipView() {
+	    _classCallCheck(this, TooltipView);
+	
+	    _get(Object.getPrototypeOf(TooltipView.prototype), 'constructor', this).apply(this, arguments);
+	  }
+	
+	  _createClass(TooltipView, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2['default'].createElement(
+	        'div',
+	        null,
+	        _react2['default'].createElement(
+	          'h1',
+	          { className: 'doc-heading' },
+	          'Tooltip'
+	        ),
+	        _react2['default'].createElement(
+	          'section',
+	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            'p',
+	            { className: 'lead' },
+	            'Tooltip Top '
+	          ),
+	          _react2['default'].createElement(
+	            _scriptsComponentsTooltip2['default'],
+	            { position: 'top' },
+	            'Hover to reveal the tooltip.'
+	          )
+	        ),
+	        _react2['default'].createElement(
+	          'section',
+	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            'p',
+	            { className: 'lead' },
+	            'Tooltip Bottom '
+	          ),
+	          _react2['default'].createElement(
+	            _scriptsComponentsTooltip2['default'],
+	            { position: 'bottom' },
+	            'Hover to reveal the tooltip.'
+	          )
+	        ),
+	        _react2['default'].createElement(
+	          'section',
+	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            'p',
+	            { className: 'lead' },
+	            'Tooltip Left '
+	          ),
+	          _react2['default'].createElement(
+	            _scriptsComponentsTooltip2['default'],
+	            { position: 'left' },
+	            'Hover to reveal the tooltip.',
+	            _react2['default'].createElement('br', null)
+	          )
+	        ),
+	        _react2['default'].createElement(
+	          'section',
+	          { className: 'doc-bottom-space-large' },
+	          _react2['default'].createElement(
+	            'p',
+	            { className: 'lead' },
+	            'Tooltip Right '
+	          ),
+	          _react2['default'].createElement(
+	            _scriptsComponentsTooltip2['default'],
+	            { position: 'right' },
+	            'Hover to reveal the tooltip.',
+	            _react2['default'].createElement('br', null)
+	          )
+	        )
+	      );
+	    }
+	  }]);
+	
+	  return TooltipView;
+	})(_react2['default'].Component);
+	
+	exports['default'] = TooltipView;
+	module.exports = exports['default'];
+
+/***/ },
+/* 263 */
+/*!**********************************************!*\
+  !*** ./scripts/components/Tooltip/index.jsx ***!
+  \**********************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var _react = __webpack_require__(/*! react */ 1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactDom = __webpack_require__(/*! react-dom */ 157);
+	
+	var _utilsDomUtils = __webpack_require__(/*! ../../utils/DomUtils */ 258);
+	
+	var _utils = __webpack_require__(/*! ./utils */ 264);
+	
+	var _utils2 = _interopRequireDefault(_utils);
+	
+	var ARROW_LEFT = 'tooltip -arrowright';
+	var ARROW_RIGHT = 'tooltip -arrowleft';
+	var ARROW_UP = 'tooltip -arrowdown';
+	var ARROW_DOWN = 'tooltip -arrowup';
+	
+	var ToolTip = (function (_React$Component) {
+	  _inherits(ToolTip, _React$Component);
+	
+	  function ToolTip(props) {
+	    _classCallCheck(this, ToolTip);
+	
+	    _get(Object.getPrototypeOf(ToolTip.prototype), 'constructor', this).call(this, props);
+	
+	    this.state = {
+	      show: false,
+	      top: 0,
+	      left: 0
+	    };
+	    this.handleMouseEnter = this.handleMouseEnter.bind(this);
+	    this.handleMouseOut = this.handleMouseOut.bind(this);
+	  }
+	
+	  _createClass(ToolTip, [{
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {
+	      this.mountContainer();
+	      if (this.state.show) {
+	        this.mountTooltip();
+	      }
+	    }
+	  }, {
+	    key: 'componentWillUnmount',
+	    value: function componentWillUnmount() {
+	      this.unmountTooltip();
+	      this.unmountContainer();
+	    }
+	  }, {
+	    key: 'componentDidUpdate',
+	    value: function componentDidUpdate() {
+	      this.state.show ? this.mountTooltip() : this.unmountTooltip();
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      return (0, _react.cloneElement)(_react2['default'].createElement(
+	        'span',
+	        null,
+	        this.props.children
+	      ), {
+	        onMouseEnter: this.handleMouseEnter.bind(this),
+	        onMouseOut: this.handleMouseOut.bind(this)
+	      });
+	    }
+	  }, {
+	    key: 'mountContainer',
+	    value: function mountContainer() {
+	      this.$container = document.createElement('div');
+	      document.body.appendChild(this.$container);
+	    }
+	  }, {
+	    key: 'unmountContainer',
+	    value: function unmountContainer() {
+	      if (this.$container == null) {
+	        return;
+	      }
+	
+	      document.body.removeChild(this.$container);
+	      this.$container = null;
+	    }
+	  }, {
+	    key: 'mountTooltip',
+	    value: function mountTooltip() {
+	      if (!this.$container) {
+	        throw new Error('The container does not exist. ' + 'It may have been removed, or whatever');
+	      }
+	
+	      this.$tooltip = (0, _reactDom.unstable_renderSubtreeIntoContainer)(this, (0, _react.cloneElement)(_react2['default'].createElement(
+	        'div',
+	        { className: this.getArrowClassName() },
+	        this.props.text
+	      ), {
+	        style: {
+	          top: this.state.top,
+	          left: this.state.left,
+	          position: 'absolute'
+	        }
+	      }), this.$container);
+	    }
+	  }, {
+	    key: 'unmountTooltip',
+	    value: function unmountTooltip() {
+	      if (this.$tooltip == null) {
+	        return;
+	      }
+	
+	      (0, _reactDom.unmountComponentAtNode)(this.$container);
+	      this.$tooltip = null;
+	    }
+	  }, {
+	    key: 'handleMouseEnter',
+	    value: function handleMouseEnter() {
+	      var _this = this;
+	
+	      this.setState({
+	        show: true
+	      }, function () {
+	        var trigger = (0, _reactDom.findDOMNode)(_this);
+	        var overlay = (0, _reactDom.findDOMNode)(_this.$tooltip);
+	        var position = _this.props.position;
+	
+	        var _utils$calculatePosition = _utils2['default'].calculatePosition(trigger, overlay, position);
+	
+	        var top = _utils$calculatePosition.top;
+	        var left = _utils$calculatePosition.left;
+	
+	        _this.setState({ top: top, left: left });
+	      });
+	    }
+	  }, {
+	    key: 'handleMouseOut',
+	    value: function handleMouseOut() {
+	      this.setState({ show: false });
+	    }
+	  }, {
+	    key: 'getArrowClassName',
+	    value: function getArrowClassName() {
+	      switch (this.props.position) {
+	        case 'top':
+	          return ARROW_UP;
+	        case 'bottom':
+	          return ARROW_DOWN;
+	        case 'left':
+	          return ARROW_LEFT;
+	        case 'right':
+	          return ARROW_RIGHT;
+	        default:
+	          return null;
+	      }
+	    }
+	  }], [{
+	    key: 'PropTypes',
+	    value: {
+	      position: _react.PropTypes.oneOf(['top', 'left', 'right', 'bottom']).isRequired,
+	      text: _react.PropTypes.string.isRequired
+	    },
+	    enumerable: true
+	  }, {
+	    key: 'defaultProps',
+	    value: {
+	      position: 'left',
+	      text: ''
+	    },
+	    enumerable: true
+	  }]);
+	
+	  return ToolTip;
+	})(_react2['default'].Component);
+	
+	exports['default'] = ToolTip;
+	module.exports = exports['default'];
+
+/***/ },
+/* 264 */
+/*!*********************************************!*\
+  !*** ./scripts/components/Tooltip/utils.js ***!
+  \*********************************************/
+/***/ function(module, exports) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	exports['default'] = {
+	  /**
+	   * Calculates the position of the overlay (tooltip)
+	   *
+	   * The math here is as simple as the requirement. We just
+	   * want the tooltip to appear in the center of the provided
+	   * placement (for example, horizontally center it if top or btm;
+	   * or vertically center it if left or right).
+	   *
+	   * To center `top`:
+	   * (left): (<A> + <B / 2> + <C / 2>)
+	   * A = offsetLeft; distance between the left-most screen and `trigger`
+	   * B = ./.
+	   * C = ./.
+	   *
+	   * I left a comment here because the terminologies were a bit confusing.
+	   * There's duplicated code (for example, top and bottom had the same `left` offset;
+	   * left and right had the same `top` offset) because obviously, it would be unnecessarily
+	   * more expensive and/or the code with be more lengthy (which is seriously fucking bad).
+	   */
+	  calculatePosition: function calculatePosition(trigger, overlay, placement) {
+	    var box = trigger.getBoundingClientRect();
+	    console.log(overlay.offsetHeight);
+	    switch (placement) {
+	      case 'left':
+	        return {
+	          top: box.top + trigger.offsetHeight / 2 + trigger.offsetHeight - overlay.offsetHeight + window.pageYOffset,
+	          left: box.left - overlay.offsetWidth
+	        };
+	      case 'right':
+	        return {
+	          top: box.top + trigger.offsetHeight / 2 + trigger.offsetHeight - overlay.offsetHeight + window.pageYOffset,
+	          left: box.right
+	        };
+	      case 'top':
+	        return {
+	          top: box.top - overlay.offsetHeight + window.pageYOffset,
+	          left: box.right - trigger.offsetWidth / 2 - overlay.offsetWidth / 2
+	        };
+	      case 'bottom':
+	        return {
+	          top: box.bottom + window.pageYOffset,
+	          left: box.right - trigger.offsetWidth / 2 - overlay.offsetWidth / 2
+	        };
+	      default:
+	        return null;
+	      // I can't imagine this being ran through
+	      // No need for this since the placement is validated with `propTypes`
+	    }
+	  }
+	};
+	module.exports = exports['default'];
+
+/***/ },
+/* 265 */
 /*!*************************************************!*\
   !*** ./docs/sections/Docs-Guidelines/index.jsx ***!
   \*************************************************/
@@ -32134,7 +32514,7 @@
 	module.exports = exports["default"];
 
 /***/ },
-/* 263 */
+/* 266 */
 /*!************************************!*\
   !*** template of 162 referencing  ***!
   \************************************/
@@ -32376,7 +32756,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 264 */
+/* 267 */
 /*!************************************!*\
   !*** template of 168 referencing  ***!
   \************************************/
@@ -32434,7 +32814,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 265 */
+/* 268 */
 /*!************************************!*\
   !*** template of 170 referencing  ***!
   \************************************/
@@ -32535,7 +32915,7 @@
 	}
 
 /***/ },
-/* 266 */
+/* 269 */
 /*!************************************!*\
   !*** template of 174 referencing  ***!
   \************************************/
@@ -32569,7 +32949,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 267 */
+/* 270 */
 /*!************************************!*\
   !*** template of 175 referencing  ***!
   \************************************/
@@ -32598,7 +32978,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 268 */
+/* 271 */
 /*!************************************!*\
   !*** template of 182 referencing  ***!
   \************************************/
@@ -32621,7 +33001,7 @@
 	};
 
 /***/ },
-/* 269 */
+/* 272 */
 /*!************************************!*\
   !*** template of 183 referencing  ***!
   \************************************/
@@ -32739,7 +33119,7 @@
 	};
 
 /***/ },
-/* 270 */
+/* 273 */
 /*!************************************!*\
   !*** template of 185 referencing  ***!
   \************************************/
@@ -32917,7 +33297,7 @@
 	};
 
 /***/ },
-/* 271 */
+/* 274 */
 /*!************************************!*\
   !*** template of 203 referencing  ***!
   \************************************/
@@ -33074,388 +33454,6 @@
 	}
 	
 	exports['default'] = createMemoryHistory;
-	module.exports = exports['default'];
-
-/***/ },
-/* 272 */
-/*!**********************************************!*\
-  !*** ./docs/sections/Docs-Tooltip/index.jsx ***!
-  \**********************************************/
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, '__esModule', {
-	  value: true
-	});
-	
-	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
-	
-	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	
-	var _react = __webpack_require__(/*! react */ 1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _scriptsComponentsTooltip = __webpack_require__(/*! ../../../scripts/components/Tooltip */ 273);
-	
-	var _scriptsComponentsTooltip2 = _interopRequireDefault(_scriptsComponentsTooltip);
-	
-	var TooltipView = (function (_React$Component) {
-	  _inherits(TooltipView, _React$Component);
-	
-	  function TooltipView() {
-	    _classCallCheck(this, TooltipView);
-	
-	    _get(Object.getPrototypeOf(TooltipView.prototype), 'constructor', this).apply(this, arguments);
-	  }
-	
-	  _createClass(TooltipView, [{
-	    key: 'render',
-	    value: function render() {
-	      return _react2['default'].createElement(
-	        'div',
-	        null,
-	        _react2['default'].createElement(
-	          'h1',
-	          { className: 'doc-heading' },
-	          'Tooltip'
-	        ),
-	        _react2['default'].createElement(
-	          'section',
-	          { className: 'doc-bottom-space-large' },
-	          _react2['default'].createElement(
-	            'p',
-	            { className: 'lead' },
-	            'Tooltip Top '
-	          ),
-	          _react2['default'].createElement(
-	            _scriptsComponentsTooltip2['default'],
-	            { position: 'top' },
-	            'Hover to reveal the tooltip.'
-	          )
-	        ),
-	        _react2['default'].createElement(
-	          'section',
-	          { className: 'doc-bottom-space-large' },
-	          _react2['default'].createElement(
-	            'p',
-	            { className: 'lead' },
-	            'Tooltip Bottom '
-	          ),
-	          _react2['default'].createElement(
-	            _scriptsComponentsTooltip2['default'],
-	            { position: 'bottom' },
-	            'Hover to reveal the tooltip.'
-	          )
-	        ),
-	        _react2['default'].createElement(
-	          'section',
-	          { className: 'doc-bottom-space-large' },
-	          _react2['default'].createElement(
-	            'p',
-	            { className: 'lead' },
-	            'Tooltip Left '
-	          ),
-	          _react2['default'].createElement(
-	            _scriptsComponentsTooltip2['default'],
-	            { position: 'left' },
-	            'Hover to reveal the tooltip.',
-	            _react2['default'].createElement('br', null)
-	          )
-	        ),
-	        _react2['default'].createElement(
-	          'section',
-	          { className: 'doc-bottom-space-large' },
-	          _react2['default'].createElement(
-	            'p',
-	            { className: 'lead' },
-	            'Tooltip Right '
-	          ),
-	          _react2['default'].createElement(
-	            _scriptsComponentsTooltip2['default'],
-	            { position: 'right' },
-	            'Hover to reveal the tooltip.',
-	            _react2['default'].createElement('br', null)
-	          )
-	        )
-	      );
-	    }
-	  }]);
-	
-	  return TooltipView;
-	})(_react2['default'].Component);
-	
-	exports['default'] = TooltipView;
-	module.exports = exports['default'];
-
-/***/ },
-/* 273 */
-/*!**********************************************!*\
-  !*** ./scripts/components/Tooltip/index.jsx ***!
-  \**********************************************/
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, '__esModule', {
-	  value: true
-	});
-	
-	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
-	
-	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== 'function' && superClass !== null) { throw new TypeError('Super expression must either be null or a function, not ' + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	
-	var _react = __webpack_require__(/*! react */ 1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _reactDom = __webpack_require__(/*! react-dom */ 157);
-	
-	var _utilsDomUtils = __webpack_require__(/*! ../../utils/DomUtils */ 258);
-	
-	var _utils = __webpack_require__(/*! ./utils */ 274);
-	
-	var _utils2 = _interopRequireDefault(_utils);
-	
-	var ARROW_LEFT = 'tooltip -arrowright';
-	var ARROW_RIGHT = 'tooltip -arrowleft';
-	var ARROW_UP = 'tooltip -arrowdown';
-	var ARROW_DOWN = 'tooltip -arrowup';
-	
-	var ToolTip = (function (_React$Component) {
-	  _inherits(ToolTip, _React$Component);
-	
-	  function ToolTip(props) {
-	    _classCallCheck(this, ToolTip);
-	
-	    _get(Object.getPrototypeOf(ToolTip.prototype), 'constructor', this).call(this, props);
-	
-	    this.state = {
-	      show: false,
-	      top: 0,
-	      left: 0
-	    };
-	    this.handleMouseEnter = this.handleMouseEnter.bind(this);
-	    this.handleMouseOut = this.handleMouseOut.bind(this);
-	  }
-	
-	  _createClass(ToolTip, [{
-	    key: 'componentDidMount',
-	    value: function componentDidMount() {
-	      this.mountContainer();
-	      if (this.state.show) {
-	        this.mountTooltip();
-	      }
-	      (0, _reactDom.findDOMNode)(this).addEventListener('mouseenter', this.handleMouseEnter);
-	      (0, _reactDom.findDOMNode)(this).addEventListener('mouseout', this.handleMouseOut);
-	    }
-	  }, {
-	    key: 'componentWillUnmount',
-	    value: function componentWillUnmount() {
-	      this.unmountTooltip();
-	      this.unmountContainer();
-	      (0, _reactDom.findDOMNode)(this).removeEventListener('mouseenter', this.handleMouseEnter);
-	      (0, _reactDom.findDOMNode)(this).removeEventListener('mouseout', this.handleMouseOut);
-	    }
-	  }, {
-	    key: 'componentDidUpdate',
-	    value: function componentDidUpdate() {
-	      this.state.show ? this.mountTooltip() : this.unmountTooltip();
-	    }
-	  }, {
-	    key: 'render',
-	    value: function render() {
-	      return _react2['default'].createElement(
-	        'span',
-	        null,
-	        this.props.children
-	      );
-	    }
-	  }, {
-	    key: 'mountContainer',
-	    value: function mountContainer() {
-	      this.$container = document.createElement('div');
-	      document.body.appendChild(this.$container);
-	    }
-	  }, {
-	    key: 'unmountContainer',
-	    value: function unmountContainer() {
-	      if (this.$container == null) {
-	        return;
-	      }
-	
-	      document.body.removeChild(this.$container);
-	      this.$container = null;
-	    }
-	  }, {
-	    key: 'mountTooltip',
-	    value: function mountTooltip() {
-	      if (!this.$container) {
-	        throw new Error('The container does not exist. ' + 'It may have been removed, or whatever');
-	      }
-	
-	      this.$tooltip = (0, _reactDom.render)((0, _react.cloneElement)(_react2['default'].createElement(
-	        'div',
-	        { className: this.selectArrow() },
-	        this.props.text
-	      ), {
-	        style: {
-	          top: this.state.top,
-	          left: this.state.left,
-	          position: "absolute"
-	        }
-	      }), this.$container);
-	    }
-	  }, {
-	    key: 'unmountTooltip',
-	    value: function unmountTooltip() {
-	      if (this.$tooltip == null) {
-	        return;
-	      }
-	
-	      (0, _reactDom.unmountComponentAtNode)(this.$container);
-	      this.$tooltip = null;
-	    }
-	  }, {
-	    key: 'handleMouseEnter',
-	    value: function handleMouseEnter() {
-	      var _this = this;
-	
-	      this.setState({
-	        show: true
-	      }, function () {
-	        var trigger = (0, _reactDom.findDOMNode)(_this);
-	        var overlay = (0, _reactDom.findDOMNode)(_this.$tooltip);
-	        var position = _this.props.position;
-	
-	        var _utils$calculatePosition = _utils2['default'].calculatePosition(trigger, overlay, position);
-	
-	        var top = _utils$calculatePosition.top;
-	        var left = _utils$calculatePosition.left;
-	
-	        _this.setState({ top: top, left: left });
-	      });
-	    }
-	  }, {
-	    key: 'handleMouseOut',
-	    value: function handleMouseOut() {
-	      this.setState({ show: false });
-	    }
-	  }, {
-	    key: 'selectArrow',
-	    value: function selectArrow() {
-	      switch (this.props.position) {
-	        case 'top':
-	          return ARROW_UP;
-	        case 'bottom':
-	          return ARROW_DOWN;
-	        case 'left':
-	          return ARROW_LEFT;
-	        case 'right':
-	          return ARROW_RIGHT;
-	        default:
-	          return null;
-	      }
-	    }
-	  }], [{
-	    key: 'PropTypes',
-	    value: {
-	      position: _react.PropTypes.oneOf(['top', 'left', 'right', 'bottom']).isRequired,
-	      text: _react.PropTypes.string.isRequired
-	    },
-	    enumerable: true
-	  }, {
-	    key: 'defaultProps',
-	    value: {
-	      position: 'left',
-	      text: 'Input Tooltip Text here'
-	    },
-	    enumerable: true
-	  }]);
-	
-	  return ToolTip;
-	})(_react2['default'].Component);
-	
-	exports['default'] = ToolTip;
-	module.exports = exports['default'];
-
-/***/ },
-/* 274 */
-/*!*********************************************!*\
-  !*** ./scripts/components/Tooltip/utils.js ***!
-  \*********************************************/
-/***/ function(module, exports) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, '__esModule', {
-	  value: true
-	});
-	exports['default'] = {
-	  /**
-	   * Calculates the position of the overlay (tooltip)
-	   *
-	   * The math here is as simple as the requirement. We just
-	   * want the tooltip to appear in the center of the provided
-	   * placement (for example, horizontally center it if top or btm;
-	   * or vertically center it if left or right).
-	   *
-	   * To center `top`:
-	   * (left): (<A> + <B / 2> + <C / 2>)
-	   * A = offsetLeft; distance between the left-most screen and `trigger`
-	   * B = ./.
-	   * C = ./.
-	   *
-	   * I left a comment here because the terminologies were a bit confusing.
-	   * There's duplicated code (for example, top and bottom had the same `left` offset;
-	   * left and right had the same `top` offset) because obviously, it would be unnecessarily
-	   * more expensive and/or the code with be more lengthy (which is seriously fucking bad).
-	   */
-	  calculatePosition: function calculatePosition(trigger, overlay, placement) {
-	    var coords = trigger.getBoundingClientRect();
-	    var ADD_MARGIN = 8;
-	
-	    switch (placement) {
-	      case 'left':
-	        return {
-	          top: coords.top + trigger.offsetHeight / 2 + trigger.offsetHeight - overlay.offsetHeight + window.pageYOffset,
-	          left: coords.left - overlay.offsetWidth - ADD_MARGIN
-	        };
-	      case 'right':
-	        return {
-	          top: coords.top + trigger.offsetHeight / 2 + trigger.offsetHeight - overlay.offsetHeight + window.pageYOffset,
-	          left: coords.right + ADD_MARGIN
-	        };
-	      case 'top':
-	        return {
-	          top: coords.top - overlay.offsetHeight - ADD_MARGIN + window.pageYOffset,
-	          left: coords.right - trigger.offsetWidth / 2 - overlay.offsetWidth / 2
-	        };
-	      case 'bottom':
-	        return {
-	          top: coords.bottom + ADD_MARGIN + window.pageYOffset,
-	          left: coords.right - trigger.offsetWidth / 2 - overlay.offsetWidth / 2
-	        };
-	      default:
-	        return null;
-	      // I can't imagine this being ran through
-	      // No need for this since the placement is validated with `propTypes`
-	    }
-	  }
-	};
 	module.exports = exports['default'];
 
 /***/ }

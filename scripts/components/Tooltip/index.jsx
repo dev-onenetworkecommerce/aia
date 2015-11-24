@@ -1,5 +1,5 @@
 import React, { cloneElement, PropTypes } from 'react';
-import { render, unmountComponentAtNode, findDOMNode } from 'react-dom';
+import { unstable_renderSubtreeIntoContainer, unmountComponentAtNode, findDOMNode } from 'react-dom';
 import { addClass, removeClass } from '../../utils/DomUtils';
 import utils from './utils';
 
@@ -36,7 +36,7 @@ export default class ToolTip extends React.Component {
 
   static defaultProps = {
     position: 'left',
-    text: 'Input Tooltip Text here',
+    text: ''
   }
 
   componentDidMount() {
@@ -44,15 +44,11 @@ export default class ToolTip extends React.Component {
     if ( this.state.show ) {
       this.mountTooltip();
     }
-    findDOMNode(this).addEventListener('mouseenter', this.handleMouseEnter);
-    findDOMNode(this).addEventListener('mouseout', this.handleMouseOut);
   };
 
   componentWillUnmount() {
     this.unmountTooltip();
     this.unmountContainer();
-    findDOMNode(this).removeEventListener('mouseenter', this.handleMouseEnter);
-    findDOMNode(this).removeEventListener('mouseout', this.handleMouseOut);
   };
 
   componentDidUpdate() {
@@ -62,7 +58,10 @@ export default class ToolTip extends React.Component {
   }
 
   render() {
-    return <span>{this.props.children}</span>;
+    return cloneElement(<span>{this.props.children}</span>, {
+      onMouseEnter: ::this.handleMouseEnter,
+      onMouseOut: ::this.handleMouseOut
+    });
   };
 
 
@@ -88,15 +87,16 @@ export default class ToolTip extends React.Component {
       );
     }
 
-    this.$tooltip = render(
+    this.$tooltip = unstable_renderSubtreeIntoContainer(
+      this,
       cloneElement(
-        <div className={this.selectArrow()}>
+        <div className={this.getArrowClassName()}>
           {this.props.text}
         </div>, {
         style: {
           top: this.state.top,
           left: this.state.left,
-          position: "absolute"
+          position: 'absolute'
         }
       }),
       this.$container
@@ -128,7 +128,7 @@ export default class ToolTip extends React.Component {
     this.setState({ show: false });
   }
 
-  selectArrow() {
+  getArrowClassName() {
     switch(this.props.position) {
       case 'top':
         return ARROW_UP;
