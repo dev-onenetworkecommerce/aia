@@ -5414,7 +5414,7 @@ a {
   border: 1px solid #4A4A4A;
   border-radius: 5px;
   outline: none;
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075); }
+  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.075); }
   .form-control:focus {
     border-color: #52B5E5; }
   .form-control.-disabled, .form-control:disabled {
@@ -5490,12 +5490,12 @@ label {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0; }
   .input-group > .form-control:last-child,
+  .input-group > .form-control:not(:first-child):not(:last-child),
   .input-group > .addon:last-child,
   .input-group > .addon.-btn:last-child > .btn,
   .input-group > .addon.-btn:last-child > .light-btn {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0; }
-  .input-group > .form-control:not(:first-child):not(:last-child),
   .input-group > .addon:not(:first-child):not(:last-child),
   .input-group > .addon:not(:first-child):not(:last-child) > .btn,
   .input-group > .addon:not(:first-child):not(:last-child) > .light-btn {
@@ -5507,6 +5507,8 @@ label {
     z-index: 2;
     float: left;
     width: 100%; }
+  .input-group > .form-control:first-child {
+    border-right: none; }
   .input-group > .addon {
     z-index: 1;
     width: 1%;
