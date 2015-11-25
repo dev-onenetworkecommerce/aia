@@ -26372,6 +26372,11 @@
 	            "Headings"
 	          ),
 	          _react2["default"].createElement(
+	            "div",
+	            { className: "alert -sky doc-bottom-space" },
+	            "Heads up! The font-weight of headings are regular by default."
+	          ),
+	          _react2["default"].createElement(
 	            "h1",
 	            null,
 	            "Headline 1"
@@ -30752,6 +30757,26 @@
 	            "pre",
 	            null,
 	            "\n            .some-class {\n              @include center-block;\n            }\n          "
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
+	            "h3",
+	            { className: "doc-heading" },
+	            "Drop Shadow Mixin"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "Use this utility to add good and consistent drop shadow for your element."
+	          ),
+	          _react2["default"].createElement("div", { className: "doc-drop-shadow-mixin-example _spacer" }),
+	          _react2["default"].createElement(
+	            "pre",
+	            null,
+	            "\n            .some-class {\n              @include drop-shadow; // bottom (default)\n              @include drop-shadow(top); // top\n            }\n          "
 	          )
 	        ),
 	        _react2["default"].createElement(
