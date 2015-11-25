@@ -179,3 +179,9 @@ label {
     cursor: pointer;
   }
 }
+
+.form-actions {
+  > *:not(:last-child) {
+    margin-right: $padding-x;
+  }
+}

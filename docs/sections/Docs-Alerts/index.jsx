@@ -1,6 +1,22 @@
 import React from 'react';
 
 export default class Alerts extends React.Component {
+  state = {
+    growl: false
+  };
+
+  componentWillUnmount() {
+    if ( this._growlTimeout ) {
+      cancelTimeout(this._growlTimeout);
+    }
+  }
+
+  constructor(props) {
+    super(props);
+
+    this.handleShowGrowl = ::this.handleShowGrowl;
+  }
+
   render() {
     return (
       <div>
@@ -27,7 +43,28 @@ export default class Alerts extends React.Component {
         	</div>
         </section>
 
-        <section className="doc-bottom-space-large">
+        <section className="doc-bottom-space">
+          <h3 className="doc-heading">Example: Links</h3>
+          <p>Links are boldened and given a darker shade of the variant's color.</p>
+
+          <div className="alert -sky doc-bottom-space">
+            Heads up! We're updating this module in this <a href="#">forum discussion</a>.
+          </div>
+
+          <div className="alert -emerald doc-bottom-space">
+            Heads up! We're updating this module in this <a href="#">forum discussion</a>.
+          </div>
+
+          <div className="alert -sun doc-bottom-space">
+            Heads up! We're updating this module in this <a href="#">forum discussion</a>.
+          </div>
+
+          <div className="alert -crimson">
+            Heads up! We're updating this module in this <a href="#">forum discussion</a>.
+          </div>
+        </section>
+
+        <section className="doc-bottom-space">
           <h3 className="doc-heading">Example: Block</h3>
           <p>Useful when you'd like to use a more emphasized alert (for example, growl).</p>
           <div className="alert -emerald -block">
@@ -35,7 +72,7 @@ export default class Alerts extends React.Component {
           </div>
         </section>
 
-        <section className="doc-bottom-space-large">
+        <section className="doc-bottom-space">
           <h3 className="doc-heading">Example: Large</h3>
           <p>Simply apply the .-large class.</p>
           <div className="alert -emerald -large">
@@ -43,14 +80,47 @@ export default class Alerts extends React.Component {
           </div>
         </section>
 
-        <section>
+        <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Example: With Icons</h3>
           <div className="alert -crimson">
             <i className="icon icon-alert" />
             Oh snap! Change a few things up and try this submitting again.
           </div>
         </section>
+
+        <section>
+          <h3 className="doc-heading">Growl</h3>
+          <p className="lead">This is useful for notifying the user of an update with a pop-up message.</p>
+          <div className="alert -sky _spacer">
+            According to <a href="https://en.wikipedia.org/wiki/Growl_(software)">Wikipedia</a>, Growl is a global notification system and pop-up notification implementation.
+          </div>
+          <button className="btn -primary" onClick={this.handleShowGrowl}>Show Growl</button>
+          {this.renderGrowl()}
+        </section>
       </div>
     );
+  }
+
+  renderGrowl() {
+    return this.state.growl ? (
+      <div className="alert-growl">
+        <div className="alert -crimson">
+          <i className="icon icon-alert" />
+          Oh snap! Change a few things up and try this submitting again.
+        </div>
+      </div>
+    ) : null;
+  }
+
+  handleShowGrowl() {
+    if ( this.state.growl ) {
+      return;
+    }
+
+    this.setState({ growl: true }, () => {
+      this._growlTimeout = setTimeout(() => {
+        this.setState({ growl: false })
+      }, 1500);
+    });
   }
 }

@@ -33,4 +33,27 @@
   > .icon:first-child {
     margin-right: 10px;
   }
+
+  a {
+    font-weight: bold;
+  }
+
+  // @todo
+  // Document all alert link colors somehow.
+  // Or even set to a variable
+  &.-sky a {
+    color: #2F5B86;
+  }
+
+  &.-emerald a {
+    color: #227D64;
+  }
+
+  &.-sun a {
+    color: #80612E;
+  }
+
+  &.-crimson a {
+    color: #86342C;
+  }
 }

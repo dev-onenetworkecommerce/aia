@@ -118,6 +118,12 @@ export default class Utilities extends React.Component {
             }
           `}</pre>
         </section>
+        <section className="doc-bottom-space-large">
+          <h3 className="doc-heading">Header Bold</h3>
+          <p>Header elements doesn't give an automatic bold state. Just add <code>._heading-bold</code> to make your header in bold easily.</p>
+          <h5 className="_heading-bold">Header with _heading-bold</h5>
+          <h5>Header without _heading-bold</h5>
+        </section>
       </div>
     );
   }

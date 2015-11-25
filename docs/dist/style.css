@@ -419,6 +419,9 @@ th {
   margin-left: auto !important;
   margin-right: auto !important; }
 
+._heading-bold {
+  font-weight: 600; }
+
 @font-face {
   font-family: 'one-icons';
   src: url("fonts/one-icons.eot?gr3uvv");
@@ -5536,6 +5539,9 @@ label {
     right: 10px;
     cursor: pointer; }
 
+.form-actions > *:not(:last-child) {
+  margin-right: 12px; }
+
 /*
 <table class="table">
 </table>
@@ -5791,7 +5797,7 @@ hr {
 .pagination > .pages > .page {
   display: inline-block;
   min-width: 20px;
-  padding: 2px 5px;
+  padding: 2px 8px;
   color: #C4C4C4;
   font-size: 12px;
   background: transparent;
@@ -5841,12 +5847,28 @@ hr {
     background-color: #F05F50; }
   .alert.-large {
     padding: 30px 15px; }
-  .alert.-block {
+  .alert.-block, .alert-growl > .alert {
     text-align: center;
     border: 0;
     border-radius: 0; }
   .alert > .icon:first-child {
     margin-right: 10px; }
+  .alert a {
+    font-weight: bold; }
+  .alert.-sky a {
+    color: #2F5B86; }
+  .alert.-emerald a {
+    color: #227D64; }
+  .alert.-sun a {
+    color: #80612E; }
+  .alert.-crimson a {
+    color: #86342C; }
+
+.alert-growl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; }
 
 .label {
   display: inline-block;
@@ -5926,7 +5948,7 @@ hr {
     margin: 0 25px;
     width: 40px;
     height: 40px;
-    line-height: 40px;
+    line-height: 35px;
     text-align: center;
     background: #F0F0F0;
     border-radius: 50%;
@@ -5949,6 +5971,8 @@ hr {
     margin-right: 0; }
   .steps li:last-child::after {
     display: none; }
+  .steps .complete {
+    line-height: 40px; }
   .steps .complete,
   .steps .complete::after {
     background: #38D4A9; }
@@ -6029,6 +6053,8 @@ hr {
   .panel > .table.-bordered > thead > tr > th:first-child,
   .panel > .table.-bordered > tbody > tr > td:first-child {
     border-left: 0; }
+  .panel > .table.-bordered > tbody > tr:last-child > td {
+    border-bottom: 0; }
   .panel > .table.-bordered > thead > tr > th:last-child,
   .panel > .table.-bordered > tbody > tr > td:last-child {
     border-right: 0; }
@@ -6163,10 +6189,10 @@ body.modal-body {
     padding: 60px; }
   .slate.-plain {
     background: #fff; }
-  .slate h1, .slate h2, .slate h3, .slate h4, .slate h5, .slate h6, .slate p {
-    margin-bottom: 1.5rem; }
   .slate h1, .slate h2, .slate h3, .slate h4, .slate h5, .slate h6 {
-    margin-top: 1.5rem; }
+    margin-bottom: 1.5rem; }
+  .slate p {
+    margin-bottom: 0.75rem; }
   .slate > *:last-child {
     margin-bottom: 0; }
 

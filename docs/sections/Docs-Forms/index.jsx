@@ -35,6 +35,16 @@ export default class Forms extends React.Component {
         </section>
 
         <section className="doc-bottom-space-large">
+          <h3 className="doc-heading">Form Actions</h3>
+          <p className="lead">This is a helper which automatically puts a spacing between each button.</p>
+
+          <div className="form-actions">
+            <button className="btn -emerald">Submit</button>
+            <button className="btn">Cancel</button>
+          </div>
+        </section>
+
+        <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Form Error</h3>
           <p className="lead">You may present form errors with a tooltip-like presentation.</p>
           <section className="doc-bottom-space">
