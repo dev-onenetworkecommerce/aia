@@ -75,10 +75,13 @@
       text-decoration: none;
     }
   }
-  &.-primary-link { @include btn-variant($brand-white, $brand-sidebar-lt); }
+  &.-primary-link { 
+    @include btn-variant($brand-white, $brand-sidebar-lt);
+    border: 1px solid $brand-gray;
+  }
 
   &.-inverted.-default { @include btn-variant-inverted($brand-gray); }
-  &.-inverted.-primary { @include btn-variant-inverted($brand-sidebar-lt); }
+  &.-inverted.-primary { @include btn-variant-inverted($brand-primary); }
   &.-inverted.-sky { @include btn-variant-inverted($brand-sky); }
   &.-inverted.-emerald { @include btn-variant-inverted($brand-emerald); }
   &.-inverted.-crimson { @include btn-variant-inverted($brand-crimson); }
