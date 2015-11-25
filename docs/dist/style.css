@@ -6396,6 +6396,13 @@ code {
   background: #C4C4C4;
   border: 1px solid #78828A; }
 
+.doc-drop-shadow-mixin-example {
+  box-shadow: 2px 4px 0px rgba(0, 0, 0, 0.17);
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border: 1px solid #78828A; }
+
 .doc-bottom-space {
   margin-bottom: 25px; }
 
