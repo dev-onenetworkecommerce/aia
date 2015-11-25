@@ -27500,56 +27500,75 @@
 	          "section",
 	          { className: "doc-bottom-space-large" },
 	          _react2["default"].createElement(
+	            "h3",
+	            { className: "doc-heading" },
+	            "Input Groups"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "Use as a container for your form element and an addon."
+	          ),
+	          _react2["default"].createElement(
 	            "section",
 	            { className: "doc-bottom-space" },
 	            _react2["default"].createElement(
-	              "h3",
-	              { className: "doc-heading" },
-	              "Input Groups"
-	            ),
-	            _react2["default"].createElement(
-	              "p",
-	              null,
-	              "Use as a container for a form element."
-	            ),
-	            _react2["default"].createElement(
-	              "section",
-	              { className: "doc-bottom-space" },
+	              "div",
+	              { className: "input-group" },
+	              _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something.." }),
 	              _react2["default"].createElement(
-	                "div",
-	                { className: "input-group" },
-	                _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something.." }),
-	                _react2["default"].createElement(
-	                  "span",
-	                  { className: "addon" },
-	                  "Search"
-	                )
+	                "span",
+	                { className: "addon" },
+	                "Search"
 	              )
-	            ),
+	            )
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "Add ",
 	            _react2["default"].createElement(
-	              "p",
+	              "code",
 	              null,
-	              "Add ",
+	              ".-primary-link"
+	            ),
+	            " in the addon to use the other variant."
+	          ),
+	          _react2["default"].createElement(
+	            "section",
+	            { className: "doc-bottom-space" },
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "input-group" },
+	              _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something.." }),
 	              _react2["default"].createElement(
-	                "code",
-	                null,
-	                ".-primary-link"
+	                "span",
+	                { className: "addon -primary-link" },
+	                "Search"
+	              )
+	            )
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
+	            "h3",
+	            null,
+	            "Example: Input Group with left positioned addon."
+	          ),
+	          _react2["default"].createElement(
+	            "section",
+	            { className: "doc-bottom-space" },
+	            _react2["default"].createElement(
+	              "div",
+	              { className: "input-group" },
+	              _react2["default"].createElement(
+	                "span",
+	                { className: "addon" },
+	                "Search"
 	              ),
-	              " in the addon to use the other variant."
-	            ),
-	            _react2["default"].createElement(
-	              "section",
-	              { className: "doc-bottom-space" },
-	              _react2["default"].createElement(
-	                "div",
-	                { className: "input-group" },
-	                _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something.." }),
-	                _react2["default"].createElement(
-	                  "span",
-	                  { className: "addon -primary-link" },
-	                  "Search"
-	                )
-	              )
+	              _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something.." })
 	            )
 	          )
 	        ),

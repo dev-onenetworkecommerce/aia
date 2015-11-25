@@ -135,6 +135,10 @@ label {
     border-right: none;
   }
 
+  > .form-control:last-child {
+    border-left: none;
+  }
+
   > .addon {
     z-index: 1;
     width: 1%;
@@ -179,7 +183,6 @@ label {
     position: absolute;
     top: 10px;
     right: 10px;
-    cursor: pointer;
   }
 }
 

@@ -5509,6 +5509,8 @@ label {
     width: 100%; }
   .input-group > .form-control:first-child {
     border-right: none; }
+  .input-group > .form-control:last-child {
+    border-left: none; }
   .input-group > .addon {
     z-index: 1;
     width: 1%;
@@ -5538,8 +5540,7 @@ label {
   .input-group > .icon-search {
     position: absolute;
     top: 10px;
-    right: 10px;
-    cursor: pointer; }
+    right: 10px; }
 
 .form-actions > *:not(:last-child) {
   margin-right: 12px; }
