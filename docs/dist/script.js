@@ -27775,7 +27775,12 @@
 	          _react2["default"].createElement(
 	            "p",
 	            { className: "lead" },
-	            "Useful for indicating on which step the user is in the wizard and change number into check if the user pass or complete the previous step."
+	            "Useful for indicating on which step the user is in the wizard."
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "alert -sky doc-bottom-space" },
+	            "Heads up! Expect steps to change from number to check icon for the previous steps being pass or completed."
 	          ),
 	          _react2["default"].createElement(
 	            "ul",
