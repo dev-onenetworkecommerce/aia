@@ -26374,7 +26374,7 @@
 	          _react2["default"].createElement(
 	            "div",
 	            { className: "alert -sky doc-bottom-space" },
-	            "Heads up! Heading tags font-weight is regular in default."
+	            "Heads up! The font-weight of headings are regular by default."
 	          ),
 	          _react2["default"].createElement(
 	            "h1",

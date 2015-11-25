@@ -7,7 +7,7 @@ export default class Type extends React.Component {
         <h1 className="doc-heading">Type</h1>
         <section className="doc-bottom-space-large">
           <h1>Headings</h1>
-          <div className="alert -sky doc-bottom-space">Heads up! Heading tags font-weight is regular in default.</div>
+          <div className="alert -sky doc-bottom-space">Heads up! The font-weight of headings are regular by default.</div>
           <h1>Headline 1</h1>
           <h2>Headline 2</h2>
           <h3>Headline 3</h3>
