@@ -6052,14 +6052,14 @@ hr {
   position: absolute;
   margin-top: 20px; }
   .dropdown > .menu {
+    box-shadow: 2px 4px 0px rgba(0, 0, 0, 0.17);
     position: relative;
     padding: 6px 0;
     min-width: 160px;
     font-size: 14px;
     background-color: #fff;
     border: 1px solid #C4C4C4;
-    border-radius: 5px;
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1); }
+    border-radius: 5px; }
   .dropdown > .menu::before,
   .dropdown > .menu::after {
     content: "";
@@ -6110,6 +6110,8 @@ hr {
     right: 10px; }
   .dropdown.-up {
     margin-top: -20px; }
+  .dropdown.-up > .menu {
+    box-shadow: 2px -4px 0px rgba(0, 0, 0, 0.17); }
   .dropdown.-up > .menu::before, .dropdown.-up > .menu::after {
     top: initial;
     bottom: -20px;
