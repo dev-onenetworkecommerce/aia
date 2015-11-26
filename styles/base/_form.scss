@@ -146,15 +146,15 @@ label {
     vertical-align: middle;
     padding: 0 8px;
     border: 1px solid $brand-black;
-    border-radius: $border-radius-base;
-    background-color: $brand-white;
     color: $brand-black;
+    background-color: $brand-white;
+    border-radius: $border-radius-base;
   }
   
-  > .addon.-primary-link {
-    border-color: $brand-sidebar-lt;
-    background-color: $brand-sidebar-lt;
+  > .addon.-primary {
     color: $brand-white;
+    background-color: $brand-sidebar-lt;
+    border-color: $brand-sidebar-lt;
   }
 
   > .addon:first-child {
@@ -174,7 +174,7 @@ label {
     line-height: 32px;
   }
 
-  > .addon.-btn > .btn{
+  > .addon.-btn > .btn {
     border-radius: 2px;
     margin-right: -0.5px;
   }

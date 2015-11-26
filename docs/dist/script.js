@@ -27530,7 +27530,7 @@
 	            _react2["default"].createElement(
 	              "code",
 	              null,
-	              ".-primary-link"
+	              ".-primary"
 	            ),
 	            " in the addon to use the other variant."
 	          ),
@@ -27543,7 +27543,7 @@
 	              _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something.." }),
 	              _react2["default"].createElement(
 	                "span",
-	                { className: "addon -primary-link" },
+	                { className: "addon -primary" },
 	                "Search"
 	              )
 	            )

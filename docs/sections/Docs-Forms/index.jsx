@@ -89,11 +89,11 @@ export default class Forms extends React.Component {
               <span className="addon">Search</span>
             </div>
           </section>
-          <p>Add <code>.-primary-link</code> in the addon to use the other variant.</p>
+          <p>Add <code>.-primary</code> in the addon to use the other variant.</p>
           <section className="doc-bottom-space">
             <div className="input-group">
               <input className="form-control" type="text" placeholder="Enter something.." />
-              <span className="addon -primary-link">Search</span>
+              <span className="addon -primary">Search</span>
             </div>
           </section>
         </section>

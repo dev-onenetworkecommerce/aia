@@ -5518,13 +5518,13 @@ label {
     vertical-align: middle;
     padding: 0 8px;
     border: 1px solid #4A4A4A;
-    border-radius: 5px;
+    color: #4A4A4A;
     background-color: #fff;
-    color: #4A4A4A; }
-  .input-group > .addon.-primary-link {
-    border-color: #5372C5;
+    border-radius: 5px; }
+  .input-group > .addon.-primary {
+    color: #fff;
     background-color: #5372C5;
-    color: #fff; }
+    border-color: #5372C5; }
   .input-group > .addon:first-child {
     border-right: 0; }
   .input-group > .addon:last-child {
