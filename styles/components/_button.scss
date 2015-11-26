@@ -77,12 +77,14 @@
   }
 
   &.-primary-link { 
-    @include btn-variant($brand-white, $brand-sidebar-lt);
+    @include btn-variant($brand-white, $brand-sky);
     border: 1px solid $brand-gray;
 
     &:hover,
     &:focus {
-      color: darken($brand-sidebar-lt, 15%);
+      color: $brand-white;
+      background-color: $brand-sky;
+      border-color: $brand-white;
     }
   }
 
