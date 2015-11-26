@@ -8,6 +8,7 @@
   border: 1px solid $brand-black;
   border-radius: $border-radius-base;
   outline: none;
+  box-shadow: inset 0 1px 0 rgba(0,0,0,0.075);
 
   &:focus {
     border-color: $brand-sky;
@@ -108,13 +109,13 @@ label {
   }
 
   > .form-control:last-child,
+  > .form-control:not(:first-child):not(:last-child),
   > .addon:last-child,
   > .addon.-btn:last-child > .btn {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
   }
 
-  > .form-control:not(:first-child):not(:last-child),
   > .addon:not(:first-child):not(:last-child),
   > .addon:not(:first-child):not(:last-child) > .btn {
     border-radius: 0;
@@ -130,6 +131,13 @@ label {
     float: left;
     width: 100%;
   }
+  > .form-control:first-child {
+    border-right: none;
+  }
+
+  > .form-control:last-child {
+    border-left: none;
+  }
 
   > .addon {
     z-index: 1;
@@ -137,9 +145,16 @@ label {
     min-height: $form-size;
     vertical-align: middle;
     padding: 0 8px;
-    background: $brand-gray-lt;
-    border: 1px solid $brand-gray;
+    border: 1px solid $brand-black;
+    color: $brand-black;
+    background-color: $brand-white;
     border-radius: $border-radius-base;
+  }
+  
+  > .addon.-primary {
+    color: $brand-white;
+    background-color: $brand-sidebar-lt;
+    border-color: $brand-sidebar-lt;
   }
 
   > .addon:first-child {
@@ -152,6 +167,22 @@ label {
 
   > .addon.-btn {
     padding: 0;
+  }
+
+  > .addon .btn {
+    height: 32px;
+    line-height: 32px;
+  }
+
+  > .addon.-btn > .btn {
+    border-radius: 2px;
+    margin-right: -0.5px;
+  }
+
+  > .icon-search {
+    position: absolute;
+    top: 10px;
+    right: 10px;
   }
 }
 

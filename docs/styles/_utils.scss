@@ -39,3 +39,12 @@
   background: $brand-gray;
   border: 1px solid $brand-gray-dk;
 }
+
+
+.doc-drop-shadow-mixin-example {
+  @include drop-shadow;
+  width: 100px;
+  height: 100px;
+  background: $brand-white;
+  border: 1px solid $brand-gray-dk;
+}

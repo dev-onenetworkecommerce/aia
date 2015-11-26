@@ -4,12 +4,12 @@
 	color: $brand-white;
   border-radius: $border-radius-base;
 
-  &.-emerald {
-    background-color: $brand-emerald;
-  }
-
   &.-sky {
     background-color : $brand-sky;
+  }
+
+  &.-emerald {
+    background-color : $brand-emerald;
   }
 
   &.-sun {
@@ -38,22 +38,19 @@
     font-weight: bold;
   }
 
-  // @todo
-  // Document all alert link colors somehow.
-  // Or even set to a variable
   &.-sky a {
-    color: #2F5B86;
+    color: darken($brand-sky,30%);
   }
 
   &.-emerald a {
-    color: #227D64;
+    color: darken($brand-emerald,30%);
   }
 
   &.-sun a {
-    color: #80612E;
+    color: darken($brand-sun,30%);
   }
 
   &.-crimson a {
-    color: #86342C;
+    color: darken($brand-crimson,30%);
   }
 }

@@ -26372,6 +26372,11 @@
 	            "Headings"
 	          ),
 	          _react2["default"].createElement(
+	            "div",
+	            { className: "alert -sky doc-bottom-space" },
+	            "Heads up! The font-weight of headings are regular by default."
+	          ),
+	          _react2["default"].createElement(
 	            "h1",
 	            null,
 	            "Headline 1"
@@ -27493,166 +27498,110 @@
 	        ),
 	        _react2["default"].createElement(
 	          "section",
-	          null,
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
+	            "h3",
+	            { className: "doc-heading" },
+	            "Input Groups"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "Use as a container for your form element and an addon."
+	          ),
 	          _react2["default"].createElement(
 	            "section",
 	            { className: "doc-bottom-space" },
 	            _react2["default"].createElement(
-	              "h3",
-	              { className: "doc-heading" },
-	              "Input Groups"
-	            ),
-	            _react2["default"].createElement(
-	              "p",
-	              null,
-	              "Use as a container for a form element."
-	            ),
-	            _react2["default"].createElement(
-	              "section",
-	              { className: "doc-bottom-space" },
+	              "div",
+	              { className: "input-group" },
+	              _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something.." }),
 	              _react2["default"].createElement(
-	                "div",
-	                { className: "input-group" },
-	                _react2["default"].createElement(
-	                  "span",
-	                  { className: "addon" },
-	                  "00:00"
-	                ),
-	                _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something.." })
-	              )
-	            ),
-	            _react2["default"].createElement(
-	              "section",
-	              { className: "doc-bottom-space" },
-	              _react2["default"].createElement(
-	                "div",
-	                { className: "input-group" },
-	                _react2["default"].createElement(
-	                  "span",
-	                  { className: "addon" },
-	                  "00:00"
-	                ),
-	                _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something.." }),
-	                _react2["default"].createElement(
-	                  "span",
-	                  { className: "addon" },
-	                  "Search"
-	                )
-	              )
-	            ),
-	            _react2["default"].createElement(
-	              "section",
-	              null,
-	              _react2["default"].createElement(
-	                "div",
-	                { className: "input-group" },
-	                _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something.." }),
-	                _react2["default"].createElement(
-	                  "span",
-	                  { className: "addon" },
-	                  "Search"
-	                )
+	                "span",
+	                { className: "addon" },
+	                "Search"
 	              )
 	            )
 	          ),
 	          _react2["default"].createElement(
-	            "section",
+	            "p",
 	            null,
+	            "Add ",
 	            _react2["default"].createElement(
-	              "h3",
-	              { className: "doc-heading" },
-	              "Example: Input group with buttons"
+	              "code",
+	              null,
+	              ".-primary"
 	            ),
+	            " in the addon to use the other variant."
+	          ),
+	          _react2["default"].createElement(
+	            "section",
+	            { className: "doc-bottom-space" },
 	            _react2["default"].createElement(
-	              "section",
-	              { className: "doc-bottom-space" },
+	              "div",
+	              { className: "input-group" },
+	              _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something.." }),
 	              _react2["default"].createElement(
-	                "div",
-	                { className: "input-group" },
-	                _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something.." }),
-	                _react2["default"].createElement(
-	                  "span",
-	                  { className: "addon -btn" },
-	                  _react2["default"].createElement(
-	                    "button",
-	                    { className: "btn -sky" },
-	                    "Search"
-	                  )
-	                )
+	                "span",
+	                { className: "addon -primary" },
+	                "Search"
 	              )
-	            ),
+	            )
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
+	            "h3",
+	            null,
+	            "Example: Input Group with left positioned addon."
+	          ),
+	          _react2["default"].createElement(
+	            "section",
+	            { className: "doc-bottom-space" },
 	            _react2["default"].createElement(
-	              "section",
-	              { className: "doc-bottom-space" },
+	              "div",
+	              { className: "input-group" },
 	              _react2["default"].createElement(
-	                "div",
-	                { className: "input-group" },
-	                _react2["default"].createElement(
-	                  "span",
-	                  { className: "addon" },
-	                  "$"
-	                ),
-	                _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something.." }),
-	                _react2["default"].createElement(
-	                  "span",
-	                  { className: "addon -btn" },
-	                  _react2["default"].createElement(
-	                    "button",
-	                    { className: "btn -sky" },
-	                    "Buy"
-	                  )
-	                )
-	              )
-	            ),
+	                "span",
+	                { className: "addon" },
+	                "Search"
+	              ),
+	              _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something.." })
+	            )
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
+	            "h3",
+	            { className: "doc-heading" },
+	            "Example: Input group For Search"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "Consist of button and search icon."
+	          ),
+	          _react2["default"].createElement(
+	            "section",
+	            { className: "doc-bottom-space" },
 	            _react2["default"].createElement(
-	              "section",
-	              { className: "doc-bottom-space" },
+	              "div",
+	              { className: "input-group" },
 	              _react2["default"].createElement(
-	                "div",
-	                { className: "input-group" },
+	                "span",
+	                { className: "addon -btn" },
 	                _react2["default"].createElement(
-	                  "span",
-	                  { className: "addon -btn" },
-	                  _react2["default"].createElement(
-	                    "button",
-	                    { className: "btn -sky" },
-	                    "Buy"
-	                  )
-	                ),
-	                _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something.." }),
-	                _react2["default"].createElement(
-	                  "span",
-	                  { className: "addon" },
-	                  "$"
+	                  "button",
+	                  { className: "btn -sky" },
+	                  "Search"
 	                )
-	              )
-	            ),
-	            _react2["default"].createElement(
-	              "section",
-	              { className: "doc-bottom-space" },
-	              _react2["default"].createElement(
-	                "div",
-	                { className: "input-group" },
-	                _react2["default"].createElement(
-	                  "span",
-	                  { className: "addon -btn" },
-	                  _react2["default"].createElement(
-	                    "button",
-	                    { className: "btn -sky" },
-	                    "Buy"
-	                  )
-	                ),
-	                _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something.." }),
-	                _react2["default"].createElement(
-	                  "span",
-	                  { className: "addon -btn" },
-	                  _react2["default"].createElement(
-	                    "button",
-	                    { className: "btn -sky" },
-	                    "Sell"
-	                  )
-	                )
-	              )
+	              ),
+	              _react2["default"].createElement("input", { className: "form-control", type: "text", placeholder: "Enter something.." }),
+	              _react2["default"].createElement("i", { className: "icon icon-search" })
 	            )
 	          )
 	        )
@@ -27770,7 +27719,12 @@
 	          _react2["default"].createElement(
 	            "p",
 	            { className: "lead" },
-	            "Useful for indicating on which step the user is in the wizard and change number into check if the user pass or complete the previous step."
+	            "Useful for indicating on which step the user is in the wizard."
+	          ),
+	          _react2["default"].createElement(
+	            "div",
+	            { className: "alert -sky doc-bottom-space" },
+	            "Heads up! Completed steps should always contain a check instead of a number."
 	          ),
 	          _react2["default"].createElement(
 	            "ul",
@@ -28085,7 +28039,7 @@
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
-	            "Example: Links"
+	            "Example: Alert with links"
 	          ),
 	          _react2["default"].createElement(
 	            "p",
@@ -28143,7 +28097,7 @@
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
-	            "Example: Block"
+	            "Example: Alert in block"
 	          ),
 	          _react2["default"].createElement(
 	            "p",
@@ -28162,12 +28116,18 @@
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
-	            "Example: Large"
+	            "Example: Alert in Large size"
 	          ),
 	          _react2["default"].createElement(
 	            "p",
 	            null,
-	            "Simply apply the .-large class."
+	            "Simply apply the ",
+	            _react2["default"].createElement(
+	              "code",
+	              null,
+	              ".-large"
+	            ),
+	            " class."
 	          ),
 	          _react2["default"].createElement(
 	            "div",
@@ -28181,7 +28141,7 @@
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
-	            "Example: With Icons"
+	            "Example: Alert with icons"
 	          ),
 	          _react2["default"].createElement(
 	            "div",
@@ -28196,7 +28156,7 @@
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
-	            "Growl"
+	            "Example: Alert as Growl"
 	          ),
 	          _react2["default"].createElement(
 	            "p",
@@ -30832,6 +30792,26 @@
 	            "pre",
 	            null,
 	            "\n            .some-class {\n              @include center-block;\n            }\n          "
+	          )
+	        ),
+	        _react2["default"].createElement(
+	          "section",
+	          { className: "doc-bottom-space-large" },
+	          _react2["default"].createElement(
+	            "h3",
+	            { className: "doc-heading" },
+	            "Drop Shadow Mixin"
+	          ),
+	          _react2["default"].createElement(
+	            "p",
+	            null,
+	            "Use this utility to add good and consistent drop shadow for your element."
+	          ),
+	          _react2["default"].createElement("div", { className: "doc-drop-shadow-mixin-example _spacer" }),
+	          _react2["default"].createElement(
+	            "pre",
+	            null,
+	            "\n            .some-class {\n              @include drop-shadow; // bottom (default)\n              @include drop-shadow(top); // top\n            }\n          "
 	          )
 	        ),
 	        _react2["default"].createElement(
