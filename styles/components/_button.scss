@@ -75,9 +75,15 @@
       text-decoration: none;
     }
   }
+
   &.-primary-link { 
     @include btn-variant($brand-white, $brand-sidebar-lt);
     border: 1px solid $brand-gray;
+
+    &:hover,
+    &:focus {
+      color: darken($brand-sidebar-lt, 15%);
+    }
   }
 
   &.-inverted.-default { @include btn-variant-inverted($brand-gray); }

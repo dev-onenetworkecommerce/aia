@@ -5682,6 +5682,8 @@ hr {
     .btn.-primary-link:hover, .-primary-link.light-btn:hover, .btn.-primary-link:focus, .-primary-link.light-btn:focus {
       color: #5372C5;
       background: #f2f2f2; }
+    .btn.-primary-link:hover, .-primary-link.light-btn:hover, .btn.-primary-link:focus, .-primary-link.light-btn:focus {
+      color: #334f98; }
   .btn.-inverted.-default, .-inverted.-default.light-btn {
     background: transparent;
     color: #C4C4C4;
