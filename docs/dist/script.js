@@ -27780,7 +27780,7 @@
 	          _react2["default"].createElement(
 	            "div",
 	            { className: "alert -sky doc-bottom-space" },
-	            "Heads up! Complete steps should always contain a check instead of a number."
+	            "Heads up! Completed steps should always contain a check instead of a number."
 	          ),
 	          _react2["default"].createElement(
 	            "ul",
