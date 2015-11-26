@@ -28039,7 +28039,7 @@
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
-	            "Example: Links"
+	            "Example: Alert with links"
 	          ),
 	          _react2["default"].createElement(
 	            "p",
@@ -28097,7 +28097,7 @@
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
-	            "Example: Block"
+	            "Example: Alert in block"
 	          ),
 	          _react2["default"].createElement(
 	            "p",
@@ -28116,12 +28116,18 @@
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
-	            "Example: Large"
+	            "Example: Alert in Large size"
 	          ),
 	          _react2["default"].createElement(
 	            "p",
 	            null,
-	            "Simply apply the .-large class."
+	            "Simply apply the ",
+	            _react2["default"].createElement(
+	              "code",
+	              null,
+	              ".-large"
+	            ),
+	            " class."
 	          ),
 	          _react2["default"].createElement(
 	            "div",
@@ -28135,7 +28141,7 @@
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
-	            "Example: With Icons"
+	            "Example: Alert with icons"
 	          ),
 	          _react2["default"].createElement(
 	            "div",
@@ -28150,7 +28156,7 @@
 	          _react2["default"].createElement(
 	            "h3",
 	            { className: "doc-heading" },
-	            "Growl"
+	            "Example: Alert as Growl"
 	          ),
 	          _react2["default"].createElement(
 	            "p",

@@ -5840,10 +5840,10 @@ hr {
   position: relative;
   color: #fff;
   border-radius: 5px; }
-  .alert.-emerald {
-    background-color: #38D4A9; }
   .alert.-sky {
     background-color: #52B5E5; }
+  .alert.-emerald {
+    background-color: #38D4A9; }
   .alert.-sun {
     background-color: #FFC05A; }
   .alert.-crimson {
@@ -5859,13 +5859,13 @@ hr {
   .alert a {
     font-weight: bold; }
   .alert.-sky a {
-    color: #2F5B86; }
+    color: #156389; }
   .alert.-emerald a {
-    color: #227D64; }
+    color: #145f4a; }
   .alert.-sun a {
-    color: #80612E; }
+    color: #c07700; }
   .alert.-crimson a {
-    color: #86342C; }
+    color: #9a1a0d; }
 
 .alert-growl {
   position: fixed;

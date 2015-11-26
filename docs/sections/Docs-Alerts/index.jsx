@@ -44,7 +44,7 @@ export default class Alerts extends React.Component {
         </section>
 
         <section className="doc-bottom-space">
-          <h3 className="doc-heading">Example: Links</h3>
+          <h3 className="doc-heading">Example: Alert with links</h3>
           <p>Links are boldened and given a darker shade of the variant's color.</p>
 
           <div className="alert -sky doc-bottom-space">
@@ -65,7 +65,7 @@ export default class Alerts extends React.Component {
         </section>
 
         <section className="doc-bottom-space">
-          <h3 className="doc-heading">Example: Block</h3>
+          <h3 className="doc-heading">Example: Alert in block</h3>
           <p>Useful when you'd like to use a more emphasized alert (for example, growl).</p>
           <div className="alert -emerald -block">
             Oh snap! Change a few things up and try this submitting again.
@@ -73,15 +73,15 @@ export default class Alerts extends React.Component {
         </section>
 
         <section className="doc-bottom-space">
-          <h3 className="doc-heading">Example: Large</h3>
-          <p>Simply apply the .-large class.</p>
+          <h3 className="doc-heading">Example: Alert in Large size</h3>
+          <p>Simply apply the <code>.-large</code> class.</p>
           <div className="alert -emerald -large">
             Oh snap! Change a few things up and try this submitting again.
           </div>
         </section>
 
         <section className="doc-bottom-space-large">
-          <h3 className="doc-heading">Example: With Icons</h3>
+          <h3 className="doc-heading">Example: Alert with icons</h3>
           <div className="alert -crimson">
             <i className="icon icon-alert" />
             Oh snap! Change a few things up and try this submitting again.
@@ -89,7 +89,7 @@ export default class Alerts extends React.Component {
         </section>
 
         <section>
-          <h3 className="doc-heading">Growl</h3>
+          <h3 className="doc-heading">Example: Alert as Growl</h3>
           <p className="lead">This is useful for notifying the user of an update with a pop-up message.</p>
           <div className="alert -sky _spacer">
             According to <a href="https://en.wikipedia.org/wiki/Growl_(software)">Wikipedia</a>, Growl is a global notification system and pop-up notification implementation.
