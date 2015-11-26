@@ -27780,7 +27780,7 @@
 	          _react2["default"].createElement(
 	            "div",
 	            { className: "alert -sky doc-bottom-space" },
-	            "Heads up! Expect steps to change from number to check icon for the previous steps being pass or completed."
+	            "Heads up! Complete steps should always contain a check instead of a number."
 	          ),
 	          _react2["default"].createElement(
 	            "ul",
