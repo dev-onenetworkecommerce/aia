@@ -5,6 +5,7 @@
   margin-top: ($dropdown-arrow-size * 2);
 
   > .menu {
+    @include drop-shadow;
     position: relative;
     padding: ($padding-x / 2) 0;
     min-width: 160px;
@@ -12,9 +13,6 @@
     background-color: $brand-white;
     border: 1px solid $brand-gray;
     border-radius: $border-radius-base;
-    // @todo
-    // Set to a variable
-    box-shadow: 0 3px 3px rgba(0,0,0,0.1);
   }
 
   > .menu::before,
@@ -101,6 +99,10 @@
   // Up
   &.-up {
     margin-top: -($dropdown-arrow-size * 2);
+  }
+
+  &.-up > .menu {
+    @include drop-shadow(top);
   }
 
   &.-up > .menu::before,
