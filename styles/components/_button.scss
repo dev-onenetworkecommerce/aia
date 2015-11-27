@@ -53,7 +53,7 @@
     border: 1px solid $brand-gray;
   }
 
-  &.-primary { @include btn-variant($brand-primary); }
+  &.-primary { @include btn-variant($brand-sidebar-lt); }
   &.-sky { @include btn-variant($brand-sky); }
   &.-emerald { @include btn-variant($brand-emerald); }
   &.-crimson { @include btn-variant($brand-crimson); }
