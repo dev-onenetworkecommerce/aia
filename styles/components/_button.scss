@@ -88,7 +88,7 @@
   }
 
   &.-inverted.-default { @include btn-variant-inverted($brand-gray); }
-  &.-inverted.-primary { @include btn-variant-inverted($brand-primary); }
+  &.-inverted.-primary { @include btn-variant-inverted($brand-sidebar-lt); }
   &.-inverted.-sky { @include btn-variant-inverted($brand-sky); }
   &.-inverted.-emerald { @include btn-variant-inverted($brand-emerald); }
   &.-inverted.-crimson { @include btn-variant-inverted($brand-crimson); }

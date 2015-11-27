@@ -5694,11 +5694,11 @@ hr {
       background: #C4C4C4; }
   .btn.-inverted.-primary, .-inverted.-primary.light-btn {
     background: transparent;
-    color: #3A569B;
-    border-color: #3A569B; }
+    color: #5372C5;
+    border-color: #5372C5; }
     .btn.-inverted.-primary:hover, .-inverted.-primary.light-btn:hover, .btn.-inverted.-primary:focus, .-inverted.-primary.light-btn:focus {
       color: #fff;
-      background: #3A569B; }
+      background: #5372C5; }
   .btn.-inverted.-sky, .-inverted.-sky.light-btn {
     background: transparent;
     color: #52B5E5;
