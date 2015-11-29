@@ -1,3 +1,17 @@
+/**
+ * The container to position Alert like Growl
+ *
+ * Obviously intended to be used with `alert`
+ * @see alert.scss
+ *
+ * @example
+ * <div class="alert-growl">
+ *   <div class="alert -emerald">
+ *     Your transaction was successful!
+ *   </div>
+ * </div>
+ *
+ */
 .alert-growl {
   position: fixed;
   top: 0;
