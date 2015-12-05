@@ -76,6 +76,17 @@
     }
   }
 
+  &.-primary-link { 
+    @include btn-variant($brand-white, $brand-sidebar-lt);
+    border: 1px solid $brand-gray;
+
+    &:hover,
+    &:focus {
+      color: $brand-white;
+      background: $brand-sidebar-lt;
+    }
+  }
+
   &.-inverted.-default { @include btn-variant-inverted($brand-gray); }
   &.-inverted.-primary { @include btn-variant-inverted($brand-sidebar-lt); }
   &.-inverted.-sky { @include btn-variant-inverted($brand-sky); }

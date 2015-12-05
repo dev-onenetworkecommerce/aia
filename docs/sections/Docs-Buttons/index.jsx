@@ -15,12 +15,13 @@ export default class Buttons extends React.Component {
             <button className="btn -emerald">Emerald</button>
             <button className="btn -crimson">Crimson</button>
             <button className="btn -link">Link</button>
+            <button className="btn -primary-link">Primary link</button>
           </div>
         </section>
 
         <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Sizes</h3>
-          <p>Apply one of <code>.-xs</code>, <code>.-small,</code> or <code>.-large</code></p>
+          <p>Apply one of <code>.-xs</code>, <code>.-small</code>, or <code>.-large</code></p>
           <div className="doc-btn-group">
             <button className="btn -default -xs">Extra Small</button>
             <button className="btn -default -small">Small</button>
