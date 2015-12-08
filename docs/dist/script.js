@@ -29889,6 +29889,11 @@
 	              'button',
 	              { className: 'btn -link' },
 	              'Link'
+	            ),
+	            _react2['default'].createElement(
+	              'button',
+	              { className: 'btn -primary-link' },
+	              'Primary link'
 	            )
 	          )
 	        ),
@@ -29913,9 +29918,9 @@
 	            _react2['default'].createElement(
 	              'code',
 	              null,
-	              '.-small,'
+	              '.-small'
 	            ),
-	            ' or ',
+	            ', or ',
 	            _react2['default'].createElement(
 	              'code',
 	              null,
