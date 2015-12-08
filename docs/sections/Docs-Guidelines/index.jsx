@@ -21,6 +21,7 @@ export default class Guidelines extends React.Component {
               <li>Enable <a href="http://ricostacruz.com/cheatsheets/css-antialias">CSS antialiasing</a> globally</li>
               <li>Prefer to use a styleguide early on.</li>
               <li>Refer to [rscss](https://github.com/rstacruz/rscss)</li>
+              <li>Use <a href="//gist.github.com/jareware/76beb201c717fd6333c7">ligatures</a>.</li>
             </ul>
           </section>
 
