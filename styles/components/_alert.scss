@@ -4,12 +4,12 @@
 	color: $brand-white;
   border-radius: $border-radius-base;
 
-  &.-emerald {
-    background-color: $brand-emerald;
-  }
-
   &.-sky {
     background-color : $brand-sky;
+  }
+
+  &.-emerald {
+    background-color : $brand-emerald;
   }
 
   &.-sun {
@@ -32,5 +32,25 @@
 
   > .icon:first-child {
     margin-right: 10px;
+  }
+
+  a {
+    font-weight: bold;
+  }
+
+  &.-sky a {
+    color: darken($brand-sky,30%);
+  }
+
+  &.-emerald a {
+    color: darken($brand-emerald,30%);
+  }
+
+  &.-sun a {
+    color: darken($brand-sun,30%);
+  }
+
+  &.-crimson a {
+    color: darken($brand-crimson,30%);
   }
 }

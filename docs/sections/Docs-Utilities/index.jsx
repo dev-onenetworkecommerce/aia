@@ -105,6 +105,18 @@ export default class Utilities extends React.Component {
         </section>
 
         <section className="doc-bottom-space-large">
+          <h3 className="doc-heading">Drop Shadow Mixin</h3>
+          <p>Use this utility to add good and consistent drop shadow for your element.</p>
+          <div className="doc-drop-shadow-mixin-example _spacer" />
+          <pre>{`
+            .some-class {
+              @include drop-shadow; // bottom (default)
+              @include drop-shadow(top); // top
+            }
+          `}</pre>
+        </section>
+
+        <section className="doc-bottom-space-large">
           <h3 className="doc-heading">Responsive Mixins</h3>
           <p><em>Mixins</em> such <code>breakpoint-sm</code>, <code>breakpoint-md</code>, <code>breakpoint-lg</code>, and <code>breakpoint-xl</code> are provided to help you with your responsive needs.</p>
           <p>You can resize your window and the below should be colored <span className="_text-muted">gray</span>, <span className="_text-crimson">red</span>, <span className="_text-sun">yellow</span>, <span className="_text-sky">blue</span>, and <span className="_text-emerald">green</span> for xs, sm, md, lg, xl sized screens respectively.</p>
@@ -117,6 +129,12 @@ export default class Utilities extends React.Component {
               }
             }
           `}</pre>
+        </section>
+        <section className="doc-bottom-space-large">
+          <h3 className="doc-heading">Header Bold</h3>
+          <p>Header elements doesn't give an automatic bold state. Just add <code>._heading-bold</code> to make your header in bold easily.</p>
+          <h5 className="_heading-bold">Header with _heading-bold</h5>
+          <h5>Header without _heading-bold</h5>
         </section>
       </div>
     );

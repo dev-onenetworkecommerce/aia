@@ -26,6 +26,13 @@
   white-space: nowrap;
 }
 
+@mixin drop-shadow($position : 4px) {
+  @if($position) == "top" {
+    $position: -4px;
+  }
+  box-shadow: 2px $position 0px rgba(0,0,0, .17);
+}
+
 // Responsive Utilities
 // Note: `xs` (breakpoint-xs) isn't supplied because
 // we're supposed to be implementing mobile-first practices
@@ -101,4 +108,9 @@
   float: none !important;
   margin-left: auto !important;
   margin-right: auto !important;
+}
+
+// Header bold
+._heading-bold {
+  font-weight: 600;
 }

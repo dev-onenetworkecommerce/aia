@@ -17,6 +17,7 @@ export default class Breadcrumbs extends React.Component {
         <section className="doc-bottom-space-large">
           <h1 className="doc-heading"> Steps Breadcrumbs </h1>
           <p className="lead">Useful for indicating on which step the user is in the wizard.</p>
+          <div className="alert -sky doc-bottom-space">Heads up! Completed steps should always contain a check instead of a number.</div>
           <ul className="steps">
             <li className="complete"> <a> <i className="icon icon-checkmark" /> </a> </li>
             <li className="complete"> <a> <i className="icon icon-checkmark" /> </a> </li>
