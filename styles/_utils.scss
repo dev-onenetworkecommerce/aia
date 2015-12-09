@@ -26,8 +26,8 @@
   white-space: nowrap;
 }
 
-@mixin drop-shadow($position: "bottom") {
-  @if $position == "top" {
+@mixin drop-shadow($position: bottom) {
+  @if $position == top {
     $position: -2px;
   } @else {
     $position: 2px;
