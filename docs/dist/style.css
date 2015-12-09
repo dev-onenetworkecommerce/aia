@@ -5877,6 +5877,20 @@ hr {
   .alert.-crimson a {
     color: #9a1a0d; }
 
+/**
+ * The container to position Alert like Growl
+ *
+ * Obviously intended to be used with `alert`
+ * @see alert.scss
+ *
+ * @example
+ * <div class="alert-growl">
+ *   <div class="alert -emerald">
+ *     Your transaction was successful!
+ *   </div>
+ * </div>
+ *
+ */
 .alert-growl {
   position: fixed;
   top: 0;
@@ -6082,7 +6096,7 @@ hr {
   position: absolute;
   margin-top: 20px; }
   .dropdown > .menu {
-    box-shadow: 2px 4px 0px rgba(0, 0, 0, 0.17);
+    box-shadow: 0px -2px 4px 0px rgba(0, 0, 0, 0.16);
     position: relative;
     padding: 6px 0;
     min-width: 160px;
@@ -6141,7 +6155,7 @@ hr {
   .dropdown.-up {
     margin-top: -20px; }
   .dropdown.-up > .menu {
-    box-shadow: 2px -4px 0px rgba(0, 0, 0, 0.17); }
+    box-shadow: 0px -2px 4px 0px rgba(0, 0, 0, 0.16); }
   .dropdown.-up > .menu::before, .dropdown.-up > .menu::after {
     top: initial;
     bottom: -20px;
@@ -6429,7 +6443,7 @@ code {
   border: 1px solid #78828A; }
 
 .doc-drop-shadow-mixin-example {
-  box-shadow: 2px 4px 0px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.16);
   width: 100px;
   height: 100px;
   background: #fff;

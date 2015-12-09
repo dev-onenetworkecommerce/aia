@@ -26,11 +26,14 @@
   white-space: nowrap;
 }
 
-@mixin drop-shadow($position : 4px) {
-  @if($position) == "top" {
-    $position: -4px;
+@mixin drop-shadow($position: "bottom") {
+  @if $position == "top" {
+    $position: -2px;
+  } @else {
+    $position: 2px;
   }
-  box-shadow: 2px $position 0px rgba(0,0,0, .17);
+
+  box-shadow: 0px $position 4px 0px rgba(0,0,0,0.16);
 }
 
 // Responsive Utilities
